@@ -174,8 +174,9 @@ The [`create-learning-experience` agent skill](.agents/skills/create-learning-ex
 helps turn a child's age and a user-confirmed goal into a standalone, offline HTML
 learning experience. It uses topic prerequisites and available teaching research,
 develops a targeted research brief when needed, and agrees a concept with you
-before building. Experiences include scaffolding, independent checks for
-understanding and optional extensions.
+before building. Experiences use visual interactions, scaffolding, UI-assessed
+transfer tasks and optional extensions. The agent renders, inspects and iterates
+in the browser rather than stopping at the first working HTML file.
 
 In Codex, open this repository and invoke `$create-learning-experience`, for example:
 

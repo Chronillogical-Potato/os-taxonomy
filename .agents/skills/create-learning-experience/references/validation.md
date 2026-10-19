@@ -16,15 +16,35 @@ single HTML file.
   evidence does not depend on revealed answers. Assisted success should remain
   distinct from independent success. Fresh tasks must stay within taught scope.
 - For explanations, drawing, construction or physical tasks, check whether the
-  program can assess the evidence honestly. Supply an adult rubric when it cannot;
-  absence of a reliable automatic judgement must not silently count as mastery.
+  program can assess the evidence honestly. Check that the core UI captures the
+  agreed evidence and the check was not silently delegated to a parent. If adult
+  assessment was explicitly agreed, keep that limit visible and do not mark an
+  unreviewed response as mastered.
 - Check optional extension, reading demands and adult involvement fit the concept.
   Avoid describing a short session result as long-term retention or transfer
   beyond what the child actually demonstrated.
 
-## Browser checks
+## Browser iteration
 
-Open the saved file directly in a browser when tooling is available. Exercise:
+Render early, inspect, revise and render again. Start with the risky interaction,
+then check the integrated experience. Use available browser automation or manual
+browser tools; inspecting source or the DOM alone does not validate presentation.
+
+1. Open the saved HTML directly in a browser. Inspect an actual screenshot at the
+   intended viewport. Is the main learning action clear, the representation
+   intelligible, the next control obvious and the reading burden appropriate?
+2. Exercise the interaction and capture consequential states: supported practice,
+   a wrong prediction and its feedback, and an independent transfer task before
+   and after reveal. Inspect viewpoints, overlaps, motion, labels and whether the
+   UI accidentally gives away the answer. Check narrow and intended-device layouts.
+3. Fix the most consequential UX or teaching defects. Re-render and inspect the
+   revised states, then re-exercise affected actions. If the first rendering needs
+   no change, state the specific criteria checked rather than manufacturing edits.
+4. Retain concise development evidence outside the child-facing experience:
+   screenshots, scenarios exercised, observations and fixes, or the reason no
+   revision was needed. Static inspection cannot stand in for this loop.
+
+Also exercise:
 
 - The core path from start to completion, correct and incorrect answers, repeated
   attempts, hints, recovery/reteaching, independent check, extension and restart.
@@ -36,10 +56,17 @@ Open the saved file directly in a browser when tooling is available. Exercise:
 - Console errors and unexpected requests. Confirm required assets and interactions
   work offline via `file://`, with no server, CDN, fonts or remote data required.
 
+For assessable transfer tasks, deliberately try an incorrect prediction, hints,
+retries and direct reveal before answering. Confirm that none earns independent
+success, the revealed answer matches the model, and a fresh independent task can
+still be attempted. For spatial models, check viewpoint consistency and boundary
+states rather than trusting one attractive screenshot.
+
 Use small targeted code checks for nontrivial task generation or scoring logic
 when useful. If browser execution is unavailable, inspect the code and calculations,
 state which checks were possible, and provide a short manual smoke checklist.
-Do not label static inspection as a browser pass.
+Do not label static inspection as a browser pass or deliver it as a UX-validated
+experience. Identify the artifact as a prototype awaiting browser validation.
 
 ## Handoff
 

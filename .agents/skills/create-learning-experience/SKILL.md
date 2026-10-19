@@ -8,8 +8,9 @@ description: Design a learning experience for a child with the user, ground it i
 Turn a user-confirmed learning goal into an educationally sound, standalone HTML
 experience through a short design conversation. Use this repository's topics,
 prerequisites and teaching research; develop targeted research when it is missing
-or insufficient. Start with a useful raw experience, leaving room to refine UX
-and stack conventions after trying it with children.
+or insufficient. Design the interaction and its assessment together, then render,
+inspect and revise the experience in a browser. A working HTML file is an initial
+prototype, not sufficient evidence of a good learning experience.
 
 ## Establish just enough context
 
@@ -65,15 +66,22 @@ Creating an experience does not authorize publishing research or child context.
 
 ## Develop the concept with the user
 
-Before building the full HTML, present a compact, concrete proposal containing:
+Read [interaction-design.md](references/interaction-design.md) before proposing
+the concept. Design what the child will see and do, and what that action will
+reveal about understanding. Before building the full HTML, present a compact,
+concrete proposal containing:
 
 - The observable learning goal and selected topic(s).
-- The central activity, with an example interaction or short screen sequence.
+- The central visual/interactive activity, with an example interaction or short
+  screen sequence. Explain the representation choice, viewpoint and controls;
+  check that they preserve the relationships the child needs to understand.
 - How the activity teaches the idea, including the important research basis and
   any significant uncertainty.
 - How support will be introduced, adjusted and faded.
-- What independent evidence would count as understanding, including a fresh
-  example or transfer task where appropriate.
+- An independent task the interface can assess: the child's action, the observable
+  response, the scoring rule and a plausible misconception it distinguishes.
+  Prefer a prediction on a fresh transfer problem when it fits the goal. Explain
+  what changes from practice and how the answer stays hidden until commitment.
 - Expected duration, device/adult-support assumptions and optional extension.
 
 Invite refinement and wait for the user to confirm the direction before full
@@ -89,15 +97,21 @@ Deliver one HTML file with embedded CSS, JavaScript and required assets. It must
 open directly in a browser without accounts, a build step, a server or network
 access. Keep any research/design companion outside the child-facing flow. Use
 local interactions and no tracking or transmission of child responses by default.
-Do not impose a framework, visual theme or elaborate component system in this
-initial version. Respect explicit user constraints.
+Choose the rendering approach to serve the learning interaction: semantic HTML,
+SVG, Canvas or embedded 3D as appropriate. Offline delivery does not mean settling
+for a flat diagram when spatial relationships or viewpoints are essential. Do
+not impose a visual theme or elaborate component system. Respect explicit user
+constraints.
 
 Design a coherent learning sequence rather than a collection of screens:
 
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
-- Provide concise, age-appropriate instructions and actionable feedback. Connect
-  errors to likely misconceptions and a useful next attempt.
+- Let the child learn through looking, acting, predicting and seeing consequences.
+  Use brief prompts near the action and reveal explanation when it helps. Do not
+  make paragraphs the main activity or turn research notes into lesson screens.
+- Provide age-appropriate, actionable feedback. Show the relevant consequence or
+  relationship, connect errors to likely misconceptions and offer a useful retry.
 - Offer support when needed, then fade it toward independent practice. Avoid
   overwhelming reading demands or requiring an adult unless agreed.
 - Separate supported practice from the independent mastery check. Choose evidence
@@ -105,8 +119,11 @@ Design a coherent learning sequence rather than a collection of screens:
   may reveal more than recognition alone.
 - Define success using the concept's agreed evidence; no universal percentage or
   item count. Completion, hinted answers and repeated guessing do not by
-  themselves demonstrate mastery. For open responses a browser cannot judge
-  reliably, use a clear adult rubric and report that review is needed.
+  themselves demonstrate mastery. Build assessable actions into the core UI;
+  design around an observable response rather than defaulting to “ask a parent
+  to judge.” If the goal requires evidence the browser genuinely cannot assess,
+  propose a suitable alternative or explicitly agree adult assessment during
+  concept design. Never claim to assess the whole goal from a narrower proxy.
 - When evidence is insufficient, report “needs more practice” or “not yet checked”
   and offer targeted support. Describe the result as evidence from this session,
   rather than a lasting diagnosis or proof of retained mastery.
@@ -122,10 +139,15 @@ the repository's README and provenance notices for reused material.
 
 ## Validate and hand over
 
-Use [validation.md](references/validation.md) before delivery. Validate the
-learning design as well as the browser behavior; automated checks cannot
-establish effectiveness for a particular child. Fix meaningful defects and
-recheck affected paths.
+Use [validation.md](references/validation.md) during development, starting with
+the central interaction before polishing the rest. Render in a browser, inspect
+screenshots and exercise controls, revise the design, then render and check the
+revision. Assess visual clarity and teaching behavior as well as correct code;
+a screenshot captured but not inspected is not a UX review. Use browser tools
+available in the environment, without requiring a particular automation stack.
+If browser access is unavailable, report the artifact as a prototype awaiting
+browser validation rather than presenting the UX as validated. Automated checks
+cannot establish effectiveness for a particular child.
 
 Deliver the HTML and a short adult-facing note covering the goal, topic IDs,
 prerequisites/assumptions, research used or newly developed, mastery evidence,
