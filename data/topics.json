@@ -11333,7 +11333,7 @@
       "type": "REPRESENTATIONAL",
       "subject": "Mathematics",
       "domain": "Data & Statistics",
-      "name": "Representing numbers with objects (age 8+)",
+      "name": "Scaled picture and bar graphs",
       "description": "Draw a scaled picture graph and a scaled bar graph to represent a data set; solve one- and two-step comparison, sum, and difference problems using bar charts, pictograms, and tables",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
@@ -12998,26 +12998,6 @@
       ]
     },
     {
-      "id": "mt_bfhng6mOuy",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Angles in triangles (age 6+)",
-      "description": "Distinguish defining attributes of shapes (e.g. triangles are closed and three-sided) from non-defining attributes (e.g. colour, orientation, overall size)",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "centrality": 0.1833105335157319,
-      "evidence": [
-        "Build and draw shapes that possess defining attributes",
-        "Identify that a shape remains a triangle regardless of its size, colour, or orientation",
-        "Explain why a given shape is or is not a particular type based on its defining properties"
-      ],
-      "assessmentPrompt": "Does {{name}} understand that what makes a shape a triangle is having 3 sides and 3 corners — not its colour or which way it's pointing?",
-      "standards": [
-        "ccss-math:1.G.1"
-      ]
-    },
-    {
       "id": "mt_QNxFnxikCN",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -13055,6 +13035,26 @@
       "assessmentPrompt": "Can {{name}} use flat shapes like triangles and rectangles to fit together and make a new larger shape — like a puzzle?",
       "standards": [
         "ccss-math:1.G.2"
+      ]
+    },
+    {
+      "id": "mt_bfhng6mOuy",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Defining attributes of shapes",
+      "description": "Distinguish defining attributes of shapes (e.g. triangles are closed and three-sided) from non-defining attributes (e.g. colour, orientation, overall size)",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.1833105335157319,
+      "evidence": [
+        "Build and draw shapes that possess defining attributes",
+        "Identify that a shape remains a triangle regardless of its size, colour, or orientation",
+        "Explain why a given shape is or is not a particular type based on its defining properties"
+      ],
+      "assessmentPrompt": "Does {{name}} understand that what makes a shape a triangle is having 3 sides and 3 corners — not its colour or which way it's pointing?",
+      "standards": [
+        "ccss-math:1.G.1"
       ]
     },
     {
@@ -13158,26 +13158,6 @@
       ]
     },
     {
-      "id": "mt_zuOGOGFAKb",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Angles in triangles (age 7+)",
-      "description": "Recognise and draw shapes having specified attributes (e.g. a given number of angles or equal faces); identify triangles, quadrilaterals, pentagons, hexagons, and cubes",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.07660738714090287,
-      "evidence": [
-        "Draw a shape with exactly 5 sides (pentagon)",
-        "Identify all quadrilaterals in a set of mixed shapes",
-        "Name and draw a hexagon, explaining it has 6 sides and 6 angles"
-      ],
-      "assessmentPrompt": "If {{name}} is given instructions like \"draw a shape with 5 sides\" or \"draw a shape with all equal angles,\" can they draw it correctly?",
-      "standards": [
-        "ccss-math:2.G.1"
-      ]
-    },
-    {
       "id": "mt_u23IGDxOpk",
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
@@ -13195,6 +13175,26 @@
       "assessmentPrompt": "If {{name}} looks at a set of railway tracks or a window frame, can they point to which lines are parallel (never crossing) and which are perpendicular (meeting at a right angle)?",
       "standards": [
         "uk-nc-2013:Ma/KS2/Y3/GPS/4"
+      ]
+    },
+    {
+      "id": "mt_zuOGOGFAKb",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Recognising and drawing shapes by attributes",
+      "description": "Recognise and draw shapes having specified attributes (e.g. a given number of angles or equal faces); identify triangles, quadrilaterals, pentagons, hexagons, and cubes",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.07660738714090287,
+      "evidence": [
+        "Draw a shape with exactly 5 sides (pentagon)",
+        "Identify all quadrilaterals in a set of mixed shapes",
+        "Name and draw a hexagon, explaining it has 6 sides and 6 angles"
+      ],
+      "assessmentPrompt": "If {{name}} is given instructions like \"draw a shape with 5 sides\" or \"draw a shape with all equal angles,\" can they draw it correctly?",
+      "standards": [
+        "ccss-math:2.G.1"
       ]
     },
     {
@@ -13256,6 +13256,24 @@
         "Identify which figures from a set are not line-symmetric"
       ],
       "assessmentPrompt": "If {{name}} is given a picture of a butterfly or a star shape, can they draw the line (or lines) where you could fold it exactly in half so both sides match?",
+      "standards": []
+    },
+    {
+      "id": "mt_Xt1cRqaBOW",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Classifying quadrilaterals",
+      "description": "Understand that shapes in different categories may share attributes defining a larger category; classify quadrilaterals (rhombuses, rectangles, squares) and draw examples of quadrilaterals not in those subcategories",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.07660738714090287,
+      "evidence": [
+        "Explain that a square is a special rectangle and also a special rhombus",
+        "Sort shapes into a Venn diagram: quadrilaterals vs rectangles vs squares",
+        "Draw a quadrilateral that is not a rectangle, rhombus, or square"
+      ],
+      "assessmentPrompt": "If you show {{name}} a square, a rectangle, and a rhombus, can they explain what makes them all quadrilaterals — and what makes each one different from the others?",
       "standards": []
     },
     {
@@ -13400,24 +13418,6 @@
         "Read and interpret angle notation (e.g. angle ABC) and identify the angle being referred to in a diagram"
       ],
       "assessmentPrompt": "If {{name}}'s maths diagram shows a small square in one corner and matching arc marks on two other angles, can they tell you what each mark means — and use them to figure out a missing angle without re-measuring?",
-      "standards": []
-    },
-    {
-      "id": "mt_Xt1cRqaBOW",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Understanding angles (age 8+)",
-      "description": "Understand that shapes in different categories may share attributes defining a larger category; classify quadrilaterals (rhombuses, rectangles, squares) and draw examples of quadrilaterals not in those subcategories",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "centrality": 0.07660738714090287,
-      "evidence": [
-        "Explain that a square is a special rectangle and also a special rhombus",
-        "Sort shapes into a Venn diagram: quadrilaterals vs rectangles vs squares",
-        "Draw a quadrilateral that is not a rectangle, rhombus, or square"
-      ],
-      "assessmentPrompt": "If you show {{name}} a square, a rectangle, and a rhombus, can they explain what makes them all quadrilaterals — and what makes each one different from the others?",
       "standards": []
     },
     {
@@ -13842,28 +13842,6 @@
       ]
     },
     {
-      "id": "mt_tAJH5BrpOx",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Angles in triangles (age 11+)",
-      "description": "Derive and apply formulae for the area of triangles, parallelograms, and trapezia, and for the volume of cuboids and other prisms (including cylinders), connecting each formula to its geometric reasoning",
-      "ageRangeStart": 11,
-      "ageRangeEnd": 14,
-      "centrality": 0.1627906976744186,
-      "evidence": [
-        "Calculate the area of a trapezium using A = ½(a + b) × h and explain why the formula works",
-        "Find the volume of a triangular prism by calculating cross-sectional area × length",
-        "Derive the formula for the volume of a cylinder as π × r² × h by reasoning from the prism formula"
-      ],
-      "assessmentPrompt": "If {{name}} needs to tile a triangular section of a patio with a base of 4 m and height of 3 m, can they work out the area to know how many tiles to buy?",
-      "standards": [
-        "ccss-math:7.G.6",
-        "ccss-math:8.G.9",
-        "uk-nc-2013:KS3.Maths.Geo.1"
-      ]
-    },
-    {
       "id": "mt_J03RFlVdas",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -13882,6 +13860,28 @@
       "standards": [
         "ccss-math:8.G.5",
         "uk-nc-2013:KS3.Maths.Geo.12"
+      ]
+    },
+    {
+      "id": "mt_tAJH5BrpOx",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Area and volume formulae",
+      "description": "Derive and apply formulae for the area of triangles, parallelograms, and trapezia, and for the volume of cuboids and other prisms (including cylinders), connecting each formula to its geometric reasoning",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 14,
+      "centrality": 0.1627906976744186,
+      "evidence": [
+        "Calculate the area of a trapezium using A = ½(a + b) × h and explain why the formula works",
+        "Find the volume of a triangular prism by calculating cross-sectional area × length",
+        "Derive the formula for the volume of a cylinder as π × r² × h by reasoning from the prism formula"
+      ],
+      "assessmentPrompt": "If {{name}} needs to tile a triangular section of a patio with a base of 4 m and height of 3 m, can they work out the area to know how many tiles to buy?",
+      "standards": [
+        "ccss-math:7.G.6",
+        "ccss-math:8.G.9",
+        "uk-nc-2013:KS3.Maths.Geo.1"
       ]
     },
     {
@@ -14060,7 +14060,7 @@
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
       "domain": "Geometry",
-      "name": "Coordinates (age 12+)",
+      "name": "Similarity and enlargement",
       "description": "Understand similarity as a relationship where one shape is an enlargement of another; construct similar shapes by enlargement with a given scale factor and centre, with and without coordinate grids",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
@@ -14098,6 +14098,30 @@
       ]
     },
     {
+      "id": "mt_1VmTUxBrNd",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Applying Pythagoras' theorem",
+      "description": "Apply Pythagoras’ Theorem (a² + b² = c²) to calculate unknown side lengths in right-angled triangles, including in real-world and coordinate-geometry contexts",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "centrality": 0.1395348837209302,
+      "evidence": [
+        "Calculate the hypotenuse of a right-angled triangle given the two shorter sides",
+        "Find a shorter side given the hypotenuse and the other short side",
+        "Use Pythagoras’ Theorem to find the distance between two points on a coordinate grid"
+      ],
+      "assessmentPrompt": "If {{name}} wants to check whether a shelf bracket makes a perfect right angle and the sides measure 30 cm, 40 cm, and 50 cm, can they use Pythagoras to verify?",
+      "standards": [
+        "ccss-math:8.G.6",
+        "ccss-math:8.G.7",
+        "ccss-math:8.G.8",
+        "uk-nc-2013:KS3.Maths.Geo.13",
+        "uk-nc-2013:KS3.Maths.Geo.14"
+      ]
+    },
+    {
       "id": "mt_KB_Czd7RQH",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -14114,30 +14138,6 @@
       ],
       "assessmentPrompt": "If {{name}} knows a ladder is 5 metres long and leans against a wall at 70° to the ground, can they use trigonometry to work out how high up the wall it reaches?",
       "standards": [
-        "uk-nc-2013:KS3.Maths.Geo.14"
-      ]
-    },
-    {
-      "id": "mt_1VmTUxBrNd",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Types of angles (age 13+)",
-      "description": "Apply Pythagoras’ Theorem (a² + b² = c²) to calculate unknown side lengths in right-angled triangles, including in real-world and coordinate-geometry contexts",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
-      "centrality": 0.1395348837209302,
-      "evidence": [
-        "Calculate the hypotenuse of a right-angled triangle given the two shorter sides",
-        "Find a shorter side given the hypotenuse and the other short side",
-        "Use Pythagoras’ Theorem to find the distance between two points on a coordinate grid"
-      ],
-      "assessmentPrompt": "If {{name}} wants to check whether a shelf bracket makes a perfect right angle and the sides measure 30 cm, 40 cm, and 50 cm, can they use Pythagoras to verify?",
-      "standards": [
-        "ccss-math:8.G.6",
-        "ccss-math:8.G.7",
-        "ccss-math:8.G.8",
-        "uk-nc-2013:KS3.Maths.Geo.13",
         "uk-nc-2013:KS3.Maths.Geo.14"
       ]
     },
@@ -15612,26 +15612,6 @@
       ]
     },
     {
-      "id": "mt_3tz3Otap5j",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Measurement",
-      "name": "Halves and quarters (age 7+)",
-      "description": "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.02462380300957592,
-      "evidence": [
-        "Determine the total value of a collection of coins",
-        "Solve a word problem about making change with US currency",
-        "Use $ and ¢ symbols correctly in answers"
-      ],
-      "assessmentPrompt": "If {{name}} has 2 quarters, 1 dime, and 3 pennies, can they work out the total — and tell you whether that's enough to buy something costing 65 cents?",
-      "standards": [
-        "ccss-math:2.MD.8"
-      ]
-    },
-    {
       "id": "mt_e4x3l2JeLI",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -15709,6 +15689,26 @@
       "assessmentPrompt": "If {{name}} measures the same book in centimetres and then in inches, can they explain why the numbers are different even though the book hasn't changed size?",
       "standards": [
         "ccss-math:2.MD.2"
+      ]
+    },
+    {
+      "id": "mt_3tz3Otap5j",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Money word problems",
+      "description": "Solve word problems involving dollar bills, quarters, dimes, nickels, and pennies, using $ and ¢ symbols appropriately",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "centrality": 0.02462380300957592,
+      "evidence": [
+        "Determine the total value of a collection of coins",
+        "Solve a word problem about making change with US currency",
+        "Use $ and ¢ symbols correctly in answers"
+      ],
+      "assessmentPrompt": "If {{name}} has 2 quarters, 1 dime, and 3 pennies, can they work out the total — and tell you whether that's enough to buy something costing 65 cents?",
+      "standards": [
+        "ccss-math:2.MD.8"
       ]
     },
     {
@@ -15843,6 +15843,24 @@
       "standards": []
     },
     {
+      "id": "mt_GzcJEVkNRn",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Area of rectangles by multiplication",
+      "description": "Multiply side lengths to find areas of rectangles and represent whole-number products as rectangular areas",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "centrality": 0.1723666210670315,
+      "evidence": [
+        "Calculate the area of a 7 cm × 9 cm rectangle as 63 cm²",
+        "Draw a rectangle with area 36 square units and label its side lengths",
+        "Solve: A garden is 8 m by 5 m — what is its area?"
+      ],
+      "assessmentPrompt": "If {{name}} needs to carpet a room that is 5 m by 4 m, can they work out how much carpet to buy — using multiplication rather than counting squares?",
+      "standards": []
+    },
+    {
       "id": "mt_d8al9JcajP",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -15966,24 +15984,6 @@
         "Match analogue and digital times to the nearest minute"
       ],
       "assessmentPrompt": "If a clock's minute hand points just past the 9, can {{name}} work out the exact time to the nearest minute — and write it in digital format?",
-      "standards": []
-    },
-    {
-      "id": "mt_GzcJEVkNRn",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Measurement",
-      "name": "Understanding angles (age 8+)",
-      "description": "Multiply side lengths to find areas of rectangles and represent whole-number products as rectangular areas",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "centrality": 0.1723666210670315,
-      "evidence": [
-        "Calculate the area of a 7 cm × 9 cm rectangle as 63 cm²",
-        "Draw a rectangle with area 36 square units and label its side lengths",
-        "Solve: A garden is 8 m by 5 m — what is its area?"
-      ],
-      "assessmentPrompt": "If {{name}} needs to carpet a room that is 5 m by 4 m, can they work out how much carpet to buy — using multiplication rather than counting squares?",
       "standards": []
     },
     {
@@ -16851,24 +16851,6 @@
       ]
     },
     {
-      "id": "mt_MCu_SNg_OW",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Arrays for multiplication (age 9+)",
-      "description": "Divide numbers up to four digits by a one-digit number using short division (and place-value/array strategies); interpret remainders appropriately for the context",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.13406292749658,
-      "evidence": [
-        "Calculate 4,932 ÷ 6 using short division",
-        "Solve 125 ÷ 8 and interpret: 15 remainder 5 means 15 full bags with 5 left over",
-        "Use the multiplication–division relationship to check a division answer"
-      ],
-      "assessmentPrompt": "Can {{name}} use the short division ('bus stop') method to work out something like '2,457 ÷ 6', and decide what to do with any remainder left over?",
-      "standards": []
-    },
-    {
       "id": "mt_p-nbe0w_lf",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -16962,24 +16944,6 @@
       "standards": []
     },
     {
-      "id": "mt_6-j1NO2ZUH",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Multiplicative Comparison",
-      "description": "Solve word problems involving multiplicative comparison using drawings and equations with a symbol for the unknown number",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.02325581395348837,
-      "evidence": [
-        "A blue ribbon is 3 times as long as a red ribbon of 7 cm — how long is the blue ribbon?",
-        "36 is 4 times a number — what is the number?",
-        "Explain why 'Sam has 5 more' is additive but 'Sam has 5 times as many' is multiplicative"
-      ],
-      "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
-      "standards": []
-    },
-    {
       "id": "mt_U4cIBXVug4",
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
@@ -16995,6 +16959,24 @@
         "Distinguish multiplicative comparison from additive comparison in word problems"
       ],
       "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
+      "standards": []
+    },
+    {
+      "id": "mt_6-j1NO2ZUH",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Multiplicative Comparison",
+      "description": "Solve word problems involving multiplicative comparison using drawings and equations with a symbol for the unknown number",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.02325581395348837,
+      "evidence": [
+        "A blue ribbon is 3 times as long as a red ribbon of 7 cm — how long is the blue ribbon?",
+        "36 is 4 times a number — what is the number?",
+        "Explain why 'Sam has 5 more' is additive but 'Sam has 5 times as many' is multiplicative"
+      ],
+      "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
       "standards": []
     },
     {
@@ -17049,6 +17031,24 @@
         "Explain why starting at 2 and adding 4 always gives even numbers"
       ],
       "assessmentPrompt": "If {{name}} is told 'start at 3 and multiply by 2 each time', can they write out the pattern — 3, 6, 12, 24, 48 — and spot any interesting features in how it grows?",
+      "standards": []
+    },
+    {
+      "id": "mt_MCu_SNg_OW",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Short division with remainders",
+      "description": "Divide numbers up to four digits by a one-digit number using short division (and place-value/array strategies); interpret remainders appropriately for the context",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.13406292749658,
+      "evidence": [
+        "Calculate 4,932 ÷ 6 using short division",
+        "Solve 125 ÷ 8 and interpret: 15 remainder 5 means 15 full bags with 5 left over",
+        "Use the multiplication–division relationship to check a division answer"
+      ],
+      "assessmentPrompt": "Can {{name}} use the short division ('bus stop') method to work out something like '2,457 ÷ 6', and decide what to do with any remainder left over?",
       "standards": []
     },
     {
@@ -17216,6 +17216,24 @@
       "standards": []
     },
     {
+      "id": "mt_vmW2cb5c7A",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Mental calculation strategies",
+      "description": "Perform mental calculations including with mixed operations and large numbers, using strategies such as partitioning, compensation, and derived facts",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "centrality": 0.07523939808481532,
+      "evidence": [
+        "Mentally compute 45 × 8 by partitioning into 40 × 8 + 5 × 8",
+        "Use known facts to derive 6.5 × 4 mentally",
+        "Solve a multi-operation mental calculation such as 250 × 3 + 500 and explain the strategy used"
+      ],
+      "assessmentPrompt": "Can {{name}} work out a mixed calculation like '(200 × 6) + 350 − 75' entirely in their head — keeping track of each step without writing anything down?",
+      "standards": []
+    },
+    {
       "id": "mt_wPgpMJ0-PA",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -17272,24 +17290,6 @@
       "standards": [
         "uk-nc-2013:Ma6/2.2f"
       ]
-    },
-    {
-      "id": "mt_vmW2cb5c7A",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Ratio (age 10+)",
-      "description": "Perform mental calculations including with mixed operations and large numbers, using strategies such as partitioning, compensation, and derived facts",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "centrality": 0.07523939808481532,
-      "evidence": [
-        "Mentally compute 45 × 8 by partitioning into 40 × 8 + 5 × 8",
-        "Use known facts to derive 6.5 × 4 mentally",
-        "Solve a multi-operation mental calculation such as 250 × 3 + 500 and explain the strategy used"
-      ],
-      "assessmentPrompt": "Can {{name}} work out a mixed calculation like '(200 × 6) + 350 − 75' entirely in their head — keeping track of each step without writing anything down?",
-      "standards": []
     },
     {
       "id": "mt_QU5R7Aajy9",
@@ -17353,7 +17353,7 @@
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
       "domain": "Multiplication & Division",
-      "name": "Ratio (age 11+)",
+      "name": "Priority of operations",
       "description": "Use conventional notation for the priority of operations including brackets, powers, roots, and reciprocals; apply BIDMAS/BODMAS consistently to evaluate complex numerical expressions",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
@@ -28014,27 +28014,6 @@
       "standards": []
     },
     {
-      "id": "mt_7IFpDVNsmt",
-      "type": "PROCEDURAL",
-      "subject": "Science",
-      "domain": "Scientific Inquiry",
-      "name": "Classifying living things",
-      "description": "Gather, record, classify, and present data in a variety of ways including tables, bar charts, labelled diagrams, and keys",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.05745554035567715,
-      "evidence": [
-        "Organise data into a clear table with appropriate headings",
-        "Create a bar chart or pictogram from collected data",
-        "Use labelled diagrams and classification keys to present findings"
-      ],
-      "assessmentPrompt": "After doing an experiment, can {{name}} put their results into a neat table, draw a bar chart, and add labels to a diagram to show what they found?",
-      "standards": [
-        "uk-nc-2013:KS2L.Sci.WS.4",
-        "uk-nc-2013:KS2L.Sci.WS.5"
-      ]
-    },
-    {
       "id": "mt_QrVF5n7vci",
       "type": "META",
       "subject": "Science",
@@ -28091,6 +28070,27 @@
       "standards": [
         "uk-nc-2013:KS2L.Sci.WS.1",
         "uk-nc-2013:KS2L.Sci.WS.2"
+      ]
+    },
+    {
+      "id": "mt_7IFpDVNsmt",
+      "type": "PROCEDURAL",
+      "subject": "Science",
+      "domain": "Scientific Inquiry",
+      "name": "Gathering, recording, classifying and presenting data",
+      "description": "Gather, record, classify, and present data in a variety of ways including tables, bar charts, labelled diagrams, and keys",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 9,
+      "centrality": 0.05745554035567715,
+      "evidence": [
+        "Organise data into a clear table with appropriate headings",
+        "Create a bar chart or pictogram from collected data",
+        "Use labelled diagrams and classification keys to present findings"
+      ],
+      "assessmentPrompt": "After doing an experiment, can {{name}} put their results into a neat table, draw a bar chart, and add labels to a diagram to show what they found?",
+      "standards": [
+        "uk-nc-2013:KS2L.Sci.WS.4",
+        "uk-nc-2013:KS2L.Sci.WS.5"
       ]
     },
     {
@@ -28232,26 +28232,6 @@
       ]
     },
     {
-      "id": "mt_rDjtmDogJr",
-      "type": "PROCEDURAL",
-      "subject": "Science",
-      "domain": "Scientific Inquiry",
-      "name": "Classifying living things (age 9+)",
-      "description": "Record data and results of increasing complexity using scientific diagrams, classification keys, tables, scatter graphs, bar and line graphs",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.04651162790697674,
-      "evidence": [
-        "Choose and create an appropriate graph type for the data (bar chart, line graph, scatter graph)",
-        "Draw graphs with correctly labelled axes, appropriate scales, and accurate plotting",
-        "Use classification keys and scientific diagrams to present complex findings"
-      ],
-      "assessmentPrompt": "Can {{name}} choose the right type of graph for their data — a bar chart for categories or a line graph for continuous data — and draw it accurately?",
-      "standards": [
-        "uk-nc-2013:KS2U.Sci.WS.3"
-      ]
-    },
-    {
       "id": "mt_ArVBEpMAPk",
       "type": "META",
       "subject": "Science",
@@ -28329,6 +28309,26 @@
       "assessmentPrompt": "After getting results from one experiment, can {{name}} use the pattern to predict what would happen in a new situation and then design a follow-up test to check?",
       "standards": [
         "uk-nc-2013:KS2U.Sci.WS.4"
+      ]
+    },
+    {
+      "id": "mt_rDjtmDogJr",
+      "type": "PROCEDURAL",
+      "subject": "Science",
+      "domain": "Scientific Inquiry",
+      "name": "Recording data and results",
+      "description": "Record data and results of increasing complexity using scientific diagrams, classification keys, tables, scatter graphs, bar and line graphs",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0.04651162790697674,
+      "evidence": [
+        "Choose and create an appropriate graph type for the data (bar chart, line graph, scatter graph)",
+        "Draw graphs with correctly labelled axes, appropriate scales, and accurate plotting",
+        "Use classification keys and scientific diagrams to present complex findings"
+      ],
+      "assessmentPrompt": "Can {{name}} choose the right type of graph for their data — a bar chart for categories or a line graph for continuous data — and draw it accurately?",
+      "standards": [
+        "uk-nc-2013:KS2U.Sci.WS.3"
       ]
     },
     {
