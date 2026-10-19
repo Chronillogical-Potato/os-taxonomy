@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3221,
+  "edgeCount": 3225,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -2884,6 +2884,12 @@
       "reason": "Coordinating two pattern sequences on a coordinate grid is key Y6 content"
     },
     {
+      "topicId": "mt_9KmVWCuh5_",
+      "prerequisiteId": "mt_HlNSurPVDp",
+      "strength": "soft",
+      "reason": "Line graphs are one of the representation types referenced by Y6 representation fluency"
+    },
+    {
       "topicId": "mt_9L3NQqgqRd",
       "prerequisiteId": "mt_aPBzD28_mT",
       "strength": "hard",
@@ -4193,15 +4199,15 @@
     },
     {
       "topicId": "mt_bESTSBB0wK",
-      "prerequisiteId": "mt_4MFUAsbx_6",
+      "prerequisiteId": "mt_4K1dr204Hi",
       "strength": "soft",
-      "reason": "Drawing accurate pie chart sectors requires protractor skills"
+      "reason": "Understanding fraction-decimal-percentage equivalence deepens pie chart interpretation (e.g. 1/4 = 25% = 90°) but is not strictly required if the child can compute percentages procedurally"
     },
     {
       "topicId": "mt_bESTSBB0wK",
-      "prerequisiteId": "mt_H6LlpWgEYS",
-      "strength": "hard",
-      "reason": "Y6 line graphs extend Y5 line graph interpretation"
+      "prerequisiteId": "mt_4MFUAsbx_6",
+      "strength": "soft",
+      "reason": "Drawing accurate pie chart sectors requires protractor skills"
     },
     {
       "topicId": "mt_bESTSBB0wK",
@@ -4212,8 +4218,8 @@
     {
       "topicId": "mt_bESTSBB0wK",
       "prerequisiteId": "mt_PNSyfH56eQ",
-      "strength": "soft",
-      "reason": "Pie chart sector angles connect to percentage calculation"
+      "strength": "hard",
+      "reason": "Calculating pie chart sector angles requires computing percentages of 360; interpreting sectors requires proportional reasoning"
     },
     {
       "topicId": "mt_bESTSBB0wK",
@@ -6161,6 +6167,12 @@
     },
     {
       "topicId": "mt_eKJG-0eC6D",
+      "prerequisiteId": "mt_HlNSurPVDp",
+      "strength": "hard",
+      "reason": "KS3 vertical line charts and grouped data graphs extend Y6 line graph construction skills"
+    },
+    {
+      "topicId": "mt_eKJG-0eC6D",
       "prerequisiteId": "mt_iEXqN48w3x",
       "strength": "soft",
       "reason": "Pie chart construction requires calculating percentages/fractions for angle calculation"
@@ -8012,6 +8024,18 @@
       "prerequisiteId": "mt_wvcFlwOrDl",
       "strength": "soft",
       "reason": "Exploiting relationships between fractions, decimals and percentages requires pattern recognition across representations"
+    },
+    {
+      "topicId": "mt_HlNSurPVDp",
+      "prerequisiteId": "mt_H6LlpWgEYS",
+      "strength": "hard",
+      "reason": "Y6 line graph construction and interpretation directly extends Y5 line graph problem-solving"
+    },
+    {
+      "topicId": "mt_HlNSurPVDp",
+      "prerequisiteId": "mt_u5HkSxZECM",
+      "strength": "hard",
+      "reason": "Constructing and interpreting line graphs requires vocabulary: axis, scale, continuous data, line graph"
     },
     {
       "topicId": "mt_HLUqHJ9Y7n",
