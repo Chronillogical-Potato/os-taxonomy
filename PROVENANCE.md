@@ -39,6 +39,34 @@ For encumbered sources we ship only the **standard code** (e.g. `1-ESS1-1`) and 
 - **License:** IB content is copyrighted and IBO is protective of it; redistribution requires explicit IB permission. This is the most restrictive source.
 - **We ship:** codes/keys only. Do not ship full text without IB permission.
 
+## Teaching-research publication
+
+`data/teaching-research.json` contains Marble's agent-authored teaching research
+and activity proposals under the database/content licences described in README.
+References to third-party studies, books and curricula do not transfer ownership
+of those works or replace their upstream terms. The licences cover Marble's own
+contributions, not third-party material.
+
+The original research sometimes repeated the wording of codes-only curricula.
+The publication export omits passages matching eight or more consecutive words
+of those frameworks' stored text, ignoring case and punctuation. Each omission
+is marked inline with curriculum codes and logged by JSON path in
+`publicationNotes.omittedCurriculumText`. The same transformation is applied to
+citation claims and activity sourceClaims to keep those links exact. Common Core
+cross-references embedded in NGSS records are not included in the omission index;
+they retain the independent Common Core terms described above.
+
+This mechanical pass is conservative and is not comprehensive rights clearance.
+Shorter excerpts or paraphrases may remain. Follow the upstream links and terms
+when reusing source material; do not treat the research layer as a redistribution
+of the full frameworks. The existing NGSS trademark notice above also applies
+to NGSS references in teaching research.
+
+Original source verification flags and confidence values were preserved. Sources
+were not re-fetched for this publication, and a curriculum citation is evidence
+of alignment rather than an evaluated teaching intervention. Read the file-level
+notes and individual learning-guidance review notes before using an activity.
+
 ## Changing what ships
 
 The export tool takes a per-source switch. To (re)include a source's full text after clearing rights, regenerate with that slug removed from the codes-only set:

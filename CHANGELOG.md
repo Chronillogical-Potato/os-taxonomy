@@ -6,6 +6,11 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Add 1,051 teaching-research records for Science (547) and Mathematics (504), joined by stable topic ID, with explicit coverage for the other 540 topics.
+- Align research after the chart split: pie-only teaching/assessment, restored earlier line-graph scope, a new construction-and-interpretation record, and corrected downstream assessment recovery routes.
+- Publish portable learning guidance with activities, learner actions, feedback and evidence links; retain original pedagogy, assessment and historical source-verification metadata.
+- Add teaching-research JSON Schema, cross-file/evidence-link validation, regression checks and a topic-file checksum binding.
+- Mark curriculum-text publication omissions inline and by field path; exclude private database IDs, learner data and migration audit artifacts.
 - Separate pie-chart and line-graph coverage: retain `mt_bESTSBB0wK` for pie charts and add `mt_HlNSurPVDp` for line graphs.
 - Correct the earlier line-graph problem-solving topic's title and description; revise prerequisites and downstream links for the split.
 - Restore 330 previously authored curriculum links by normalizing legacy alignment identifiers, including the UK Year 6 chart standard on both chart topics.
