@@ -32,11 +32,17 @@ browser tools; inspecting source or the DOM alone does not validate presentation
 
 1. Open the saved HTML directly in a browser. Inspect an actual screenshot at the
    intended viewport. Is the main learning action clear, the representation
-   intelligible, the next control obvious and the reading burden appropriate?
+   intelligible and the next manipulation obvious? Enforce the single-title,
+   single-instruction budget; check actual visible text including canvas labels,
+   banners, tooltips and feedback, not only paragraph counts.
+   Compare scene composition with [visual-design.md](visual-design.md) and Water
+   Lab. For spatial goals verify actual Three.js rendering, in-scene manipulation,
+   loaded bundled fonts, deliberate lighting/materials and responsive framing.
 2. Exercise the interaction and capture consequential states: supported practice,
    a wrong prediction and its feedback, and an independent transfer task before
-   and after reveal. Inspect viewpoints, overlaps, motion, labels and whether the
-   UI accidentally gives away the answer. Check narrow and intended-device layouts.
+   and after reveal. Inspect viewpoints, overlaps, motion, text budget and whether the
+   UI accidentally gives away the answer. Check narrow and intended-device layouts;
+   feedback must replace the instruction rather than grow the page.
 3. Fix the most consequential UX or teaching defects. Re-render and inspect the
    revised states, then re-exercise affected actions. If the first rendering needs
    no change, state the specific criteria checked rather than manufacturing edits.

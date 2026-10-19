@@ -1,0 +1,96 @@
+/* Marble-derived public UI primitives. Layout is intentionally not prescribed.
+   For standalone output replace the development font URL with embedded bytes.
+   Fredoka is OFL-licensed; preserve assets/fonts/OFL.txt in redistributed output. */
+@font-face {
+  font-family: "Marble Learning";
+  src: url("./fonts/Fredoka-variable.ttf") format("truetype");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: block;
+}
+.marble-learning {
+  --ml-red: #f42324;
+  --ml-red-depth: #8b0023;
+  --ml-ink: #141414;
+  --ml-surface: #fdfcfa;
+  --ml-paper: #f4efe4;
+  --ml-muted: #626262;
+  --ml-success: #1fa20d;
+  --ml-attention: #fdae1c;
+  font-family: "Marble Learning", sans-serif;
+  color: var(--ml-ink);
+  background: var(--ml-paper);
+}
+.marble-learning *, .marble-learning *::before, .marble-learning *::after {
+  box-sizing: border-box;
+}
+.marble-learning .ml-title {
+  margin: 0;
+  font-size: clamp(1.5rem, 3.4vw, 2.7rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -.025em;
+}
+.marble-learning .ml-instruction {
+  margin: 0;
+  max-width: 34ch;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  font-weight: 450;
+  line-height: 1.3;
+}
+.marble-learning .ml-control {
+  display: inline-grid;
+  place-items: center;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 10px;
+  border: 3px solid var(--ml-surface);
+  border-radius: 999px;
+  background: var(--ml-red);
+  color: var(--ml-surface);
+  box-shadow: inset 0 2px 0 #ffffff70, inset 0 -4px 0 var(--ml-red-depth), 0 2px 5px #14141418;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 100ms ease, filter 100ms ease;
+  font: inherit;
+}
+.marble-learning .ml-control:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 0 var(--ml-red-depth);
+}
+.marble-learning .ml-control:disabled {
+  filter: grayscale(1);
+  opacity: .45;
+  cursor: default;
+}
+.marble-learning .ml-control[aria-pressed="true"] {
+  outline: 3px solid var(--ml-ink);
+  outline-offset: 2px;
+}
+.marble-learning :focus-visible {
+  outline: 3px solid var(--ml-ink);
+  outline-offset: 5px;
+}
+.marble-learning .ml-control svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.marble-learning .ml-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marble-learning .ml-control { transition: none; }
+}

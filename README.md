@@ -175,7 +175,11 @@ helps turn a child's age and a user-confirmed goal into a standalone, offline HT
 learning experience. It uses topic prerequisites and available teaching research,
 develops a targeted research brief when needed, and agrees a concept with you
 before building. Experiences use visual interactions, scaffolding, UI-assessed
-transfer tasks and optional extensions. The agent renders, inspects and iterates
+transfer tasks and optional extensions. Spatial topics use Three.js with direct
+scene manipulation. The public skill includes Marble-derived UI tokens, tactile
+controls and an openly licensed rounded font, with one title and one instruction
+visible at a time. [Water Lab](https://withmarble.com/water-lab) is the visual quality
+reference. The agent renders, inspects and iterates
 in the browser rather than stopping at the first working HTML file.
 
 In Codex, open this repository and invoke `$create-learning-experience`, for example:

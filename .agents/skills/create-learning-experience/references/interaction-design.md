@@ -8,34 +8,43 @@ Keep the meaningful representation prominent and controls close to what they
 change. Show one clear next action; introduce controls and complexity gradually.
 A long explanation followed by a quiz is not a substitute for this design work.
 
-Text should orient, name an observation or explain feedback. Prefer a short
-prompt and a legible scene over paragraphs describing what a scene could show.
-Keep adult research notes and detailed instructions out of the main learning
-surface. Do not impose an arbitrary word count: some goals involve reading,
-but even then give the child a purposeful task rather than passive pages.
+Show only one title and one short instruction in the child view. Feedback replaces
+that instruction. Teach through the scene, motion and consequences, not appended
+copy. Use icon controls with accessible names; keep adult explanations elsewhere.
+If the goal requires reading material or mathematical notation, agree the narrow
+exception for task text with
+the user before building. Read [visual-design.md](visual-design.md) for the visual
+reference, fonts, control treatment and polish criteria.
 
-## Choose a representation that supports the reasoning
+## Spatial experiences use Three.js
 
-Ask which relationships must remain visible and what viewpoint the child needs.
-Use 2D where it communicates those relationships clearly. Use a spatial model,
-linked views or manipulable 3D when depth, occlusion, orientation or the observer's
-position is essential. More dimensions are not automatically better: a decorative
-3D scene with confusing camera controls can obscure the concept too.
+For spatial causal reasoning, use a coherent Three.js world. In the daytime-Moon
+case, place Earth, its observer, light and Moon in a shared 3D model with deliberate
+lighting and clear viewpoints. Put the main interaction on the objects: drag the
+Earth to rotate it, pick/place an observer, and transition to their view when it
+serves the task. Use constrained gestures and guided camera transitions so the
+child manipulates the concept rather than struggles with a 3D editor.
 
-For example, a lesson involving a horizon needs a coherent observer viewpoint
-and a clear relationship between the observer and the wider scene. An object
-sliding behind a painted line may hide the very spatial relationship the child
-must reason about. A linked overview and observer view, or a constrained 3D
-view, may communicate it better. Select and validate the model for the particular
-goal; this is not a rule to make all astronomy lessons 3D.
+A pair of flat explanatory diagrams with side buttons does not meet this bar.
+A secondary view may be needed pedagogically, but introduce it deliberately
+rather than defaulting to a dashboard. Maintain context through an animated
+camera transition, spatial marker or tightly linked inset, without adding labels
+and legends to explain a confusing composition. For genuinely two-dimensional
+reasoning, retain 2D: fraction bars need not become a 3D spectacle.
+
+Use picking/raycasting and large invisible hit areas to attach interaction to
+objects. Show affordances with a subtle halo, handle, motion cue or ghost state;
+never depend on a written control manual. Preserve keyboard alternatives and
+accessible semantic controls without building an unrelated side control panel.
+Avoid free camera navigation unless it is part of the learning goal.
 
 Separate the underlying model from its visual projection and answer checking.
 Render practice and assessment from consistent state. Changing the camera must
 not accidentally change the physical scenario; changing the scenario must
 update all linked views. Check key states and boundaries against the subject
-matter. Label consequential simplifications, and do not let an oversimplified
-model teach a false rule. Avoid introducing free camera navigation or spatial
-puzzles unrelated to the goal.
+matter. Document consequential simplifications in the adult companion; design
+the scene so it does not rely on extra labels to correct a misleading model. Do not let an
+oversimplified model teach a false rule.
 
 ## Make assessment part of the interaction
 

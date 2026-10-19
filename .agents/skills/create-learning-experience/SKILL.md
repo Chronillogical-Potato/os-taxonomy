@@ -66,9 +66,9 @@ Creating an experience does not authorize publishing research or child context.
 
 ## Develop the concept with the user
 
-Read [interaction-design.md](references/interaction-design.md) before proposing
-the concept. Design what the child will see and do, and what that action will
-reveal about understanding. Before building the full HTML, present a compact,
+Read [interaction-design.md](references/interaction-design.md) and
+[visual-design.md](references/visual-design.md) before proposing the concept. Design what the child will see
+and do, and what that action will reveal about understanding. Before building the full HTML, present a compact,
 concrete proposal containing:
 
 - The observable learning goal and selected topic(s).
@@ -97,21 +97,32 @@ Deliver one HTML file with embedded CSS, JavaScript and required assets. It must
 open directly in a browser without accounts, a build step, a server or network
 access. Keep any research/design companion outside the child-facing flow. Use
 local interactions and no tracking or transmission of child responses by default.
-Choose the rendering approach to serve the learning interaction: semantic HTML,
-SVG, Canvas or embedded 3D as appropriate. Offline delivery does not mean settling
-for a flat diagram when spatial relationships or viewpoints are essential. Do
-not impose a visual theme or elaborate component system. Respect explicit user
-constraints.
+Use Three.js for spatial experiences involving viewpoint, illumination, depth,
+occlusion or moving physical objects, including the daytime-Moon example. Build
+one coherent, polished 3D scene with direct manipulation: drag the Earth, place an
+observer, or select a prediction in the scene. Do not substitute flat comparison
+panels and external step buttons for spatial interaction. Use 2D for goals whose
+reasoning is genuinely two-dimensional, such as fraction bars or sentence work.
+Follow [visual-design.md](references/visual-design.md) for Marble-derived fonts,
+colors, tactile controls, scene composition and the standalone Three.js workflow.
+Respect explicit user constraints.
 
 Design a coherent learning sequence rather than a collection of screens:
 
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
 - Let the child learn through looking, acting, predicting and seeing consequences.
-  Use brief prompts near the action and reveal explanation when it helps. Do not
-  make paragraphs the main activity or turn research notes into lesson screens.
-- Provide age-appropriate, actionable feedback. Show the relevant consequence or
-  relationship, connect errors to likely misconceptions and offer a useful retry.
+  The child-facing experience may show only **one title and one short instruction
+  at a time**. Use that same instruction slot for feedback; replace it rather than
+  appending explanation. No subtitles, legends, visible object labels, status
+  paragraphs, textual tabs or extra button captions. Give icon/scene controls
+  accessible names without adding visible prose. Keep adult notes and credits in
+  a separate companion. For a goal that genuinely requires visible reading
+  material or mathematical notation, resolve that conflict explicitly with the user during concept design
+  rather than silently relaxing this rule.
+- Make feedback visual first: reveal the relevant consequence or relationship,
+  connect errors to likely misconceptions and offer a useful retry. A short
+  replacement instruction can direct attention; do not add a feedback card.
 - Offer support when needed, then fade it toward independent practice. Avoid
   overwhelming reading demands or requiring an adult unless agreed.
 - Separate supported practice from the independent mastery check. Choose evidence
@@ -124,8 +135,9 @@ Design a coherent learning sequence rather than a collection of screens:
   to judge.” If the goal requires evidence the browser genuinely cannot assess,
   propose a suitable alternative or explicitly agree adult assessment during
   concept design. Never claim to assess the whole goal from a narrower proxy.
-- When evidence is insufficient, report “needs more practice” or “not yet checked”
-  and offer targeted support. Describe the result as evidence from this session,
+- When evidence is insufficient, replace the current instruction with “needs more
+  practice” or “not yet checked” and offer targeted support through the scene;
+  never add a separate result/status label. Describe the result as evidence from this session,
   rather than a lasting diagnosis or proof of retained mastery.
 - Include optional “going further” content that deepens or transfers the idea;
   it must not be required to finish the core goal.
@@ -133,9 +145,11 @@ Design a coherent learning sequence rather than a collection of screens:
 Provide basic keyboard operation, readable contrast, responsive layout and
 non-colour-only feedback. Offer a practical alternative to any essential
 interaction that requires precise dragging, sound or similar capabilities.
-Keep progress, hints, retries and restart behavior understandable. Put reusable
-source acknowledgements and required attribution in an adult-facing area; follow
-the repository's README and provenance notices for reused material.
+Keep progress, hints, retries and restart behavior understandable using scene
+state, icons and non-text progress marks. Put source acknowledgements and required
+attribution in the separate adult companion and retain embedded asset license
+notices in the HTML source; follow the repository's README and provenance notices
+for reused material. Do not turn the learning canvas into a branded webpage.
 
 ## Validate and hand over
 
@@ -143,7 +157,9 @@ Use [validation.md](references/validation.md) during development, starting with
 the central interaction before polishing the rest. Render in a browser, inspect
 screenshots and exercise controls, revise the design, then render and check the
 revision. Assess visual clarity and teaching behavior as well as correct code;
-a screenshot captured but not inspected is not a UX review. Use browser tools
+a screenshot captured but not inspected is not a UX review. Compare the rendered
+composition with the Water Lab reference and the explicit visual acceptance
+criteria; “it loads” is not a polish pass. Use browser tools
 available in the environment, without requiring a particular automation stack.
 If browser access is unavailable, report the artifact as a prototype awaiting
 browser validation rather than presenting the UX as validated. Automated checks
