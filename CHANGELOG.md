@@ -4,6 +4,14 @@ All notable changes to the Marble Skill Taxonomy dataset are documented here.
 Dataset releases are versioned independently of the taxonomy `version` field
 (the underlying taxonomy is `v1`).
 
+## [Unreleased]
+
+- Separate pie-chart and line-graph coverage: retain `mt_bESTSBB0wK` for pie charts and add `mt_HlNSurPVDp` for line graphs.
+- Correct the earlier line-graph problem-solving topic's title and description; revise prerequisites and downstream links for the split.
+- Restore 330 previously authored curriculum links by normalizing legacy alignment identifiers, including the UK Year 6 chart standard on both chart topics.
+- Use discrete/continuous-data presentation as the prerequisite for later grouped-data charts; clarify their pie-chart prerequisite reason.
+- Regenerate the canonical export and centrality scores: 1,591 topics and 3,225 dependencies.
+
 ## [1.0.0] — 2026-07-08
 
 Initial public release.
