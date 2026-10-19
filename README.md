@@ -168,6 +168,24 @@ node scripts/validate.mjs
 node --test scripts/teaching-research.test.mjs
 ```
 
+## Create a learning experience
+
+The [`create-learning-experience` agent skill](.agents/skills/create-learning-experience/SKILL.md)
+helps turn a child's age and a user-confirmed goal into a standalone, offline HTML
+learning experience. It uses topic prerequisites and available teaching research,
+develops a targeted research brief when needed, and agrees a concept with you
+before building. Experiences include scaffolding, independent checks for
+understanding and optional extensions.
+
+In Codex, open this repository and invoke `$create-learning-experience`, for example:
+
+> Use $create-learning-experience to help my 8-year-old understand why equivalent
+> fractions represent the same quantity.
+
+Other agents can follow the linked `SKILL.md` directly. No Marble account or
+hosting is required. New reusable teaching research can optionally be proposed
+as a separate PR, with no child-specific information included.
+
 ## License
 
 This dataset is **multi-licensed** — read this before you use or redistribute it.
