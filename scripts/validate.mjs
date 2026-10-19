@@ -84,6 +84,13 @@ for (const t of topics.topics) {
 }
 if (danglingRefs > 5) errors.push(`…and ${danglingRefs - 5} more unknown standard references`);
 
+// --- referential integrity: cluster → topic subject/domain ------------------
+const topicDomains = new Set(topics.topics.map(t => JSON.stringify([t.subject, t.domain])));
+for (const c of clusters.clusters) {
+  check(topicDomains.has(JSON.stringify([c.subject, c.domain])),
+    `cluster ${c.subject} / ${c.domain} (age ${c.ageRangeStart}): no topics in this subject/domain`);
+}
+
 // --- teaching research: schema, coverage and exact evidence links -----------
 const research = load('teaching-research.json');
 const researchSchema = JSON.parse(readFileSync(resolve(DATA, '..', 'schema', 'teaching-research.schema.json'), 'utf8'));

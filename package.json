@@ -8,6 +8,6 @@
   "homepage": "https://withmarble.com",
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "test": "node --test scripts/teaching-research.test.mjs"
+    "test": "node --test scripts/*.test.mjs"
   }
 }
