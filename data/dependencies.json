@@ -3485,9 +3485,9 @@
     },
     {
       "topicId": "mt_AlLYwCm92a",
-      "prerequisiteId": "mt_OUv-QXmW7_",
+      "prerequisiteId": "mt_7VrR1GzhrN",
       "strength": "soft",
-      "reason": "Making and recording measurements of motion to predict future motion uses distance-time graph representation"
+      "reason": "Using a measured pattern to predict and test future motion applies the general inquiry skill of drawing conclusions from results and making predictions for new situations"
     },
     {
       "topicId": "mt_ALUrJpY0cZ",
@@ -4046,12 +4046,6 @@
       "prerequisiteId": "mt_PZ909yPrEC",
       "strength": "hard",
       "reason": "Expressing array totals as sums of equal addends requires understanding multiplication as repeated addition"
-    },
-    {
-      "topicId": "mt_B3W5EfimJw",
-      "prerequisiteId": "mt_k7GOtslF-x",
-      "strength": "soft",
-      "reason": "Understanding pushes and pulls as forces is supported by the arrow representation of magnitude and direction"
     },
     {
       "topicId": "mt_b4lbTOJYwI",
@@ -9700,6 +9694,18 @@
       "reason": "Must understand patterns and sorting before grasping the training process"
     },
     {
+      "topicId": "mt_k7GOtslF-x",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "Force arrows encode a force's direction and strength; this presupposes understanding forces as pushes and pulls whose strength and direction change an object's motion"
+    },
+    {
+      "topicId": "mt_k7GOtslF-x",
+      "prerequisiteId": "mt_GBY8enpzO0",
+      "strength": "soft",
+      "reason": "Force diagrams use labelled arrows, so learners need the names of forces (gravity, friction, air resistance, upthrust, contact/non-contact) to label them correctly"
+    },
+    {
       "topicId": "mt_k7VtbWdfDO",
       "prerequisiteId": "mt_wq-1OJ_8s5",
       "strength": "hard",
@@ -10208,12 +10214,6 @@
       "prerequisiteId": "mt_GBY8enpzO0",
       "strength": "hard",
       "reason": "Distinguishing contact from non-contact forces requires these exact terms"
-    },
-    {
-      "topicId": "mt_lcf8lx-LkZ",
-      "prerequisiteId": "mt_k7GOtslF-x",
-      "strength": "soft",
-      "reason": "Distinguishing contact and non-contact forces is clarified by drawing force diagrams showing where arrows originate"
     },
     {
       "topicId": "mt_lcf8lx-LkZ",
@@ -11213,12 +11213,6 @@
     },
     {
       "topicId": "mt_Mnodea7mG_",
-      "prerequisiteId": "mt_vnJEztczji",
-      "strength": "soft",
-      "reason": "Counting edges, vertices, and faces is reinforced by analysing nets where each face is visible as a separate 2-D shape"
-    },
-    {
-      "topicId": "mt_Mnodea7mG_",
       "prerequisiteId": "mt_yGv8doDAmp",
       "strength": "hard",
       "reason": "Formal property description extends informal analysis of shapes"
@@ -11360,6 +11354,12 @@
       "prerequisiteId": "mt_zVLOm6U7bh",
       "strength": "soft",
       "reason": "Wild/farm/pet distinction enriched by curriculum animal group identification"
+    },
+    {
+      "topicId": "mt_MVovx37Xct",
+      "prerequisiteId": "mt_rTn43s8RNX",
+      "strength": "soft",
+      "reason": "Applying technical property terms to justify material choices refines the everyday reasoning about which material suits which purpose learned earlier"
     },
     {
       "topicId": "mt_-mw3JeIjhU",
@@ -12650,12 +12650,6 @@
       "prerequisiteId": "mt_o8ciHks8t2",
       "strength": "soft",
       "reason": "Re-reading and responding to feedback is more effective when pupils know terms like 'revise', 'edit', and 'meaning'"
-    },
-    {
-      "topicId": "mt_OyOYHlZ2_T",
-      "prerequisiteId": "mt_U_8iVFZuHH",
-      "strength": "soft",
-      "reason": "Re-reading your own writing to check it makes sense and has the intended effect is the practical application of the writing self-evaluation habit"
     },
     {
       "topicId": "mt_Oz8yNPNtub",
@@ -14423,12 +14417,6 @@
     },
     {
       "topicId": "mt_rTn43s8RNX",
-      "prerequisiteId": "mt_MVovx37Xct",
-      "strength": "soft",
-      "reason": "Comparing suitability of materials for uses requires property vocabulary to articulate why one material is better than another"
-    },
-    {
-      "topicId": "mt_rTn43s8RNX",
       "prerequisiteId": "mt_SwaNNdm_Ks",
       "strength": "hard",
       "reason": "Must group materials by properties before evaluating suitability for purposes"
@@ -15671,6 +15659,12 @@
     },
     {
       "topicId": "mt_U_8iVFZuHH",
+      "prerequisiteId": "mt_OyOYHlZ2_T",
+      "strength": "soft",
+      "reason": "Independently judging whether writing achieves its intended effect grows out of the scaffolded habit of re-reading writing and responding to teacher and peer feedback"
+    },
+    {
+      "topicId": "mt_U_8iVFZuHH",
       "prerequisiteId": "mt_QB4qIGJIIj",
       "strength": "hard",
       "reason": "Evaluating whether your own writing creates an intended effect requires first understanding how authors' choices create effects on readers — reading like a writer before writing like a reader"
@@ -16474,12 +16468,6 @@
       "reason": "Drawing 2-D shapes requires knowing their properties"
     },
     {
-      "topicId": "mt_vJUa62bxeR",
-      "prerequisiteId": "mt_vnJEztczji",
-      "strength": "soft",
-      "reason": "Drawing 2-D shapes and making 3-D shapes from materials is supported by being able to sketch and interpret nets"
-    },
-    {
       "topicId": "mt_VjxyJLtIbT",
       "prerequisiteId": "mt_mMMXD4v9Sh",
       "strength": "hard",
@@ -16586,6 +16574,18 @@
       "prerequisiteId": "mt_XLP1IM3Qbb",
       "strength": "soft",
       "reason": "Mental strategies build on understanding of formal multiplication"
+    },
+    {
+      "topicId": "mt_vnJEztczji",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "hard",
+      "reason": "Predicting which net folds into a shape and checking that its faces, edges and vertices match requires knowing how many faces, edges and vertices common 3-D shapes have"
+    },
+    {
+      "topicId": "mt_vnJEztczji",
+      "prerequisiteId": "mt_vJUa62bxeR",
+      "strength": "soft",
+      "reason": "Having built 3-D shapes from modelling materials and recognised them in different orientations helps learners visualise how a flat net folds into a solid"
     },
     {
       "topicId": "mt_VP9yZJ1xeP",

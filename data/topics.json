@@ -389,7 +389,7 @@
       "description": "Understand that reading is about making meaning, not just saying words correctly — a text that can be decoded but not understood has not been read",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1133879781420765,
+      "centrality": 0.08743169398907104,
       "evidence": [
         "Simple View of Reading (Gough & Tunmer)",
         "reading comprehension research on comprehension-decoding separation"
@@ -406,7 +406,7 @@
       "description": "Notice the difference between decoding words and actually understanding them — recognise when you've read the words but not grasped the meaning, and do something about it",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.110655737704918,
+      "centrality": 0.08469945355191257,
       "evidence": [
         "comprehension monitoring research",
         "Metacognitive Monitoring in Reading Comprehension (MDPI 2024)"
@@ -423,7 +423,7 @@
       "description": "Recognise how an author's deliberate choices — of words, structure, tone, and perspective — create particular effects on you as a reader",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.0546448087431694,
+      "centrality": 0.02868852459016394,
       "evidence": [
         "authorial awareness research",
         "Understanding Author's Purpose (Firkins)",
@@ -476,7 +476,7 @@
       "description": "Evaluate whether your own writing achieves the effect you intended on a reader — go beyond checking for correctness to asking whether it actually works",
       "ageRangeStart": 8,
       "ageRangeEnd": 10,
-      "centrality": 0.06147540983606557,
+      "centrality": 0.05327868852459016,
       "evidence": [
         "writing self-evaluation research grades 3-5",
         "metacognitive awareness of writing (Frontiers 2025)"
@@ -493,7 +493,7 @@
       "description": "Reflect on yourself as a language user — how your reading, writing, and speaking shift across audiences, purposes, and contexts, and where you want to develop further",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.04508196721311476,
+      "centrality": 0.06147540983606557,
       "evidence": [
         "metalinguistic awareness development",
         "register and audience awareness research"
@@ -510,7 +510,7 @@
       "description": "Understand that words combine to make sentences — a sentence expresses a complete thought; produce and expand complete sentences in speech and writing",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2568306010928962,
+      "centrality": 0.2609289617486339,
       "evidence": [
         "Distinguish between complete sentences and fragments",
         "Compose a complete sentence with a subject and verb",
@@ -660,7 +660,7 @@
       "description": "Understand and use question words (who, what, where, when, why, how) to form and answer questions",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.06693989071038252,
+      "centrality": 0.06830601092896176,
       "evidence": [
         "Ask questions using appropriate question words",
         "Answer who, what, where, when questions about familiar topics",
@@ -862,7 +862,7 @@
       "description": "Use verbs to convey past and present tense correctly and consistently, including the progressive form (e.g., she is drumming, he was shouting), understanding how tense indicates time",
       "ageRangeStart": 6,
       "ageRangeEnd": 9,
-      "centrality": 0.1120218579234973,
+      "centrality": 0.08469945355191257,
       "evidence": [
         "Write a passage consistently in past tense without switching to present",
         "Use progressive forms correctly: 'was running', 'is jumping' to show ongoing actions",
@@ -1037,7 +1037,7 @@
       "description": "Form and use the past tense of frequently occurring irregular verbs correctly (e.g., sat, hid, told, went, came, ran), recognising that these do not follow the regular -ed pattern",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.0942622950819672,
+      "centrality": 0.06693989071038252,
       "evidence": [
         "Supply the correct past tense of common irregular verbs: go→went, see→saw, run→ran, tell→told",
         "Correct over-regularised forms in writing (e.g. change 'goed' to 'went', 'hided' to 'hid')",
@@ -1125,7 +1125,7 @@
       "description": "Use the present perfect form of verbs in contrast to the simple past tense, understanding how the present perfect indicates an action completed at an unspecified time or with ongoing relevance (e.g., 'He has gone out' vs 'He went out')",
       "ageRangeStart": 7,
       "ageRangeEnd": 11,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.07377049180327869,
       "evidence": [
         "Form the present perfect using 'has/have' + past participle (e.g., 'She has eaten', 'They have finished')",
         "Choose between simple past and present perfect to match the intended meaning (e.g., 'I ate lunch' vs 'I have eaten lunch')",
@@ -1293,7 +1293,7 @@
       "description": "Form and use the simple past, present, and future verb tenses consistently in writing",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.07377049180327869,
       "evidence": [
         "Rewrite 'I walk to school' in past tense ('I walked') and future tense ('I will walk')",
         "Identify and correct inconsistent tense in 'Yesterday she walks to the shop and bought milk'",
@@ -1313,7 +1313,7 @@
       "description": "Use Standard English verb inflections in place of non-standard local forms",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.09562841530054644,
+      "centrality": 0.06830601092896176,
       "evidence": [
         "Correct 'we was playing' to 'we were playing' and explain why the standard form is needed in writing",
         "Choose the standard form in pairs such as 'I did / I done', 'she has / she have', 'they were / they was'",
@@ -1540,7 +1540,7 @@
       "description": "Understand and use modal verbs (can, may, must, might, shall, will, could, should, would) and modal adverbs (perhaps, surely, certainly) to indicate degrees of possibility, necessity, and permission",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09972677595628415,
+      "centrality": 0.07240437158469945,
       "evidence": [
         "Select a modal verb to express certainty, probability, or possibility in a sentence, e.g. 'It will rain' vs 'It might rain' vs 'It could rain'",
         "Replace a modal verb with a modal adverb to achieve a similar effect, e.g. 'He might come' → 'Perhaps he will come'",
@@ -1562,7 +1562,7 @@
       "description": "Form and use the progressive (continuous) verb tenses — past progressive (was walking), present progressive (am walking), and future progressive (will be walking) — to convey ongoing actions at different times",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09836065573770492,
+      "centrality": 0.07103825136612021,
       "evidence": [
         "Write sentences using past progressive to describe an action that was ongoing at a particular time, e.g. 'She was reading when the phone rang'",
         "Distinguish present progressive from simple present, e.g. 'I am eating lunch' (right now) vs 'I eat lunch at noon' (habitual)",
@@ -1624,7 +1624,7 @@
       "description": "Use the passive voice to shift focus from the agent to the action or recipient, understanding how passive constructions affect the presentation of information in formal and objective writing",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1024590163934426,
+      "centrality": 0.07513661202185792,
       "evidence": [
         "Convert active sentences to passive voice and explain the change in emphasis",
         "Identify passive constructions in news reports and scientific writing",
@@ -1666,7 +1666,7 @@
       "description": "Use verb tense to convey various times, sequences, states, and conditions, selecting tenses deliberately to express the precise timing and nature of actions and events",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.07377049180327869,
       "evidence": [
         "Write a paragraph using multiple tenses to show the sequence of past, present, and future events",
         "Choose between simple, progressive, and perfect tenses to express duration or completion",
@@ -1767,7 +1767,7 @@
       "description": "Recognise and correct inappropriate shifts in verb tense within and across sentences and paragraphs, maintaining consistency unless a shift is required by meaning",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.07377049180327869,
       "evidence": [
         "Identify and correct unnecessary tense shifts in a given paragraph",
         "Edit own writing to ensure consistent tense use throughout a narrative",
@@ -1807,7 +1807,7 @@
       "description": "Know and use Year 6 grammatical terminology accurately: subject, object, active voice, passive voice, synonym, antonym, ellipsis, hyphen, colon, semi-colon, bullet points",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1065573770491803,
+      "centrality": 0.07923497267759563,
       "evidence": [
         "Define and give examples of subject and object in sentences",
         "Explain the difference between active and passive voice using correct terminology",
@@ -1973,7 +1973,7 @@
       "description": "Analyse the effectiveness and impact of grammatical features in texts read — understanding how authors make deliberate grammatical choices (sentence length, passive voice, fronted adverbials, listing) to create specific effects on the reader",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.1202185792349727,
+      "centrality": 0.09289617486338798,
       "evidence": [
         "Explain how an author's use of short, simple sentences creates tension or urgency in a passage",
         "Analyse why an author uses a list of three (tricolon) in a persuasive text and evaluate its impact",
@@ -1995,7 +1995,7 @@
       "description": "Discuss reading, writing, and spoken language with precise and confident use of linguistic and literary terminology — including terms for word classes, sentence types, clause types, literary devices, and text-level features",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.1147540983606557,
+      "centrality": 0.08743169398907104,
       "evidence": [
         "Use terms like 'subordinate clause', 'relative pronoun', 'metaphor', 'alliteration' accurately in discussion",
         "Explain the difference between a simile and a metaphor using correct terminology",
@@ -2085,7 +2085,7 @@
       "description": "Understand and use active and passive voice deliberately, and recognise verb moods (indicative, imperative, subjunctive, conditional) and their effects — choosing the appropriate voice and mood for purpose and audience",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.1024590163934426,
+      "centrality": 0.07513661202185792,
       "evidence": [
         "Rewrite an active sentence in the passive voice and explain when the passive is more appropriate",
         "Identify the subjunctive mood in a formal text (e.g., 'If I were...', 'It is essential that he be...')",
@@ -2130,7 +2130,7 @@
       "description": "Form capital letters correctly; print many upper- and lowercase letters legibly",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.05327868852459016,
+      "centrality": 0.0546448087431694,
       "evidence": [
         "Write all 26 capital letters with correct formation",
         "Distinguish between uppercase and lowercase forms in own writing",
@@ -2171,7 +2171,7 @@
       "description": "Form digits 0-9 correctly and legibly",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.5887978142076503,
+      "centrality": 0.5669398907103825,
       "evidence": [
         "Write all digits 0-9 clearly with correct starting points",
         "Form digits the appropriate size relative to letter height",
@@ -2191,7 +2191,7 @@
       "description": "Begin to join letters using diagonal and horizontal strokes, understanding which letter pairs are best left unjoined, forming letters of correct size relative to one another",
       "ageRangeStart": 6,
       "ageRangeEnd": 10,
-      "centrality": 0.05327868852459016,
+      "centrality": 0.0546448087431694,
       "evidence": [
         "Join 'in', 'un', 'it' with a diagonal stroke connecting the letters",
         "Leave letters like 'b' unjoined when followed by certain letters, explaining why",
@@ -2859,7 +2859,7 @@
       "description": "Identify characters, settings, and major events in stories; become familiar with key stories, fairy tales, and traditional tales and retell them with key details in sequence",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.1530054644808743,
+      "centrality": 0.157103825136612,
       "evidence": [
         "Name the main characters in a story",
         "Describe where and when a story takes place",
@@ -2983,7 +2983,7 @@
       "description": "Listen to and discuss poems, stories, and non-fiction at a level beyond independent reading; confirm understanding of texts read aloud by asking and answering questions about key details",
       "ageRangeStart": 5,
       "ageRangeEnd": 10,
-      "centrality": 0.25,
+      "centrality": 0.2540983606557377,
       "evidence": [
         "Answer questions about a story or non-fiction text read aloud by the teacher",
         "Discuss events, characters, or ideas from chapter books read to the class",
@@ -4420,7 +4420,7 @@
       "description": "Ask relevant questions to extend understanding; ask and answer questions to seek help, get information, or clarify something not understood",
       "ageRangeStart": 4,
       "ageRangeEnd": 11,
-      "centrality": 0.07103825136612021,
+      "centrality": 0.07240437158469945,
       "evidence": [
         "Ask a question when something is unclear or more information is needed",
         "Answer questions with relevant and specific information",
@@ -4446,7 +4446,7 @@
       "description": "Describe familiar people, places, things, and events with detail; speak audibly and express thoughts, feelings, and ideas clearly; give well-structured descriptions and explanations",
       "ageRangeStart": 4,
       "ageRangeEnd": 8,
-      "centrality": 0.1557377049180328,
+      "centrality": 0.1598360655737705,
       "evidence": [
         "Describe a familiar person or place using several details",
         "Speak clearly and loudly enough for the whole group to hear",
@@ -4475,7 +4475,7 @@
       "description": "Use spoken language to develop understanding through speculating, hypothesising, imagining, and exploring ideas; use strategies to build vocabulary through talk",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.203551912568306,
+      "centrality": 0.2076502732240437,
       "evidence": [
         "Wonder aloud about possibilities (e.g. 'What if...' or 'I think it might be because...')",
         "Try out new vocabulary in conversation after hearing it in a story or lesson",
@@ -4496,7 +4496,7 @@
       "description": "Articulate and justify answers, arguments, and opinions; participate in discussions, presentations, performances, role play, and debates",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.1489071038251366,
+      "centrality": 0.1530054644808743,
       "evidence": [
         "State an opinion and give a reason (e.g. 'I think ... because ...')",
         "Participate in a class presentation or performance with confidence",
@@ -4517,7 +4517,7 @@
       "description": "Participate actively in collaborative conversations staying on topic; continue a conversation through multiple exchanges; maintain attention in discussions",
       "ageRangeStart": 4,
       "ageRangeEnd": 11,
-      "centrality": 0.1639344262295082,
+      "centrality": 0.1680327868852459,
       "evidence": [
         "Stay on topic during a conversation for multiple turns",
         "Build on what another speaker has said (e.g. 'I agree because...')",
@@ -4537,7 +4537,7 @@
       "description": "Listen and respond appropriately to adults and peers; follow agreed-upon rules for discussion such as listening to others and taking turns speaking",
       "ageRangeStart": 4,
       "ageRangeEnd": 11,
-      "centrality": 0.3005464480874317,
+      "centrality": 0.3019125683060109,
       "evidence": [
         "Demonstrate attentive listening by making eye contact and responding relevantly",
         "Follow classroom discussion rules (e.g. raise hand, wait for turn)",
@@ -5946,7 +5946,7 @@
       "description": "With teacher guidance, re-read own writing aloud to check it sounds right; listen and respond to questions and suggestions from teacher or peers to add detail, clarify meaning, and strengthen writing — this is the scaffolded beginning of writing self-evaluation, not an independent skill",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.07650273224043716,
+      "centrality": 0.05054644808743169,
       "evidence": [
         "Reread own writing and spot a missing word or unclear sentence",
         "Add a detail in response to a question (e.g. 'Can you tell me more about...?')",
@@ -5970,7 +5970,7 @@
       "description": "Say out loud what is going to be written; compose sentences orally before writing them down as preparation for independent writing",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1120218579234973,
+      "centrality": 0.116120218579235,
       "evidence": [
         "Say a complete sentence aloud before attempting to write it",
         "Rehearse a sentence orally more than once to hold it in memory",
@@ -6046,7 +6046,7 @@
       "description": "Write simple narratives by sequencing sentences to describe events in order; narrate a single event or linked events with a beginning, middle, and ending or reaction",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.09836065573770492,
+      "centrality": 0.1024590163934426,
       "evidence": [
         "Write a short story with at least three sequenced sentences",
         "Use time words like 'first', 'then', 'next' to order events",
@@ -6090,7 +6090,7 @@
       "description": "Know and use the vocabulary of the writing process — compose, plan, draft, revise, edit, proofread, genre, audience, purpose, narrative, recount, instruction, paragraph, sequence, and detail — and understand that these words describe distinct steps and decisions that all writers make, not just tasks to tick off",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.1120218579234973,
+      "centrality": 0.116120218579235,
       "evidence": [
         "Use 'compose', 'revise', and 'edit' correctly when describing the stages of writing",
         "Explain who the 'audience' is for a piece of writing and how that changes what they write",
@@ -6108,7 +6108,7 @@
       "description": "Compose informative or explanatory texts using drawing, dictating, or writing that name a topic and supply some information about it",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.06557377049180328,
+      "centrality": 0.06693989071038252,
       "evidence": [
         "Write or dictate two or three facts about a familiar topic",
         "Label diagrams or drawings with informative details",
@@ -6166,7 +6166,7 @@
       "description": "Write about real events and for different purposes, developing stamina for sustained writing across genres beyond narrative (e.g., recounts, letters, instructions)",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.08333333333333333,
+      "centrality": 0.08469945355191257,
       "evidence": [
         "Write a recount of a school trip using temporal connectives (first, then, after that)",
         "Write a simple set of instructions with numbered steps",
@@ -6216,7 +6216,7 @@
       "description": "Proof-read own writing to check for errors in spelling, grammar, and punctuation; evaluate and revise writing with teacher/peer support, re-reading to ensure meaning is clear and tense is consistent",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.0942622950819672,
+      "centrality": 0.06557377049180328,
       "evidence": [
         "Re-read own writing and spot a missing full stop or capital letter",
         "Identify and correct a tense inconsistency in a piece of writing",
@@ -6379,7 +6379,7 @@
       "description": "Evaluate and edit writing by assessing effectiveness, proposing changes to grammar and vocabulary for consistency, and proof-reading for spelling, grammar and punctuation errors at Y3-4 level",
       "ageRangeStart": 7,
       "ageRangeEnd": 11,
-      "centrality": 0.08196721311475409,
+      "centrality": 0.07377049180327869,
       "evidence": [
         "Read own or a peer's writing aloud and suggest specific improvements to vocabulary or sentence structure",
         "Propose changes to grammar and word choice to improve clarity and consistency across a piece of writing",
@@ -6410,7 +6410,7 @@
       "description": "Read back your own writing critically and independently — notice where meaning is unclear, where a word could be stronger, or where the reader might be confused; make revisions without needing teacher prompts, using your own judgment about what is and isn't working",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.07103825136612021,
+      "centrality": 0.06284153005464481,
       "evidence": [
         "Reread a paragraph silently and independently identify at least one place where meaning could be clearer or a word choice improved",
         "Make a revision that goes beyond spelling/punctuation — changing a sentence for clarity or effect",
@@ -6736,7 +6736,7 @@
       "description": "Plan, revise, and edit writing to improve coherence and effectiveness — considering how the writing reflects its intended audience and purpose, amending vocabulary, grammar, and structure, and proofreading for accurate spelling, punctuation, and grammar",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.1284153005464481,
+      "centrality": 0.1202185792349727,
       "evidence": [
         "Revise a draft to improve paragraph structure, adding or removing material for coherence",
         "Edit sentence-level issues including word choice, grammar, and punctuation before finalising",
@@ -8475,7 +8475,7 @@
       "description": "Ask for help when you've had a go yourself and are still stuck — knowing when to ask is a skill in itself",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.3114754098360656,
+      "centrality": 0.3128415300546448,
       "evidence": [
         "Hattie visible learning",
         "self-regulated learning research"
@@ -8492,7 +8492,7 @@
       "description": "After finishing a task, look back at what you did and ask yourself: does this seem right?",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1461748633879781,
+      "centrality": 0.1475409836065574,
       "evidence": [
         "After finishing a piece of work, re-read or review it without being asked to",
         "Spot and correct at least one error in their own work by checking back through it",
@@ -8510,7 +8510,7 @@
       "description": "Keep trying when something feels hard — making mistakes and trying again is how learning happens",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.25,
+      "centrality": 0.2295081967213115,
       "evidence": [
         "Keep working on a difficult task for a sustained period without giving up or asking someone else to do it",
         "After making a mistake, try again with a different approach rather than saying 'I can't do it'",
@@ -8528,7 +8528,7 @@
       "description": "Notice the feeling of not understanding — recognise when something is confusing rather than reading or listening past it",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.3114754098360656,
+      "centrality": 0.3128415300546448,
       "evidence": [
         "comprehension monitoring research",
         "Flavell metacognitive monitoring"
@@ -8563,7 +8563,7 @@
       "description": "Before starting something new, stop and think: what do I already know about this topic?",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.2021857923497268,
+      "centrality": 0.1816939890710383,
       "evidence": [
         "prior knowledge activation research",
         "Ausubel meaningful learning"
@@ -8580,7 +8580,7 @@
       "description": "Look for connections between new ideas and things you already know — how does this fit with what I've learned before?",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1297814207650273,
+      "centrality": 0.1038251366120219,
       "evidence": [
         "elaborative encoding",
         "schema theory (Bartlett, Rumelhart)"
@@ -8615,7 +8615,7 @@
       "description": "After learning something new, explain it in your own words — to yourself, a family member, or even a toy",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1612021857923497,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Explain a concept they've learned to someone else in their own words, not just repeating what the teacher said",
         "After teaching something to a friend or sibling, identify a gap in their own understanding that they only noticed through explaining",
@@ -8703,7 +8703,7 @@
       "description": "Go beyond knowing *that* something is true — ask *why* it is true and *how* it works",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1243169398907104,
+      "centrality": 0.09836065573770492,
       "evidence": [
         "Ask 'why?' or 'how does that work?' about something they've been told, rather than just accepting it",
         "Explain the reason behind a rule or method — e.g. 'We carry the ten because 13 ones is the same as 1 ten and 3 ones'",
@@ -9478,7 +9478,7 @@
       "description": "Understand addition as combining or putting together two groups to find the total",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.5437158469945356,
+      "centrality": 0.5218579234972678,
       "evidence": [
         "Model 'putting together' with physical objects and say the total",
         "Act out an 'add to' situation (e.g. 3 children arrive, then 2 more join)",
@@ -9499,7 +9499,7 @@
       "description": "Find the number that makes 10 when added to a given number from 1 to 9 (number bonds to 10)",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2609289617486339,
+      "centrality": 0.2404371584699453,
       "evidence": [
         "Given 7, respond '3' to make 10",
         "Use a ten-frame to find the complement to 10",
@@ -9520,7 +9520,7 @@
       "description": "Decompose numbers up to 10 into pairs in more than one way (part-part-whole)",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2609289617486339,
+      "centrality": 0.2404371584699453,
       "evidence": [
         "Show that 5 = 1 + 4, 5 = 2 + 3, 5 = 0 + 5 etc.",
         "Use objects or drawings to find all pairs that make a given number",
@@ -9562,7 +9562,7 @@
       "description": "Understand subtraction as taking away or separating from a group to find how many remain",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.6502732240437158,
+      "centrality": 0.6284153005464481,
       "evidence": [
         "Model 'taking away' with physical objects and say how many remain",
         "Act out a 'take from' situation (e.g. 5 biscuits, eat 2, how many left?)",
@@ -9664,7 +9664,7 @@
       "description": "Read, write, and interpret the symbols +, −, and = in number sentences",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.3770491803278688,
+      "centrality": 0.3551912568306011,
       "evidence": [
         "Read 3 + 2 = 5 aloud as 'three plus two equals five'",
         "Write a number sentence to match a concrete addition situation",
@@ -9806,7 +9806,7 @@
       "description": "Understand and apply the commutative property of addition: addends can be added in any order",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1557377049180328,
+      "centrality": 0.1352459016393443,
       "evidence": [
         "Explain that 3 + 8 gives the same answer as 8 + 3",
         "Use commutativity to choose the larger number to count on from",
@@ -10009,7 +10009,7 @@
       "description": "Understand the meaning of the equal sign as 'is the same as' and determine if equations are true or false",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1666666666666667,
+      "centrality": 0.1461748633879781,
       "evidence": [
         "Explain that 6 = 6 is true because both sides are the same",
         "Determine that 4 + 1 = 5 + 2 is false",
@@ -10494,7 +10494,7 @@
       "description": "Understand positive and negative numbers as describing quantities with opposite directions or values; use them in context such as temperature, floors in a building, and bank balances",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.05054644808743169,
+      "centrality": 0.04918032786885246,
       "evidence": [
         "Represent positive and negative numbers on a number line and explain what zero means in context",
         "Add a positive or negative number to any integer using number line reasoning",
@@ -10602,7 +10602,7 @@
       "description": "Use simple formulae expressed in words or symbols to calculate values (e.g. perimeter = 2 × (length + width))",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1256830601092896,
+      "centrality": 0.1243169398907104,
       "evidence": [
         "Substitute values into P = 2(l + w) to find the perimeter of a rectangle",
         "Use the formula for area of a triangle (A = 1/2 × b × h) given base and height values",
@@ -10622,7 +10622,7 @@
       "description": "Express missing number problems algebraically using letters for unknowns; translate word problems into equations",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1243169398907104,
+      "centrality": 0.1229508196721311,
       "evidence": [
         "Write 'I think of a number, double it, and add 5 to get 17' as 2n + 5 = 17",
         "Solve a one-step equation such as 3x = 24 and explain the reasoning",
@@ -10642,7 +10642,7 @@
       "description": "Use and interpret algebraic notation including: ab for a × b, 3y for y + y + y, a² for a × a, a/b for a ÷ b, coefficients as fractions, and brackets for grouping; read and write algebraic expressions fluently",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1229508196721311,
+      "centrality": 0.1215846994535519,
       "evidence": [
         "Read and interpret expressions using standard algebraic conventions for multiplication, division, and powers",
         "Write algebraic expressions from word descriptions using correct notation",
@@ -10670,7 +10670,7 @@
       "description": "Model situations or procedures by translating them into algebraic expressions or formulae and by using graphs; move between word problems, algebraic representations, tables, and graphical representations",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.1147540983606557,
+      "centrality": 0.1133879781420765,
       "evidence": [
         "Translate a word problem or real-world situation into an algebraic expression or formula",
         "Construct a table of values from an algebraic rule",
@@ -10691,7 +10691,7 @@
       "description": "Simplify algebraic expressions by collecting like terms — combine terms with the same variable and power (e.g., 3a + 2b + 5a = 8a + 2b) while maintaining equivalence",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1188524590163934,
+      "centrality": 0.1174863387978142,
       "evidence": [
         "Identify like terms in an algebraic expression",
         "Combine like terms involving positive and negative coefficients",
@@ -10713,7 +10713,7 @@
       "description": "Plot and read coordinates in all four quadrants of the Cartesian plane, using positive and negative x- and y-values to describe positions precisely",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.133879781420765,
+      "centrality": 0.1325136612021858,
       "evidence": [
         "Plot points with negative coordinates accurately in all four quadrants",
         "Identify the quadrant a point belongs to from its coordinate signs",
@@ -10734,7 +10734,7 @@
       "description": "Expand (multiply out) a single term over a bracket using the distributive property, e.g., 3(2x + 5) = 6x + 15; expand expressions involving negative multipliers",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.1188524590163934,
+      "centrality": 0.1174863387978142,
       "evidence": [
         "Multiply a single positive term over a bracket to expand the expression",
         "Multiply a negative term over a bracket, correctly handling signs",
@@ -10756,7 +10756,7 @@
       "description": "Understand and use the concepts and vocabulary of expressions, equations, inequalities, terms, and factors; distinguish between an expression (no equals sign), an equation (equals sign), and an inequality (inequality sign)",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1188524590163934,
+      "centrality": 0.1174863387978142,
       "evidence": [
         "Define and distinguish between expression, equation, and inequality",
         "Identify terms, coefficients, and factors in algebraic expressions",
@@ -10822,7 +10822,7 @@
       "description": "Use algebraic methods to solve linear equations in one variable, including equations that require rearrangement, expanding brackets, and collecting terms on both sides; solve equations with rational number coefficients",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.1215846994535519,
+      "centrality": 0.1202185792349727,
       "evidence": [
         "Solve one-step and two-step linear equations in one variable",
         "Solve equations requiring expansion of brackets and collection of like terms",
@@ -10848,7 +10848,7 @@
       "description": "Substitute numerical values into formulae and expressions including scientific formulae; evaluate expressions by replacing variables with given values and computing the result using correct order of operations",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1147540983606557,
+      "centrality": 0.1133879781420765,
       "evidence": [
         "Substitute positive and negative values into algebraic expressions and evaluate",
         "Substitute values into formulae involving multiple operations and powers",
@@ -10890,7 +10890,7 @@
       "description": "Recognise that a linear function produces a straight-line graph, understand the relationship between an equation of the form y = mx + c and its graphical representation, and interpret gradient and y-intercept in context",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.2062841530054645,
+      "centrality": 0.2049180327868853,
       "evidence": [
         "Explain that changing m in y = mx + c alters the steepness and direction of the line",
         "Identify the y-intercept of a line from its equation and from its graph",
@@ -10959,7 +10959,7 @@
       "description": "Understand and use standard mathematical formulae; rearrange formulae to change the subject, performing inverse operations to isolate a different variable",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1092896174863388,
       "evidence": [
         "Identify the subject of a given formula",
         "Use inverse operations to rearrange a formula to make a different variable the subject",
@@ -11087,7 +11087,7 @@
       "description": "Cardinality principle: the last number said when counting a set tells how many objects are in the set, regardless of arrangement or order counted",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.9699453551912568,
+      "centrality": 0.9672131147540983,
       "evidence": [
         "After counting a set, answer 'how many?' with the last number stated",
         "Understand that rearranging objects does not change the count",
@@ -11150,7 +11150,7 @@
       "description": "Represent numbers using objects, pictorial representations, and the number line",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.04781420765027322,
+      "centrality": 0.04644808743169399,
       "evidence": [
         "Show a given number using counters, cubes, or fingers",
         "Draw a pictorial representation of a quantity (e.g. tally marks, dots)",
@@ -11170,7 +11170,7 @@
       "description": "Count in multiples of 2, 5, and 10 (skip counting)",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.383879781420765,
+      "centrality": 0.3825136612021858,
       "evidence": [
         "Count 2, 4, 6, 8 … up to at least 20",
         "Count 5, 10, 15, 20 … up to at least 50",
@@ -11212,7 +11212,7 @@
       "description": "Rote count forwards and backwards from 0 to 100, beginning from 0, 1, or any given number, by ones",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.4617486338797814,
+      "centrality": 0.4644808743169399,
       "evidence": [
         "Recite the number sequence 1–100 without skipping or repeating",
         "Count backward from 20 to 0",
@@ -11234,7 +11234,7 @@
       "description": "Compare two written numerals between 1 and 10 to determine which is greater or less",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1325136612021858,
+      "centrality": 0.1311475409836066,
       "evidence": [
         "Given two written numerals (e.g. 4 and 7), identify which is greater",
         "Correctly use > and < or 'greater than' / 'less than' to compare single-digit numerals"
@@ -11293,7 +11293,7 @@
       "description": "Count within 1000, including skip-counting by 5s, 10s, and 100s",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Count forwards and backwards within 1000 from any starting number",
         "Skip-count by 5s from any multiple of 5 to 1000",
@@ -11313,7 +11313,7 @@
       "description": "Count from 0 in multiples of 4, 8, 50, and 100",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1898907103825136,
+      "centrality": 0.1885245901639344,
       "evidence": [
         "Recite the multiples of 4 from 0 to at least 48",
         "Recite the multiples of 8 from 0 to at least 96",
@@ -11333,7 +11333,7 @@
       "description": "Count in multiples of 6, 7, 9, 25, and 1000",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1721311475409836,
+      "centrality": 0.1707650273224044,
       "evidence": [
         "Recite the multiples of 6 from 0 to at least 72",
         "Recite the multiples of 7 from 0 to at least 84",
@@ -11353,7 +11353,7 @@
       "description": "Classify objects into given categories, count the number in each category, and sort the categories by count",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1721311475409836,
+      "centrality": 0.1734972677595628,
       "evidence": [
         "Sort a set of shapes by colour and count how many in each group",
         "Sort objects by size (big/small) and state how many in each category",
@@ -11373,7 +11373,7 @@
       "description": "Interpret and construct simple pictograms, tally charts, block diagrams, and simple tables",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.1475409836065574,
+      "centrality": 0.1489071038251366,
       "evidence": [
         "Read a pictogram where each symbol represents one item",
         "Construct a tally chart from collected data",
@@ -11394,7 +11394,7 @@
       "description": "Read, write, and use the vocabulary of data collection and display — data, tally, tally chart, frequency, frequency table, survey, pictogram, bar chart, axis/axes, scale, label, category, discrete data, continuous data, line graph, pie chart — and apply these terms when collecting, organising, and presenting data",
       "ageRangeStart": 6,
       "ageRangeEnd": 9,
-      "centrality": 0.157103825136612,
+      "centrality": 0.1584699453551913,
       "evidence": [
         "Correctly label the axes of a bar chart including a title, axis labels, and scale",
         "Distinguish between discrete data (counted) and continuous data (measured) with an example of each",
@@ -11412,7 +11412,7 @@
       "description": "Organise and represent data with up to three categories by counting objects in each category and sorting categories by quantity",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.1625683060109289,
+      "centrality": 0.1639344262295082,
       "evidence": [
         "Sort a set of objects into 2-3 given categories and count each group",
         "Create a simple table or list showing category names and counts",
@@ -11744,7 +11744,7 @@
       "description": "Recognise, find, and name a quarter as one of four equal parts of an object, shape, or quantity",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.2595628415300547,
+      "centrality": 0.2581967213114754,
       "evidence": [
         "Fold a shape into four equal parts and identify each as 'a quarter'",
         "Find a quarter of 12 objects by sharing into 4 equal groups",
@@ -11764,7 +11764,7 @@
       "description": "Recognise, find, and name a half as one of two equal parts of an object, shape, or quantity",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.3469945355191257,
+      "centrality": 0.3456284153005464,
       "evidence": [
         "Fold a shape into two equal parts and identify each as 'a half'",
         "Find half of 8 objects by sharing into 2 equal groups",
@@ -11784,7 +11784,7 @@
       "description": "Understand that decomposing a shape into more equal shares creates smaller shares",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.2158469945355191,
+      "centrality": 0.2144808743169399,
       "evidence": [
         "Explain that a quarter of a pizza is smaller than a half of the same pizza",
         "Demonstrate that fourths are smaller pieces than halves",
@@ -11804,7 +11804,7 @@
       "description": "Read, write, and use fraction notation correctly — fraction, numerator, denominator, unit fraction, non-unit fraction, proper fraction, improper fraction, mixed number, equivalent fraction, simplest form — and understand what each term describes, including the roles of the numerator and denominator in expressing parts of a whole",
       "ageRangeStart": 6,
       "ageRangeEnd": 9,
-      "centrality": 0.2486338797814208,
+      "centrality": 0.2472677595628415,
       "evidence": [
         "Point to and name the numerator and denominator in any given fraction and explain what each tells you",
         "Correctly classify fractions as unit, proper, improper, or mixed number with an example of each",
@@ -11822,7 +11822,7 @@
       "description": "Recognise, find, name, and write fractions 1/3, 1/4, 2/4, and 3/4 of a length, shape, set of objects, or quantity",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.2568306010928962,
+      "centrality": 0.2554644808743169,
       "evidence": [
         "Find 1/3 of 12 objects by sharing into 3 equal groups",
         "Shade 3/4 of a rectangle that has been divided into 4 equal parts",
@@ -11842,7 +11842,7 @@
       "description": "Partition circles and rectangles into two and four equal shares and describe them using the words halves, fourths, and quarters",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.2158469945355191,
+      "centrality": 0.2144808743169399,
       "evidence": [
         "Divide a circle into two equal halves",
         "Divide a rectangle into four equal quarters",
@@ -11862,7 +11862,7 @@
       "description": "Write simple fractions (e.g. 1/2 of 6 = 3) and recognise the equivalence of 2/4 and 1/2",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1953551912568306,
+      "centrality": 0.1939890710382514,
       "evidence": [
         "Write 1/2 of 10 = 5",
         "Explain that 2/4 is the same as 1/2 using a diagram",
@@ -11922,7 +11922,7 @@
       "description": "Recognise and show, using diagrams, equivalent fractions with small denominators",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.2008196721311475,
+      "centrality": 0.1994535519125683,
       "evidence": [
         "Show that 1/2 = 2/4 using a diagram of equal parts",
         "Use a fraction wall or bar model to find equivalent fractions",
@@ -11942,7 +11942,7 @@
       "description": "Recognise and use fractions as numbers: place unit fractions and non-unit fractions with small denominators on a number line",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.226775956284153,
+      "centrality": 0.2254098360655738,
       "evidence": [
         "Place 1/2, 1/4, 3/4 on a number line from 0 to 1",
         "Identify that 1/3 lies between 0 and 1/2 on the number line",
@@ -11962,7 +11962,7 @@
       "description": "Add and subtract fractions with the same denominator within one whole (e.g. 5/7 + 1/7 = 6/7)",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.07103825136612021,
+      "centrality": 0.06967213114754098,
       "evidence": [
         "Calculate 2/5 + 2/5 = 4/5",
         "Calculate 6/8 − 3/8 = 3/8",
@@ -11982,7 +11982,7 @@
       "description": "Partition circles and rectangles into two, three, or four equal shares; describe shares as halves, thirds, and fourths; recognise that equal shares of identical wholes need not have the same shape",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.2076502732240437,
+      "centrality": 0.2062841530054645,
       "evidence": [
         "Partition a circle into 3 equal parts and label each 'a third'",
         "Partition a rectangle into 4 equal shares in more than one way",
@@ -12002,7 +12002,7 @@
       "description": "Count up and down in tenths; recognise that tenths arise from dividing an object into 10 equal parts and from dividing one-digit numbers or quantities by 10",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.2418032786885246,
+      "centrality": 0.2404371584699453,
       "evidence": [
         "Count: one tenth, two tenths, three tenths … up to ten tenths (one whole)",
         "Show that dividing a shape into 10 equal parts gives tenths",
@@ -12042,7 +12042,7 @@
       "description": "Add and subtract fractions with the same denominator, including results greater than one whole (e.g. 5/8 + 6/8 = 11/8)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.06420765027322405,
+      "centrality": 0.06284153005464481,
       "evidence": [
         "Calculate 3/5 + 4/5 = 7/5 and explain it equals 1 2/5",
         "Subtract 2/6 from 5/6",
@@ -12082,7 +12082,7 @@
       "description": "Recognise and write decimal equivalents of any number of tenths or hundredths (e.g. 3/10 = 0.3, 27/100 = 0.27)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1352459016393443,
+      "centrality": 0.133879781420765,
       "evidence": [
         "Write 7/10 as 0.7 and vice versa",
         "Convert 45/100 to 0.45",
@@ -12102,7 +12102,7 @@
       "description": "Read, write, and use decimal and percentage notation correctly — decimal, decimal point, tenths, hundredths, thousandths, percentage, per cent, % symbol, convert, terminating decimal — and understand the relationships between fractions, decimals, and percentages as three ways of expressing the same value",
       "ageRangeStart": 8,
       "ageRangeEnd": 11,
-      "centrality": 0.1188524590163934,
+      "centrality": 0.1174863387978142,
       "evidence": [
         "Read and write decimal numbers correctly, identifying the value of each digit (ones, tenths, hundredths)",
         "Use the % symbol correctly and explain that per cent means 'out of 100'",
@@ -12140,7 +12140,7 @@
       "description": "Compare numbers with the same number of decimal places up to two decimal places",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.07240437158469945,
+      "centrality": 0.07103825136612021,
       "evidence": [
         "Order 0.45, 0.54, 0.39 from smallest to largest",
         "Compare 3.72 and 3.27 using place-value reasoning",
@@ -12180,7 +12180,7 @@
       "description": "Find the effect of dividing a one- or two-digit number by 10 and 100, identifying the value of the digits as ones, tenths, and hundredths",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.06693989071038252,
+      "centrality": 0.06557377049180328,
       "evidence": [
         "Calculate 37 ÷ 10 = 3.7 and identify 3 as ones and 7 as tenths",
         "Calculate 4 ÷ 100 = 0.04 and identify 4 as hundredths",
@@ -12200,7 +12200,7 @@
       "description": "Generate simple equivalent fractions and explain why they are equivalent using visual fraction models",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.203551912568306,
+      "centrality": 0.2021857923497268,
       "evidence": [
         "Given 1/3, generate 2/6 as equivalent and show with area model",
         "Simplify 4/8 to 1/2 and justify with a fraction strip",
@@ -12220,7 +12220,7 @@
       "description": "Understand two fractions as equivalent if they are the same size or the same point on a number line; recognise and show families of common equivalent fractions using diagrams",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.2076502732240437,
+      "centrality": 0.2062841530054645,
       "evidence": [
         "Use fraction strips to show 1/2 = 2/4 = 3/6",
         "Verify on a number line that 2/3 and 4/6 land on the same point",
@@ -12241,7 +12241,7 @@
       "description": "Recognise and write decimal equivalents of 1/4, 1/2, and 3/4",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.08333333333333333,
+      "centrality": 0.08196721311475409,
       "evidence": [
         "State that 1/2 = 0.5, 1/4 = 0.25, 3/4 = 0.75",
         "Match fractions to decimals in a sorting activity",
@@ -12301,7 +12301,7 @@
       "description": "Understand a fraction 1/b as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a/b as a parts of size 1/b",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.2103825136612022,
+      "centrality": 0.209016393442623,
       "evidence": [
         "Given a shape divided into 5 equal parts, identify one shaded part as 1/5",
         "Explain that 3/4 means 3 parts each of size 1/4",
@@ -12321,7 +12321,7 @@
       "description": "Express whole numbers as fractions (e.g. 3 = 3/1) and recognise fractions equivalent to whole numbers (e.g. 4/4 = 1, 6/1 = 6)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.04508196721311476,
+      "centrality": 0.04371584699453552,
       "evidence": [
         "Write 5 as 5/1 and explain why",
         "Locate 4/4 and 1 at the same point on a number line",
@@ -12341,7 +12341,7 @@
       "description": "Represent fractions on a number line: partition the interval 0 to 1 into b equal parts to locate 1/b, then mark off a lengths of 1/b from 0 to locate a/b",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1980874316939891,
+      "centrality": 0.1967213114754098,
       "evidence": [
         "Partition a 0-to-1 number line into 4 equal parts and mark 1/4",
         "Explain that each part on the line has size 1/b",
@@ -12365,7 +12365,7 @@
       "description": "Count up and down in hundredths; recognise that hundredths arise when dividing an object by 100 or dividing tenths by 10",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1352459016393443,
+      "centrality": 0.133879781420765,
       "evidence": [
         "Count from 3/100 to 12/100 in hundredths",
         "Explain that 1/10 ÷ 10 = 1/100",
@@ -12405,7 +12405,7 @@
       "description": "Add and subtract fractions with denominators that are multiples of the same number by finding a common denominator",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.06967213114754098,
+      "centrality": 0.06830601092896176,
       "evidence": [
         "Calculate 1/3 + 1/6 by converting to sixths: 2/6 + 1/6 = 3/6 = 1/2",
         "Calculate 3/4 − 1/8 by converting to eighths",
@@ -12445,7 +12445,7 @@
       "description": "Compare two decimals to hundredths (or up to three decimal places) by reasoning about size using place-value understanding; record with >, =, <",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09836065573770492,
+      "centrality": 0.09699453551912568,
       "evidence": [
         "Compare 0.45 and 0.405 and explain which is greater",
         "Order 3.142, 3.14, 3.2 from smallest to largest",
@@ -12487,7 +12487,7 @@
       "description": "Express a fraction with denominator 10 as an equivalent fraction with denominator 100 and use this to add fractions with denominators 10 and 100 (e.g. 3/10 + 4/100 = 34/100)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.139344262295082,
+      "centrality": 0.1379781420765027,
       "evidence": [
         "Rewrite 7/10 as 70/100",
         "Calculate 3/10 + 4/100 = 34/100",
@@ -12527,7 +12527,7 @@
       "description": "Use decimal notation for fractions with denominators 10 or 100; read and write decimal numbers as fractions (e.g. 0.62 = 62/100, 0.71 = 71/100)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1420765027322404,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Rewrite 0.62 as 62/100",
         "Write 3/10 as 0.3 and locate on a number line",
@@ -12568,7 +12568,7 @@
       "description": "Explain why a fraction a/b is equivalent to (n×a)/(n×b) using visual models; use this principle to recognise and generate equivalent fractions, including tenths and hundredths",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.2021857923497268,
+      "centrality": 0.2008196721311475,
       "evidence": [
         "Use a fraction strip to show 2/3 = 4/6 = 6/9",
         "Explain that multiplying numerator and denominator by the same number gives an equivalent fraction because the size of the whole is unchanged",
@@ -12589,7 +12589,7 @@
       "description": "Understand addition and subtraction of fractions as joining and separating parts; decompose a fraction into a sum of fractions with the same denominator in more than one way",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Show that 3/8 = 1/8 + 1/8 + 1/8 and also 3/8 = 1/8 + 2/8",
         "Write two different decompositions of 5/6",
@@ -12630,7 +12630,7 @@
       "description": "Recognise mixed numbers and improper fractions; convert from one form to the other (e.g. 2/5 + 4/5 = 6/5 = 1 1/5)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.04644808743169399,
+      "centrality": 0.04508196721311476,
       "evidence": [
         "Convert 11/4 to 2 3/4",
         "Convert 3 2/5 to 17/5",
@@ -12650,7 +12650,7 @@
       "description": "Understand a/b as a multiple of 1/b; multiply proper fractions and mixed numbers by whole numbers, supported by visual models (e.g. 3 × 2/5 = 6/5 = 1 1/5)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09289617486338798,
+      "centrality": 0.09153005464480875,
       "evidence": [
         "Calculate 4 × 3/8 using repeated addition or the rule n × a/b = (n×a)/b",
         "Multiply 2 1/3 × 3 and express as a mixed number",
@@ -12673,7 +12673,7 @@
       "description": "Solve problems requiring knowledge of percentage and decimal equivalents of 1/2, 1/4, 1/5, 2/5, 4/5 and fractions with denominators that are multiples of 10 or 25",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09016393442622951,
+      "centrality": 0.08879781420765027,
       "evidence": [
         "State that 1/5 = 20% = 0.2 and use this to find 20% of 60",
         "Convert 3/4 to 75% and to 0.75",
@@ -12693,7 +12693,7 @@
       "description": "Recognise and use thousandths; relate them to tenths, hundredths, and their decimal equivalents (e.g. 1/1000 = 0.001, 35/1000 = 0.035)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1188524590163934,
+      "centrality": 0.1174863387978142,
       "evidence": [
         "Write 0.025 as 25/1000",
         "Explain that 1 tenth = 100 thousandths",
@@ -12713,7 +12713,7 @@
       "description": "Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1079234972677596,
+      "centrality": 0.1065573770491803,
       "evidence": [
         "Express 5/8 as a sum of five copies of 1/8",
         "Show on a number line how 4/3 is built by iterating 1/3 four times",
@@ -12733,7 +12733,7 @@
       "description": "Understand the per cent symbol (%); know that per cent means ‘number of parts per hundred’; write percentages as a fraction with denominator 100 and as a decimal",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.09016393442622951,
+      "centrality": 0.08879781420765027,
       "evidence": [
         "Write 35% as 35/100 and as 0.35",
         "Shade 40% of a 10×10 grid and write the fraction 40/100",
@@ -12753,7 +12753,7 @@
       "description": "Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivalent fractions to produce a common denominator",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.08879781420765027,
+      "centrality": 0.08743169398907104,
       "evidence": [
         "Compute 2/3 + 5/4 by converting to twelfths: 8/12 + 15/12 = 23/12",
         "Subtract 1 3/5 from 3 1/4 using a common denominator",
@@ -12814,7 +12814,7 @@
       "description": "Associate a fraction with division and calculate decimal fraction equivalents for simple fractions (e.g. 3/8 = 0.375); recall and use equivalences between simple fractions, decimals, and percentages in different contexts",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1461748633879781,
+      "centrality": 0.1448087431693989,
       "evidence": [
         "Convert 3/8 to 0.375 by dividing 3 ÷ 8",
         "State that 1/5 = 0.2 = 20% from memory",
@@ -12898,7 +12898,7 @@
       "description": "Interpret a fraction as division of the numerator by the denominator (a/b = a ÷ b); solve word problems involving division of whole numbers leading to fractional or mixed-number answers",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1311475409836066,
+      "centrality": 0.1297814207650273,
       "evidence": [
         "Explain that 3/4 means 3 ÷ 4 and verify by showing 3/4 × 4 = 3",
         "Solve: '9 people share a 50-pound sack equally — how many pounds each?' and express the answer as 5 5/9",
@@ -12961,7 +12961,7 @@
       "description": "Multiply a fraction or whole number by a fraction, including proper fractions by proper fractions; interpret (a/b) × q as a parts of q partitioned into b equal parts; write answers in simplest form",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.09972677595628415,
       "evidence": [
         "Compute (2/3) × (4/5) = 8/15 and show with an area model",
         "Use a visual model to demonstrate (2/3) × 4 = 8/3 = 2 2/3",
@@ -13003,7 +13003,7 @@
       "description": "Use common factors to simplify fractions to their simplest form; use common multiples to express fractions with a common denominator",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1120218579234973,
+      "centrality": 0.110655737704918,
       "evidence": [
         "Simplify 18/24 to 3/4 by identifying the HCF of 18 and 24",
         "Express 2/3 and 5/8 with a common denominator of 24",
@@ -13151,7 +13151,7 @@
       "description": "Describe the position of objects using terms such as above, below, beside, in front of, behind, next to",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.1516393442622951,
+      "centrality": 0.1502732240437158,
       "evidence": [
         "Describe a toy as being 'on top of' the table",
         "Follow instructions like 'put the cube behind the box'",
@@ -13252,7 +13252,7 @@
       "description": "Describe movement and direction, including whole, half, quarter, and three-quarter turns",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1543715846994536,
+      "centrality": 0.1530054644808743,
       "evidence": [
         "Follow instructions to move forward, backward, turn left/right",
         "Demonstrate a whole turn, half turn, and quarter turn with their body",
@@ -13412,7 +13412,7 @@
       "description": "Use mathematical vocabulary to describe position, direction, and movement, including straight lines and distinguishing rotation as a turn in terms of right angles (quarter, half, three-quarter turns, clockwise and anti-clockwise)",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1543715846994536,
+      "centrality": 0.1530054644808743,
       "evidence": [
         "Use terms such as clockwise, anti-clockwise, quarter turn, half turn, three-quarter turn",
         "Describe a right angle as a quarter turn",
@@ -13432,7 +13432,7 @@
       "description": "Compare and sort common 2-D and 3-D shapes and everyday objects by their properties",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.009562841530054645,
+      "centrality": 0.00819672131147541,
       "evidence": [
         "Sort a collection of 2-D shapes by number of sides",
         "Sort 3-D shapes by number of faces or whether faces are flat/curved",
@@ -13472,7 +13472,7 @@
       "description": "Identify horizontal and vertical lines and pairs of perpendicular and parallel lines",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.08196721311475409,
+      "centrality": 0.08060109289617487,
       "evidence": [
         "Point out horizontal and vertical lines in shapes and real-world contexts",
         "Identify a pair of parallel lines (lines that never meet and are always the same distance apart)",
@@ -13492,7 +13492,7 @@
       "description": "Recognise and draw shapes having specified attributes (e.g. a given number of angles or equal faces); identify triangles, quadrilaterals, pentagons, hexagons, and cubes",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.07650273224043716,
+      "centrality": 0.07513661202185792,
       "evidence": [
         "Draw a shape with exactly 5 sides (pentagon)",
         "Identify all quadrilaterals in a set of mixed shapes",
@@ -13512,7 +13512,7 @@
       "description": "Identify right angles; recognise that two right angles make a half-turn, three make three-quarters, and four make a complete turn",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1420765027322404,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Use a right-angle checker to identify right angles in shapes and the environment",
         "Classify angles as right angles, less than a right angle, or greater than a right angle",
@@ -13532,7 +13532,7 @@
       "description": "Recognise angles as a property of shape or a description of a turn",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1407103825136612,
+      "centrality": 0.139344262295082,
       "evidence": [
         "Identify angles at the corners of 2-D shapes",
         "Describe a turn (e.g. quarter turn, half turn) in terms of the angle made",
@@ -13576,7 +13576,7 @@
       "description": "Understand that shapes in different categories may share attributes defining a larger category; classify quadrilaterals (rhombuses, rectangles, squares) and draw examples of quadrilaterals not in those subcategories",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.07650273224043716,
+      "centrality": 0.07513661202185792,
       "evidence": [
         "Explain that a square is a special rectangle and also a special rhombus",
         "Sort shapes into a Venn diagram: quadrilaterals vs rectangles vs squares",
@@ -13597,7 +13597,7 @@
       "description": "Plot specified points on a coordinate grid and draw sides to complete a given polygon",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.05191256830601093,
+      "centrality": 0.05054644808743169,
       "evidence": [
         "Plot points (1,1), (1,4), (5,4), (5,1) and join to make a rectangle",
         "Given three vertices of a square, plot the fourth vertex",
@@ -13637,7 +13637,7 @@
       "description": "Describe positions on a 2-D grid as coordinates in the first quadrant",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Read the coordinates of a point on a grid as (3, 5)",
         "Explain that the first number is the horizontal distance and the second is the vertical distance",
@@ -13677,7 +13677,7 @@
       "description": "Identify, draw, and interpret nets of common 3-D shapes — cubes, cuboids, triangular prisms, and square-based pyramids — by predicting which 3-D shape a given flat arrangement of faces will fold into, checking whether a net will close completely, and sketching a net from a description or 3-D model; understand the relationship between the number of faces and the structure of the net",
       "ageRangeStart": 8,
       "ageRangeEnd": 11,
-      "centrality": 0.0273224043715847,
+      "centrality": 0.03278688524590164,
       "evidence": [
         "Draw the net of a cube, cuboid, or triangular prism and fold it mentally to identify which faces connect",
         "Build a 3-D shape from its net and check that all faces, edges, and vertices match",
@@ -13695,7 +13695,7 @@
       "description": "Represent and carry out geometric transformations on squared paper or a coordinate grid: reflections (in horizontal, vertical, and diagonal mirror lines, including the axes), translations (described as a vector or as left/right/up/down moves), and rotations (90° or 180° about a stated centre point); describe each transformation precisely using the correct language; identify which transformation maps one shape onto its image by comparing position, orientation, and size",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
-      "centrality": 0.0314207650273224,
+      "centrality": 0.03005464480874317,
       "evidence": [
         "Reflect a shape in a given mirror line on a grid and label the new coordinates",
         "Translate a shape by a given number of squares horizontally and vertically and describe the movement",
@@ -13713,7 +13713,7 @@
       "description": "Identify acute and obtuse angles; compare and order angles up to two right angles by size",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.1366120218579235,
       "evidence": [
         "Classify given angles as acute, right, or obtuse",
         "Order four angles from smallest to largest by visual comparison",
@@ -13733,7 +13733,7 @@
       "description": "Use and interpret standard geometric diagram conventions: mark right angles with a small square, equal lengths with single or double tick marks, and equal angles with arc marks; label angles in three-letter notation (∠ABC) and individual angles with a single letter or number; draw diagrams showing angles at a point, angles on a straight line, and angles inside polygons with these conventions; read diagrams with these marks to identify given information and find unknown values",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
-      "centrality": 0.1229508196721311,
+      "centrality": 0.1215846994535519,
       "evidence": [
         "Mark a right angle with a small square symbol in a diagram and explain what it means",
         "Use tick marks to show equal lengths in a shape and double tick marks for a second pair of equal sides",
@@ -13854,7 +13854,7 @@
       "description": "Draw and identify points, lines, line segments, rays, angles (right, acute, obtuse), and perpendicular and parallel lines; identify these in two-dimensional figures",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.07923497267759563,
+      "centrality": 0.0778688524590164,
       "evidence": [
         "Draw a pair of perpendicular lines and a pair of parallel lines",
         "Identify all pairs of parallel sides in a trapezoid",
@@ -14077,7 +14077,7 @@
       "description": "Describe positions on the full coordinate grid (all four quadrants); use coordinates with negative values",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.07923497267759563,
+      "centrality": 0.0778688524590164,
       "evidence": [
         "Plot points with negative coordinates such as (−3, 4) and (2, −5) on a four-quadrant grid",
         "Identify the quadrant in which a given point lies",
@@ -14097,7 +14097,7 @@
       "description": "Understand a coordinate system defined by two perpendicular number lines (axes) with an origin at (0,0); know that an ordered pair (x, y) specifies a unique point where the first number gives horizontal distance and the second gives vertical distance from the origin",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.0546448087431694,
+      "centrality": 0.05327868852459016,
       "evidence": [
         "Identify the x-axis, y-axis, and origin on a coordinate grid",
         "Explain that (3, 5) means go 3 along the x-axis and 5 up the y-axis",
@@ -14137,7 +14137,7 @@
       "description": "Plot and read ordered pairs in the first quadrant of the coordinate plane; represent real-world and mathematical problems by graphing points and interpreting coordinate values in context",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.0546448087431694,
+      "centrality": 0.05327868852459016,
       "evidence": [
         "Plot the point (4, 7) accurately on a first-quadrant grid",
         "Graph a set of data pairs (e.g. time vs distance) as points on the coordinate plane",
@@ -14608,7 +14608,7 @@
       "description": "Show and tell how a mathematical answer was found using objects, drawings, and spoken words",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1489071038251366,
+      "centrality": 0.1284153005464481,
       "evidence": [
         "Use objects or drawings to demonstrate how an addition or subtraction was solved",
         "Respond to 'how do you know?' by pointing to objects or a drawing and describing what was done",
@@ -14698,7 +14698,7 @@
       "description": "With teacher prompting, explain and justify mathematical reasoning using drawings, number sentences, or words",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1584699453551913,
+      "centrality": 0.1379781420765027,
       "evidence": [
         "Explain a solution strategy using a drawing or number sentence (e.g. 'I made ten first, then added the rest')",
         "Justify why an answer is correct by showing an alternative method that gives the same result",
@@ -15382,7 +15382,7 @@
       "description": "Compare and describe capacity and volume using language such as full, empty, more than, less than, half full",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2254098360655738,
+      "centrality": 0.2240437158469945,
       "evidence": [
         "Compare two containers and say which holds more/less",
         "Use 'half full' and 'quarter full' to describe a container",
@@ -15403,7 +15403,7 @@
       "description": "Use comparative language for time: quicker, slower, earlier, later",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.06967213114754098,
+      "centrality": 0.06830601092896176,
       "evidence": [
         "Compare two events and say which was quicker/slower",
         "Use 'earlier' and 'later' correctly to describe daily events",
@@ -15423,7 +15423,7 @@
       "description": "Compare two objects directly by length or height and describe the difference using language such as long, short, tall, longer, shorter, taller, double, half",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2295081967213115,
+      "centrality": 0.2281420765027322,
       "evidence": [
         "Stand two children back-to-back and say who is taller/shorter",
         "Directly compare the heights of two towers and describe one as taller",
@@ -15465,7 +15465,7 @@
       "description": "Compare two objects directly by mass or weight and describe the difference using language such as heavy, light, heavier than, lighter than",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.2254098360655738,
+      "centrality": 0.2240437158469945,
       "evidence": [
         "Heft two objects and say which is heavier/lighter",
         "Use a simple balance to compare the weight of two objects",
@@ -15507,7 +15507,7 @@
       "description": "Measure and begin to record capacity and volume using non-standard and standard units",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.2254098360655738,
+      "centrality": 0.2240437158469945,
       "evidence": [
         "Measure capacity by counting how many cups fill a container",
         "Begin to use litres as a unit of capacity",
@@ -15567,7 +15567,7 @@
       "description": "Measure and begin to record lengths and heights using non-standard and standard units",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.2281420765027322,
+      "centrality": 0.226775956284153,
       "evidence": [
         "Measure the length of a table using cubes and record the result",
         "Begin to use a ruler to measure in centimetres",
@@ -15587,7 +15587,7 @@
       "description": "Measure and begin to record mass/weight using non-standard and standard units",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.2254098360655738,
+      "centrality": 0.2240437158469945,
       "evidence": [
         "Use a balance to compare masses of two objects",
         "Measure mass using non-standard units (e.g. 'this book weighs 5 cubes')",
@@ -15627,7 +15627,7 @@
       "description": "Measure and begin to record time in hours, minutes, and seconds",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.06967213114754098,
+      "centrality": 0.06830601092896176,
       "evidence": [
         "Use a sand timer or stopwatch to time an activity",
         "Begin to understand that 1 minute = 60 seconds",
@@ -15667,7 +15667,7 @@
       "description": "Choose and use appropriate standard units to measure length (m/cm), mass (kg/g), temperature (°C), and capacity (litres/ml) to the nearest appropriate unit",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.2308743169398907,
+      "centrality": 0.2295081967213115,
       "evidence": [
         "Measure the length of a table in centimetres using a ruler",
         "Weigh an object in grams using a scale",
@@ -15687,7 +15687,7 @@
       "description": "Compare and order lengths, mass, and capacity and record results using >, <, and =",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1092896174863388,
       "evidence": [
         "Measure two objects and write 45cm > 32cm",
         "Order three containers by capacity after measuring each",
@@ -15707,7 +15707,7 @@
       "description": "Order three objects by length and compare the lengths of two objects indirectly using a third object",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1885245901639344,
+      "centrality": 0.1871584699453552,
       "evidence": [
         "Put three ribbons in order from shortest to longest",
         "Use a piece of string to compare the heights of two objects that cannot be placed side by side",
@@ -15727,7 +15727,7 @@
       "description": "Measure the length of an object using same-size length units laid end to end with no gaps or overlaps",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1898907103825136,
+      "centrality": 0.1885245901639344,
       "evidence": [
         "Measure a book by laying paper clips end to end and counting them",
         "Understand that the length measurement is the number of units that span the object",
@@ -15767,7 +15767,7 @@
       "description": "Know the number of minutes in an hour and the number of hours in a day",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "State that there are 60 minutes in an hour",
         "State that there are 24 hours in a day",
@@ -15868,7 +15868,7 @@
       "description": "Measure, compare, add, and subtract lengths (m/cm/mm), mass (kg/g), and volume/capacity (l/ml) using standard units",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1092896174863388,
       "evidence": [
         "Measure a length in centimetres and millimetres",
         "Weigh an object using grams and kilograms",
@@ -15988,7 +15988,7 @@
       "description": "Measure the length of an object by selecting and using appropriate tools such as rulers, yardsticks, metre sticks, and measuring tapes",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1953551912568306,
+      "centrality": 0.1939890710382514,
       "evidence": [
         "Choose the most appropriate tool for measuring a given object",
         "Align the zero mark of a ruler with the end of the object and read the measurement",
@@ -16109,7 +16109,7 @@
       "description": "Know the number of seconds in a minute and the number of days in each month, year, and leap year",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "State that there are 60 seconds in a minute",
         "Name the months and state the number of days in each",
@@ -16149,7 +16149,7 @@
       "description": "Measure areas by counting unit squares (square cm, square m, square in, square ft)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1789617486338798,
+      "centrality": 0.1775956284153005,
       "evidence": [
         "Count unit squares to find the area of an L-shaped figure",
         "Measure the area of a book cover using square-centimetre tiles",
@@ -16170,7 +16170,7 @@
       "description": "Use tiling to demonstrate the distributive property: the area of a rectangle with sides a and (b+c) equals a×b + a×c; use area models to represent the distributive property",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1461748633879781,
+      "centrality": 0.1448087431693989,
       "evidence": [
         "Tile a 3×(4+2) rectangle and show it decomposes into 3×4 and 3×2",
         "Use an area model to compute 6×13 as 6×10 + 6×3",
@@ -16190,7 +16190,7 @@
       "description": "Find the area of a rectangle by tiling it with unit squares and show that the result equals the product of the side lengths",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1721311475409836,
+      "centrality": 0.1707650273224044,
       "evidence": [
         "Tile a 4×6 rectangle and count 24 squares, then verify 4×6=24",
         "Explain why the number of rows times the number in each row gives the area",
@@ -16230,7 +16230,7 @@
       "description": "Multiply side lengths to find areas of rectangles and represent whole-number products as rectangular areas",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1721311475409836,
+      "centrality": 0.1707650273224044,
       "evidence": [
         "Calculate the area of a 7 cm × 9 cm rectangle as 63 cm²",
         "Draw a rectangle with area 36 square units and label its side lengths",
@@ -16250,7 +16250,7 @@
       "description": "Convert between different units of measure (e.g. kilometre to metre, hour to minute, minute to second, year to month, week to day)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.08333333333333333,
+      "centrality": 0.08196721311475409,
       "evidence": [
         "Convert 3 km to 3000 m",
         "State 2 hours = 120 minutes",
@@ -16393,7 +16393,7 @@
       "description": "Understand that a unit square has one square unit of area and that the area of a plane figure is the number of unit squares that cover it without gaps or overlaps",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1789617486338798,
+      "centrality": 0.1775956284153005,
       "evidence": [
         "Identify a unit square and state its area is 1 square unit",
         "Explain why a figure covered by 12 unit squares has area 12 square units",
@@ -16414,7 +16414,7 @@
       "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.0778688524590164,
+      "centrality": 0.07650273224043716,
       "evidence": [
         "Convert 3.5 km to 3,500 m",
         "Complete a conversion table for cm and mm: (1,10), (2,20), (3,30)...",
@@ -16617,7 +16617,7 @@
       "description": "Convert among different-sized standard measurement units within a given system (e.g. 5 cm to 0.05 m) using decimal notation to up to three decimal places; convert between smaller and larger units of length, mass, volume, and time",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1038251366120219,
+      "centrality": 0.1024590163934426,
       "evidence": [
         "Convert 3,250 g to 3.25 kg using decimal notation",
         "Convert 0.45 km to 450 m",
@@ -16764,7 +16764,7 @@
       "description": "Understand division as sharing equally into groups or as grouping (how many groups of a given size can be made)",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.430327868852459,
+      "centrality": 0.4289617486338798,
       "evidence": [
         "Share 10 counters equally between 2 plates",
         "Group 12 objects into sets of 3 and count 4 groups",
@@ -16784,7 +16784,7 @@
       "description": "Use arrays to represent multiplication and division situations",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1871584699453552,
+      "centrality": 0.185792349726776,
       "evidence": [
         "Build an array of 3 rows of 4 objects to show 3 × 4",
         "Read an array and state the total",
@@ -16804,7 +16804,7 @@
       "description": "Understand multiplication as repeated addition and grouping equal sets",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.2131147540983606,
+      "centrality": 0.2117486338797814,
       "evidence": [
         "Explain that 3 groups of 2 is the same as 2 + 2 + 2",
         "Use objects to make equal groups and count the total",
@@ -16824,7 +16824,7 @@
       "description": "Understand and apply the commutative property of multiplication and recognise that division is not commutative",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1420765027322404,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Explain that 3 × 5 = 5 × 3 and show this with an array rotated",
         "Use commutativity to choose the easier calculation",
@@ -16844,7 +16844,7 @@
       "description": "Solve problems involving multiplication and division using arrays, repeated addition, mental methods, and known facts",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.08333333333333333,
+      "centrality": 0.08196721311475409,
       "evidence": [
         "Solve 'There are 5 bags with 2 apples in each. How many apples?' using repeated addition or known fact",
         "Solve 'Share 15 sweets equally among 3 children' using grouping",
@@ -16884,7 +16884,7 @@
       "description": "Read, write, and interpret the symbols ×, ÷, and = in multiplication and division number sentences",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1461748633879781,
+      "centrality": 0.1448087431693989,
       "evidence": [
         "Read 3 × 4 = 12 aloud as 'three times four equals twelve'",
         "Write a multiplication sentence to match an array",
@@ -16904,7 +16904,7 @@
       "description": "Recall and use multiplication and division facts for the 2, 5, and 10 multiplication tables",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1939890710382514,
+      "centrality": 0.1926229508196721,
       "evidence": [
         "Quickly answer 5 × 3 = 15 from memory",
         "Quickly answer 20 ÷ 5 = 4 from memory",
@@ -16924,7 +16924,7 @@
       "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and 5 columns; write an equation to express the total as a sum of equal addends",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1830601092896175,
+      "centrality": 0.1816939890710383,
       "evidence": [
         "Count objects in a 3×4 array and write 4 + 4 + 4 = 12",
         "Explain that each row has the same number of objects so the total can be found by repeated addition",
@@ -16944,7 +16944,7 @@
       "description": "Solve problems involving multiplication and division, including scaling problems and correspondence problems where n objects are connected to m objects",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1010928961748634,
+      "centrality": 0.09972677595628415,
       "evidence": [
         "Solve a scaling problem (e.g. 'the ribbon is 3 times as long')",
         "Solve a correspondence problem (e.g. '4 shirts and 3 trousers — how many outfits?')",
@@ -16984,7 +16984,7 @@
       "description": "Recall and use multiplication and division facts for the 3, 4, and 8 multiplication tables",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.1939890710382514,
+      "centrality": 0.1926229508196721,
       "evidence": [
         "Recall 3 × 1 through 3 × 12 and corresponding division facts",
         "Recall 4 × 1 through 4 × 12 and corresponding division facts",
@@ -17004,7 +17004,7 @@
       "description": "Write and calculate mathematical statements for multiplication and division using known tables, including two-digit × one-digit, using mental and progressing to formal written methods",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.157103825136612,
+      "centrality": 0.1557377049180328,
       "evidence": [
         "Calculate 23 × 4 using partitioning (20 × 4 + 3 × 4)",
         "Calculate 96 ÷ 8 using known table facts",
@@ -17024,7 +17024,7 @@
       "description": "Recall multiplication and division facts for multiplication tables up to 12 × 12",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1789617486338798,
+      "centrality": 0.1775956284153005,
       "evidence": [
         "Recall any fact from the 1–12 times tables rapidly",
         "Recall the corresponding division fact for any multiplication fact",
@@ -17044,7 +17044,7 @@
       "description": "Understand division as an unknown-factor problem (e.g. find 32 ÷ 8 by finding the number that makes 32 when multiplied by 8)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1407103825136612,
+      "centrality": 0.139344262295082,
       "evidence": [
         "Explain that 32 ÷ 8 = ? is the same as 8 × ? = 32",
         "Use a known multiplication fact to find a division answer",
@@ -17064,7 +17064,7 @@
       "description": "Recognise and use factor pairs and commutativity in mental calculations",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.09153005464480875,
+      "centrality": 0.09016393442622951,
       "evidence": [
         "List all factor pairs of a given number (e.g. 24: 1×24, 2×12, 3×8, 4×6)",
         "Use commutativity to reorder a multiplication for easier mental calculation",
@@ -17084,7 +17084,7 @@
       "description": "Fluently multiply and divide within 100 using strategies such as the relationship between multiplication and division",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1434426229508197,
+      "centrality": 0.1420765027322404,
       "evidence": [
         "Answer any single-digit multiplication fact within 3 seconds",
         "Answer any related division fact within 3 seconds",
@@ -17144,7 +17144,7 @@
       "description": "Solve problems involving multiplying and adding, including using the distributive law, integer scaling problems, and harder correspondence problems",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1092896174863388,
       "evidence": [
         "Use the distributive law to solve 14 × 6 as 10 × 6 + 4 × 6",
         "Solve a scaling problem (e.g. 'A tower is 3 times as tall as a 15 m building')",
@@ -17204,7 +17204,7 @@
       "description": "Apply properties of operations (commutative, associative, distributive) as strategies to multiply and divide",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1448087431693989,
+      "centrality": 0.1434426229508197,
       "evidence": [
         "Use commutativity: if 6 × 4 = 24 then 4 × 6 = 24",
         "Use the distributive property: 8 × 7 = 8 × 5 + 8 × 2 = 40 + 16 = 56",
@@ -17244,7 +17244,7 @@
       "description": "Interpret whole-number quotients (e.g. 56 ÷ 8 as the number of objects in each share or the number of equal groups)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.1366120218579235,
       "evidence": [
         "Explain that 56 ÷ 8 can mean sharing 56 into 8 equal groups or making groups of 8",
         "Draw a picture to represent a division expression",
@@ -17264,7 +17264,7 @@
       "description": "Interpret products of whole numbers (e.g. 5 × 7 as the total number of objects in 5 groups of 7)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1816939890710383,
+      "centrality": 0.180327868852459,
       "evidence": [
         "Explain that 4 × 6 means 4 groups of 6 objects",
         "Draw a picture or array to represent a multiplication expression",
@@ -17284,7 +17284,7 @@
       "description": "Multiply two-digit and three-digit numbers by a one-digit number using formal written layout",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1584699453551913,
+      "centrality": 0.157103825136612,
       "evidence": [
         "Set out and solve 47 × 6 using short multiplication",
         "Set out and solve 234 × 5 using short multiplication with carrying",
@@ -17304,7 +17304,7 @@
       "description": "Solve multi-step word problems using the four operations with whole numbers, including interpreting remainders in context; represent with equations using a letter for the unknown; check with estimation",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.139344262295082,
+      "centrality": 0.1379781420765027,
       "evidence": [
         "52 children go on a trip in minibuses holding 9 each — how many minibuses are needed? (interpret remainder)",
         "A shop sells packs of 6 pencils for £1.50 each — how much do 5 packs cost?",
@@ -17325,7 +17325,7 @@
       "description": "Find all factor pairs for a whole number in the range 1–100; identify common factors and common multiples of two numbers; use these concepts to solve problems",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.09153005464480875,
+      "centrality": 0.09016393442622951,
       "evidence": [
         "List all factor pairs of 36: (1,36), (2,18), (3,12), (4,9), (6,6)",
         "State the first five multiples of 7",
@@ -17370,7 +17370,7 @@
       "description": "Multiply a whole number of up to four digits by a one-digit number, and multiply two two-digit numbers, using formal written methods including long multiplication; illustrate with area models",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1789617486338798,
+      "centrality": 0.1775956284153005,
       "evidence": [
         "Calculate 2,347 × 6 using formal written layout",
         "Calculate 34 × 27 using long multiplication",
@@ -17403,26 +17403,6 @@
       ]
     },
     {
-      "id": "mt_U4cIBXVug4",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Multiplicative Comparison",
-      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.04371584699453552,
-      "evidence": [
-        "Explain that '4 times as many' means multiply by 4",
-        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
-        "Distinguish multiplicative comparison from additive comparison in word problems"
-      ],
-      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
-      "standards": [
-        "ccss-math:4.OA.1"
-      ]
-    },
-    {
       "id": "mt_6-j1NO2ZUH",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -17443,6 +17423,26 @@
       ]
     },
     {
+      "id": "mt_U4cIBXVug4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Multiplicative Comparison",
+      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.04234972677595628,
+      "evidence": [
+        "Explain that '4 times as many' means multiply by 4",
+        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
+        "Distinguish multiplicative comparison from additive comparison in word problems"
+      ],
+      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
+      "standards": [
+        "ccss-math:4.OA.1"
+      ]
+    },
+    {
       "id": "mt_LlMl2PbaZe",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -17451,7 +17451,7 @@
       "description": "Multiply and divide whole numbers and those involving decimals by 10, 100, and 1000",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.07650273224043716,
+      "centrality": 0.07513661202185792,
       "evidence": [
         "Calculate 3.45 × 100 = 345",
         "Calculate 72 ÷ 1000 = 0.072",
@@ -17513,7 +17513,7 @@
       "description": "Divide numbers up to four digits by a one-digit number using short division (and place-value/array strategies); interpret remainders appropriately for the context",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.133879781420765,
+      "centrality": 0.1325136612021858,
       "evidence": [
         "Calculate 4,932 ÷ 6 using short division",
         "Solve 125 ÷ 8 and interpret: 15 remainder 5 means 15 full bags with 5 left over",
@@ -17574,7 +17574,7 @@
       "description": "Use parentheses, brackets, or braces in numerical expressions and evaluate expressions containing these grouping symbols",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.139344262295082,
+      "centrality": 0.1379781420765027,
       "evidence": [
         "Evaluate 3 × (4 + 5) by computing inside the parentheses first",
         "Evaluate {2 × [3 + (7 − 1)]} with nested grouping symbols",
@@ -17656,7 +17656,7 @@
       "description": "Divide numbers up to 4 digits by a two-digit divisor using formal written long division, interpreting remainders as whole numbers, fractions, or by rounding as appropriate",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1448087431693989,
+      "centrality": 0.1434426229508197,
       "evidence": [
         "Compute 4,752 ÷ 13 using long division and express the remainder as a fraction",
         "Decide whether to round up or down a division remainder in a real-life context (e.g. buses needed)",
@@ -17697,7 +17697,7 @@
       "description": "Fluently multiply multi-digit whole numbers (up to 4 digits by 2 digits) using the formal written method of long multiplication",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1748633879781421,
+      "centrality": 0.1734972677595628,
       "evidence": [
         "Correctly compute 2,463 × 37 using long multiplication",
         "Explain each partial product in a long multiplication and why they are added",
@@ -17738,7 +17738,7 @@
       "description": "Multiply and divide numbers by 10, 100, and 1000 giving answers up to three decimal places, understanding that digits shift position in the place-value chart",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.09972677595628415,
+      "centrality": 0.09836065573770492,
       "evidence": [
         "Compute 3.456 × 100 = 345.6 correctly",
         "Compute 45.2 ÷ 1000 = 0.0452 correctly",
@@ -17758,7 +17758,7 @@
       "description": "Solve problems involving addition, subtraction, multiplication, and division, deciding which operations and methods to use and why; solve multi-step problems in contexts",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1120218579234973,
+      "centrality": 0.110655737704918,
       "evidence": [
         "Solve a three-step word problem involving a mix of all four operations",
         "Explain why particular operations were chosen for each step of a multi-step problem",
@@ -17778,7 +17778,7 @@
       "description": "Understand and apply the conventional order of operations (PEMDAS/BODMAS) to carry out calculations involving the four operations",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.1366120218579235,
       "evidence": [
         "Explain why 8 + 2 × 5 = 18 (not 50) by referencing multiplication before addition",
         "Evaluate a multi-step expression like 12 ÷ 3 + 4 × 2 correctly as 12",
@@ -17818,7 +17818,7 @@
       "description": "Write simple numerical expressions that record calculations with numbers, and interpret numerical expressions without evaluating them (e.g. recognise that 3 × (18932 + 921) is three times as large as 18932 + 921)",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1284153005464481,
+      "centrality": 0.1270491803278689,
       "evidence": [
         "Write an expression for 'add 8 and 7, then multiply by 2' using parentheses",
         "Explain what 4 × (365 − 12) represents without computing it",
@@ -17903,7 +17903,7 @@
       "description": "Recognise and use relationships between operations including inverse operations; use these relationships to check answers and simplify calculations",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1092896174863388,
       "evidence": [
         "Use addition and subtraction as inverse operations to check and solve problems",
         "Use multiplication and division as inverse operations to check and solve problems",
@@ -17962,7 +17962,7 @@
       "description": "Read and write numerals from 0 to 20",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.5915300546448088,
+      "centrality": 0.569672131147541,
       "evidence": [
         "Read any numeral 0–20 when shown it",
         "Write numerals 0–20 legibly from dictation",
@@ -17983,7 +17983,7 @@
       "description": "Understand that the teen numbers (11–19) are composed of ten ones and some further ones (early place value)",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.407103825136612,
+      "centrality": 0.4057377049180328,
       "evidence": [
         "Compose 14 as a group of ten and four ones using objects",
         "Decompose 17 into 10 + 7 and record as an equation",
@@ -18024,7 +18024,7 @@
       "description": "Understand that 10 can be thought of as a bundle of ten ones — called a 'ten'",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.4057377049180328,
+      "centrality": 0.4043715846994536,
       "evidence": [
         "Group 10 single cubes into one rod of 10 and explains why",
         "Explain that 10 ones is the same as 1 ten",
@@ -18044,7 +18044,7 @@
       "description": "Compare and order two-digit numbers using the symbols >, =, and <, based on place value understanding",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.1407103825136612,
+      "centrality": 0.139344262295082,
       "evidence": [
         "Correctly place > or < between 34 and 43",
         "Order a set of two-digit numbers from smallest to largest",
@@ -18125,7 +18125,7 @@
       "description": "Identify, represent, and estimate numbers using different representations including the number line",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.05874316939890711,
+      "centrality": 0.05737704918032787,
       "evidence": [
         "Place a two-digit number on a 0–100 number line in approximately the right position",
         "Estimate 'about how many' objects are in a set of 30–50 without counting",
@@ -18169,7 +18169,7 @@
       "description": "Understand that the two digits of a two-digit number represent amounts of tens and ones",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.4030054644808743,
+      "centrality": 0.4016393442622951,
       "evidence": [
         "Explain that in 47, the 4 represents 4 tens (40) and the 7 represents 7 ones",
         "Use base-ten blocks to show a two-digit number as tens and ones",
@@ -18211,7 +18211,7 @@
       "description": "Understand that 100 can be thought of as a bundle of ten tens — called a 'hundred'",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.3265027322404371,
+      "centrality": 0.3251366120218579,
       "evidence": [
         "Explain that 10 groups of 10 ones make 100",
         "Bundle ten tens sticks into one hundred and describe what happened",
@@ -18251,7 +18251,7 @@
       "description": "Compare and order numbers up to 1000 using >, =, and < symbols, based on place-value understanding",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.06830601092896176,
+      "centrality": 0.06693989071038252,
       "evidence": [
         "Compare two three-digit numbers by examining hundreds first, then tens, then ones",
         "Use >, =, and < correctly to record comparisons of three-digit numbers",
@@ -18313,7 +18313,7 @@
       "description": "Understand that the multiples of 100 (100–900) each represent a number of hundreds with 0 tens and 0 ones",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.05737704918032787,
+      "centrality": 0.05601092896174863,
       "evidence": [
         "Identify that 300 means 3 hundreds, 0 tens, 0 ones",
         "Place multiples of 100 on a number line to 1000",
@@ -18333,7 +18333,7 @@
       "description": "Understand that the three digits of a three-digit number represent amounts of hundreds, tens, and ones",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.3101092896174864,
+      "centrality": 0.3087431693989071,
       "evidence": [
         "State the value of each digit in a three-digit number (e.g. in 362, the 3 represents 3 hundreds)",
         "Partition a three-digit number into hundreds, tens, and ones (e.g. 485 = 400 + 80 + 5)",
@@ -18374,7 +18374,7 @@
       "description": "Order and compare numbers beyond 1000",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Compare two four-digit numbers using >, <, and = by examining digits from the highest place value",
         "Order a set of numbers up to 10,000 from smallest to largest",
@@ -18394,7 +18394,7 @@
       "description": "Count backwards through zero to include negative numbers",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Count backwards from 5 through zero: 5, 4, 3, 2, 1, 0, −1, −2 …",
         "Place negative numbers on a number line",
@@ -18414,7 +18414,7 @@
       "description": "Identify, represent, and estimate numbers up to 10,000 using different representations",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.05327868852459016,
+      "centrality": 0.05191256830601093,
       "evidence": [
         "Represent a four-digit number on a place-value chart or with base-ten materials",
         "Estimate where a number falls on a 0–10,000 number line",
@@ -18434,7 +18434,7 @@
       "description": "Recognise the place value of each digit in a four-digit number (thousands, hundreds, tens, and ones)",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.1215846994535519,
+      "centrality": 0.1202185792349727,
       "evidence": [
         "State the value of each digit in a four-digit number (e.g. in 7,345 the 7 represents 7 thousands)",
         "Partition a four-digit number into thousands, hundreds, tens, and ones",
@@ -18535,7 +18535,7 @@
       "description": "Interpret negative numbers in context (temperature, sea level, bank balance); count forwards and backwards with positive and negative whole numbers, including through zero",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Place –3, –1, 0, 2, 5 on a number line",
         "The temperature is –4°C and rises by 7 degrees — what is the new temperature?",
@@ -18555,7 +18555,7 @@
       "description": "Recognise that in a multi-digit whole number, a digit in one place represents ten times what it represents in the place to its right (e.g. 700 ÷ 70 = 10)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1038251366120219,
+      "centrality": 0.1024590163934426,
       "evidence": [
         "Explain that the 3 in 3,000 is ten times the 3 in 300",
         "Complete: 700 ÷ 70 = __ and explain using place-value reasoning",
@@ -18575,7 +18575,7 @@
       "description": "Read, write, order, and compare whole numbers up to at least 1,000,000 using base-ten numerals, number names, expanded form, and place-value understanding",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.06147540983606557,
+      "centrality": 0.06010928961748634,
       "evidence": [
         "Write 403,072 in words and in expanded form",
         "Compare 548,301 and 543,801 using < and explain the reasoning",
@@ -18678,7 +18678,7 @@
       "description": "Use negative numbers in context (temperature, finance, sea level); calculate intervals across zero",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.06010928961748634,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "The temperature falls from 3°C to −5°C — what is the drop? (8 degrees)",
         "Calculate the difference between a bank balance of −£120 and £350",
@@ -18738,7 +18738,7 @@
       "description": "Recognise that in a multi-digit number, a digit in one place represents 10 times as much as in the place to its right and 1/10 of what it represents in the place to its left",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1256830601092896,
+      "centrality": 0.1243169398907104,
       "evidence": [
         "Explain that the 4 in 0.04 is 1/10 of the 4 in 0.4",
         "State that a digit moving one place left is ×10 and one place right is ÷10",
@@ -18758,7 +18758,7 @@
       "description": "Read, write, and compare decimals to thousandths using base-ten numerals, number names, and expanded form; compare using >, =, < based on place-value meaning",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1079234972677596,
+      "centrality": 0.1065573770491803,
       "evidence": [
         "Write 347.392 in expanded form: 3×100 + 4×10 + 7×1 + 3×(1/10) + 9×(1/100) + 2×(1/1000)",
         "Compare 0.372 and 0.38 using place-value reasoning",
@@ -18780,7 +18780,7 @@
       "description": "Read, write, order, and compare numbers up to 10,000,000 and determine the value of each digit",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.09972677595628415,
+      "centrality": 0.09836065573770492,
       "evidence": [
         "Write 4,302,561 in words",
         "Order four seven-digit numbers from smallest to largest",
@@ -18800,7 +18800,7 @@
       "description": "Identify the value of each digit in numbers given to three decimal places (e.g. in 4.378, the 7 represents 7 hundredths)",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.09699453551912568,
+      "centrality": 0.09562841530054644,
       "evidence": [
         "State the value of each digit in 2.635 (2 ones, 6 tenths, 3 hundredths, 5 thousandths)",
         "Explain the relationship between adjacent decimal places (each place is ten times smaller)",
@@ -18840,7 +18840,7 @@
       "description": "Understand and use place value for decimals, measures, and integers of any size; extend the number system to include all positive and negative integers, decimals, and fractions on a single number line",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.09699453551912568,
+      "centrality": 0.09562841530054644,
       "evidence": [
         "Identify the value of any digit in numbers of any size including decimals",
         "Place positive and negative integers, decimals, and fractions on a number line",
@@ -18860,7 +18860,7 @@
       "description": "Order positive and negative integers, decimals, and fractions on a number line; use the symbols =, ≠, <, >, ≤, ≥ to compare values including negative numbers and mixed representations",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1051912568306011,
+      "centrality": 0.1038251366120219,
       "evidence": [
         "Order a mixed set of positive and negative integers, decimals, and fractions",
         "Use the symbols =, ≠, <, >, ≤, ≥ correctly in mathematical statements",
@@ -19281,7 +19281,7 @@
       "description": "Represent ratio and proportion problems using bar models (rectangular strips divided into equal parts labelled with quantities) and tape diagrams (segmented strips showing part-to-part and part-to-whole relationships); use these visual models to set up and solve unequal sharing, scaling, and percentage problems — drawing the diagram first, then reading off the answer",
       "ageRangeStart": 9,
       "ageRangeEnd": 12,
-      "centrality": 0.03961748633879782,
+      "centrality": 0.03825136612021858,
       "evidence": [
         "Draw a bar model to represent a ratio problem — e.g. sharing £20 in the ratio 3:2 by drawing 5 equal blocks",
         "Use a bar model to solve a proportion problem and explain each step",
@@ -19299,7 +19299,7 @@
       "description": "Know and use the vocabulary of ratio and proportion — ratio, proportion, percentage, scale, equivalent, unequal, relative size, part-to-part, part-to-whole, and out of — and understand the difference between ratio (comparing parts to parts) and proportion (comparing a part to the whole)",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.03961748633879782,
+      "centrality": 0.03825136612021858,
       "evidence": [
         "Explain the difference between a 'ratio' and a 'proportion' using a concrete example like mixing paint",
         "Use 'per cent' correctly and convert between fractions, decimals, and percentages in context",
@@ -19337,7 +19337,7 @@
       "description": "Solve problems involving the relative sizes of two quantities where missing values can be found by using integer multiplication and division facts",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.08743169398907104,
+      "centrality": 0.0860655737704918,
       "evidence": [
         "If the ratio of red to blue beads is 3:5 and there are 15 blue beads, find the number of red beads",
         "Use multiplication facts to find the missing value: 'For every 2 apples there are 5 oranges; if there are 20 oranges, how many apples?'",
@@ -19377,7 +19377,7 @@
       "description": "Solve problems involving unequal sharing and grouping using knowledge of fractions and multiples",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.08060109289617487,
+      "centrality": 0.07923497267759563,
       "evidence": [
         "Share 40 sweets between two children in the ratio 3:5",
         "Solve: 'Tom gets twice as many as Sam and Sam gets three times as many as Jo. If there are 30 altogether, how many does each get?'",
@@ -19397,7 +19397,7 @@
       "description": "Use compound units such as speed (distance ÷ time), unit pricing (cost ÷ quantity), and density (mass ÷ volume); solve problems involving compound units",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.2609289617486339,
+      "centrality": 0.2595628415300547,
       "evidence": [
         "Calculate average speed given distance and time, converting between km/h and m/s if needed",
         "Compare unit prices of two products sold in different quantities to find the better deal",
@@ -19419,7 +19419,7 @@
       "description": "Divide a given quantity into two parts in a given part:part or part:whole ratio, and express the division as a fraction of the whole",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.07923497267759563,
+      "centrality": 0.0778688524590164,
       "evidence": [
         "Share £60 between two people in the ratio 2:3 by finding the value of one part",
         "Express the result of sharing 24 sweets as 10 and 14 in ratio form as 5:7",
@@ -19440,7 +19440,7 @@
       "description": "Express one quantity as a fraction of another where the result may be less than 1 or greater than 1, and interpret the meaning in context",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1434426229508197,
+      "centrality": 0.1420765027322404,
       "evidence": [
         "Express 45 minutes as a fraction of 2 hours (= 3/8)",
         "Express a larger quantity as a fraction of a smaller one and explain why the result exceeds 1",
@@ -19482,7 +19482,7 @@
       "description": "Know and use advanced vocabulary of multiplicative reasoning — direct proportion, inverse proportion, ratio, rate, unit rate, compound unit, scale factor — accurately in problem-solving contexts",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.03551912568306011,
+      "centrality": 0.03415300546448088,
       "evidence": [
         "Distinguish between 'direct proportion' and 'inverse proportion' with real-world examples",
         "Use 'rate', 'speed', and 'density' correctly and explain what units they are measured in",
@@ -19500,7 +19500,7 @@
       "description": "Represent proportional relationships using double number lines (two parallel number lines aligned at 0) and ratio tables; recognise that equivalent ratios generate straight lines through the origin when graphed",
       "ageRangeStart": 11,
       "ageRangeEnd": 14,
-      "centrality": 0.01502732240437158,
+      "centrality": 0.01366120218579235,
       "evidence": [
         "Plot pairs of proportional values on a coordinate grid and draw the straight line through the origin",
         "Explain why a directly proportional relationship always passes through (0,0)",
@@ -19518,7 +19518,7 @@
       "description": "Use ratio notation to describe the relationship between two or more quantities, simplify ratios to their simplest form, and convert between ratio and fraction representations",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.08196721311475409,
+      "centrality": 0.08060109289617487,
       "evidence": [
         "Write a ratio from a word problem and simplify it (e.g. 12:8 = 3:2)",
         "Convert a ratio to equivalent fractions of a whole (e.g. 3:2 means 3/5 and 2/5)",
@@ -19560,7 +19560,7 @@
       "description": "Convert freely between related standard units of measurement (time, length, area, volume/capacity, mass) using decimal notation to up to three decimal places where appropriate",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.1038251366120219,
+      "centrality": 0.1024590163934426,
       "evidence": [
         "Convert between area units such as cm² and m² using the square of the linear scale factor",
         "Perform multi-step conversions (e.g. convert 2.5 hours to seconds via minutes)",
@@ -19602,7 +19602,7 @@
       "description": "Recognise and solve problems involving direct proportion (as one quantity increases, the other increases at a constant rate) and inverse proportion (as one increases, the other decreases), including graphical and algebraic representations",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.2363387978142077,
+      "centrality": 0.2349726775956284,
       "evidence": [
         "Identify whether a real-world relationship is direct or inverse proportion and justify the choice",
         "Set up and solve a direct-proportion equation (e.g. if 4 pens cost £6, find the cost of 10)",
@@ -19624,7 +19624,7 @@
       "description": "Understand that a multiplicative relationship between two quantities can be expressed as a ratio; use ratio notation; simplify ratios",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.2349726775956284,
+      "centrality": 0.2336065573770492,
       "evidence": [
         "Explain why 'for every 2 red beads there are 5 blue beads' can be written as 2:5 or as 2/5 of the blue count",
         "Identify the multiplicative relationship in a table of values (e.g. y is always 3 times x)",
@@ -19648,7 +19648,7 @@
       "description": "Express their own feelings appropriately using words rather than actions — saying 'I feel angry because...' instead of hitting, shouting, or withdrawing",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.0778688524590164,
+      "centrality": 0.07923497267759563,
       "evidence": [
         "Use an 'I feel ___ when ___' statement during a disagreement",
         "Choose to tell an adult how they feel instead of acting out physically",
@@ -19668,7 +19668,7 @@
       "description": "Understand that everyone has feelings, that feelings change throughout the day, and that the same event can make different people feel different things",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.110655737704918,
+      "centrality": 0.1120218579234973,
       "evidence": [
         "Give an example of a time their feelings changed during a single day",
         "Explain why two children might feel differently about the same event",
@@ -19688,7 +19688,7 @@
       "description": "Name and recognise basic emotions — happy, sad, angry, scared, excited, and surprised — in themselves and in others by looking at facial expressions and body language",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.139344262295082,
       "evidence": [
         "Label at least five basic emotions from pictures or real situations",
         "Match facial expressions to emotion words in a sorting activity",
@@ -19709,7 +19709,7 @@
       "description": "Understand that feelings have causes — something happens (a trigger) and that makes us feel a certain way — and begin to identify what triggers their own emotions",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.08743169398907104,
+      "centrality": 0.08879781420765027,
       "evidence": [
         "Describe a trigger for at least three different emotions from their own experience",
         "Complete 'I felt ___ because ___' sentences accurately",
@@ -21030,7 +21030,7 @@
       "description": "Use simple calming strategies when feeling upset or overwhelmed — such as taking deep breaths, counting to ten, or going to a quiet space — and understand that these help the body and mind settle down",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.08743169398907104,
+      "centrality": 0.08879781420765027,
       "evidence": [
         "Demonstrate at least two calming strategies when prompted",
         "Choose to use a calming strategy independently during a real upset",
@@ -21050,7 +21050,7 @@
       "description": "Know and use the key words for managing big feelings — calm, strategy, cope, settle, patience, overwhelmed, and breathe — and understand that having words for these ideas is the first step to using them",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.0942622950819672,
+      "centrality": 0.09562841530054644,
       "evidence": [
         "Use words like 'frustrated', 'anxious', 'overwhelmed', and 'disappointed' accurately to describe how they feel in difficult moments",
         "Explain what 'calm down' strategies are in their own words and name at least two they have tried (e.g. deep breaths, counting, walking away)",
@@ -23630,7 +23630,7 @@
       "description": "Use evidence to construct an explanation relating the speed of an object to the energy of that object",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.01775956284153005,
+      "centrality": 0.01639344262295082,
       "evidence": [
         "Explain that a moving object has energy, and the faster it moves the more energy it has",
         "Provide evidence from observations (e.g. faster ball causes more damage/movement)",
@@ -23650,7 +23650,7 @@
       "description": "Ask questions and predict outcomes about the changes in energy that occur when objects collide",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.00546448087431694,
+      "centrality": 0.004098360655737705,
       "evidence": [
         "Predict the outcome of a collision based on the speeds and sizes of the objects",
         "Explain that energy transfers from one object to another during a collision",
@@ -23750,7 +23750,7 @@
       "description": "Explain the principle of conservation of energy (energy cannot be created or destroyed, only transferred between stores), and describe how energy is dissipated as thermal energy to the surroundings in all real processes",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.05327868852459016,
+      "centrality": 0.05191256830601093,
       "evidence": [
         "States the law of conservation of energy",
         "Explains why the total energy in a closed system is always the same even though it changes form",
@@ -23772,7 +23772,7 @@
       "description": "Identify the main energy stores (kinetic, gravitational potential, elastic potential, thermal, chemical, nuclear, electromagnetic) and the pathways by which energy is transferred between stores (mechanically, electrically, by heating, by radiation)",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.05737704918032787,
+      "centrality": 0.05601092896174863,
       "evidence": [
         "Names and describes at least five energy stores with a real-world example of each",
         "Identifies the energy stores at the start and end of a given process (e.g. a falling ball, a burning match)",
@@ -23813,7 +23813,7 @@
       "description": "Describe and compare the three mechanisms of heat transfer — conduction (particle vibration through solids), convection (fluid movement in liquids/gases), and radiation (infrared waves) — and explain that the rate of transfer depends on temperature difference",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
-      "centrality": 0.05874316939890711,
+      "centrality": 0.05737704918032787,
       "evidence": [
         "Explains the particle-level mechanism for conduction and why metals are good conductors",
         "Describes a convection current using particle theory and gives a real-world example",
@@ -23897,7 +23897,7 @@
       "description": "Define power as the rate of energy transfer (power = energy ÷ time, measured in watts), and compare energy transfer rates in different everyday contexts",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
-      "centrality": 0.04918032786885246,
+      "centrality": 0.04781420765027322,
       "evidence": [
         "States the definition of power and gives its unit (watt)",
         "Uses P = E/t to calculate power, energy, or time given the other two quantities",
@@ -23918,7 +23918,7 @@
       "description": "Distinguish between renewable energy resources (solar, wind, hydroelectric, tidal, geothermal, biomass) and non-renewable resources (coal, oil, gas, nuclear), comparing their advantages, disadvantages, and environmental impacts",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.2117486338797814,
+      "centrality": 0.2103825136612022,
       "evidence": [
         "Lists at least four renewable and three non-renewable energy resources",
         "Explains what makes a resource renewable or non-renewable",
@@ -23960,7 +23960,7 @@
       "description": "Name and describe forces using precise vocabulary — force, push, pull, twist, stretch, squash, contact force, non-contact force, gravity, weight, friction, air resistance, upthrust — and distinguish between forces that require physical contact and forces that act at a distance",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.03551912568306011,
+      "centrality": 0.03688524590163934,
       "evidence": [
         "Correctly name the force acting in at least five given scenarios (e.g. 'friction slows the sledge', 'gravity pulls the apple')",
         "Distinguish between contact forces (friction, upthrust) and non-contact forces (gravity, magnetism) using the correct terms",
@@ -23998,7 +23998,7 @@
       "description": "Analyse data to determine if a design solution works as intended to change the speed or direction of an object with a push or pull",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.00273224043715847,
+      "centrality": 0.001366120218579235,
       "evidence": [
         "Test a simple design (e.g. ramp, launcher) and collect data on whether it meets the goal",
         "Analyse results to determine if the design works as intended",
@@ -24018,7 +24018,7 @@
       "description": "Notice that some forces need contact between two objects (contact forces) while magnetic forces can act at a distance (non-contact forces)",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.03551912568306011,
+      "centrality": 0.03415300546448088,
       "evidence": [
         "Define contact forces as those needing objects to touch (e.g. push, pull, friction)",
         "Define non-contact forces as those acting at a distance (e.g. magnetism)",
@@ -24030,24 +24030,6 @@
       ]
     },
     {
-      "id": "mt_k7GOtslF-x",
-      "type": "REPRESENTATIONAL",
-      "subject": "Science",
-      "domain": "Forces & Motion",
-      "name": "Drawing Force Diagrams",
-      "description": "Draw and interpret force diagrams showing forces as labelled arrows — where the arrow's length represents the force's magnitude and its direction shows which way the force acts; show multiple forces on one object; identify from the diagram whether forces are balanced (equal arrows in opposite directions, no resultant) or unbalanced (arrows of different sizes, producing a resultant); represent the resultant with a single arrow",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 12,
-      "centrality": 0.05054644808743169,
-      "evidence": [
-        "Draw a force diagram with labelled arrows showing direction and relative size for at least two forces acting on an object",
-        "Use their diagram to explain whether forces are balanced or unbalanced and what will happen to the object",
-        "Add a resultant force arrow to a diagram and explain how they calculated it"
-      ],
-      "assessmentPrompt": "If {{name}} is asked to draw a diagram of all the forces acting on a stationary book on a table, can they draw two arrows — one pointing down for gravity and one pointing up from the table — and explain why, if they're balanced, the book doesn't move?",
-      "standards": []
-    },
-    {
       "id": "mt_-p_xp4hMvh",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -24056,7 +24038,7 @@
       "description": "Compare how things move on different surfaces, noticing that some surfaces create more friction than others",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.03825136612021858,
+      "centrality": 0.03688524590163934,
       "evidence": [
         "Observe and compare how the same object moves on at least three different surfaces",
         "Describe that rough surfaces slow objects down more than smooth surfaces",
@@ -24076,7 +24058,7 @@
       "description": "Observe how magnets attract or repel each other and attract some materials and not others",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.01229508196721311,
+      "centrality": 0.01092896174863388,
       "evidence": [
         "Demonstrate that magnets attract some materials (iron, steel, nickel) but not others (wood, plastic, copper)",
         "Show that two magnets can either attract (pull together) or repel (push apart)",
@@ -24097,7 +24079,7 @@
       "description": "Describe magnets as having two poles (north and south) and predict whether two magnets will attract or repel based on which poles face each other",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.01229508196721311,
+      "centrality": 0.01092896174863388,
       "evidence": [
         "Identify and label the north and south poles of a magnet",
         "State the rule: like poles repel, opposite poles attract",
@@ -24132,6 +24114,24 @@
       ]
     },
     {
+      "id": "mt_k7GOtslF-x",
+      "type": "REPRESENTATIONAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Drawing Force Diagrams",
+      "description": "Draw and interpret force diagrams showing forces as labelled arrows — where the arrow's length represents the force's magnitude and its direction shows which way the force acts; show multiple forces on one object; identify from the diagram whether forces are balanced (equal arrows in opposite directions, no resultant) or unbalanced (arrows of different sizes, producing a resultant); represent the resultant with a single arrow",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.02868852459016394,
+      "evidence": [
+        "Draw a force diagram with labelled arrows showing direction and relative size for at least two forces acting on an object",
+        "Use their diagram to explain whether forces are balanced or unbalanced and what will happen to the object",
+        "Add a resultant force arrow to a diagram and explain how they calculated it"
+      ],
+      "assessmentPrompt": "If {{name}} is asked to draw a diagram of all the forces acting on a stationary book on a table, can they draw two arrows — one pointing down for gravity and one pointing up from the table — and explain why, if they're balanced, the book doesn't move?",
+      "standards": []
+    },
+    {
       "id": "mt_AlLYwCm92a",
       "type": "PROCEDURAL",
       "subject": "Science",
@@ -24140,7 +24140,7 @@
       "description": "Make observations and measurements of an object's motion to provide evidence that a pattern can be used to predict future motion",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.2650273224043716,
+      "centrality": 0.08743169398907104,
       "evidence": [
         "Measure an object's motion (distance, speed, direction) under different conditions",
         "Identify a pattern in the data (e.g. steeper ramp = further roll)",
@@ -24239,7 +24239,7 @@
       "description": "Read and plot distance-time graphs for moving objects; interpret the gradient (steepness) of a line as speed; identify stationary periods (horizontal sections), constant speed (straight diagonal lines), and relative speeds by comparing gradients; calculate average speed from the gradient of a straight-line segment using speed = distance ÷ time",
       "ageRangeStart": 10,
       "ageRangeEnd": 13,
-      "centrality": 0.2609289617486339,
+      "centrality": 0.2595628415300547,
       "evidence": [
         "Read a distance-time graph and describe what is happening at each stage — moving, stopped, returning",
         "Calculate speed from the gradient of a straight section of a distance-time graph",
@@ -24257,7 +24257,7 @@
       "description": "Describe magnetic poles (north and south), explain attraction and repulsion between poles, describe magnetic field lines plotted using a compass, and explain the Earth's magnetic field and its practical uses",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.01229508196721311,
+      "centrality": 0.01092896174863388,
       "evidence": [
         "States the rule for attraction and repulsion of magnetic poles",
         "Draws the magnetic field pattern around a bar magnet from memory or compass readings",
@@ -24387,7 +24387,7 @@
       "description": "Describe the magnetic effect of an electric current (a current-carrying wire produces a magnetic field), and investigate how the strength of an electromagnet depends on current, number of coil turns, and core material",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
-      "centrality": 0.03278688524590164,
+      "centrality": 0.0314207650273224,
       "evidence": [
         "Describes that a current-carrying wire produces a circular magnetic field",
         "Lists three factors that affect electromagnet strength: current size, number of coil turns, and core material",
@@ -24498,7 +24498,7 @@
       "description": "Explain the motor effect as the force on a current-carrying conductor in a magnetic field, and describe how this principle is used in electric motors and loudspeakers",
       "ageRangeStart": 13,
       "ageRangeEnd": 14,
-      "centrality": 0.03278688524590164,
+      "centrality": 0.0314207650273224,
       "evidence": [
         "Explains that a current-carrying conductor in a magnetic field experiences a force (the motor effect)",
         "Predicts how reversing the current or reversing the magnetic field affects the direction of the force",
@@ -24914,7 +24914,7 @@
       "description": "Describe simple physical properties of everyday materials such as hard/soft, stretchy/stiff, shiny/dull, rough/smooth, waterproof/absorbent, transparent/opaque",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Use at least five property words correctly: hard, soft, stretchy, shiny, rough, smooth, transparent, waterproof",
         "Describe the properties of three different materials using at least two property words each",
@@ -24934,7 +24934,7 @@
       "description": "Compare and group everyday materials based on their simple physical properties",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1229508196721311,
+      "centrality": 0.1256830601092896,
       "evidence": [
         "Sort a set of materials into groups based on a chosen property (e.g. transparent vs opaque)",
         "Compare two materials and state which properties they share and which differ",
@@ -24954,7 +24954,7 @@
       "description": "Identify and name a variety of everyday materials including wood, plastic, glass, metal, water, and rock",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1366120218579235,
+      "centrality": 0.139344262295082,
       "evidence": [
         "Name at least six everyday materials: wood, plastic, glass, metal, water, rock",
         "Identify the material of at least ten different objects around the home or classroom",
@@ -24974,7 +24974,7 @@
       "description": "Distinguish between an object and the material from which it is made, understanding that objects can be made from different materials",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1379781420765027,
+      "centrality": 0.1407103825136612,
       "evidence": [
         "Explain the difference between an object (e.g. a chair) and the material it is made from (e.g. wood)",
         "Give examples of the same object made from different materials (e.g. plastic cup, glass cup)",
@@ -24994,7 +24994,7 @@
       "description": "Name and distinguish the three states of matter — solid, liquid, and gas — using properties vocabulary: hard, rigid, runny, flows, keeps its shape, fills its container; use 'change of state' to describe what happens when materials are heated or cooled",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.185792349726776,
+      "centrality": 0.1885245901639344,
       "evidence": [
         "Correctly sort a set of everyday materials as solid, liquid, or gas and give a reason for each",
         "Use the terms solid, liquid, and gas accurately when describing everyday substances",
@@ -25032,7 +25032,7 @@
       "description": "Identify and compare the suitability of everyday materials for particular uses, explaining why specific materials are chosen for specific purposes",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.0273224043715847,
+      "centrality": 0.02868852459016394,
       "evidence": [
         "Explain why a specific material is chosen for a purpose based on its properties (e.g. glass for windows because it's transparent)",
         "Compare two materials and decide which is more suitable for a given use with reasoning",
@@ -25150,7 +25150,7 @@
       "description": "Give reasons, based on evidence from comparative and fair tests, for the particular uses of everyday materials including metals, wood, and plastic",
       "ageRangeStart": 7,
       "ageRangeEnd": 10,
-      "centrality": 0.02049180327868852,
+      "centrality": 0.02868852459016394,
       "evidence": [
         "Design a fair test to compare a specific property of two or more materials",
         "Present test results as evidence for why a material is suited to a particular use",
@@ -25273,7 +25273,7 @@
       "description": "Use technical vocabulary to describe and compare material properties — conductor, insulator, thermal, electrical, transparent, opaque, translucent, soluble, insoluble, magnetic, flexible, rigid, density — and apply these terms precisely when selecting and justifying materials for particular purposes",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.02185792349726776,
+      "centrality": 0.02868852459016394,
       "evidence": [
         "Classify a set of materials as electrical conductors or insulators and explain why using the correct terms",
         "Use 'transparent', 'translucent', and 'opaque' correctly and distinctly in descriptions",
@@ -25645,7 +25645,7 @@
       "description": "Distinguish between exothermic reactions (release energy, temperature rises) and endothermic reactions (absorb energy, temperature falls), with everyday and industrial examples",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
-      "centrality": 0.08196721311475409,
+      "centrality": 0.08060109289617487,
       "evidence": [
         "Defines exothermic and endothermic in terms of energy transfer to and from the surroundings",
         "Gives two examples of each type from everyday life (e.g. combustion, hand warmers; photosynthesis, cold packs)",
@@ -28408,7 +28408,7 @@
       "description": "Ask simple scientific questions and recognise that they can be answered in different ways including observation, testing, and research",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.05737704918032787,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Ask at least three 'how' or 'why' questions about the natural world",
         "Suggest different ways to answer a question: observing, testing, asking an expert, reading a book",
@@ -28469,7 +28469,7 @@
       "description": "Observe closely using simple equipment such as hand lenses, and use observations to describe, compare, and identify things",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.0546448087431694,
+      "centrality": 0.05601092896174863,
       "evidence": [
         "Use a hand lens or other simple equipment to make detailed observations",
         "Describe observations using specific vocabulary (colour, shape, size, texture, pattern)",
@@ -28490,7 +28490,7 @@
       "description": "Gather and record data using simple methods such as tables, tally charts, and drawings to help answer questions",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.04918032786885246,
+      "centrality": 0.05054644808743169,
       "evidence": [
         "Record observations and measurements in a simple table or tally chart",
         "Use drawings or labelled diagrams to record what was observed",
@@ -28510,7 +28510,7 @@
       "description": "Perform simple tests and use observations and ideas to suggest answers to questions",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.05054644808743169,
+      "centrality": 0.05191256830601093,
       "evidence": [
         "Carry out a simple test with one thing changing at a time",
         "Observe what happens and describe the result",
@@ -28548,7 +28548,7 @@
       "description": "Notice the difference between what you observed and what you think it means — 'the ice melted' is an observation; 'the ice melted because of the heat' is an interpretation",
       "ageRangeStart": 6,
       "ageRangeEnd": 7,
-      "centrality": 0.05601092896174863,
+      "centrality": 0.05737704918032787,
       "evidence": [
         "observation vs interpretation in primary science",
         "BERA: children's observation skills in nature"
@@ -28582,7 +28582,7 @@
       "description": "Report on findings from enquiries using oral and written explanations, draw simple conclusions, make predictions, and suggest improvements",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.1024590163934426,
+      "centrality": 0.1038251366120219,
       "evidence": [
         "Write or present a clear report of findings from an investigation",
         "Draw a conclusion that answers the original question, supported by data",
@@ -28603,7 +28603,7 @@
       "description": "Set up simple practical enquiries, comparative tests, and fair tests, understanding the importance of changing only one variable at a time",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.03961748633879782,
+      "centrality": 0.04098360655737705,
       "evidence": [
         "Explain what makes a test 'fair' (only one variable changes, everything else stays the same)",
         "Identify the variable to change, the variable to measure, and the variables to keep the same",
@@ -28624,7 +28624,7 @@
       "description": "Gather, record, classify, and present data in a variety of ways including tables, bar charts, labelled diagrams, and keys",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.05737704918032787,
+      "centrality": 0.05874316939890711,
       "evidence": [
         "Organise data into a clear table with appropriate headings",
         "Create a bar chart or pictogram from collected data",
@@ -28645,7 +28645,7 @@
       "description": "Make systematic and careful observations, take accurate measurements using standard units and equipment including thermometers and data loggers",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.04644808743169399,
+      "centrality": 0.04781420765027322,
       "evidence": [
         "Use at least three types of measuring equipment correctly (ruler, thermometer, measuring jug, scales)",
         "Read measurements in standard units (cm, ml, °C, g) with reasonable accuracy",
@@ -31759,7 +31759,7 @@
       "description": "Evaluate the energy transition required to reach net zero: renewable energy scaling, electrification of transport and heat, green hydrogen; describe carbon capture and storage (CCS) and direct air capture (DAC); introduce proposed solar radiation management techniques (stratospheric aerosol injection, marine cloud brightening) and their potential risks and governance challenges; critically evaluate the role of individual behaviour change versus systemic policy in reducing emissions",
       "ageRangeStart": 13,
       "ageRangeEnd": 14,
-      "centrality": 0.2131147540983606,
+      "centrality": 0.2117486338797814,
       "evidence": [],
       "assessmentPrompt": "Has {{name}} heard of geoengineering? Can they describe one proposal for deliberately cooling the Earth and explain one potential risk of attempting it — and say whether they think individuals or governments bear more responsibility for tackling climate change?",
       "standards": []
