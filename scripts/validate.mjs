@@ -13,6 +13,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkTeachingResearch } from './check-teaching-research.mjs';
 
 const DATA = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'data');
 const load = (name) => JSON.parse(readFileSync(resolve(DATA, name), 'utf8'));
@@ -83,10 +84,17 @@ for (const t of topics.topics) {
 }
 if (danglingRefs > 5) errors.push(`…and ${danglingRefs - 5} more unknown standard references`);
 
+// --- teaching research: schema, coverage and exact evidence links -----------
+const research = load('teaching-research.json');
+const researchSchema = JSON.parse(readFileSync(resolve(DATA, '..', 'schema', 'teaching-research.schema.json'), 'utf8'));
+errors.push(...checkTeachingResearch(research, { topics, topicsBytes: bytesOf('topics.json'), manifest, schema: researchSchema }));
+check(Boolean(manifest.files?.['teaching-research.json']), 'manifest missing teaching-research.json checksum');
+
 // --- manifest checksums -----------------------------------------------------
 for (const [name, meta] of Object.entries(manifest.files ?? {})) {
   const actual = createHash('sha256').update(bytesOf(name)).digest('hex');
   check(actual === meta.sha256, `checksum mismatch for ${name}`);
+  check(bytesOf(name).length === meta.bytes, `byte count mismatch for ${name}`);
 }
 
 // --- report -----------------------------------------------------------------
@@ -97,6 +105,6 @@ if (errors.length) {
 }
 console.log(
   `✓ valid — ${topics.topics.length} topics, ${deps.dependencies.length} dependencies, ` +
-    `${standardKeys.size} standards, ${clusters.clusters.length} clusters. ` +
+    `${standardKeys.size} standards, ${clusters.clusters.length} clusters, ${research.recordCount} research records. ` +
     `Referential integrity + checksums OK.`,
 );

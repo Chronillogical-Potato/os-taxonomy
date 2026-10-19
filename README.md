@@ -18,6 +18,7 @@ Most curriculum data is either a flat list of standards or locked inside a produ
 - **1,590 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
 - **3,221 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
+- **Teaching research** — 1,050 records covering the current Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 540 topics have no research in this release.
 - **Domain clusters** — 183 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
@@ -43,6 +44,7 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 | [`data/dependencies.json`](data/dependencies.json) | Prerequisite **edges** (`topicId` depends on `prerequisiteId`). |
 | [`data/curriculum-standards.json`](data/curriculum-standards.json) | The source curriculum standards, grouped by curriculum. |
 | [`data/clusters.json`](data/clusters.json) | Parent-friendly domain summaries. |
+| [`data/teaching-research.json`](data/teaching-research.json) | Teaching research joined by `topicId`, with explicit coverage and publication notes (~24 MB). |
 | [`data/manifest.json`](data/manifest.json) | Counts, per-subject breakdown, per-file checksums. |
 
 ### A topic
@@ -80,6 +82,51 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 
 `topicId` **depends on** `prerequisiteId`. Reverse the edge to get "unlocks".
 
+## Teaching research
+
+[`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
+might be taught** to the graph of what children learn. It covers **547 Science**
+and **503 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
+make the **540 topics without research** explicit; absence is not a judgement
+about whether a topic can be taught.
+
+The file has `schemaVersion: 1` and taxonomy `version: "v1"`. Each `records[]`
+entry joins `topics.json` through `topicId` and contains:
+
+| Field | Meaning |
+|---|---|
+| `pedagogy` | Original teaching summary, practices, representations and misconceptions. |
+| `learn` | Portable learning guidance (`schemaVersion: 2`): a summary, activities, educational constraints and review notes. |
+| `learn.activities[]` | Learner actions, intended insight, feedback, rationale and supporting source claims. No product artifact types or fit rankings. |
+| `assess` | Original diagnostic/task, response levels, error patterns and next teaching moves; nullable in the public interface. |
+| `sources` | Claim, named source, optional URL and the original author's verification flag. |
+| `confidence` | Original authoring confidence; not an independent quality score. |
+| `provenance` | Original authoring model and source record timestamps. The update timestamp also reflects the learning-guidance rewrite. |
+| `publicationNotes` | Paths and curriculum codes for text omitted under the codes-only publication policy. |
+
+`sourceClaims` exactly match `sources[].claim` after publication transformations.
+A source may support a general principle or curriculum alignment; this does not
+mean the proposed activity was tested. Some activities have no directly linked
+source claim.
+
+These records were agent-authored. The learning guidance was rewritten for
+portability, checked by a separate factual critic, and sampled by a second agent.
+The original pedagogy and assessment were retained and may contain claims that
+the updated guidance qualifies; read the constraints and review notes alongside
+them. Sources were **not re-fetched or re-verified** for this release. Historical
+`verified: true` and `confidence: "high"` are not new evidence ratings. Activities
+are research-informed proposals, **not empirically validated interventions**.
+
+Some original research quoted restricted curriculum standards. Matched passages
+are replaced with inline curriculum references, including inside citation claims;
+all transformed paths are listed in `publicationNotes`. This is a conservative
+mechanical omission pass, not comprehensive rights clearance. Consult the linked
+upstream sources for their wording and terms. See [PROVENANCE.md](PROVENANCE.md).
+
+The file is bound to the exact `topics.json` bytes through `topicFileSha256`.
+Regenerate the research projection when the canonical topic file changes, even
+when topic IDs remain stable.
+
 ## Using it
 
 Pure data — no runtime, no dependencies. Load the JSON and go.
@@ -94,10 +141,21 @@ const prereqs = deps.dependencies
   .map(d => byId.get(d.prerequisiteId).name);
 ```
 
-Validate structure + referential integrity:
+Join teaching guidance to a topic:
+
+```js
+import research from './data/teaching-research.json' with { type: 'json' };
+
+const guidanceByTopic = new Map(research.records.map(r => [r.topicId, r]));
+const guidance = guidanceByTopic.get('mt_N8CpN1EJrP'); // undefined: English is not covered yet
+const activities = guidance?.learn.activities ?? [];
+```
+
+Validate structure, research coverage, evidence links and checksums:
 
 ```bash
 node scripts/validate.mjs
+node --test scripts/teaching-research.test.mjs
 ```
 
 ## License
@@ -107,7 +165,7 @@ This dataset is **multi-licensed** — read this before you use or redistribute 
 | Layer | License |
 |---|---|
 | **The database** — the collection, structure, IDs, topic↔topic and topic↔standard relationships | [**ODbL 1.0**](LICENSE) — free for research **and** commercial use, **attribution** required, **share-alike** (derivative *databases* must stay open under ODbL). |
-| **The textual content Marble authored** — topic `description`/`name`/`evidence`/`assessmentPrompt`, dependency `reason`s, cluster `summary`s | [**CC BY-SA 4.0**](LICENSE-CONTENT) — same spirit: attribution + share-alike. |
+| **The textual content Marble authored** — topic `description`/`name`/`evidence`/`assessmentPrompt`, dependency `reason`s, cluster `summary`s, original teaching-research prose | [**CC BY-SA 4.0**](LICENSE-CONTENT) — same spirit: attribution + share-alike. |
 | **`curriculum-standards.json`** — extracted from third-party frameworks | **Not** Marble's to relicense. Each source is under **its own upstream license** — see [**PROVENANCE.md**](PROVENANCE.md). |
 
 **Why share-alike + still commercial-friendly:** ODbL distinguishes a *derivative database* (extend/modify the taxonomy → must stay open) from a *produced work* (use it inside a product, model, or app → stays yours). So you can build a commercial product on this without open-sourcing your product; you only owe back improvements to the *taxonomy itself*.
