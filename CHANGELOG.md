@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Correct five later-age prerequisites and two adjacent dependency relationships, replacing later reinforcement with earlier foundational skills.
+- Adjust the approximate starting age for Drawing Force Diagrams from 7 to 8 and regenerate graph centrality; retain teaching-research content while refreshing its topic-file checksum binding.
 - Remove seven stale Science cluster summaries whose domains contain no topics, leaving 176 clusters.
 - Validate that every cluster subject/domain pair exists among topics, with regression coverage for orphaned domains and subject mismatches.
 - Add 1,051 teaching-research records for Science (547) and Mathematics (504), joined by stable topic ID, with explicit coverage for the other 540 topics.
