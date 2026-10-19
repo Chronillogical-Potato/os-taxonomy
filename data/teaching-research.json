@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-19T15:28:18.648Z",
-  "topicFileSha256": "00f1c6536c27c20d125ada5f4d6b8669d5ccef0cb0d1c02ddaf6a8c7ea1bd903",
-  "recordCount": 1050,
+  "exportedAt": "2026-10-19T16:08:02.198Z",
+  "topicFileSha256": "1e646adf8dac597a008390c9ed07952090ad0fc3a966144c5f19d090e4399412",
+  "recordCount": 1051,
   "coverage": {
-    "topicCount": 1590,
-    "withResearch": 1050,
+    "topicCount": 1591,
+    "withResearch": 1051,
     "withoutResearch": 540,
     "bySubject": {
       "Computing": {
@@ -35,8 +35,8 @@
         "withoutResearch": 37
       },
       "Mathematics": {
-        "topics": 503,
-        "withResearch": 503,
+        "topics": 504,
+        "withResearch": 504,
         "withoutResearch": 0
       },
       "Personal & Social Development": {
@@ -595,7 +595,7 @@
   },
   "notes": [
     "Agent-authored teaching research and proposed learning activities; not empirically validated interventions.",
-    "Original pedagogy and assessment were retained during the learning-guidance rewrite and may need separate review. Guidance may qualify claims retained elsewhere.",
+    "Original pedagogy and assessment were retained during the initial learning-guidance rewrite; later taxonomy-alignment repairs are recorded in individual review notes. Unrepaired fields may need separate review.",
     "Source verified flags and confidence are historical authoring metadata, not fresh verification or independent evidence ratings. Sources were not re-fetched for this release.",
     "Curriculum passages matching eight or more consecutive words of codes-only frameworks are omitted and marked inline. This conservative mechanical pass is not comprehensive rights clearance; third-party works retain their upstream terms. Publication notes list transformed paths.",
     "Activity sourceClaims match sources[].claim exactly after the same publication transformation. A curriculum reference establishes alignment, not evidence that an activity was tested."
@@ -52242,38 +52242,35 @@
     {
       "topicId": "mt_bESTSBB0wK",
       "pedagogy": {
-        "summary": "At age 10-11 children INTERPRET and CONSTRUCT two new representations — pie charts and line graphs — and use them to solve problems. The two demand different ideas. A line graph shows a continuous quantity over time; the work is reading values, trends and differences, and its characteristic error is reading the line as a picture rather than as a quantity (covered at the prerequisite). A pie chart shows PROPORTIONS of a whole: each sector's angle is the category's fraction of the total, taken of 360°. The central difficulty is proportional — a sector shows a share, not a raw quantity, so the actual frequency is not visible on the chart and must be recovered from the angle and the known total. Construction is where understanding shows: the correct move is (frequency ÷ total) × 360° for each sector and a check that they sum to 360°, whereas children who have not grasped the proportion divide 360 by the frequency or multiply frequency by the total. Teach both by moving repeatedly between the data table, the angles/proportions, and the finished chart.",
+        "summary": "Interpret and construct pie charts as proportions of one whole. Convert each category count to its fraction of the total and then to a sector angle: (frequency ÷ total) × 360°. Recover a count from an angle only when the total is known. Move between the table, fraction/percentage, sector angle and constructed circle; check calculations and drawing rather than relying only on whether the sectors total 360°.",
         "bestPractices": [
           "Establish the pie chart as parts of ONE whole: the full circle (360°) is the whole data set, and each sector is that category's fraction of it — so a sector shows a proportion, never a raw count",
-          "Teach sector angles as (frequency ÷ total) × 360°, and always check the sectors sum to 360°; explicitly contrast with the wrong 'divide 360 by the frequency' and 'multiply frequency by the total' methods",
+          "Teach sector angles as (frequency ÷ total) × 360°, and always check both that the sectors sum to 360° and that each sector matches its table fraction; explicitly contrast with the wrong 'divide 360 by the frequency' and 'multiply frequency by the total' methods",
           "To read an actual quantity from a pie chart, combine the sector (its angle/fraction) with the KNOWN total — make explicit that the raw frequency is not shown on the chart itself",
           "Connect pie-chart angles to percentages and to the angles-at-a-point fact (360°), so children draw on proportion and angle knowledge together",
-          "For line graphs, keep reading values, trends and differences over time, and tie each point back to both axes (guarding against reading the line as a picture)",
           "Move fluently in both directions — table → angles → chart to construct, and chart + total → quantities to interpret — so the representation and the data stay linked"
         ],
         "keyRepresentations": [
           "A circle as the whole (360°) partitioned into sectors, each labelled with its fraction/percentage of the total",
           "The formula (frequency ÷ total) × 360° shown alongside a data table being turned into sectors",
           "A protractor laying off each sector angle from a starting radius (the construction act)",
-          "A line graph of a continuous quantity over time with values traced to both axes",
           "A double representation — same data as a table and as a pie chart — to move between proportion and count"
         ],
         "commonMisconceptions": [
           "Reading a pie sector as a raw quantity rather than a proportion of the whole — or trying to read an actual count off the chart without using the total",
           "Calculating a sector angle by dividing 360° by the frequency (instead of taking the frequency as a fraction of the total, of 360°)",
           "Calculating a sector angle by multiplying the frequency by the total frequency",
-          "Not checking that the sector angles sum to 360°",
-          "Reading a line graph as a picture/shape, or reading single points rather than the trend over time"
+          "Not checking that the sector angles sum to 360°"
         ]
       },
       "learn": {
-        "summary": "For children aged 10-11, teach interpretation AND construction of pie charts and line graphs, used to solve problems. The two representations demand different ideas. A line graph shows a continuous quantity over time: read values, trends and differences, tying each point to both axes and guarding against reading the line as a picture. A pie chart shows proportions of a whole: the full circle (360°) is the whole data set, and each sector's angle is that category's fraction of the total, of 360°. The central difficulty is proportional — a sector shows a share, not a raw count, so the actual frequency is not shown on the chart and must be recovered by combining the sector's fraction with the known total. Construction is where understanding shows: compute each sector angle as (frequency ÷ total) × 360° and check the angles sum to 360°. Confront the common wrong methods — dividing 360 by the frequency, and multiplying frequency by the total. Move repeatedly between the data table, the angles/proportions, and the finished chart.",
+        "summary": "For ages 10–11, interpret and construct pie charts. The full 360° circle is one data set; each sector angle is the category fraction of the total multiplied by 360°. Recover a count by multiplying the sector fraction by the known total. Compute the angles, draw them with a protractor, label categories, and verify each against the table as well as checking their sum. This topic does not assess line-graph mastery, which belongs to the separate Line graphs topic (mt_HlNSurPVDp).",
         "activities": [
           {
             "title": "Live pie-chart builder from class data",
             "feedback": [
               "If the sectors do not exactly fill the circle (leaving a gap or overlapping), at least one angle is wrong — check the method and the arithmetic: each angle should be the category's fraction of the whole, taken of 360°",
-              "360 ÷ 10 = 36° (with 360 ÷ 5 = 72° for the others) makes the sectors total only 180° — about half the circle — so the circle itself shows the angle must be a fraction of 360°, not 360 divided by the count",
+              "360 ÷ 12 = 30° (with 360 ÷ 6 = 60° for the others) makes the sectors total only 150° — less than half the circle — so the circle itself shows the angle must be a fraction of 360°, not 360 divided by the count",
               "After computing, total the sector angles: if they do not make 360°, find the error before drawing",
               "The 'show actual numbers' toggle needs the total because a sector shows only a proportion — an unlabelled sector does not show the raw count on its own"
             ],
@@ -52283,11 +52280,11 @@
               "In a pie chart the sectors are proportional to the data; the actual frequency for each sector is usually NOT stated and must be calculated from the sector and the total — a sector shows a proportion, not a raw quantity"
             ],
             "learnerActions": [
-              "Enter a class data table into a tool that repartitions a circle in real time, e.g. favourite fruit: apple 10, banana 5, orange 5, with 20 children in all",
-              "Watch apple's 10-out-of-20 sector swing open to fill exactly half the circle, with a label ticking over to 180° and 50%",
-              "Compute each sector angle yourself as (frequency ÷ total) × 360°: apple 10/20 × 360° = 180°, banana and orange 5/20 × 360° = 90° each",
+              "Enter a class data table into a tool that repartitions a circle in real time, e.g. favourite pet: dog 12, cat 6, rabbit 6, with 24 children in all",
+              "Watch dog's 12-out-of-24 sector swing open to fill exactly half the circle, with a label ticking over to 180° and 50%",
+              "Compute each sector angle yourself as (frequency ÷ total) × 360°: dog 12/24 × 360° = 180°, cat and rabbit 6/24 × 360° = 90° each",
               "Add the sector angles and confirm they sum to 360° before drawing",
-              "Deliberately try the tempting wrong method 360 ÷ 10 = 36° for apple (and 360 ÷ 5 = 72° for the others) and watch the sectors fall well short of closing, totalling only 180° and leaving about half the circle empty",
+              "Deliberately try the tempting wrong method 360 ÷ 12 = 30° for dog (and 360 ÷ 6 = 60° for the others) and watch the sectors fall well short of closing, totalling only 150° and leaving 210° of the circle empty",
               "Use a protractor-construction mode to lay off each computed angle from a starting radius",
               "Use a 'show actual numbers' toggle that stays greyed out until the total is entered, making visible that a sector is a proportion, not a count"
             ],
@@ -52297,7 +52294,7 @@
             "title": "Recover a count from a sector and the total",
             "feedback": [
               "Answering '90 children walk' reads the angle as a count — 90° is the angle, not the number of children",
-              "The whole circle is all 60 children; a right angle is a quarter of the circle, so a quarter of 60 = 15",
+              "The whole circle is all 40 children; a right angle is a quarter of the circle, so a quarter of 40 = 10",
               "Saying 'you cannot tell' misses that the total lets you recover the count — fraction of the whole × total"
             ],
             "rationale": "Separating the angle/fraction from the count via the total directly confronts the sector-as-quantity misconception and makes the role of the total explicit.",
@@ -52305,31 +52302,12 @@
               "In a pie chart the sectors are proportional to the data; the actual frequency for each sector is usually NOT stated and must be calculated from the sector and the total — a sector shows a proportion, not a raw quantity"
             ],
             "learnerActions": [
-              "Read a given pie chart where a sector's angle is stated, e.g. 'the walk sector is a right angle, 90°, and 60 children travel in all — how many walk?'",
-              "Work out the sector's fraction of the whole: 90° is a quarter of 360°, so a quarter of 60 = 15 children walk",
+              "Read a given pie chart where a sector's angle is stated, e.g. 'the walk sector is a right angle, 90°, and 40 children travel in all — how many walk?'",
+              "Work out the sector's fraction of the whole: 90° is a quarter of 360°, so a quarter of 40 = 10 children walk",
               "Try a second: 'a sector is 72° and there are 20 children altogether — how many is that?' (72/360 × 20 = 4)",
               "State explicitly which number came from the chart (the angle/fraction) and which from the given total (the count)"
             ],
             "intendedInsight": "To get an actual quantity from a pie chart you must combine the sector's fraction with the known total; the raw count is not visible on the chart itself."
-          },
-          {
-            "title": "Read trends on a line graph over time",
-            "feedback": [
-              "Describing the line's silhouette ('it goes up like a hill') reads it as a picture; instead say how the quantity changes across the interval",
-              "Naming a single temperature is not the trend — trace points to both axes and describe the change over the interval",
-              "For a difference, read both values to the axes first, then subtract"
-            ],
-            "rationale": "Tying points to both axes and reading change over an interval addresses the documented graph-as-picture misconception and the habit of reading single points instead of trends.",
-            "sourceClaims": [
-              "Reading a line/coordinate graph as a literal picture of the situation (graph-as-picture) is a documented misconception; students should read the trend by tying points to both axes rather than reading the shape"
-            ],
-            "learnerActions": [
-              "Read a line graph of a continuous quantity over time, e.g. temperature across a day, using a draggable crosshair or marker to trace values to both axes",
-              "Describe what happens across an interval, e.g. 'it rose steadily from 6am to noon', rather than naming one point",
-              "Interpret a feature in real terms: 'the graph dips in the afternoon — what does that dip mean?' (it got cooler)",
-              "Find a difference between two times by reading each value to both axes and subtracting"
-            ],
-            "intendedInsight": "A line graph is read as a quantity changing over time — trends and differences tied to both axes — not as a picture or silhouette of the situation."
           },
           {
             "title": "Compare same-size sectors from different totals",
@@ -52354,19 +52332,18 @@
             "feedback": [
               "Choosing the '360 ÷ frequency' option usually gives sectors that do not total 360°, and even when the total happens to come out right it is not the category's fraction of the whole — the fraction-of-360 method, (frequency ÷ total) × 360°, is correct",
               "If the fill-in count is wrong, check whether you used the total and the sector's fraction together",
-              "Selecting the right trend is a start, but build at least one full chart yourself to show construction"
+              "A correct interpretation or angle calculation is a start; construct a complete pie chart to demonstrate the drawing skill"
             ],
             "rationale": "Short response formats give a scorable check of interpretation and part of construction; because choosing a correct angle is recognition rather than building, pair them with the full builder.",
             "sourceClaims": [
               "Pie chart sector angles are calculated as (category frequency ÷ total frequency) × 360° and must sum to 360°; two named misconceptions are dividing 360° by the frequency, and multiplying the frequency by the total frequency — both corrected by taking the frequency as a fraction of the total, of 360°"
             ],
             "learnerActions": [
-              "Complete a fill-in task: 'the walk sector is 90°, there are 60 children, so ___ walk' (15)",
+              "Complete a fill-in task: 'the bus sector is 120°, there are 36 children, so ___ take the bus' (12)",
               "Compute a sector angle from a table in a single step and enter it",
-              "Answer a multiple-choice item that includes the '360 ÷ frequency' answer as a tempting wrong option, and explain why it is wrong",
-              "Read a line-graph trend by selecting the correct description from options or moving a slider"
+              "Answer a multiple-choice item that includes the '360 ÷ frequency' answer as a tempting wrong option, and explain why it is wrong"
             ],
-            "intendedInsight": "Reading a sector with the total, computing a sector angle, and reading a line-graph trend can be checked for accuracy; recognising the right angle among options is not the same as constructing a chart."
+            "intendedInsight": "Reading a sector with the total and computing a sector angle can be checked for accuracy; recognising a correct angle is not the same as constructing a whole chart."
           },
           {
             "title": "Annotated reference charts for reviewing structure",
@@ -52378,16 +52355,15 @@
             "sourceClaims": [],
             "learnerActions": [
               "On a labelled pie chart, reveal each sector's angle, fraction/percentage and — given the total — its count, to confirm how the three relate",
-              "On a labelled line graph, reveal a segment's trend to confirm how change over an interval is described",
               "Use these as worked examples when checking your own constructions or interpretations"
             ],
-            "intendedInsight": "Seeing the angle, fraction and count labelled together, and a trend annotated, clarifies the structure of each representation."
+            "intendedInsight": "Relating the angle, fraction and count on an annotated pie chart can support review, but independent construction must be checked separately."
           }
         ],
         "constraints": [
           "Response-format checks (fill-in, multiple choice, slider) can assess interpretation and approximate construction by choosing a correct angle, but choosing an angle is recognition, not building; pair them with an activity where the child constructs the full chart.",
           "Annotated/static charts with reveals serve as reference and worked examples; they do not elicit independent construction or exercise the proportional reasoning that discriminates understanding.",
-          "Keep pie charts and line graphs in two dimensions; a 3D 'exploded' pie can distort the sector areas children must read as proportions, so it is a poor vehicle for proportion reading.",
+          "Use a flat pie chart; 3D perspective or an exploded view can distort the areas learners compare as proportions.",
           "In-role dialogue does not elicit the drawing/construction act — laying off sector angles with a protractor and producing a finished chart to inspect — so it cannot demonstrate the construction skill, even though a child could narrate a calculation in dialogue; it is not a substitute for the compute-and-draw work.",
           "When recovering counts, use data sets and sector fractions that give whole numbers of people where the context is people, so learner answers stay coherent.",
           "Connect pie-chart angles to percentages and to the angles-at-a-point fact (the full turn is 360°) so proportion and angle knowledge reinforce each other."
@@ -52397,7 +52373,9 @@
           "The original counterexample compared a 'football' sector of equal size in classes of 30 and 12 without fixing the angle. A quarter would give 7.5 children for the class of 30 (not a whole number), so the activity now uses a third (120°), giving whole counts of 10 and 4 while still demonstrating that equal fractions of different totals give different counts.",
           "'Show the wrong methods failing' is presented as an observable property of the circle not closing (the wrong angles total 180°, about half the circle); this is a reasonable visual argument, but the claim that watching it fail uniquely corrects the misconception is not established by the cited sources and has been softened.",
           "The claim about in-role dialogue was narrowed from 'cannot verify calculation' to the observable limit that it does not elicit the drawing/construction act or a finished chart; a child could still narrate a calculation in dialogue.",
-          "sourceClaims are exact copies of this row's sources where they support the stated teaching principle; the Year 6 statutory curriculum claim was dropped from individual activity sourceClaims because it asserts scope/necessity rather than a teaching principle. No claim of empirical testing of these specific activities is implied."
+          "sourceClaims are exact copies of this row's sources where they support the stated teaching principle; the Year 6 statutory curriculum claim was dropped from individual activity sourceClaims because it asserts scope/necessity rather than a teaching principle. No claim of empirical testing of these specific activities is implied.",
+          "Taxonomy alignment repair after os-taxonomy PR #30 (2026-10-19). Sources were reused without being re-fetched. Activities are proposals, not empirically validated interventions.",
+          "The former combined record has been narrowed to pie charts. Line-graph activities and assessment requirements now belong to mt_HlNSurPVDp; mastery of this pie-chart record is not evidence of line-graph mastery."
         ],
         "schemaVersion": 2
       },
@@ -52406,11 +52384,11 @@
         "poeTask": null,
         "probeDeeper": [
           "'Why does apple get 180° when only 10 children chose it?' — pushes the proportion (10 out of 20 is half the whole circle) into words",
-          "Counterexample: 'This class of 30 and that class of 12 both have a \"football\" slice that looks the same size — do the same-size slices mean the same number of children? Why not?' — tests that a sector is a proportion of ITS OWN total",
+          "Two classes have 120° football sectors: one class has 30 children and the other has 12. How many chose football in each class, and why do equal sector angles not imply equal counts?",
           "'A sector is 72° and there are 20 children altogether — how would you find how many that is?' — checks angle → fraction → count via the total",
-          "'On the temperature graph it dips in the afternoon — what does that dip mean in real terms?' — forces trend meaning over shape"
+          "Can sector angles total 360° even if the category shares are wrong? Explain why you must also check every sector against the table."
         ],
-        "correctAnswer": "Interpretation: 90° is a quarter of 360°, so a quarter of 60 = 15 children walk (sector combined with the total); the line graph is read as a rising trend (getting warmer), not as a shape. Construction: apple 10/20 × 360° = 180°, banana and orange 5/20 × 360° = 90° each, checked to sum to 360°. Translating each frequency into a fraction of 360° — rather than dividing 360 by the frequency — and recovering a count only via the total are the discriminating moves.",
+        "correctAnswer": "The walk sector is 90/360 = 1/4 (25%) of the whole, so 1/4 × 60 = 15 children walk. For the fruit chart: apple 10/20 = 1/2 (50%), so 10/20 × 360° = 180°; banana and orange are each 5/20 = 1/4 (25%), so 5/20 × 360° = 90° each. The angles total 360° and each sector agrees with its table fraction. A completed labelled drawing is required for construction; computing or selecting an angle alone does not demonstrate the full skill.",
         "errorPatterns": [
           {
             "kind": "misconception",
@@ -52429,14 +52407,6 @@
             "reteachPrerequisiteId": "mt_PNSyfH56eQ"
           },
           {
-            "kind": "misconception",
-            "pattern": "Line-as-picture / point-not-trend: reads the line graph's shape as a picture, or reports single points, rather than describing the trend over time",
-            "nextMove": "Reteach line-graph reading on the prerequisite: tie each point to both axes and read the change across the interval as the trend, not the shape",
-            "distractor": null,
-            "revealedBy": "On interpret (b) the child describes the line's silhouette ('it goes up like a hill') or names one temperature, instead of 'it rose steadily from 6am to noon'",
-            "reteachPrerequisiteId": "mt_H6LlpWgEYS"
-          },
-          {
             "kind": "performance",
             "pattern": "No 360° check: constructs sectors without verifying they sum to a whole turn, so errors go unnoticed",
             "nextMove": "Scaffold, do not reteach: add the checking habit — total the sector angles and confirm 360° before drawing; the proportional idea is intact",
@@ -52446,12 +52416,12 @@
           }
         ],
         "responseLevels": {
-          "gap": "Reads pie sectors as raw counts and cannot construct angles (divides 360 by the frequency); reads the line graph as a picture or as single points",
-          "full": "Interprets pie and line graphs (proportion→count via the total; trend over time) AND constructs a correct pie chart by translating frequencies into angles as fractions of 360°, checks the total, and moves fluently between table, angles and chart on a fresh data set",
-          "partial": "Interprets a given pie chart and line graph — reads a stated sector with the total, reads a trend — and computes an angle when the fraction is obvious, but cannot reliably CONSTRUCT the pie by translating each frequency to (frequency÷total)×360° or check the sectors sum to 360°: can read a representation but not build one"
+          "gap": "Treats an angle as a count or cannot relate a category fraction to its share of 360°.",
+          "full": "Uses the total to recover counts and independently constructs and labels a correct pie chart from a fresh table, checking each fraction and the angle sum.",
+          "partial": "Interprets a given sector and computes a familiar angle but needs support to calculate, draw or check the entire chart."
         },
-        "diagnosticPrompt": "Two moves. FIRST, interpret given representations: (a) 'This pie chart shows how 60 children travel to school. The \"walk\" sector is a right angle (90°). How many children walk?' (b) 'This line graph shows the temperature across a day — describe what happens between 6am and noon.' THEN, translate/construct: 'Here is a table — favourite fruit: apple 10, banana 5, orange 5 (20 children in all). Draw the pie chart: work out the angle for each sector.' Watch especially how they turn the frequencies into angles — that construction step is the discriminator.",
-        "whatMakesItDiscriminate": "The interpret step (reading a stated sector, reading a trend) can be done fairly mechanically; the CONSTRUCT step forces the proportional idea into the open. A child who thinks a sector shows a raw quantity, or who divides 360 by the frequency, produces sectors that don't fill or sum to the circle — visibly different from a child who takes each frequency as a fraction of the total. The 90°-to-count interpretation also separates those who use the total from those who read the angle as a number of children."
+        "diagnosticPrompt": "First interpret: a pie chart represents 60 children and its walk sector is 90°. How many children walk? Then construct: a table has apple 10, banana 5 and orange 5, total 20. Calculate every sector angle, draw the pie chart with a protractor, label the categories, and explain how you checked it.",
+        "whatMakesItDiscriminate": "The 90° interpretation requires using the total rather than reading the angle as a count. The construction task distinguishes calculation and recognition from producing a correctly partitioned chart. Wrong rules are checked against category shares, not only the angle sum, because an incorrect construction can still total 360°."
       },
       "sources": [
         {
@@ -52467,12 +52437,6 @@
           "verified": true
         },
         {
-          "claim": "Reading a line/coordinate graph as a literal picture of the situation (graph-as-picture) is a documented misconception; students should read the trend by tying points to both axes rather than reading the shape",
-          "source": "Clement, J. (1985), 'Misconceptions in Graphing' (UMass SRRI #111)",
-          "url": "http://people.umass.edu/clement/pdf/Misconceptions%20in%20Graphing.pdf",
-          "verified": true
-        },
-        {
           "claim": "Year 6 pupils interpret and construct pie charts and line graphs and use these to solve problems (statutory statistics content for this age)",
           "source": "National Curriculum in England: Mathematics programmes of study (KS2, Year 6 Statistics)",
           "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study",
@@ -52483,7 +52447,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-28T16:29:30.096Z",
-        "updatedAt": "2026-10-19T15:20:15.800Z"
+        "updatedAt": "2026-10-19T16:07:58.875Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -71588,7 +71552,8 @@
           "The source's framing that a line-graph-over-categories mismatch 'is seen, not told' and that dialogue/3D formats are unsuitable reflects catalog fit judgements; these have been softened to scoped affordances/limits rather than universal claims. A static image or a dialogue can still support learning; the objective limit retained is that recognition-only responses do not elicit independent construction.",
           "The constraint carrying the source's 3D 'adds nothing' claim was reworded to retain only the narrow distortion caution plus an efficacy caveat, dropping the categorical comparative claim.",
           "Self-audit of worked figures: (frequency ÷ total) × 360° is the correct pie-angle formula and sectors summing to 360° is correct. Inequality-notation interval examples (0≤t<10, 10≤t<20) correctly assign a boundary value of 10 to the second class. No arithmetic errors found in the source examples.",
-          "Internal prerequisite identifiers and step-type labels were removed while the underlying reteach intent and comparative-chart diagnostic detail were preserved."
+          "Internal prerequisite identifiers and step-type labels were removed while the underlying reteach intent and comparative-chart diagnostic detail were preserved.",
+          "Taxonomy alignment repair after os-taxonomy PR #30 (2026-10-19): chart-choice assessment recovery now points to data presentation (mt_ChjMU2GDJa); the sector-angle recovery remains on pie charts (mt_bESTSBB0wK). Sources and other teaching content were not re-researched."
         ],
         "schemaVersion": 2
       },
@@ -71614,15 +71579,15 @@
           {
             "kind": "misconception",
             "pattern": "Wrong representation for the data type: chooses a chart unsuited to the data — e.g. a line graph joining categorical bars, or a pie chart where the whole is not meaningful, or draws continuous grouped data as a bar chart with gaps like discrete categories",
-            "nextMove": "Reteach chart choice on the pie/line prerequisite: match the display to the data type — categorical→bar/pie, grouped continuous→touching bars/histogram, time-series→line — and show the mismatched chart failing to make sense",
+            "nextMove": "Reteach representation choice on the data-presentation prerequisite: match bars to categories, pie sectors to a meaningful whole, and joined lines to appropriately ordered measurements. Address grouped continuous displays here using clearly specified class intervals; do not send all chart-choice errors to the now pie-only topic.",
             "distractor": null,
             "revealedBy": "On the choose-and-draw step the child selects a line graph for categorical data, or otherwise picks a display that doesn't match whether the data is categorical, grouped continuous, a proportion, or a time-series",
-            "reteachPrerequisiteId": "mt_bESTSBB0wK"
+            "reteachPrerequisiteId": "mt_ChjMU2GDJa"
           },
           {
             "kind": "misconception",
             "pattern": "Pie angle = 360 ÷ frequency: computes each sector angle by dividing 360° by the frequency instead of taking the frequency as a fraction of the total, of 360°",
-            "nextMove": "Reteach the proportion on the pie/line prerequisite: the angle is (frequency ÷ total) × 360° and the sectors must sum to a full turn",
+            "nextMove": "Reteach the proportion on the pie-chart prerequisite: the angle is (frequency ÷ total) × 360°. Check each sector against its category share, then check that the angles total a full turn; the sum alone does not establish that the shares are correct.",
             "distractor": null,
             "revealedBy": "If a pie chart is chosen, the child writes 360 ÷ frequency for a sector and the sectors do not sum to 360°",
             "reteachPrerequisiteId": "mt_bESTSBB0wK"
@@ -71674,7 +71639,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-28T16:35:02.825Z",
-        "updatedAt": "2026-10-19T15:20:43.686Z"
+        "updatedAt": "2026-10-19T16:07:59.108Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -90379,18 +90344,18 @@
     {
       "topicId": "mt_H6LlpWgEYS",
       "pedagogy": {
-        "summary": "By age 9-10 children move from reading bar charts to reading TIME-SERIES line graphs (temperature over a week, rainfall over months) and solving comparison, sum and difference problems from them. The pedagogical heart is that a line graph encodes a CONTINUOUS quantity against time: the height of a point is a value, the connecting segment carries meaning at every moment in between (so intermediate values can be read), and the STEEPNESS of a segment is the rate of change — how fast the quantity rose or fell. Teaching should keep the graph tied to a real, felt story (the day it suddenly got cold; the wettest month) and repeatedly move between the picture and the numbers on the two axes, because the characteristic failures here are not arithmetic but interpretive: reading the line's silhouette as a picture of the event, and confusing how HIGH a point is with how much it CHANGED.",
+        "summary": "Read time and value axes together to solve line-graph comparison, difference and appropriate sum problems. Separate point height from change across equal time intervals; graph shape is not a literal picture of the situation. Temperature readings support trend interpretation and approximate interpolation under an explicit straight-line model. Period totals, such as monthly rainfall, can be compared and added but cannot be interpolated as rainfall at an intermediate date. Teach literal reads before combining values and interpreting trends.",
         "bestPractices": [
-          "Anchor every line graph in a real continuous quantity over time the child has experienced (classroom temperature logged across a week, rainfall by month) so the up/down of the line maps onto something felt",
+          "Anchor the graph in a clear quantity, units and observation schedule; distinguish temperature observations from rainfall totals over periods.",
           "Explicitly teach the three-part reading progression (Curcio): first READ THE DATA (lift a value straight off a point), then READ BETWEEN THE DATA (compare two points, find a difference, read an intermediate value), then READ BEYOND (predict the next day) — and name which you are asking for",
           "Separate HEIGHT from CHANGE deliberately: pair 'which day was warmest?' (height) with 'which day did it warm up the most?' (steepest rise) on the same graph, so children cannot conflate the tallest point with the biggest jump",
-          "Trace values back to BOTH axes every time — put a finger on the point, drop to the time axis, slide to the value axis — to break the habit of reading the line as a shape rather than as paired coordinates",
-          "Read intermediate points aloud ('between Monday and Tuesday it passed through 15 degrees') to establish that the segment is continuous data, not a decorative join between dots",
-          "Contrast a genuine time-series (temperature) with data that should NOT be joined into a line (favourite fruit) so children learn line graphs are for continuous data"
+          "Trace vertically from a plotted point to the time axis, then horizontally from that same point to the value axis; say the paired reading.",
+          "Read an intermediate temperature from the segment as a straight-line estimate; distinguish this model assumption from what was measured.",
+          "Contrast a genuine time-series (temperature) with data that should NOT be joined into a line (favourite fruit) so children learn that joined lines suit values ordered in time, such as temperature readings or monthly totals, whereas unordered categories should not be joined"
         ],
         "keyRepresentations": [
           "Temperature-over-a-week line graph (the canonical continuous time-series for this age)",
-          "A crosshair / ruler slid along the line to read any value, including between plotted points (makes interpolation visible)",
+          "A crosshair / ruler slid along the line to read plotted values and to estimate values between plotted temperature observations under a straight-line assumption (makes interpolation visible as an estimate)",
           "Paired axes with a right-angle trace from point to time-axis and to value-axis",
           "Two questions side by side on one graph — 'highest point' vs 'steepest climb' — to physically separate height from change",
           "A rising / flat / falling segment triad annotated as increase / no change / decrease"
@@ -90398,15 +90363,15 @@
         "commonMisconceptions": [
           "Graph-as-picture: reading the line's silhouette as a literal picture of the situation (a rising-then-falling temperature line 'is a hill/mountain', or a distance-time line read as the route travelled) rather than as a quantity plotted against time",
           "Slope-height / height-for-difference confusion: when asked how much a quantity changed, naming the highest point rather than the steepest segment; treating a higher point as 'faster' or 'more increase'",
-          "Treating the line as joining only the marked points, so intermediate values 'don't count' and cannot be read — not grasping that the data is continuous",
-          "Drawing a line graph for categorical data (favourite pet), or reading a scaled axis by counting squares rather than by the scale interval"
+          "Treating a line-based estimate as an exact unmeasured observation, or refusing any estimate because only the plotted points were measured.",
+          "Accepting or interpreting a joined line for categorical data (favourite pet) as if it showed a trend, or reading a scaled axis by counting squares rather than by the scale interval"
         ]
       },
       "learn": {
-        "summary": "For ages 9–10, begin with the two activities titled Start here and Compare, combine and find differences from bars, which cover the stated objective: read bar graphs and solve comparison, sum and difference problems using the axis scale and category labels. Learners read values, explain which operation fits the question, calculate, and report units. The saved research also contains substantial line-graph teaching, despite the bar-graph title and objective; retain that as a clearly separate extension on temperature over time. In that extension distinguish point height from change across equal time intervals, and treat between-reading values as estimates under a straight-line assumption, not measurements. Monthly rainfall totals can be compared or added, but a line joining the totals does not tell the rainfall at an intermediate date.",
+        "summary": "For ages 9–10, solve comparison, sum and difference problems from line graphs. Read each point using both axes and the labelled scale; distinguish the highest observed value from the largest increase over equal time intervals. Use temperatures for reading and differences, and quantities that can meaningfully be added, such as monthly rainfall totals, for sum problems. Interpolated temperatures are estimates under a stated straight-line assumption, not additional measurements. Joining monthly rainfall totals does not reveal rainfall on intermediate dates.",
         "activities": [
           {
-            "title": "Optional extension: estimate between temperature readings on a line graph",
+            "title": "Read values and estimate between temperature observations",
             "feedback": [
               "If you tap the tallest point for 'warmed up the most', that tells you the warmest day, which may or may not be where the biggest change happened — look instead for the segment that climbs most steeply across a single day.",
               "If you read a value without tracing to both axes, pause: put your finger on the point, go straight down to read the day, then from the point go straight across to read the temperature, and say the pair.",
@@ -90418,7 +90383,7 @@
               "KS2 line-graph teaching: line graphs are used for continuous data where points between plotted points carry meaning; a rising line means an increase, a falling line a decrease, a flat line no change; pupils read values and find differences from the graph"
             ],
             "learnerActions": [
-              "After the bar-graph tasks, use a temperature-over-a-week line graph with readings at the same time each day and equally spaced time intervals. Slide a crosshair, ruler or finger along a segment to read the straight-line estimate between observations.",
+              "Use a temperature-over-a-week line graph with observations at the same time each day and equal daily spacing. Slide a ruler, crosshair or finger along a segment to read a straight-line estimate between observations.",
               "Slide between Monday and Tuesday and say aloud the values the line passes through — e.g. 14, 15, 16 degrees — noticing that the line gives estimated in-between values, not only the measured values at the plotted dots.",
               "For each point, trace it back to BOTH axes: finger on the point, drop straight down to the time axis to read the day, then go back to the point and slide horizontally across to the value axis to read the temperature; say the paired coordinate.",
               "Use a 'find the difference' move: mark two points and read the vertical gap between them (e.g. the rise from Tuesday to Wednesday).",
@@ -90469,7 +90434,7 @@
             "title": "When should data be joined into a line? Continuous vs categorical",
             "feedback": [
               "A point between two temperature observations has a time and a line-based estimate. The true temperature at that time was not measured by this graph and need not match the estimate.",
-              "If you would join favourite-fruit counts with a line, ask: what is the temperature-like value halfway between apple and banana? There isn't one — so don't join it."
+              "If you would join favourite-fruit counts with a line, ask: what would a point halfway between apple and banana mean? There is no in-between fruit category — so the counts should not be joined."
             ],
             "rationale": "Contrasting temperature observations with unordered categorical counts may help learners explain when joining points supports a meaningful interpretation. Temperature interpolation remains a model-based estimate; this proposed comparison is not a validated intervention.",
             "sourceClaims": [
@@ -90515,48 +90480,10 @@
               "Before reporting any value, ask 'How much is each square worth here?' and label the scale interval, then read by the scale — not by counting squares as if each were one unit."
             ],
             "intendedInsight": "Targeted questions can check your reading skill, but you must read values by the axis scale interval, not by counting grid squares."
-          },
-          {
-            "title": "Start here: read the categories, scale and values of a bar graph",
-            "feedback": [
-              "If a learner reports 6 for banana because its bar spans six grid intervals, label one interval as 2 votes and count 2, 4, 6, 8, 10, 12.",
-              "If a learner names the rightmost bar as the largest, trace each bar to its value and compare the numbers; the category order does not determine the amounts.",
-              "Ask the learner to produce and explain a value before revealing a worked axis trace. A reveal can support checking but should not supply every answer."
-            ],
-            "rationale": "This editorially proposed activity restores the bar-graph reading demanded by the topic objective. It applies the saved graph-reading progression from literal values to comparison; the listed research does not validate this particular task design.",
-            "sourceClaims": [
-              "Curcio's three hierarchical levels of graph comprehension — reading the data (literal lift), reading between the data (compare/combine/find differences), reading beyond the data (predict/infer) — students must read the data before they can read between or beyond it; framework adopted by NCTM for assessment"
-            ],
-            "learnerActions": [
-              "Use a bar graph of favourite-fruit votes with a zero baseline, equal-width bars and a value axis labelled in steps of 2. Read the title, category labels and units before answering.",
-              "Trace the end of each bar to the value axis. For example, read apple 8 votes, banana 12 votes and pear 6 votes; explain that each grid interval represents 2 votes.",
-              "Identify the most and least popular categories and justify by reading the values, rather than naming a colour or the position of a bar.",
-              "Try the same values on a horizontal bar graph, tracing bar lengths to its value axis. Explain what changed in the display and what did not."
-            ],
-            "intendedInsight": "The labelled length or height of a bar represents the value for its category. Read the scale and category together; counting grid squares alone is not enough."
-          },
-          {
-            "title": "Compare, combine and find differences from bars",
-            "feedback": [
-              "For how many more, subtract the smaller count from the larger: 12 − 8 = 4. Merely giving 12 and 8 does not answer the difference question.",
-              "For altogether, add the named categories only: apple and pear make 14, whereas all three categories make 26.",
-              "If the arithmetic is right but the values came from the wrong bars or scale, return to the labels and axis trace before reteaching the calculation."
-            ],
-            "rationale": "The compare/combine/find-differences progression is present in the saved research. These concrete bar-graph examples are conservative editorial proposals to cover the stated objective, not empirically validated activities.",
-            "sourceClaims": [
-              "Curcio's three hierarchical levels of graph comprehension — reading the data (literal lift), reading between the data (compare/combine/find differences), reading beyond the data (predict/infer) — students must read the data before they can read between or beyond it; framework adopted by NCTM for assessment"
-            ],
-            "learnerActions": [
-              "On the same favourite-fruit bar graph (apple 8, banana 12, pear 6 votes), answer which has more votes, apple or banana, and how many more. Read both values before calculating 12 − 8 = 4 votes.",
-              "Find how many votes apple and pear have altogether: 8 + 6 = 14 votes. Explain why this question needs addition rather than a difference.",
-              "Find the total votes across all three categories: 8 + 12 + 6 = 26 votes. Order the categories from fewest to most and justify using their values.",
-              "Transfer to a bar graph of monthly rainfall totals. Read March and May, find their difference and combined total in millimetres; do not infer rainfall on a date between those months by joining bar tops."
-            ],
-            "intendedInsight": "Comparison, difference and sum are different questions about the same displayed data. Read the category values accurately, choose an operation that matches the wording, and retain the units."
           }
         ],
         "constraints": [
-          "Teach the bar-graph comparison, sum and difference tasks first. Treat the temperature line-graph tasks as a separately labelled extension; the original research and assessment emphasize line graphs despite the bar-graph objective.",
+          "This topic assesses reading and solving problems from line graphs. Constructing a complete graph is developed separately in the later Line graphs topic (mt_HlNSurPVDp); do not require unrelated bar-chart tasks as evidence of this objective.",
           "Always trace values back to BOTH axes (from the point, go vertically to the time axis to read the time, and horizontally from the point to the value axis to read the value) to counter reading the line as a shape rather than paired coordinates.",
           "Deliberately pair a height question ('which day was warmest?') with a change question ('which day warmed up the most?') on the same graph so learners cannot conflate the tallest point with the biggest jump.",
           "For temperature observations joined by straight segments, read intermediate estimates aloud and name the straight-line assumption. The line does not establish the exact path taken between observations. Do not interpolate monthly rainfall totals as rainfall on intermediate dates.",
@@ -90573,9 +90500,9 @@
           "The original feedback marked the tallest point wrong for biggest rise. This is not generally valid: the highest temperature and largest rise may coincide, so each graph must be checked.",
           "One cited source (Oak National Academy KS2 line-graph guidance) is marked verified:false in the row; treat its claim as curriculum guidance of unconfirmed verification.",
           "Draggable crosshair, live recolouring (steepest segment lighting up), and predict-then-drag are optional interaction examples that may make continuity and the height-vs-change distinction concrete; paper equivalents (sliding a ruler, drawing arrows) are acceptable, and these specific interactions are not required or proven mechanisms.",
-          "The title and objective specify bar graphs, while saved evidence, pedagogy and assessment predominantly address line graphs. This remedial rewrite adds bar-graph reading and comparison/sum/difference tasks, retaining line-graph material as an optional extension. Original non-learn fields are unchanged and need reconciliation before authoritative publication.",
           "The original summary and evidence include SUM/total problems; a combine/total task was added to the read-between activity so this is genuinely delivered rather than only promised.",
-          "Editorial repairs applied useful factual-audit corrections, qualified interpolation and monthly totals, and restored the bar-graph objective. No source was re-fetched, and the new bar-graph activities have not been empirically validated."
+          "Taxonomy alignment repair after os-taxonomy PR #30 (2026-10-19). Sources were reused without being re-fetched. Activities are proposals, not empirically validated interventions.",
+          "The temporary bar-graph activities introduced to match the former description have been removed. PR #30 corrected the description to match the original line-graph evidence and assessment."
         ],
         "schemaVersion": 2
       },
@@ -90583,19 +90510,19 @@
         "method": "performance_task",
         "poeTask": null,
         "probeDeeper": [
-          "'What does it mean that the line goes DOWN from Wednesday to Thursday?' — push for 'it got colder', a change in the quantity, not a description of shape",
-          "'You said Friday was warmest. Was Friday also the day it warmed up the most? How can you tell?' — forces height and change apart with a because-clause",
-          "Counterexample: 'Here's a graph where Monday is the highest point but the line is almost flat after a huge jump on Sunday — which day changed the most now?' — a case where highest and steepest clearly disagree",
-          "'If we measured the temperature at lunchtime on Tuesday, halfway between the Tuesday and Wednesday dots — could this graph tell us roughly what it was? Why?' — probes whether the line is understood as continuous"
+          "Why is Friday warmest even though Monday–Tuesday has the biggest rise?",
+          "Could the actual temperature halfway between observations differ from 17°C? Explain the assumption behind the estimate.",
+          "Why can January and March rainfall totals be added, while daily temperatures are not a total temperature?",
+          "How would a value axis marked every 2°C change the way you read a point?"
         ],
-        "correctAnswer": "A correct performance: for (1) the child traces the highest point down to the value axis and reads it correctly; for (2) they read both points and give the vertical difference (e.g. rose 3 degrees), not the raw values; for (3) they identify the STEEPEST rising segment and justify by how far the line climbs across one day, not by which point is highest; and for the interpolation probe they give a sensible in-between value, showing they treat the line as continuous. Reading each value back to both axes and separating 'highest' from 'biggest rise' is the mark of mastery.",
+        "correctAnswer": "Friday is warmest at 19°C; Tuesday to Wednesday rises by 2°C; Monday to Tuesday has the largest daily rise, 4°C, although Friday is highest. Halfway between Tuesday noon and Wednesday noon the straight-line estimate is 17°C; the actual unmeasured temperature may differ. January plus March rainfall is 45 mm and February exceeds January by 15 mm. Wednesday to Thursday falls by 1°C, meaning the temperature decreased (it got colder), not that something went downhill. Both traces start at the plotted point: vertically to time and horizontally to value. Do not total daily temperatures or interpolate monthly rainfall totals as rainfall at an intermediate date.",
         "errorPatterns": [
           {
             "kind": "misconception",
             "pattern": "Graph-as-picture: reads the line's shape as a literal picture of the situation rather than a quantity over time ('it goes up like a hill then down the other side', or describes it as a route/mountain) instead of talking about temperature values on days",
             "nextMove": "Confront directly: cover the whole line and expose one point at a time, asking 'what does THIS point tell us?' and tracing it to both axes, until the child re-reads the line as a set of day/temperature pairs rather than a picture",
             "distractor": null,
-            "revealedBy": "On task (3) or when asked to explain the line, the child narrates the silhouette ('it went up and over') and gestures the shape, rather than tying height at each day to a temperature value",
+            "revealedBy": "On task (6), or whenever asked to explain the line, the child narrates the silhouette ('it went up and over') and gestures the shape, rather than tying height at each day to a temperature value",
             "reteachPrerequisiteId": null
           },
           {
@@ -90608,10 +90535,10 @@
           },
           {
             "kind": "misconception",
-            "pattern": "Point-only reading: treats the line as merely joining the marked dots, so values between plotted points 'don't exist' and cannot be estimated — not grasping that a time-series is continuous",
-            "nextMove": "Reteach the continuous meaning of a time graph on the prerequisite: run a finger along the segment naming the values it passes through ('here it's about 15'), and contrast with categorical data that should NOT be joined, so the child sees when a line's in-between points carry meaning",
+            "pattern": "Confuses observed values with line-based estimates: either asserts an exact unmeasured temperature or cannot make an estimate even when the straight-line assumption is explicitly supplied.",
+            "nextMove": "Separate plotted observations from model estimates; mark the halfway position, read 17°C on the straight segment and explain that real temperatures could have varied differently.",
             "distractor": null,
-            "revealedBy": "On the interpolation probe the child says you cannot tell, or only re-reads the nearest plotted day, rather than estimating a sensible in-between value",
+            "revealedBy": "Claims 17°C is a known observation, or refuses a line-based estimate after the interpolation assumption is made explicit.",
             "reteachPrerequisiteId": "mt_ChjMU2GDJa"
           },
           {
@@ -90624,12 +90551,12 @@
           }
         ],
         "responseLevels": {
-          "gap": "Reads the line as a picture or reports values off the wrong axis/scale; cannot reliably lift a single value or names the tallest point for every question including 'changed the most'",
-          "full": "Reads and compares values, computes differences, distinguishes the steepest rise from the highest point and justifies it by how far the line climbs, and treats the line as continuous by estimating a sensible in-between value — transfers the same reasoning unprompted to a new time-series (e.g. rainfall)",
-          "partial": "Reliably reads individual values and finds a difference between two points (reads the data / between the data), but when asked which day changed the most defaults to the highest point, or cannot estimate an intermediate value — lists what the graph says without coordinating height against change"
+          "gap": "Cannot reliably read the axes or distinguishes neither point height nor daily change.",
+          "full": "Reads values by the scale, distinguishes highest from largest rise, solves the rainfall sum/difference, explains a falling segment as a decrease in temperature and explains interpolation as an assumption-based estimate; transfers the procedure to another graph.",
+          "partial": "Reads observed values and finds a difference, but needs support to compare increases, explain an estimate or select quantities that can be added."
         },
-        "diagnosticPrompt": "Put a line graph of the classroom temperature across one week in front of the child (Mon-Fri, a clear scaled value axis, one point per day joined by a line). Set three tasks and WATCH how they do them, saying little: (1) 'Show me the warmest day and tell me its temperature.' (2) 'How much did the temperature change between Tuesday and Wednesday?' (3) 'Which day did it warm up the MOST — and how can you tell from the line?' Then point to a spot on the line between two days and ask 'What was the temperature about here?' (Set the task and WATCH — do not explain the graph or hint which feature to use.)",
-        "whatMakesItDiscriminate": "Tasks (1) and (3) are designed to pull apart on the same graph: a child using height correctly for 'warmest' but ALSO naming that same tallest point for 'warmed up the most' reveals height-for-difference confusion, whereas a child who has the idea points to a different, steeper segment. The interpolation probe separates a child who reads the line as continuous data from one who thinks only the marked dots have values. A child reasoning correctly and one reasoning by picture/height give visibly different actions on identical questions."
+        "diagnosticPrompt": "Give an equally spaced line graph of temperatures recorded at noon: Monday 12°C, Tuesday 16°C, Wednesday 18°C, Thursday 17°C, Friday 19°C. Ask the learner to (1) read the warmest day and value, (2) calculate the Tuesday-to-Wednesday change, and (3) identify the interval with the largest rise. (4) Ask for the estimated temperature halfway between Tuesday noon and Wednesday noon, explicitly assuming straight-line change. (5) Then show a line graph of monthly rainfall totals (January 20 mm, February 35 mm, March 25 mm); ask for January plus March and the February–January difference. (6) Return to the temperature graph and ask what the falling Wednesday-to-Thursday segment means. Watch the reading and calculations without supplying the answers.",
+        "whatMakesItDiscriminate": "The fixed data deliberately separate the highest point (Friday) from the largest rise (Monday–Tuesday). Watching axis traces, scale reading and subtraction distinguishes sound graph reading from guessing by shape. The estimate requires an explicit assumption; a learner is not marked wrong for adding that the exact unmeasured value is unknown, provided they give the 17°C straight-line estimate. The rainfall questions check a meaningful sum and difference, and explaining the Wednesday-to-Thursday fall checks that a falling segment is read as a decrease rather than a picture."
       },
       "sources": [
         {
@@ -90661,7 +90588,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-28T16:15:11.893Z",
-        "updatedAt": "2026-10-19T15:20:38.668Z"
+        "updatedAt": "2026-10-19T16:07:59.231Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -93885,6 +93812,208 @@
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-28T14:23:53.625Z",
         "updatedAt": "2026-10-19T15:20:33.958Z"
+      },
+      "publicationNotes": {
+        "omittedCurriculumText": []
+      }
+    },
+    {
+      "topicId": "mt_HlNSurPVDp",
+      "pedagogy": {
+        "summary": "Construct and interpret line graphs for a measured quantity changing over time. Build from the earlier line-graph problem-solving topic: select a scale, label axes and units, plot pairs accurately and connect observations in time order. Distinguish observations from straight-line estimates, and point height from change or rate. Require an independently produced graph as well as verbal interpretation.",
+        "bestPractices": [
+          "Begin with a small familiar table and discuss the variables, units and observation times before drawing.",
+          "Choose evenly spaced numerical scales that include the data; label each axis and unit.",
+          "Plot every time/value pair, checking both coordinates before joining points in time order.",
+          "Introduce unequal time intervals only after equal intervals, preserving the numerical spacing of time.",
+          "Ask for a trend and a numerical difference, then for an intermediate estimate with its assumption."
+        ],
+        "keyRepresentations": [
+          "A paired table and a pupil-constructed time/temperature graph.",
+          "Axes with equally spaced numerical intervals and visible units.",
+          "A straight segment between two observations labelled as a model-based estimate.",
+          "Two intervals showing why total change and change per hour can differ."
+        ],
+        "commonMisconceptions": [
+          "Treats rows as equally spaced times when the time gaps differ.",
+          "Uses a changing numerical scale along an axis.",
+          "Swaps coordinates or reads graph height without the time/value units.",
+          "Treats a line segment as an exact record of every unmeasured value.",
+          "Names the highest point when asked for the largest change or fastest increase."
+        ]
+      },
+      "learn": {
+        "summary": "For ages 10–11, construct a complete line graph from a table of continuous measurements and use it to answer questions. Choose labelled numerical scales, preserve actual time spacing, plot paired readings and join in order. Read observations, describe trends, compute differences and estimate between observations under an explicit straight-line assumption. With unequal intervals, distinguish total change from change per hour.",
+        "activities": [
+          {
+            "title": "Build a line graph from a table",
+            "feedback": [
+              "If the points are equally spaced in value because each occupies a new row, read the temperature scale rather than counting rows.",
+              "If a label or unit is missing, ask what another reader would need to recover a table value.",
+              "If a plotted point disagrees with the table, check its two coordinates before redrawing the whole graph."
+            ],
+            "rationale": "The task elicits the construction performance required by the updated objective. The topic description and evidence statements establish scope; the activity is an editorial proposal, not a tested intervention.",
+            "sourceClaims": [
+              "Year 6 pupils interpret and construct pie charts and line graphs and use these to solve problems (statutory statistics content for this age)"
+            ],
+            "learnerActions": [
+              "Use temperatures at 09:00 12°C, 10:00 16°C, 11:00 18°C, 12:00 17°C and 13:00 19°C. Name time as the horizontal variable and temperature as the vertical variable.",
+              "Choose equal-hour spacing and a vertical scale covering 12–19°C; a 0–20°C axis with equal 2°C intervals and clear minor divisions is one option. Label time and temperature (°C).",
+              "Plot each pair yourself, check its horizontal and vertical coordinates, join points in time order, and add an informative title.",
+              "Compare your plotted points with the table before viewing a worked answer."
+            ],
+            "intendedInsight": "A line graph is a constructed mapping between paired measurements and labelled numerical axes, not a copied silhouette."
+          },
+          {
+            "title": "Read, compare and estimate on your graph",
+            "feedback": [
+              "The highest point is 19°C at 13:00, but the largest hourly rise is 4°C from 09:00 to 10:00.",
+              "The 10:00–11:00 rise is 2°C; the straight-line estimate for 10:30 is 17°C, not a measurement.",
+              "Actual unmeasured temperature could have differed; a useful estimate is not an exact observation."
+            ],
+            "rationale": "Reading values before comparing or inferring moves from observation to interpretation and uses common height/shape confusions as teaching targets; it is a proposed activity, not an evaluated intervention.",
+            "sourceClaims": [
+              "Graph-as-picture error: students treat the graph as a literal picture of the problem situation (drawing/reading a hill shape for a speed-vs-time graph over a hill), with two subtypes — global correspondence (whole scene matched to whole graph) and feature correspondence (a local visual feature matched to a graph feature); this occurs even when the student can describe the changes verbally",
+              "Slope-height confusion and related substitutions (height-for-slope, slope-for-height, height-for-difference, slope-for-curvature): students use the wrong graphical feature for the quantity asked; McDermott et al. found as many as half of students used height instead of slope to judge speed",
+              "Curcio's three hierarchical levels of graph comprehension — reading the data (literal lift), reading between the data (compare/combine/find differences), reading beyond the data (predict/infer) — students must read the data before they can read between or beyond it; framework adopted by NCTM for assessment"
+            ],
+            "learnerActions": [
+              "Identify the highest recorded temperature and the interval with the largest increase.",
+              "Find the 10:00–11:00 change, then estimate 10:30 using the straight segment and state the assumption.",
+              "Explain a flat or falling segment in terms of the measured quantity; distinguish the line from a picture of a journey or landscape."
+            ],
+            "intendedInsight": "Point height, change and estimated intermediate values answer different questions."
+          },
+          {
+            "title": "Keep unequal time intervals honest",
+            "feedback": [
+              "If the three points are equally spaced along time, check the clock times and re-space them.",
+              "Compute both the change and elapsed time; 6 ÷ 2 = 3°C per hour."
+            ],
+            "rationale": "This transfer task extends the height-versus-change distinction to the rate-of-change evidence. It is proposed practice, not an evaluated lesson.",
+            "sourceClaims": [
+              "Slope-height confusion and related substitutions (height-for-slope, slope-for-height, height-for-difference, slope-for-curvature): students use the wrong graphical feature for the quantity asked; McDermott et al. found as many as half of students used height instead of slope to judge speed"
+            ],
+            "learnerActions": [
+              "Plot a second table: 09:00 10°C, 10:00 14°C and 12:00 20°C. Make the 10:00–12:00 gap twice the 09:00–10:00 gap.",
+              "Compare the first rise, 4°C in one hour, with the later rise, 6°C in two hours. Calculate change per hour before saying which interval warmed faster.",
+              "Explain why the larger total increase is not necessarily the steeper rise when time intervals differ."
+            ],
+            "intendedInsight": "Numerical time spacing determines the plotted rate: 4°C per hour is faster than 3°C per hour although 6°C is the larger total rise."
+          },
+          {
+            "title": "Explain when a line is useful",
+            "feedback": [
+              "Joining unordered categories does not define a useful interpolation.",
+              "Time-ordered observations can support a line-based estimate only under a stated assumption about what happened between them."
+            ],
+            "rationale": "The bar/line contrast is used only to clarify when joining points is meaningful, without claiming that one representation is always superior; it is a proposed activity.",
+            "sourceClaims": [
+              "KS2 line-graph teaching: line graphs are used for continuous data where points between plotted points carry meaning; a rising line means an increase, a falling line a decrease, a flat line no change; pupils read values and find differences from the graph"
+            ],
+            "learnerActions": [
+              "Compare a temperature table indexed by time with favourite-fruit counts by unordered category. Choose a line graph for the former and bars for the latter.",
+              "Explain what an intermediate time means, and why halfway between apple and banana has no corresponding ordered category value.",
+              "Check that your own graph could be read by someone who did not see the original table."
+            ],
+            "intendedInsight": "Graph choice depends on the variables and their ordering; connecting points does not manufacture meaningful intermediate data."
+          }
+        ],
+        "constraints": [
+          "Build on mt_H6LlpWgEYS for reading and problem-solving, and mt_u5HkSxZECM for graph vocabulary; assess actual construction separately.",
+          "Keep numerical scales uniform and elapsed time spacing accurate, including unequal intervals.",
+          "A correct trend description or selection of a ready-made graph does not demonstrate independent construction.",
+          "Interpolation estimates depend on the joining assumption and do not recover exact unmeasured observations.",
+          "Avoid 3D decoration that adds no measured variable."
+        ],
+        "reviewNotes": [
+          "Taxonomy alignment repair after os-taxonomy PR #30 (2026-10-19). Sources were reused without being re-fetched. Activities are proposals, not empirically validated interventions.",
+          "This is a new, explicitly adapted record derived from mt_H6LlpWgEYS and the line-graph component of the former combined mt_bESTSBB0wK record; it is not a newly sourced literature review.",
+          "All reused source flags are false because sources were not verified for this new record. Confidence is medium; the curriculum reference supports scope, not efficacy of the construction activity."
+        ],
+        "schemaVersion": 2
+      },
+      "assess": {
+        "method": "interpret_translate",
+        "poeTask": null,
+        "probeDeeper": [
+          "How does your graph show the value at 11:00? Trace both axes.",
+          "Why is the largest hourly rise not at the highest point?",
+          "What assumption makes 17°C a defensible estimate for 10:30?",
+          "With 09:00 10°C, 10:00 14°C and 12:00 20°C, which interval has the greater total rise and which the faster rise per hour?"
+        ],
+        "correctAnswer": "The pupil constructs a graph with time and temperature units, equal numerical scale intervals and all five correctly paired points joined in order. Highest: 13:00, 19°C. Largest hourly rise: 09:00–10:00, 4°C. The 10:00–11:00 change is +2°C and the straight-line 10:30 estimate is 17°C; the actual value is not known. For 09:00, 10:00, 12:00 the last horizontal gap is twice the first.",
+        "errorPatterns": [
+          {
+            "kind": "misconception",
+            "pattern": "Treats table row order as equal elapsed time even when time gaps differ.",
+            "nextMove": "Mark clock intervals on a number line and make two hours occupy twice the space of one hour.",
+            "distractor": null,
+            "revealedBy": "Places 09:00, 10:00 and 12:00 at equal horizontal distances.",
+            "reteachPrerequisiteId": "mt_u5HkSxZECM"
+          },
+          {
+            "kind": "misconception",
+            "pattern": "Substitutes the highest point for the largest increase.",
+            "nextMove": "Compare consecutive values on the earlier line-graph problem-solving topic, marking changes over equal intervals.",
+            "distractor": null,
+            "revealedBy": "Names 13:00 rather than 09:00–10:00 for the largest hourly rise.",
+            "reteachPrerequisiteId": "mt_H6LlpWgEYS"
+          },
+          {
+            "kind": "performance",
+            "pattern": "Misplots a coordinate or omits a scale label despite explaining the graph correctly.",
+            "nextMove": "Use a two-coordinate checking routine and ask the learner to correct the point or label without reteaching the whole concept.",
+            "distractor": null,
+            "revealedBy": "One point disagrees with the table or an axis lacks units.",
+            "reteachPrerequisiteId": null
+          }
+        ],
+        "responseLevels": {
+          "gap": "Cannot map the paired readings onto numerical axes or uses inconsistent spacing.",
+          "full": "Independently constructs and checks the graph, interprets height and change correctly, explains the interpolation assumption and handles unequal time intervals.",
+          "partial": "Reads a supplied graph but needs scaffolding to choose scales, plot or label the complete construction, or explain an estimate."
+        },
+        "diagnosticPrompt": "Give the table 09:00 12°C, 10:00 16°C, 11:00 18°C, 12:00 17°C, 13:00 19°C. Ask the learner to construct a labelled line graph from blank axes, choose and explain a scale, identify the highest observed value and largest hourly rise, calculate the 10:00–11:00 change, and estimate 10:30 under a straight-line assumption. Then ask how the horizontal positions should change for readings at 09:00, 10:00 and 12:00.",
+        "whatMakesItDiscriminate": "Independent construction reveals scale, labelling and coordinate errors that choosing a finished graph would conceal. The same data separate the highest point from the greatest rise; the estimate and unequal-time transfer expose observation/model and row/time-spacing confusions."
+      },
+      "sources": [
+        {
+          "claim": "Graph-as-picture error: students treat the graph as a literal picture of the problem situation (drawing/reading a hill shape for a speed-vs-time graph over a hill), with two subtypes — global correspondence (whole scene matched to whole graph) and feature correspondence (a local visual feature matched to a graph feature); this occurs even when the student can describe the changes verbally",
+          "source": "Clement, J. (1985), 'Misconceptions in Graphing', Proc. 9th PME Conference (SRRI #111)",
+          "url": "http://people.umass.edu/clement/pdf/Misconceptions%20in%20Graphing.pdf",
+          "verified": false
+        },
+        {
+          "claim": "Slope-height confusion and related substitutions (height-for-slope, slope-for-height, height-for-difference, slope-for-curvature): students use the wrong graphical feature for the quantity asked; McDermott et al. found as many as half of students used height instead of slope to judge speed",
+          "source": "Clement, J. (1985), 'Misconceptions in Graphing', Proc. 9th PME Conference (SRRI #111)",
+          "url": "http://people.umass.edu/clement/pdf/Misconceptions%20in%20Graphing.pdf",
+          "verified": false
+        },
+        {
+          "claim": "Curcio's three hierarchical levels of graph comprehension — reading the data (literal lift), reading between the data (compare/combine/find differences), reading beyond the data (predict/infer) — students must read the data before they can read between or beyond it; framework adopted by NCTM for assessment",
+          "source": "Manitoba Education Grade 4 Mathematics Support Document (reproducing Friel, Curcio & Bright 2001 / Curcio 1987)",
+          "url": "https://www.edu.gov.mb.ca/k12/framework/publications/math/support_gr4/docs/statistics.pdf",
+          "verified": false
+        },
+        {
+          "claim": "KS2 line-graph teaching: line graphs are used for continuous data where points between plotted points carry meaning; a rising line means an increase, a falling line a decrease, a flat line no change; pupils read values and find differences from the graph",
+          "source": "Oak National Academy, KS2 Statistics — Interpret line graphs (via curriculum guidance)",
+          "url": "https://www.thenational.academy/teachers/programmes/maths-primary-ks2/units/statistics/lessons/interpret-line-graphs-representing-two-variables-in-familiar-contexts",
+          "verified": false
+        },
+        {
+          "claim": "Year 6 pupils interpret and construct pie charts and line graphs and use these to solve problems (statutory statistics content for this age)",
+          "source": "National Curriculum in England: Mathematics programmes of study (KS2, Year 6 Statistics)",
+          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study",
+          "verified": false
+        }
+      ],
+      "confidence": "medium",
+      "provenance": {
+        "originalResearchGeneratedBy": "agent-editorial-alignment (adapted existing graph research)",
+        "createdAt": "2026-10-19T16:07:59.353Z",
+        "updatedAt": "2026-10-19T16:07:59.353Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []

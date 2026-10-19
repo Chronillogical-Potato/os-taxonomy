@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,590 · **Prerequisite edges:** 3,221 · **Subjects:** 8
+> **Version:** `v1` · **Topics:** 1,591 · **Prerequisite edges:** 3,225 · **Subjects:** 8
 
 ## See it
 
@@ -15,10 +15,10 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,590 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,221 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,591 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,225 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,050 records covering the current Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 540 topics have no research in this release.
+- **Teaching research** — 1,051 records covering the current Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 540 topics have no research in this release.
 - **Domain clusters** — 183 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
@@ -26,7 +26,7 @@ Most curriculum data is either a flat list of standards or locked inside a produ
 | Subject | Topics |
 |---|---:|
 | Science | 547 |
-| Mathematics | 503 |
+| Mathematics | 504 |
 | English | 286 |
 | History | 90 |
 | Personal & Social Development | 88 |
@@ -86,7 +86,7 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It covers **547 Science**
-and **503 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
+and **504 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
 make the **540 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
@@ -111,8 +111,9 @@ source claim.
 
 These records were agent-authored. The learning guidance was rewritten for
 portability, checked by a separate factual critic, and sampled by a second agent.
-The original pedagogy and assessment were retained and may contain claims that
-the updated guidance qualifies; read the constraints and review notes alongside
+Most original pedagogy and assessment were retained and may contain claims that
+the updated guidance qualifies; chart-specific alignment repairs after #30 are
+recorded in the affected learning-guidance review notes; read the constraints and review notes alongside
 them. Sources were **not re-fetched or re-verified** for this release. Historical
 `verified: true` and `confidence: "high"` are not new evidence ratings. Activities
 are research-informed proposals, **not empirically validated interventions**.
@@ -122,6 +123,15 @@ are replaced with inline curriculum references, including inside citation claims
 all transformed paths are listed in `publicationNotes`. This is a conservative
 mechanical omission pass, not comprehensive rights clearance. Consult the linked
 upstream sources for their wording and terms. See [PROVENANCE.md](PROVENANCE.md).
+
+After the chart split in [#30](https://github.com/withmarbleapp/os-taxonomy/pull/30),
+`mt_bESTSBB0wK` covers pie charts, `mt_H6LlpWgEYS` covers earlier line-graph
+problem-solving, and `mt_HlNSurPVDp` has a separate construction-and-interpretation
+record. The new record adapts existing graph research; it is not a fresh
+literature review, and all reused source-verification flags are false. Its
+assessment requires a complete constructed graph. The later grouped-charts
+assessment routes graph-choice errors to data presentation and sector-angle
+errors to pie charts.
 
 The file is bound to the exact `topics.json` bytes through `topicFileSha256`.
 Regenerate the research projection when the canonical topic file changes, even

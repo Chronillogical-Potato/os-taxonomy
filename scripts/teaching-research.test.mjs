@@ -16,3 +16,20 @@ test('schema validator fails closed on unknown keywords and checks nested types'
  assert.throws(() => checkSchema('x', { unknownKeyword: true }));
  assert.ok(checkSchema({ items: ['x', 3] }, { type:'object',properties:{items:{type:'array',items:{type:'string'}}},additionalProperties:false }).length > 0);
 });
+test('chart research follows the pie/line split and the updated recovery routes', () => {
+ const rows = new Map(research.records.map(r => [r.topicId, r]));
+ const pie = rows.get('mt_bESTSBB0wK');
+ const earlierLine = rows.get('mt_H6LlpWgEYS');
+ const construction = rows.get('mt_HlNSurPVDp');
+ const grouped = rows.get('mt_eKJG-0eC6D');
+ assert.ok(pie && earlierLine && construction && grouped);
+ assert.ok(!/line.graph|temperature/i.test(JSON.stringify(pie.assess)));
+ assert.ok(!pie.learn.activities.some(a => /line.graph/i.test(a.title)));
+ assert.ok(!earlierLine.learn.activities.some(a => /from bars|bar.graph/i.test(a.title)));
+ assert.match(construction.assess.diagnosticPrompt, /construct.*line graph.*blank axes/i);
+ assert.equal(construction.assess.method, 'interpret_translate');
+ assert.ok(construction.sources.every(s => s.verified === false));
+ assert.equal(construction.assess.errorPatterns.find(e => /highest point/.test(e.pattern)).reteachPrerequisiteId, 'mt_H6LlpWgEYS');
+ assert.equal(grouped.assess.errorPatterns.find(e => /Wrong representation/.test(e.pattern)).reteachPrerequisiteId, 'mt_ChjMU2GDJa');
+ assert.equal(grouped.assess.errorPatterns.find(e => /Pie angle/.test(e.pattern)).reteachPrerequisiteId, 'mt_bESTSBB0wK');
+});
