@@ -737,7 +737,11 @@
         "Correct misplaced or missing apostrophes in a set of sentences"
       ],
       "assessmentPrompt": "When {{name}} writes a word like \"don't\" or \"it's\", do they put the apostrophe in the right place — and can they also write something like \"the dog's bowl\" to show the bowl belongs to the dog?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.1.1b",
+        "uk-nc-2013:Eng.App2.Y2.Punc.3",
+        "uk-nc-2013:Eng/KS1/Y2/VGP/1"
+      ]
     },
     {
       "id": "mt_ntqNLHsj5n",
@@ -799,7 +803,11 @@
         "Choose precise adjectives to make a noun phrase more vivid: e.g., 'a tiny, shivering kitten'"
       ],
       "assessmentPrompt": "When {{name}} describes something in writing — like a pet or a toy — do they add extra describing words, such as \"the small, fluffy rabbit\" rather than just \"the rabbit\"?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.1.1f",
+        "uk-nc-2013:Eng.App2.Y2.Sent.2",
+        "uk-nc-2013:Eng/KS1/Y2/VGP/2b"
+      ]
     },
     {
       "id": "mt_u1-UfD0rTH",
@@ -862,7 +870,11 @@
       ],
       "assessmentPrompt": "If {{name}} is writing about something that happened yesterday versus something happening right now, do they change the verb — for example, writing \"she jumped\" for the past and \"she is jumping\" for right now?",
       "standards": [
-        "ccss-ela:L.3.1d"
+        "ccss-ela:L.1.1e",
+        "ccss-ela:L.3.1d",
+        "uk-nc-2013:Eng.App2.Y2.Text.1",
+        "uk-nc-2013:Eng.App2.Y2.Text.2",
+        "uk-nc-2013:Eng/KS1/Y2/VGP/2c"
       ]
     },
     {
@@ -881,7 +893,9 @@
         "Choose the correct possessive pronoun (my/his/her/their) to match the noun it replaces"
       ],
       "assessmentPrompt": "When {{name}} retells a story or describes what a friend did, do they use words like \"he\", \"she\", \"they\", or \"his\" correctly — instead of repeating the person's name every single time?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.1.1d"
+      ]
     },
     {
       "id": "mt_u7Jxjjatkh",
@@ -946,7 +960,9 @@
         "Expand sentences by adding both an adjective and an adverb: 'The tall boy ran quickly'"
       ],
       "assessmentPrompt": "If {{name}} writes \"she ran quick\" instead of \"she ran quickly\", can they spot that they need an adverb to describe the running — and fix it themselves?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.2.1e"
+      ]
     },
     {
       "id": "mt_2l06snztdP",
@@ -1028,7 +1044,9 @@
         "Write a short recount using at least five irregular past-tense verbs accurately"
       ],
       "assessmentPrompt": "When {{name}} writes about something that happened in the past with an irregular verb — like \"run\" or \"sit\" — do they write \"ran\" and \"sat\" rather than \"runned\" and \"sitted\"?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.2.1d"
+      ]
     },
     {
       "id": "mt_nFBLNoChD0",
@@ -1069,6 +1087,7 @@
       ],
       "assessmentPrompt": "When {{name}} writes a paragraph about two people — like two characters in a story — do they use \"he\", \"she\", and \"they\" clearly enough that you always know who is being talked about?",
       "standards": [
+        "ccss-ela:L.2.1c",
         "uk-nc-2013:Eng.App2.Y4.Text.2",
         "uk-nc-2013:Eng_LKS2_Write_VGP_3"
       ]
@@ -1136,7 +1155,9 @@
         "Write three sentences each containing a different abstract noun (e.g. 'honesty', 'friendship', 'happiness')"
       ],
       "assessmentPrompt": "Can {{name}} write a sentence using an abstract word like \"kindness\", \"freedom\", or \"happiness\" — knowing these are nouns even though you can't touch or see them?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.3.1c"
+      ]
     },
     {
       "id": "mt_2NfIKEYdbm",
@@ -1155,6 +1176,7 @@
       ],
       "assessmentPrompt": "If {{name}} writes \"Each of the players have their own locker\", can they spot the error and fix it to \"has their own locker\" — making sure the verb matches the subject?",
       "standards": [
+        "ccss-ela:L.3.1f",
         "ccss-ela:L.4.2a"
       ]
     },
@@ -1193,6 +1215,7 @@
       ],
       "assessmentPrompt": "When {{name}} describes something in a piece of writing, do they build up a rich description — like \"the tall man with the grey coat\" rather than just \"the man\"?",
       "standards": [
+        "uk-nc-2013:Eng.App2.Y4.Sent.1",
         "uk-nc-2013:Eng.UKS2.Write.VGP.1d"
       ]
     },
@@ -1212,7 +1235,12 @@
         "Identify and correct a missing comma after a fronted adverbial in 'Before breakfast she packed her bag'"
       ],
       "assessmentPrompt": "When {{name}} writes a story or a report, do they sometimes start a sentence with a phrase like \"After lunch,\" or \"Quietly, the fox moved closer,\" — and put a comma after that opening phrase?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng.App2.Y4.Punc.3",
+        "uk-nc-2013:Eng.App2.Y4.Sent.2",
+        "uk-nc-2013:Eng_LKS2_Write_VGP_5",
+        "uk-nc-2013:Eng_LKS2_Write_VGP_7"
+      ]
     },
     {
       "id": "mt_J5cx6S_eT9",
@@ -1230,7 +1258,11 @@
         "Use the terms 'determiner' and 'adverbial' accurately when discussing a classmate's writing"
       ],
       "assessmentPrompt": "If you ask {{name}} to find a \"determiner\" or a \"possessive pronoun\" in a sentence, can they point one out and explain what job it does?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng.App2.Y4.Term.1",
+        "uk-nc-2013:Eng_LKS2_Write_VGP_10",
+        "uk-nc-2013:Eng_LKS2_Write_VGP_6"
+      ]
     },
     {
       "id": "mt_bn5ggh84qD",
@@ -1248,7 +1280,9 @@
         "Write two sentences using the same noun — one as a plural and one as a possessive"
       ],
       "assessmentPrompt": "Can {{name}} tell the difference between \"the girls' coats\" (belonging to many girls) and \"the girls are coming\" (just a plural) — and write each one correctly without mixing up the apostrophe?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng.App2.Y4.Word.1"
+      ]
     },
     {
       "id": "mt_Of-WsrRQ8B",
@@ -1266,7 +1300,9 @@
         "Write a three-sentence paragraph maintaining consistent future tense throughout"
       ],
       "assessmentPrompt": "When {{name}} writes about something that happened yesterday, something happening now, and something that will happen tomorrow, do they change the verb correctly for each time — like \"I walked\", \"I walk\", and \"I will walk\"?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.3.1e"
+      ]
     },
     {
       "id": "mt_ay0qkGj0jg",
@@ -1284,7 +1320,9 @@
         "Rewrite a short passage replacing three non-standard verb forms with their Standard English equivalents"
       ],
       "assessmentPrompt": "If {{name}} sometimes says \"we was\" or \"they done it\" in conversation, do they know to write \"we were\" and \"they did it\" in their schoolwork — using standard written English?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng.App2.Y4.Word.2"
+      ]
     },
     {
       "id": "mt_VVx0hPPSKi",
@@ -2504,7 +2542,15 @@
         "Recognise at least 20-30 high-frequency words in connected text"
       ],
       "assessmentPrompt": "Can {{name}} instantly recognise everyday words like 'said', 'was', 'they', 'come', and 'because' without needing to sound them out every time?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RF.1.3.g",
+        "ccss-ela:RF.2.3.f",
+        "ccss-ela:RF.K.3.c",
+        "uk-nc-2013:Eng/KS1/Y2/WR/6",
+        "uk-nc-2013:Eng_App1_Y1_55",
+        "uk-nc-2013:Eng_App1_Y2_26",
+        "uk-nc-2013:Eng_Y1_RWR_04"
+      ]
     },
     {
       "id": "mt__CMXZiPfTV",
@@ -2522,7 +2568,12 @@
         "Read words with prefix un- (e.g. 'unhappy', 'undo')"
       ],
       "assessmentPrompt": "When {{name}} sees familiar words with different endings — like 'jumped', 'running', 'biggest', or 'unhappy' — can they spot the root word and read the whole thing correctly?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RF.1.3.f",
+        "uk-nc-2013:Eng/KS1/Y2/WR/4",
+        "uk-nc-2013:Eng_Y1_RWR_05",
+        "uk-nc-2013:Eng_Y1_RWR_06"
+      ]
     },
     {
       "id": "mt_C7abt7pRr6",
@@ -2727,7 +2778,8 @@
       "assessmentPrompt": "Can {{name}} read trickier exception words — like 'ordinary', 'promise', 'recent', or 'island' — without being thrown off by the parts that don't follow the usual spelling rules?",
       "standards": [
         "ccss-ela:RF.2.3.f",
-        "ccss-ela:RF.3.3.d"
+        "ccss-ela:RF.3.3.d",
+        "uk-nc-2013:Eng_LKS2_Read_Word_2"
       ]
     },
     {
@@ -2749,7 +2801,8 @@
       "standards": [
         "ccss-ela:RF.2.3.d",
         "ccss-ela:RF.3.3.a",
-        "ccss-ela:RF.3.3.b"
+        "ccss-ela:RF.3.3.b",
+        "uk-nc-2013:Eng_LKS2_Read_Word_1"
       ]
     },
     {
@@ -2967,7 +3020,12 @@
         "Explain how two events or ideas in a text are connected"
       ],
       "assessmentPrompt": "After {{name}} reads a short fact book — like one about animals or space — can they tell you what the main topic was and give you a few key facts they learned from it?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RI.1.2",
+        "ccss-ela:RI.1.8",
+        "ccss-ela:RI.K.2",
+        "ccss-ela:RI.K.3"
+      ]
     },
     {
       "id": "mt_OlhMP7ShFT",
@@ -3014,9 +3072,17 @@
       ],
       "assessmentPrompt": "While reading a story, can {{name}} answer questions like \"Why did the character do that?\" or \"How do you think they felt?\" — using clues from the text rather than just guessing?",
       "standards": [
+        "ccss-ela:RI.1.1",
+        "ccss-ela:RI.2.1",
         "ccss-ela:RI.3.1",
+        "ccss-ela:RI.K.1",
+        "ccss-ela:RL.1.1",
+        "ccss-ela:RL.2.1",
         "ccss-ela:RL.3.1",
-        "uk-nc-2013:Eng.UKS2.Read.Comp.2b"
+        "ccss-ela:RL.K.1",
+        "uk-nc-2013:Eng.UKS2.Read.Comp.2b",
+        "uk-nc-2013:Eng/KS1/Y2/C/2c",
+        "uk-nc-2013:Eng_Y1_RC_10"
       ]
     },
     {
@@ -3060,7 +3126,13 @@
         "Compare how two characters from different stories react to a similar situation (e.g. how two heroes show bravery in different ways)"
       ],
       "assessmentPrompt": "When {{name}} reads a story told from one character's point of view, can they think about how a different character in the same story might have seen events differently?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RL.1.6",
+        "ccss-ela:RL.1.9",
+        "ccss-ela:RL.2.3",
+        "ccss-ela:RL.2.6",
+        "ccss-ela:RL.2.9"
+      ]
     },
     {
       "id": "mt_fL1Xz8ostr",
@@ -3105,6 +3177,7 @@
       ],
       "assessmentPrompt": "When {{name}} reads a multi-page article — like a school text about a historical event — can they tell you the main idea and then explain what each section was specifically about?",
       "standards": [
+        "ccss-ela:RI.2.2",
         "ccss-ela:RI.2.8",
         "ccss-ela:RI.3.2",
         "ccss-ela:RI.4.2"
@@ -3270,7 +3343,9 @@
         "Distinguish the central message from a summary of events — explain what the story means, not just what happens"
       ],
       "assessmentPrompt": "After reading a fable like \"The Tortoise and the Hare\", can {{name}} tell you the lesson the story is teaching — and point to a moment in the story that shows that lesson?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RL.2.2"
+      ]
     },
     {
       "id": "mt_aVZJhPbc_1",
@@ -3330,7 +3405,10 @@
         "Describe where one's own opinion about a character differs from the narrator's portrayal and explain why"
       ],
       "assessmentPrompt": "When {{name}} reads a story, can they describe why a character made a particular choice — explaining their motivations — and also say whether they personally agree with what the character did?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RL.3.3",
+        "ccss-ela:RL.3.6"
+      ]
     },
     {
       "id": "mt_w4wKFP3jud",
@@ -3348,7 +3426,10 @@
         "Describe how two paragraphs in a text are connected (e.g. comparison, cause/effect, or sequence)"
       ],
       "assessmentPrompt": "After reading a non-fiction passage — like one about climate or history — can {{name}} explain what caused something to happen, what the effect was, and how the author linked those ideas together?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RI.3.3",
+        "ccss-ela:RI.3.8"
+      ]
     },
     {
       "id": "mt_H0ajATAlus",
@@ -3366,7 +3447,9 @@
         "Explain the difference between the topic of a story and its central message or lesson"
       ],
       "assessmentPrompt": "After reading a myth or folktale from another culture, can {{name}} explain what lesson or value it was teaching — and say which details in the story showed that?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RL.3.2"
+      ]
     },
     {
       "id": "mt_ujwtRoYJ34",
@@ -3384,7 +3467,9 @@
         "Describe how a specific chapter advances the plot by referring to events in earlier chapters"
       ],
       "assessmentPrompt": "When {{name}} talks about a book they're reading, do they use words like \"chapter\", \"stanza\", or \"scene\" correctly — and can they explain how a later chapter builds on what happened earlier?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RL.3.5"
+      ]
     },
     {
       "id": "mt_OltpfaX7l6",
@@ -3402,7 +3487,9 @@
         "Explain how word choices in an informational text reveal the author's attitude toward the topic"
       ],
       "assessmentPrompt": "When {{name}} reads a fact book or an article, can they tell you what the author's purpose was — like whether they were trying to inform, persuade, or entertain — and whether they agree with the author's viewpoint?",
-      "standards": []
+      "standards": [
+        "ccss-ela:RI.3.6"
+      ]
     },
     {
       "id": "mt_8FwtdJzeDh",
@@ -4530,6 +4617,8 @@
       ],
       "assessmentPrompt": "If {{name}} knows they're going to discuss a topic in class, do they think about it beforehand and come ready with ideas or facts to share?",
       "standards": [
+        "ccss-ela:SL.3.1.a",
+        "ccss-ela:SL.3.1.d",
         "ccss-ela:SL.4.1",
         "ccss-ela:SL.4.1.a",
         "ccss-ela:SL.4.1.b",
@@ -4555,6 +4644,7 @@
       ],
       "assessmentPrompt": "Can {{name}} give a short talk about a topic they've researched — presenting the key facts in a logical order and speaking clearly enough for others to follow?",
       "standards": [
+        "ccss-ela:SL.3.4",
         "ccss-ela:SL.4.4",
         "ccss-ela:SL.5.4"
       ]
@@ -4968,7 +5058,13 @@
         "Add a possessive apostrophe to a singular noun in a dictated sentence"
       ],
       "assessmentPrompt": "When {{name}} writes something belonging to one person or thing — like \"the dog's lead\" or \"the girl's bag\" — do they put the apostrophe in the right place?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.1.1b",
+        "ccss-ela:L.2.2c",
+        "uk-nc-2013:Eng.App2.Y2.Punc.3",
+        "uk-nc-2013:Eng/KS1/Y2/S/1e",
+        "uk-nc-2013:Eng_App1_Y2_23"
+      ]
     },
     {
       "id": "mt_IntmJBg4VQ",
@@ -5183,7 +5279,11 @@
       ],
       "assessmentPrompt": "Does {{name}} know that some words have letter patterns from other languages — like \"ch\" making a \"k\" sound in \"school\" or \"chorus\" — and can they spell those words correctly?",
       "standards": [
-        "uk-nc-2013:Eng.UKS2.Write.Trans.Spell.4"
+        "uk-nc-2013:Eng.UKS2.Write.Trans.Spell.4",
+        "uk-nc-2013:Eng_App1_Sp_Y34_11",
+        "uk-nc-2013:Eng_App1_Sp_Y34_12",
+        "uk-nc-2013:Eng_App1_Sp_Y34_13",
+        "uk-nc-2013:Eng_App1_Sp_Y34_14"
       ]
     },
     {
@@ -5582,7 +5682,10 @@
         "Explain the difference between 'She was on fire' (figurative — performing well) and 'The log was on fire' (literal)"
       ],
       "assessmentPrompt": "When {{name}} reads a phrase like \"it's raining cats and dogs\" or \"she had butterflies in her stomach,\" do they know it doesn't mean what the words literally say?",
-      "standards": []
+      "standards": [
+        "ccss-ela:L.3.5a",
+        "ccss-ela:RL.3.4"
+      ]
     },
     {
       "id": "mt_E5YbLvMgLL",
@@ -5874,7 +5977,10 @@
         "Practise sentences with a partner before writing independently"
       ],
       "assessmentPrompt": "Before {{name}} starts writing a sentence, do they say it out loud first — testing how it sounds — before putting pen to paper?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng_Y1_WC_01",
+        "uk-nc-2013:Eng_Y1_WC_02"
+      ]
     },
     {
       "id": "mt_4A4RpX-Go9",
@@ -5947,7 +6053,12 @@
         "Include a reaction or ending to a narrative (e.g. 'I felt happy')"
       ],
       "assessmentPrompt": "Can {{name}} write a short story about something that happened — with a clear beginning, middle, and end — so that someone who wasn't there could follow what happened and in what order?",
-      "standards": []
+      "standards": [
+        "ccss-ela:W.1.3",
+        "ccss-ela:W.K.3",
+        "uk-nc-2013:Eng.App2.Y1.Text.1",
+        "uk-nc-2013:Eng_Y1_WC_03"
+      ]
     },
     {
       "id": "mt_91f1XFvGZq",
@@ -5965,7 +6076,10 @@
         "Draw, dictate, or write to express a preference about a book or topic"
       ],
       "assessmentPrompt": "Can {{name}} write a sentence or two giving their opinion about something — like their favourite book or food — and explain why they feel that way?",
-      "standards": []
+      "standards": [
+        "ccss-ela:W.1.1",
+        "ccss-ela:W.K.1"
+      ]
     },
     {
       "id": "mt_o8ciHks8t2",
@@ -6001,7 +6115,10 @@
         "Name a topic and provide relevant details about it"
       ],
       "assessmentPrompt": "Can {{name}} write a few sentences explaining something they know about — like how butterflies grow or how to make a sandwich — naming the topic and sharing some facts?",
-      "standards": []
+      "standards": [
+        "ccss-ela:W.1.2",
+        "ccss-ela:W.K.2"
+      ]
     },
     {
       "id": "mt_hp2qJ-QRBn",
@@ -6020,6 +6137,7 @@
       ],
       "assessmentPrompt": "Can {{name}} write an explanatory or informative piece — like \"How Volcanoes Work\" — that introduces the topic clearly, develops it with facts and definitions, and ends with a conclusion?",
       "standards": [
+        "ccss-ela:W.2.2",
         "ccss-ela:W.3.2",
         "ccss-ela:W.3.2a",
         "ccss-ela:W.3.2b",
@@ -6105,7 +6223,11 @@
         "Discuss improvements with a partner and make at least one revision to strengthen the writing"
       ],
       "assessmentPrompt": "When {{name}} finishes a piece of writing, do they proofread it for spelling mistakes, missing punctuation, and errors in grammar — and make corrections before handing it in?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng/KS1/Y2/WC/3a",
+        "uk-nc-2013:Eng/KS1/Y2/WC/3b",
+        "uk-nc-2013:Eng/KS1/Y2/WC/3c"
+      ]
     },
     {
       "id": "mt_WKxX-b86Vr",
@@ -6124,6 +6246,7 @@
       ],
       "assessmentPrompt": "Can {{name}} write a persuasive piece — like arguing for a longer lunch break or why dogs are better pets than cats — with a clear viewpoint, organised reasons, and a conclusion?",
       "standards": [
+        "ccss-ela:W.2.1",
         "ccss-ela:W.3.1",
         "ccss-ela:W.3.1a",
         "ccss-ela:W.3.1b",
@@ -6197,7 +6320,8 @@
         "ccss-ela:W.5.3c",
         "ccss-ela:W.5.3d",
         "ccss-ela:W.5.3e",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.2b"
+        "uk-nc-2013:Eng.UKS2.Write.Comp.2b",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_5"
       ]
     },
     {
@@ -6242,7 +6366,9 @@
         "Try out two or three different ways to express the same idea orally and choose the most effective version to write"
       ],
       "assessmentPrompt": "Does {{name}} try out a sentence aloud before writing it — experimenting with different words and structures to find the version that sounds best?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Eng_LKS2_Write_Comp_3"
+      ]
     },
     {
       "id": "mt_pis4novXWQ",
@@ -6269,7 +6395,10 @@
         "uk-nc-2013:Eng.UKS2.Write.Comp.3b",
         "uk-nc-2013:Eng.UKS2.Write.Comp.3c",
         "uk-nc-2013:Eng.UKS2.Write.Comp.3d",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3e"
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3e",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_7",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_8",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_9"
       ]
     },
     {
@@ -6307,6 +6436,8 @@
       ],
       "assessmentPrompt": "When {{name}} is given a research project at school, can they look up information from books or websites, take organised notes, and then write it up in their own words?",
       "standards": [
+        "ccss-ela:W.3.7",
+        "ccss-ela:W.3.8",
         "ccss-ela:W.4.7",
         "ccss-ela:W.4.8",
         "ccss-ela:W.5.7"
@@ -6329,6 +6460,7 @@
       ],
       "assessmentPrompt": "When {{name}} writes descriptive or creative pieces, do they choose interesting and precise words — like \"sprinted\" instead of \"ran\", or \"crimson\" instead of \"red\" — to create a specific effect?",
       "standards": [
+        "ccss-ela:L.3.3a",
         "ccss-ela:L.4.3a",
         "ccss-ela:L.4.3b",
         "uk-nc-2013:Eng.UKS2.Write.Comp.2a"
@@ -10248,7 +10380,9 @@
         "Solve a three-step problem involving addition and subtraction of five-digit numbers"
       ],
       "assessmentPrompt": "If {{name}} is given a multi-step problem — like planning a budget where money is added and spent in several steps — can they decide which operations to use at each stage and explain their thinking?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.2d"
+      ]
     },
     {
       "id": "mt_G3sVFQNCme",
@@ -10266,7 +10400,9 @@
         "Identify that a calculated answer of 3,421 cannot be correct because the estimate gives approximately 50,000"
       ],
       "assessmentPrompt": "If {{name}} gets an answer of 4,213 for an addition, can they round the numbers to double-check — like '4,000 + 1,000 ≈ 5,000' — and spot if the answer seems way off?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.2c"
+      ]
     },
     {
       "id": "mt_Yw1_4Nfsql",
@@ -10284,7 +10420,10 @@
         "Add three five-digit numbers in a single column layout"
       ],
       "assessmentPrompt": "Can {{name}} accurately add or subtract large numbers — like '23,846 + 14,579' — using the column method, carrying and borrowing correctly however many columns it takes?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.4",
+        "uk-nc-2013:Ma5/2.2a"
+      ]
     },
     {
       "id": "mt_MWXPiaTnEu",
@@ -10302,7 +10441,9 @@
         "Use near-doubles: 2,500 + 2,600 = 5,100"
       ],
       "assessmentPrompt": "Can {{name}} work out something like '4,700 − 1,300' in their head using what they know about place value — without needing to write it all out?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.2b"
+      ]
     },
     {
       "id": "mt_M1tnXqmYbn",
@@ -10320,7 +10461,9 @@
         "Interpret a real-life context to identify which addition/subtraction operations are needed across multiple steps"
       ],
       "assessmentPrompt": "If {{name}} is given a complicated word problem involving large numbers or decimals — like calculating the total cost of several items — can they plan and carry out all the steps correctly?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.2g"
+      ]
     },
     {
       "id": "mt_JH_6RpNWjr",
@@ -10338,7 +10481,9 @@
         "Explain why the standard algorithm works for decimal addition by connecting to place-value understanding"
       ],
       "assessmentPrompt": "Can {{name}} add or subtract decimal amounts like '4.73 + 2.68' or '10.00 − 3.47', lining up the decimal points and working through the columns correctly?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.7"
+      ]
     },
     {
       "id": "mt_9QzSnn8m80",
@@ -10384,7 +10529,9 @@
         "Explain systematically how to generate all integer solutions to a two-variable equation within a given range"
       ],
       "assessmentPrompt": "Can {{name}} find different pairs of numbers that both satisfy a rule — for example, all the pairs of whole numbers that add up to 10?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.5d"
+      ]
     },
     {
       "id": "mt_hBZwbst0ow",
@@ -10402,7 +10549,9 @@
         "Describe the term-to-term rule for a given linear sequence and predict the 10th term"
       ],
       "assessmentPrompt": "If {{name}} sees a number sequence like 3, 7, 11, 15… can they describe the rule, continue it, and predict what the 10th number will be?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.5b"
+      ]
     },
     {
       "id": "mt_fxPtngwUfz",
@@ -10420,7 +10569,9 @@
         "Explain informally why the relationship between the two sequences holds"
       ],
       "assessmentPrompt": "Can {{name}} follow two number patterns at once — for example, \"add 2\" and \"add 4\" — pair up the matching terms, and plot those pairs as points on a graph?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.OA.3"
+      ]
     },
     {
       "id": "mt_gu0NPDvlhY",
@@ -10438,7 +10589,9 @@
         "Explain why the total number of combinations equals the product of the options in each category"
       ],
       "assessmentPrompt": "If {{name}} can choose any combination of 3 T-shirt colours and 2 trouser colours, can they list every possible outfit without missing any or repeating?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.5e"
+      ]
     },
     {
       "id": "mt_Jvg8X0N5u0",
@@ -10456,7 +10609,9 @@
         "Interpret a formula expressed in words and use it to compute an output"
       ],
       "assessmentPrompt": "If {{name}} is told that the perimeter of a rectangle uses the formula perimeter = 2 × (length + width), can they plug in the measurements and work out the answer?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.5a"
+      ]
     },
     {
       "id": "mt_i9rJbuFO3p",
@@ -10474,7 +10629,9 @@
         "Express a word problem as an algebraic equation and find the unknown value"
       ],
       "assessmentPrompt": "If {{name}} reads \"I think of a number, double it, and add 5 to get 17,\" can they write that as an equation using a letter for the unknown and solve it?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.5c"
+      ]
     },
     {
       "id": "mt_KwdjWEmMNo",
@@ -11326,7 +11483,9 @@
         "Explain the difference between a bar chart (discrete) and a time graph (continuous)"
       ],
       "assessmentPrompt": "Can {{name}} choose the right type of chart for some data — for example, a bar chart for favourite colours or a line graph for temperature over a week — and draw it correctly?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/S/1"
+      ]
     },
     {
       "id": "mt_r8XnXwRA6g",
@@ -11344,7 +11503,10 @@
         "Solve a two-step problem: how many votes in total for the top two choices?"
       ],
       "assessmentPrompt": "If {{name}} looked at a bar chart showing how many books different children read last month, could they work out the total, find the difference between the most and least, and draw their own chart with a scale like \"each square = 2 books\"?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.3",
+        "uk-nc-2013:Ma/KS2/Y4/S/2"
+      ]
     },
     {
       "id": "mt_H6LlpWgEYS",
@@ -11355,14 +11517,16 @@
       "description": "Solve comparison, sum, and difference problems using information presented in a line graph",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.02459016393442623,
+      "centrality": 0.01912568306010929,
       "evidence": [
         "Read a line graph of temperature over a week and identify the warmest day",
         "Find the difference in rainfall between two months from a line graph",
         "Explain what a rising/falling line means on a time-series graph"
       ],
       "assessmentPrompt": "If {{name}} sees a line graph showing how a plant's height changed over several weeks, can they read off values, spot when it grew fastest, and find the difference between two points?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/5.1a"
+      ]
     },
     {
       "id": "mt_Cqm8iy48UI",
@@ -11380,7 +11544,9 @@
         "Calculate how long a train journey takes using a timetable"
       ],
       "assessmentPrompt": "Can {{name}} read a timetable — like a train or bus timetable — to find out when a journey leaves, arrives, and how long it takes?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/5.1b"
+      ]
     },
     {
       "id": "mt_fmm-P17Vka",
@@ -11416,7 +11582,9 @@
         "Find a missing data value given the mean and all other values"
       ],
       "assessmentPrompt": "If the family scored 6, 8, 7, 5, and 9 on a board game over five rounds, can {{name}} work out the mean (average) score?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/5.1b"
+      ]
     },
     {
       "id": "mt_HlNSurPVDp",
@@ -11427,14 +11595,16 @@
       "description": "Construct and interpret line graphs for continuous data (e.g. temperature over time, plant growth); read intermediate values, identify trends, and solve comparison and difference problems",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.023224043715847,
+      "centrality": 0.01775956284153005,
       "evidence": [
         "Read values from a line graph showing temperature over a day, including estimating between plotted points",
         "Construct a line graph from a table of continuous data, choosing an appropriate scale and labelling axes correctly",
         "Use a line graph to solve a two-step problem, such as finding the time period with the greatest rate of change"
       ],
       "assessmentPrompt": "If {{name}} recorded the temperature outside every hour for a day, could they plot those readings on a line graph with proper labels — and then use it to answer questions like 'when was it warmest?' or 'how much did it drop between 3pm and 6pm?'",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/5.1a"
+      ]
     },
     {
       "id": "mt_bESTSBB0wK",
@@ -11452,7 +11622,9 @@
         "Use a pie chart to determine the actual quantity represented by each sector given the total"
       ],
       "assessmentPrompt": "Can {{name}} read a pie chart — for example, one showing how a family spends its weekly budget — and use it to answer questions and solve problems?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/5.1a"
+      ]
     },
     {
       "id": "mt_IHipFGTFEY",
@@ -11470,7 +11642,9 @@
         "Solve: 'If the total liquid were redistributed equally among all beakers, how much would each have?'"
       ],
       "assessmentPrompt": "If {{name}} measured the lengths of several objects to the nearest quarter or eighth of an inch and plotted them on a number line, could they use those measurements to work out totals or share amounts equally?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.2"
+      ]
     },
     {
       "id": "mt_XSXnTQoQ4l",
@@ -11481,7 +11655,7 @@
       "description": "Describe, interpret, and compare distributions of a single variable using appropriate measures of central tendency (mean, median, mode) and spread (range), including the effect of outliers",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.2213114754098361,
+      "centrality": 0.2185792349726776,
       "evidence": [
         "Calculate mean, median, and mode for a data set and explain when each is most appropriate",
         "Find the range of a data set and explain how an outlier affects the mean versus the median",
@@ -11503,7 +11677,7 @@
       "description": "Construct and interpret frequency tables, bar charts, pie charts, pictograms, and vertical line charts for both categorical and grouped numerical data, choosing appropriate representations for the data type",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.2008196721311475,
+      "centrality": 0.1980874316939891,
       "evidence": [
         "Construct a grouped frequency table from raw continuous data, choosing appropriate class intervals",
         "Draw a pie chart by calculating the angle for each category",
@@ -11525,7 +11699,7 @@
       "description": "Plot bivariate data on a scatter graph with correctly labelled axes and appropriate scales; describe the correlation (positive, negative, none) and draw an estimated line of best fit where appropriate",
       "ageRangeStart": 13,
       "ageRangeEnd": 14,
-      "centrality": 0.2855191256830601,
+      "centrality": 0.2827868852459016,
       "evidence": [
         "Plot 10 data points on a scatter graph with correct axis labels and a consistent scale",
         "Draw a line of best fit by eye, ensuring roughly equal numbers of points above and below",
@@ -11547,7 +11721,7 @@
       "description": "Describe simple mathematical relationships between two variables using scatter graphs, identify positive, negative, or no correlation, and use a line of best fit to make predictions",
       "ageRangeStart": 13,
       "ageRangeEnd": 14,
-      "centrality": 0.2855191256830601,
+      "centrality": 0.2827868852459016,
       "evidence": [
         "Plot bivariate data on a scatter graph and describe the type of correlation observed",
         "Draw a line of best fit by eye and use it to estimate a value within the data range",
@@ -11875,7 +12049,9 @@
         "Solve addition problems where the sum exceeds the whole: 7/8 + 3/8"
       ],
       "assessmentPrompt": "If a recipe uses 5/8 of a bag of flour and then another 6/8, can {{name}} work out the total and explain what the answer means as a mixed number?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/4"
+      ]
     },
     {
       "id": "mt_HnKbuCliNS",
@@ -11893,7 +12069,9 @@
         "Justify a comparison using a visual model and explain why both fractions must refer to the same whole"
       ],
       "assessmentPrompt": "If {{name}} sees 3/5 and 3/8, can they tell you which is bigger just by thinking about the size of each piece — without needing to draw it out?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.3.d"
+      ]
     },
     {
       "id": "mt_TqDq6jyOmL",
@@ -11911,7 +12089,9 @@
         "Place 0.3 and 3/10 at the same point on a number line"
       ],
       "assessmentPrompt": "If {{name}} sees 7/10 on a price label, can they rewrite it as a decimal — and do the same thing for 43/100?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/5"
+      ]
     },
     {
       "id": "mt_W17Kbwm0-u",
@@ -11947,7 +12127,9 @@
         "Round a set of one-decimal-place numbers and explain the rounding rule"
       ],
       "assessmentPrompt": "If {{name}} measures something as 3.7 m, can they tell you whether that rounds to 3 m or 4 m — and explain why?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/8"
+      ]
     },
     {
       "id": "mt_IegHBHERVa",
@@ -11965,7 +12147,9 @@
         "Place three two-decimal-place numbers on a number line in order"
       ],
       "assessmentPrompt": "If {{name}} is comparing two prices — £4.75 and £4.57 — can they tell you which is more expensive without using a calculator?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/9"
+      ]
     },
     {
       "id": "mt_wB-GBDkoNr",
@@ -11983,7 +12167,9 @@
         "Find 3/10 of 1 kg and express the answer in grams and as a decimal of a kg"
       ],
       "assessmentPrompt": "If a bottle holds 1.5 litres and {{name}} drinks 0.75 litres, can they work out how much is left — and write it as both a decimal and a fraction?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/10"
+      ]
     },
     {
       "id": "mt_kDMKJ5Ztt6",
@@ -12001,7 +12187,9 @@
         "Explain that dividing by 10 shifts each digit one place to the right"
       ],
       "assessmentPrompt": "If {{name}} starts with the number 48 and divides it by 10, can they tell you the answer — and explain what happened to each digit's place value?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/7"
+      ]
     },
     {
       "id": "mt_FP-mjXaq3B",
@@ -12019,7 +12207,9 @@
         "Complete equivalence chains: 1/4 = ?/8 = ?/12"
       ],
       "assessmentPrompt": "If {{name}} is shown a fraction bar split into 3 parts with 1 shaded (= 1/3), can they draw an equivalent bar with 6 parts that shows exactly the same amount shaded?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.3.b"
+      ]
     },
     {
       "id": "mt_Ep7TDFuYUa",
@@ -12037,7 +12227,10 @@
         "Identify at least three fractions equivalent to 1/2 using diagrams"
       ],
       "assessmentPrompt": "If {{name}} sees that 2/4 and 1/2 land on the exact same point on a number line, can they explain in their own words why those two fractions are equal?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.3.a",
+        "uk-nc-2013:Ma/KS2/Y4/F/1"
+      ]
     },
     {
       "id": "mt_DRlbMok2lT",
@@ -12055,7 +12248,9 @@
         "Explain why 1/4 = 25/100 = 0.25 using a hundredths grid"
       ],
       "assessmentPrompt": "If a recipe calls for 3/4 of a cup of flour, can {{name}} tell you what that is as a decimal — without looking it up?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/6"
+      ]
     },
     {
       "id": "mt_idbKDrf9qZ",
@@ -12073,7 +12268,9 @@
         "Given a pre-partitioned shape, write the unit fraction for one part"
       ],
       "assessmentPrompt": "If you ask {{name}} to fold a square piece of paper into 8 equal parts, can they tell you what fraction of the whole square each part represents?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.G.2"
+      ]
     },
     {
       "id": "mt_3y7xKP9MjU",
@@ -12091,7 +12288,9 @@
         "Solve: A bag has 24 sweets, 3/8 are red — how many red sweets?"
       ],
       "assessmentPrompt": "If 3/4 of a class of 28 pupils brought their homework in, can {{name}} work out exactly how many pupils that is?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/3"
+      ]
     },
     {
       "id": "mt_ndGqFPWyen",
@@ -12109,7 +12308,9 @@
         "Draw a model showing 2/6 as 2 pieces of a whole cut into 6"
       ],
       "assessmentPrompt": "If you cut a pizza into 6 equal slices, can {{name}} explain what 1/6 means — and then work out what 4/6 of the pizza looks like?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.1"
+      ]
     },
     {
       "id": "mt_AYzE1EAvI0",
@@ -12127,7 +12328,9 @@
         "Identify which fractions from a list equal a whole number: 6/3, 8/4, 5/2"
       ],
       "assessmentPrompt": "If you ask {{name}} to write the number 3 as a fraction, can they write 3/1 — and also tell you what fraction equals exactly 1 whole, like 4/4 or 5/5?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.3.c"
+      ]
     },
     {
       "id": "mt_NoB20kVa4w",
@@ -12148,7 +12351,10 @@
         "Identify a fraction shown by a point on a pre-partitioned number line"
       ],
       "assessmentPrompt": "If {{name}} draws a number line from 0 to 1 split into 5 equal parts, can they label where 2/5 and 4/5 go — and explain how they worked it out?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.NF.2.a",
+        "ccss-math:3.NF.2.b"
+      ]
     },
     {
       "id": "mt_doX1BhmFgk",
@@ -12166,7 +12372,9 @@
         "Place several hundredths on a number line between 0 and 1/10"
       ],
       "assessmentPrompt": "If {{name}} has £1 and spends 37p, can they say that 37p is 37/100 of a pound — and count up in hundredths from 0/100 to 100/100?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/F/2"
+      ]
     },
     {
       "id": "mt_70qDTI14td",
@@ -12184,7 +12392,9 @@
         "Solve 4 2/6 − 1 5/6 by regrouping the whole number"
       ],
       "assessmentPrompt": "If a recipe calls for 1 and 2/5 cups of oats and another batch needs 2 and 3/5 cups, can {{name}} add them together to get the total — including converting when the fifths add up past a whole?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.3.c"
+      ]
     },
     {
       "id": "mt_-V7EnqU7gG",
@@ -12202,7 +12412,9 @@
         "Add 2/5 + 3/10 and simplify the answer"
       ],
       "assessmentPrompt": "If {{name}} needs to add 1/3 and 1/6, can they find a common denominator and work out the total — showing their working?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4d"
+      ]
     },
     {
       "id": "mt_ZLqYE7la4Z",
@@ -12220,7 +12432,9 @@
         "Draw a fraction model to represent and solve a fraction word problem"
       ],
       "assessmentPrompt": "If {{name}} reads that one section of a nature trail is 3/8 km and another is 5/8 km, can they work out the total distance without a calculator?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.3.d"
+      ]
     },
     {
       "id": "mt_933BohS9BH",
@@ -12238,7 +12452,10 @@
         "Justify that 0.7 = 0.70 = 0.700 using place-value reasoning"
       ],
       "assessmentPrompt": "If {{name}} compares 0.45 and 0.54, can they use place value to explain which is bigger — without reaching for a calculator?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.7",
+        "uk-nc-2013:Ma5/2.4i"
+      ]
     },
     {
       "id": "mt_SXbZ3bC9z7",
@@ -12256,7 +12473,10 @@
         "Use the benchmark 1/2 to decide that 5/8 > 3/7"
       ],
       "assessmentPrompt": "If {{name}} has eaten 2/3 of their lunch and a friend has eaten 3/4 of theirs, can they work out who's eaten more — by finding a common way to compare the fractions?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.2",
+        "uk-nc-2013:Ma5/2.4a"
+      ]
     },
     {
       "id": "mt_NaqEP8xDhZ",
@@ -12274,7 +12494,9 @@
         "Explain why 5/10 = 50/100 using a hundredths grid"
       ],
       "assessmentPrompt": "If {{name}} needs to add 3/10 and 17/100, can they rewrite 3/10 as hundredths first — and then add the two fractions together?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.5"
+      ]
     },
     {
       "id": "mt_Ii1hV4V5ql",
@@ -12292,7 +12514,9 @@
         "Estimate 4.83 + 2.17 by rounding each to the nearest whole number"
       ],
       "assessmentPrompt": "If {{name}} measures a length as 4.67 m, can they round it to the nearest whole metre — and also to the nearest tenth of a metre?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4h"
+      ]
     },
     {
       "id": "mt_Vi4Vo5xs_g",
@@ -12310,7 +12534,10 @@
         "Read 0.07 and express as 7/100"
       ],
       "assessmentPrompt": "If {{name}} sees a price tag showing £0.65, can they rewrite it as a fraction — and go the other way, turning 47/100 into a decimal?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.6",
+        "uk-nc-2013:Ma5/2.4f"
+      ]
     },
     {
       "id": "mt_sA2OvTiech",
@@ -12328,7 +12555,9 @@
         "Find two numbers with 3 d.p. that add to make 1"
       ],
       "assessmentPrompt": "If {{name}} is filling a tank that holds 5.000 litres and has poured in 2.375 litres, can they work out how much more is needed to fill it?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4j"
+      ]
     },
     {
       "id": "mt_ebPelt-qAl",
@@ -12346,7 +12575,10 @@
         "Generate three fractions equivalent to 3/5 and verify with diagrams"
       ],
       "assessmentPrompt": "If {{name}} needs to make 2/3 look different without changing its value, can they multiply the top and bottom by the same number and explain why the fraction stays the same?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.1",
+        "uk-nc-2013:Ma5/2.4b"
+      ]
     },
     {
       "id": "mt_VgOePicFYK",
@@ -12364,7 +12596,10 @@
         "Use a visual model to justify a decomposition of 2 1/8 into whole-number and fraction parts"
       ],
       "assessmentPrompt": "If {{name}} has 7/8 of a chocolate bar and gives away 3/8, can they work out what fraction is left — and then show two different ways to split 7/8 into two parts?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.3.a",
+        "ccss-math:4.NF.3.b"
+      ]
     },
     {
       "id": "mt_HJA2Oz-Zh1",
@@ -12382,7 +12617,9 @@
         "Between what two whole numbers does 6 × 3/4 lie?"
       ],
       "assessmentPrompt": "If each section of a garden uses 3/4 of a bag of compost and there are 4 sections, can {{name}} work out how many bags are needed in total?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.4.c"
+      ]
     },
     {
       "id": "mt_o_p-3tCxiM",
@@ -12400,7 +12637,9 @@
         "Write 6/5 + 4/5 = 10/5 = 2 as both improper fraction and whole number"
       ],
       "assessmentPrompt": "If {{name}} sees the fraction 9/4, can they convert it to a mixed number — and then turn 2 and 3/5 back into an improper fraction?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4c"
+      ]
     },
     {
       "id": "mt_TgHxujL81r",
@@ -12418,7 +12657,12 @@
         "Use a visual model to show why 5 × 1/4 = 5/4"
       ],
       "assessmentPrompt": "If a recipe uses 2/3 of a cup of butter and {{name}} wants to make it three times over, can they work out how much butter they need in total?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.4",
+        "ccss-math:4.NF.4.a",
+        "ccss-math:4.NF.4.b",
+        "uk-nc-2013:Ma5/2.4e"
+      ]
     },
     {
       "id": "mt_4ubP_RMg9o",
@@ -12436,7 +12680,9 @@
         "A shop offers 25% off a £40 item — what is the sale price?"
       ],
       "assessmentPrompt": "If {{name}} knows that 1/4 = 25% = 0.25, can they use that to work out 25% of £80 — and also find 4/5 of 60 sweets?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4l"
+      ]
     },
     {
       "id": "mt_kdWoAel3Zl",
@@ -12454,7 +12700,9 @@
         "Place 0.345 on a number line between 0.34 and 0.35"
       ],
       "assessmentPrompt": "If {{name}} sees the decimal 0.003, can they write it as a fraction and tell you roughly where it sits on a number line between 0 and 0.01?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4g"
+      ]
     },
     {
       "id": "mt_09sySPqM9Z",
@@ -12472,7 +12720,9 @@
         "Explain why 7/4 = 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4"
       ],
       "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NF.3"
+      ]
     },
     {
       "id": "mt_ZM9mhHsyYZ",
@@ -12490,7 +12740,9 @@
         "Explain that 100% means the whole, 50% means half"
       ],
       "assessmentPrompt": "If a shop advertises 50% off, can {{name}} explain that this means half price — and write 50% as both a fraction and a decimal?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.4k"
+      ]
     },
     {
       "id": "mt_14T5yPXUq_",
@@ -12508,7 +12760,10 @@
         "Explain the strategy of finding a common denominator and verify using a visual model"
       ],
       "assessmentPrompt": "If a recipe uses 2/3 of a cup of one ingredient and 3/4 of another, can {{name}} add those fractions together — even though the denominators are different?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.1",
+        "uk-nc-2013:Ma6/2.3c"
+      ]
     },
     {
       "id": "mt_gx6KQK5-Kx",
@@ -12526,7 +12781,9 @@
         "Calculate the area of a rectangle with sides 1 1/2 and 2/3 using fraction multiplication"
       ],
       "assessmentPrompt": "If a piece of fabric is 2/3 m long and 3/4 m wide, can {{name}} work out its area — and explain how tiling it with tiny fraction-squares shows the same answer as multiplying?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.4.b"
+      ]
     },
     {
       "id": "mt_PL9VkDwXfh",
@@ -12544,7 +12801,9 @@
         "Place improper fractions and mixed numbers on a number line in correct order"
       ],
       "assessmentPrompt": "If {{name}} needs to sort 5/3, 7/4, and 2/1 in order from smallest to biggest, can they convert them to a common denominator and order them correctly?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.3b"
+      ]
     },
     {
       "id": "mt_4K1dr204Hi",
@@ -12562,7 +12821,10 @@
         "Use fraction–decimal–percentage equivalences to compare 30%, 1/3, and 0.35 and put them in order"
       ],
       "assessmentPrompt": "If {{name}} sees 3/8 written on a worksheet, can they convert it to a decimal — and also say roughly what percentage that is?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.3f",
+        "uk-nc-2013:Ma6/2.3k"
+      ]
     },
     {
       "id": "mt_1PAWhRhpdg",
@@ -12580,7 +12842,10 @@
         "Verify 4 ÷ (1/5) = 20 by showing 20 × (1/5) = 4"
       ],
       "assessmentPrompt": "If you have 4 metres of ribbon and each bow needs 1/5 of a metre, can {{name}} work out how many bows you can make — and explain why the answer is bigger than 4?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.7",
+        "ccss-math:5.NF.7.b"
+      ]
     },
     {
       "id": "mt_ifPDOYvUqm",
@@ -12598,7 +12863,11 @@
         "Verify (1/3) ÷ 4 = 1/12 by showing (1/12) × 4 = 1/3"
       ],
       "assessmentPrompt": "If {{name}} has 1/3 of a bag of rice and splits it into 4 equal portions, can they work out what fraction of the whole bag each portion is — and explain why the answer is smaller than 1/3?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.7",
+        "ccss-math:5.NF.7.a",
+        "uk-nc-2013:Ma6/2.3e"
+      ]
     },
     {
       "id": "mt_rCMdwG-YOE",
@@ -12616,7 +12885,9 @@
         "Create a story context for a given unit-fraction division expression"
       ],
       "assessmentPrompt": "If {{name}} has half a pizza to share equally among 3 people, can they work out what fraction of the whole pizza each person gets — and explain the steps they took?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.7.c"
+      ]
     },
     {
       "id": "mt_4Km38F4L-6",
@@ -12634,7 +12905,10 @@
         "Use a visual model to show that sharing 3 wholes among 4 people gives each person 3/4"
       ],
       "assessmentPrompt": "If {{name}} shares 3 pizzas equally among 4 friends, can they work out what fraction each person gets — and explain why 3 ÷ 4 gives the same answer as 3/4?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.3",
+        "uk-nc-2013:Ma6/2.3f"
+      ]
     },
     {
       "id": "mt_e7filQgayF",
@@ -12652,7 +12926,9 @@
         "Estimate a fraction sum using benchmarks (0, 1/2, 1) before computing exactly"
       ],
       "assessmentPrompt": "If {{name}} walks 1 and 1/2 miles to school and 3/4 of a mile to a friend's house, can they work out the total distance — and check whether their answer makes sense?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.2"
+      ]
     },
     {
       "id": "mt_VKW8lOcFaw",
@@ -12670,7 +12946,11 @@
         "Relate multiplying a/b by n/n = 1 to the principle of fraction equivalence"
       ],
       "assessmentPrompt": "If {{name}} multiplies 20 by 1/4, can they predict whether the answer will be bigger or smaller than 20 — and explain why, before doing the calculation?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.5",
+        "ccss-math:5.NF.5.a",
+        "ccss-math:5.NF.5.b"
+      ]
     },
     {
       "id": "mt_AabJisinfi",
@@ -12688,7 +12968,11 @@
         "Simplify the product 3/4 × 2/3 = 6/12 = 1/2"
       ],
       "assessmentPrompt": "If a recipe uses 2/3 of a bag of flour and {{name}} only wants to make 3/4 of the recipe, can they multiply those fractions to find out how much flour they need?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.4",
+        "ccss-math:5.NF.4.a",
+        "uk-nc-2013:Ma6/2.3d"
+      ]
     },
     {
       "id": "mt_lvaSGHwvQ5",
@@ -12706,7 +12990,9 @@
         "Check the reasonableness of a fraction product in context using estimation"
       ],
       "assessmentPrompt": "If a recipe makes 12 biscuits using 1 and 1/2 cups of sugar, and {{name}} wants to make only 2/3 of the recipe, can they work out how much sugar they need?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NF.6"
+      ]
     },
     {
       "id": "mt_b7T-CjOYUR",
@@ -12724,7 +13010,9 @@
         "Explain why dividing numerator and denominator by a common factor produces an equivalent fraction"
       ],
       "assessmentPrompt": "If {{name}} has the fraction 12/16, can they simplify it to its lowest terms — and explain what they divided the top and bottom by?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.3a"
+      ]
     },
     {
       "id": "mt_SBkTGjiZjZ",
@@ -13274,7 +13562,10 @@
         "Identify which figures from a set are not line-symmetric"
       ],
       "assessmentPrompt": "If {{name}} is given a picture of a butterfly or a star shape, can they draw the line (or lines) where you could fold it exactly in half so both sides match?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.G.3",
+        "uk-nc-2013:Ma/KS2/Y4/GPS/3"
+      ]
     },
     {
       "id": "mt_Xt1cRqaBOW",
@@ -13292,7 +13583,10 @@
         "Draw a quadrilateral that is not a rectangle, rhombus, or square"
       ],
       "assessmentPrompt": "If you show {{name}} a square, a rectangle, and a rhombus, can they explain what makes them all quadrilaterals — and what makes each one different from the others?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.G.1",
+        "uk-nc-2013:Ma/KS2/Y4/GPS/1"
+      ]
     },
     {
       "id": "mt_i5_HnoFOYw",
@@ -13310,7 +13604,9 @@
         "Complete a triangle by plotting the third vertex at given coordinates and drawing sides"
       ],
       "assessmentPrompt": "If {{name}} is given three coordinate pairs on a grid, can they plot each point and then connect the dots to draw the correct triangle or rectangle?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/GPD/3"
+      ]
     },
     {
       "id": "mt_Uq5vYqboCR",
@@ -13328,7 +13624,9 @@
         "Predict where a point will be after a given translation"
       ],
       "assessmentPrompt": "If a shape is at position (2, 3) on a grid and you tell {{name}} to move it four squares right and two squares up, can they work out its new position without drawing it first?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/GPD/2"
+      ]
     },
     {
       "id": "mt_jBQS-CicNn",
@@ -13346,7 +13644,9 @@
         "Identify the coordinates of all vertices of a shape plotted on a grid"
       ],
       "assessmentPrompt": "If {{name}} is playing a grid-based treasure map game, can they correctly say where the treasure is using two numbers — like \"three across and four up\" — from the corner?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/GPD/1"
+      ]
     },
     {
       "id": "mt_hR2Y7NhMSY",
@@ -13364,7 +13664,9 @@
         "Check a completed figure by folding along the mirror line"
       ],
       "assessmentPrompt": "If you show {{name}} half a shape drawn on squared paper with a mirror line marked, can they draw the missing half so the whole shape is perfectly symmetrical?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/GPS/4"
+      ]
     },
     {
       "id": "mt_vnJEztczji",
@@ -13418,7 +13720,9 @@
         "Identify all acute and obtuse angles in a given triangle or quadrilateral"
       ],
       "assessmentPrompt": "If {{name}} looks at the hands on a clock showing different times, can they tell you which angle between the hands is acute (sharper than a right angle) and which is obtuse (wider)?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/GPS/2"
+      ]
     },
     {
       "id": "mt_e4V6hvcuEJ",
@@ -13454,7 +13758,9 @@
         "Match 2-D representations to the correct 3-D shape"
       ],
       "assessmentPrompt": "If you show {{name}} a flat architect's sketch of a box or a pyramid, can they tell you the name of the 3-D shape it represents?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.1a"
+      ]
     },
     {
       "id": "mt_oqziWKry-L",
@@ -13472,7 +13778,11 @@
         "Identify 270° as three right angles"
       ],
       "assessmentPrompt": "If three angles meet at a point and two of them are 120° and 95°, can {{name}} work out the third angle — knowing all the angles at a point add up to 360°?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.1d",
+        "uk-nc-2013:Ma5/4.1e",
+        "uk-nc-2013:Ma5/4.1f"
+      ]
     },
     {
       "id": "mt_r8c43QB6wx",
@@ -13490,7 +13800,9 @@
         "Classify shapes that have both perpendicular and parallel sides"
       ],
       "assessmentPrompt": "If you show {{name}} a mixed set of triangles and quadrilaterals, can they sort them into groups — like \"shapes with at least one right angle\" or \"shapes with parallel sides\" — and explain their reasoning?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.G.2"
+      ]
     },
     {
       "id": "mt_qUGMyMYn9m",
@@ -13508,7 +13820,10 @@
         "State that an angle of 45° has turned through 45 one-degree angles"
       ],
       "assessmentPrompt": "If {{name}} knows a full circle is 360 degrees, can they tell you how many degrees a quarter turn is — and explain roughly what one single degree looks like?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.5.a",
+        "ccss-math:4.MD.5.b"
+      ]
     },
     {
       "id": "mt_YUJ5pwalqL",
@@ -13526,7 +13841,9 @@
         "Order four angles from smallest to largest by estimation before measuring"
       ],
       "assessmentPrompt": "If you show {{name}} three different angles drawn on paper, can they estimate which is biggest, label each as acute, obtuse, or reflex — and then check with a protractor?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.1b"
+      ]
     },
     {
       "id": "mt_QysgF57dxh",
@@ -13544,7 +13861,9 @@
         "Mark a right angle, an acute angle, and an obtuse angle in a given figure"
       ],
       "assessmentPrompt": "If {{name}} is given a piece of paper and a ruler, can they draw a line segment, mark a point, and then draw another line through that point that runs perfectly parallel to the first?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.G.1"
+      ]
     },
     {
       "id": "mt_4MFUAsbx_6",
@@ -13562,7 +13881,10 @@
         "Identify which scale on the protractor to use for an obtuse angle"
       ],
       "assessmentPrompt": "If {{name}} is given a protractor and an angle drawn on paper, can they measure it accurately and then draw a new angle of a size you specify?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.6",
+        "uk-nc-2013:Ma5/4.1c"
+      ]
     },
     {
       "id": "mt_89riIKwGYp",
@@ -13580,7 +13902,9 @@
         "Solve: angles at a point are 120°, 90°, and x°; find x = 150°"
       ],
       "assessmentPrompt": "If two angles sit next to each other on a straight line and one is 65°, can {{name}} work out the other angle — knowing that angles on a straight line always add up to 180°?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.7"
+      ]
     },
     {
       "id": "mt_8H2kO4k2B9",
@@ -13598,7 +13922,9 @@
         "Identify that a rectangle is irregular (equal angles but not all equal sides) unless it is a square"
       ],
       "assessmentPrompt": "If you show {{name}} a stop sign (regular octagon) and a wonky eight-sided shape, can they explain which is regular and which is irregular — and why?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.1h"
+      ]
     },
     {
       "id": "mt_efOeaGFyGM",
@@ -13616,7 +13942,9 @@
         "Explain that a reflected/translated shape is congruent to the original"
       ],
       "assessmentPrompt": "If {{name}} slides or flips a shape on squared paper, can they describe exactly where it ends up and confirm the shape itself hasn't changed size or angles?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.2a"
+      ]
     },
     {
       "id": "mt_KFKUR_gBg_",
@@ -13634,7 +13962,9 @@
         "Find a missing side of a rectangle given its area and one side length"
       ],
       "assessmentPrompt": "If {{name}} knows one side of a rectangular garden is 7 m, can they tell you the length of the opposite side and all four corner angles — without measuring?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/4.1g"
+      ]
     },
     {
       "id": "mt_3S10OOGPqu",
@@ -13652,7 +13982,9 @@
         "Explain why two rays meeting at a point form an angle"
       ],
       "assessmentPrompt": "If you draw two lines starting from the same point on paper, can {{name}} tell you that the space between them is an angle — and point to the vertex where they meet?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.5"
+      ]
     },
     {
       "id": "mt_hdrMoiTgqu",
@@ -13670,7 +14002,9 @@
         "Draw a regular pentagon given the side length and interior angle"
       ],
       "assessmentPrompt": "If you ask {{name}} to draw a triangle with sides of 5 cm and 7 cm with a 40° angle between them, can they use a ruler and protractor to draw it accurately?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1a"
+      ]
     },
     {
       "id": "mt_REwgr0d_ss",
@@ -13688,7 +14022,9 @@
         "Describe a 3-D shape by naming its faces, edges, and vertices"
       ],
       "assessmentPrompt": "If {{name}} is given a flat cross-shaped piece of card (a net), can they predict what 3-D shape it will make when folded up — and then fold it to check?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1b"
+      ]
     },
     {
       "id": "mt_cdMlC7EpTJ",
@@ -13706,7 +14042,9 @@
         "Calculate the interior angle of a regular hexagon from the angle sum formula"
       ],
       "assessmentPrompt": "If {{name}} knows that angles in a triangle always add up to 180°, and two angles in a triangle are 55° and 70°, can they work out the third angle without measuring it?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1c"
+      ]
     },
     {
       "id": "mt_liIW336odh",
@@ -13724,7 +14062,11 @@
         "Identify properties shared by all parallelograms and explain why rhombuses and rectangles are special cases"
       ],
       "assessmentPrompt": "If someone asks {{name}} \"is a square also a rectangle?\", can they explain why the answer is yes — because a square has all the properties of a rectangle plus equal sides?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.G.3",
+        "ccss-math:5.G.4",
+        "uk-nc-2013:Ma6/4.1c"
+      ]
     },
     {
       "id": "mt_R4AY0LKxfl",
@@ -13742,7 +14084,9 @@
         "Describe the position of a shape using coordinates in all four quadrants"
       ],
       "assessmentPrompt": "If {{name}} is playing a game where ships can be at negative coordinates too, can they correctly plot and read positions like (−3, 2) or (1, −4) on a grid?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.2a"
+      ]
     },
     {
       "id": "mt_oDlduFnemk",
@@ -13780,7 +14124,9 @@
         "Explain the relationship between radius and diameter in their own words"
       ],
       "assessmentPrompt": "If you give {{name}} a round plate and a ruler, can they measure the diameter — and explain how the radius compares to the diameter?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1d"
+      ]
     },
     {
       "id": "mt_snlqRCiA1R",
@@ -13818,7 +14164,9 @@
         "Explain how translation changes coordinates (add/subtract) while reflection changes the sign of one coordinate"
       ],
       "assessmentPrompt": "If {{name}} draws a triangle at coordinates (1, 2), (3, 2), and (2, 4) on a grid, can they then reflect it across the x-axis and tell you the new coordinates of each corner?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.2b"
+      ]
     },
     {
       "id": "mt_QDTO3GAgcq",
@@ -13836,7 +14184,9 @@
         "Identify vertically opposite angles and use the property that they are equal to find unknowns"
       ],
       "assessmentPrompt": "If two straight lines cross each other, can {{name}} tell you which pairs of angles are equal (vertically opposite) — and find a missing angle if you give them one of the others?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1e"
+      ]
     },
     {
       "id": "mt_nRksLqt-iR",
@@ -15786,7 +16136,9 @@
         "Match a set of 12-hour and 24-hour times"
       ],
       "assessmentPrompt": "If a train timetable shows a departure at 14:35, can {{name}} convert that to 12-hour clock time — and tell you whether that's morning or afternoon?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/M/5"
+      ]
     },
     {
       "id": "mt_y1n0Zwhoca",
@@ -15804,7 +16156,10 @@
         "Compare areas of two shapes by counting their unit squares"
       ],
       "assessmentPrompt": "If {{name}} draws a shape on squared centimetre paper, can they find its area by counting the squares — including making a sensible estimate for any partial squares?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.6",
+        "uk-nc-2013:Ma/KS2/Y4/M/3"
+      ]
     },
     {
       "id": "mt_AQo4u7O4sM",
@@ -15822,7 +16177,9 @@
         "Draw an area model showing 5×(7+3) = 5×7 + 5×3"
       ],
       "assessmentPrompt": "If {{name}} wants to work out 6 × 13 by splitting it into 6 × 10 and 6 × 3, can they draw a rectangle divided into two parts to show why that method works?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.7.c"
+      ]
     },
     {
       "id": "mt_Jvvh5P06NV",
@@ -15840,7 +16197,9 @@
         "Draw a rectangle on squared paper, tile it, and write the multiplication"
       ],
       "assessmentPrompt": "If a rectangular room is 4 m long and 3 m wide, can {{name}} work out its area by tiling it with 1-metre squares in their head — and explain why that equals 4 × 3?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.7.a"
+      ]
     },
     {
       "id": "mt_eMtV6tBSJm",
@@ -15858,7 +16217,9 @@
         "Solve: A room is L-shaped (3m×5m plus 2m×4m) — what is the total area?"
       ],
       "assessmentPrompt": "If {{name}} is given an L-shaped room on squared paper, can they split it into two rectangles, find the area of each part, and add them to get the total area?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.7.d"
+      ]
     },
     {
       "id": "mt_GzcJEVkNRn",
@@ -15876,7 +16237,9 @@
         "Solve: A garden is 8 m by 5 m — what is its area?"
       ],
       "assessmentPrompt": "If {{name}} needs to carpet a room that is 5 m by 4 m, can they work out how much carpet to buy — using multiplication rather than counting squares?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.7.b"
+      ]
     },
     {
       "id": "mt_d8al9JcajP",
@@ -15894,7 +16257,10 @@
         "Convert 5 weeks to 35 days"
       ],
       "assessmentPrompt": "If {{name}} is told a journey is 3.5 km, can they convert that to metres — and also turn 2 hours 15 minutes into just minutes?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/M/1",
+        "uk-nc-2013:Ma/KS2/Y4/M/6"
+      ]
     },
     {
       "id": "mt_mFJ-2ZF6Tk",
@@ -15912,7 +16278,9 @@
         "Calculate the total cost of 3 items at £2.45, £1.30, and £0.75"
       ],
       "assessmentPrompt": "If {{name}} is comparing three items costing £2.85, £3.10, and £2.50, can they put them in order from cheapest to most expensive — and work out the total cost?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma/KS2/Y4/M/4"
+      ]
     },
     {
       "id": "mt_ghK1mnEstc",
@@ -15930,7 +16298,9 @@
         "Read a line plot and answer questions about the data"
       ],
       "assessmentPrompt": "If {{name}} measures ten pencil lengths to the nearest quarter inch, can they record the data and plot it on a number line split into quarters — then spot which length appears most?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.4"
+      ]
     },
     {
       "id": "mt_-af65bxfdp",
@@ -15948,7 +16318,9 @@
         "Solve: 3 bags weigh 250 g each — what is the total mass?"
       ],
       "assessmentPrompt": "If {{name}} is filling bottles that each hold 250 ml from a 2-litre container of juice, can they work out how many bottles they can fill?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.2"
+      ]
     },
     {
       "id": "mt_IL86kadLSS",
@@ -15966,7 +16338,10 @@
         "Use a number line to show the elapsed time between two events"
       ],
       "assessmentPrompt": "If {{name}} starts football practice at 3:20 p.m. and it lasts 75 minutes, can they work out what time it finishes — using a number line to help?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.1",
+        "uk-nc-2013:Ma/KS2/Y4/M/6"
+      ]
     },
     {
       "id": "mt_WtcFrxGOgw",
@@ -15984,7 +16359,10 @@
         "Draw two rectangles both with perimeter 24 cm but different areas"
       ],
       "assessmentPrompt": "If a rectangle has a perimeter of 24 cm and one side is 8 cm, can {{name}} work out the length of the other side — without drawing it?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.8",
+        "uk-nc-2013:Ma/KS2/Y4/M/2"
+      ]
     },
     {
       "id": "mt_UNzojLkNdm",
@@ -16002,7 +16380,9 @@
         "Match analogue and digital times to the nearest minute"
       ],
       "assessmentPrompt": "If a clock's minute hand points just past the 9, can {{name}} work out the exact time to the nearest minute — and write it in digital format?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.1"
+      ]
     },
     {
       "id": "mt_6xNmQLzuqm",
@@ -16020,7 +16400,10 @@
         "Distinguish between area and perimeter as different measurements"
       ],
       "assessmentPrompt": "If {{name}} counts the small squares inside a rectangle drawn on squared paper, can they tell you the area — and explain what \"one square unit\" means?",
-      "standards": []
+      "standards": [
+        "ccss-math:3.MD.5.a",
+        "ccss-math:3.MD.5.b"
+      ]
     },
     {
       "id": "mt_Zks8xyInSG",
@@ -16038,7 +16421,10 @@
         "Express 2 kg 350 g as 2,350 g"
       ],
       "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.1",
+        "uk-nc-2013:Ma5/3.1a"
+      ]
     },
     {
       "id": "mt_eiB3-6pu6a",
@@ -16056,7 +16442,10 @@
         "Estimate the area of an irregular pond drawn on a cm² grid"
       ],
       "assessmentPrompt": "If {{name}} wants to carpet a room 6.5 m × 4 m, can they calculate the area — and also work out how many metres of skirting board are needed around the edge?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.3",
+        "uk-nc-2013:Ma5/3.1d"
+      ]
     },
     {
       "id": "mt_NSC3LT_-ch",
@@ -16074,7 +16463,9 @@
         "Estimate the capacity of a jug by comparing to known litre measures"
       ],
       "assessmentPrompt": "If {{name}} has a small cardboard box, can they estimate how many 1 cm³ cubes would fit inside it — and then fill it with sugar cubes to check?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/3.1e"
+      ]
     },
     {
       "id": "mt_5HV4mbgSGH",
@@ -16092,7 +16483,10 @@
         "Three ribbons of 0.75 m, 1.2 m, and 0.95 m — what is the total length?"
       ],
       "assessmentPrompt": "If {{name}} is planning a 4.5 km walk and has already walked 1.75 km, can they work out how far is left — and estimate how long the remaining walk might take?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.2",
+        "uk-nc-2013:Ma5/3.1g"
+      ]
     },
     {
       "id": "mt_42QD6nYjiZ",
@@ -16110,7 +16504,9 @@
         "Calculate the total length of all items in a line plot by adding the fractional measurements"
       ],
       "assessmentPrompt": "If {{name}} records caterpillar lengths as fractions of an inch and plots them on a number line, can they work out the total length of three caterpillars by adding the fractions from the plot?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.MD.4"
+      ]
     },
     {
       "id": "mt_p6MhZJYYPN",
@@ -16128,7 +16524,9 @@
         "Convert approximately between litres and pints (1 litre ≈ 1.75 pints)"
       ],
       "assessmentPrompt": "If {{name}} hears that a baby weighs 7 pounds, can they give a rough idea of that in kilograms — using the approximate conversion they know?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/3.1b"
+      ]
     },
     {
       "id": "mt_n0AlyLQwC9",
@@ -16146,7 +16544,9 @@
         "Draw a composite rectilinear shape with a perimeter of 40 cm"
       ],
       "assessmentPrompt": "If {{name}} is given an L-shaped garden plan with all the side measurements labelled, can they add all the sides together to find the total perimeter?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/3.1c"
+      ]
     },
     {
       "id": "mt_2yas4Unc8o",
@@ -16164,7 +16564,9 @@
         "How many days are in 8 weeks and 3 days?"
       ],
       "assessmentPrompt": "If {{name}} needs to convert 2 hours 35 minutes into just minutes, can they do it — and then convert 180 seconds into minutes and seconds?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/3.1f"
+      ]
     },
     {
       "id": "mt_ML5t7n2-U8",
@@ -16182,7 +16584,9 @@
         "Explain why the area of a triangle is half the area of a related parallelogram"
       ],
       "assessmentPrompt": "If {{name}} is cutting triangular pieces of cloth where the base is 8 cm and the height is 5 cm, can they use a formula to work out the area of each piece?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/3.1f"
+      ]
     },
     {
       "id": "mt_d7XktBQPxm",
@@ -16200,7 +16604,9 @@
         "Express a measured volume using the correct cubic unit notation"
       ],
       "assessmentPrompt": "If {{name}} sees a 3-D shape built from small cubes in a diagram, can they count how many cubes it contains — even the ones hidden at the back — to find the volume?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.4"
+      ]
     },
     {
       "id": "mt_2VpdPjvewx",
@@ -16218,7 +16624,10 @@
         "Explain the relationship between mm, cm, m, and km using powers of 10"
       ],
       "assessmentPrompt": "If {{name}} needs to convert 5 cm to metres and write the answer as a decimal, can they do it — and also convert 2.45 kg into grams?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.1",
+        "uk-nc-2013:Ma6/3.1b"
+      ]
     },
     {
       "id": "mt_nTL-owFJTF",
@@ -16236,7 +16645,13 @@
         "Compare volumes of two cuboids and identify which has greater capacity"
       ],
       "assessmentPrompt": "If {{name}} wants to work out how much soil fits in a plant box that is 40 cm long, 20 cm wide, and 15 cm deep, can they use a formula to calculate the volume?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.5",
+        "ccss-math:5.MD.5.a",
+        "ccss-math:5.MD.5.b",
+        "uk-nc-2013:Ma6/3.1e",
+        "uk-nc-2013:Ma6/3.1g"
+      ]
     },
     {
       "id": "mt_SqhXQhAEUf",
@@ -16254,7 +16669,9 @@
         "Solve a multi-step problem involving time, distance, and unit conversion"
       ],
       "assessmentPrompt": "If {{name}} is filling a fish tank that holds 60 litres and the tap fills it at 3.5 litres per minute, can they work out how long it will take to fill the tank?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/3.1a"
+      ]
     },
     {
       "id": "mt_IuHa5UI5od",
@@ -16272,7 +16689,11 @@
         "Determine the volume of a small solid by counting the unit cubes that fill it"
       ],
       "assessmentPrompt": "If {{name}} builds a solid shape using small cubes, can they count the cubes to find the volume — and explain what \"one cubic centimetre\" means in everyday terms?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.3",
+        "ccss-math:5.MD.3.a",
+        "ccss-math:5.MD.3.b"
+      ]
     },
     {
       "id": "mt_3tPI0HqqcN",
@@ -16290,7 +16711,9 @@
         "Use the miles↔km relationship to compare a 10 km race with a 6-mile run"
       ],
       "assessmentPrompt": "If {{name}} is driving 40 miles to a theme park, can they use the rule that 5 miles ≈ 8 km to estimate roughly how many kilometres that is?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/3.1c"
+      ]
     },
     {
       "id": "mt_MJZA90uc6H",
@@ -16308,7 +16731,9 @@
         "Explain why a long thin rectangle and a square can have the same area but different perimeters"
       ],
       "assessmentPrompt": "If {{name}} has 12 square tiles to arrange, can they make different-shaped rectangles and notice that the area stays the same (12 tiles) but the perimeters are all different?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/3.1d"
+      ]
     },
     {
       "id": "mt_5TBUFnCy5-",
@@ -16326,7 +16751,9 @@
         "Explain why splitting a composite solid into rectangular prisms allows calculation of total volume"
       ],
       "assessmentPrompt": "If an L-shaped swimming pool is made of two rectangular sections, can {{name}} find the volume of each section separately and add them to get the total volume of the pool?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.MD.5.c"
+      ]
     },
     {
       "id": "mt_LpSuPgL31x",
@@ -16884,7 +17311,10 @@
         "Represent a two-step problem with an equation using n for the unknown"
       ],
       "assessmentPrompt": "If {{name}} reads 'a school buys 7 boxes of 24 pens and shares them equally between 8 classes', can they work through all the steps and decide sensibly what to do with any remainder?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.3",
+        "uk-nc-2013:Ma5/2.3j"
+      ]
     },
     {
       "id": "mt_FHIAv6dfhU",
@@ -16905,7 +17335,11 @@
         "Determine whether a given number (e.g. 97) is prime and justify the reasoning"
       ],
       "assessmentPrompt": "Can {{name}} list all the factor pairs for a number like 36 — (1, 36), (2, 18), (3, 12), (4, 9), (6, 6) — and find factors that two numbers share?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.4",
+        "uk-nc-2013:Ma5/2.3a",
+        "uk-nc-2013:Ma6/2.2e"
+      ]
     },
     {
       "id": "mt_0Wg5F97osg",
@@ -16923,7 +17357,9 @@
         "Use factor pairs to simplify 24 × 25 as 6 × (4 × 25) = 6 × 100 = 600"
       ],
       "assessmentPrompt": "If {{name}} is asked to find all the square numbers less than 100, can they work through it systematically and give you the correct list: 1, 4, 9, 16, 25, 36, 49, 64, 81?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.3i"
+      ]
     },
     {
       "id": "mt_q9EaJc2FP8",
@@ -16941,7 +17377,10 @@
         "Draw an area model for 45 × 23 and connect to the written method"
       ],
       "assessmentPrompt": "Can {{name}} work out something like '2,346 × 7' or '43 × 28' using the formal column method — setting it out carefully and working through all the steps?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.5",
+        "uk-nc-2013:Ma5/2.3d"
+      ]
     },
     {
       "id": "mt_8A3pZNOp7Z",
@@ -16959,7 +17398,9 @@
         "Calculate 360 ÷ 9 mentally using 36 ÷ 9 = 4"
       ],
       "assessmentPrompt": "Can {{name}} work out things like '24 × 5' or '360 ÷ 8' in their head — using clever connections to known facts rather than needing to write anything down?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.3e"
+      ]
     },
     {
       "id": "mt_U4cIBXVug4",
@@ -16977,7 +17418,9 @@
         "Distinguish multiplicative comparison from additive comparison in word problems"
       ],
       "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.1"
+      ]
     },
     {
       "id": "mt_6-j1NO2ZUH",
@@ -16995,7 +17438,9 @@
         "Explain why 'Sam has 5 more' is additive but 'Sam has 5 times as many' is multiplicative"
       ],
       "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.2"
+      ]
     },
     {
       "id": "mt_LlMl2PbaZe",
@@ -17013,7 +17458,9 @@
         "Explain that multiplying by 10 shifts each digit one place to the left"
       ],
       "assessmentPrompt": "Can {{name}} quickly work out '4.7 × 100' or '3,600 ÷ 1,000' — knowing that digits shift left or right in the place-value chart depending on whether they're multiplying or dividing?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.3g"
+      ]
     },
     {
       "id": "mt_y1XCVsIelg",
@@ -17031,7 +17478,11 @@
         "List all prime numbers up to 19 from memory"
       ],
       "assessmentPrompt": "Can {{name}} tell you what makes a number 'prime' — that it only divides exactly by 1 and itself — and give some examples like 7, 11, and 13?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.4",
+        "uk-nc-2013:Ma5/2.3b",
+        "uk-nc-2013:Ma5/2.3c"
+      ]
     },
     {
       "id": "mt_A-FyLLLLzy",
@@ -17049,7 +17500,9 @@
         "Explain why starting at 2 and adding 4 always gives even numbers"
       ],
       "assessmentPrompt": "If {{name}} is told 'start at 3 and multiply by 2 each time', can they write out the pattern — 3, 6, 12, 24, 48 — and spot any interesting features in how it grows?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.OA.5"
+      ]
     },
     {
       "id": "mt_MCu_SNg_OW",
@@ -17067,7 +17520,10 @@
         "Use the multiplication–division relationship to check a division answer"
       ],
       "assessmentPrompt": "Can {{name}} use the short division ('bus stop') method to work out something like '2,457 ÷ 6', and decide what to do with any remainder left over?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.6",
+        "uk-nc-2013:Ma5/2.3f"
+      ]
     },
     {
       "id": "mt_gxCIASSezX",
@@ -17085,7 +17541,9 @@
         "List the first ten square numbers"
       ],
       "assessmentPrompt": "Does {{name}} know that '5²' means 5 × 5 = 25 and '3³' means 3 × 3 × 3 = 27 — and can they work out other squared and cubed numbers?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.3h"
+      ]
     },
     {
       "id": "mt_ZOJ6EbdPOb",
@@ -17103,7 +17561,9 @@
         "Scale a shape by a factor of 1/2 and find the new dimensions"
       ],
       "assessmentPrompt": "If a recipe serves 4 and {{name}} wants to make it for 6, can they scale up each ingredient — for example, changing '2 cups of flour' to '3 cups'?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.3k"
+      ]
     },
     {
       "id": "mt_8jFSnXxqQD",
@@ -17141,7 +17601,10 @@
         "Model a decimal multiplication using an area diagram or expanded form"
       ],
       "assessmentPrompt": "Can {{name}} work out '3.47 × 6' — keeping the decimal point in the right place and carrying correctly through each column?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.7",
+        "uk-nc-2013:Ma6/2.3h"
+      ]
     },
     {
       "id": "mt_FvEq4heNBx",
@@ -17159,7 +17622,9 @@
         "Interpret a remainder as a decimal or fraction in a measurement context"
       ],
       "assessmentPrompt": "Can {{name}} use short division to work out something like '2,184 ÷ 12' — keeping track of each digit and carrying any remainders into the next column?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.2c"
+      ]
     },
     {
       "id": "mt_lU-2aTRB9f",
@@ -17177,7 +17642,10 @@
         "Solve a context problem that requires dividing a decimal amount equally (e.g. sharing £18.60 among 5 people)"
       ],
       "assessmentPrompt": "Can {{name}} use a written method to calculate something like '17 ÷ 4 = 4.25' — carrying the division past the decimal point to get a decimal answer rather than a remainder?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.7",
+        "uk-nc-2013:Ma6/2.3i"
+      ]
     },
     {
       "id": "mt_WsM4EmdOLe",
@@ -17195,7 +17663,10 @@
         "Explain each step of the long division algorithm for a 4-digit ÷ 2-digit calculation"
       ],
       "assessmentPrompt": "Can {{name}} use long division to work out something like '1,848 ÷ 24' — going through the steps of divide, multiply, subtract, and bring down until they reach the answer?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.6",
+        "uk-nc-2013:Ma6/2.2b"
+      ]
     },
     {
       "id": "mt_ilPrU0cbtT",
@@ -17213,7 +17684,9 @@
         "Spot an unreasonable answer by comparing with a quick mental estimate"
       ],
       "assessmentPrompt": "Before {{name}} works out a large multiplication or division, can they estimate what the answer should be roughly — and then check whether their final answer is in the right ballpark?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.2i"
+      ]
     },
     {
       "id": "mt_XLP1IM3Qbb",
@@ -17231,7 +17704,10 @@
         "Multiply a four-digit number by a two-digit number without procedural errors"
       ],
       "assessmentPrompt": "Can {{name}} use long multiplication to work out something like '2,347 × 24' — setting it out in two rows, one for the units and one for the tens, then adding the results?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.5",
+        "uk-nc-2013:Ma6/2.2a"
+      ]
     },
     {
       "id": "mt_vmW2cb5c7A",
@@ -17249,7 +17725,9 @@
         "Solve a multi-operation mental calculation such as 250 × 3 + 500 and explain the strategy used"
       ],
       "assessmentPrompt": "Can {{name}} work out a mixed calculation like '(200 × 6) + 350 − 75' entirely in their head — keeping track of each step without writing anything down?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.2d"
+      ]
     },
     {
       "id": "mt_wPgpMJ0-PA",
@@ -17287,7 +17765,9 @@
         "Identify and correct an error in a multi-step solution that used the wrong operation"
       ],
       "assessmentPrompt": "If {{name}} is given a multi-step problem mixing different operations — like working out the total cost of several items at different prices — can they plan and carry out each step correctly?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.2h"
+      ]
     },
     {
       "id": "mt_jHgRQ4hR0g",
@@ -17325,7 +17805,9 @@
         "Solve a problem where an unrounded decimal answer must be interpreted in context (e.g. whole containers needed)"
       ],
       "assessmentPrompt": "If {{name}} calculates an answer of 8.63 but the question asks for it to the nearest whole number, can they round it correctly to 9 — and explain why that level of precision matters in context?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.3j"
+      ]
     },
     {
       "id": "mt_4WaKWECpcv",
@@ -17343,7 +17825,9 @@
         "Compare two expressions and determine which is larger without evaluating"
       ],
       "assessmentPrompt": "Can {{name}} look at '4 × (5 + 3)' and say 'that's 4 times the result of adding 5 and 3' — reading the expression as a description of a calculation, without having to work it out first?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.OA.2"
+      ]
     },
     {
       "id": "mt_xhoOWnhtHq",
@@ -18038,7 +18522,9 @@
         "Identify the next three terms: 375,000; 475,000; 575,000; ..."
       ],
       "assessmentPrompt": "Can {{name}} count forwards and backwards in steps of 1,000 or 10,000 from any starting number — like 34,500, 44,500, 54,500 — without losing track?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.1b"
+      ]
     },
     {
       "id": "mt_1KkvzwYxbR",
@@ -18056,7 +18542,9 @@
         "Count backwards from 3 in ones: 3, 2, 1, 0, –1, –2"
       ],
       "assessmentPrompt": "If the temperature drops to −5°C overnight and rises to 3°C by day, can {{name}} place both on a number line and say how many degrees warmer the daytime temperature is?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.1c"
+      ]
     },
     {
       "id": "mt_QqG6IdmTSE",
@@ -18074,7 +18562,9 @@
         "State how many times greater the value of the 5 in 50,000 is than the 5 in 5,000"
       ],
       "assessmentPrompt": "Can {{name}} explain that in 700, the 7 is worth 10 times more than in 70 — because moving one place to the left multiplies the value by 10?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.1"
+      ]
     },
     {
       "id": "mt_JwP9QFv6gQ",
@@ -18092,7 +18582,10 @@
         "Order four six-digit numbers from smallest to largest"
       ],
       "assessmentPrompt": "Can {{name}} read and write numbers into the millions — like 1,340,000 — and put a set of large numbers in order correctly?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.2",
+        "uk-nc-2013:Ma5/2.1a"
+      ]
     },
     {
       "id": "mt_To9HdLy8vq",
@@ -18110,7 +18603,9 @@
         "Explain the subtractive principle: IV = 4 not IIII"
       ],
       "assessmentPrompt": "Can {{name}} read Roman numerals like MMXIX (2019) or CDXLIV (444) — and recognise the year a film or building was made when it's shown in Roman numerals?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.1f"
+      ]
     },
     {
       "id": "mt_5NwqN6pf_A",
@@ -18128,7 +18623,10 @@
         "Use rounding to estimate the sum of 387,412 + 214,560"
       ],
       "assessmentPrompt": "Can {{name}} round a large number like 346,712 to the nearest 1,000 (347,000) or 10,000 (350,000) — identifying which digit to look at for each rounding?",
-      "standards": []
+      "standards": [
+        "ccss-math:4.NBT.3",
+        "uk-nc-2013:Ma5/2.1d"
+      ]
     },
     {
       "id": "mt_xMt1TLTs--",
@@ -18146,7 +18644,9 @@
         "Order the populations of five cities and find the difference between the largest and smallest"
       ],
       "assessmentPrompt": "If {{name}} is told the population of a city is 2,347,819, can they read that number aloud correctly and say roughly how many millions it is?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma5/2.1e"
+      ]
     },
     {
       "id": "mt__casygEB85",
@@ -18164,7 +18664,10 @@
         "Use rounding to estimate 4.83 × 2.17 ≈ 5 × 2 = 10"
       ],
       "assessmentPrompt": "Can {{name}} round a decimal like 3.748 to one decimal place (3.7) or two decimal places (3.75) — and explain which digit they look at to decide?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.4",
+        "uk-nc-2013:Ma6/2.1b"
+      ]
     },
     {
       "id": "mt_RVK655t391",
@@ -18182,7 +18685,9 @@
         "Order −7, −3, 0, 2, 5 on a number line and find the interval from −7 to 5"
       ],
       "assessmentPrompt": "If a bank account goes from −£45 to +£120, can {{name}} work out the total change — counting through zero to get £165?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.1c"
+      ]
     },
     {
       "id": "mt_XNmGwNggdU",
@@ -18200,7 +18705,9 @@
         "Estimate the total attendance at three events by rounding each to the nearest 100,000"
       ],
       "assessmentPrompt": "If {{name}} reads that the distance to the Moon is about 384,400 km, can they round it to the nearest 10,000 km and say whether it's closer to 380,000 or 390,000?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.1d"
+      ]
     },
     {
       "id": "mt_HLUqHJ9Y7n",
@@ -18218,7 +18725,9 @@
         "Predict 2.56 × 10³ without calculating and explain the pattern"
       ],
       "assessmentPrompt": "Can {{name}} explain why 10² = 100 and 10³ = 1,000, and why multiplying by 10 just adds a zero — connecting the pattern of zeros to place value?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.2"
+      ]
     },
     {
       "id": "mt_EDgw64OmfA",
@@ -18236,7 +18745,9 @@
         "Compare the value of the 6 in 6,000 and in 0.006"
       ],
       "assessmentPrompt": "Can {{name}} explain that in 4.56, the digit 5 is worth 5 tenths — ten times less than the 5 in 54, and ten times more than the 5 in 0.056?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.1"
+      ]
     },
     {
       "id": "mt_Ac7oMWhyPw",
@@ -18254,7 +18765,11 @@
         "Write 'five and sixty-two thousandths' as 5.062"
       ],
       "assessmentPrompt": "Can {{name}} read and write decimals like 3.047 or 0.625, say what each digit means (3 ones, 0 tenths, 4 hundredths, 7 thousandths), and put a set of decimals in order?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.3",
+        "ccss-math:5.NBT.3.a",
+        "ccss-math:5.NBT.3.b"
+      ]
     },
     {
       "id": "mt_Gag_h98jWP",
@@ -18272,7 +18787,9 @@
         "State the value of the 7 in 7,045,200 as seven million"
       ],
       "assessmentPrompt": "Can {{name}} read and write numbers up to 10 million — like 4,302,617 — and say the value of any digit in the number?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.1a"
+      ]
     },
     {
       "id": "mt_lNGpnILM5C",
@@ -18807,7 +19324,9 @@
         "Explain a strategy for finding any percentage of an amount using known percentage facts"
       ],
       "assessmentPrompt": "If a jumper originally costs £40 and is 15% off, can {{name}} work out how much the discount is and what the sale price would be?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.4b"
+      ]
     },
     {
       "id": "mt_h0gJcSuwdL",
@@ -18825,7 +19344,9 @@
         "Explain the multiplicative relationship between two quantities in a ratio context"
       ],
       "assessmentPrompt": "If a recipe uses 3 eggs for every 200g of flour, can {{name}} work out how many eggs would be needed for 600g of flour?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.4a"
+      ]
     },
     {
       "id": "mt_2OtRUM_0zW",
@@ -18843,7 +19364,9 @@
         "Use a scale factor to enlarge or reduce a shape and verify that all sides are in the same ratio"
       ],
       "assessmentPrompt": "If {{name}} has a scale drawing where 1 cm represents 5 m, and a room measures 3.5 cm on the plan, can they work out the real length of the room?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.4c"
+      ]
     },
     {
       "id": "mt_FnUJMXPUZX",
@@ -18861,7 +19384,9 @@
         "Use fraction knowledge to explain why sharing in ratio 2:3 means one person gets 2/5 of the total"
       ],
       "assessmentPrompt": "If three friends share a bag of 24 sweets so that one person gets twice as many as each of the others, can {{name}} work out how many each person receives?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/2.4d"
+      ]
     },
     {
       "id": "mt_kLQOzZYrd5",

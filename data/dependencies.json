@@ -6151,7 +6151,13 @@
       "topicId": "mt_eKJG-0eC6D",
       "prerequisiteId": "mt_bESTSBB0wK",
       "strength": "hard",
-      "reason": "KS3 chart construction extends KS2 pie charts and line graphs to grouped data"
+      "reason": "KS3 chart construction includes pie charts for categorical data, extending KS2 pie chart construction and interpretation (sector angles from data)"
+    },
+    {
+      "topicId": "mt_eKJG-0eC6D",
+      "prerequisiteId": "mt_ChjMU2GDJa",
+      "strength": "hard",
+      "reason": "KS3 construction of bar and vertical line (bar) charts for numerical data, and choosing representations for the data type, builds directly on KS2 presentation of discrete and continuous data with appropriate graphs including bar charts"
     },
     {
       "topicId": "mt_eKJG-0eC6D",
@@ -6164,12 +6170,6 @@
       "prerequisiteId": "mt_fmm-P17Vka",
       "strength": "soft",
       "reason": "Constructing and interpreting frequency tables and charts draws on frequency and distribution vocabulary"
-    },
-    {
-      "topicId": "mt_eKJG-0eC6D",
-      "prerequisiteId": "mt_HlNSurPVDp",
-      "strength": "hard",
-      "reason": "KS3 vertical line charts and grouped data graphs extend Y6 line graph construction skills"
     },
     {
       "topicId": "mt_eKJG-0eC6D",
