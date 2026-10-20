@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "version": "v1",
   "exportedAt": "2026-10-19T16:08:02.198Z",
-  "topicFileSha256": "5cbb19924a32fa73b45e469f462e032ced649e48e023d2d890076e422e88a4ad",
+  "topicFileSha256": "25f8e2ec1bb48f2c7437341360be55b23a9f5fcabeef79981f22ae9bd8a12ee3",
   "recordCount": 1051,
   "coverage": {
-    "topicCount": 1605,
+    "topicCount": 1610,
     "withResearch": 1051,
-    "withoutResearch": 554,
+    "withoutResearch": 559,
     "bySubject": {
       "Computing": {
         "topics": 21,
@@ -35,9 +35,9 @@
         "withoutResearch": 37
       },
       "Mathematics": {
-        "topics": 518,
+        "topics": 523,
         "withResearch": 504,
-        "withoutResearch": 14
+        "withoutResearch": 19
       },
       "Personal & Social Development": {
         "topics": 88,
@@ -207,6 +207,7 @@
       "mt_IX37F4rNed",
       "mt_IdFxLz-UW9",
       "mt_Ik-WC2ARPf",
+      "mt_IlDaxVr60U",
       "mt_IlyE-Sm8k5",
       "mt_IntmJBg4VQ",
       "mt_IoGOSAQ8bz",
@@ -300,6 +301,7 @@
       "mt_SUOhjmRqv9",
       "mt_SbEaQnMQoD",
       "mt_SeNxOZTHCN",
+      "mt_Sij9ByyHq6",
       "mt_SsS7GptD_o",
       "mt_T6nrrf2K43",
       "mt_T9IXrlxfx2",
@@ -437,6 +439,7 @@
       "mt_ggcamLzXAy",
       "mt_h-z88yf9Pn",
       "mt_h3vmvQW5Wa",
+      "mt_h7zVgCDVmx",
       "mt_hJW7hVflm3",
       "mt_h_shhH-6DC",
       "mt_haNr13NIuN",
@@ -445,6 +448,7 @@
       "mt_hp2qJ-QRBn",
       "mt_hzkNpp2PdV",
       "mt_i1kk9HDctI",
+      "mt_i2-QaXbyzB",
       "mt_iFkd0CTwlA",
       "mt_iWGnyUyN2j",
       "mt_iodbOOmEQs",
@@ -546,6 +550,7 @@
       "mt_tHtjfjjFrl",
       "mt_tIi6L1n7kF",
       "mt_tX0R4-4WXy",
+      "mt_tegkuJA5gM",
       "mt_thsY1ZesaU",
       "mt_tn1rY9GbEZ",
       "mt_tqgZH11cP5",

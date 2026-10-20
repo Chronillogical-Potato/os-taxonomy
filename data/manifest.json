@@ -1,7 +1,7 @@
 {
   "dataset": "Marble Skill Taxonomy",
   "taxonomyVersion": "v1",
-  "generatedAt": "2026-10-20T14:03:28.755Z",
+  "generatedAt": "2026-10-20T14:20:45.333Z",
   "codesOnlySources": [
     "c3-social-studies",
     "ib-pyp-pspe",
@@ -9,32 +9,32 @@
     "ngss-ms"
   ],
   "counts": {
-    "topics": 1605,
+    "topics": 1610,
     "topicsBySubject": {
       "Computing": 21,
       "English": 286,
       "History": 90,
       "Learning to Learn": 18,
       "Life Skills": 37,
-      "Mathematics": 518,
+      "Mathematics": 523,
       "Personal & Social Development": 88,
       "Science": 547
     },
-    "dependencies": 3272,
+    "dependencies": 3289,
     "curricula": 7,
     "curriculumStandards": 3261,
-    "topicStandardLinks": 2284,
+    "topicStandardLinks": 2292,
     "clusters": 176,
     "teachingResearch": 1051
   },
   "files": {
     "topics.json": {
-      "bytes": 1711796,
-      "sha256": "5cbb19924a32fa73b45e469f462e032ced649e48e023d2d890076e422e88a4ad"
+      "bytes": 1721042,
+      "sha256": "25f8e2ec1bb48f2c7437341360be55b23a9f5fcabeef79981f22ae9bd8a12ee3"
     },
     "dependencies.json": {
-      "bytes": 710956,
-      "sha256": "e5131674816ab08912f8111b59c3960da330606d93be3cae1d5490f5dddf65a0"
+      "bytes": 715171,
+      "sha256": "88cb36cd1e56c50ffc835a524b7599f1a8a514b74d828795585aadbca9e8ecb4"
     },
     "curriculum-standards.json": {
       "bytes": 1621982,
@@ -45,8 +45,8 @@
       "sha256": "7bae0dbd339c33cb39859adff99f93e14799cae89dd4abe0eef67a46c3cc18e2"
     },
     "teaching-research.json": {
-      "bytes": 23560700,
-      "sha256": "821cb2ad5b0b7ea77c6243dd8f959d4d9b864a1c13f2b87b6ae6783b3f6691b6"
+      "bytes": 23560815,
+      "sha256": "465e032bab58ddec1347fa74e682431ada049ed35d5dcecd8baece11b70c6a35"
     }
   },
   "excluded": [
@@ -57,11 +57,11 @@
   "teachingResearch": {
     "schemaVersion": 1,
     "exportedAt": "2026-10-19T16:08:02.198Z",
-    "topicFileSha256": "5cbb19924a32fa73b45e469f462e032ced649e48e023d2d890076e422e88a4ad",
+    "topicFileSha256": "25f8e2ec1bb48f2c7437341360be55b23a9f5fcabeef79981f22ae9bd8a12ee3",
     "coverage": {
-      "topicCount": 1605,
+      "topicCount": 1610,
       "withResearch": 1051,
-      "withoutResearch": 554,
+      "withoutResearch": 559,
       "bySubject": {
         "Computing": {
           "topics": 21,
@@ -89,9 +89,9 @@
           "withoutResearch": 37
         },
         "Mathematics": {
-          "topics": 518,
+          "topics": 523,
           "withResearch": 504,
-          "withoutResearch": 14
+          "withoutResearch": 19
         },
         "Personal & Social Development": {
           "topics": 88,
@@ -261,6 +261,7 @@
         "mt_IX37F4rNed",
         "mt_IdFxLz-UW9",
         "mt_Ik-WC2ARPf",
+        "mt_IlDaxVr60U",
         "mt_IlyE-Sm8k5",
         "mt_IntmJBg4VQ",
         "mt_IoGOSAQ8bz",
@@ -354,6 +355,7 @@
         "mt_SUOhjmRqv9",
         "mt_SbEaQnMQoD",
         "mt_SeNxOZTHCN",
+        "mt_Sij9ByyHq6",
         "mt_SsS7GptD_o",
         "mt_T6nrrf2K43",
         "mt_T9IXrlxfx2",
@@ -491,6 +493,7 @@
         "mt_ggcamLzXAy",
         "mt_h-z88yf9Pn",
         "mt_h3vmvQW5Wa",
+        "mt_h7zVgCDVmx",
         "mt_hJW7hVflm3",
         "mt_h_shhH-6DC",
         "mt_haNr13NIuN",
@@ -499,6 +502,7 @@
         "mt_hp2qJ-QRBn",
         "mt_hzkNpp2PdV",
         "mt_i1kk9HDctI",
+        "mt_i2-QaXbyzB",
         "mt_iFkd0CTwlA",
         "mt_iWGnyUyN2j",
         "mt_iodbOOmEQs",
@@ -600,6 +604,7 @@
         "mt_tHtjfjjFrl",
         "mt_tIi6L1n7kF",
         "mt_tX0R4-4WXy",
+        "mt_tegkuJA5gM",
         "mt_thsY1ZesaU",
         "mt_tn1rY9GbEZ",
         "mt_tqgZH11cP5",
