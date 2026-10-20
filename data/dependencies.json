@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3309,
+  "edgeCount": 3317,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -294,8 +294,8 @@
     {
       "topicId": "mt_0XxyaQLRhn",
       "prerequisiteId": "mt__N55B7u7HD",
-      "strength": "hard",
-      "reason": "Telling time on a clock requires understanding hours and minutes as time units"
+      "strength": "soft",
+      "reason": "GB route: Year 1 experience of hours, minutes and seconds as units of time supports reading o'clock and half-past times; soft because this node is GB-only"
     },
     {
       "topicId": "mt_0zqOTjjW2k",
@@ -1408,18 +1408,6 @@
       "reason": "Must understand friction affects motion before investigating balanced/unbalanced forces"
     },
     {
-      "topicId": "mt_3XJkeIn6J6",
-      "prerequisiteId": "mt_4m8BimI4G5",
-      "strength": "hard",
-      "reason": "Reading to nearest minute extends reading to five minutes"
-    },
-    {
-      "topicId": "mt_3XJkeIn6J6",
-      "prerequisiteId": "mt_6XCURuNwPw",
-      "strength": "hard",
-      "reason": "Extends comparing time intervals to recording in seconds, minutes, hours"
-    },
-    {
       "topicId": "mt_3y7xKP9MjU",
       "prerequisiteId": "mt_CBHwluE6Lp",
       "strength": "soft",
@@ -1511,15 +1499,15 @@
     },
     {
       "topicId": "mt_4emC463IyW",
-      "prerequisiteId": "mt_3XJkeIn6J6",
-      "strength": "hard",
-      "reason": "Calculating event durations requires reading time to the minute"
-    },
-    {
-      "topicId": "mt_4emC463IyW",
       "prerequisiteId": "mt_EXlmTURK_o",
       "strength": "soft",
       "reason": "Knowing time unit relationships supports duration calculations"
+    },
+    {
+      "topicId": "mt_4emC463IyW",
+      "prerequisiteId": "mt_UNzojLkNdm",
+      "strength": "hard",
+      "reason": "Calculating event durations requires reading time to the minute"
     },
     {
       "topicId": "mt_4i-FKXDDXh",
@@ -1778,6 +1766,18 @@
       "prerequisiteId": "mt_Zks8xyInSG",
       "strength": "hard",
       "reason": "Unit conversion supports measurement word problems"
+    },
+    {
+      "topicId": "mt_5J2quSTspi",
+      "prerequisiteId": "mt_4m8BimI4G5",
+      "strength": "hard",
+      "reason": "Writing 3:20 p.m. as 15:20 and 07:05 as 7:05 a.m. relies on knowing which times are before and after midday"
+    },
+    {
+      "topicId": "mt_5J2quSTspi",
+      "prerequisiteId": "mt_HNOPGJYiRK",
+      "strength": "hard",
+      "reason": "Reading a Roman-numeral face uses the same five-minute positions and hand-reading skills as an ordinary clock face"
     },
     {
       "topicId": "mt_5_kErPeeNu",
@@ -2981,12 +2981,6 @@
     },
     {
       "topicId": "mt_9L3NQqgqRd",
-      "prerequisiteId": "mt_aPBzD28_mT",
-      "strength": "hard",
-      "reason": "Representing numbers requires place-value understanding"
-    },
-    {
-      "topicId": "mt_9L3NQqgqRd",
       "prerequisiteId": "mt_pAcaehday5",
       "strength": "hard",
       "reason": "Representing and estimating numbers on a number line builds on Y1 number representations"
@@ -2994,8 +2988,8 @@
     {
       "topicId": "mt_9L3NQqgqRd",
       "prerequisiteId": "mt_THl9GLxwoL",
-      "strength": "soft",
-      "reason": "Estimating placement on a 0-100 number line benefits from place value understanding"
+      "strength": "hard",
+      "reason": "Representing a two-digit number as tens and ones with blocks or drawings, and placing it between two tens on a number line, requires two-digit place value"
     },
     {
       "topicId": "mt_9lN0SpKlEH",
@@ -6442,6 +6436,18 @@
       "reason": "Equivalent fractions as the same point on a number line directly uses the fraction number-line representation"
     },
     {
+      "topicId": "mt_Eqk6oSbySH",
+      "prerequisiteId": "mt_VAWV_l7J0D",
+      "strength": "hard",
+      "reason": "Extends one-step addition word problems with two numbers, represented with objects, drawings and an equation with an unknown, to three addends"
+    },
+    {
+      "topicId": "mt_Eqk6oSbySH",
+      "prerequisiteId": "mt_Zx1xZM-RbX",
+      "strength": "hard",
+      "reason": "Solving the problem needs the three addends to be added, using strategies such as making 10 first"
+    },
+    {
       "topicId": "mt_EQQWKz03P8",
       "prerequisiteId": "mt_iYOcfzFqMw",
       "strength": "hard",
@@ -7190,6 +7196,18 @@
       "prerequisiteId": "mt_QdMMLRYWhn",
       "strength": "hard",
       "reason": "Y2 suffix rules build on Y1 basic suffix spelling"
+    },
+    {
+      "topicId": "mt_F_zEAJ8VIo",
+      "prerequisiteId": "mt_9L3NQqgqRd",
+      "strength": "hard",
+      "reason": "Extends number-line placement, base-ten representation and estimation from 0–100 to 0–1000"
+    },
+    {
+      "topicId": "mt_F_zEAJ8VIo",
+      "prerequisiteId": "mt_aPBzD28_mT",
+      "strength": "hard",
+      "reason": "Representing three-digit numbers as hundreds, tens and ones (including zero digits and regrouped forms) requires three-digit place value"
     },
     {
       "topicId": "mt_fZTn0W_iZR",
@@ -8880,8 +8898,8 @@
     {
       "topicId": "mt_IL86kadLSS",
       "prerequisiteId": "mt_4emC463IyW",
-      "strength": "hard",
-      "reason": "Prior duration comparison experience feeds into elapsed-time problem solving"
+      "strength": "soft",
+      "reason": "GB route: Year 3 calculating the time taken by events feeds into elapsed-time problem solving; soft because this node is GB-only (both countries keep the hard nearest-minute prerequisite)"
     },
     {
       "topicId": "mt_IL86kadLSS",
@@ -9114,8 +9132,14 @@
     {
       "topicId": "mt_IuHa5UI5od",
       "prerequisiteId": "mt_NSC3LT_-ch",
+      "strength": "soft",
+      "reason": "GB route: estimating how much containers hold gives experience of volume as an amount of space; soft because this node is GB-only"
+    },
+    {
+      "topicId": "mt_IuHa5UI5od",
+      "prerequisiteId": "mt_y1n0Zwhoca",
       "strength": "hard",
-      "reason": "Volume as an attribute formalises Y5 informal volume estimation with cubes"
+      "reason": "Measuring volume with unit cubes extends measuring area by counting unit squares, and the evidence contrasts volume with area"
     },
     {
       "topicId": "mt_iv-BJS9W60",
@@ -10523,9 +10547,9 @@
     },
     {
       "topicId": "mt_lC_Q5mSL_I",
-      "prerequisiteId": "mt_9L3NQqgqRd",
+      "prerequisiteId": "mt_F_zEAJ8VIo",
       "strength": "hard",
-      "reason": "Representing to 10,000 extends representing to 1000"
+      "reason": "Representing numbers to 10,000 extends representing three-digit numbers to 1000"
     },
     {
       "topicId": "mt_lC_Q5mSL_I",
@@ -11276,6 +11300,12 @@
       "prerequisiteId": "mt_NVr4AhsvIq",
       "strength": "hard",
       "reason": "Measuring earthquakes requires understanding what causes them"
+    },
+    {
+      "topicId": "mt_MewIRdzpzz",
+      "prerequisiteId": "mt_5J2quSTspi",
+      "strength": "soft",
+      "reason": "Reading I to XII on clock faces introduces the symbols I, V and X and the subtractive forms IV and IX before Roman numerals to 100"
     },
     {
       "topicId": "mt_MewIRdzpzz",
@@ -12209,9 +12239,15 @@
     },
     {
       "topicId": "mt_NSC3LT_-ch",
-      "prerequisiteId": "mt_y1n0Zwhoca",
+      "prerequisiteId": "mt_6oxQPNLHNv",
       "strength": "hard",
-      "reason": "Counting unit squares for area supports extending to counting unit cubes for volume"
+      "reason": "Estimating capacity in litres and millilitres builds on measuring and calculating with these units"
+    },
+    {
+      "topicId": "mt_NSC3LT_-ch",
+      "prerequisiteId": "mt_mFJ-2ZF6Tk",
+      "strength": "soft",
+      "reason": "Year 4 estimating and comparing measures gives practice in judging sensible amounts before measuring"
     },
     {
       "topicId": "mt_nTL-owFJTF",
@@ -16342,6 +16378,12 @@
       "reason": "Tell time to 5 minutes is prerequisite to telling time to nearest minute"
     },
     {
+      "topicId": "mt_UNzojLkNdm",
+      "prerequisiteId": "mt_6XCURuNwPw",
+      "strength": "soft",
+      "reason": "GB route: Year 2 comparing and sequencing intervals of time is the groundwork for recording and comparing durations in seconds, minutes and hours; soft because this node is GB-only"
+    },
+    {
       "topicId": "mt_UooUHC_V7U",
       "prerequisiteId": "mt_KJeEeTutJI",
       "strength": "hard",
@@ -17417,9 +17459,9 @@
     },
     {
       "topicId": "mt_WfrE_4r-kY",
-      "prerequisiteId": "mt_4m8BimI4G5",
+      "prerequisiteId": "mt_5J2quSTspi",
       "strength": "hard",
-      "reason": "12/24hr clock reading builds on telling time to 5 minutes with am/pm"
+      "reason": "Year 4 conversion between analogue and digital 12- and 24-hour clocks builds on Year 3 reading of 12- and 24-hour times"
     },
     {
       "topicId": "mt_wf-SJhZ1kC",
@@ -19817,9 +19859,15 @@
     },
     {
       "topicId": "mt_Zx1xZM-RbX",
-      "prerequisiteId": "mt_T76hKqXf0z",
+      "prerequisiteId": "mt_QCgbiVrwnp",
       "strength": "hard",
-      "reason": "Adding three numbers uses the associative property to group pairs"
+      "reason": "Spotting a pair that makes 10 and adding it first means reordering addends, which relies on knowing that addition can be done in any order"
+    },
+    {
+      "topicId": "mt_Zx1xZM-RbX",
+      "prerequisiteId": "mt_T76hKqXf0z",
+      "strength": "soft",
+      "reason": "US route: the associative property formalises grouping any two of the three addends first; soft because this node is US-only and England teaches the grouping within adding three one-digit numbers"
     },
     {
       "topicId": "mt_ZxdfRbwkKM",

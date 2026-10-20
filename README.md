@@ -45,6 +45,7 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 | [`data/curriculum-standards.json`](data/curriculum-standards.json) | The source curriculum standards, grouped by curriculum. |
 | [`data/clusters.json`](data/clusters.json) | Parent-friendly domain summaries. |
 | [`data/teaching-research.json`](data/teaching-research.json) | Teaching research joined by `topicId`, with explicit coverage and publication notes (~24 MB). |
+| [`data/archived-teaching-research.json`](data/archived-teaching-research.json) | Historical guidance for merged or refocused topics, with original records and current topic associations. |
 | [`data/manifest.json`](data/manifest.json) | Counts, per-subject breakdown, per-file checksums. |
 
 ### A topic
@@ -86,11 +87,13 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It covers **547 Science**
-and **504 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
-make the **540 topics without research** explicit; absence is not a judgement
+and **502 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
+make the **567 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
-The file has `schemaVersion: 1` and taxonomy `version: "v1"`. Each `records[]`
+[`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.
+
+The active `teaching-research.json` file has `schemaVersion: 1` and taxonomy `version: "v1"`. Each `records[]`
 entry joins `topics.json` through `topicId` and contains:
 
 | Field | Meaning |
