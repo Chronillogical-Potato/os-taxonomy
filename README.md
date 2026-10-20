@@ -56,8 +56,14 @@ Languages, elaborations and achievement standards are outside this contribution.
 Australian Mathematics now has 370 topic alignments: 95 of its 139 standards
 are fully covered, 37 partly covered, and 7 missing. The
 [coverage report](reports/acara-v9-maths-coverage.md) lists every standard, linked
-topic and remaining gap. Other Australian subjects currently have source
-standards only. See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
+topic and remaining gap.
+
+Australian English has 540 topic alignments across 185 existing topics: 110 of
+its 189 standards are fully covered, 76 partly covered, and 3 missing. Its
+[coverage report](reports/acara-v9-english-coverage.md) names the remaining gaps,
+including Australian literature, digital and multimodal texts, and consonant
+clusters. Other Australian subjects currently have source standards only.
+See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
 ### A topic
 
