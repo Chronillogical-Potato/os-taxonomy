@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3272,
+  "edgeCount": 3289,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -7792,6 +7792,30 @@
       "reason": "Counting a set helps when comparing groups, but younger children (GB age 4) can compare using matching without formal counting to 20"
     },
     {
+      "topicId": "mt_h7zVgCDVmx",
+      "prerequisiteId": "mt_eiB3-6pu6a",
+      "strength": "hard",
+      "reason": "The applied problems use side lengths to find rectangle perimeters and areas"
+    },
+    {
+      "topicId": "mt_h7zVgCDVmx",
+      "prerequisiteId": "mt_hVpGOEz2kG",
+      "strength": "hard",
+      "reason": "Drawing polygons from vertex coordinates in all four quadrants requires plotting points with negative coordinates"
+    },
+    {
+      "topicId": "mt_h7zVgCDVmx",
+      "prerequisiteId": "mt_i5_HnoFOYw",
+      "strength": "soft",
+      "reason": "Completing polygons from given vertices in the first quadrant is the simpler version of the same task"
+    },
+    {
+      "topicId": "mt_h7zVgCDVmx",
+      "prerequisiteId": "mt_RWUY7_IXvw",
+      "strength": "hard",
+      "reason": "Finding a side length that crosses an axis adds the endpoints' distances from the axis, which are absolute values"
+    },
+    {
       "topicId": "mt_H8dEMH_wik",
       "prerequisiteId": "mt_H4YZ1rSKP3",
       "strength": "hard",
@@ -8316,14 +8340,20 @@
     {
       "topicId": "mt_hVpGOEz2kG",
       "prerequisiteId": "mt_i5_HnoFOYw",
-      "strength": "hard",
-      "reason": "Plotting in all four quadrants extends first-quadrant coordinate grid plotting skills"
+      "strength": "soft",
+      "reason": "GB route: plotting points and completing polygons in the first quadrant (Year 4) is the groundwork that four-quadrant plotting extends; soft because this node is GB-only and US learners get the same groundwork from 5.G.2"
     },
     {
       "topicId": "mt_hVpGOEz2kG",
       "prerequisiteId": "mt_R4AY0LKxfl",
-      "strength": "hard",
-      "reason": "KS3 coordinates work extends KS2 four-quadrant coordinate skills"
+      "strength": "soft",
+      "reason": "GB route: Year 6 introduces all four quadrants, which KS3 revisits and consolidates; soft because this node is GB-only"
+    },
+    {
+      "topicId": "mt_hVpGOEz2kG",
+      "prerequisiteId": "mt_snlqRCiA1R",
+      "strength": "soft",
+      "reason": "US route: plotting and reading ordered pairs in the first quadrant (5.G.2) is the groundwork that four-quadrant plotting extends; soft because this node is US-only"
     },
     {
       "topicId": "mt_hVpGOEz2kG",
@@ -8456,6 +8486,18 @@
       "prerequisiteId": "mt_uDJY0X0hgo",
       "strength": "hard",
       "reason": "Representing inequality solutions on a number line requires ordering integers, decimals, and fractions together"
+    },
+    {
+      "topicId": "mt_i2-QaXbyzB",
+      "prerequisiteId": "mt_eMtV6tBSJm",
+      "strength": "soft",
+      "reason": "Decomposing rectilinear figures into rectangles and adding their areas is the first experience of area as additive"
+    },
+    {
+      "topicId": "mt_i2-QaXbyzB",
+      "prerequisiteId": "mt_ML5t7n2-U8",
+      "strength": "hard",
+      "reason": "Decomposed or subtracted pieces are mostly triangles and parallelograms, so their areas must be found first"
     },
     {
       "topicId": "mt_i4bDqjyglj",
@@ -8762,6 +8804,24 @@
       "prerequisiteId": "mt_UNzojLkNdm",
       "strength": "hard",
       "reason": "Must read time to nearest minute before solving elapsed time problems"
+    },
+    {
+      "topicId": "mt_IlDaxVr60U",
+      "prerequisiteId": "mt_gx6KQK5-Kx",
+      "strength": "hard",
+      "reason": "Tiling a rectangle with unit-fraction squares and multiplying fractional side lengths is the two-dimensional version of packing with unit-fraction cubes"
+    },
+    {
+      "topicId": "mt_IlDaxVr60U",
+      "prerequisiteId": "mt_nTL-owFJTF",
+      "strength": "hard",
+      "reason": "Extends whole-number cube packing and V = l × w × h to fractional edge lengths"
+    },
+    {
+      "topicId": "mt_IlDaxVr60U",
+      "prerequisiteId": "mt_vHzVa3SURC",
+      "strength": "soft",
+      "reason": "Applying V = l × w × h with fractional values is substitution into a formula"
     },
     {
       "topicId": "mt_ilPrU0cbtT",
@@ -14950,6 +15010,30 @@
       "reason": "Experimental probability requires understanding the 0–1 probability scale first"
     },
     {
+      "topicId": "mt_Sij9ByyHq6",
+      "prerequisiteId": "mt_5TBUFnCy5-",
+      "strength": "hard",
+      "reason": "Composite-solid volume relies on volume being additive across non-overlapping parts"
+    },
+    {
+      "topicId": "mt_Sij9ByyHq6",
+      "prerequisiteId": "mt_i2-QaXbyzB",
+      "strength": "hard",
+      "reason": "Prisms with L-shaped or trapezoidal bases need the area of a composite polygon"
+    },
+    {
+      "topicId": "mt_Sij9ByyHq6",
+      "prerequisiteId": "mt_tAJH5BrpOx",
+      "strength": "hard",
+      "reason": "Volumes of non-rectangular right prisms use base (cross-section) area × length"
+    },
+    {
+      "topicId": "mt_Sij9ByyHq6",
+      "prerequisiteId": "mt_tegkuJA5gM",
+      "strength": "hard",
+      "reason": "Prism and composite surface areas extend finding surface area as the sum of face areas"
+    },
+    {
       "topicId": "mt_sJyZW4qYUG",
       "prerequisiteId": "mt_O2dS6gvClw",
       "strength": "hard",
@@ -15392,6 +15476,24 @@
       "prerequisiteId": "mt_QDTO3GAgcq",
       "strength": "hard",
       "reason": "KS3 angle facts extend KS2 angles at a point, on a line, and vertically opposite"
+    },
+    {
+      "topicId": "mt_tegkuJA5gM",
+      "prerequisiteId": "mt_ML5t7n2-U8",
+      "strength": "hard",
+      "reason": "Pyramid and triangular-prism nets contain triangular faces whose areas are needed; rectangle area comes with it"
+    },
+    {
+      "topicId": "mt_tegkuJA5gM",
+      "prerequisiteId": "mt_nTL-owFJTF",
+      "strength": "soft",
+      "reason": "Knowing volume as cubes filling a solid helps learners distinguish it from surface area (square units covering the outside)"
+    },
+    {
+      "topicId": "mt_tegkuJA5gM",
+      "prerequisiteId": "mt_vnJEztczji",
+      "strength": "hard",
+      "reason": "Surface area is found from a net, so learners must be able to draw and interpret nets of prisms and pyramids"
     },
     {
       "topicId": "mt_Te-ulgYMUd",
