@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3235,
+  "edgeCount": 3248,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -2738,6 +2738,24 @@
       "prerequisiteId": "mt_g4YSiOCS8g",
       "strength": "hard",
       "reason": "Must know about skeletons/muscles before arguing about how structures support survival"
+    },
+    {
+      "topicId": "mt_8VjmxR1yfw",
+      "prerequisiteId": "mt_KCS9GbZgU_",
+      "strength": "hard",
+      "reason": "A box plot is drawn from the five-number summary, which requires finding the median and quartiles"
+    },
+    {
+      "topicId": "mt_8VjmxR1yfw",
+      "prerequisiteId": "mt_oderfUBZPw",
+      "strength": "soft",
+      "reason": "Comparing a box plot with a histogram of the same data helps show which features of the distribution a box plot cannot reveal"
+    },
+    {
+      "topicId": "mt_8VjmxR1yfw",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "hard",
+      "reason": "Explaining what a box plot hides (clusters, gaps, shape) requires being able to describe those features of a distribution"
     },
     {
       "topicId": "mt_8xVHooT4aI",
@@ -9808,6 +9826,18 @@
       "reason": "Using trig ratios to find unknowns requires formula rearrangement"
     },
     {
+      "topicId": "mt_KCS9GbZgU_",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "soft",
+      "reason": "Recognising skew, long tails and unusual values helps pupils judge when the IQR is the better summary of spread"
+    },
+    {
+      "topicId": "mt_KCS9GbZgU_",
+      "prerequisiteId": "mt_XSXnTQoQ4l",
+      "strength": "hard",
+      "reason": "Quartiles are medians of each half and the topic compares IQR with range and outliers, all of which are taught in this topic"
+    },
+    {
       "topicId": "mt_kCSy3Lsgme",
       "prerequisiteId": "mt_4bJiGiMPmy",
       "strength": "hard",
@@ -12268,6 +12298,24 @@
       "reason": "Ocean food webs build on curriculum food chains with trophic levels"
     },
     {
+      "topicId": "mt_oderfUBZPw",
+      "prerequisiteId": "mt_ChjMU2GDJa",
+      "strength": "hard",
+      "reason": "Explaining how a histogram differs from a bar chart requires knowing bar charts and the distinction between discrete/categorical and continuous data"
+    },
+    {
+      "topicId": "mt_oderfUBZPw",
+      "prerequisiteId": "mt_eKJG-0eC6D",
+      "strength": "soft",
+      "reason": "Grouping raw continuous data into class intervals in a frequency table is closely related groundwork for drawing a histogram"
+    },
+    {
+      "topicId": "mt_oderfUBZPw",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "hard",
+      "reason": "The assessment requires describing the centre, spread and shape of the distribution shown in the histogram"
+    },
+    {
       "topicId": "mt_oDlduFnemk",
       "prerequisiteId": "mt_QysgF57dxh",
       "strength": "hard",
@@ -12668,6 +12716,30 @@
       "prerequisiteId": "mt_dmNvjroCPT",
       "strength": "hard",
       "reason": "Understanding addition as combining groups requires knowing numbers represent quantities (cardinality)"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_Cg8VPguS_V",
+      "strength": "soft",
+      "reason": "Knowing what a mean represents supports describing and comparing centres, though centre can also be described informally"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_ChjMU2GDJa",
+      "strength": "soft",
+      "reason": "Experience presenting discrete and continuous data graphically supports reading the displays used to describe a distribution"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_IHipFGTFEY",
+      "strength": "soft",
+      "reason": "Making and reading line (dot) plots gives the concrete display on which clusters, gaps and skew are first seen"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_iykH2P5oFq",
+      "strength": "soft",
+      "reason": "A distribution is the variable data a statistical question anticipates; framing the question helps pupils interpret features in context"
     },
     {
       "topicId": "mt_OyOYHlZ2_T",
@@ -17522,6 +17594,12 @@
       "prerequisiteId": "mt_fQ9Rw10fss",
       "strength": "hard",
       "reason": "Comparing estimates from several samples presupposes being able to produce an estimate from a single sample"
+    },
+    {
+      "topicId": "mt_x7V1qrkiqH",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "soft",
+      "reason": "Describing the spread of individual observations in a distribution supports contrasting it with the smaller spread of sample estimates"
     },
     {
       "topicId": "mt_x7V1qrkiqH",
