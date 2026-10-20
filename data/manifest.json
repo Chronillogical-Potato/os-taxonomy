@@ -1,7 +1,7 @@
 {
   "dataset": "Marble Skill Taxonomy",
   "taxonomyVersion": "v1",
-  "generatedAt": "2026-10-20T18:34:28.317Z",
+  "generatedAt": "2026-10-20T20:52:33.520Z",
   "codesOnlySources": [
     "c3-social-studies",
     "ib-pyp-pspe",
@@ -23,15 +23,15 @@
     "dependencies": 3317,
     "curricula": 8,
     "curriculumStandards": 3881,
-    "topicStandardLinks": 2674,
+    "topicStandardLinks": 3214,
     "clusters": 176,
     "teachingResearch": 1049,
     "archivedTeachingResearch": 2
   },
   "files": {
     "topics.json": {
-      "bytes": 1746543,
-      "sha256": "c2982b2ae63bb6566390947d83526aceddaea1c11c947d0c87909c1849aa075e"
+      "bytes": 1762764,
+      "sha256": "525aa943165f57c02b7e69fd6160ed8fc8263501b7893f1ec681ca9590d19cfd"
     },
     "dependencies.json": {
       "bytes": 723551,
@@ -47,7 +47,7 @@
     },
     "teaching-research.json": {
       "bytes": 23515064,
-      "sha256": "553dce27c0636138a3737b2fcd09451aa82a4305cdf3cba42619db0597a72cc1"
+      "sha256": "c6f7ca31f9b6554e5df9fbbb682f42eb3af95ce925d01de79d145b9f95aa70a6"
     },
     "archived-teaching-research.json": {
       "bytes": 50334,
@@ -62,7 +62,7 @@
   "teachingResearch": {
     "schemaVersion": 1,
     "exportedAt": "2026-10-19T16:08:02.198Z",
-    "topicFileSha256": "c2982b2ae63bb6566390947d83526aceddaea1c11c947d0c87909c1849aa075e",
+    "topicFileSha256": "525aa943165f57c02b7e69fd6160ed8fc8263501b7893f1ec681ca9590d19cfd",
     "coverage": {
       "topicCount": 1616,
       "withResearch": 1049,
