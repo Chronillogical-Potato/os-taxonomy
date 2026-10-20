@@ -97,6 +97,10 @@ Deliver one HTML file with embedded CSS, JavaScript and required assets. It must
 open directly in a browser without accounts, a build step, a server or network
 access. Keep any research/design companion outside the child-facing flow. Use
 local interactions and no tracking or transmission of child responses by default.
+Use the bundled **Baloo 2** throughout: 800 for ALL CAPS titles, 500 for the
+current instruction/explanation, and 600 for button labels. Embed the actual font
+bytes; do not substitute another family or rely on a fallback without the user's
+agreement. Keep instructions and button labels in sentence case.
 Use Three.js for spatial experiences involving viewpoint, illumination, depth,
 occlusion or moving physical objects, including the daytime-Moon example. Build
 one coherent, polished 3D scene with direct manipulation: drag the Earth, place an
@@ -116,8 +120,8 @@ Design a coherent learning sequence rather than a collection of screens:
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
 - Let the child learn through looking, acting, predicting and seeing consequences.
-  Keep the title small and anchored at the top left. When using Marble Round,
-  set the title in ALL CAPS; keep instructions and button labels in sentence case.
+  Keep the title small, ALL CAPS and anchored at the top left; keep instructions
+  and button labels in sentence case.
   Make the current instruction
   or short explanation large, prominent and part of the experience's composition;
   it is the main text, not a caption beneath a dominant heading.

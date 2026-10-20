@@ -58,15 +58,18 @@ scene palettes should suit the subject rather than paint every object brand red.
 | Instruction / explanation | Large, prominent text composed with the scene; the primary text role |
 | Controls | Rounded/tactile, restrained white rim and shallow depth, clear press/focus/disabled states |
 
-Marble's production Round Medium and Round Condensed Black are commercial faces;
-they are not bundled or relicensed here. The skill bundles unmodified **Fredoka**
-under the SIL Open Font License as a rounded public substitute, with weights
-300–700: [font](../assets/fonts/Fredoka-variable.ttf),
-[license](../assets/fonts/OFL.txt), [source](../assets/fonts/SOURCE.md).
-When using Marble Round, set titles in ALL CAPS with Round Condensed Black;
-instructions and button labels use Round Medium in sentence case. This is the
-Round treatment to reproduce in comparisons as well as generated experiences;
-do not infer that body copy should also be uppercase.
+The approved font is **Baloo 2**, used consistently across the experience. The
+skill bundles the unmodified variable font, weights 400–800, under SIL OFL:
+[font](../assets/fonts/Baloo2-variable.ttf),
+[license](../assets/fonts/OFL.txt), [pinned source](../assets/fonts/SOURCE.md).
+Use **800 / ALL CAPS for titles**, **500 / sentence case for the current
+instruction or explanation**, and **600 / sentence case for button labels**.
+Do not introduce another family or use system typography as the finished result.
+Verify the embedded Baloo 2 actually loads; a CSS declaration alone is insufficient.
+
+Marble's commercial Round faces informed the comparison but are not bundled or
+required. Any future replacement or mixing of families requires the
+user's agreement rather than an autonomous stylistic choice.
 
 Keep the title small at the top left, typically 16–22 CSS px. Make the current
 instruction or explanation the prominent text, typically 28–40 CSS px on tablet,
@@ -77,9 +80,7 @@ contrast and touch-layout clearance. Keep the explanatory text within the scene'
 composition and close to the relevant action, with enough contrast and clear
 space. It must not become small helper copy, a peripheral caption or a paragraph
 card. Feedback or explanation replaces the same text slot; it does not add a
-second block. Test rendered metrics and contrast on the actual scene. Do not silently fall back to unrelated
-system typography. If authorized production fonts are available in a private
-project, they may replace the substitute under their existing terms.
+second block. Test rendered metrics and contrast on the actual scene.
 
 Embed the font bytes as a CSS data URL when producing the final standalone HTML.
 Retain the complete font license in the HTML source and adult companion. The
@@ -172,7 +173,7 @@ Inspect actual screenshots at the agreed device size and at a narrow layout:
   No additional visible text is hidden
   in canvas labels or tooltips to evade the budget.
 - Typography has loaded and whitespace is intentional. The title is small at the
-  top left and ALL CAPS when using Marble Round; instructions and button labels
+  top left and ALL CAPS in Baloo 2 at weight 800; instructions and button labels
   remain sentence case. The current instruction/explanation is conspicuously larger and
   prominent within the experience. Controls have consistent depth, hit areas and
   state treatment. Long text must not silently shrink to caption size.

@@ -179,7 +179,7 @@ transfer tasks and optional extensions. Spatial topics use Three.js with direct
 scene manipulation and a crafted cel-shaded look with flat colors and black
 outlines. Visual simulations must meet a beauty, craft and polish bar as well as
 work correctly. The public skill includes Marble-derived UI tokens, tactile
-controls and an openly licensed rounded font, with one title and one instruction
+controls and the openly licensed Baloo 2 font, with one title and one instruction
 visible at a time: a small top-left title and a large, prominent instruction or
 explanation, plus concise button labels paired with icons. [Water Lab](https://withmarble.com/water-lab) is the visual quality
 reference. The agent renders, inspects and iterates

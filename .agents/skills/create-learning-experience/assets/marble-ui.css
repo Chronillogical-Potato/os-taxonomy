@@ -1,10 +1,10 @@
 /* Marble-derived public UI primitives. Layout is intentionally not prescribed.
    For standalone output replace the development font URL with embedded bytes.
-   Fredoka is OFL-licensed; preserve assets/fonts/OFL.txt in redistributed output. */
+   Baloo 2 is OFL-licensed; preserve assets/fonts/OFL.txt in redistributed output. */
 @font-face {
-  font-family: "Marble Learning";
-  src: url("./fonts/Fredoka-variable.ttf") format("truetype");
-  font-weight: 300 700;
+  font-family: "Baloo 2";
+  src: url("./fonts/Baloo2-variable.ttf") format("truetype");
+  font-weight: 400 800;
   font-style: normal;
   font-display: block;
 }
@@ -17,7 +17,7 @@
   --ml-muted: #626262;
   --ml-success: #1fa20d;
   --ml-attention: #fdae1c;
-  font-family: "Marble Learning", sans-serif;
+  font-family: "Baloo 2", sans-serif;
   color: var(--ml-ink);
   background: var(--ml-paper);
 }
@@ -27,7 +27,8 @@
 .marble-learning .ml-title {
   margin: 0;
   font-size: clamp(1rem, 1.6vw, 1.375rem);
-  font-weight: 700;
+  font-weight: 800;
+  text-transform: uppercase;
   line-height: 1.05;
   letter-spacing: -.025em;
 }
@@ -55,6 +56,7 @@
   touch-action: manipulation;
   transition: transform 100ms ease, filter 100ms ease;
   font: inherit;
+  font-weight: 600;
 }
 /* Use only when a compact or self-evident icon-only control is appropriate. */
 .marble-learning .ml-control--icon-only {
