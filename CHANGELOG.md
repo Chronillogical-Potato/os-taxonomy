@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Align Australian Foundation–Year 6 Science with 208 links across 103 existing topics. Publish a code-by-code audit of all 77 standards: 43 fully covered, 33 partly covered and 1 missing. Preserve existing curriculum links, topic content and prerequisite edges; refresh approximate age spans and the teaching-research topic-file binding.
+
 - Align Australian Foundation–Year 6 English with 540 links across 185 existing topics. Publish a code-by-code audit of all 189 standards: 110 fully covered, 76 partly covered and 3 missing, with explicit gaps for partial matches. Preserve existing curricula, topic content and prerequisite edges; refresh approximate age spans and the teaching-research topic-file binding.
 
 - Align Australian Foundation–Year 6 Mathematics with 370 links across 266 existing topics, preserving existing curricula and prerequisite edges. Publish a code-by-code audit: 95 standards fully covered, 37 partly covered and 7 missing. Refresh approximate topic age spans and the teaching-research topic-file binding.
