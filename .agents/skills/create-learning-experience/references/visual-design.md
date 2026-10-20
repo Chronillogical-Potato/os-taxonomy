@@ -19,7 +19,8 @@ manipulation reference, not a ready-made mastery assessment.
 
 Use its rendered experience as a composition and interaction reference, not its
 entire text content as a template. The required text budget here is stricter:
-**one title and one instruction visible at a time**, with no other visible text.
+**one title and one instruction visible at a time**, plus concise functional
+button labels. These labels identify actions, not extra teaching prose.
 The adult brief and asset credits are separate. Accessible names remain required.
 If the live site cannot be viewed, use these criteria and report that limitation;
 do not claim to have inspected its current appearance.
@@ -103,10 +104,18 @@ it changes. Prefer these over “turn one step” buttons outside the world.
 Constrain drag axes and camera motion to preserve orientation. Use a distinct
 visual affordance for movable objects and an immediate response to touch.
 
-Keep supplementary actions as a few scene-adjacent icon controls with accessible
-names, generous hit areas (at least 44 CSS px) and clear focus. Decorative 3D
-controls still need keyboard-operable semantic equivalents, which can remain
-visually integrated. Avoid visible captions/tooltips that become extra text.
+Buttons should pair an icon with a concise visible action label by default, such
+as a replay icon with “Try again”. Choose icons that reinforce the action; do not
+use an ambiguous symbol alone when a label would clarify it. Keep labels short
+and keep them inside the button. Functional button labels are exempt from the
+single-title/single-instruction limit; explanatory button captions are not.
+
+Use icon-only controls where there is a good reason, such as a compact action bar,
+a familiar close control or an unmistakable in-scene affordance. Give them
+accessible names. Keep supplementary actions scene-adjacent, with generous hit
+areas (at least 44 CSS px) and clear focus. Decorative 3D controls still need
+keyboard-operable semantic equivalents, which can remain visually integrated.
+Do not add explanatory tooltips or captions to evade the text budget.
 Prediction controls must be easy to discover while answer-revealing cues stay
 hidden until the response is committed.
 
@@ -116,8 +125,10 @@ Inspect actual screenshots at the agreed device size and at a narrow layout:
 
 - The scene dominates, with a deliberate focal point and an intelligible first
   action. The composition is not two boxed diagrams surrounded by explanatory UI.
-- Only the single title and current instruction are visible. Feedback replaces
-  the instruction; no text accumulates across stages. No visible text is hidden
+- Only the single title, current instruction and concise functional button labels
+  are visible. Feedback replaces the instruction; no text accumulates across
+  stages. Buttons have icons and labels unless an icon-only exception is justified.
+  No additional visible text is hidden
   in canvas labels or tooltips to evade the budget.
 - Typography has loaded, whitespace is intentional, the title does not overwhelm
   the world, and controls have consistent depth, hit areas and state treatment.

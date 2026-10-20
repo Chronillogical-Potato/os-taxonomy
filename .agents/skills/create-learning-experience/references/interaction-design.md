@@ -10,7 +10,10 @@ A long explanation followed by a quiz is not a substitute for this design work.
 
 Show only one title and one short instruction in the child view. Feedback replaces
 that instruction. Teach through the scene, motion and consequences, not appended
-copy. Use icon controls with accessible names; keep adult explanations elsewhere.
+copy. Buttons use both an icon and a short action label by default; their labels
+are allowed alongside the title and instruction. Use icon-only controls when a
+compact action bar or another clear design reason warrants it, with accessible
+names. Keep adult explanations elsewhere.
 If the goal requires reading material or mathematical notation, agree the narrow
 exception for task text with
 the user before building. Read [visual-design.md](visual-design.md) for the visual

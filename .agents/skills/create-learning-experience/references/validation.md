@@ -33,7 +33,9 @@ browser tools; inspecting source or the DOM alone does not validate presentation
 1. Open the saved HTML directly in a browser. Inspect an actual screenshot at the
    intended viewport. Is the main learning action clear, the representation
    intelligible and the next manipulation obvious? Enforce the single-title,
-   single-instruction budget; check actual visible text including canvas labels,
+   single-instruction budget, allowing concise functional button labels. Verify
+   buttons combine icons and labels unless an icon-only exception is justified.
+   Check actual visible text including canvas labels,
    banners, tooltips and feedback, not only paragraph counts.
    Compare scene composition with [visual-design.md](visual-design.md) and Water
    Lab. For spatial goals verify actual Three.js rendering, in-scene manipulation,

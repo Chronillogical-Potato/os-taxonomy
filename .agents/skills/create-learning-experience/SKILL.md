@@ -115,8 +115,12 @@ Design a coherent learning sequence rather than a collection of screens:
   The child-facing experience may show only **one title and one short instruction
   at a time**. Use that same instruction slot for feedback; replace it rather than
   appending explanation. No subtitles, legends, visible object labels, status
-  paragraphs, textual tabs or extra button captions. Give icon/scene controls
-  accessible names without adding visible prose. Keep adult notes and credits in
+  paragraphs or textual tabs. Buttons should combine an icon with a concise
+  visible action label; these functional labels are allowed alongside the title
+  and instruction. Reserve icon-only buttons for a good reason, such as a small
+  action bar or an unmistakable scene affordance, and give them accessible names.
+  Do not turn button labels into additional instructions or explanations.
+  Keep adult notes and credits in
   a separate companion. For a goal that genuinely requires visible reading
   material or mathematical notation, resolve that conflict explicitly with the user during concept design
   rather than silently relaxing this rule.
