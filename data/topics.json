@@ -11689,8 +11689,6 @@
       ],
       "assessmentPrompt": "When {{name}} collects data for a project, can they choose the right type of chart to display it — and draw it accurately with correct labels and a suitable scale?",
       "standards": [
-        "ccss-math:7.SP.1",
-        "ccss-math:7.SP.2",
         "uk-nc-2013:KS3.Maths.Stat.2"
       ]
     },
@@ -19285,7 +19283,6 @@
       "assessmentPrompt": "If a spinner has three sections and one has a probability of 0.4 and another has 0.35, can {{name}} work out the probability of landing on the third section without being told?",
       "standards": [
         "ccss-math:7.SP.5",
-        "ccss-math:7.SP.7a",
         "uk-nc-2013:KS3.Maths.Prob.2"
       ]
     },
@@ -19684,7 +19681,7 @@
       ],
       "assessmentPrompt": "If {{name}} looks at a map where 1 cm = 50 km, can they work out the real distance between two cities that are 4.5 cm apart on the map?",
       "standards": [
-        "ccss-math:7.RP.2b",
+        "ccss-math:7.G.1",
         "uk-nc-2013:KS3.Maths.Ratio.2"
       ]
     },
