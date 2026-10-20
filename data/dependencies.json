@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3248,
+  "edgeCount": 3259,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -3134,6 +3134,36 @@
       "prerequisiteId": "mt_ShAptVcQR3",
       "strength": "soft",
       "reason": "Complete vs incomplete metamorphosis directly enriches curriculum life-cycles-comparing-metamorphosis"
+    },
+    {
+      "topicId": "mt_A2hKhHXgL5",
+      "prerequisiteId": "mt_6-j1NO2ZUH",
+      "strength": "soft",
+      "reason": "Describing a gap as 'about twice' a measure of variability draws on multiplicative comparison"
+    },
+    {
+      "topicId": "mt_A2hKhHXgL5",
+      "prerequisiteId": "mt_8VjmxR1yfw",
+      "strength": "soft",
+      "reason": "Comparing two box plots on a shared scale gives pupils prior experience of judging overlap between two distributions"
+    },
+    {
+      "topicId": "mt_A2hKhHXgL5",
+      "prerequisiteId": "mt_KCS9GbZgU_",
+      "strength": "soft",
+      "reason": "The IQR is the matching variability measure when the difference between medians is used instead of means"
+    },
+    {
+      "topicId": "mt_A2hKhHXgL5",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "hard",
+      "reason": "Judging visual overlap requires reading where each distribution is centred and how widely it spreads on a dot plot"
+    },
+    {
+      "topicId": "mt_A2hKhHXgL5",
+      "prerequisiteId": "mt_ZfpeI1CFyP",
+      "strength": "hard",
+      "reason": "Expressing the difference in means as a multiple of variability requires calculating and interpreting the MAD"
     },
     {
       "topicId": "mt_a3dov8CZkq",
@@ -10052,6 +10082,24 @@
       "prerequisiteId": "mt_mvXufozy2s",
       "strength": "hard",
       "reason": "Noticing confusion and acting on it requires already knowing that asking for help is a valid response to being stuck"
+    },
+    {
+      "topicId": "mt_km4V6d5IAh",
+      "prerequisiteId": "mt_4zgPzc6yu5",
+      "strength": "hard",
+      "reason": "Qualifying a population comparison requires checking that each sample is random and representative of its population"
+    },
+    {
+      "topicId": "mt_km4V6d5IAh",
+      "prerequisiteId": "mt_A2hKhHXgL5",
+      "strength": "hard",
+      "reason": "Weighing the difference between sample centres against the variability within the samples applies the centre-versus-spread comparison to sample data"
+    },
+    {
+      "topicId": "mt_km4V6d5IAh",
+      "prerequisiteId": "mt_x7V1qrkiqH",
+      "strength": "hard",
+      "reason": "Deciding whether a difference between samples could be due to chance requires knowing how much sample centres vary from one random sample to another"
     },
     {
       "topicId": "mt_KmPZ5diLEP",
@@ -18059,12 +18107,6 @@
     },
     {
       "topicId": "mt_XSXnTQoQ4l",
-      "prerequisiteId": "mt_eKJG-0eC6D",
-      "strength": "hard",
-      "reason": "Describing and comparing statistical distributions requires constructing and reading frequency tables, bar charts, and pie charts"
-    },
-    {
-      "topicId": "mt_XSXnTQoQ4l",
       "prerequisiteId": "mt_fmm-P17Vka",
       "strength": "hard",
       "reason": "Describing distributions using mean, median, mode, and range requires all these statistical terms"
@@ -19040,6 +19082,30 @@
       "prerequisiteId": "mt_iNdrM2-oJf",
       "strength": "hard",
       "reason": "Word problems require understanding what quotients mean"
+    },
+    {
+      "topicId": "mt_ZfpeI1CFyP",
+      "prerequisiteId": "mt_Cg8VPguS_V",
+      "strength": "hard",
+      "reason": "Every MAD calculation starts by finding the mean and ends by averaging the distances, so calculating and interpreting the mean is essential"
+    },
+    {
+      "topicId": "mt_ZfpeI1CFyP",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "soft",
+      "reason": "Seeing spread as a feature of a distribution helps pupils interpret what a larger or smaller MAD says about the data"
+    },
+    {
+      "topicId": "mt_ZfpeI1CFyP",
+      "prerequisiteId": "mt_RWUY7_IXvw",
+      "strength": "soft",
+      "reason": "Understanding absolute value as a distance on the number line supports treating each deviation from the mean as a positive distance"
+    },
+    {
+      "topicId": "mt_ZfpeI1CFyP",
+      "prerequisiteId": "mt_XSXnTQoQ4l",
+      "strength": "hard",
+      "reason": "Using MAD to compare spread builds on knowing that a single number (first the range) can summarise how much values vary, and on comparing two data sets by centre and spread"
     },
     {
       "topicId": "mt_ZFwPZaDJ0_",
