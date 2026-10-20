@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3259,
+  "edgeCount": 3272,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -1994,6 +1994,24 @@
       "prerequisiteId": "mt_LE7nFEwS12",
       "strength": "hard",
       "reason": "Explaining in your own words requires connecting new learning to existing knowledge already held in mind"
+    },
+    {
+      "topicId": "mt_6gpryAnpoZ",
+      "prerequisiteId": "mt_IHipFGTFEY",
+      "strength": "soft",
+      "reason": "Generating and plotting measurement data recorded to the nearest 1/8 of a unit gives concrete experience of how the measuring method, precision and units shape a data set"
+    },
+    {
+      "topicId": "mt_6gpryAnpoZ",
+      "prerequisiteId": "mt_iykH2P5oFq",
+      "strength": "hard",
+      "reason": "Describing the attribute investigated, and for whom, starts from identifying the population and attribute behind a statistical question"
+    },
+    {
+      "topicId": "mt_6gpryAnpoZ",
+      "prerequisiteId": "mt_JRzXQl9M7c",
+      "strength": "soft",
+      "reason": "Counting the dots on a dot plot is one of the ways pupils report the number of observations"
     },
     {
       "topicId": "mt_6-j1NO2ZUH",
@@ -9568,6 +9586,18 @@
       "reason": "Need letter recognition for exception word spelling"
     },
     {
+      "topicId": "mt_JRzXQl9M7c",
+      "prerequisiteId": "mt_IHipFGTFEY",
+      "strength": "soft",
+      "reason": "Recent experience of line plots on fractional scales (halves, quarters, eighths) supports choosing an equal-interval scale for any numerical data"
+    },
+    {
+      "topicId": "mt_JRzXQl9M7c",
+      "prerequisiteId": "mt_mayItsxMUu",
+      "strength": "hard",
+      "reason": "A dot plot is the same display as a line plot: one mark per observation above a number-line scale, with repeated values stacked; Grade 2 line plots first teach this construction"
+    },
+    {
       "topicId": "mt_JSUGQ5Repv",
       "prerequisiteId": "mt_URTJbS3hhs",
       "strength": "soft",
@@ -12348,20 +12378,32 @@
     {
       "topicId": "mt_oderfUBZPw",
       "prerequisiteId": "mt_ChjMU2GDJa",
-      "strength": "hard",
-      "reason": "Explaining how a histogram differs from a bar chart requires knowing bar charts and the distinction between discrete/categorical and continuous data"
+      "strength": "soft",
+      "reason": "Presenting discrete and continuous data with different graphs (bar charts versus time graphs) supports the histogram-versus-bar-chart distinction"
     },
     {
       "topicId": "mt_oderfUBZPw",
-      "prerequisiteId": "mt_eKJG-0eC6D",
+      "prerequisiteId": "mt_JRzXQl9M7c",
       "strength": "soft",
-      "reason": "Grouping raw continuous data into class intervals in a frequency table is closely related groundwork for drawing a histogram"
+      "reason": "A dot plot shows individual values along the same kind of numerical scale that a histogram groups into equal-width intervals"
     },
     {
       "topicId": "mt_oderfUBZPw",
       "prerequisiteId": "mt_OwYms2tB1L",
       "strength": "hard",
       "reason": "The assessment requires describing the centre, spread and shape of the distribution shown in the histogram"
+    },
+    {
+      "topicId": "mt_oderfUBZPw",
+      "prerequisiteId": "mt_r8XnXwRA6g",
+      "strength": "hard",
+      "reason": "Drawing and reading a histogram uses scaled bar-graph skills (a frequency axis with a chosen scale, bars read against it), and contrasting it with a bar chart of categories requires knowing bar graphs"
+    },
+    {
+      "topicId": "mt_oderfUBZPw",
+      "prerequisiteId": "mt_u5HkSxZECM",
+      "strength": "soft",
+      "reason": "Knowing the difference between discrete (counted) and continuous (measured) data supports explaining why histogram bars touch on a continuous scale"
     },
     {
       "topicId": "mt_oDlduFnemk",
@@ -12767,6 +12809,12 @@
     },
     {
       "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_6gpryAnpoZ",
+      "strength": "hard",
+      "reason": "Interpreting centre, spread, shape and unusual values in context, including judging recording errors, requires knowing what was measured, how, and in what units"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
       "prerequisiteId": "mt_Cg8VPguS_V",
       "strength": "soft",
       "reason": "Knowing what a mean represents supports describing and comparing centres, though centre can also be described informally"
@@ -12779,15 +12827,15 @@
     },
     {
       "topicId": "mt_OwYms2tB1L",
-      "prerequisiteId": "mt_IHipFGTFEY",
-      "strength": "soft",
-      "reason": "Making and reading line (dot) plots gives the concrete display on which clusters, gaps and skew are first seen"
-    },
-    {
-      "topicId": "mt_OwYms2tB1L",
       "prerequisiteId": "mt_iykH2P5oFq",
       "strength": "soft",
       "reason": "A distribution is the variable data a statistical question anticipates; framing the question helps pupils interpret features in context"
+    },
+    {
+      "topicId": "mt_OwYms2tB1L",
+      "prerequisiteId": "mt_JRzXQl9M7c",
+      "strength": "soft",
+      "reason": "Dot plots are the main display on which clusters, gaps, peaks and skew are first described; the description also applies to other displays"
     },
     {
       "topicId": "mt_OyOYHlZ2_T",
@@ -15692,6 +15740,36 @@
       "prerequisiteId": "mt_H4YZ1rSKP3",
       "strength": "hard",
       "reason": "Understanding the feelings-actions separation requires vocabulary to distinguish and name each component"
+    },
+    {
+      "topicId": "mt_tuEnyrp5Ia",
+      "prerequisiteId": "mt_6gpryAnpoZ",
+      "strength": "hard",
+      "reason": "A complete summary must state the number of observations and the attribute, how it was measured and its units"
+    },
+    {
+      "topicId": "mt_tuEnyrp5Ia",
+      "prerequisiteId": "mt_KCS9GbZgU_",
+      "strength": "hard",
+      "reason": "The summary requires choosing between median with IQR and mean with MAD and justifying the choice by shape, so learners must be able to find and interpret the IQR and know it resists extreme values"
+    },
+    {
+      "topicId": "mt_tuEnyrp5Ia",
+      "prerequisiteId": "mt_OwYms2tB1L",
+      "strength": "hard",
+      "reason": "The summary describes the overall pattern and striking deviations and relates the choice of measures to the distribution's shape"
+    },
+    {
+      "topicId": "mt_tuEnyrp5Ia",
+      "prerequisiteId": "mt_XSXnTQoQ4l",
+      "strength": "hard",
+      "reason": "The summary reports a median or mean and draws on knowing how outliers affect each average"
+    },
+    {
+      "topicId": "mt_tuEnyrp5Ia",
+      "prerequisiteId": "mt_ZfpeI1CFyP",
+      "strength": "hard",
+      "reason": "The summary requires choosing between mean with MAD and median with IQR and justifying the choice by shape, so learners must be able to calculate and interpret the MAD"
     },
     {
       "topicId": "mt_tX0R4-4WXy",
