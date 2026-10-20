@@ -16,7 +16,7 @@
       "sourceUrl": "https://v9.australiancurriculum.edu.au/",
       "textIncluded": true,
       "license": "Verbatim standard text included under this source’s upstream license. See PROVENANCE.md.",
-      "topicCount": 614,
+      "topicCount": 620,
       "topics": [
         {
           "key": "acara-v9:AC9E1LA01",
@@ -5616,6 +5616,101 @@
           }
         },
         {
+          "key": "acara-v9:AC9HS4S02",
+          "code": "AC9HS4S02",
+          "data": {
+            "title": "locate, collect and record information and data from a range of sources, including annotated timelines and maps",
+            "strand": "Skills",
+            "subject": "HASS F-6",
+            "taxonomy": {
+              "grade": "Year 4",
+              "domain": "Skills"
+            },
+            "yearLevels": [
+              "4"
+            ],
+            "description": "locate, collect and record information and data from a range of sources, including annotated timelines and maps",
+            "subjectArea": "HASS F-6",
+            "learningArea": "Humanities and Social Sciences"
+          }
+        },
+        {
+          "key": "acara-v9:AC9HS4S03",
+          "code": "AC9HS4S03",
+          "data": {
+            "title": "interpret information and data displayed in different formats",
+            "strand": "Skills",
+            "subject": "HASS F-6",
+            "taxonomy": {
+              "grade": "Year 4",
+              "domain": "Skills"
+            },
+            "yearLevels": [
+              "4"
+            ],
+            "description": "interpret information and data displayed in different formats",
+            "subjectArea": "HASS F-6",
+            "learningArea": "Humanities and Social Sciences"
+          }
+        },
+        {
+          "key": "acara-v9:AC9HS4S04",
+          "code": "AC9HS4S04",
+          "data": {
+            "title": "analyse information and data, and identify perspectives",
+            "strand": "Skills",
+            "subject": "HASS F-6",
+            "taxonomy": {
+              "grade": "Year 4",
+              "domain": "Skills"
+            },
+            "yearLevels": [
+              "4"
+            ],
+            "description": "analyse information and data, and identify perspectives",
+            "subjectArea": "HASS F-6",
+            "learningArea": "Humanities and Social Sciences"
+          }
+        },
+        {
+          "key": "acara-v9:AC9HS4S05",
+          "code": "AC9HS4S05",
+          "data": {
+            "title": "draw conclusions based on analysis of information",
+            "strand": "Skills",
+            "subject": "HASS F-6",
+            "taxonomy": {
+              "grade": "Year 4",
+              "domain": "Skills"
+            },
+            "yearLevels": [
+              "4"
+            ],
+            "description": "draw conclusions based on analysis of information",
+            "subjectArea": "HASS F-6",
+            "learningArea": "Humanities and Social Sciences"
+          }
+        },
+        {
+          "key": "acara-v9:AC9HS4S06",
+          "code": "AC9HS4S06",
+          "data": {
+            "title": "propose actions or responses to an issue or challenge that consider possible effects of actions",
+            "strand": "Skills",
+            "subject": "HASS F-6",
+            "taxonomy": {
+              "grade": "Year 4",
+              "domain": "Skills"
+            },
+            "yearLevels": [
+              "4"
+            ],
+            "description": "propose actions or responses to an issue or challenge that consider possible effects of actions",
+            "subjectArea": "HASS F-6",
+            "learningArea": "Humanities and Social Sciences"
+          }
+        },
+        {
           "key": "acara-v9:AC9HS4S07",
           "code": "AC9HS4S07",
           "data": {
@@ -10332,11 +10427,11 @@
           "code": "AC9SFI01",
           "data": {
             "title": "pose questions and make predictions based on experiences",
-            "strand": "Science as a human endeavour",
+            "strand": "Science inquiry",
             "subject": "Science",
             "taxonomy": {
               "grade": "Foundation",
-              "domain": "Science as a human endeavour"
+              "domain": "Science inquiry"
             },
             "yearLevels": [
               "F"
@@ -10351,11 +10446,11 @@
           "code": "AC9SFI02",
           "data": {
             "title": "engage in investigations safely and make observations using their senses",
-            "strand": "Science as a human endeavour",
+            "strand": "Science inquiry",
             "subject": "Science",
             "taxonomy": {
               "grade": "Foundation",
-              "domain": "Science as a human endeavour"
+              "domain": "Science inquiry"
             },
             "yearLevels": [
               "F"
@@ -10370,11 +10465,11 @@
           "code": "AC9SFI03",
           "data": {
             "title": "represent observations in provided templates and identify patterns with guidance",
-            "strand": "Science as a human endeavour",
+            "strand": "Science inquiry",
             "subject": "Science",
             "taxonomy": {
               "grade": "Foundation",
-              "domain": "Science as a human endeavour"
+              "domain": "Science inquiry"
             },
             "yearLevels": [
               "F"
@@ -10389,11 +10484,11 @@
           "code": "AC9SFI04",
           "data": {
             "title": "compare observations with predictions with guidance",
-            "strand": "Science as a human endeavour",
+            "strand": "Science inquiry",
             "subject": "Science",
             "taxonomy": {
               "grade": "Foundation",
-              "domain": "Science as a human endeavour"
+              "domain": "Science inquiry"
             },
             "yearLevels": [
               "F"
@@ -10408,11 +10503,11 @@
           "code": "AC9SFI05",
           "data": {
             "title": "share questions, predictions, observations and ideas with others",
-            "strand": "Science as a human endeavour",
+            "strand": "Science inquiry",
             "subject": "Science",
             "taxonomy": {
               "grade": "Foundation",
-              "domain": "Science as a human endeavour"
+              "domain": "Science inquiry"
             },
             "yearLevels": [
               "F"
@@ -11034,6 +11129,25 @@
               "F"
             ],
             "description": "explore how familiar products, services and environments are designed by people",
+            "subjectArea": "Design and Technologies",
+            "learningArea": "Technologies"
+          }
+        },
+        {
+          "key": "acara-v9:AC9TDEFP01",
+          "code": "AC9TDEFP01",
+          "data": {
+            "title": "generate, communicate and evaluate design ideas, and use materials, equipment and steps to safely make a solution for a purpose",
+            "strand": "Processes and production skills",
+            "subject": "Design and Technologies",
+            "taxonomy": {
+              "grade": "Foundation",
+              "domain": "Processes and production skills"
+            },
+            "yearLevels": [
+              "F"
+            ],
+            "description": "generate, communicate and evaluate design ideas, and use materials, equipment and steps to safely make a solution for a purpose",
             "subjectArea": "Design and Technologies",
             "learningArea": "Technologies"
           }
