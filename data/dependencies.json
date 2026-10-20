@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3301,
+  "edgeCount": 3309,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -3362,6 +3362,24 @@
       "prerequisiteId": "mt_gR5_n99Ntt",
       "strength": "hard",
       "reason": "KS3 poetic conventions extend KS2 recognising different forms of poetry"
+    },
+    {
+      "topicId": "mt_aCwj2PCoRV",
+      "prerequisiteId": "mt_sHJqh6UUya",
+      "strength": "hard",
+      "reason": "A non-uniform model uses relative frequencies from experiments as its probabilities, and judging a model against data compares it with observed frequencies"
+    },
+    {
+      "topicId": "mt_aCwj2PCoRV",
+      "prerequisiteId": "mt_XfyqXLqzpx",
+      "strength": "hard",
+      "reason": "A probability model must list outcomes whose probabilities add to 1"
+    },
+    {
+      "topicId": "mt_aCwj2PCoRV",
+      "prerequisiteId": "mt_Zt30Gxi-qp",
+      "strength": "hard",
+      "reason": "A uniform model applies favourable ÷ total outcomes when every outcome is equally likely"
     },
     {
       "topicId": "mt_adpdEaKEBC",
@@ -12368,6 +12386,36 @@
       "prerequisiteId": "mt_ZhvwM6LMBL",
       "strength": "soft",
       "reason": "Reading fluency supports reading aloud own writing"
+    },
+    {
+      "topicId": "mt_nzdtOLXWWa",
+      "prerequisiteId": "mt_aCwj2PCoRV",
+      "strength": "hard",
+      "reason": "Choosing a random device or digit mapping means building a model whose outcome probabilities match the real situation and explaining why it fits"
+    },
+    {
+      "topicId": "mt_nzdtOLXWWa",
+      "prerequisiteId": "mt_ALUrJpY0cZ",
+      "strength": "soft",
+      "reason": "Turning a percentage such as 40% into a fraction of equally likely digits (4 out of 10) sets up the random-digit mapping"
+    },
+    {
+      "topicId": "mt_nzdtOLXWWa",
+      "prerequisiteId": "mt_GDtFU5fyUv",
+      "strength": "soft",
+      "reason": "Seeing a compound event as a sequence of stages, as in a tree diagram, helps define one complete trial and lets learners compare the estimate with a theoretical value where one exists"
+    },
+    {
+      "topicId": "mt_nzdtOLXWWa",
+      "prerequisiteId": "mt_sHJqh6UUya",
+      "strength": "hard",
+      "reason": "The simulation's estimate is the event's relative frequency over many trials, with more trials giving a more reliable estimate"
+    },
+    {
+      "topicId": "mt_nzdtOLXWWa",
+      "prerequisiteId": "mt_x7V1qrkiqH",
+      "strength": "soft",
+      "reason": "Explaining why different runs give different estimates draws on the same idea as chance variation between random samples"
     },
     {
       "topicId": "mt_NZHFcEtTyI",
