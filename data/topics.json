@@ -11401,7 +11401,9 @@
         "Use 'tally', 'frequency', and 'pictogram' correctly when describing how to record and display data"
       ],
       "assessmentPrompt": "If {{name}} wanted to show you how many books different children in their class read last month, could they draw a bar chart, label the axes, and explain what each bar represents?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_ylXdiVRAYv",
@@ -11564,7 +11566,9 @@
         "Use 'correlation' correctly when describing the relationship shown in a scatter graph"
       ],
       "assessmentPrompt": "If {{name}} looked at a set of test scores from their class, could they find the mean, the median, and the range — and explain what each one tells you about how the class did?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_Cg8VPguS_V",
@@ -11811,7 +11815,9 @@
         "Explain in own words why 2/4 and 1/2 are equivalent fractions"
       ],
       "assessmentPrompt": "If {{name}} saw the fraction 3/4 written down, could they point to the numerator and the denominator — and explain what each number actually means?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_cFltwUQi-d",
@@ -12109,7 +12115,10 @@
         "Convert between simple fractions, decimals, and percentages (e.g. 1/2 = 0.5 = 50%) and explain why they are equal"
       ],
       "assessmentPrompt": "If {{name}} saw '0.5' and '50%' written down, could they explain that they both mean the same amount — and write them as a fraction too?",
-      "standards": []
+      "standards": [
+        "ccss-math:5.NBT.3.a",
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_Fl7b8q9pI1",
@@ -13684,7 +13693,9 @@
         "Identify which of several given nets will fold into a specific 3-D shape and explain why the others won't"
       ],
       "assessmentPrompt": "If {{name}} is given a flat T-shaped piece of card with six squares, can they tell you — before folding — that it makes a cube, and point out which square will become each face?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:Ma6/4.1b"
+      ]
     },
     {
       "id": "mt_SH7QgFl8-v",
@@ -13702,7 +13713,9 @@
         "Rotate a shape 90° or 180° about a given centre on a grid and check the image is congruent to the original"
       ],
       "assessmentPrompt": "If {{name}} sees a shape and its mirror image on squared paper, can they draw in the exact mirror line, and describe the reflection precisely — including where the line of reflection is — without just saying 'it flipped'?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:KS3.Maths.Geo.8"
+      ]
     },
     {
       "id": "mt_h0CVtqI2xo",
@@ -13740,7 +13753,10 @@
         "Read and interpret angle notation (e.g. angle ABC) and identify the angle being referred to in a diagram"
       ],
       "assessmentPrompt": "If {{name}}'s maths diagram shows a small square in one corner and matching arc marks on two other angles, can they tell you what each mark means — and use them to figure out a missing angle without re-measuring?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:KS3.Maths.Geo.5",
+        "uk-nc-2013:KS3.Maths.Geo.6"
+      ]
     },
     {
       "id": "mt_wUSbRt3-qw",
@@ -14525,7 +14541,9 @@
         "Use positional words (above, below, next to) precisely to describe where objects are"
       ],
       "assessmentPrompt": "When {{name}} talks about maths — like comparing numbers or describing shapes — do they use the right words, like \"larger than\", \"fewer\", \"beside\", or \"corner\"?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_RFeVlw0QvX",
@@ -14543,7 +14561,9 @@
         "Use a repeated pattern (e.g. +10 on a hundred chart always moves down one row) to predict answers"
       ],
       "assessmentPrompt": "When {{name}} is counting or doing repeated additions, have they started to notice the pattern — like \"5, 10, 15, 20…\" — and used it to predict the next number without counting one by one?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt_20WfHhnL39",
@@ -14561,7 +14581,9 @@
         "Explain why a particular tool (e.g. cubes rather than fingers) was chosen for a given problem"
       ],
       "assessmentPrompt": "When {{name}} is working out a maths problem, do they reach for helpful tools — like using their fingers, counters, or a number line — to support their thinking?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_WkKkb7W9Qd",
@@ -14579,7 +14601,9 @@
         "After finding an answer, check it makes sense (e.g. re-count objects to verify a total)"
       ],
       "assessmentPrompt": "When {{name}} gets a maths problem they don't immediately know how to solve, do they stop and think about what the question is asking — maybe drawing a picture — before diving in?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_IM1G_7QzTa",
@@ -14597,7 +14621,9 @@
         "Connect a physical action (putting together, taking away) to the matching operation"
       ],
       "assessmentPrompt": "If {{name}} is working out a real-life maths problem — like sharing 8 sweets between 2 people — can they use objects or draw a picture to show what's happening before writing any numbers?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_nyK25mNOeR",
@@ -14615,7 +14641,9 @@
         "Listen to a peer's explanation and say whether they agree or disagree"
       ],
       "assessmentPrompt": "After {{name}} solves a maths problem, can they explain how they got their answer — using counters, a drawing, or words — rather than just writing down the final number?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_uG2mjHFOlO",
@@ -14633,7 +14661,9 @@
         "Spot a pattern in a sequence of objects or numbers and predict what comes next"
       ],
       "assessmentPrompt": "Has {{name}} noticed that adding numbers in a different order gives the same answer — like 3 + 5 and 5 + 3 both equal 8 — and can they explain why that makes sense?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_fLOkq-HfPB",
@@ -14651,7 +14681,9 @@
         "Use the model to answer a question about the situation"
       ],
       "assessmentPrompt": "If you describe a simple real-life situation to {{name}} — like \"there are 3 birds on a fence and 2 more land\" — can they write a number sentence like 3 + 2 = 5 to represent it?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_f67qGDhyfi",
@@ -14669,7 +14701,9 @@
         "Interpret the numerical answer in context (e.g. '15 cm means the ribbon is 15 centimetres long')"
       ],
       "assessmentPrompt": "When {{name}} solves a word problem by drawing a bar model or writing an equation, can they also explain what their answer means in the real-world context — like \"that means each child gets 4 sweets\"?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_EBYGhd8X3x",
@@ -14687,7 +14721,9 @@
         "Translate between a concrete model and a symbolic equation, describing what each number represents"
       ],
       "assessmentPrompt": "When {{name}} solves a word problem, can they draw a diagram or write a number sentence to show their thinking — and then explain how the picture and the numbers match the real situation?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_kJ5wYzO8qC",
@@ -14705,7 +14741,9 @@
         "Identify and explain an error in a worked example or a peer's solution"
       ],
       "assessmentPrompt": "If you ask {{name}} \"how did you work that out?\", can they show you with a drawing or explain their steps in simple words?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_fZTn0W_iZR",
@@ -14723,7 +14761,9 @@
         "Describe a rule for a pattern and use it to extend or predict (e.g. 'each time we add 5, the ones digit alternates between 0 and 5')"
       ],
       "assessmentPrompt": "When {{name}} is practising times tables or number patterns, do they spot a shortcut — like \"if 6 × 7 = 42, then 6 × 8 must be 48\" — and use known facts to work out ones they haven't memorised yet?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt_O_UOTiMvT_",
@@ -14741,7 +14781,9 @@
         "Check the reasonableness of an answer using estimation or a different method"
       ],
       "assessmentPrompt": "If {{name}} works out that 3 children each get 12 sweets and ends up with 5, does {{name}} pause and say \"that doesn't seem right\" rather than just writing it down?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_zMEvtigoM3",
@@ -14759,7 +14801,9 @@
         "Explain why one representation (e.g. a number line vs cubes) is more helpful for a particular problem"
       ],
       "assessmentPrompt": "When {{name}} is tackling a maths problem, do they choose a useful tool — like a number line for addition or a hundred square to count on — rather than always working in their head?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_TMoHjMhRS2",
@@ -14777,7 +14821,9 @@
         "Use precise terms such as 'edge', 'vertex', 'face' when describing 3-D shapes, and 'greater than', 'less than' when comparing numbers"
       ],
       "assessmentPrompt": "When {{name}} writes or talks about a maths answer, do they include the units — like \"5 centimetres\" rather than just \"5\" — and use the right symbols like = or &lt;?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_DW2D1c0fKx",
@@ -14795,7 +14841,9 @@
         "Recognise structural similarities between shapes (e.g. rectangles and squares both have 4 sides and 4 right angles)"
       ],
       "assessmentPrompt": "When {{name}} notices a pattern in their maths work — like how multiplying by 10 always adds a zero — do they use that pattern to solve similar problems more quickly?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_mQcWGh02no",
@@ -14813,7 +14861,9 @@
         "Decide when a number line is more useful than base-ten blocks for a given problem"
       ],
       "assessmentPrompt": "When {{name}} faces a maths problem, do they think about which method suits it best — like doing easy ones in their head, using a written method for bigger calculations, or sketching a diagram for geometry?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_2jbUekyTu4",
@@ -14831,7 +14881,9 @@
         "Describe a rule for a growing pattern (e.g. 'add 50 each time') and use it to predict the next terms"
       ],
       "assessmentPrompt": "When {{name}} is learning their times tables, do they use known facts to figure out ones they're not sure of — for example, using 5 × 6 = 30 to work out that 6 × 6 = 36?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt_pyMD_SIiYO",
@@ -14849,7 +14901,9 @@
         "Construct a simple argument for why a general statement is true (e.g. 'adding two even numbers always gives an even number')"
       ],
       "assessmentPrompt": "If {{name}} hears another child's explanation for how they solved a maths problem, can {{name}} say whether the reasoning makes sense — and if not, point out exactly where the logic goes wrong?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_RKeheOL9uo",
@@ -14867,7 +14921,9 @@
         "Check an answer using a different method or inverse operation and revise if needed"
       ],
       "assessmentPrompt": "If {{name}} gets an answer that seems way too big or too small for a maths problem, do they notice and go back to check, even without you pointing it out?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_FAXjFkgG6X",
@@ -14885,7 +14941,9 @@
         "Classify shapes by their structural properties (number of sides, right angles, parallel lines)"
       ],
       "assessmentPrompt": "When {{name}} is multiplying or working with larger numbers, do they use what they know about place value or number relationships to simplify the calculation — like breaking 24 × 3 into 20 × 3 + 4 × 3?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_dXq9VWm31W",
@@ -14903,7 +14961,9 @@
         "Explain how a number line diagram relates to the quantities in a word problem"
       ],
       "assessmentPrompt": "When {{name}} works through a maths problem involving fractions or three-digit numbers, can they switch between drawing a diagram, using a number line, and writing an equation — and explain what each one shows?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_HY8Yycu_rz",
@@ -14921,7 +14981,9 @@
         "Write equations with correct notation including £/p, >, <, = and fraction symbols"
       ],
       "assessmentPrompt": "When {{name}} gives a maths answer involving measurements or fractions, do they include the correct units — like \"3½ metres\" or \"2.5 kg\" — and use the right symbols throughout?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_iQYPw8bMfN",
@@ -14939,7 +15001,9 @@
         "Create a line plot from measurement data and use it to answer questions about the real-world situation"
       ],
       "assessmentPrompt": "When {{name}} solves a real-life maths problem — like calculating how much fabric is needed for a project — can they choose the right representation (a diagram, a table, an equation) and explain what the answer means in the real situation?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_d-WZC2OyMB",
@@ -14957,7 +15021,9 @@
         "Use a ruler and squared paper to verify area by counting squares after calculating l×w"
       ],
       "assessmentPrompt": "When {{name}} is working on maths, do they choose the right method — doing simple calculations in their head, using written working for complex ones, and sketching a diagram when a problem involves shapes or fractions?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_3VmBdlAeOZ",
@@ -14975,7 +15041,9 @@
         "Translate a decimal on a number line into a fraction and explain the equivalence"
       ],
       "assessmentPrompt": "When {{name}} works on a maths problem involving decimals or fractions, can they move between a fraction strip, a number line, and a written equation — explaining what each one is showing?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_a3dov8CZkq",
@@ -14993,7 +15061,9 @@
         "Present a chain of reasoning: since 6×8=48 and 6×2=12, then 6×10=60 so 6×8=60−12=48"
       ],
       "assessmentPrompt": "If a classmate claims \"you can't multiply a fraction and get a bigger answer\", can {{name}} think through whether that's always true — and give an example to support or challenge the claim?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_mywsN77hGZ",
@@ -15011,7 +15081,9 @@
         "Write 15:45 in 24-hour notation and explain the distinction from 3:45 pm"
       ],
       "assessmentPrompt": "When {{name}} writes up a maths answer involving angles, fractions, or money, do they use precise vocabulary and correct notation — like writing \"acute angle\", \"3/4\", or \"£2.50\" rather than vague descriptions?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_K3R0yaHVcx",
@@ -15029,7 +15101,9 @@
         "Use a bar model to set up a unit conversion problem (metres to centimetres)"
       ],
       "assessmentPrompt": "When {{name}} is solving a real-life problem — like working out the area of a room in square metres — do they choose the right maths tool for the job and interpret the final number in terms of the real situation?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_SmghasIvbT",
@@ -15047,7 +15121,9 @@
         "Check a fraction-of-quantity answer by estimating: 3/5 of 20 must be more than half of 20"
       ],
       "assessmentPrompt": "When {{name}} tackles a complex maths problem involving area, fractions, and multiple steps, do they plan their approach — estimating roughly what the answer should be before calculating, and then checking it makes sense at the end?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_aivrWs6jrS",
@@ -15065,7 +15141,9 @@
         "Derive 8×7 from 8×5=40 plus 8×2=16 and describe the strategy as a general approach"
       ],
       "assessmentPrompt": "When {{name}} notices a pattern — like that multiplying by 4 is the same as doubling twice — do they use that generalisation to solve similar problems more efficiently?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt__Itf4aQZUj",
@@ -15083,7 +15161,9 @@
         "Use the fact that a square is a special rectangle to reason about quadrilateral properties"
       ],
       "assessmentPrompt": "When {{name}} is comparing fractions or working out a percentage, do they look for underlying patterns — like spotting that 50% is always half, or that equivalent fractions all sit at the same point on a number line?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_IwEOCN6bL1",
@@ -15101,7 +15181,9 @@
         "Choose a common-denominator approach vs. benchmark comparison for ordering fractions, and explain why"
       ],
       "assessmentPrompt": "When {{name}} faces a geometry or proportion problem, do they choose the right tool — like a protractor for angles or a fraction strip for comparing fractions — rather than always defaulting to one method?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_GpltXPoaoc",
@@ -15119,7 +15201,9 @@
         "Identify that a percentage answer over 100% doesn't make sense in context"
       ],
       "assessmentPrompt": "When {{name}} faces a complex multi-step maths problem involving percentages, large numbers, or fractions, do they pause to identify what's known, estimate an answer, and then check their final result makes sense?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_hlGKg5M7qJ",
@@ -15137,7 +15221,9 @@
         "Use the fact that angles on a straight line sum to 180° as a structural tool to find missing angles"
       ],
       "assessmentPrompt": "When {{name}} notices that fractions, decimals, and percentages are just different ways of writing the same thing, do they use that understanding to switch between them fluidly when it makes a calculation easier?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_CUmjcE7W6c",
@@ -15155,7 +15241,9 @@
         "Translate a line-graph reading into a subtraction equation to find the difference"
       ],
       "assessmentPrompt": "When {{name}} solves a problem involving percentages or multi-digit multiplication, can they show the same situation using a bar model, a number line, and an equation — and explain what each one represents?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_xfwv0M83mJ",
@@ -15173,7 +15261,9 @@
         "Use 5² notation correctly and read it as 'five squared'"
       ],
       "assessmentPrompt": "When {{name}} talks or writes about maths involving primes, percentages, or polygons, do they use the precise technical words — like \"prime factor\", \"obtuse angle\", or \"regular hexagon\" — correctly and confidently?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_8xVHooT4aI",
@@ -15191,7 +15281,9 @@
         "Use a percentage bar model to find a sale price and explain the answer in £"
       ],
       "assessmentPrompt": "When {{name}} is solving a real-world maths problem — like scaling a recipe or converting units — do they choose a sensible representation, carry out the maths, and then explain what the result means in the real situation?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_jCy07DyBNU",
@@ -15209,7 +15301,9 @@
         "Generalise: to find 10% divide by 10, to find 5% halve 10%, and use this to find 35% of any number"
       ],
       "assessmentPrompt": "When {{name}} sees a sequence of equivalent fractions — like 1/2, 2/4, 3/6… — can they describe the rule and use it to find the next few terms, or to quickly convert between fractions and percentages?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt_2ESZh70NyS",
@@ -15227,7 +15321,9 @@
         "Present a chain of reasoning to show that angles in a triangle sum to 180° by tearing and arranging"
       ],
       "assessmentPrompt": "If {{name}} and a classmate solve the same maths problem differently, can {{name}} compare the two approaches, explain which method is more efficient, and identify any errors in either working?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_3rTIyJDw7-",
@@ -15245,7 +15341,9 @@
         "Specify units correctly when presenting volume calculations (e.g. 60 cm³ not just 60)"
       ],
       "assessmentPrompt": "When {{name}} writes up maths involving algebra or 3-D shapes, do they use precise language — like \"algebraic expression\", \"cubic centimetres\", or \"coordinates\" — and apply the correct notation throughout?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_FieL-vVTI_",
@@ -15263,7 +15361,9 @@
         "Use estimation to check whether a decimal division answer is reasonable before finalising"
       ],
       "assessmentPrompt": "When {{name}} faces a complex maths problem involving algebra, ratio, or fractions with multiple steps, do they break it into manageable parts, estimate what's reasonable, and verify their answer using a different approach?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.1"
+      ]
     },
     {
       "id": "mt_ZJC7JnnPCu",
@@ -15281,7 +15381,9 @@
         "Select a formula-based approach rather than counting cubes to find volume efficiently"
       ],
       "assessmentPrompt": "When {{name}} chooses how to tackle a maths problem, do they pick the most efficient approach — using algebra for a complex generalisation, a coordinate grid for a geometry problem, or mental arithmetic for a simple calculation?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.5"
+      ]
     },
     {
       "id": "mt_j5YqQnN6xe",
@@ -15299,7 +15401,9 @@
         "Construct a counter-example to disprove a false conjecture (e.g. 'multiplying always makes bigger')"
       ],
       "assessmentPrompt": "When {{name}} presents a multi-step maths solution, do they lay out their reasoning clearly enough that someone else could follow every step — and can they spot the flaw if a worked solution contains a logical error?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.3"
+      ]
     },
     {
       "id": "mt_iyovKgZC1q",
@@ -15317,7 +15421,9 @@
         "Generalise that dividing by n always gives a denominator of n in the fraction, for any whole numbers"
       ],
       "assessmentPrompt": "When {{name}} finds the rule for a number sequence — like \"add 7 each time\" or \"multiply the position number by 3\" — can they use that rule to find any term without having to list all the ones before it?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.8"
+      ]
     },
     {
       "id": "mt_hImiKNiaNh",
@@ -15335,7 +15441,9 @@
         "Use the equivalence 1/8 = 0.125 = 12.5% flexibly to solve a comparison problem"
       ],
       "assessmentPrompt": "When {{name}} is simplifying an algebraic expression or comparing ratios, do they look for the underlying structure — like using the order of operations or spotting that two ratios are equivalent — to make the calculation more efficient?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.7"
+      ]
     },
     {
       "id": "mt_yqZiX6vS7D",
@@ -15353,7 +15461,9 @@
         "Determine whether a measurement answer should be rounded and to what degree of accuracy"
       ],
       "assessmentPrompt": "When {{name}} uses maths to solve a real problem — like calculating the volume of a container or working out a percentage discount — do they decide how precise their answer needs to be and explain what it means in context?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.4"
+      ]
     },
     {
       "id": "mt_9KmVWCuh5_",
@@ -15371,7 +15481,9 @@
         "Explain how a pie chart, a fraction, and a percentage all represent the same proportion"
       ],
       "assessmentPrompt": "When {{name}} is working on an algebra or ratio problem, can they move fluidly between a graph, a table of values, a written equation, and a real-world story — explaining how each representation shows the same relationship?",
-      "standards": []
+      "standards": [
+        "ccss-math:MP.2"
+      ]
     },
     {
       "id": "mt_zkFbMLpu3U",
@@ -19050,7 +19162,9 @@
         "Write the probability of a simple event as a fraction: favourable outcomes over total outcomes"
       ],
       "assessmentPrompt": "If {{name}} flips a fair coin, do they know the probability of getting heads is 1/2 — and can they express similar simple probabilities as fractions and place them on a 0-to-1 scale?",
-      "standards": []
+      "standards": [
+        "ccss-math:7.SP.5"
+      ]
     },
     {
       "id": "mt_J4j7d3iAfg",
@@ -19068,7 +19182,9 @@
         "Pull counters from a bag, record results, and explain whether the outcomes matched their prediction"
       ],
       "assessmentPrompt": "Has {{name}} ever done an experiment like flipping a coin or rolling a die lots of times, recorded the results in a tally chart, and noticed any patterns in what came up?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:KS3.Maths.Prob.1"
+      ]
     },
     {
       "id": "mt_Zt30Gxi-qp",
@@ -19086,7 +19202,9 @@
         "Explain why increasing the number of favourable outcomes increases the probability"
       ],
       "assessmentPrompt": "If there are 3 red and 7 blue balls in a bag, can {{name}} work out the probability of picking a red one and express it as a fraction in its simplest form?",
-      "standards": []
+      "standards": [
+        "ccss-math:7.SP.7a"
+      ]
     },
     {
       "id": "mt_-bMnJcPJy8",
@@ -19104,7 +19222,10 @@
         "Predict what would happen if the experiment were repeated 600 times instead of 60"
       ],
       "assessmentPrompt": "If {{name}} flips a coin 10 times and gets 7 heads, do they understand why this doesn't mean heads is \"more likely\" — and that the more times you flip, the closer the results get to 50:50?",
-      "standards": []
+      "standards": [
+        "ccss-math:7.SP.6",
+        "uk-nc-2013:KS3.Maths.Prob.1"
+      ]
     },
     {
       "id": "mt_3fwYu7imd4",
@@ -19122,7 +19243,9 @@
         "Spot an error in a probability table where the values don't sum to 1 and explain what's wrong"
       ],
       "assessmentPrompt": "If the probability of it raining tomorrow is 0.3, can {{name}} work out the probability of it NOT raining — and explain why all probabilities in a situation must add up to 1?",
-      "standards": []
+      "standards": [
+        "uk-nc-2013:KS3.Maths.Prob.2"
+      ]
     },
     {
       "id": "mt_t0g2SlP404",
@@ -19140,7 +19263,9 @@
         "Convert between informal language ('very unlikely') and a numerical position on the 0-to-1 scale"
       ],
       "assessmentPrompt": "Can {{name}} write the same probability as a fraction, a decimal, and a percentage — for example, knowing that an even chance is ½, 0.5, and 50%?",
-      "standards": []
+      "standards": [
+        "ccss-math:7.SP.5"
+      ]
     },
     {
       "id": "mt_XfyqXLqzpx",
@@ -19288,7 +19413,9 @@
         "Compare bar models with other representations (tables, double number lines) and explain when each is most useful"
       ],
       "assessmentPrompt": "If {{name}} needs to share 30 stickers between two friends in a 2:3 ratio, can they draw a bar model — splitting a strip into 5 equal boxes — and use it to work out each share without just guessing?",
-      "standards": []
+      "standards": [
+        "ccss-math:6.RP.3"
+      ]
     },
     {
       "id": "mt_ESgc4YBw-a",
@@ -19306,7 +19433,10 @@
         "Define 'scale factor' and use it to describe how a shape has been enlarged or reduced"
       ],
       "assessmentPrompt": "If {{name}} is sharing something 3 ways and 2 ways, can they explain the difference between a ratio (like 3:2) and a proportion (like 3 out of 5) — showing they know what each word means?",
-      "standards": []
+      "standards": [
+        "ccss-math:6.RP.1",
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_PNSyfH56eQ",
@@ -19489,7 +19619,10 @@
         "Calculate using compound measures — e.g. work out the speed of a car that travels 120 miles in 2 hours"
       ],
       "assessmentPrompt": "If {{name}} is solving a problem about speed or density, can they explain what 'compound unit' means and tell the difference between direct proportion (more of one means more of the other) and inverse proportion (more of one means less of the other)?",
-      "standards": []
+      "standards": [
+        "ccss-math:6.RP.2",
+        "ccss-math:MP.6"
+      ]
     },
     {
       "id": "mt_FspV_imUGK",
@@ -19507,7 +19640,11 @@
         "Read a proportion graph to find an unknown value — e.g. 'If 3 kg costs £6, how much does 5 kg cost?'"
       ],
       "assessmentPrompt": "If {{name}} is comparing the cost of buying different numbers of cinema tickets, can they sketch a proportion graph — a straight line through zero — and use it to read off the cost of any number of tickets without recalculating each time?",
-      "standards": []
+      "standards": [
+        "ccss-math:6.RP.3a",
+        "ccss-math:7.RP.2a",
+        "ccss-math:7.RP.2d"
+      ]
     },
     {
       "id": "mt_XWSGuFW7It",
