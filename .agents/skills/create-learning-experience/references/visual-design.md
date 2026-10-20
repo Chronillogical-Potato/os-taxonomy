@@ -63,6 +63,11 @@ they are not bundled or relicensed here. The skill bundles unmodified **Fredoka*
 under the SIL Open Font License as a rounded public substitute, with weights
 300–700: [font](../assets/fonts/Fredoka-variable.ttf),
 [license](../assets/fonts/OFL.txt), [source](../assets/fonts/SOURCE.md).
+When using Marble Round, set titles in ALL CAPS with Round Condensed Black;
+instructions and button labels use Round Medium in sentence case. This is the
+Round treatment to reproduce in comparisons as well as generated experiences;
+do not infer that body copy should also be uppercase.
+
 Keep the title small at the top left, typically 16–22 CSS px. Make the current
 instruction or explanation the prominent text, typically 28–40 CSS px on tablet,
 adapting to the viewport while remaining clearly larger than the title. Use a
@@ -167,7 +172,8 @@ Inspect actual screenshots at the agreed device size and at a narrow layout:
   No additional visible text is hidden
   in canvas labels or tooltips to evade the budget.
 - Typography has loaded and whitespace is intentional. The title is small at the
-  top left; the current instruction/explanation is conspicuously larger and
+  top left and ALL CAPS when using Marble Round; instructions and button labels
+  remain sentence case. The current instruction/explanation is conspicuously larger and
   prominent within the experience. Controls have consistent depth, hit areas and
   state treatment. Long text must not silently shrink to caption size.
 - 3D uses flat color, deliberate cel-shaded light/shadow bands and clean black

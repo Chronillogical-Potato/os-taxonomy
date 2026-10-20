@@ -36,7 +36,9 @@ browser tools; inspecting source or the DOM alone does not validate presentation
    single-instruction budget, allowing concise functional button labels. Verify
    buttons combine icons and labels unless an icon-only exception is justified.
    Check the hierarchy: small top-left title, large prominent current instruction
-   or explanation. Verify it during feedback and narrow layouts as well as entry.
+   or explanation. For Marble Round, verify ALL CAPS titles and sentence-case
+   instructions/button labels. Verify it during feedback and narrow layouts as
+   well as entry.
    Check actual visible text including canvas labels,
    banners, tooltips and feedback, not only paragraph counts.
    Compare scene composition with [visual-design.md](visual-design.md) and Water

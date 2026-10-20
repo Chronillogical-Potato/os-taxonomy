@@ -116,7 +116,9 @@ Design a coherent learning sequence rather than a collection of screens:
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
 - Let the child learn through looking, acting, predicting and seeing consequences.
-  Keep the title small and anchored at the top left. Make the current instruction
+  Keep the title small and anchored at the top left. When using Marble Round,
+  set the title in ALL CAPS; keep instructions and button labels in sentence case.
+  Make the current instruction
   or short explanation large, prominent and part of the experience's composition;
   it is the main text, not a caption beneath a dominant heading.
   The child-facing experience may show only **one title and one short instruction
