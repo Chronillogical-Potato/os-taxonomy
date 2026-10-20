@@ -176,7 +176,9 @@ learning experience. It uses topic prerequisites and available teaching research
 develops a targeted research brief when needed, and agrees a concept with you
 before building. Experiences use visual interactions, scaffolding, UI-assessed
 transfer tasks and optional extensions. Spatial topics use Three.js with direct
-scene manipulation. The public skill includes Marble-derived UI tokens, tactile
+scene manipulation and a crafted cel-shaded look with flat colors and black
+outlines. Visual simulations must meet a beauty, craft and polish bar as well as
+work correctly. The public skill includes Marble-derived UI tokens, tactile
 controls and an openly licensed rounded font, with one title and one instruction
 visible at a time, plus concise button labels paired with icons. [Water Lab](https://withmarble.com/water-lab) is the visual quality
 reference. The agent renders, inspects and iterates

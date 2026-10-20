@@ -15,7 +15,9 @@ to molecules, and retains the other scale as a small inset. A temperature change
 updates the phenomenon immediately. Transfer this deliberate focus and connected
 representation to the new goal; do not force a glass, a temperature slider, a dark
 palette or this specific layout onto every subject. Water Lab is a visual and
-manipulation reference, not a ready-made mastery assessment.
+manipulation reference, not a ready-made mastery assessment. It sets the bar for
+craft and polish; its glossy/realistic materials are not the required rendering
+style. New 3D experiences use the cel-shaded direction below.
 
 Use its rendered experience as a composition and interaction reference, not its
 entire text content as a template. The required text budget here is stricter:
@@ -87,14 +89,39 @@ Three.js's MIT license. Smoke-test the final artifact itself via `file://` with
 network blocked, not only the development server version. Do not commit generated
 experiences or their dependency directories to os-taxonomy unless requested.
 
-Use perspective, materials, lighting, controlled contrast and camera framing with
-intent. Ensure educational lighting/occlusion remains accurate even if decorative
-fill light is used. Avoid flat, toy-default geometry as a finished visual style.
-Polish silhouettes, surface detail and state transitions without hiding the
-relationship being taught. Cap device pixel ratio as appropriate, resize correctly,
-and avoid a heavy effect stack that makes interaction stutter. A WebGL failure
-must not silently fall back to the rejected flat lesson or report mastery; state
-the device limitation and an honest alternative.
+## Crafted cel-shaded 3D
+
+All 3D experiences use a crafted cel-shaded look: flat colors, intentional stepped
+light/shadow bands and clean black outlines. Aim for a beautifully composed,
+illustrated world with depth, not a generic technical demo or glossy realism.
+Use a restrained, harmonious palette with clear silhouettes and visual hierarchy.
+“Flat color” means controlled color regions, not flattening the spatial model or
+removing the light relationships that carry the lesson.
+
+Choose outline weight deliberately for the intended viewport: strong enough to
+read, restrained enough to preserve small features. Keep outlines coherent on
+curved forms, overlapping objects and moving silhouettes, without halos, jagged
+edges, distracting internal seams or flicker. Check the result while objects and
+the camera move, not just in a flattering still. Match outline treatment across
+the scene; a CSS border around the canvas does not supply object outlines.
+
+Use geometry, proportions, perspective, lighting and framing with intent. Shape
+silhouettes and arrange objects as a crafted composition rather than leaving
+unconsidered primitives in default positions. Preserve educational illumination
+and occlusion: cel shading must not invent lit regions or hide a relationship the
+child needs to infer. Use tasteful motion and polished transitions to reinforce
+action and consequence, with reduced-motion support.
+
+Beauty, craft and polish are requirements for every visual simulation, including
+2D. Functional correctness is necessary but does not establish visual quality.
+Inspect composition, palette, silhouettes, typography, controls, motion and feedback
+as a whole. If they look like placeholder art or an engineering proof of concept,
+keep iterating; do not call it finished because the simulation works.
+
+Cap device pixel ratio as appropriate, resize correctly, and avoid a heavy effect
+stack that makes interaction stutter. A WebGL failure must not silently fall back
+to the rejected flat lesson or report mastery; state the device limitation and an
+honest alternative.
 
 ## Controls belong to the experience
 
@@ -132,7 +159,13 @@ Inspect actual screenshots at the agreed device size and at a narrow layout:
   in canvas labels or tooltips to evade the budget.
 - Typography has loaded, whitespace is intentional, the title does not overwhelm
   the world, and controls have consistent depth, hit areas and state treatment.
-- The objects, lighting and transitions look finished at full size. No clipped
+- 3D uses flat color, deliberate cel-shaded light/shadow bands and clean black
+  object outlines. Line weight stays readable and stable through movement and
+  viewport changes; the result does not drift into glossy realism or default
+  materials. Stylization preserves the educational relationships.
+- The simulation meets the beauty/craft/polish bar as a composed experience, not
+  only a functional model. The objects, lighting and transitions look finished
+  at full size. No clipped
   geometry, default-debug axes, misplaced rays, accidental overlap or stretched
   textures. Ghosts/halos demonstrate manipulation without adding prose.
 - Touch, keyboard, camera transitions, prediction commitment and visual feedback

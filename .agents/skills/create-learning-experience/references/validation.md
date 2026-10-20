@@ -39,7 +39,10 @@ browser tools; inspecting source or the DOM alone does not validate presentation
    banners, tooltips and feedback, not only paragraph counts.
    Compare scene composition with [visual-design.md](visual-design.md) and Water
    Lab. For spatial goals verify actual Three.js rendering, in-scene manipulation,
-   loaded bundled fonts, deliberate lighting/materials and responsive framing.
+   loaded bundled fonts and responsive framing. Verify crafted cel shading, flat
+   color, stepped light/shadow and clean black object outlines; inspect outline
+   quality during object/camera movement, not just a still. Judge beauty, craft
+   and polish separately from whether the simulation functions.
 2. Exercise the interaction and capture consequential states: supported practice,
    a wrong prediction and its feedback, and an independent transfer task before
    and after reveal. Inspect viewpoints, overlaps, motion, text budget and whether the

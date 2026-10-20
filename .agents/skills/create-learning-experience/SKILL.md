@@ -100,7 +100,11 @@ local interactions and no tracking or transmission of child responses by default
 Use Three.js for spatial experiences involving viewpoint, illumination, depth,
 occlusion or moving physical objects, including the daytime-Moon example. Build
 one coherent, polished 3D scene with direct manipulation: drag the Earth, place an
-observer, or select a prediction in the scene. Do not substitute flat comparison
+observer, or select a prediction in the scene. All 3D uses a crafted cel-shaded
+look: flat color, deliberate stepped light/shadow bands and clean black outlines.
+Visual simulations must be beautiful, crafted and polished as well as functional;
+a working model with placeholder art is not a finished experience.
+Do not substitute flat comparison
 panels and external step buttons for spatial interaction. Use 2D for goals whose
 reasoning is genuinely two-dimensional, such as fraction bars or sentence work.
 Follow [visual-design.md](references/visual-design.md) for Marble-derived fonts,
