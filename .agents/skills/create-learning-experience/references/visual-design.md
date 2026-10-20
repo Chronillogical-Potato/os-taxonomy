@@ -54,7 +54,8 @@ scene palettes should suit the subject rather than paint every object brand red.
 | Muted | `#626262` |
 | Positive feedback | `#1FA20D`, also use shape/motion, not color alone |
 | Retry/attention | `#FDAE1C`, with a clear non-color cue |
-| Display type | Heavy, rounded, compact; use sparingly for the single title |
+| Title | Small, compact, anchored top left; secondary to the experience |
+| Instruction / explanation | Large, prominent text composed with the scene; the primary text role |
 | Controls | Rounded/tactile, restrained white rim and shallow depth, clear press/focus/disabled states |
 
 Marble's production Round Medium and Round Condensed Black are commercial faces;
@@ -62,8 +63,16 @@ they are not bundled or relicensed here. The skill bundles unmodified **Fredoka*
 under the SIL Open Font License as a rounded public substitute, with weights
 300–700: [font](../assets/fonts/Fredoka-variable.ttf),
 [license](../assets/fonts/OFL.txt), [source](../assets/fonts/SOURCE.md).
-Use about 600–700 for the title, 400–500 for the short instruction. Test rendered
-metrics and contrast on the actual scene. Do not silently fall back to unrelated
+Keep the title small at the top left, typically 16–22 CSS px. Make the current
+instruction or explanation the prominent text, typically 28–40 CSS px on tablet,
+adapting to the viewport while remaining clearly larger than the title. Use a
+confident readable weight, not oversized display treatment for the title. These
+sizes establish hierarchy rather than fixed dimensions; test actual wrapping,
+contrast and touch-layout clearance. Keep the explanatory text within the scene's
+composition and close to the relevant action, with enough contrast and clear
+space. It must not become small helper copy, a peripheral caption or a paragraph
+card. Feedback or explanation replaces the same text slot; it does not add a
+second block. Test rendered metrics and contrast on the actual scene. Do not silently fall back to unrelated
 system typography. If authorized production fonts are available in a private
 project, they may replace the substitute under their existing terms.
 
@@ -157,8 +166,10 @@ Inspect actual screenshots at the agreed device size and at a narrow layout:
   stages. Buttons have icons and labels unless an icon-only exception is justified.
   No additional visible text is hidden
   in canvas labels or tooltips to evade the budget.
-- Typography has loaded, whitespace is intentional, the title does not overwhelm
-  the world, and controls have consistent depth, hit areas and state treatment.
+- Typography has loaded and whitespace is intentional. The title is small at the
+  top left; the current instruction/explanation is conspicuously larger and
+  prominent within the experience. Controls have consistent depth, hit areas and
+  state treatment. Long text must not silently shrink to caption size.
 - 3D uses flat color, deliberate cel-shaded light/shadow bands and clean black
   object outlines. Line weight stays readable and stable through movement and
   viewport changes; the result does not drift into glossy realism or default

@@ -116,6 +116,9 @@ Design a coherent learning sequence rather than a collection of screens:
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
 - Let the child learn through looking, acting, predicting and seeing consequences.
+  Keep the title small and anchored at the top left. Make the current instruction
+  or short explanation large, prominent and part of the experience's composition;
+  it is the main text, not a caption beneath a dominant heading.
   The child-facing experience may show only **one title and one short instruction
   at a time**. Use that same instruction slot for feedback; replace it rather than
   appending explanation. No subtitles, legends, visible object labels, status
