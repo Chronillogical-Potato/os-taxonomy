@@ -6,6 +6,7 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Add 614 Australian Curriculum v9 Foundation–Year 6 content descriptions (`acara-v9`) from Marble's canonical standards catalogue, bringing the total to 8 curricula and 3,875 standards. Retain the existing graph and topic alignments; candidate Australian mappings are not included.
 - Correct five later-age prerequisites and two adjacent dependency relationships, replacing later reinforcement with earlier foundational skills.
 - Adjust the approximate starting age for Drawing Force Diagrams from 7 to 8 and regenerate graph centrality; retain teaching-research content while refreshing its topic-file checksum binding.
 - Remove seven stale Science cluster summaries whose domains contain no topics, leaving 176 clusters.

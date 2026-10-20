@@ -48,6 +48,14 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 | [`data/archived-teaching-research.json`](data/archived-teaching-research.json) | Historical guidance for merged or refocused topics, with original records and current topic associations. |
 | [`data/manifest.json`](data/manifest.json) | Counts, per-subject breakdown, per-file checksums. |
 
+The standards catalogue includes **614 Australian Curriculum v9 Foundation–Year 6
+content descriptions** (`acara-v9`), bringing it to **8 sources / 3,875 standards**.
+Australian coverage includes English, Mathematics, Science, HASS, Health and
+Physical Education, Digital Technologies, and Design and Technologies. Arts,
+Languages, elaborations and achievement standards are outside this contribution.
+These are source standards; reviewed Australian topic alignments are not yet
+included. See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
+
 ### A topic
 
 ```json
