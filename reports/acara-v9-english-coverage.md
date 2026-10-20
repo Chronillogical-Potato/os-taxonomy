@@ -2,18 +2,18 @@
 
 Reviewed 20 October 2026 against all 189 ACARA v9 Foundation–Year 6 English content descriptions. The authoring pass adds 540 alignments across 185 existing topics.
 
-**111 standards are fully covered, 75 partly covered, and 3 missing.** Full means the linked topics collectively cover every required part of the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
+**110 standards are fully covered, 76 partly covered, and 3 missing.** Full means the linked topics collectively cover every required part of the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
 
 | Year | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
 | Foundation | 20 | 8 | 1 | 29 |
 | Year 1 | 16 | 14 | 0 | 30 |
 | Year 2 | 13 | 14 | 0 | 27 |
-| Year 3 | 18 | 9 | 1 | 28 |
+| Year 3 | 17 | 10 | 1 | 28 |
 | Year 4 | 17 | 10 | 1 | 28 |
 | Year 5 | 13 | 11 | 0 | 24 |
 | Year 6 | 14 | 9 | 0 | 23 |
-| **Total** | **111** | **75** | **3** | **189** |
+| **Total** | **110** | **76** | **3** | **189** |
 
 ## Foundation
 
@@ -142,7 +142,7 @@ Reviewed 20 October 2026 against all 189 ACARA v9 Foundation–Year 6 English co
 | `AC9E3LY04` | Full | Reading with Expression and Accuracy (`mt_V-ldQp56bF`); Self-Correcting While Reading (`mt_rQ2YJJi4uh`); Prefixes and suffixes (`mt_HrgDjxcWvf`) | — |
 | `AC9E3LY05` | Partial | Listening to Texts Read Aloud (`mt_mLPEMpYb_R`); Inferring Characters' Feelings and Motives (`mt_ukLvUD8DFA`); Reading between the lines (`mt_E5KC4AnRLW`) | Building literal and inferred meaning when listening is covered; comprehension when viewing (film, multimodal texts) and beginning to evaluate texts are not. |
 | `AC9E3LY06` | Partial | Planning Ideas Before Writing (`mt_9P9o6d0Qm3`); Narrative Writing (`mt_vauULTecMH`); Basic Informational Writing (`mt_hp2qJ-QRBn`); Structured Opinion Writing (`mt_WKxX-b86Vr`); Revising and editing (age 7+) (`mt_pis4novXWQ`); Organising Writing into Paragraphs (`mt_AvJMWQbDsr`); Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Past, Present and Progressive Tense (`mt_enj1sMcfOT`); Tricky words (`mt_Jq0MjURrRC`); Alternative Spellings for Sounds (`mt_p_jxNLdus4`) | Planning, drafting, editing and publishing imaginative, informative and persuasive writing in paragraphs, with tense and spelling of high-frequency and phonically regular words, is covered; creating multimodal texts that combine writing with visual features (images, diagrams, captions) is not assessed. |
-| `AC9E3LY07` | Full | Reporting & Recounting (`mt_ds2TOtP8I1`); Reciting Poetry (`mt_ZBMcX2oRor`); Engaging Listeners and Valuing Viewpoints (`mt_sXRHr7tfS5`); Describing Aloud (`mt_4A7FYmvVhA`) | — |
+| `AC9E3LY07` | Partial | Reporting & Recounting (`mt_ds2TOtP8I1`); Reciting Poetry (`mt_ZBMcX2oRor`); Engaging Listeners and Valuing Viewpoints (`mt_sXRHr7tfS5`); Describing Aloud (`mt_4A7FYmvVhA`) | Using topic-specific and precise vocabulary in spoken presentations is not explicitly taught or assessed by the linked topics. |
 | `AC9E3LY08` | Full | Joining Letters (`mt_02DH7sGXCi`) | — |
 | `AC9E3LY09` | Full | Syllables (age 6+) (`mt_kVzAFMuFc4`); Alternative Spellings for Known Sounds (`mt_OgJPbGkrYk`); Suffixes (age 7+) (`mt_tHtjfjjFrl`) | — |
 | `AC9E3LY10` | Full | Prefixes and suffixes (`mt_HrgDjxcWvf`); Suffixes (`mt_FYK8m6eHQm`); Word Families and Root Words (`mt_p1imGSFgJT`) | — |
