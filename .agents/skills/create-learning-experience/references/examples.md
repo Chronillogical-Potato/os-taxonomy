@@ -25,8 +25,9 @@ of user iterations, with documented exceptions and remaining weaknesses. They
 are not universal templates or evidence of effectiveness with a child. In
 particular, a two-level header, duplicate feedback toast or realistic effect in
 a snapshot does not relax the current one-title/one-instruction budget or
-cel-shaded 3D direction. Moon Visit also has a documented desktop-to-mobile
-viewport-transition failure; a fresh mobile load is readable. Hidden Cubes' mathematical fields are a specifically
+cel-shaded 3D direction. Moon Visit's continuously shaded Earth and Moon are a
+documented user-approved exception, not a change to that default. Moon Visit also retains a historical desktop-to-mobile
+viewport-transition failure capture; its latest fresh mobile load is readable. Hidden Cubes' mathematical fields are a specifically
 agreed exception, not permission to add text panels to another topic.
 
 Topic IDs below describe consulted anchors, not complete curriculum coverage.
@@ -63,5 +64,7 @@ are excluded from version control.
 Marble-authored example material is shared under the repository's
 [content license](../../../../LICENSE-CONTENT). Retain attribution and the
 separate Three.js MIT and Baloo 2 OFL notices when reusing bundled material.
+Bee Builder also retains the anidoodle Marker Comic style reference and its
+Apache 2.0 license/NOTICE; its original SVG art does not bundle the anidoodle engine.
 External research links support the teaching rationale; they are not licenses
 to copy those sources' text or artwork.

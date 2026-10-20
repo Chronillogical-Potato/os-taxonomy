@@ -1,15 +1,15 @@
 {
   "capturedAt": "2026-10-20",
-  "notes": "HTML snapshots are unmodified. Source imports are normalized to npm package paths; only runtime modules are included. Local prototype folders remain unchanged.",
+  "notes": "HTML snapshots are byte-for-byte copies of the latest local prototypes on 2026-10-20. Sky Colour Explorer and Hidden Cubes are unchanged from the preceding import. Source dependency imports are normalized to npm package paths; only runtime modules are included. Local prototype folders remain unchanged.",
   "experiences": {
     "moon-visit": {
       "originalHtml": "moon-visit.html",
-      "htmlSha256": "646bf56e2314b0e428b138dd5c89e1abe846a3dbe4e394648f17c133410dad11",
+      "htmlSha256": "ea30df798f5c95885d453f41e34dc45627db791842a51fe998c3000594cec5b1",
       "sourceFolder": "development",
       "files": {
         "app.js": {
-          "originalSha256": "6e70b2a9eb2e69a882111a7011b76a54265b2efcd4d94aa821daafa7797c32c9",
-          "portableSha256": "aaa0d58c197380471824b72d86aafae1809cc594a86dcf65e20096afbeed6ad1"
+          "originalSha256": "6421b3e40c2b5a68679151f989fa8f90e529e16352a14f6aca7ffd2b9d9bef64",
+          "portableSha256": "c5247938276ba22ee28f46337eb72dd574f4f8aa02adf597e8926fea0475580b"
         },
         "model.mjs": {
           "originalSha256": "a1caa5bdf3ce2e338d2e9e8ca0db9eac55679455ed6338719f2d21a1a57a93b7",
@@ -30,6 +30,10 @@
         "shell.html": {
           "originalSha256": "21a07ad8438c8b1d755e7c315e596c2bd444686c1eb151a47fb1e96404274211",
           "portableSha256": "21a07ad8438c8b1d755e7c315e596c2bd444686c1eb151a47fb1e96404274211"
+        },
+        "world-visuals.mjs": {
+          "originalSha256": "0d59be11a6662045060b8f16832371833ace79c17c5ddce03b491dd2324a4fa6",
+          "portableSha256": "f8d6468066ddf5658be44ccf633a71de3d9ee5b2144cb092f895f0d148bfd610"
         }
       }
     },
@@ -93,16 +97,16 @@
     },
     "bee-builder": {
       "originalHtml": "bee-builder.html",
-      "htmlSha256": "e81f0fe5a1a3af24955ff108591daf1b402a757c6e53ca8a75cb7a17ef615572",
+      "htmlSha256": "80bf71e12e35a1ec908c55e51110b4c7dafa19e22041661f572e4d19a45ddb36",
       "sourceFolder": "bee-development",
       "files": {
         "app.js": {
-          "originalSha256": "558de870f29b874b24d738f94a9adc915bb3fa42023726b1018fcbaf8d35b022",
-          "portableSha256": "558de870f29b874b24d738f94a9adc915bb3fa42023726b1018fcbaf8d35b022"
+          "originalSha256": "5977698b9da2cffbc07050a81811e7e263c7af2dd1e5684e5b992fc012dfe945",
+          "portableSha256": "5977698b9da2cffbc07050a81811e7e263c7af2dd1e5684e5b992fc012dfe945"
         },
         "shell.html": {
-          "originalSha256": "979d81325bdeb09870e1e5f68103552cb96af658db73ae6dcd81f780df1dc637",
-          "portableSha256": "979d81325bdeb09870e1e5f68103552cb96af658db73ae6dcd81f780df1dc637"
+          "originalSha256": "2a6c0674d6f790214685ac32e5341d50c0a16fd9402957589166c4ad21ad9193",
+          "portableSha256": "2a6c0674d6f790214685ac32e5341d50c0a16fd9402957589166c4ad21ad9193"
         }
       }
     }

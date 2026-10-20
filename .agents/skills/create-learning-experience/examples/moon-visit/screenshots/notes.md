@@ -15,15 +15,22 @@ for whole-scene composition and obvious clipping.
 | [Feedback](feedback.png) | A deliberately incorrect committed response followed by its visual consequence. |
 | [Narrow](narrow.png) | Entry at phone width, not a full mobile-flow audit. |
 
-**Resize/mobile-emulation limitation:** a fresh 390 × 844 load has a matching
+**Historical resize/mobile-emulation limitation:** the previous import showed that a fresh 390 × 844 load has a matching
 390px layout/visual viewport and readable 17px title. Switching from desktop to
-mobile in the browser harness can retain a 1440px scroll/visual viewport and
+mobile in that earlier browser run retained a 1440px scroll/visual viewport and
 scale it to 0.270833 despite a 390px document client width. Text then appears
-tiny. [The failed resize capture](narrow-after-resize.png) preserves that case;
+tiny. [The failed resize capture](narrow-after-resize.png) is historical evidence from
+the preceding revision;
 [narrow.png](narrow.png) shows the normal fresh mobile load. This is evidence of
 a viewport-transition issue, not proof that initial mobile loads fail or that
 it is purely a harness artifact. Physical-device and orientation behavior remain
 unverified.
+
+The five main captures were refreshed from the latest local HTML after the
+Earth/explorer redraw. Earth and Moon now share matte scene lighting, with a
+continuous curved falloff and near-black night side. The historical resize
+capture is retained separately; the latest pass used a fresh phone load and did
+not re-audit desktop-to-mobile transitions.
 
 The sampled path turns Earth, changes to the observer's sky, follows the
 light sequence and commits an incorrect visibility prediction. The feedback

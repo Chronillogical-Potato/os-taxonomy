@@ -24,7 +24,11 @@ for (const name of requested.length ? requested : names) {
     bundle: true, minify: true, format: 'iife', target: ['es2020'],
     write: false, legalComments: 'inline'});
   const script = bundle.outputFiles[0].text.replace(/<\/script/gi, '<\\/script');
-  const notices = `BALOO 2\n${fontLicense}\n${name === 'bee-builder' ? '' : `THREE.JS 0.180.0\n${threeLicense}`}`;
+  const styleNotices = name === 'bee-builder'
+    ? '\n' + await fs.readFile(path.join(root, name, 'ANIDOODLE-NOTICE.txt'), 'utf8')
+      + '\n' + await fs.readFile(path.join(root, name, 'ANIDOODLE-LICENSE.txt'), 'utf8')
+    : '';
+  const notices = `BALOO 2\n${fontLicense}\n${name === 'bee-builder' ? '' : `THREE.JS 0.180.0\n${threeLicense}`}${styleNotices}`;
   const html = (await fs.readFile(path.join(source, 'shell.html'), 'utf8'))
     .replace('__FONT__', () => font.toString('base64'))
     .replace('__CSS__', () => css)

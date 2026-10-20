@@ -15,6 +15,11 @@ for whole-scene composition and obvious clipping.
 | [Feedback](feedback.png) | A deliberately incorrect committed response followed by its visual consequence. |
 | [Narrow](narrow.png) | Entry at phone width, not a full mobile-flow audit. |
 
+All five captures were refreshed after the Marker Comic illustration redraw.
+The compact bumblebee, matte room fills, ink contours, honey drops and wax strips
+are visible in the updated snapshots. The portable build preserves the full
+anidoodle style-reference license and NOTICE as well as the font license.
+
 The sampled path compares packing and equal-area boundaries, demonstrates a
 shared wall, reaches fourth-room construction and commits a placement that uses
 more wax. The stage title plus activity name is documented rather than promoted

@@ -41,6 +41,11 @@ guessable; do not import this exact count or all-correct rule as a default.
   `sessionEvidence` separate subject rules from presentation.
 - [Observer view](source/ground-view.mjs), [landscape](source/ground-landscape.mjs)
   and [space effects](source/space-visuals.mjs): coherent directions at two scales.
+- [World artwork](source/world-visuals.mjs): the original simplified continental
+  atlas, dark globe silhouette and articulated explorer. Earth uses the same
+  matte material and scene lighting as the Moon, giving a curved daylight falloff
+  into an almost-black night side. This user-approved shading choice is an
+  example-specific exception to the default stepped cel-shading direction.
 - [Shell](source/shell.html): typography, in-object labels and narrow layout.
 
 ## Limits and exceptions
@@ -48,13 +53,17 @@ guessable; do not import this exact count or all-correct rule as a default.
 Distances, body sizes and apparent diameters are compressed or enlarged. This
 is a visibility model, not a date-specific sky map or a promise of visibility on
 any real day. Clouds, brightness thresholds, eclipses and refraction are omitted.
-Sun effects and some shading are illustrative rather than the current flat,
-outlined cel-shading benchmark. A hidden-Moon locator is an annotation, not a
+The atlas is illustrative rather than a geography teaching map. The explorer is
+an enlarged observer marker, with graphic fill lighting for legibility and a
+larger silhouette on phones. Sun effects and the continuous globe/Moon shading
+differ from the current flat, outlined cel-shading benchmark. A hidden-Moon locator is an annotation, not a
 Moon physically seen through Earth.
 
-A fresh 390 × 844 mobile-emulation load is readable, but switching from desktop
-to that viewport in the browser harness produced severely undersized text. The
+A fresh 390 × 844 mobile-emulation load is readable. The preceding revision
+showed severely undersized text when switching from desktop to that viewport
+in the browser harness; the historical
 [resize failure](screenshots/narrow-after-resize.png) is retained separately.
+This refresh did not re-audit that transition.
 Check resize/orientation transitions and actual text size when adapting this
 layout; physical-device behavior remains unverified.
 

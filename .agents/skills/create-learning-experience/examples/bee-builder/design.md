@@ -42,8 +42,16 @@ Optional triangles transfer the comparison without altering the core result.
   shapes and strips; `sharedWalls`, `commit` and `showFinish` connect geometry to
   evidence. `tapTarget` adds keyboard-operable SVG actions.
 - [Shell](source/shell.html): responsive framing, tactile buttons and typography.
-- The bee's hinged wing motion, quiet shadow and deliberate silhouette illustrate
-  craft; adapt this attention to detail rather than reusing a bee everywhere.
+- The bumblebee guide, flowers, honey drops, exact room faces and unfolded wax
+  strips share a Marker Comic treatment: matte fills, hard shade planes and
+  deliberate ink contours. Clip geometry preserves exact mathematical boundaries;
+  invisible artwork overflow must not enlarge SVG tap targets.
+- The bee's wings hinge at their roots and stop under reduced motion. Its compact,
+  furry silhouette avoids a human smile or an exaggerated mascot face. Adapt the
+  craft rather than reusing the bee everywhere.
+- [anidoodle attribution](ANIDOODLE-NOTICE.txt) and [Apache 2.0 license](ANIDOODLE-LICENSE.txt)
+  preserve the source style reference, Alex Greenshpun's anidoodle. The SVG art is
+  original; the anidoodle engine, reference artwork and sound pack are not bundled.
 
 ## Limits and exceptions
 
@@ -52,6 +60,9 @@ lets boundary length stand for side-wall wax; bases, structural constraints and
 real wax variation are omitted. Shared interior walls count once in construction:
 outer perimeter alone is not the total amount of wax. Hexagons are compared with
 specific regular tilings, not proved optimal over every conceivable partition.
+
+The decorative guide is a bumblebee; the regular hexagonal honeycomb lesson
+concerns honeybees, not bumblebee nest architecture.
 
 This explains geometric advantages, not the biological mechanism of construction;
 never claim bees consciously calculate an optimum or that this simulation models

@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import {createSunVisual,createSpaceBackground} from './space-visuals.mjs';
+import {createEarthVisual,createExplorerVisual} from './world-visuals.mjs';
 import {createGroundView} from './ground-view.mjs';
 import {R, ORBIT, facts, makeTasks, scorePath, sessionEvidence} from './model.mjs';
 const $ = id => document.getElementById(id);
@@ -37,35 +38,14 @@ scene.add(new THREE.AmbientLight(0x8cabcb,.09));
 const sunlight = new THREE.PointLight(0xfff3d7,3.2,0,0); sunlight.position.set(-6.3,0,0);scene.add(sunlight);
 function mesh(geo,mat,parent=scene) { const m=new THREE.Mesh(geo,mat); parent.add(m); return m; }
 function standard(color, extra={}) { return new THREE.MeshStandardMaterial({color, roughness:.9,...extra}); }
-const earthGroup = new THREE.Group(); scene.add(earthGroup);
-// Original, generated atlas. It is deliberately stylised, not a geographic map.
-function earthTexture() {
- const c=document.createElement('canvas');c.width=1024;c.height=512;const ctx=c.getContext('2d');
- ctx.fillStyle='#207dba';ctx.fillRect(0,0,1024,512);
- const land=[[[.06,.22],[.14,.1],[.28,.14],[.35,.27],[.27,.35],[.22,.48],[.12,.4]],[[.24,.5],[.34,.48],[.38,.62],[.33,.83],[.28,.9],[.24,.72]],[[.49,.18],[.58,.1],[.74,.12],[.89,.22],[.9,.39],[.78,.43],[.73,.56],[.61,.46],[.56,.31]],[[.51,.4],[.64,.39],[.68,.61],[.57,.78],[.5,.64]],[[.81,.69],[.9,.64],[.95,.75],[.9,.84],[.81,.82]]];
- for (const [j,poly] of land.entries()) {
-  ctx.fillStyle=['#7dbd91','#96c795','#a7c38b','#91b67e','#d0bd8c'][j];ctx.beginPath();
-  for(let i=0;i<poly.length;i++) { const [x,y]=poly[i];i?ctx.lineTo(x*1024,y*512):ctx.moveTo(x*1024,y*512); }ctx.closePath();ctx.fill();
- }
- ctx.fillStyle='#e6efe7';ctx.fillRect(0,0,1024,24);ctx.fillRect(0,491,1024,21);
- let seed=17;function rand(){seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;}
- for(let i=0;i<1000;i++){ctx.fillStyle=`rgba(255,255,255,${.015+rand()*.035})`;ctx.beginPath();ctx.ellipse(rand()*1024,rand()*512,2+rand()*15,1+rand()*3,0,0,Math.PI*2);ctx.fill();}
- const tex=new THREE.CanvasTexture(c);tex.colorSpace=THREE.SRGBColorSpace;return tex;
-}
-const earth=mesh(new THREE.SphereGeometry(R,96,64),standard('#ffffff',{map:earthTexture(),metalness:.08}),earthGroup);
-// Poles point towards/away from overview camera; rotation is about this same axis.
-earth.rotation.x=Math.PI/2;
-const atmosphere=mesh(new THREE.SphereGeometry(R*1.035,64,48),new THREE.ShaderMaterial({transparent:true,depthWrite:false,side:THREE.BackSide,uniforms:{glow:{value:new THREE.Color('#53bded')}},vertexShader:'varying vec3 n; varying vec3 v; void main(){vec4 p=modelViewMatrix*vec4(position,1.); n=normalize(normalMatrix*normal);v=normalize(-p.xyz);gl_Position=projectionMatrix*p;}',fragmentShader:'varying vec3 n;varying vec3 v;uniform vec3 glow;void main(){float a=pow(1.-abs(dot(n,v)),3.);gl_FragColor=vec4(glow,a*.45);}'}));
+const globe=createEarthVisual(R);const earthGroup=globe.root;scene.add(earthGroup);const earth=globe.surface;
+// Kept as a visibility hook for existing presentation states; the globe has a clean ink silhouette.
+const atmosphere=new THREE.Group();scene.add(atmosphere);
 const moonGroup = new THREE.Group();scene.add(moonGroup);
 function moonTexture(){const c=document.createElement('canvas');c.width=512;c.height=256;const ctx=c.getContext('2d');ctx.fillStyle='#c4c7c9';ctx.fillRect(0,0,512,256);let seed=43;const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};for(let i=0;i<180;i++){const x=rand()*512,y=rand()*256,r=2+rand()*12;ctx.fillStyle=i%7===0?'#939a9f':'#a9afb3';ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#e3e4df';ctx.lineWidth=.8;ctx.beginPath();ctx.arc(x,y,r,.3,2.9);ctx.stroke();}const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;}
 const moon=mesh(new THREE.SphereGeometry(.49,64,48),standard('#ffffff',{map:moonTexture()}),moonGroup);
 const solar=createSunVisual(.84);const sun=solar.root;sun.position.set(-6.3,0,0);scene.add(sun);
-const observerGroup = new THREE.Group();scene.add(observerGroup);
-const boots=standard('#ed6848'), suit=standard('#fff2cd'), visor=standard('#183d58',{metalness:.4,roughness:.25});
-const torso=mesh(new THREE.CapsuleGeometry(.085,.13,5,10),boots,observerGroup);torso.position.y=.17;
-const head=mesh(new THREE.SphereGeometry(.115,20,16),suit,observerGroup);head.position.y=.36;
-const face=mesh(new THREE.SphereGeometry(.08,16,12),visor,observerGroup);face.scale.set(1,.6,.5);face.position.set(0,.37,.087);
-for(const sign of [-1,1]){const leg=mesh(new THREE.CapsuleGeometry(.035,.1,4,8),suit,observerGroup);leg.position.set(sign*.055,.045,0);const arm=mesh(new THREE.CapsuleGeometry(.03,.1,4,8),suit,observerGroup);arm.rotation.z=sign*.5;arm.position.set(sign*.12,.21,0);}
+const explorer=createExplorerVisual();const observerGroup=explorer.root;scene.add(observerGroup);
 // Rings and rays are scaffolds, never answer cues before an independent commitment.
 function ring(radius,color,opacity=1){const m=mesh(new THREE.TorusGeometry(radius,.012,8,128),new THREE.MeshBasicMaterial({color,transparent:true,opacity}));return m;}
 const turnRing=ring(R+.26,'#76a6be',.7);
@@ -185,7 +165,7 @@ function updateMoonLocator(){
 $('lookSun').addEventListener('click',()=>{if(!inSky)return;moonLocatorActive=false;show('moonLocator',false);ground.lookAtBody('sun',!reduced);say(state.facts.day?'The Sun is above the horizon. It is daytime here.':'The Sun is below the horizon. It is night here.');});
 $('lookMoon').addEventListener('click',()=>{if(!inSky)return;moonLocatorActive=!state.facts.visible;ground.lookAtBody('moon',!reduced,true);say(state.facts.visible?'The Moon is above the horizon, in our sky.':'The Moon is below the horizon, hidden behind Earth.');updateMoonLocator();});
 
-function resize(){dims={w:innerWidth,h:innerHeight};renderer.setSize(dims.w,dims.h);spaceBackground.resize(Math.min(devicePixelRatio,2));const aspect=dims.w/dims.h,portrait=aspect<.8;
+function resize(){dims={w:innerWidth,h:innerHeight};observerGroup.scale.setScalar(dims.w<=600?1.35:1);renderer.setSize(dims.w,dims.h);spaceBackground.resize(Math.min(devicePixelRatio,2));const aspect=dims.w/dims.h,portrait=aspect<.8;
  const half=portrait?5.95/aspect:Math.max(6.15,8/aspect);overview.left=-half*aspect;overview.right=half*aspect;overview.top=half;overview.bottom=-half;overview.near=.1;overview.far=150;
  overview.position.set(portrait?-.75:0,portrait?0:.45,24);overview.up.set(portrait?1:0,portrait?0:1,0);overview.lookAt(portrait?-.75:0,portrait?0:.45,0);overview.updateProjectionMatrix();overview.updateMatrixWorld();ground.resize(dims.w,dims.h);
 }
@@ -193,7 +173,7 @@ function resize(){dims={w:innerWidth,h:innerHeight};renderer.setSize(dims.w,dims
 function project(p,cam=overview){const q=p.clone().project(cam);return{x:(q.x+1)*dims.w/2,y:(1-q.y)*dims.h/2};}
 function positionButton(id,p,radius){const q=project(p),el=$(id);el.style.left=q.x+'px';el.style.top=q.y+'px';if(radius){const q2=project(p.clone().add(new THREE.Vector3(radius,0,0)));const q3=project(p.clone().add(new THREE.Vector3(0,radius,0)));const px=Math.max(Math.hypot(q2.x-q.x,q2.y-q.y),Math.hypot(q3.x-q.x,q3.y-q.y));el.style.width=el.style.height=Math.max(id==='earth'?48:80,px*2)+'px';}}
 function layout(){updateMoonLocator();positionButton('earth',new THREE.Vector3(),R+.35);positionButton('sun',sun.position,1);positionButton('moon',moonGroup.position,.7);positionButton('observer',observerGroup.position.clone().addScaledVector(normal(),.26),.3);
- if(inSky||dims.w<=600){$('eye').style.left='5vw';$('eye').style.top='auto';$('eye').style.bottom='4vh';$('eye').style.transform='none';if(inSky)show('eye',['turn','explore','reveal'].includes(state.stage));}else if(!transition){$('eye').style.bottom='auto';$('eye').style.transform='translate(-50%,-50%)';const p=observerGroup.position.clone().addScaledVector(normal(),.94);const q=project(p);$('eye').style.left=Math.max(100,Math.min(dims.w-100,q.x))+'px';$('eye').style.top=Math.max(dims.h*.29,Math.min(dims.h-110,q.y))+'px';}
+ if(inSky||dims.w<=600){$('eye').style.left='5vw';$('eye').style.top='auto';$('eye').style.bottom='4vh';$('eye').style.transform='none';if(inSky)show('eye',['turn','explore','reveal'].includes(state.stage));}else if(!transition){$('eye').style.bottom='auto';$('eye').style.transform='translate(-50%,-50%)';const p=observerGroup.position.clone().addScaledVector(normal(),1.40);const q=project(p);$('eye').style.left=Math.max(100,Math.min(dims.w-100,q.x))+'px';$('eye').style.top=Math.max(dims.h*.29,Math.min(dims.h-110,q.y))+'px';}
 }
 let last=0;
 function frame(t){requestAnimationFrame(frame);if(t-last<1000/45)return;last=t;
