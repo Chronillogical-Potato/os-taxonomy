@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,591 · **Prerequisite edges:** 3,225 · **Subjects:** 8
+> **Version:** `v1` · **Topics:** 1,616 · **Prerequisite edges:** 3,317 · **Subjects:** 8
 
 ## See it
 
@@ -15,10 +15,10 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,591 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,225 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,616 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,317 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,051 records covering the current Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 540 topics have no research in this release.
+- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 567 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
@@ -26,7 +26,7 @@ Most curriculum data is either a flat list of standards or locked inside a produ
 | Subject | Topics |
 |---|---:|
 | Science | 547 |
-| Mathematics | 504 |
+| Mathematics | 529 |
 | English | 286 |
 | History | 90 |
 | Personal & Social Development | 88 |
@@ -53,8 +53,11 @@ content descriptions** (`acara-v9`), bringing it to **8 sources / 3,881 standard
 Australian coverage includes English, Mathematics, Science, HASS, Health and
 Physical Education, Digital Technologies, and Design and Technologies. Arts,
 Languages, elaborations and achievement standards are outside this contribution.
-These are source standards; reviewed Australian topic alignments are not yet
-included. See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
+Australian Mathematics now has 370 topic alignments: 95 of its 139 standards
+are fully covered, 37 partly covered, and 7 missing. The
+[coverage report](reports/acara-v9-maths-coverage.md) lists every standard, linked
+topic and remaining gap. Other Australian subjects currently have source
+standards only. See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
 ### A topic
 

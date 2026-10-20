@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Align Australian Foundation–Year 6 Mathematics with 370 links across 266 existing topics, preserving existing curricula and prerequisite edges. Publish a code-by-code audit: 95 standards fully covered, 37 partly covered and 7 missing. Refresh approximate topic age spans and the teaching-research topic-file binding.
+
 - Add 620 Australian Curriculum v9 Foundation–Year 6 content descriptions (`acara-v9`) from Marble's canonical standards catalogue, bringing the total to 8 curricula and 3,881 standards. Correct five Foundation Science inquiry strand assignments and restore six standards missed by the contributor's parser. Retain the existing graph and topic alignments; candidate Australian mappings are not included.
 - Correct five later-age prerequisites and two adjacent dependency relationships, replacing later reinforcement with earlier foundational skills.
 - Adjust the approximate starting age for Drawing Force Diagrams from 7 to 8 and regenerate graph centrality; retain teaching-research content while refreshing its topic-file checksum binding.

@@ -9465,6 +9465,7 @@
       ],
       "assessmentPrompt": "If you say 'There are 7 birds on a fence and 3 fly away — how many are left?', can {{name}} work it out using their fingers, counters, or a quick drawing?",
       "standards": [
+        "acara-v9:AC9MFN05",
         "ccss-math:K.OA.2",
         "uk-nc-2013:Maths/Y1/AS/4"
       ]
@@ -9486,6 +9487,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 4 toy cars and a friend brings 3 more, do they understand that adding means combining both groups — and can they tell you there are now 7 cars altogether?",
       "standards": [
+        "acara-v9:AC9MFN05",
         "ccss-math:K.OA.1",
         "uk-nc-2013:Maths/Y1/AS/1"
       ]
@@ -9507,6 +9509,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 6 strawberries and needs 10 for a recipe, can they quickly tell you they need 4 more — without counting all the way up from 1?",
       "standards": [
+        "acara-v9:AC9MFN04",
         "ccss-math:K.OA.4",
         "uk-nc-2013:Maths/Y1/AS/2"
       ]
@@ -9519,7 +9522,7 @@
       "name": "Numbers up to 10 into pairs",
       "description": "Decompose numbers up to 10 into pairs in more than one way (part-part-whole)",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2486842105263158,
       "evidence": [
         "Show that 5 = 1 + 4, 5 = 2 + 3, 5 = 0 + 5 etc.",
@@ -9528,6 +9531,9 @@
       ],
       "assessmentPrompt": "If {{name}} has 8 grapes, can they split them into two groups in different ways — like 3 and 5, or 4 and 4 — and explain that both groups together still make 8?",
       "standards": [
+        "acara-v9:AC9M1N02",
+        "acara-v9:AC9M1N04",
+        "acara-v9:AC9MFN04",
         "ccss-math:K.OA.3",
         "uk-nc-2013:Maths/Y1/AS/2"
       ]
@@ -9549,6 +9555,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 3 apples and you give them 2 more, can they show you how many there are altogether — using their fingers, some small objects, or a drawing?",
       "standards": [
+        "acara-v9:AC9MFN05",
         "ccss-math:K.OA.1",
         "uk-nc-2013:Maths/Y1/AS/4"
       ]
@@ -9570,6 +9577,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 9 biscuits and eats 3, do they understand that subtracting means taking some away — and can they tell you 6 biscuits are left?",
       "standards": [
+        "acara-v9:AC9MFN05",
         "ccss-math:K.OA.1",
         "uk-nc-2013:Maths/Y1/AS/1"
       ]
@@ -9582,7 +9590,7 @@
       "name": "Adding and subtracting",
       "description": "Add and subtract one-digit and two-digit numbers to 20, including zero",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.075,
       "evidence": [
         "Calculate 14 + 5 = 19",
@@ -9591,6 +9599,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out sums like '14 + 5' or '18 − 6' in their head or on paper, and do they know that adding or taking away zero leaves the number unchanged?",
       "standards": [
+        "acara-v9:AC9M1N04",
         "uk-nc-2013:Maths/Y1/AS/3"
       ]
     },
@@ -9611,6 +9620,7 @@
       ],
       "assessmentPrompt": "If you say 'I had some sweets, ate 5, and now have 9 left — how many did I start with?', can {{name}} figure out the missing number?",
       "standards": [
+        "acara-v9:AC9M1N05",
         "ccss-math:1.OA.1",
         "uk-nc-2013:Maths/Y1/AS/4"
       ]
@@ -9643,7 +9653,7 @@
       "name": "Number bonds",
       "description": "Recall number bonds (addition and related subtraction facts) within 20",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.07631578947368421,
       "evidence": [
         "Quickly recall that 8 + 5 = 13",
@@ -9652,6 +9662,7 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly recall facts like '8 + 7 = 15' and immediately know that '15 − 7 = 8' — without having to work out the subtraction from scratch?",
       "standards": [
+        "acara-v9:AC9M2A02",
         "uk-nc-2013:Maths/Y1/AS/2"
       ]
     },
@@ -9725,7 +9736,7 @@
       "name": "Adding two two-digit numbers",
       "description": "Add and subtract two two-digit numbers using concrete objects, pictorial representations, and mental methods",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02631578947368421,
       "evidence": [
         "Calculate 34 + 27 using base-ten blocks or column addition",
@@ -9734,6 +9745,7 @@
       ],
       "assessmentPrompt": "Can {{name}} add or subtract two two-digit numbers — like '43 + 28' — using counters, a drawing, or working it out in their head?",
       "standards": [
+        "acara-v9:AC9M2N04",
         "uk-nc-2013:Maths/Y2/AS/6"
       ]
     },
@@ -9745,7 +9757,7 @@
       "name": "Adding within 100",
       "description": "Add within 100 using strategies based on place value, including adding a two-digit and one-digit number, and a two-digit and a multiple of 10",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.1723684210526316,
       "evidence": [
         "Calculate 46 + 7 using place value (46 + 4 + 3 = 53)",
@@ -9754,6 +9766,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out sums like '47 + 8' or '35 + 50' by thinking about the tens and ones separately rather than counting up one at a time?",
       "standards": [
+        "acara-v9:AC9M2N04",
         "ccss-math:1.NBT.4"
       ]
     },
@@ -9774,6 +9787,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to work out '8 + 5', can they start from 8 and count up five more — rather than starting from 1 every time?",
       "standards": [
+        "acara-v9:AC9M1N04",
         "ccss-math:1.OA.5"
       ]
     },
@@ -9794,6 +9808,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to work out '8 + 6', can they split the 6 into 2 + 4, use the 2 to fill up to 10, then add the remaining 4 to get 14?",
       "standards": [
+        "acara-v9:AC9M1N04",
         "ccss-math:1.OA.6"
       ]
     },
@@ -9866,7 +9881,7 @@
       "name": "Fluent addition and subtraction",
       "description": "Recall and use addition and subtraction facts to 20 fluently, and derive and use related facts up to 100",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Rapidly recall 7 + 8 = 15 and 15 − 8 = 7",
@@ -9875,6 +9890,8 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly recall facts like '9 + 7 = 16' and '16 − 7 = 9', and use those to help work out bigger sums like '90 + 70'?",
       "standards": [
+        "acara-v9:AC9M2A02",
+        "acara-v9:AC9M3A02",
         "uk-nc-2013:Maths/Y2/AS/3"
       ]
     },
@@ -9906,7 +9923,7 @@
       "name": "Inverse: addition undoes subtraction",
       "description": "Recognise and use the inverse relationship between addition and subtraction to check calculations and solve missing-number problems",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.08421052631578947,
       "evidence": [
         "Check 15 + 7 = 22 by calculating 22 − 7 = 15",
@@ -9915,6 +9932,8 @@
       ],
       "assessmentPrompt": "If {{name}} works out 13 + 5 = 18, can they immediately use that to say '18 − 5 = 13' — without having to work the subtraction out all over again?",
       "standards": [
+        "acara-v9:AC9M2A02",
+        "acara-v9:AC9M3A01",
         "ccss-math:1.OA.4",
         "uk-nc-2013:Maths/Y2/AS/9"
       ]
@@ -9997,6 +10016,7 @@
       ],
       "assessmentPrompt": "If {{name}} picks 4 apples, then 7, then 6, could they show the problem with objects or a drawing, write it as 4 + 7 + 6 = ?, and work out how many apples they have altogether?",
       "standards": [
+        "acara-v9:AC9M1N05",
         "ccss-math:1.OA.2",
         "uk-nc-2013:Maths/Y2/AS/1"
       ]
@@ -10009,7 +10029,7 @@
       "name": "Unknown in Addition & Subtraction",
       "description": "Determine the unknown whole number in an addition or subtraction equation relating three whole numbers",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Solve 8 + ? = 11 and write 3",
@@ -10018,6 +10038,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees '? + 6 = 14' or '9 − ? = 4' written on paper, can they figure out what number goes in the gap?",
       "standards": [
+        "acara-v9:AC9M3A01",
+        "acara-v9:AC9M4A01",
         "ccss-math:1.OA.8"
       ]
     },
@@ -10029,7 +10051,7 @@
       "name": "What the equals sign means",
       "description": "Understand the meaning of the equal sign as 'is the same as' and determine if equations are true or false",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.1407894736842105,
       "evidence": [
         "Explain that 6 = 6 is true because both sides are the same",
@@ -10038,6 +10060,7 @@
       ],
       "assessmentPrompt": "Does {{name}} understand that '=' means 'the same as', so they can tell you whether '4 + 3 = 8 − 1' is true or false?",
       "standards": [
+        "acara-v9:AC9M4A01",
         "ccss-math:1.OA.7"
       ]
     },
@@ -10049,7 +10072,7 @@
       "name": "Adding and subtracting (age 7+)",
       "description": "Add and subtract numbers with up to three digits using formal written methods of columnar addition and subtraction",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1368421052631579,
       "evidence": [
         "Set out a columnar addition correctly with digits aligned by place value",
@@ -10058,6 +10081,7 @@
       ],
       "assessmentPrompt": "Can {{name}} set out a sum like '347 + 265' or '512 − 278' in columns and work through it step by step, carrying or borrowing where needed?",
       "standards": [
+        "acara-v9:AC9M3N03",
         "uk-nc-2013:Ma/KS2/Y3/AS/2"
       ]
     },
@@ -10109,7 +10133,7 @@
       "name": "Addition and subtraction within 1000",
       "description": "Add and subtract within 1000 using concrete models, drawings, and strategies based on place value; understand composing and decomposing tens and hundreds",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1526315789473684,
       "evidence": [
         "Add two three-digit numbers using base-ten blocks or drawings, composing a ten or hundred when necessary",
@@ -10118,6 +10142,8 @@
       ],
       "assessmentPrompt": "Can {{name}} add or subtract numbers in the hundreds — like '347 + 256' — by thinking about hundreds, tens, and ones separately, or drawing a diagram to help?",
       "standards": [
+        "acara-v9:AC9M2N02",
+        "acara-v9:AC9M3N03",
         "ccss-math:2.NBT.7"
       ]
     },
@@ -10129,7 +10155,7 @@
       "name": "Estimating by rounding",
       "description": "Estimate the answer to a calculation and use inverse operations to check answers; apply to increasingly large numbers using rounding and inverse reasoning",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.09210526315789473,
       "evidence": [
         "Round numbers to the nearest 10 or 100 to estimate a sum or difference before calculating",
@@ -10141,6 +10167,8 @@
       ],
       "assessmentPrompt": "Before {{name}} works out a calculation, can they make a sensible rough guess — and then check their answer using the opposite operation?",
       "standards": [
+        "acara-v9:AC9M3N05",
+        "acara-v9:AC9M4N07",
         "uk-nc-2013:Ma/KS2/Y3/AS/3",
         "uk-nc-2013:Ma/KS2/Y4/AS/2"
       ]
@@ -10162,6 +10190,7 @@
       ],
       "assessmentPrompt": "Can {{name}} reliably add or subtract two-digit numbers like '68 + 27' or '91 − 45', choosing the best strategy for each problem?",
       "standards": [
+        "acara-v9:AC9M2N04",
         "ccss-math:2.NBT.5"
       ]
     },
@@ -10182,6 +10211,7 @@
       ],
       "assessmentPrompt": "Can {{name}} instantly recall all the single-digit addition facts — like '7 + 8 = 15' — without needing to count or think for more than a second?",
       "standards": [
+        "acara-v9:AC9M2A02",
         "ccss-math:2.OA.2"
       ]
     },
@@ -10193,7 +10223,7 @@
       "name": "Mental addition and subtraction (age 7+)",
       "description": "Mentally add and subtract a three-digit number and ones",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03157894736842105,
       "evidence": [
         "Calculate 345 + 7 mentally",
@@ -10202,6 +10232,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out '436 + 7' or '521 − 8' in their head — keeping the hundreds and tens unchanged while adjusting just the ones?",
       "standards": [
+        "acara-v9:AC9M3A02",
         "uk-nc-2013:Ma/KS2/Y3/AS/1a"
       ]
     },
@@ -10213,7 +10244,7 @@
       "name": "Mentally adding hundreds to 3-digit numbers",
       "description": "Mentally add and subtract a three-digit number and hundreds",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01710526315789474,
       "evidence": [
         "Calculate 345 + 200 mentally",
@@ -10222,6 +10253,7 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly work out '342 + 200' or '756 − 300' in their head — knowing that only the hundreds digit changes?",
       "standards": [
+        "acara-v9:AC9M3A02",
         "uk-nc-2013:Ma/KS2/Y3/AS/1c"
       ]
     },
@@ -10233,7 +10265,7 @@
       "name": "Mentally adding tens to 3-digit numbers",
       "description": "Mentally add and subtract a three-digit number and tens",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01710526315789474,
       "evidence": [
         "Calculate 345 + 40 mentally",
@@ -10242,6 +10274,7 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly work out '354 + 40' or '628 − 30' in their head — knowing that only the tens digit changes?",
       "standards": [
+        "acara-v9:AC9M3A02",
         "uk-nc-2013:Ma/KS2/Y3/AS/1b"
       ]
     },
@@ -10253,7 +10286,7 @@
       "name": "Missing number problems (age 7+)",
       "description": "Solve addition and subtraction problems including missing-number problems, using number facts, place value, and more complex methods",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.0868421052631579,
       "evidence": [
         "Solve a missing-number problem such as 245 + ? = 380",
@@ -10262,6 +10295,8 @@
       ],
       "assessmentPrompt": "Can {{name}} work out sums with a hidden number — like '? − 38 = 24' or '53 + ? = 91' — by thinking carefully about what the equation is asking?",
       "standards": [
+        "acara-v9:AC9M3A01",
+        "acara-v9:AC9M4A01",
         "uk-nc-2013:Ma/KS2/Y3/AS/4"
       ]
     },
@@ -10302,6 +10337,8 @@
       ],
       "assessmentPrompt": "If a word problem says 'Sam had 78 stickers, gave some away, and now has 45 — how many did he give away?', can {{name}} work out which operation to use and find the answer?",
       "standards": [
+        "acara-v9:AC9M2N04",
+        "acara-v9:AC9M2N06",
         "ccss-math:2.OA.1"
       ]
     },
@@ -10313,7 +10350,7 @@
       "name": "Adding and subtracting (age 8+)",
       "description": "Add and subtract numbers with up to four digits using formal written methods of columnar addition and subtraction",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.05921052631578947,
       "evidence": [
         "Set out and solve a columnar addition with up to four-digit numbers",
@@ -10322,6 +10359,7 @@
       ],
       "assessmentPrompt": "Can {{name}} line up a sum like '3,842 + 1,765' or '4,301 − 2,658' in columns and work through it correctly — carrying and borrowing across multiple columns?",
       "standards": [
+        "acara-v9:AC9M4N06",
         "uk-nc-2013:Ma/KS2/Y4/AS/1"
       ]
     },
@@ -10342,6 +10380,7 @@
       ],
       "assessmentPrompt": "Can {{name}} add or subtract three-digit numbers like '672 − 348' reliably, choosing whichever method works best for them?",
       "standards": [
+        "acara-v9:AC9M3N03",
         "ccss-math:3.NBT.2"
       ]
     },
@@ -10353,7 +10392,7 @@
       "name": "Two-step addition and subtraction problems",
       "description": "Solve addition and subtraction two-step problems in contexts, deciding which operations and methods to use and why",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.04342105263157895,
       "evidence": [
         "Identify the two steps needed to solve a contextual problem",
@@ -10362,6 +10401,8 @@
       ],
       "assessmentPrompt": "If {{name}} reads a word problem with two steps — like working out change from a shopping trip with two items — can they plan which calculations to do and in what order?",
       "standards": [
+        "acara-v9:AC9M4N06",
+        "acara-v9:AC9M4N08",
         "uk-nc-2013:Ma/KS2/Y4/AS/3"
       ]
     },
@@ -10382,6 +10423,7 @@
       ],
       "assessmentPrompt": "Can {{name}} write an equation like 'n + 25 = 60' to represent a word problem, and then solve it to find what n equals?",
       "standards": [
+        "acara-v9:AC9M3N06",
         "ccss-math:3.OA.8"
       ]
     },
@@ -10393,7 +10435,7 @@
       "name": "Adding and subtracting (age 9+)",
       "description": "Solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.04868421052631579,
       "evidence": [
         "A school collects 12,450 bottles in Week 1 and 8,372 in Week 2; their target is 25,000 — how many more do they need?",
@@ -10402,6 +10444,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a multi-step problem — like planning a budget where money is added and spent in several steps — can they decide which operations to use at each stage and explain their thinking?",
       "standards": [
+        "acara-v9:AC9M5N09",
         "uk-nc-2013:Ma5/2.2d"
       ]
     },
@@ -10413,7 +10456,7 @@
       "name": "Checking Answers by Rounding",
       "description": "Use rounding to check answers to calculations and determine appropriate levels of accuracy in context",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.04605263157894737,
       "evidence": [
         "Check 47,832 + 23,156 ≈ 48,000 + 23,000 = 71,000 to verify the exact answer 70,988",
@@ -10422,6 +10465,8 @@
       ],
       "assessmentPrompt": "If {{name}} gets an answer of 4,213 for an addition, can they round the numbers to double-check — like '4,000 + 1,000 ≈ 5,000' — and spot if the answer seems way off?",
       "standards": [
+        "acara-v9:AC9M5N06",
+        "acara-v9:AC9M5N08",
         "uk-nc-2013:Ma5/2.2c"
       ]
     },
@@ -10474,7 +10519,7 @@
       "name": "Adding and subtracting (age 10+)",
       "description": "Solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why, with numbers up to 10,000,000 and decimals",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1052631578947368,
       "evidence": [
         "Solve a two-step word problem involving addition and subtraction of numbers beyond 1,000,000",
@@ -10483,6 +10528,8 @@
       ],
       "assessmentPrompt": "If {{name}} is given a complicated word problem involving large numbers or decimals — like calculating the total cost of several items — can they plan and carry out all the steps correctly?",
       "standards": [
+        "acara-v9:AC9M6N04",
+        "acara-v9:AC9M6N09",
         "uk-nc-2013:Ma6/2.2g"
       ]
     },
@@ -10494,7 +10541,7 @@
       "name": "Addition and subtraction strategies (age 10+)",
       "description": "Add and subtract decimals to hundredths using strategies based on place value, properties of operations, and the relationship between addition and subtraction; relate strategies to written methods and explain reasoning",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.09736842105263158,
       "evidence": [
         "Correctly compute 3.45 + 2.78 and explain regrouping across decimal places",
@@ -10503,6 +10550,7 @@
       ],
       "assessmentPrompt": "Can {{name}} add or subtract decimal amounts like '4.73 + 2.68' or '10.00 − 3.47', lining up the decimal points and working through the columns correctly?",
       "standards": [
+        "acara-v9:AC9M6N04",
         "ccss-math:5.NBT.7"
       ]
     },
@@ -10562,7 +10610,7 @@
       "name": "Linear number sequences",
       "description": "Generate and describe linear number sequences, including those with negative and decimal steps; identify the term-to-term rule",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04736842105263158,
       "evidence": [
         "Continue the sequence 2.5, 4.0, 5.5, ... and state the rule as 'add 1.5'",
@@ -10571,6 +10619,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees a number sequence like 3, 7, 11, 15… can they describe the rule, continue it, and predict what the 10th number will be?",
       "standards": [
+        "acara-v9:AC9M6A01",
+        "acara-v9:AC9M6A03",
         "uk-nc-2013:Ma6/2.5b"
       ]
     },
@@ -10582,7 +10632,7 @@
       "name": "Number Pattern Relationships",
       "description": "Generate two numerical patterns using two given rules; identify relationships between corresponding terms; form ordered pairs and graph them on a coordinate plane",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.0868421052631579,
       "evidence": [
         "Generate sequences starting at 0 with rules 'add 3' and 'add 6'; observe terms in one are twice the other",
@@ -10591,6 +10641,7 @@
       ],
       "assessmentPrompt": "Can {{name}} follow two number patterns at once — for example, \"add 2\" and \"add 4\" — pair up the matching terms, and plot those pairs as points on a graph?",
       "standards": [
+        "acara-v9:AC9M6A01",
         "ccss-math:5.OA.3"
       ]
     },
@@ -10642,7 +10693,7 @@
       "name": "Writing Algebraic Equations",
       "description": "Express missing number problems algebraically using letters for unknowns; translate word problems into equations",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1197368421052632,
       "evidence": [
         "Write 'I think of a number, double it, and add 5 to get 17' as 2n + 5 = 17",
@@ -10651,6 +10702,8 @@
       ],
       "assessmentPrompt": "If {{name}} reads \"I think of a number, double it, and add 5 to get 17,\" can they write that as an equation using a letter for the unknown and solve it?",
       "standards": [
+        "acara-v9:AC9M5A02",
+        "acara-v9:AC9M6A02",
         "uk-nc-2013:Ma6/2.5c"
       ]
     },
@@ -11095,6 +11148,7 @@
       ],
       "assessmentPrompt": "If you put 6 raisins in one hand and 4 in the other and ask {{name}} which hand has more, can they work it out — either by counting or just by looking?",
       "standards": [
+        "acara-v9:AC9MFN03",
         "ccss-math:K.CC.6",
         "uk-nc-2013:Maths/Y1/NPV/4"
       ]
@@ -11116,6 +11170,7 @@
       ],
       "assessmentPrompt": "If {{name}} counts out 7 toy cars and you ask \"so how many cars are there?\", do they say \"7\" straight away — or do they count them all again from the start?",
       "standards": [
+        "acara-v9:AC9MFN03",
         "ccss-math:K.CC.4",
         "ccss-math:K.CC.4.b"
       ]
@@ -11137,6 +11192,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 5 stickers and you give them one more, do they know immediately there are now 6 — without needing to count all of them again from one?",
       "standards": [
+        "acara-v9:AC9MFN01",
         "ccss-math:K.CC.4.c",
         "uk-nc-2013:Maths/Y1/NPV/3"
       ]
@@ -11158,6 +11214,7 @@
       ],
       "assessmentPrompt": "If {{name}} is counting a pile of grapes, do they touch or point to each one exactly once as they say each number — without skipping any or counting the same one twice?",
       "standards": [
+        "acara-v9:AC9MFN03",
         "ccss-math:K.CC.4",
         "ccss-math:K.CC.4.a"
       ]
@@ -11179,6 +11236,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to show you what the number 5 looks like, can they do it in more than one way — such as drawing five dots, holding up five fingers, or pointing to 5 on a number line?",
       "standards": [
+        "acara-v9:AC9MFN01",
         "uk-nc-2013:Maths/Y1/NPV/4"
       ]
     },
@@ -11199,6 +11257,8 @@
       ],
       "assessmentPrompt": "If {{name}} is counting socks being paired up, can they skip-count in twos — 2, 4, 6, 8 — all the way to 20? Can they also count up in fives when counting coins, or in tens on a number line?",
       "standards": [
+        "acara-v9:AC9M1A01",
+        "acara-v9:AC9M1N03",
         "ccss-math:K.CC.1",
         "uk-nc-2013:Maths/Y1/NPV/2",
         "uk-nc-2013:Maths/Y2/NPV/1"
@@ -11221,6 +11281,7 @@
       ],
       "assessmentPrompt": "If you spread out 15 buttons on the table in a random arrangement and ask {{name}} how many there are, can they count them all carefully and give you the right answer?",
       "standards": [
+        "acara-v9:AC9MFN03",
         "ccss-math:K.CC.5"
       ]
     },
@@ -11262,6 +11323,7 @@
       ],
       "assessmentPrompt": "If you write \"3\" and \"8\" on two pieces of paper and ask {{name}} which number is bigger, can they get it right — and could they tell you why?",
       "standards": [
+        "acara-v9:AC9MFN01",
         "ccss-math:K.CC.7"
       ]
     },
@@ -11273,7 +11335,7 @@
       "name": "Counting forwards and backwards",
       "description": "Count forwards and backwards in steps of 3 from 0",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.003947368421052632,
       "evidence": [
         "Count 3, 6, 9, 12, 15 … up to at least 30",
@@ -11282,6 +11344,7 @@
       ],
       "assessmentPrompt": "Can {{name}} count in threes — 3, 6, 9, 12, 15 — far enough to reach 30 without losing track or needing to start over?",
       "standards": [
+        "acara-v9:AC9M2A01",
         "uk-nc-2013:Maths/Y2/NPV/1"
       ]
     },
@@ -11293,7 +11356,7 @@
       "name": "Counting forwards and backwards (age 6+)",
       "description": "Count forwards and backwards in tens from any number (not just multiples of 10)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.0131578947368421,
       "evidence": [
         "Count 7, 17, 27, 37 … from a non-multiple starting point",
@@ -11302,6 +11365,7 @@
       ],
       "assessmentPrompt": "If {{name}} starts at 37 and you ask them to count up in tens, can they say 37, 47, 57, 67 — crossing over into the next hundred without getting stuck?",
       "standards": [
+        "acara-v9:AC9M2A01",
         "uk-nc-2013:Maths/Y2/NPV/1"
       ]
     },
@@ -11322,6 +11386,7 @@
       ],
       "assessmentPrompt": "Can {{name}} count confidently up to 1000 — and if you ask them to count by hundreds from 200, or by tens from 650, can they do it without losing their place?",
       "standards": [
+        "acara-v9:AC9M2A01",
         "ccss-math:2.NBT.2"
       ]
     },
@@ -11382,6 +11447,7 @@
       ],
       "assessmentPrompt": "Can {{name}} sort a pile of objects — like buttons, coins, or toy animals — into groups and count how many are in each group?",
       "standards": [
+        "acara-v9:AC9MFST01",
         "ccss-math:K.MD.3"
       ]
     },
@@ -11393,7 +11459,7 @@
       "name": "Pictograms and tally charts",
       "description": "Interpret and construct simple pictograms, tally charts, block diagrams, and simple tables",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1539473684210526,
       "evidence": [
         "Read a pictogram where each symbol represents one item",
@@ -11402,6 +11468,11 @@
       ],
       "assessmentPrompt": "Can {{name}} read a simple chart or pictogram — like one showing how many children chose each favourite fruit — and answer questions like \"which was most popular\"?",
       "standards": [
+        "acara-v9:AC9M1ST01",
+        "acara-v9:AC9M2ST01",
+        "acara-v9:AC9M2ST02",
+        "acara-v9:AC9M3ST01",
+        "acara-v9:AC9M3ST02",
         "uk-nc-2013:Ma/KS2/Y3/S/1",
         "uk-nc-2013:Maths/Y2/S/1"
       ]
@@ -11423,6 +11494,7 @@
       ],
       "assessmentPrompt": "If {{name}} wanted to show you how many books different children in their class read last month, could they draw a bar chart, label the axes, and explain what each bar represents?",
       "standards": [
+        "acara-v9:AC9M1ST01",
         "ccss-math:MP.6"
       ]
     },
@@ -11443,6 +11515,9 @@
       ],
       "assessmentPrompt": "Can {{name}} look at a collection of objects — like different coloured counters — sort them into up to three groups, count each group, and organise the results into a simple chart?",
       "standards": [
+        "acara-v9:AC9M1ST01",
+        "acara-v9:AC9M1ST02",
+        "acara-v9:AC9M2ST01",
         "ccss-math:1.MD.4",
         "uk-nc-2013:Ma/KS2/Y3/S/2",
         "uk-nc-2013:Maths/Y2/S/2"
@@ -11465,6 +11540,8 @@
       ],
       "assessmentPrompt": "If {{name}} looks at a chart showing how many children chose each flavour of ice cream, can they answer questions like \"how many chose chocolate?\" and \"how many more chose vanilla than strawberry?\"",
       "standards": [
+        "acara-v9:AC9M1ST02",
+        "acara-v9:AC9M2ST01",
         "ccss-math:1.MD.4",
         "uk-nc-2013:Ma/KS2/Y3/S/3",
         "uk-nc-2013:Maths/Y2/S/3"
@@ -11487,6 +11564,7 @@
       ],
       "assessmentPrompt": "Can {{name}} draw a simple bar chart or picture graph to show information — like how many of each colour of sweet are in a bag — and answer questions from it?",
       "standards": [
+        "acara-v9:AC9M2ST02",
         "ccss-math:2.MD.10"
       ]
     },
@@ -11498,7 +11576,7 @@
       "name": "Bar graphs",
       "description": "Interpret and present discrete and continuous data using appropriate graphical methods, including bar charts and time graphs",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.05921052631578947,
       "evidence": [
         "Read a time graph showing temperature changes over a day",
@@ -11507,6 +11585,10 @@
       ],
       "assessmentPrompt": "Can {{name}} choose the right type of chart for some data — for example, a bar chart for favourite colours or a line graph for temperature over a week — and draw it correctly?",
       "standards": [
+        "acara-v9:AC9M4ST01",
+        "acara-v9:AC9M5ST01",
+        "acara-v9:AC9M5ST02",
+        "acara-v9:AC9M6ST01",
         "uk-nc-2013:Ma/KS2/Y4/S/1"
       ]
     },
@@ -11518,7 +11600,7 @@
       "name": "Scaled picture and bar graphs",
       "description": "Draw a scaled picture graph and a scaled bar graph to represent a data set; solve one- and two-step comparison, sum, and difference problems using bar charts, pictograms, and tables",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1210526315789474,
       "evidence": [
         "Draw a bar graph where each square represents 5 pets",
@@ -11527,6 +11609,9 @@
       ],
       "assessmentPrompt": "If {{name}} looked at a bar chart showing how many books different children read last month, could they work out the total, find the difference between the most and least, and draw their own chart with a scale like \"each square = 2 books\"?",
       "standards": [
+        "acara-v9:AC9M3ST01",
+        "acara-v9:AC9M3ST02",
+        "acara-v9:AC9M4ST01",
         "ccss-math:3.MD.3",
         "uk-nc-2013:Ma/KS2/Y4/S/2"
       ]
@@ -11539,7 +11624,7 @@
       "name": "Line graph problems",
       "description": "Solve comparison, sum, and difference problems using information presented in a line graph",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.01842105263157895,
       "evidence": [
         "Read a line graph of temperature over a week and identify the warmest day",
@@ -11548,6 +11633,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a line graph showing how a plant's height changed over several weeks, can they read off values, spot when it grew fastest, and find the difference between two points?",
       "standards": [
+        "acara-v9:AC9M5ST02",
         "uk-nc-2013:Ma5/5.1a"
       ]
     },
@@ -11559,7 +11645,7 @@
       "name": "Reading tables",
       "description": "Complete, read, and interpret information in tables, including timetables",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.06315789473684211,
       "evidence": [
         "Read a bus timetable to find the departure time for a particular stop",
@@ -11568,6 +11654,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read a timetable — like a train or bus timetable — to find out when a journey leaves, arrives, and how long it takes?",
       "standards": [
+        "acara-v9:AC9M6M03",
         "uk-nc-2013:Ma5/5.1b"
       ]
     },
@@ -11588,6 +11675,7 @@
       ],
       "assessmentPrompt": "If {{name}} looked at a set of test scores from their class, could they find the mean, the median, and the range — and explain what each one tells you about how the class did?",
       "standards": [
+        "acara-v9:AC9M5ST01",
         "ccss-math:MP.6"
       ]
     },
@@ -11629,6 +11717,7 @@
       ],
       "assessmentPrompt": "If {{name}} recorded the temperature outside every hour for a day, could they plot those readings on a line graph with proper labels — and then use it to answer questions like 'when was it warmest?' or 'how much did it drop between 3pm and 6pm?'",
       "standards": [
+        "acara-v9:AC9M5ST02",
         "uk-nc-2013:Ma6/5.1a"
       ]
     },
@@ -11709,6 +11798,7 @@
       ],
       "assessmentPrompt": "If {{name}} had the test scores of a whole class, could they find the mean, median, and range, and explain what each tells you about how the class performed?",
       "standards": [
+        "acara-v9:AC9M6ST01",
         "ccss-math:6.SP.3",
         "ccss-math:6.SP.5c",
         "ccss-math:6.SP.5d",
@@ -11752,6 +11842,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a dot plot of how long children in their class took to run 100 m, could they describe where most times bunch up, how spread out they are and whether there are any odd ones out — and suggest a sensible reason for what they see?",
       "standards": [
+        "acara-v9:AC9M6ST01",
         "ccss-math:6.SP.2",
         "ccss-math:6.SP.5c",
         "uk-nc-2013:KS3.Maths.Stat.1"
@@ -11819,6 +11910,28 @@
       ]
     },
     {
+      "id": "mt_4zgPzc6yu5",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Populations, samples and fair sampling",
+      "description": "Distinguish a population from a sample drawn from it; explain why a convenient or biased sample (choosing whoever is easiest to reach, volunteers, or a group linked to the answer) can misrepresent the population; explain that random selection gives every member of the population an equal chance of being chosen, which tends to produce representative samples — while recognising that any single random sample can still, by chance, be unrepresentative",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 13,
+      "centrality": 0.03026315789473684,
+      "evidence": [
+        "In a described survey (e.g. a school asks 40 of its 800 pupils about the lunch menu), identify the population and the sample, and explain why a sample is used instead of asking everyone",
+        "Identify the selection bias in a sampling method (e.g. asking people leaving a gym how often they exercise, or surveying only the lunch queue on pizza day), explain the direction in which it would likely distort the result, and propose a better method using random selection from the whole population (e.g. drawing names from the full school register)",
+        "Explain the difference between random selection and simply choosing whoever is easiest to reach, and explain — with an example such as a random sample of 10 pupils that happens to contain mostly Year 7s — why random sampling makes a representative sample likely but does not guarantee it"
+      ],
+      "assessmentPrompt": "If a school wanted to know what all its pupils think of the lunch menu but only asked children in the lunch queue on pizza day, could {{name}} explain why that might give a misleading answer — and suggest a fairer way to choose who to ask, like picking names at random from the whole school list?",
+      "standards": [
+        "acara-v9:AC9M6ST02",
+        "ccss-math:7.SP.1",
+        "uk-nc-2013:KS3.Maths.WM.RM.7"
+      ]
+    },
+    {
       "id": "mt_KCS9GbZgU_",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -11856,6 +11969,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} whether 'How many pets does our family have?' and 'How many pets do children in your class have?' are the same kind of question, can they explain that the second one has lots of different answers — so you'd need to collect data from many people — while the first has just one answer?",
       "standards": [
+        "acara-v9:AC9M6ST03",
         "ccss-math:6.SP.1"
       ]
     },
@@ -11897,6 +12011,7 @@
       ],
       "assessmentPrompt": "If {{name}} timed how long 25 friends took to solve a puzzle, could they write a short report saying how many were timed, how the times were measured, a typical time and how spread out the times were (with units) — and mention any time that stood out?",
       "standards": [
+        "acara-v9:AC9M6ST03",
         "ccss-math:6.SP.5",
         "ccss-math:6.SP.5c",
         "ccss-math:6.SP.5d"
@@ -11986,27 +12101,6 @@
       ]
     },
     {
-      "id": "mt_4zgPzc6yu5",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Data & Statistics",
-      "name": "Populations, samples and fair sampling",
-      "description": "Distinguish a population from a sample drawn from it; explain why a convenient or biased sample (choosing whoever is easiest to reach, volunteers, or a group linked to the answer) can misrepresent the population; explain that random selection gives every member of the population an equal chance of being chosen, which tends to produce representative samples — while recognising that any single random sample can still, by chance, be unrepresentative",
-      "ageRangeStart": 12,
-      "ageRangeEnd": 13,
-      "centrality": 0.03026315789473684,
-      "evidence": [
-        "In a described survey (e.g. a school asks 40 of its 800 pupils about the lunch menu), identify the population and the sample, and explain why a sample is used instead of asking everyone",
-        "Identify the selection bias in a sampling method (e.g. asking people leaving a gym how often they exercise, or surveying only the lunch queue on pizza day), explain the direction in which it would likely distort the result, and propose a better method using random selection from the whole population (e.g. drawing names from the full school register)",
-        "Explain the difference between random selection and simply choosing whoever is easiest to reach, and explain — with an example such as a random sample of 10 pupils that happens to contain mostly Year 7s — why random sampling makes a representative sample likely but does not guarantee it"
-      ],
-      "assessmentPrompt": "If a school wanted to know what all its pupils think of the lunch menu but only asked children in the lunch queue on pizza day, could {{name}} explain why that might give a misleading answer — and suggest a fairer way to choose who to ask, like picking names at random from the whole school list?",
-      "standards": [
-        "ccss-math:7.SP.1",
-        "uk-nc-2013:KS3.Maths.WM.RM.7"
-      ]
-    },
-    {
       "id": "mt_BdAeZJUOir",
       "type": "REPRESENTATIONAL",
       "subject": "Mathematics",
@@ -12059,7 +12153,7 @@
       "name": "Finding halves and quarters (age 5+)",
       "description": "Recognise, find, and name a quarter as one of four equal parts of an object, shape, or quantity",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.275,
       "evidence": [
         "Fold a shape into four equal parts and identify each as 'a quarter'",
@@ -12068,6 +12162,7 @@
       ],
       "assessmentPrompt": "If you fold a square piece of paper into four equal parts, can {{name}} tell you that each part is a quarter — and point to just one quarter?",
       "standards": [
+        "acara-v9:AC9M2M02",
         "uk-nc-2013:Maths/Y1/F/2"
       ]
     },
@@ -12079,7 +12174,7 @@
       "name": "What Is a Half?",
       "description": "Recognise, find, and name a half as one of two equal parts of an object, shape, or quantity",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.3631578947368421,
       "evidence": [
         "Fold a shape into two equal parts and identify each as 'a half'",
@@ -12088,6 +12183,8 @@
       ],
       "assessmentPrompt": "If {{name}} is helping share a sandwich equally between two people, can they cut it so both pieces are the same size — and tell you each piece is called a half?",
       "standards": [
+        "acara-v9:AC9M2M02",
+        "acara-v9:AC9M2N03",
         "uk-nc-2013:Maths/Y1/F/1"
       ]
     },
@@ -12099,7 +12196,7 @@
       "name": "Decomposing a shape into more equal shares",
       "description": "Understand that decomposing a shape into more equal shares creates smaller shares",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.2328947368421053,
       "evidence": [
         "Explain that a quarter of a pizza is smaller than a half of the same pizza",
@@ -12108,6 +12205,7 @@
       ],
       "assessmentPrompt": "If a pizza is shared between 2 people and then the same pizza is shared between 8 people, can {{name}} explain why each slice is smaller when more people share it?",
       "standards": [
+        "acara-v9:AC9M2N03",
         "ccss-math:1.G.3"
       ]
     },
@@ -12159,7 +12257,7 @@
       "name": "Halves & Quarters of Shapes",
       "description": "Partition circles and rectangles into two and four equal shares and describe them using the words halves, fourths, and quarters",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.2328947368421053,
       "evidence": [
         "Divide a circle into two equal halves",
@@ -12168,6 +12266,8 @@
       ],
       "assessmentPrompt": "If you give {{name}} a round pizza or a rectangular chocolate bar, can they divide it into four equal pieces and tell you each piece is called a quarter or a fourth?",
       "standards": [
+        "acara-v9:AC9M2M02",
+        "acara-v9:AC9M2N03",
         "ccss-math:1.G.3"
       ]
     },
@@ -12279,7 +12379,7 @@
       "name": "Simple Fraction Sums",
       "description": "Add and subtract fractions with the same denominator within one whole (e.g. 5/7 + 1/7 = 6/7)",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.08552631578947369,
       "evidence": [
         "Calculate 2/5 + 2/5 = 4/5",
@@ -12288,6 +12388,7 @@
       ],
       "assessmentPrompt": "If a recipe calls for 2/8 of a cup of milk and then another 3/8 of a cup, can {{name}} work out the total without a calculator?",
       "standards": [
+        "acara-v9:AC9M3N02",
         "uk-nc-2013:Ma/KS2/Y3/F/5"
       ]
     },
@@ -12319,7 +12420,7 @@
       "name": "Tenths",
       "description": "Count up and down in tenths; recognise that tenths arise from dividing an object into 10 equal parts and from dividing one-digit numbers or quantities by 10",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.2578947368421053,
       "evidence": [
         "Count: one tenth, two tenths, three tenths … up to ten tenths (one whole)",
@@ -12328,6 +12429,8 @@
       ],
       "assessmentPrompt": "If {{name}} splits a chocolate bar with 10 equal pieces, can they tell you each piece is one tenth — and count up from 1/10 to 10/10 in order?",
       "standards": [
+        "acara-v9:AC9M3N02",
+        "acara-v9:AC9M4N04",
         "uk-nc-2013:Ma/KS2/Y3/F/1"
       ]
     },
@@ -12339,7 +12442,7 @@
       "name": "Unit fractions",
       "description": "Recognise, find, and write fractions of a discrete set of objects: unit fractions and non-unit fractions with small denominators",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.04342105263157895,
       "evidence": [
         "Find 1/4 of 12 objects by dividing into 4 equal groups",
@@ -12348,6 +12451,7 @@
       ],
       "assessmentPrompt": "If there are 15 books on a shelf, can {{name}} work out how many two-thirds of them is — and check by grouping the books into three equal piles?",
       "standards": [
+        "acara-v9:AC9M3N02",
         "uk-nc-2013:Ma/KS2/Y3/F/2"
       ]
     },
@@ -12359,7 +12463,7 @@
       "name": "Adding Fractions (Same Denominator)",
       "description": "Add and subtract fractions with the same denominator, including results greater than one whole (e.g. 5/8 + 6/8 = 11/8)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.07894736842105263,
       "evidence": [
         "Calculate 3/5 + 4/5 = 7/5 and explain it equals 1 2/5",
@@ -12368,6 +12472,7 @@
       ],
       "assessmentPrompt": "If a recipe uses 5/8 of a bag of flour and then another 6/8, can {{name}} work out the total and explain what the answer means as a mixed number?",
       "standards": [
+        "acara-v9:AC9M5N05",
         "uk-nc-2013:Ma/KS2/Y4/F/4"
       ]
     },
@@ -12399,7 +12504,7 @@
       "name": "Decimal equivalents of tenths and hundredths",
       "description": "Recognise and write decimal equivalents of any number of tenths or hundredths (e.g. 3/10 = 0.3, 27/100 = 0.27)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1486842105263158,
       "evidence": [
         "Write 7/10 as 0.7 and vice versa",
@@ -12408,6 +12513,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees 7/10 on a price label, can they rewrite it as a decimal — and do the same thing for 43/100?",
       "standards": [
+        "acara-v9:AC9M4N01",
+        "acara-v9:AC9M4N03",
         "uk-nc-2013:Ma/KS2/Y4/F/5"
       ]
     },
@@ -12500,7 +12607,7 @@
       "name": "Dividing by 10 and 100",
       "description": "Find the effect of dividing a one- or two-digit number by 10 and 100, identifying the value of the digits as ones, tenths, and hundredths",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.08026315789473684,
       "evidence": [
         "Calculate 37 ÷ 10 = 3.7 and identify 3 as ones and 7 as tenths",
@@ -12509,6 +12616,7 @@
       ],
       "assessmentPrompt": "If {{name}} starts with the number 48 and divides it by 10, can they tell you the answer — and explain what happened to each digit's place value?",
       "standards": [
+        "acara-v9:AC9M4N01",
         "uk-nc-2013:Ma/KS2/Y4/F/7"
       ]
     },
@@ -12520,7 +12628,7 @@
       "name": "Equivalent fractions (age 8+)",
       "description": "Generate simple equivalent fractions and explain why they are equivalent using visual fraction models",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.2210526315789474,
       "evidence": [
         "Given 1/3, generate 2/6 as equivalent and show with area model",
@@ -12529,6 +12637,7 @@
       ],
       "assessmentPrompt": "If {{name}} is shown a fraction bar split into 3 parts with 1 shaded (= 1/3), can they draw an equivalent bar with 6 parts that shows exactly the same amount shaded?",
       "standards": [
+        "acara-v9:AC9M4N03",
         "ccss-math:3.NF.3.b"
       ]
     },
@@ -12540,7 +12649,7 @@
       "name": "Equivalent fractions on a number line",
       "description": "Understand two fractions as equivalent if they are the same size or the same point on a number line; recognise and show families of common equivalent fractions using diagrams",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.225,
       "evidence": [
         "Use fraction strips to show 1/2 = 2/4 = 3/6",
@@ -12549,6 +12658,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees that 2/4 and 1/2 land on the exact same point on a number line, can they explain in their own words why those two fractions are equal?",
       "standards": [
+        "acara-v9:AC9M4N03",
+        "acara-v9:AC9M6N03",
         "ccss-math:3.NF.3.a",
         "uk-nc-2013:Ma/KS2/Y4/F/1"
       ]
@@ -12561,7 +12672,7 @@
       "name": "Fraction-Decimal Equivalents",
       "description": "Recognise and write decimal equivalents of 1/4, 1/2, and 3/4",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.08157894736842106,
       "evidence": [
         "State that 1/2 = 0.5, 1/4 = 0.25, 3/4 = 0.75",
@@ -12570,6 +12681,7 @@
       ],
       "assessmentPrompt": "If a recipe calls for 3/4 of a cup of flour, can {{name}} tell you what that is as a decimal — without looking it up?",
       "standards": [
+        "acara-v9:AC9M4N03",
         "uk-nc-2013:Ma/KS2/Y4/F/6"
       ]
     },
@@ -12601,7 +12713,7 @@
       "name": "Fractions of amounts (harder)",
       "description": "Solve problems involving increasingly harder fractions to calculate quantities, including non-unit fractions where the answer is a whole number",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.03026315789473684,
       "evidence": [
         "Find 3/5 of 20",
@@ -12610,6 +12722,7 @@
       ],
       "assessmentPrompt": "If 3/4 of a class of 28 pupils brought their homework in, can {{name}} work out exactly how many pupils that is?",
       "standards": [
+        "acara-v9:AC9M6N07",
         "uk-nc-2013:Ma/KS2/Y4/F/3"
       ]
     },
@@ -12630,6 +12743,7 @@
       ],
       "assessmentPrompt": "If you cut a pizza into 6 equal slices, can {{name}} explain what 1/6 means — and then work out what 4/6 of the pizza looks like?",
       "standards": [
+        "acara-v9:AC9M3N02",
         "ccss-math:3.NF.1"
       ]
     },
@@ -12650,6 +12764,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to write the number 3 as a fraction, can they write 3/1 — and also tell you what fraction equals exactly 1 whole, like 4/4 or 5/5?",
       "standards": [
+        "acara-v9:AC9M3N02",
         "ccss-math:3.NF.3.c"
       ]
     },
@@ -12661,7 +12776,7 @@
       "name": "Fractions on a number line (age 8+)",
       "description": "Represent fractions on a number line: partition the interval 0 to 1 into b equal parts to locate 1/b, then mark off a lengths of 1/b from 0 to locate a/b",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.2157894736842105,
       "evidence": [
         "Partition a 0-to-1 number line into 4 equal parts and mark 1/4",
@@ -12673,6 +12788,9 @@
       ],
       "assessmentPrompt": "If {{name}} draws a number line from 0 to 1 split into 5 equal parts, can they label where 2/5 and 4/5 go — and explain how they worked it out?",
       "standards": [
+        "acara-v9:AC9M4N04",
+        "acara-v9:AC9M5N03",
+        "acara-v9:AC9M6N03",
         "ccss-math:3.NF.2.a",
         "ccss-math:3.NF.2.b"
       ]
@@ -12685,7 +12803,7 @@
       "name": "Tenths (age 8+)",
       "description": "Count up and down in hundredths; recognise that hundredths arise when dividing an object by 100 or dividing tenths by 10",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1486842105263158,
       "evidence": [
         "Count from 3/100 to 12/100 in hundredths",
@@ -12694,6 +12812,7 @@
       ],
       "assessmentPrompt": "If {{name}} has £1 and spends 37p, can they say that 37p is 37/100 of a pound — and count up in hundredths from 0/100 to 100/100?",
       "standards": [
+        "acara-v9:AC9M4N01",
         "uk-nc-2013:Ma/KS2/Y4/F/2"
       ]
     },
@@ -12705,7 +12824,7 @@
       "name": "Adding and subtracting mixed numbers",
       "description": "Add and subtract mixed numbers with like denominators, including by converting to improper fractions or using properties of operations",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.03289473684210526,
       "evidence": [
         "Calculate 2 3/5 + 1 4/5 and express as a mixed number",
@@ -12714,6 +12833,7 @@
       ],
       "assessmentPrompt": "If a recipe calls for 1 and 2/5 cups of oats and another batch needs 2 and 3/5 cups, can {{name}} add them together to get the total — including converting when the fifths add up past a whole?",
       "standards": [
+        "acara-v9:AC9M5N05",
         "ccss-math:4.NF.3.c"
       ]
     },
@@ -12725,7 +12845,7 @@
       "name": "Adding fractions (different denominators)",
       "description": "Add and subtract fractions with denominators that are multiples of the same number by finding a common denominator",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.08421052631578947,
       "evidence": [
         "Calculate 1/3 + 1/6 by converting to sixths: 2/6 + 1/6 = 3/6 = 1/2",
@@ -12734,6 +12854,8 @@
       ],
       "assessmentPrompt": "If {{name}} needs to add 1/3 and 1/6, can they find a common denominator and work out the total — showing their working?",
       "standards": [
+        "acara-v9:AC9M5N05",
+        "acara-v9:AC9M6N05",
         "uk-nc-2013:Ma5/2.4d"
       ]
     },
@@ -12745,7 +12867,7 @@
       "name": "Addition and subtraction word problems",
       "description": "Solve word problems involving addition and subtraction of fractions with like denominators, using visual models and equations",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.03289473684210526,
       "evidence": [
         "A jug contains 3/4 litre of juice; 2/4 litre is poured out — how much remains?",
@@ -12754,6 +12876,7 @@
       ],
       "assessmentPrompt": "If {{name}} reads that one section of a nature trail is 3/8 km and another is 5/8 km, can they work out the total distance without a calculator?",
       "standards": [
+        "acara-v9:AC9M5N05",
         "ccss-math:4.NF.3.d"
       ]
     },
@@ -12765,7 +12888,7 @@
       "name": "Comparing Decimals",
       "description": "Compare two decimals to hundredths (or up to three decimal places) by reasoning about size using place-value understanding; record with >, =, <",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.1118421052631579,
       "evidence": [
         "Compare 0.45 and 0.405 and explain which is greater",
@@ -12774,6 +12897,7 @@
       ],
       "assessmentPrompt": "If {{name}} compares 0.45 and 0.54, can they use place value to explain which is bigger — without reaching for a calculator?",
       "standards": [
+        "acara-v9:AC9M5N01",
         "ccss-math:4.NF.7",
         "uk-nc-2013:Ma5/2.4i"
       ]
@@ -12786,7 +12910,7 @@
       "name": "Comparing fractions (age 9+)",
       "description": "Compare and order fractions with different numerators and denominators by creating common denominators/numerators or comparing to a benchmark such as 1/2; justify conclusions with visual models",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.06184210526315789,
       "evidence": [
         "Compare 3/8 and 5/12 by finding a common denominator of 24",
@@ -12795,6 +12919,8 @@
       ],
       "assessmentPrompt": "If {{name}} has eaten 2/3 of their lunch and a friend has eaten 3/4 of theirs, can they work out who's eaten more — by finding a common way to compare the fractions?",
       "standards": [
+        "acara-v9:AC9M5N03",
+        "acara-v9:AC9M6N03",
         "ccss-math:4.NF.2",
         "uk-nc-2013:Ma5/2.4a"
       ]
@@ -12827,7 +12953,7 @@
       "name": "Decimal place value (age 9+)",
       "description": "Round decimals with two decimal places to the nearest whole number and to one decimal place",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Round 3.47 to the nearest whole number (3) and to 1 d.p. (3.5)",
@@ -12836,6 +12962,7 @@
       ],
       "assessmentPrompt": "If {{name}} measures a length as 4.67 m, can they round it to the nearest whole metre — and also to the nearest tenth of a metre?",
       "standards": [
+        "acara-v9:AC9M6N04",
         "uk-nc-2013:Ma5/2.4h"
       ]
     },
@@ -12856,6 +12983,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a price tag showing £0.65, can they rewrite it as a fraction — and go the other way, turning 47/100 into a decimal?",
       "standards": [
+        "acara-v9:AC9M4N01",
         "ccss-math:4.NF.6",
         "uk-nc-2013:Ma5/2.4f"
       ]
@@ -12868,7 +12996,7 @@
       "name": "Decimals to three places",
       "description": "Solve problems involving numbers with up to three decimal places",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.04868421052631579,
       "evidence": [
         "Calculate the total of three measurements: 1.234 m + 0.567 m + 2.199 m",
@@ -12877,6 +13005,7 @@
       ],
       "assessmentPrompt": "If {{name}} is filling a tank that holds 5.000 litres and has poured in 2.375 litres, can they work out how much more is needed to fill it?",
       "standards": [
+        "acara-v9:AC9M6N04",
         "uk-nc-2013:Ma5/2.4j"
       ]
     },
@@ -12897,6 +13026,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to make 2/3 look different without changing its value, can they multiply the top and bottom by the same number and explain why the fraction stays the same?",
       "standards": [
+        "acara-v9:AC9M4N03",
         "ccss-math:4.NF.1",
         "uk-nc-2013:Ma5/2.4b"
       ]
@@ -12950,7 +13080,7 @@
       "name": "Mixed numbers and improper fractions",
       "description": "Recognise mixed numbers and improper fractions; convert from one form to the other (e.g. 2/5 + 4/5 = 6/5 = 1 1/5)",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.06184210526315789,
       "evidence": [
         "Convert 11/4 to 2 3/4",
@@ -12959,6 +13089,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees the fraction 9/4, can they convert it to a mixed number — and then turn 2 and 3/5 back into an improper fraction?",
       "standards": [
+        "acara-v9:AC9M4N04",
+        "acara-v9:AC9M5N03",
         "uk-nc-2013:Ma5/2.4c"
       ]
     },
@@ -12993,7 +13125,7 @@
       "name": "Percentage and decimal equivalents",
       "description": "Solve problems requiring knowledge of percentage and decimal equivalents of 1/2, 1/4, 1/5, 2/5, 4/5 and fractions with denominators that are multiples of 10 or 25",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.0881578947368421,
       "evidence": [
         "State that 1/5 = 20% = 0.2 and use this to find 20% of 60",
@@ -13002,6 +13134,7 @@
       ],
       "assessmentPrompt": "If {{name}} knows that 1/4 = 25% = 0.25, can they use that to work out 25% of £80 — and also find 4/5 of 60 sweets?",
       "standards": [
+        "acara-v9:AC9M5N04",
         "uk-nc-2013:Ma5/2.4l"
       ]
     },
@@ -13013,7 +13146,7 @@
       "name": "Tenths (age 9+)",
       "description": "Recognise and use thousandths; relate them to tenths, hundredths, and their decimal equivalents (e.g. 1/1000 = 0.001, 35/1000 = 0.035)",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.131578947368421,
       "evidence": [
         "Write 0.025 as 25/1000",
@@ -13022,6 +13155,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees the decimal 0.003, can they write it as a fraction and tell you roughly where it sits on a number line between 0 and 0.01?",
       "standards": [
+        "acara-v9:AC9M5N01",
         "uk-nc-2013:Ma5/2.4g"
       ]
     },
@@ -13042,6 +13176,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
       "standards": [
+        "acara-v9:AC9M4N04",
         "ccss-math:4.NF.3"
       ]
     },
@@ -13053,7 +13188,7 @@
       "name": "Understanding Percentages",
       "description": "Understand the per cent symbol (%); know that per cent means ‘number of parts per hundred’; write percentages as a fraction with denominator 100 and as a decimal",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.0881578947368421,
       "evidence": [
         "Write 35% as 35/100 and as 0.35",
@@ -13062,6 +13197,7 @@
       ],
       "assessmentPrompt": "If a shop advertises 50% off, can {{name}} explain that this means half price — and write 50% as both a fraction and a decimal?",
       "standards": [
+        "acara-v9:AC9M5N04",
         "uk-nc-2013:Ma5/2.4k"
       ]
     },
@@ -13073,7 +13209,7 @@
       "name": "Adding Fractions (Unlike Denominators)",
       "description": "Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivalent fractions to produce a common denominator",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1026315789473684,
       "evidence": [
         "Compute 2/3 + 5/4 by converting to twelfths: 8/12 + 15/12 = 23/12",
@@ -13082,6 +13218,7 @@
       ],
       "assessmentPrompt": "If a recipe uses 2/3 of a cup of one ingredient and 3/4 of another, can {{name}} add those fractions together — even though the denominators are different?",
       "standards": [
+        "acara-v9:AC9M6N05",
         "ccss-math:5.NF.1",
         "uk-nc-2013:Ma6/2.3c"
       ]
@@ -13114,7 +13251,7 @@
       "name": "Comparing fractions (age 10+)",
       "description": "Compare and order fractions including fractions greater than 1, by converting to common denominators or using benchmarks",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05789473684210526,
       "evidence": [
         "Order 3/4, 7/8, 5/6, and 11/12 from smallest to largest",
@@ -13123,6 +13260,8 @@
       ],
       "assessmentPrompt": "If {{name}} needs to sort 5/3, 7/4, and 2/1 in order from smallest to biggest, can they convert them to a common denominator and order them correctly?",
       "standards": [
+        "acara-v9:AC9M5N03",
+        "acara-v9:AC9M6N03",
         "uk-nc-2013:Ma6/2.3b"
       ]
     },
@@ -13227,6 +13366,7 @@
       ],
       "assessmentPrompt": "If {{name}} shares 3 pizzas equally among 4 friends, can they work out what fraction each person gets — and explain why 3 ÷ 4 gives the same answer as 3/4?",
       "standards": [
+        "acara-v9:AC9M5N07",
         "ccss-math:5.NF.3",
         "uk-nc-2013:Ma6/2.3f"
       ]
@@ -13239,7 +13379,7 @@
       "name": "Fraction Word Problems",
       "description": "Solve word problems involving addition and subtraction of fractions with unlike denominators, using visual models and benchmark fractions to estimate and assess reasonableness",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06710526315789474,
       "evidence": [
         "Solve: 'Tara ate 2/5 of a pizza and Sam ate 1/3. How much did they eat together?'",
@@ -13248,6 +13388,8 @@
       ],
       "assessmentPrompt": "If {{name}} walks 1 and 1/2 miles to school and 3/4 of a mile to a friend's house, can they work out the total distance — and check whether their answer makes sense?",
       "standards": [
+        "acara-v9:AC9M6N05",
+        "acara-v9:AC9M6N08",
         "ccss-math:5.NF.2"
       ]
     },
@@ -13281,7 +13423,7 @@
       "name": "Multiplying fractions (age 10+)",
       "description": "Multiply a fraction or whole number by a fraction, including proper fractions by proper fractions; interpret (a/b) × q as a parts of q partitioned into b equal parts; write answers in simplest form",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1039473684210526,
       "evidence": [
         "Compute (2/3) × (4/5) = 8/15 and show with an area model",
@@ -13290,6 +13432,7 @@
       ],
       "assessmentPrompt": "If a recipe uses 2/3 of a bag of flour and {{name}} only wants to make 3/4 of the recipe, can they multiply those fractions to find out how much flour they need?",
       "standards": [
+        "acara-v9:AC9M6N07",
         "ccss-math:5.NF.4",
         "ccss-math:5.NF.4.a",
         "uk-nc-2013:Ma6/2.3d"
@@ -13303,7 +13446,7 @@
       "name": "Real-world fraction multiplication",
       "description": "Solve real-world problems involving multiplication of fractions and mixed numbers, using visual fraction models or equations",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1026315789473684,
       "evidence": [
         "Solve: 'A recipe needs 2 1/3 cups of flour; you want to make 1 1/2 batches. How much flour?'",
@@ -13312,6 +13455,7 @@
       ],
       "assessmentPrompt": "If a recipe makes 12 biscuits using 1 and 1/2 cups of sugar, and {{name}} wants to make only 2/3 of the recipe, can they work out how much sugar they need?",
       "standards": [
+        "acara-v9:AC9M6N09",
         "ccss-math:5.NF.6"
       ]
     },
@@ -13437,6 +13581,7 @@
       ],
       "assessmentPrompt": "Can {{name}} point to shapes around the house — like a clock, a window, or a pizza — and correctly name whether each is a circle, triangle, rectangle, or square?",
       "standards": [
+        "acara-v9:AC9MFSP01",
         "ccss-math:K.G.2",
         "uk-nc-2013:Maths/Y1/GPS/1"
       ]
@@ -13458,6 +13603,7 @@
       ],
       "assessmentPrompt": "Can {{name}} name common 3-D shapes they find around them — like a tin of beans (cylinder), a ball (sphere), or a dice (cube)?",
       "standards": [
+        "acara-v9:AC9MFSP01",
         "ccss-math:K.G.1",
         "ccss-math:K.G.3",
         "uk-nc-2013:Maths/Y1/GPS/2"
@@ -13480,6 +13626,7 @@
       ],
       "assessmentPrompt": "Can {{name}} give directions to find something around the house using words like \"above,\" \"below,\" \"beside,\" \"in front of,\" or \"behind\"?",
       "standards": [
+        "acara-v9:AC9MFSP02",
         "ccss-math:K.G.1",
         "uk-nc-2013:Maths/Y1/GPD/1"
       ]
@@ -13501,6 +13648,7 @@
       ],
       "assessmentPrompt": "Can {{name}} describe what makes two shapes different — for example, explaining that a triangle has 3 corners and 3 sides while a square has 4 of each?",
       "standards": [
+        "acara-v9:AC9MFSP01",
         "ccss-math:K.G.4"
       ]
     },
@@ -13521,6 +13669,7 @@
       ],
       "assessmentPrompt": "Can {{name}} build or draw a shape they've been shown — for example, making a cube from folded paper or copying a triangle onto dot paper?",
       "standards": [
+        "acara-v9:AC9MFSP01",
         "ccss-math:K.G.5"
       ]
     },
@@ -13565,6 +13714,28 @@
       ]
     },
     {
+      "id": "mt_WXW0hjNhph",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Geometry",
+      "name": "Patterns & Sequences",
+      "description": "Order and arrange combinations of mathematical objects in patterns and sequences",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 7,
+      "centrality": 0.003947368421052632,
+      "evidence": [
+        "Continue a repeating pattern of shapes or colours",
+        "Describe the rule for a given sequence of objects",
+        "Create own patterns and sequences using mathematical objects"
+      ],
+      "assessmentPrompt": "Can {{name}} spot a repeating pattern made of shapes or objects and continue it, or create their own repeating pattern?",
+      "standards": [
+        "acara-v9:AC9M1A02",
+        "acara-v9:AC9MFA01",
+        "uk-nc-2013:Maths/Y2/GPD/1"
+      ]
+    },
+    {
       "id": "mt_Y9XKzLrUAZ",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -13572,7 +13743,7 @@
       "name": "Turns & Directions",
       "description": "Describe movement and direction, including whole, half, quarter, and three-quarter turns",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.1539473684210526,
       "evidence": [
         "Follow instructions to move forward, backward, turn left/right",
@@ -13581,6 +13752,8 @@
       ],
       "assessmentPrompt": "If {{name}} is playing a game where they have to turn left or right, do they understand what a quarter turn, half turn, and full turn mean?",
       "standards": [
+        "acara-v9:AC9M1SP02",
+        "acara-v9:AC9M2M05",
         "uk-nc-2013:Maths/Y1/GPD/1"
       ]
     },
@@ -13612,7 +13785,7 @@
       "name": "2-D shapes (age 6+)",
       "description": "Identify and describe properties of 2-D shapes including the number of sides and line symmetry in a vertical line",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.1842105263157895,
       "evidence": [
         "Count the number of sides of a given 2-D shape",
@@ -13621,6 +13794,8 @@
       ],
       "assessmentPrompt": "Can {{name}} count the sides of a shape and say whether it has a line of symmetry — for example, knowing that a rectangle is symmetrical but a scalene triangle is not?",
       "standards": [
+        "acara-v9:AC9M2SP01",
+        "acara-v9:AC9M4SP03",
         "uk-nc-2013:Maths/Y2/GPS/1"
       ]
     },
@@ -13632,7 +13807,7 @@
       "name": "Building with 3-D Shapes",
       "description": "Compose three-dimensional shapes (cubes, right rectangular prisms, right circular cones, right circular cylinders) and create composite shapes; build new shapes from component shapes",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.005263157894736842,
       "evidence": [
         "Stack cubes and prisms to build towers or structures",
@@ -13641,6 +13816,8 @@
       ],
       "assessmentPrompt": "Can {{name}} combine 3-D shapes — like stacking cubes and cylinders — to build a new composite solid?",
       "standards": [
+        "acara-v9:AC9M1SP01",
+        "acara-v9:AC9M4SP01",
         "ccss-math:1.G.2"
       ]
     },
@@ -13652,7 +13829,7 @@
       "name": "Composing Shapes",
       "description": "Compose two-dimensional shapes (rectangles, squares, trapezoids, triangles, half-circles, quarter-circles) to create composite shapes, and compose new shapes from the composite shape",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.005263157894736842,
       "evidence": [
         "Combine two triangles to form a rectangle or larger triangle",
@@ -13661,6 +13838,8 @@
       ],
       "assessmentPrompt": "Can {{name}} use flat shapes like triangles and rectangles to fit together and make a new larger shape — like a puzzle?",
       "standards": [
+        "acara-v9:AC9M1SP01",
+        "acara-v9:AC9M4SP01",
         "ccss-math:1.G.2"
       ]
     },
@@ -13681,6 +13860,7 @@
       ],
       "assessmentPrompt": "Does {{name}} understand that what makes a shape a triangle is having 3 sides and 3 corners — not its colour or which way it's pointing?",
       "standards": [
+        "acara-v9:AC9M1SP01",
         "ccss-math:1.G.1"
       ]
     },
@@ -13692,7 +13872,7 @@
       "name": "Edges, vertices, and faces",
       "description": "Identify and describe properties of 3-D shapes including the number of edges, vertices, and faces",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.03289473684210526,
       "evidence": [
         "Count the edges, vertices, and faces of common 3-D shapes",
@@ -13701,27 +13881,8 @@
       ],
       "assessmentPrompt": "Can {{name}} count the faces, edges, and vertices of a 3-D shape like a cube or triangular prism?",
       "standards": [
+        "acara-v9:AC9M3SP01",
         "uk-nc-2013:Maths/Y2/GPS/2"
-      ]
-    },
-    {
-      "id": "mt_WXW0hjNhph",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Geometry",
-      "name": "Patterns & Sequences",
-      "description": "Order and arrange combinations of mathematical objects in patterns and sequences",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
-      "centrality": 0.003947368421052632,
-      "evidence": [
-        "Continue a repeating pattern of shapes or colours",
-        "Describe the rule for a given sequence of objects",
-        "Create own patterns and sequences using mathematical objects"
-      ],
-      "assessmentPrompt": "Can {{name}} spot a repeating pattern made of shapes or objects and continue it, or create their own repeating pattern?",
-      "standards": [
-        "uk-nc-2013:Maths/Y2/GPD/1"
       ]
     },
     {
@@ -13732,7 +13893,7 @@
       "name": "Position, direction, and movement",
       "description": "Use mathematical vocabulary to describe position, direction, and movement, including straight lines and distinguishing rotation as a turn in terms of right angles (quarter, half, three-quarter turns, clockwise and anti-clockwise)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.1539473684210526,
       "evidence": [
         "Use terms such as clockwise, anti-clockwise, quarter turn, half turn, three-quarter turn",
@@ -13741,6 +13902,9 @@
       ],
       "assessmentPrompt": "Can {{name}} follow directions like \"turn clockwise a quarter turn\" or \"move three squares to the right\" on a grid or in a simple navigation game?",
       "standards": [
+        "acara-v9:AC9M1SP02",
+        "acara-v9:AC9M2M05",
+        "acara-v9:AC9M2SP02",
         "uk-nc-2013:Maths/Y2/GPD/2"
       ]
     },
@@ -13752,7 +13916,7 @@
       "name": "Sorting 2-D and 3-D shapes",
       "description": "Compare and sort common 2-D and 3-D shapes and everyday objects by their properties",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.007894736842105263,
       "evidence": [
         "Sort a collection of 2-D shapes by number of sides",
@@ -13761,6 +13925,9 @@
       ],
       "assessmentPrompt": "Can {{name}} sort a collection of shapes into groups — for example, separating all the shapes with curved sides from those with only straight sides?",
       "standards": [
+        "acara-v9:AC9M1SP01",
+        "acara-v9:AC9M2SP01",
+        "acara-v9:AC9M3SP01",
         "uk-nc-2013:Maths/Y2/GPS/4"
       ]
     },
@@ -13772,7 +13939,7 @@
       "name": "2-D shapes (age 7+)",
       "description": "Draw 2-D shapes and make 3-D shapes using modelling materials; recognise 3-D shapes in different orientations and describe them",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Draw a triangle, rectangle, pentagon, or hexagon accurately",
@@ -13781,6 +13948,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a cube to look at, can they draw it on paper — and then make a cube-shaped model from modelling clay or construction materials?",
       "standards": [
+        "acara-v9:AC9M3SP01",
         "uk-nc-2013:Ma/KS2/Y3/GPS/1"
       ]
     },
@@ -13801,6 +13969,7 @@
       ],
       "assessmentPrompt": "If {{name}} looks at a set of railway tracks or a window frame, can they point to which lines are parallel (never crossing) and which are perpendicular (meeting at a right angle)?",
       "standards": [
+        "acara-v9:AC9M2SP01",
         "uk-nc-2013:Ma/KS2/Y3/GPS/4"
       ]
     },
@@ -13821,6 +13990,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given instructions like \"draw a shape with 5 sides\" or \"draw a shape with all equal angles,\" can they draw it correctly?",
       "standards": [
+        "acara-v9:AC9M2SP01",
         "ccss-math:2.G.1"
       ]
     },
@@ -13832,7 +14002,7 @@
       "name": "Right Angles & Turns",
       "description": "Identify right angles; recognise that two right angles make a half-turn, three make three-quarters, and four make a complete turn",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.1421052631578947,
       "evidence": [
         "Use a right-angle checker to identify right angles in shapes and the environment",
@@ -13841,6 +14011,8 @@
       ],
       "assessmentPrompt": "If {{name}} looks at the corner of a piece of paper, can they tell you that's a right angle — and that spinning all the way round takes four right angles?",
       "standards": [
+        "acara-v9:AC9M3M05",
+        "acara-v9:AC9M4M04",
         "uk-nc-2013:Ma/KS2/Y3/GPS/3"
       ]
     },
@@ -13852,7 +14024,7 @@
       "name": "Understanding angles",
       "description": "Recognise angles as a property of shape or a description of a turn",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1407894736842105,
       "evidence": [
         "Identify angles at the corners of 2-D shapes",
@@ -13861,6 +14033,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to point to an angle on the corner of a book or door frame, can they find it — and explain that swinging a door open is also a kind of turn (angle)?",
       "standards": [
+        "acara-v9:AC9M3M05",
         "uk-nc-2013:Ma/KS2/Y3/GPS/2"
       ]
     },
@@ -13884,6 +14057,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a picture of a butterfly or a star shape, can they draw the line (or lines) where you could fold it exactly in half so both sides match?",
       "standards": [
+        "acara-v9:AC9M4SP03",
         "ccss-math:4.G.3",
         "uk-nc-2013:Ma/KS2/Y4/GPS/3"
       ]
@@ -13917,7 +14091,7 @@
       "name": "Coordinates (age 8+)",
       "description": "Plot specified points on a coordinate grid and draw sides to complete a given polygon",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.05,
       "evidence": [
         "Plot points (1,1), (1,4), (5,4), (5,1) and join to make a rectangle",
@@ -13926,6 +14100,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given three coordinate pairs on a grid, can they plot each point and then connect the dots to draw the correct triangle or rectangle?",
       "standards": [
+        "acara-v9:AC9M5SP02",
         "uk-nc-2013:Ma/KS2/Y4/GPD/3"
       ]
     },
@@ -13937,7 +14112,7 @@
       "name": "Describing Movements",
       "description": "Describe movements between positions as translations of a given unit to the left/right and up/down",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.01842105263157895,
       "evidence": [
         "Describe moving from (2,3) to (5,3) as 3 units to the right",
@@ -13946,6 +14121,8 @@
       ],
       "assessmentPrompt": "If a shape is at position (2, 3) on a grid and you tell {{name}} to move it four squares right and two squares up, can they work out its new position without drawing it first?",
       "standards": [
+        "acara-v9:AC9M5SP02",
+        "acara-v9:AC9M6SP02",
         "uk-nc-2013:Ma/KS2/Y4/GPD/2"
       ]
     },
@@ -13957,7 +14134,7 @@
       "name": "First Quadrant Coordinates",
       "description": "Describe positions on a 2-D grid as coordinates in the first quadrant",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.05789473684210526,
       "evidence": [
         "Read the coordinates of a point on a grid as (3, 5)",
@@ -13966,6 +14143,7 @@
       ],
       "assessmentPrompt": "If {{name}} is playing a grid-based treasure map game, can they correctly say where the treasure is using two numbers — like \"three across and four up\" — from the corner?",
       "standards": [
+        "acara-v9:AC9M5SP02",
         "uk-nc-2013:Ma/KS2/Y4/GPD/1"
       ]
     },
@@ -13977,7 +14155,7 @@
       "name": "Lines of symmetry",
       "description": "Complete a simple symmetric figure with respect to a specific line of symmetry",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01447368421052632,
       "evidence": [
         "Given half a butterfly shape and a mirror line, complete the other half on a grid",
@@ -13986,6 +14164,7 @@
       ],
       "assessmentPrompt": "If you show {{name}} half a shape drawn on squared paper with a mirror line marked, can they draw the missing half so the whole shape is perfectly symmetrical?",
       "standards": [
+        "acara-v9:AC9M4SP03",
         "uk-nc-2013:Ma/KS2/Y4/GPS/4"
       ]
     },
@@ -14006,6 +14185,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a flat T-shaped piece of card with six squares, can they tell you — before folding — that it makes a cube, and point out which square will become each face?",
       "standards": [
+        "acara-v9:AC9M5SP01",
         "uk-nc-2013:Ma6/4.1b"
       ]
     },
@@ -14026,6 +14206,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees a shape and its mirror image on squared paper, can they draw in the exact mirror line, and describe the reflection precisely — including where the line of reflection is — without just saying 'it flipped'?",
       "standards": [
+        "acara-v9:AC9M5SP03",
+        "acara-v9:AC9M6SP03",
         "uk-nc-2013:KS3.Maths.Geo.8"
       ]
     },
@@ -14037,7 +14219,7 @@
       "name": "Types of angles",
       "description": "Identify acute and obtuse angles; compare and order angles up to two right angles by size",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1381578947368421,
       "evidence": [
         "Classify given angles as acute, right, or obtuse",
@@ -14046,6 +14228,7 @@
       ],
       "assessmentPrompt": "If {{name}} looks at the hands on a clock showing different times, can they tell you which angle between the hands is acute (sharper than a right angle) and which is obtuse (wider)?",
       "standards": [
+        "acara-v9:AC9M4M04",
         "uk-nc-2013:Ma/KS2/Y4/GPS/2"
       ]
     },
@@ -14098,7 +14281,7 @@
       "name": "Angle Sum Rules",
       "description": "Know that angles at a point sum to 360° (one whole turn), angles on a straight line sum to 180°, and vertically opposite angles are equal; use these facts to find missing angles",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.06842105263157895,
       "evidence": [
         "State that two angles on a straight line add to 180°",
@@ -14107,6 +14290,7 @@
       ],
       "assessmentPrompt": "If three angles meet at a point and two of them are 120° and 95°, can {{name}} work out the third angle — knowing all the angles at a point add up to 360°?",
       "standards": [
+        "acara-v9:AC9M6M04",
         "uk-nc-2013:Ma5/4.1d",
         "uk-nc-2013:Ma5/4.1e",
         "uk-nc-2013:Ma5/4.1f"
@@ -14140,7 +14324,7 @@
       "name": "Degrees and turns",
       "description": "Know that angles are measured in degrees, where one degree is 1/360 of a full turn; understand that an angle turning through n one-degree angles has a measure of n degrees",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.1078947368421053,
       "evidence": [
         "Explain that a full turn is 360° and a right angle is 90°",
@@ -14149,6 +14333,7 @@
       ],
       "assessmentPrompt": "If {{name}} knows a full circle is 360 degrees, can they tell you how many degrees a quarter turn is — and explain roughly what one single degree looks like?",
       "standards": [
+        "acara-v9:AC9M5M04",
         "ccss-math:4.MD.5.a",
         "ccss-math:4.MD.5.b"
       ]
@@ -14161,7 +14346,7 @@
       "name": "Estimating Angles",
       "description": "Estimate and compare acute, obtuse, and reflex angles in degrees; classify angles by type and order them by size",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.06315789473684211,
       "evidence": [
         "Estimate an angle as approximately 130° and classify it as obtuse",
@@ -14170,6 +14355,7 @@
       ],
       "assessmentPrompt": "If you show {{name}} three different angles drawn on paper, can they estimate which is biggest, label each as acute, obtuse, or reflex — and then check with a protractor?",
       "standards": [
+        "acara-v9:AC9M5M04",
         "uk-nc-2013:Ma5/4.1b"
       ]
     },
@@ -14201,7 +14387,7 @@
       "name": "Measuring angles",
       "description": "Measure angles in whole-number degrees using a protractor; draw given angles and sketch angles of specified measure",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.08157894736842106,
       "evidence": [
         "Measure an angle with a protractor and read 47°",
@@ -14210,6 +14396,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a protractor and an angle drawn on paper, can they measure it accurately and then draw a new angle of a size you specify?",
       "standards": [
+        "acara-v9:AC9M5M04",
         "ccss-math:4.MD.6",
         "uk-nc-2013:Ma5/4.1c"
       ]
@@ -14262,7 +14449,7 @@
       "name": "Transformations on a Grid",
       "description": "Identify, describe, and represent the position of a shape following a reflection or translation using appropriate language; know that the shape has not changed",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.03157894736842105,
       "evidence": [
         "Reflect a triangle in a vertical mirror line on a coordinate grid and state the new coordinates",
@@ -14271,6 +14458,7 @@
       ],
       "assessmentPrompt": "If {{name}} slides or flips a shape on squared paper, can they describe exactly where it ends up and confirm the shape itself hasn't changed size or angles?",
       "standards": [
+        "acara-v9:AC9M5SP03",
         "uk-nc-2013:Ma5/4.2a"
       ]
     },
@@ -14351,6 +14539,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given a flat cross-shaped piece of card (a net), can they predict what 3-D shape it will make when folded up — and then fold it to check?",
       "standards": [
+        "acara-v9:AC9M5SP01",
         "uk-nc-2013:Ma6/4.1b"
       ]
     },
@@ -14404,7 +14593,7 @@
       "name": "Coordinates (age 10+)",
       "description": "Describe positions on the full coordinate grid (all four quadrants); use coordinates with negative values",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.07631578947368421,
       "evidence": [
         "Plot points with negative coordinates such as (−3, 4) and (2, −5) on a four-quadrant grid",
@@ -14413,6 +14602,8 @@
       ],
       "assessmentPrompt": "If {{name}} is playing a game where ships can be at negative coordinates too, can they correctly plot and read positions like (−3, 2) or (1, −4) on a grid?",
       "standards": [
+        "acara-v9:AC9M6N01",
+        "acara-v9:AC9M6SP02",
         "uk-nc-2013:Ma6/4.2a"
       ]
     },
@@ -14453,6 +14644,7 @@
       ],
       "assessmentPrompt": "If you tell {{name}} a car journey passes through grid points (2, 3), (5, 7), and (8, 4) on a map, can they plot those points and describe what the journey looks like?",
       "standards": [
+        "acara-v9:AC9M5SP02",
         "ccss-math:5.G.2"
       ]
     },
@@ -14473,6 +14665,7 @@
       ],
       "assessmentPrompt": "If {{name}} looks at a map with a grid and you describe a location as \"3 across and 5 up from the origin\", can they find the exact point — and explain what each of the two numbers tells you?",
       "standards": [
+        "acara-v9:AC9M5SP02",
         "ccss-math:5.G.1"
       ]
     },
@@ -14484,7 +14677,7 @@
       "name": "Translating and reflecting shapes",
       "description": "Draw and translate simple shapes on the coordinate plane; reflect shapes in the axes",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06184210526315789,
       "evidence": [
         "Translate a triangle 3 units right and 2 units down on a coordinate grid and state the new coordinates",
@@ -14493,6 +14686,7 @@
       ],
       "assessmentPrompt": "If {{name}} draws a triangle at coordinates (1, 2), (3, 2), and (2, 4) on a grid, can they then reflect it across the x-axis and tell you the new coordinates of each corner?",
       "standards": [
+        "acara-v9:AC9M6SP02",
         "uk-nc-2013:Ma6/4.2b"
       ]
     },
@@ -14504,7 +14698,7 @@
       "name": "Understanding angles (age 10+)",
       "description": "Recognise angles where they meet at a point, are on a straight line, or are vertically opposite; find missing angles using these properties",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03552631578947368,
       "evidence": [
         "Find a missing angle at a point given the other angles (total 360°)",
@@ -14513,6 +14707,7 @@
       ],
       "assessmentPrompt": "If two straight lines cross each other, can {{name}} tell you which pairs of angles are equal (vertically opposite) — and find a missing angle if you give them one of the others?",
       "standards": [
+        "acara-v9:AC9M6M04",
         "uk-nc-2013:Ma6/4.1e"
       ]
     },
@@ -14533,6 +14728,7 @@
       ],
       "assessmentPrompt": "If {{name}} slices a cylinder straight across the middle like cutting a tin of beans in half, can they describe the shape of the cut surface? What about slicing at an angle?",
       "standards": [
+        "acara-v9:AC9M6SP01",
         "ccss-math:7.G.3",
         "uk-nc-2013:KS3.Maths.Geo.15"
       ]
@@ -15073,6 +15269,7 @@
       ],
       "assessmentPrompt": "When {{name}} solves a word problem by drawing a bar model or writing an equation, can they also explain what their answer means in the real-world context — like \"that means each child gets 4 sweets\"?",
       "standards": [
+        "acara-v9:AC9M1N05",
         "ccss-math:MP.4"
       ]
     },
@@ -15373,6 +15570,7 @@
       ],
       "assessmentPrompt": "When {{name}} solves a real-life maths problem — like calculating how much fabric is needed for a project — can they choose the right representation (a diagram, a table, an equation) and explain what the answer means in the real situation?",
       "standards": [
+        "acara-v9:AC9M2N06",
         "ccss-math:MP.4"
       ]
     },
@@ -15473,6 +15671,7 @@
       ],
       "assessmentPrompt": "When {{name}} is solving a real-life problem — like working out the area of a room in square metres — do they choose the right maths tool for the job and interpret the final number in terms of the real situation?",
       "standards": [
+        "acara-v9:AC9M3N06",
         "ccss-math:MP.4"
       ]
     },
@@ -15653,6 +15852,7 @@
       ],
       "assessmentPrompt": "When {{name}} is solving a real-world maths problem — like scaling a recipe or converting units — do they choose a sensible representation, carry out the maths, and then explain what the result means in the real situation?",
       "standards": [
+        "acara-v9:AC9M4N08",
         "ccss-math:MP.4"
       ]
     },
@@ -15824,7 +16024,7 @@
       "name": "Real-World Mathematical Modelling",
       "description": "Model real-world problems involving ratio, scale, volume, unit conversion, and proportional reasoning with appropriate tools, diagrams, or equations",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.2118421052631579,
       "evidence": [
         "Choose a bar model or double number line to represent a ratio problem and solve it",
@@ -15833,6 +16033,8 @@
       ],
       "assessmentPrompt": "When {{name}} uses maths to solve a real problem — like calculating the volume of a container or working out a percentage discount — do they decide how precise their answer needs to be and explain what it means in context?",
       "standards": [
+        "acara-v9:AC9M5N09",
+        "acara-v9:AC9M6N09",
         "ccss-math:MP.4"
       ]
     },
@@ -15864,7 +16066,7 @@
       "name": "Comparing Capacity",
       "description": "Compare and describe capacity and volume using language such as full, empty, more than, less than, half full",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2421052631578947,
       "evidence": [
         "Compare two containers and say which holds more/less",
@@ -15873,6 +16075,8 @@
       ],
       "assessmentPrompt": "If {{name}} has two cups of different sizes, can they tell you which holds more water — and describe one as \"more full\" or \"less full\" than the other?",
       "standards": [
+        "acara-v9:AC9M1M01",
+        "acara-v9:AC9MFM01",
         "ccss-math:K.MD.1",
         "uk-nc-2013:Maths/Y1/M/3"
       ]
@@ -15894,6 +16098,7 @@
       ],
       "assessmentPrompt": "If {{name}} finishes their dinner before a sibling, can they tell you who finished earlier — and which one was quicker?",
       "standards": [
+        "acara-v9:AC9MFM01",
         "uk-nc-2013:Maths/Y1/M/4"
       ]
     },
@@ -15914,6 +16119,7 @@
       ],
       "assessmentPrompt": "If {{name}} stands next to the kitchen table and the front door, can they tell you which is taller — and whether they themselves are shorter or taller than each one?",
       "standards": [
+        "acara-v9:AC9MFM01",
         "ccss-math:K.MD.1",
         "ccss-math:K.MD.2",
         "uk-nc-2013:Maths/Y1/M/1"
@@ -15936,6 +16142,7 @@
       ],
       "assessmentPrompt": "If {{name}} picks up a water bottle and a book, can they tell you which is heavier and which is taller — without any measuring tools?",
       "standards": [
+        "acara-v9:AC9MFM01",
         "ccss-math:K.MD.1"
       ]
     },
@@ -15947,7 +16154,7 @@
       "name": "Measuring mass and weight (age 4+)",
       "description": "Compare two objects directly by mass or weight and describe the difference using language such as heavy, light, heavier than, lighter than",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2421052631578947,
       "evidence": [
         "Heft two objects and say which is heavier/lighter",
@@ -15956,6 +16163,8 @@
       ],
       "assessmentPrompt": "If {{name}} holds a bag of apples in one hand and a feather in the other, can they tell you which is heavier and use words like \"much heavier than\" to describe the difference?",
       "standards": [
+        "acara-v9:AC9M1M01",
+        "acara-v9:AC9MFM01",
         "ccss-math:K.MD.1",
         "ccss-math:K.MD.2",
         "uk-nc-2013:Maths/Y1/M/2"
@@ -15969,7 +16178,7 @@
       "name": "Ordering Events in Time",
       "description": "Sequence events in chronological order using language such as before, after, next, first, today, yesterday, tomorrow, morning, afternoon, evening",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2144736842105263,
       "evidence": [
         "Order three daily events using 'first', 'next', 'last'",
@@ -15978,6 +16187,8 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to describe what happened this morning in order, can they use words like \"first\", \"then\", \"after that\" — putting breakfast before leaving for school?",
       "standards": [
+        "acara-v9:AC9M1M03",
+        "acara-v9:AC9MFM02",
         "uk-nc-2013:Maths/Y1/M/10"
       ]
     },
@@ -15989,7 +16200,7 @@
       "name": "Capacity and volume",
       "description": "Measure and begin to record capacity and volume using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.2421052631578947,
       "evidence": [
         "Measure capacity by counting how many cups fill a container",
@@ -15998,6 +16209,7 @@
       ],
       "assessmentPrompt": "If {{name}} fills a jug using a small cup, can they count how many cups it takes — and understand that this tells you how much the jug holds?",
       "standards": [
+        "acara-v9:AC9M2M01",
         "uk-nc-2013:Maths/Y1/M/7"
       ]
     },
@@ -16029,7 +16241,7 @@
       "name": "Days, Weeks, Months & Years",
       "description": "Recognise and use language relating to dates, including days of the week, weeks, months, and years",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.2144736842105263,
       "evidence": [
         "Name the seven days of the week in order",
@@ -16038,6 +16250,9 @@
       ],
       "assessmentPrompt": "If you ask {{name}} what day it is today, what day yesterday was, and what month we're in, can they answer all three — and tell you how many months are in a year?",
       "standards": [
+        "acara-v9:AC9M1M03",
+        "acara-v9:AC9M2M03",
+        "acara-v9:AC9MFM02",
         "uk-nc-2013:Maths/Y1/M/11"
       ]
     },
@@ -16069,7 +16284,7 @@
       "name": "Measuring length and height (age 5+)",
       "description": "Measure and begin to record lengths and heights using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2447368421052632,
       "evidence": [
         "Measure the length of a table using cubes and record the result",
@@ -16078,6 +16293,7 @@
       ],
       "assessmentPrompt": "If {{name}} measures the length of a book using small cubes laid end to end, can they count how many cubes it takes — and then try measuring the same book with a ruler?",
       "standards": [
+        "acara-v9:AC9M1M02",
         "uk-nc-2013:Maths/Y1/M/5"
       ]
     },
@@ -16089,7 +16305,7 @@
       "name": "Measuring mass and weight",
       "description": "Measure and begin to record mass/weight using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.2421052631578947,
       "evidence": [
         "Use a balance to compare masses of two objects",
@@ -16098,6 +16314,7 @@
       ],
       "assessmentPrompt": "If {{name}} uses balance scales to compare two objects, can they tell you which is heavier — and if given weights like 100g, can they balance an object on the scale?",
       "standards": [
+        "acara-v9:AC9M2M01",
         "uk-nc-2013:Maths/Y1/M/6"
       ]
     },
@@ -16109,7 +16326,7 @@
       "name": "Telling Time: Hours and Half Hours",
       "description": "Tell and write the time to the hour and half past the hour on analogue clocks and digital displays (e.g. 3 o'clock = 3:00, half past 7 = 7:30), and draw clock hands to show these times, placing the hour hand halfway between two numbers for half past",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.05,
       "evidence": [
         "Read an analogue clock showing 3 o'clock and one showing half past 7",
@@ -16118,6 +16335,7 @@
       ],
       "assessmentPrompt": "If you point to a clock showing 3 o'clock or half past two, can {{name}} tell you the time, say which digital time (3:00 or 2:30) matches it — and draw hands on a blank clock face to show a time you call out?",
       "standards": [
+        "acara-v9:AC9M2M04",
         "ccss-math:1.MD.3",
         "uk-nc-2013:Maths/Y1/M/12"
       ]
@@ -16130,7 +16348,7 @@
       "name": "Adding money and giving change",
       "description": "Find different combinations of coins that equal the same amount of money",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.03815789473684211,
       "evidence": [
         "Show that 50p can be made with 2×20p + 1×10p, or 5×10p, or 1×50p",
@@ -16139,6 +16357,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to make exactly 30p, can they find two or three different ways to do it using different combinations of coins?",
       "standards": [
+        "acara-v9:AC9M3M06",
         "uk-nc-2013:Maths/Y2/M/4"
       ]
     },
@@ -16150,7 +16369,7 @@
       "name": "Choosing measurement units",
       "description": "Choose and use appropriate standard units to measure length (m/cm), mass (kg/g), temperature (°C), and capacity (litres/ml) to the nearest appropriate unit",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 11,
       "centrality": 0.2473684210526316,
       "evidence": [
         "Measure the length of a table in centimetres using a ruler",
@@ -16159,6 +16378,9 @@
       ],
       "assessmentPrompt": "If you ask {{name}} whether to measure a swimming pool or a piece of paper in cm or m, can they pick the sensible unit for each — and explain why?",
       "standards": [
+        "acara-v9:AC9M3M01",
+        "acara-v9:AC9M4M01",
+        "acara-v9:AC9M5M01",
         "uk-nc-2013:Maths/Y2/M/1"
       ]
     },
@@ -16199,6 +16421,7 @@
       ],
       "assessmentPrompt": "If {{name}} has three pencils of different lengths but can only compare two at a time, can they figure out which is longest — by using a third pencil as a go-between?",
       "standards": [
+        "acara-v9:AC9M1M01",
         "ccss-math:1.MD.1"
       ]
     },
@@ -16210,7 +16433,7 @@
       "name": "Measuring length (age 6+)",
       "description": "Measure the length of an object using same-size length units laid end to end with no gaps or overlaps",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.2065789473684211,
       "evidence": [
         "Measure a book by laying paper clips end to end and counting them",
@@ -16219,6 +16442,8 @@
       ],
       "assessmentPrompt": "If {{name}} is measuring the length of a table using identical toy bricks, can they lay them end to end with no gaps — and tell you how many bricks long the table is?",
       "standards": [
+        "acara-v9:AC9M1M02",
+        "acara-v9:AC9M2M01",
         "ccss-math:1.MD.2"
       ]
     },
@@ -16230,7 +16455,7 @@
       "name": "Money Addition & Subtraction",
       "description": "Solve simple money problems involving addition and subtraction, including giving change",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.03947368421052631,
       "evidence": [
         "Calculate the total cost of two items priced in pence",
@@ -16239,6 +16464,8 @@
       ],
       "assessmentPrompt": "If {{name}} buys a snack for 45p and pays with a £1 coin, can they work out how much change they should get — and count it back?",
       "standards": [
+        "acara-v9:AC9M1N05",
+        "acara-v9:AC9M2N06",
         "uk-nc-2013:Maths/Y2/M/5"
       ]
     },
@@ -16250,7 +16477,7 @@
       "name": "Number of minutes in an hour",
       "description": "Know the number of minutes in an hour and the number of hours in a day",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.05526315789473684,
       "evidence": [
         "State that there are 60 minutes in an hour",
@@ -16259,6 +16486,7 @@
       ],
       "assessmentPrompt": "If {{name}} knows there are 60 minutes in an hour, can they tell you how many minutes are in 2 hours — and how many hours make a whole day?",
       "standards": [
+        "acara-v9:AC9M3M03",
         "uk-nc-2013:Maths/Y2/M/8"
       ]
     },
@@ -16299,6 +16527,8 @@
       ],
       "assessmentPrompt": "If {{name}} knows a film takes 2 hours and a car journey takes 45 minutes, can they tell you which takes longer — and put a few daily activities in order of how long they take?",
       "standards": [
+        "acara-v9:AC9M1M01",
+        "acara-v9:AC9M1M03",
         "uk-nc-2013:Maths/Y2/M/6"
       ]
     },
@@ -16351,7 +16581,7 @@
       "name": "a.m. and p.m. times",
       "description": "Tell and write times to five minutes on analogue and digital clocks with a.m. or p.m. (before or after midday), relating times to daily events and using the words morning, afternoon, evening, noon and midnight. Roman-numeral clock faces and the 24-hour clock are covered in Roman numeral and 24-hour clocks",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.05263157894736842,
       "evidence": [
         "Say whether school starts at 8:45 a.m. or 8:45 p.m., and whether bedtime is 7:30 a.m. or 7:30 p.m.",
@@ -16360,6 +16590,7 @@
       ],
       "assessmentPrompt": "If a clock shows 7:45, can {{name}} tell you the time in words — and say whether breakfast would be at 7:45 a.m. or 7:45 p.m.?",
       "standards": [
+        "acara-v9:AC9M4M03",
         "ccss-math:2.MD.7",
         "uk-nc-2013:Ma/KS2/Y3/M/5"
       ]
@@ -16372,7 +16603,7 @@
       "name": "Calculating with measurements",
       "description": "Measure, compare, add, and subtract lengths (m/cm/mm), mass (kg/g), and volume/capacity (l/ml) using standard units",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1157894736842105,
       "evidence": [
         "Measure a length in centimetres and millimetres",
@@ -16381,6 +16612,7 @@
       ],
       "assessmentPrompt": "If {{name}} pours 350 ml into a jug and then adds another 275 ml, can they work out the total — and tell you how much more is needed to reach 1 litre?",
       "standards": [
+        "acara-v9:AC9M3M02",
         "uk-nc-2013:Ma/KS2/Y3/M/1"
       ]
     },
@@ -16412,7 +16644,7 @@
       "name": "Comparing Time Durations",
       "description": "Compare durations of events and calculate the time taken by particular events or tasks",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05131578947368421,
       "evidence": [
         "Work out that a TV show from 5:17 p.m. to 5:43 p.m. lasted 26 minutes",
@@ -16421,6 +16653,7 @@
       ],
       "assessmentPrompt": "If {{name}} starts cooking at 4:15 p.m. and finishes at 5:00 p.m., can they work out how long the cooking took?",
       "standards": [
+        "acara-v9:AC9M3M03",
         "uk-nc-2013:Ma/KS2/Y3/M/7"
       ]
     },
@@ -16452,7 +16685,7 @@
       "name": "Giving Change",
       "description": "Add and subtract amounts of money to give change, using both £ and p in practical contexts",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03289473684210526,
       "evidence": [
         "Calculate the total cost of two or three items priced in pounds and pence",
@@ -16461,6 +16694,8 @@
       ],
       "assessmentPrompt": "If {{name}} buys a book for £3.50 and a pencil for £1.25 with a £5 note, can they work out exactly how much change they should receive?",
       "standards": [
+        "acara-v9:AC9M3M06",
+        "acara-v9:AC9M3N06",
         "uk-nc-2013:Ma/KS2/Y3/M/3"
       ]
     },
@@ -16492,7 +16727,7 @@
       "name": "Measuring Perimeters",
       "description": "Measure the perimeter of simple 2-D shapes",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.06973684210526315,
       "evidence": [
         "Measure each side of a rectangle and add the lengths to find the perimeter",
@@ -16501,6 +16736,7 @@
       ],
       "assessmentPrompt": "If {{name}} wants to put a decorative border around a rectangular picture frame 20 cm wide and 30 cm tall, can they work out the total length of border needed?",
       "standards": [
+        "acara-v9:AC9M4M02",
         "uk-nc-2013:Ma/KS2/Y3/M/2"
       ]
     },
@@ -16572,7 +16808,7 @@
       "name": "Roman numeral and 24-hour clocks",
       "description": "Tell and write the time from analogue clocks with Roman-numeral faces (I to XII, including IV, which some clocks show as IIII, and IX), knowing that the minute positions are the same as on a clock with ordinary numbers; and read and write times on 12-hour and 24-hour clocks, knowing that the 24-hour clock runs from 00:00 at midnight to 23:59. Times from 1:00 a.m. to 11:59 a.m. keep the same hour (7:05 a.m. = 07:05); times from 1:00 p.m. to 11:59 p.m. are 12 hours more (3:20 p.m. = 15:20). The 12 o'clock hour is the exception to both: 12:20 p.m., just after noon, stays 12:20, and 12:20 a.m., just after midnight, becomes 00:20. Fluent conversion between 12- and 24-hour times is developed in Year 4",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 11,
       "centrality": 0.02368421052631579,
       "evidence": [
         "Read a Roman-numeral clock with the minute hand on IX and the hour hand between IV and V as quarter to five (4:45)",
@@ -16581,6 +16817,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a clock with Roman numerals where the minute hand points to IX and the hour hand is between IV and V, can they read it as quarter to five — and say what time 15:20 on a 24-hour clock means?",
       "standards": [
+        "acara-v9:AC9M5M03",
         "uk-nc-2013:Ma/KS2/Y3/M/4"
       ]
     },
@@ -16601,6 +16838,8 @@
       ],
       "assessmentPrompt": "If the kitchen clock shows 7:43, can {{name}} read the exact time and write it as it would look on a digital clock — and say which is longer, 1 minute 20 seconds or 75 seconds?",
       "standards": [
+        "acara-v9:AC9M3M03",
+        "acara-v9:AC9M3M04",
         "ccss-math:3.MD.1",
         "uk-nc-2013:Ma/KS2/Y3/M/5"
       ]
@@ -16613,7 +16852,7 @@
       "name": "Time Units and Calendar Facts",
       "description": "Know the number of seconds in a minute and the number of days in each month, year, and leap year",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05526315789473684,
       "evidence": [
         "State that there are 60 seconds in a minute",
@@ -16622,6 +16861,8 @@
       ],
       "assessmentPrompt": "If you ask {{name}} how many days are in September and whether this year is a leap year, can they answer both — and tell you how many seconds are in a minute?",
       "standards": [
+        "acara-v9:AC9M2M03",
+        "acara-v9:AC9M3M03",
         "uk-nc-2013:Ma/KS2/Y3/M/6"
       ]
     },
@@ -16633,7 +16874,7 @@
       "name": "12-hour and 24-hour time",
       "description": "Read, write, and convert time between analogue and digital 12-hour and 24-hour clocks",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Convert 3:45 pm to 15:45 in 24-hour time",
@@ -16642,6 +16883,7 @@
       ],
       "assessmentPrompt": "If a train timetable shows a departure at 14:35, can {{name}} convert that to 12-hour clock time — and tell you whether that's morning or afternoon?",
       "standards": [
+        "acara-v9:AC9M5M03",
         "uk-nc-2013:Ma/KS2/Y4/M/5"
       ]
     },
@@ -16653,7 +16895,7 @@
       "name": "Area (age 8+)",
       "description": "Measure areas by counting unit squares (square cm, square m, square in, square ft)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1934210526315789,
       "evidence": [
         "Count unit squares to find the area of an L-shaped figure",
@@ -16662,6 +16904,7 @@
       ],
       "assessmentPrompt": "If {{name}} draws a shape on squared centimetre paper, can they find its area by counting the squares — including making a sensible estimate for any partial squares?",
       "standards": [
+        "acara-v9:AC9M4M02",
         "ccss-math:3.MD.6",
         "uk-nc-2013:Ma/KS2/Y4/M/3"
       ]
@@ -16694,7 +16937,7 @@
       "name": "Area by Tiling",
       "description": "Find the area of a rectangle by tiling it with unit squares and show that the result equals the product of the side lengths",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.1881578947368421,
       "evidence": [
         "Tile a 4×6 rectangle and count 24 squares, then verify 4×6=24",
@@ -16703,6 +16946,7 @@
       ],
       "assessmentPrompt": "If a rectangular room is 4 m long and 3 m wide, can {{name}} work out its area by tiling it with 1-metre squares in their head — and explain why that equals 4 × 3?",
       "standards": [
+        "acara-v9:AC9M6M02",
         "ccss-math:3.MD.7.a"
       ]
     },
@@ -16714,7 +16958,7 @@
       "name": "Area of compound shapes",
       "description": "Recognise area as additive; find areas of rectilinear figures by decomposing into non-overlapping rectangles and summing their areas",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.025,
       "evidence": [
         "Decompose an L-shape into two rectangles, find each area, and add them",
@@ -16723,6 +16967,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given an L-shaped room on squared paper, can they split it into two rectangles, find the area of each part, and add them to get the total area?",
       "standards": [
+        "acara-v9:AC9M5M02",
         "ccss-math:3.MD.7.d"
       ]
     },
@@ -16734,7 +16979,7 @@
       "name": "Area of rectangles by multiplication",
       "description": "Multiply side lengths to find areas of rectangles and represent whole-number products as rectangular areas",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.1881578947368421,
       "evidence": [
         "Calculate the area of a 7 cm × 9 cm rectangle as 63 cm²",
@@ -16743,6 +16988,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to carpet a room that is 5 m by 4 m, can they work out how much carpet to buy — using multiplication rather than counting squares?",
       "standards": [
+        "acara-v9:AC9M6M02",
         "ccss-math:3.MD.7.b"
       ]
     },
@@ -16754,7 +17000,7 @@
       "name": "Converting measurement units",
       "description": "Convert between different units of measure (e.g. kilometre to metre, hour to minute, minute to second, year to month, week to day)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.07763157894736843,
       "evidence": [
         "Convert 3 km to 3000 m",
@@ -16763,6 +17009,7 @@
       ],
       "assessmentPrompt": "If {{name}} is told a journey is 3.5 km, can they convert that to metres — and also turn 2 hours 15 minutes into just minutes?",
       "standards": [
+        "acara-v9:AC9M4M03",
         "uk-nc-2013:Ma/KS2/Y4/M/1",
         "uk-nc-2013:Ma/KS2/Y4/M/6"
       ]
@@ -16775,7 +17022,7 @@
       "name": "Elapsed time problems",
       "description": "Solve word problems involving elapsed time by adding and subtracting time intervals in minutes, including using a number line",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.05131578947368421,
       "evidence": [
         "A film starts at 2:15 and lasts 47 minutes — when does it end?",
@@ -16784,6 +17031,8 @@
       ],
       "assessmentPrompt": "If {{name}} starts football practice at 3:20 p.m. and it lasts 75 minutes, can they work out what time it finishes — using a number line to help?",
       "standards": [
+        "acara-v9:AC9M4M03",
+        "acara-v9:AC9M6M03",
         "ccss-math:3.MD.1",
         "uk-nc-2013:Ma/KS2/Y4/M/6"
       ]
@@ -16796,7 +17045,7 @@
       "name": "Estimating and comparing money",
       "description": "Estimate, compare, and calculate different measures including money in pounds and pence",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.05526315789473684,
       "evidence": [
         "Estimate the length of the classroom in metres",
@@ -16805,6 +17054,8 @@
       ],
       "assessmentPrompt": "If {{name}} is comparing three items costing £2.85, £3.10, and £2.50, can they put them in order from cheapest to most expensive — and work out the total cost?",
       "standards": [
+        "acara-v9:AC9M4M01",
+        "acara-v9:AC9M4N07",
         "uk-nc-2013:Ma/KS2/Y4/M/4"
       ]
     },
@@ -16845,6 +17096,8 @@
       ],
       "assessmentPrompt": "If {{name}} is filling bottles that each hold 250 ml from a 2-litre container of juice, can they work out how many bottles they can fill?",
       "standards": [
+        "acara-v9:AC9M3M01",
+        "acara-v9:AC9M3M02",
         "ccss-math:3.MD.2"
       ]
     },
@@ -16856,7 +17109,7 @@
       "name": "Perimeters of polygons",
       "description": "Solve problems involving perimeters of polygons: find perimeter from side lengths, find an unknown side length, and explore rectangles with same perimeter but different areas (or vice versa)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.07894736842105263,
       "evidence": [
         "Calculate the perimeter of a rectangle with sides 8 cm and 5 cm",
@@ -16865,6 +17118,8 @@
       ],
       "assessmentPrompt": "If a rectangle has a perimeter of 24 cm and one side is 8 cm, can {{name}} work out the length of the other side — without drawing it?",
       "standards": [
+        "acara-v9:AC9M4M02",
+        "acara-v9:AC9M5M02",
         "ccss-math:3.MD.8",
         "uk-nc-2013:Ma/KS2/Y4/M/2"
       ]
@@ -16877,7 +17132,7 @@
       "name": "Understanding Area",
       "description": "Understand that a unit square has one square unit of area and that the area of a plane figure is the number of unit squares that cover it without gaps or overlaps",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1934210526315789,
       "evidence": [
         "Identify a unit square and state its area is 1 square unit",
@@ -16886,6 +17141,7 @@
       ],
       "assessmentPrompt": "If {{name}} counts the small squares inside a rectangle drawn on squared paper, can they tell you the area — and explain what \"one square unit\" means?",
       "standards": [
+        "acara-v9:AC9M4M02",
         "ccss-math:3.MD.5.a",
         "ccss-math:3.MD.5.b",
         "uk-nc-2013:Ma/KS2/Y4/M/3"
@@ -16899,7 +17155,7 @@
       "name": "Area and perimeter of rectangles",
       "description": "Apply the area formula (l × w) and perimeter formula (2l + 2w) for rectangles including squares in real-world and mathematical problems; calculate and compare areas using standard units (cm², m²) and estimate areas of irregular shapes",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.07368421052631578,
       "evidence": [
         "Find the width of a room given area = 48 m² and length = 8 m",
@@ -16908,6 +17164,9 @@
       ],
       "assessmentPrompt": "If {{name}} wants to carpet a room 6.5 m × 4 m, can they calculate the area — and also work out how many metres of skirting board are needed around the edge?",
       "standards": [
+        "acara-v9:AC9M4M02",
+        "acara-v9:AC9M5M02",
+        "acara-v9:AC9M6M02",
         "ccss-math:4.MD.3",
         "uk-nc-2013:Ma5/3.1d"
       ]
@@ -16920,7 +17179,7 @@
       "name": "Converting measurement units (age 9+)",
       "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.07631578947368421,
       "evidence": [
         "Convert 3.5 km to 3,500 m",
@@ -16929,6 +17188,8 @@
       ],
       "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
       "standards": [
+        "acara-v9:AC9M5M01",
+        "acara-v9:AC9M6M01",
         "ccss-math:4.MD.1",
         "uk-nc-2013:Ma5/3.1a"
       ]
@@ -17043,7 +17304,7 @@
       "name": "Perimeter of Compound Shapes",
       "description": "Measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.04868421052631579,
       "evidence": [
         "Find the perimeter of an L-shaped figure by identifying all side lengths",
@@ -17052,6 +17313,7 @@
       ],
       "assessmentPrompt": "If {{name}} is given an L-shaped garden plan with all the side measurements labelled, can they add all the sides together to find the total perimeter?",
       "standards": [
+        "acara-v9:AC9M5M02",
         "uk-nc-2013:Ma5/3.1c"
       ]
     },
@@ -17128,7 +17390,7 @@
       "name": "Decimal place value",
       "description": "Convert among different-sized standard measurement units within a given system (e.g. 5 cm to 0.05 m) using decimal notation to up to three decimal places; convert between smaller and larger units of length, mass, volume, and time",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1013157894736842,
       "evidence": [
         "Convert 3,250 g to 3.25 kg using decimal notation",
@@ -17137,6 +17399,8 @@
       ],
       "assessmentPrompt": "If {{name}} needs to convert 5 cm to metres and write the answer as a decimal, can they do it — and also convert 2.45 kg into grams?",
       "standards": [
+        "acara-v9:AC9M5M01",
+        "acara-v9:AC9M6M01",
         "ccss-math:5.MD.1",
         "uk-nc-2013:Ma6/3.1b"
       ]
@@ -17149,7 +17413,7 @@
       "name": "Measurement Conversions",
       "description": "Solve problems involving the calculation and conversion of units of measure, using decimal notation and multi-step reasoning in real-world contexts",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1,
       "evidence": [
         "Solve: 'A recipe uses 0.75 kg of flour. How many grams are needed for 3 batches?'",
@@ -17158,6 +17422,7 @@
       ],
       "assessmentPrompt": "If {{name}} is filling a fish tank that holds 60 litres and the tap fills it at 3.5 litres per minute, can they work out how long it will take to fill the tank?",
       "standards": [
+        "acara-v9:AC9M6M01",
         "uk-nc-2013:Ma6/3.1a"
       ]
     },
@@ -17314,7 +17579,7 @@
       "name": "Division as equal sharing",
       "description": "Understand division as sharing equally into groups or as grouping (how many groups of a given size can be made)",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.4434210526315789,
       "evidence": [
         "Share 10 counters equally between 2 plates",
@@ -17323,6 +17588,8 @@
       ],
       "assessmentPrompt": "If {{name}} has 12 grapes to share equally between 3 friends, can they work out that each friend gets 4 — and explain what they did?",
       "standards": [
+        "acara-v9:AC9M1N06",
+        "acara-v9:AC9MFN06",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -17334,7 +17601,7 @@
       "name": "Arrays for multiplication",
       "description": "Use arrays to represent multiplication and division situations",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.2039473684210526,
       "evidence": [
         "Build an array of 3 rows of 4 objects to show 3 × 4",
@@ -17343,6 +17610,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees eggs arranged in 3 rows of 4 in a box, can they use that grid layout to work out both '3 × 4 = 12' and '12 ÷ 3 = 4'?",
       "standards": [
+        "acara-v9:AC9M2N05",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -17354,7 +17622,7 @@
       "name": "Multiplication as repeated addition",
       "description": "Understand multiplication as repeated addition and grouping equal sets",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2289473684210526,
       "evidence": [
         "Explain that 3 groups of 2 is the same as 2 + 2 + 2",
@@ -17363,6 +17631,9 @@
       ],
       "assessmentPrompt": "If {{name}} needs to count 4 bags with 3 apples in each, can they see that instead of counting all 12 one by one, they could add 3 + 3 + 3 + 3 — or say '4 groups of 3'?",
       "standards": [
+        "acara-v9:AC9M1N03",
+        "acara-v9:AC9M1N06",
+        "acara-v9:AC9MFN06",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -17394,7 +17665,7 @@
       "name": "Multiplication as repeated addition (age 6+)",
       "description": "Solve problems involving multiplication and division using arrays, repeated addition, mental methods, and known facts",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.08552631578947369,
       "evidence": [
         "Solve 'There are 5 bags with 2 apples in each. How many apples?' using repeated addition or known fact",
@@ -17403,6 +17674,9 @@
       ],
       "assessmentPrompt": "If you tell {{name}} 'you have 5 bags with 4 marbles in each — how many altogether?', can they figure it out using objects, a drawing, or mental adding?",
       "standards": [
+        "acara-v9:AC9M1N06",
+        "acara-v9:AC9M2N05",
+        "acara-v9:AC9M2N06",
         "uk-nc-2013:Maths/Y2/MD/4"
       ]
     },
@@ -17414,7 +17688,7 @@
       "name": "Odd and even numbers",
       "description": "Recognise odd and even numbers",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.007894736842105263,
       "evidence": [
         "Identify whether a given number is odd or even",
@@ -17423,6 +17697,7 @@
       ],
       "assessmentPrompt": "If you give {{name}} a number like 37 or 84, can they quickly tell you whether it's odd or even — and explain how they know?",
       "standards": [
+        "acara-v9:AC9M4N02",
         "uk-nc-2013:Maths/Y2/MD/1"
       ]
     },
@@ -17434,7 +17709,7 @@
       "name": "Reading ×, ÷, and = Symbols",
       "description": "Read, write, and interpret the symbols ×, ÷, and = in multiplication and division number sentences",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.1618421052631579,
       "evidence": [
         "Read 3 × 4 = 12 aloud as 'three times four equals twelve'",
@@ -17443,6 +17718,7 @@
       ],
       "assessmentPrompt": "If you write '6 × 4 = 24' or '15 ÷ 3 = 5' on paper, can {{name}} tell you what the times sign, division sign, and equals sign each mean?",
       "standards": [
+        "acara-v9:AC9M2N05",
         "uk-nc-2013:Maths/Y2/MD/2"
       ]
     },
@@ -17454,7 +17730,7 @@
       "name": "Times tables",
       "description": "Recall and use multiplication and division facts for the 2, 5, and 10 multiplication tables",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.2105263157894737,
       "evidence": [
         "Quickly answer 5 × 3 = 15 from memory",
@@ -17463,6 +17739,8 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly recall times table facts from the 2s, 5s, and 10s — like '5 × 6 = 30' or '20 ÷ 2 = 10' — forwards and backwards?",
       "standards": [
+        "acara-v9:AC9M2A03",
+        "acara-v9:AC9M3A03",
         "uk-nc-2013:Maths/Y2/MD/1"
       ]
     },
@@ -17483,6 +17761,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees 4 rows of 5 stickers on a sheet, can they use repeated addition — '5 + 5 + 5 + 5' — to find the total, and write it as an equation?",
       "standards": [
+        "acara-v9:AC9M2N05",
         "ccss-math:2.OA.4"
       ]
     },
@@ -17494,7 +17773,7 @@
       "name": "Multi-Step Multiply & Divide",
       "description": "Solve problems involving multiplication and division, including scaling problems and correspondence problems where n objects are connected to m objects",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1026315789473684,
       "evidence": [
         "Solve a scaling problem (e.g. 'the ribbon is 3 times as long')",
@@ -17503,6 +17782,7 @@
       ],
       "assessmentPrompt": "If a recipe for 4 people needs 3 eggs, can {{name}} work out how many eggs are needed for 8 people — recognising it as a doubling or scaling problem?",
       "standards": [
+        "acara-v9:AC9M3N06",
         "uk-nc-2013:Ma/KS2/Y3/MD/3"
       ]
     },
@@ -17534,7 +17814,7 @@
       "name": "Times tables (age 7+)",
       "description": "Recall and use multiplication and division facts for the 3, 4, and 8 multiplication tables",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2105263157894737,
       "evidence": [
         "Recall 3 × 1 through 3 × 12 and corresponding division facts",
@@ -17543,6 +17823,7 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly recall facts from the 3, 4, and 8 times tables — like '8 × 7 = 56' or '36 ÷ 4 = 9' — without having to work them out each time?",
       "standards": [
+        "acara-v9:AC9M3A03",
         "uk-nc-2013:Ma/KS2/Y3/MD/1"
       ]
     },
@@ -17554,7 +17835,7 @@
       "name": "Written Multiplication & Division",
       "description": "Write and calculate mathematical statements for multiplication and division using known tables, including two-digit × one-digit, using mental and progressing to formal written methods",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1723684210526316,
       "evidence": [
         "Calculate 23 × 4 using partitioning (20 × 4 + 3 × 4)",
@@ -17563,6 +17844,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out sums like '23 × 4' or '68 ÷ 4' — either in their head using times table knowledge, or by writing it out step by step?",
       "standards": [
+        "acara-v9:AC9M3N04",
         "uk-nc-2013:Ma/KS2/Y3/MD/2"
       ]
     },
@@ -17594,7 +17876,7 @@
       "name": "Division as Unknown Factor",
       "description": "Understand division as an unknown-factor problem (e.g. find 32 ÷ 8 by finding the number that makes 32 when multiplied by 8)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.156578947368421,
       "evidence": [
         "Explain that 32 ÷ 8 = ? is the same as 8 × ? = 32",
@@ -17603,6 +17885,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out '32 ÷ 8' by asking 'what do I multiply 8 by to get 32?' — using times table knowledge rather than a separate division method?",
       "standards": [
+        "acara-v9:AC9M5A01",
         "ccss-math:3.OA.6"
       ]
     },
@@ -17614,7 +17897,7 @@
       "name": "Factor Pairs & Commutativity",
       "description": "Recognise and use factor pairs and commutativity in mental calculations",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.1118421052631579,
       "evidence": [
         "List all factor pairs of a given number (e.g. 24: 1×24, 2×12, 3×8, 4×6)",
@@ -17623,6 +17906,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to multiply '4 × 15', can they spot that splitting it into '4 × 5 × 3 = 20 × 3 = 60' is a clever shortcut — using factor pairs to make it easier?",
       "standards": [
+        "acara-v9:AC9M5N02",
         "uk-nc-2013:Ma/KS2/Y4/MD/3"
       ]
     },
@@ -17634,7 +17918,7 @@
       "name": "Fluent multiplication and division facts",
       "description": "Fluently multiply and divide within 100 using strategies such as the relationship between multiplication and division",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.1592105263157895,
       "evidence": [
         "Answer any single-digit multiplication fact within 3 seconds",
@@ -17643,6 +17927,8 @@
       ],
       "assessmentPrompt": "Can {{name}} answer any times table fact up to 10 × 10 quickly — and also give the related division facts, like '63 ÷ 9 = 7' from knowing '9 × 7 = 63'?",
       "standards": [
+        "acara-v9:AC9M4A02",
+        "acara-v9:AC9M5A01",
         "ccss-math:3.OA.7"
       ]
     },
@@ -17654,7 +17940,7 @@
       "name": "Mental multiplication and division",
       "description": "Use place value, known and derived facts to multiply and divide mentally, including multiplying by 0 and 1, dividing by 1, and multiplying together three numbers",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.02763157894736842,
       "evidence": [
         "Calculate 40 × 6 = 240 mentally using place value",
@@ -17663,6 +17949,8 @@
       ],
       "assessmentPrompt": "Can {{name}} work out things like '6 × 0', '1 × 35', or '100 ÷ 100' instantly in their head — using what they know rather than working everything out from scratch?",
       "standards": [
+        "acara-v9:AC9M4A02",
+        "acara-v9:AC9M4N06",
         "uk-nc-2013:Ma/KS2/Y4/MD/2"
       ]
     },
@@ -17683,6 +17971,7 @@
       ],
       "assessmentPrompt": "If you tell {{name}} 'there are 7 boxes with 9 pencils in each — how many pencils?', can they recognise it as a multiplication problem and solve it correctly?",
       "standards": [
+        "acara-v9:AC9M3N04",
         "ccss-math:3.OA.3"
       ]
     },
@@ -17694,7 +17983,7 @@
       "name": "Multiply & Add Problems",
       "description": "Solve problems involving multiplying and adding, including using the distributive law, integer scaling problems, and harder correspondence problems",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1118421052631579,
       "evidence": [
         "Use the distributive law to solve 14 × 6 as 10 × 6 + 4 × 6",
@@ -17703,6 +17992,7 @@
       ],
       "assessmentPrompt": "If {{name}} needs to work out '5 × 23', can they split it into '5 × 20 + 5 × 3 = 100 + 15 = 115' — rather than just jumping straight to a written method?",
       "standards": [
+        "acara-v9:AC9M4N08",
         "uk-nc-2013:Ma/KS2/Y4/MD/5"
       ]
     },
@@ -17714,7 +18004,7 @@
       "name": "Multiplying by Tens",
       "description": "Multiply one-digit whole numbers by multiples of 10 in the range 10–90 using strategies based on place value and properties of operations",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.03289473684210526,
       "evidence": [
         "Calculate 7 × 30 = 210 by reasoning 7 × 3 tens = 21 tens = 210",
@@ -17723,6 +18013,8 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly work out '7 × 40' or '6 × 80' by first doing the single-digit multiplication and then placing the zero — getting 280 and 480?",
       "standards": [
+        "acara-v9:AC9M3N04",
+        "acara-v9:AC9M4N05",
         "ccss-math:3.NBT.3"
       ]
     },
@@ -17743,6 +18035,7 @@
       ],
       "assessmentPrompt": "Can {{name}} spot patterns in times tables — like all multiples of 5 end in 0 or 5 — and explain why that pattern happens?",
       "standards": [
+        "acara-v9:AC9M3N07",
         "ccss-math:3.OA.9"
       ]
     },
@@ -17774,7 +18067,7 @@
       "name": "Unknown in Multiplication & Division",
       "description": "Determine the unknown whole number in a multiplication or division equation relating three whole numbers (e.g. 8 × ? = 48, ? × 6 = 42)",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 11,
       "centrality": 0.01710526315789474,
       "evidence": [
         "Find the missing factor in 7 × ? = 63",
@@ -17783,6 +18076,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees '8 × ? = 48' or '? ÷ 6 = 7' written on paper, can they figure out what number goes in the blank?",
       "standards": [
+        "acara-v9:AC9M5A01",
+        "acara-v9:AC9M5A02",
         "ccss-math:3.OA.4"
       ]
     },
@@ -17803,6 +18098,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that '56 ÷ 8' could mean 'if 56 things are shared between 8 people, how many does each person get?' — not just recite the answer '7'?",
       "standards": [
+        "acara-v9:AC9M3N04",
         "ccss-math:3.OA.2"
       ]
     },
@@ -17823,6 +18119,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees '5 × 7' written down, can they explain it means 5 groups with 7 in each group — not just recite the answer '35'?",
       "standards": [
+        "acara-v9:AC9M3N04",
         "ccss-math:3.OA.1"
       ]
     },
@@ -17834,7 +18131,7 @@
       "name": "Written Multiplication",
       "description": "Multiply two-digit and three-digit numbers by a one-digit number using formal written layout",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1736842105263158,
       "evidence": [
         "Set out and solve 47 × 6 using short multiplication",
@@ -17843,6 +18140,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out '347 × 6' by setting it out formally in a column — multiplying each digit separately and carrying where needed?",
       "standards": [
+        "acara-v9:AC9M4N06",
         "uk-nc-2013:Ma/KS2/Y4/MD/4"
       ]
     },
@@ -17854,7 +18152,7 @@
       "name": "Division with remainders",
       "description": "Solve multi-step word problems using the four operations with whole numbers, including interpreting remainders in context; represent with equations using a letter for the unknown; check with estimation",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.1394736842105263,
       "evidence": [
         "52 children go on a trip in minibuses holding 9 each — how many minibuses are needed? (interpret remainder)",
@@ -17863,6 +18161,9 @@
       ],
       "assessmentPrompt": "If {{name}} reads 'a school buys 7 boxes of 24 pens and shares them equally between 8 classes', can they work through all the steps and decide sensibly what to do with any remainder?",
       "standards": [
+        "acara-v9:AC9M4N08",
+        "acara-v9:AC9M5N07",
+        "acara-v9:AC9M5N09",
         "ccss-math:4.OA.3",
         "uk-nc-2013:Ma5/2.3j"
       ]
@@ -17887,6 +18188,8 @@
       ],
       "assessmentPrompt": "Can {{name}} list all the factor pairs for a number like 36 — (1, 36), (2, 18), (3, 12), (4, 9), (6, 6) — and find factors that two numbers share?",
       "standards": [
+        "acara-v9:AC9M5N02",
+        "acara-v9:AC9M5N10",
         "ccss-math:4.OA.4",
         "uk-nc-2013:Ma5/2.3a",
         "uk-nc-2013:Ma6/2.2e"
@@ -17900,7 +18203,7 @@
       "name": "Factors, multiples, and primes (age 9+)",
       "description": "Solve problems involving multiplication and division using knowledge of factors, multiples, squares, and cubes",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.02763157894736842,
       "evidence": [
         "Is 156 a multiple of 6? Explain how you know",
@@ -17909,6 +18212,8 @@
       ],
       "assessmentPrompt": "If {{name}} is asked to find all the square numbers less than 100, can they work through it systematically and give you the correct list: 1, 4, 9, 16, 25, 36, 49, 64, 81?",
       "standards": [
+        "acara-v9:AC9M5N02",
+        "acara-v9:AC9M6N02",
         "uk-nc-2013:Ma5/2.3i"
       ]
     },
@@ -17920,7 +18225,7 @@
       "name": "Long multiplication",
       "description": "Multiply a whole number of up to four digits by a one-digit number, and multiply two two-digit numbers, using formal written methods including long multiplication; illustrate with area models",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.1934210526315789,
       "evidence": [
         "Calculate 2,347 × 6 using formal written layout",
@@ -17929,6 +18234,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out something like '2,346 × 7' or '43 × 28' using the formal column method — setting it out carefully and working through all the steps?",
       "standards": [
+        "acara-v9:AC9M5N06",
         "ccss-math:4.NBT.5",
         "uk-nc-2013:Ma5/2.3d"
       ]
@@ -18001,7 +18307,7 @@
       "name": "Multiplying and dividing",
       "description": "Multiply and divide whole numbers and those involving decimals by 10, 100, and 1000",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.08947368421052632,
       "evidence": [
         "Calculate 3.45 × 100 = 345",
@@ -18010,6 +18316,7 @@
       ],
       "assessmentPrompt": "Can {{name}} quickly work out '4.7 × 100' or '3,600 ÷ 1,000' — knowing that digits shift left or right in the place-value chart depending on whether they're multiplying or dividing?",
       "standards": [
+        "acara-v9:AC9M6N06",
         "uk-nc-2013:Ma5/2.3g"
       ]
     },
@@ -18021,7 +18328,7 @@
       "name": "Prime numbers",
       "description": "Know and use the vocabulary of prime numbers, prime factors, and composite numbers; establish whether a number up to 100 is prime; recall prime numbers up to 19",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.02631578947368421,
       "evidence": [
         "Explain that a prime number has exactly two factors: 1 and itself",
@@ -18030,6 +18337,7 @@
       ],
       "assessmentPrompt": "Can {{name}} tell you what makes a number 'prime' — that it only divides exactly by 1 and itself — and give some examples like 7, 11, and 13?",
       "standards": [
+        "acara-v9:AC9M6N02",
         "ccss-math:4.OA.4",
         "uk-nc-2013:Ma5/2.3b",
         "uk-nc-2013:Ma5/2.3c"
@@ -18043,7 +18351,7 @@
       "name": "Shape patterns",
       "description": "Generate a number or shape pattern that follows a given rule; identify apparent features of the pattern not explicit in the rule and explain informally why they occur",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.03552631578947368,
       "evidence": [
         "Given 'start at 1, add 3', generate terms and notice they alternate odd/even",
@@ -18052,6 +18360,8 @@
       ],
       "assessmentPrompt": "If {{name}} is told 'start at 3 and multiply by 2 each time', can they write out the pattern — 3, 6, 12, 24, 48 — and spot any interesting features in how it grows?",
       "standards": [
+        "acara-v9:AC9M4N09",
+        "acara-v9:AC9M6A01",
         "ccss-math:4.OA.5"
       ]
     },
@@ -18063,7 +18373,7 @@
       "name": "Short division with remainders",
       "description": "Divide numbers up to four digits by a one-digit number using short division (and place-value/array strategies); interpret remainders appropriately for the context",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.15,
       "evidence": [
         "Calculate 4,932 ÷ 6 using short division",
@@ -18072,6 +18382,7 @@
       ],
       "assessmentPrompt": "Can {{name}} use the short division ('bus stop') method to work out something like '2,457 ÷ 6', and decide what to do with any remainder left over?",
       "standards": [
+        "acara-v9:AC9M5N07",
         "ccss-math:4.NBT.6",
         "uk-nc-2013:Ma5/2.3f"
       ]
@@ -18084,7 +18395,7 @@
       "name": "Square and cube numbers",
       "description": "Recognise and use square numbers and cube numbers, and the notation for squared (²) and cubed (³)",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.01842105263157895,
       "evidence": [
         "Identify 49 as 7² and explain that 7 × 7 = 49",
@@ -18093,6 +18404,7 @@
       ],
       "assessmentPrompt": "Does {{name}} know that '5²' means 5 × 5 = 25 and '3³' means 3 × 3 × 3 = 27 — and can they work out other squared and cubed numbers?",
       "standards": [
+        "acara-v9:AC9M6N02",
         "uk-nc-2013:Ma5/2.3h"
       ]
     },
@@ -18124,7 +18436,7 @@
       "name": "Brackets in Expressions",
       "description": "Use parentheses, brackets, or braces in numerical expressions and evaluate expressions containing these grouping symbols",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1394736842105263,
       "evidence": [
         "Evaluate 3 × (4 + 5) by computing inside the parentheses first",
@@ -18133,6 +18445,7 @@
       ],
       "assessmentPrompt": "Can {{name}} look at '3 × (4 + 5)' and work out the brackets first — getting '3 × 9 = 27' — rather than just multiplying left to right?",
       "standards": [
+        "acara-v9:AC9M6A02",
         "ccss-math:5.OA.1"
       ]
     },
@@ -18144,7 +18457,7 @@
       "name": "Decimal place value",
       "description": "Multiply one-digit numbers with up to two decimal places by whole numbers (e.g. 3.47 × 6)",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1131578947368421,
       "evidence": [
         "Correctly compute 4.56 × 7 using a written method",
@@ -18153,6 +18466,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out '3.47 × 6' — keeping the decimal point in the right place and carrying correctly through each column?",
       "standards": [
+        "acara-v9:AC9M6N06",
         "ccss-math:5.NBT.7",
         "uk-nc-2013:Ma6/2.3h"
       ]
@@ -18215,6 +18529,7 @@
       ],
       "assessmentPrompt": "Can {{name}} use long division to work out something like '1,848 ÷ 24' — going through the steps of divide, multiply, subtract, and bring down until they reach the answer?",
       "standards": [
+        "acara-v9:AC9M5N07",
         "ccss-math:5.NBT.6",
         "uk-nc-2013:Ma6/2.2b"
       ]
@@ -18227,7 +18542,7 @@
       "name": "Estimation to check answers to calculations",
       "description": "Use estimation to check answers to calculations and determine, in the context of a problem, an appropriate degree of accuracy",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.0868421052631579,
       "evidence": [
         "Estimate 487 × 23 by rounding to 500 × 20 and use this to check a calculated answer",
@@ -18236,6 +18551,9 @@
       ],
       "assessmentPrompt": "Before {{name}} works out a large multiplication or division, can they estimate what the answer should be roughly — and then check whether their final answer is in the right ballpark?",
       "standards": [
+        "acara-v9:AC9M5N08",
+        "acara-v9:AC9M6N04",
+        "acara-v9:AC9M6N08",
         "uk-nc-2013:Ma6/2.2i"
       ]
     },
@@ -18256,6 +18574,7 @@
       ],
       "assessmentPrompt": "Can {{name}} use long multiplication to work out something like '2,347 × 24' — setting it out in two rows, one for the units and one for the tens, then adding the results?",
       "standards": [
+        "acara-v9:AC9M5N06",
         "ccss-math:5.NBT.5",
         "uk-nc-2013:Ma6/2.2a"
       ]
@@ -18288,7 +18607,7 @@
       "name": "Multiplying and dividing (age 10+)",
       "description": "Multiply and divide numbers by 10, 100, and 1000 giving answers up to three decimal places, understanding that digits shift position in the place-value chart",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1118421052631579,
       "evidence": [
         "Compute 3.456 × 100 = 345.6 correctly",
@@ -18297,6 +18616,7 @@
       ],
       "assessmentPrompt": "Can {{name}} work out '4.6 ÷ 1,000 = 0.0046' — knowing that each division by 10 shifts digits one place to the right, even past the decimal point?",
       "standards": [
+        "acara-v9:AC9M6N06",
         "uk-nc-2013:Ma6/2.3g"
       ]
     },
@@ -18308,7 +18628,7 @@
       "name": "Multi-step problems: choosing operations",
       "description": "Solve problems involving addition, subtraction, multiplication, and division, deciding which operations and methods to use and why; solve multi-step problems in contexts",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1065789473684211,
       "evidence": [
         "Solve a three-step word problem involving a mix of all four operations",
@@ -18317,6 +18637,8 @@
       ],
       "assessmentPrompt": "If {{name}} is given a multi-step problem mixing different operations — like working out the total cost of several items at different prices — can they plan and carry out each step correctly?",
       "standards": [
+        "acara-v9:AC9M5N09",
+        "acara-v9:AC9M6N09",
         "uk-nc-2013:Ma6/2.2h"
       ]
     },
@@ -18328,7 +18650,7 @@
       "name": "Order of operations",
       "description": "Understand and apply the conventional order of operations (PEMDAS/BODMAS) to carry out calculations involving the four operations",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1381578947368421,
       "evidence": [
         "Explain why 8 + 2 × 5 = 18 (not 50) by referencing multiplication before addition",
@@ -18337,6 +18659,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees '8 + 4 × 3', do they get 20 — not 36 — because they know to do the multiplication before the addition?",
       "standards": [
+        "acara-v9:AC9M6A02",
         "uk-nc-2013:Ma6/2.2f"
       ]
     },
@@ -18348,7 +18671,7 @@
       "name": "Rounding Answers",
       "description": "Solve problems which require answers to be rounded to specified degrees of accuracy",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1394736842105263,
       "evidence": [
         "Compute a division and round the result to one decimal place as specified",
@@ -18357,6 +18680,7 @@
       ],
       "assessmentPrompt": "If {{name}} calculates an answer of 8.63 but the question asks for it to the nearest whole number, can they round it correctly to 9 — and explain why that level of precision matters in context?",
       "standards": [
+        "acara-v9:AC9M6N08",
         "uk-nc-2013:Ma6/2.3j"
       ]
     },
@@ -18493,7 +18817,7 @@
       "name": "Reading and writing numbers to 100",
       "description": "Read and write numerals from 0 to 100",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.0118421052631579,
       "evidence": [
         "Read two-digit numerals up to 100 correctly",
@@ -18501,6 +18825,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read and write any number up to 100 — both as a numeral and by saying what it means?",
       "standards": [
+        "acara-v9:AC9M1N01",
         "uk-nc-2013:Maths/Y1/NPV/2"
       ]
     },
@@ -18521,6 +18846,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read a number like '17' written on paper and write it themselves — and do they know what each digit means?",
       "standards": [
+        "acara-v9:AC9MFN01",
         "ccss-math:K.CC.3",
         "uk-nc-2013:Maths/Y1/NPV/5"
       ]
@@ -18542,6 +18868,7 @@
       ],
       "assessmentPrompt": "If {{name}} has 14 building blocks, can they see it as one full tower of 10 and 4 left over — understanding 'teen' numbers as ten-and-some-more?",
       "standards": [
+        "acara-v9:AC9M1N02",
         "ccss-math:1.NBT.2.b",
         "ccss-math:K.NBT.1"
       ]
@@ -18583,6 +18910,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that ten single objects bundled together make 'one ten' — and that this is why we write 10 with a 1 in the tens place and a 0 in the ones place?",
       "standards": [
+        "acara-v9:AC9M1N02",
+        "acara-v9:AC9M1N03",
         "ccss-math:1.NBT.2.a"
       ]
     },
@@ -18603,6 +18932,7 @@
       ],
       "assessmentPrompt": "If you show {{name}} the numbers 34, 67, and 21, can they put them in order from smallest to largest — and use the symbols > or < correctly?",
       "standards": [
+        "acara-v9:AC9M1N01",
         "ccss-math:1.NBT.3",
         "uk-nc-2013:Maths/Y2/NPV/4"
       ]
@@ -18664,6 +18994,7 @@
       ],
       "assessmentPrompt": "Can {{name}} start counting from any number up to 120 — for example, starting at 87 and counting up to 120 without losing track?",
       "standards": [
+        "acara-v9:AC9M1N01",
         "ccss-math:1.NBT.1"
       ]
     },
@@ -18675,7 +19006,7 @@
       "name": "Representing numbers to 100",
       "description": "Identify, represent and estimate numbers to 100 using different representations: place a two-digit number on a 0–100 number line marked in tens, represent it with base-ten blocks (tens and ones), drawings, bead strings or hundred squares, and estimate 'about how many' objects in a set before counting to check",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.05526315789473684,
       "evidence": [
         "Mark 47 in about the right place on a 0–100 number line marked in tens (between 40 and 50, nearer 50)",
@@ -18684,6 +19015,8 @@
       ],
       "assessmentPrompt": "If {{name}} has a number line from 0 to 100 marked in tens, can they point to roughly where 47 goes — and show 47 another way, such as 4 tens and 7 ones with blocks or a drawing?",
       "standards": [
+        "acara-v9:AC9M1N01",
+        "acara-v9:AC9M3N05",
         "uk-nc-2013:Maths/Y2/NPV/3"
       ]
     },
@@ -18715,7 +19048,7 @@
       "name": "The two digits of a two-digit number",
       "description": "Understand that the two digits of a two-digit number represent amounts of tens and ones",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.4157894736842105,
       "evidence": [
         "Explain that in 47, the 4 represents 4 tens (40) and the 7 represents 7 ones",
@@ -18724,6 +19057,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees the number 47, can they tell you there are 4 tens (forty) and 7 ones — rather than just reading the digits as 'four seven'?",
       "standards": [
+        "acara-v9:AC9M1N02",
+        "acara-v9:AC9M2N02",
         "ccss-math:1.NBT.2",
         "uk-nc-2013:Maths/Y2/NPV/2"
       ]
@@ -18766,6 +19101,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that ten full tens stacked together make one hundred — and that this is why 100 has a 1 in the hundreds place and zeros in the rest?",
       "standards": [
+        "acara-v9:AC9M2N02",
         "ccss-math:2.NBT.1.a"
       ]
     },
@@ -18777,7 +19113,7 @@
       "name": "Odd or Even",
       "description": "Determine whether a group of objects (up to 20) has an odd or even number of members",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.006578947368421052,
       "evidence": [
         "Pair objects and determine whether there is one left over (odd) or not (even)",
@@ -18786,6 +19122,7 @@
       ],
       "assessmentPrompt": "If {{name}} has a group of 14 objects, can they tell you whether that number is odd or even — for example by pairing them up to see if any are left over?",
       "standards": [
+        "acara-v9:AC9M4N02",
         "ccss-math:2.OA.3"
       ]
     },
@@ -18806,6 +19143,7 @@
       ],
       "assessmentPrompt": "If you give {{name}} a set of three-digit numbers like 456, 231, and 789, can they put them in order and use > and < correctly?",
       "standards": [
+        "acara-v9:AC9M2N01",
         "ccss-math:2.NBT.4",
         "uk-nc-2013:Ma/KS2/Y3/NPV/3"
       ]
@@ -18847,6 +19185,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read and write numbers up to 1,000 — both as numerals and in words — like reading '642' as 'six hundred and forty-two'?",
       "standards": [
+        "acara-v9:AC9M2N01",
         "ccss-math:2.NBT.3",
         "uk-nc-2013:Ma/KS2/Y3/NPV/5"
       ]
@@ -18868,6 +19207,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees a number line from 0 to 1000 marked only in hundreds, can they point to roughly where 346 goes — and show 346 another way, such as hundreds, tens and ones blocks or a place-value chart?",
       "standards": [
+        "acara-v9:AC9M2N01",
+        "acara-v9:AC9M2N02",
         "uk-nc-2013:Ma/KS2/Y3/NPV/4"
       ]
     },
@@ -18908,6 +19249,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees the number 348, can they tell you there are 3 hundreds, 4 tens, and 8 ones — rather than just reading the digits as 'three four eight'?",
       "standards": [
+        "acara-v9:AC9M2N01",
+        "acara-v9:AC9M2N02",
         "ccss-math:2.NBT.1",
         "uk-nc-2013:Ma/KS2/Y3/NPV/2"
       ]
@@ -18949,6 +19292,7 @@
       ],
       "assessmentPrompt": "Can {{name}} put a set of four-digit numbers like 4,321, 1,876, and 9,045 in order from smallest to largest — comparing them digit by digit?",
       "standards": [
+        "acara-v9:AC9M3N01",
         "uk-nc-2013:Ma/KS2/Y4/NPV/5"
       ]
     },
@@ -18960,7 +19304,7 @@
       "name": "Negative Numbers",
       "description": "Count backwards through zero to include negative numbers",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.06315789473684211,
       "evidence": [
         "Count backwards from 5 through zero: 5, 4, 3, 2, 1, 0, −1, −2 …",
@@ -18969,6 +19313,7 @@
       ],
       "assessmentPrompt": "Can {{name}} count backwards past zero into negative numbers — like 3, 2, 1, 0, −1, −2, −3 — without hesitating at zero?",
       "standards": [
+        "acara-v9:AC9M6N01",
         "uk-nc-2013:Ma/KS2/Y4/NPV/3"
       ]
     },
@@ -18989,6 +19334,7 @@
       ],
       "assessmentPrompt": "Can {{name}} mark a number like 6,400 roughly in the right place on a number line that goes from 0 to 10,000 — and explain how they decided where to put it?",
       "standards": [
+        "acara-v9:AC9M3N01",
         "uk-nc-2013:Ma/KS2/Y4/NPV/6"
       ]
     },
@@ -19009,6 +19355,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees the number 5,347, can they tell you the value of each digit — that the 5 means 5,000, the 3 means 300, the 4 means 40, and the 7 means 7?",
       "standards": [
+        "acara-v9:AC9M3N01",
         "uk-nc-2013:Ma/KS2/Y4/NPV/4"
       ]
     },
@@ -19030,6 +19377,28 @@
       "assessmentPrompt": "If {{name}} is asked 'what is the largest 4-digit even number you can make from the digits 3, 7, 1, and 8?', can they work through it systematically and give you an answer?",
       "standards": [
         "uk-nc-2013:Ma/KS2/Y4/NPV/8"
+      ]
+    },
+    {
+      "id": "mt_JwP9QFv6gQ",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Number Representation & Place Value",
+      "name": "Reading and writing numbers (age 9+)",
+      "description": "Read, write, order, and compare whole numbers up to at least 1,000,000 using base-ten numerals, number names, expanded form, and place-value understanding",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.06052631578947369,
+      "evidence": [
+        "Write 403,072 in words and in expanded form",
+        "Compare 548,301 and 543,801 using < and explain the reasoning",
+        "Order four six-digit numbers from smallest to largest"
+      ],
+      "assessmentPrompt": "Can {{name}} read and write numbers into the millions — like 1,340,000 — and put a set of large numbers in order correctly?",
+      "standards": [
+        "acara-v9:AC9M3N01",
+        "ccss-math:4.NBT.2",
+        "uk-nc-2013:Ma5/2.1a"
       ]
     },
     {
@@ -19060,7 +19429,7 @@
       "name": "Rounding to 10, 100, 1000",
       "description": "Round any number to the nearest 10, 100, or 1000",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.05394736842105263,
       "evidence": [
         "Round 4,367 to the nearest 10 (4,370), 100 (4,400), and 1000 (4,000)",
@@ -19069,6 +19438,7 @@
       ],
       "assessmentPrompt": "Can {{name}} round a number like 4,738 to the nearest 10 (4,740), 100 (4,700), or 1,000 (5,000) — and explain which digit they look at to decide?",
       "standards": [
+        "acara-v9:AC9M4N07",
         "ccss-math:3.NBT.1",
         "uk-nc-2013:Ma/KS2/Y4/NPV/7"
       ]
@@ -19101,7 +19471,7 @@
       "name": "Negative numbers in context",
       "description": "Interpret negative numbers in context (temperature, sea level, bank balance); count forwards and backwards with positive and negative whole numbers, including through zero",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.06315789473684211,
       "evidence": [
         "Place –3, –1, 0, 2, 5 on a number line",
@@ -19110,6 +19480,7 @@
       ],
       "assessmentPrompt": "If the temperature drops to −5°C overnight and rises to 3°C by day, can {{name}} place both on a number line and say how many degrees warmer the daytime temperature is?",
       "standards": [
+        "acara-v9:AC9M6N01",
         "uk-nc-2013:Ma5/2.1c"
       ]
     },
@@ -19130,28 +19501,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that in 700, the 7 is worth 10 times more than in 70 — because moving one place to the left multiplies the value by 10?",
       "standards": [
+        "acara-v9:AC9M4N05",
         "ccss-math:4.NBT.1"
-      ]
-    },
-    {
-      "id": "mt_JwP9QFv6gQ",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Number Representation & Place Value",
-      "name": "Reading and writing numbers (age 9+)",
-      "description": "Read, write, order, and compare whole numbers up to at least 1,000,000 using base-ten numerals, number names, expanded form, and place-value understanding",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.06052631578947369,
-      "evidence": [
-        "Write 403,072 in words and in expanded form",
-        "Compare 548,301 and 543,801 using < and explain the reasoning",
-        "Order four six-digit numbers from smallest to largest"
-      ],
-      "assessmentPrompt": "Can {{name}} read and write numbers into the millions — like 1,340,000 — and put a set of large numbers in order correctly?",
-      "standards": [
-        "ccss-math:4.NBT.2",
-        "uk-nc-2013:Ma5/2.1a"
       ]
     },
     {
@@ -19244,7 +19595,7 @@
       "name": "Measuring temperature",
       "description": "Use negative numbers in context (temperature, finance, sea level); calculate intervals across zero",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06315789473684211,
       "evidence": [
         "The temperature falls from 3°C to −5°C — what is the drop? (8 degrees)",
@@ -19253,6 +19604,7 @@
       ],
       "assessmentPrompt": "If a bank account goes from −£45 to +£120, can {{name}} work out the total change — counting through zero to get £165?",
       "standards": [
+        "acara-v9:AC9M6N01",
         "uk-nc-2013:Ma6/2.1c"
       ]
     },
@@ -19284,7 +19636,7 @@
       "name": "Patterns with Powers of Ten",
       "description": "Explain patterns in zeros when multiplying by powers of 10 and in decimal-point placement when multiplying/dividing by a power of 10; use whole-number exponents to denote powers of 10 (e.g. 10³ = 1000)",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05657894736842106,
       "evidence": [
         "Write 10⁴ = 10,000 and explain the exponent means four factors of 10",
@@ -19293,6 +19645,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why 10² = 100 and 10³ = 1,000, and why multiplying by 10 just adds a zero — connecting the pattern of zeros to place value?",
       "standards": [
+        "acara-v9:AC9M6N06",
         "ccss-math:5.NBT.2"
       ]
     },
@@ -19333,6 +19686,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read and write decimals like 3.047 or 0.625, say what each digit means (3 ones, 0 tenths, 4 hundredths, 7 thousandths), and put a set of decimals in order?",
       "standards": [
+        "acara-v9:AC9M5N01",
         "ccss-math:5.NBT.3",
         "ccss-math:5.NBT.3.a",
         "ccss-math:5.NBT.3.b"
@@ -19375,6 +19729,7 @@
       ],
       "assessmentPrompt": "In the number 4.378, can {{name}} tell you that the 7 represents 7 hundredths — not 7 tenths or 7 thousandths?",
       "standards": [
+        "acara-v9:AC9M5N01",
         "uk-nc-2013:Ma6/2.3g"
       ]
     },
@@ -19548,31 +19903,13 @@
       ]
     },
     {
-      "id": "mt_xSgAgg9Ej_",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Probability",
-      "name": "Equally Likely Outcomes",
-      "description": "Understand that 'equally likely' means every outcome has exactly the same chance of occurring; identify whether a given situation has equally likely outcomes (a fair coin, a fair die, a spinner with equal sections) or unequally likely outcomes (a bag with more of one colour, a spinner with unequal sections)",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.025,
-      "evidence": [
-        "Explain that a fair coin has equally likely outcomes because heads and tails each have the same chance",
-        "Identify whether a spinner with unequal sections has equally likely outcomes or not, and explain why",
-        "Give an example of a situation with equally likely outcomes and one without, explaining the difference"
-      ],
-      "assessmentPrompt": "Can {{name}} tell the difference between a fair situation — like rolling a normal die where every number has the same chance — and an unfair one, like a bag with many more of one colour than another?",
-      "standards": []
-    },
-    {
       "id": "mt_iFFKZd-Vgv",
       "type": "LANGUAGE",
       "subject": "Mathematics",
       "domain": "Probability",
       "name": "Likelihood Language",
       "description": "Use probability language to describe and compare the likelihood of everyday events using words such as certain, likely, even chance, unlikely, impossible",
-      "ageRangeStart": 9,
+      "ageRangeStart": 8,
       "ageRangeEnd": 10,
       "centrality": 0.02631578947368421,
       "evidence": [
@@ -19581,7 +19918,77 @@
         "Explain why pulling a red ball from a bag of mostly red balls is 'likely' but not 'certain'"
       ],
       "assessmentPrompt": "Does {{name}} use words like \"certain,\" \"likely,\" \"unlikely,\" and \"impossible\" correctly — for example, knowing that rolling a 7 on a normal die is impossible but rolling an even number is likely?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9M3P01",
+        "acara-v9:AC9M4P01"
+      ]
+    },
+    {
+      "id": "mt_J4j7d3iAfg",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Probability",
+      "name": "Simple Chance Experiments",
+      "description": "Conduct simple probability experiments — flipping a coin, rolling a die, pulling coloured counters from a bag — record results, and compare experimental outcomes with expected theoretical outcomes",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0.03157894736842105,
+      "evidence": [
+        "Flip a coin 20 times, record heads and tails in a tally chart, and describe what they notice about the results",
+        "Roll a die 30 times and compare how often each number came up with what they expected",
+        "Pull counters from a bag, record results, and explain whether the outcomes matched their prediction"
+      ],
+      "assessmentPrompt": "Has {{name}} ever done an experiment like flipping a coin or rolling a die lots of times, recorded the results in a tally chart, and noticed any patterns in what came up?",
+      "standards": [
+        "acara-v9:AC9M3P02",
+        "acara-v9:AC9M4P02",
+        "acara-v9:AC9M5P02",
+        "uk-nc-2013:KS3.Maths.Prob.1"
+      ]
+    },
+    {
+      "id": "mt_xSgAgg9Ej_",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Probability",
+      "name": "Equally Likely Outcomes",
+      "description": "Understand that 'equally likely' means every outcome has exactly the same chance of occurring; identify whether a given situation has equally likely outcomes (a fair coin, a fair die, a spinner with equal sections) or unequally likely outcomes (a bag with more of one colour, a spinner with unequal sections)",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0.025,
+      "evidence": [
+        "Explain that a fair coin has equally likely outcomes because heads and tails each have the same chance",
+        "Identify whether a spinner with unequal sections has equally likely outcomes or not, and explain why",
+        "Give an example of a situation with equally likely outcomes and one without, explaining the difference"
+      ],
+      "assessmentPrompt": "Can {{name}} tell the difference between a fair situation — like rolling a normal die where every number has the same chance — and an unfair one, like a bag with many more of one colour than another?",
+      "standards": [
+        "acara-v9:AC9M5P01"
+      ]
+    },
+    {
+      "id": "mt_-bMnJcPJy8",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Probability",
+      "name": "Experimental vs Theoretical",
+      "description": "Run repeated probability experiments and compare experimental (relative frequency) results with theoretical predictions; understand and demonstrate that as the number of trials increases, the experimental probability tends towards the theoretical probability — and that short runs can give very different results",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": 0.04605263157894737,
+      "evidence": [
+        "Roll a die 60 times and compare experimental frequencies with the expected 10 per number",
+        "Explain why experimental results don't exactly match theoretical predictions but get closer with more trials",
+        "Predict what would happen if the experiment were repeated 600 times instead of 60"
+      ],
+      "assessmentPrompt": "If {{name}} flips a coin 10 times and gets 7 heads, do they understand why this doesn't mean heads is \"more likely\" — and that the more times you flip, the closer the results get to 50:50?",
+      "standards": [
+        "acara-v9:AC9M4P02",
+        "acara-v9:AC9M5P02",
+        "acara-v9:AC9M6P02",
+        "ccss-math:7.SP.6",
+        "uk-nc-2013:KS3.Maths.Prob.1"
+      ]
     },
     {
       "id": "mt_UcGn2hjhYU",
@@ -19599,7 +20006,9 @@
         "Explain why some events are closer to 'even chance' and others are closer to 'certain' or 'impossible'"
       ],
       "assessmentPrompt": "If a bag has 8 red counters and 2 blue ones, does {{name}} understand that picking red is much more likely than picking blue — and can they put different events in order from least to most likely?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9M4P01"
+      ]
     },
     {
       "id": "mt_-c4Ca_nBzX",
@@ -19609,7 +20018,7 @@
       "name": "Probability as a Fraction",
       "description": "Describe the probability of simple equally-likely outcomes using unit fractions: the probability of rolling a 6 on a fair die is 1/6, flipping heads is 1/2, picking one specific colour from three equally represented colours is 1/3; place these fractional probabilities on a 0-to-1 probability scale",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.04342105263157895,
       "evidence": [
         "State that the probability of rolling a 6 on a fair die is 1/6 and explain why",
@@ -19618,27 +20027,9 @@
       ],
       "assessmentPrompt": "If {{name}} flips a fair coin, do they know the probability of getting heads is 1/2 — and can they express similar simple probabilities as fractions and place them on a 0-to-1 scale?",
       "standards": [
+        "acara-v9:AC9M5P01",
+        "acara-v9:AC9M6P01",
         "ccss-math:7.SP.5"
-      ]
-    },
-    {
-      "id": "mt_J4j7d3iAfg",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Probability",
-      "name": "Simple Chance Experiments",
-      "description": "Conduct simple probability experiments — flipping a coin, rolling a die, pulling coloured counters from a bag — record results, and compare experimental outcomes with expected theoretical outcomes",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.03157894736842105,
-      "evidence": [
-        "Flip a coin 20 times, record heads and tails in a tally chart, and describe what they notice about the results",
-        "Roll a die 30 times and compare how often each number came up with what they expected",
-        "Pull counters from a bag, record results, and explain whether the outcomes matched their prediction"
-      ],
-      "assessmentPrompt": "Has {{name}} ever done an experiment like flipping a coin or rolling a die lots of times, recorded the results in a tally chart, and noticed any patterns in what came up?",
-      "standards": [
-        "uk-nc-2013:KS3.Maths.Prob.1"
       ]
     },
     {
@@ -19658,27 +20049,6 @@
       ],
       "assessmentPrompt": "If there are 3 red and 7 blue balls in a bag, can {{name}} work out the probability of picking a red one and express it as a fraction in its simplest form?",
       "standards": []
-    },
-    {
-      "id": "mt_-bMnJcPJy8",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Probability",
-      "name": "Experimental vs Theoretical",
-      "description": "Run repeated probability experiments and compare experimental (relative frequency) results with theoretical predictions; understand and demonstrate that as the number of trials increases, the experimental probability tends towards the theoretical probability — and that short runs can give very different results",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "centrality": 0.04605263157894737,
-      "evidence": [
-        "Roll a die 60 times and compare experimental frequencies with the expected 10 per number",
-        "Explain why experimental results don't exactly match theoretical predictions but get closer with more trials",
-        "Predict what would happen if the experiment were repeated 600 times instead of 60"
-      ],
-      "assessmentPrompt": "If {{name}} flips a coin 10 times and gets 7 heads, do they understand why this doesn't mean heads is \"more likely\" — and that the more times you flip, the closer the results get to 50:50?",
-      "standards": [
-        "ccss-math:7.SP.6",
-        "uk-nc-2013:KS3.Maths.Prob.1"
-      ]
     },
     {
       "id": "mt_3fwYu7imd4",
@@ -19708,7 +20078,7 @@
       "name": "The 0-to-1 Probability Scale",
       "description": "Understand probability as a measure expressed as a number between 0 (impossible) and 1 (certain); place events on the probability scale; express probabilities as fractions, decimals, and percentages",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05263157894736842,
       "evidence": [
         "Place events on a number line from 0 (impossible) to 1 (certain), expressing positions as fractions or decimals",
@@ -19717,6 +20087,7 @@
       ],
       "assessmentPrompt": "Can {{name}} write the same probability as a fraction, a decimal, and a percentage — for example, knowing that an even chance is ½, 0.5, and 50%?",
       "standards": [
+        "acara-v9:AC9M6P01",
         "ccss-math:7.SP.5"
       ]
     },
@@ -19940,7 +20311,7 @@
       "name": "Calculating Percentages",
       "description": "Solve problems involving the calculation of percentages of amounts (e.g. 15% of 360) and the use of percentages for comparison",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1342105263157895,
       "evidence": [
         "Calculate 15% of 360 by finding 10% and 5% and combining",
@@ -19949,6 +20320,8 @@
       ],
       "assessmentPrompt": "If a jumper originally costs £40 and is 15% off, can {{name}} work out how much the discount is and what the sale price would be?",
       "standards": [
+        "acara-v9:AC9M6N07",
+        "acara-v9:AC9M6N09",
         "uk-nc-2013:Ma6/2.4b"
       ]
     },
