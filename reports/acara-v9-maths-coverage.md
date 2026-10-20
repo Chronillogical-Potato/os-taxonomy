@@ -2,7 +2,7 @@
 
 Reviewed 20 October 2026 against all 139 ACARA v9 Foundation–Year 6 Mathematics content descriptions. The authoring pass adds 370 alignments across 266 existing topics.
 
-**97 standards are fully covered, 35 partly covered, and 7 missing.** Full means the linked topics collectively cover the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
+**95 standards are fully covered, 37 partly covered, and 7 missing.** Full means the linked topics collectively cover the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
 
 | Year | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
@@ -12,8 +12,8 @@ Reviewed 20 October 2026 against all 139 ACARA v9 Foundation–Year 6 Mathematic
 | Year 3 | 16 | 5 | 2 | 23 |
 | Year 4 | 12 | 8 | 3 | 23 |
 | Year 5 | 21 | 2 | 1 | 24 |
-| Year 6 | 18 | 6 | 0 | 24 |
-| **Total** | **97** | **35** | **7** | **139** |
+| Year 6 | 16 | 8 | 0 | 24 |
+| **Total** | **95** | **37** | **7** | **139** |
 
 ## Foundation
 
@@ -176,7 +176,7 @@ Reviewed 20 October 2026 against all 139 ACARA v9 Foundation–Year 6 Mathematic
 | `AC9M6N03` | Full | Comparing fractions (age 9+) (`mt_SXbZ3bC9z7`); Comparing fractions (age 10+) (`mt_PL9VkDwXfh`); Equivalent fractions on a number line (`mt_Ep7TDFuYUa`); Fractions on a number line (age 8+) (`mt_NoB20kVa4w`) | — |
 | `AC9M6N04` | Full | Addition and subtraction strategies (age 10+) (`mt_JH_6RpNWjr`); Adding and subtracting (age 10+) (`mt_M1tnXqmYbn`); Decimals to three places (`mt_sA2OvTiech`); Decimal place value (age 9+) (`mt_Ii1hV4V5ql`); Estimation to check answers to calculations (`mt_ilPrU0cbtT`) | — |
 | `AC9M6N05` | Full | Adding Fractions (Unlike Denominators) (`mt_14T5yPXUq_`); Fraction Word Problems (`mt_e7filQgayF`); Adding fractions (different denominators) (`mt_-V7EnqU7gG`) | — |
-| `AC9M6N06` | Full | Multiplying and dividing (age 10+) (`mt_wPgpMJ0-PA`); Patterns with Powers of Ten (`mt_HLUqHJ9Y7n`); Multiplying and dividing (`mt_LlMl2PbaZe`); Decimal place value (`mt_SoDP1fSQEB`) | — |
+| `AC9M6N06` | Partial | Multiplying and dividing (age 10+) (`mt_wPgpMJ0-PA`); Patterns with Powers of Ten (`mt_HLUqHJ9Y7n`); Multiplying and dividing (`mt_LlMl2PbaZe`); Decimal place value (`mt_SoDP1fSQEB`) | Estimating and rounding to check the reasonableness of decimal calculation answers. |
 | `AC9M6N07` | Full | Calculating Percentages (`mt_PNSyfH56eQ`); Fractions of amounts (harder) (`mt_3y7xKP9MjU`); Multiplying fractions (age 10+) (`mt_AabJisinfi`) | — |
 | `AC9M6N08` | Full | Estimation to check answers to calculations (`mt_ilPrU0cbtT`); Rounding Answers (`mt_QU5R7Aajy9`); Fraction Word Problems (`mt_e7filQgayF`) | — |
 | `AC9M6N09` | Full | Multi-step problems: choosing operations (`mt_RXnyhCRYXA`); Adding and subtracting (age 10+) (`mt_M1tnXqmYbn`); Real-world fraction multiplication (`mt_lvaSGHwvQ5`); Calculating Percentages (`mt_PNSyfH56eQ`); Real-World Mathematical Modelling (`mt_yqZiX6vS7D`) | — |
@@ -185,6 +185,6 @@ Reviewed 20 October 2026 against all 139 ACARA v9 Foundation–Year 6 Mathematic
 | `AC9M6SP01` | Partial | 3-D shapes (age 11+) (`mt_nRksLqt-iR`) | Visualising 2-D cross-sections of solids is covered (cylinders, cones); comparing parallel cross-sections and recognising that a right prism has the same cross-section throughout is not. |
 | `AC9M6SP02` | Full | Coordinates (age 10+) (`mt_R4AY0LKxfl`); Translating and reflecting shapes (`mt_lxaM6iVpdr`); Describing Movements (`mt_Uq5vYqboCR`) | — |
 | `AC9M6SP03` | Partial | Transformations on a grid (`mt_SH7QgFl8-v`) | Performing reflections, translations and rotations is covered; combining transformations to create tessellations and geometric patterns is not. |
-| `AC9M6ST01` | Full | Averages and range (`mt_XSXnTQoQ4l`); Describing distributions (`mt_OwYms2tB1L`); Bar graphs (`mt_ChjMU2GDJa`) | — |
+| `AC9M6ST01` | Partial | Averages and range (`mt_XSXnTQoQ4l`); Describing distributions (`mt_OwYms2tB1L`); Bar graphs (`mt_ChjMU2GDJa`) | Using digital tools for comparative displays or visualisations, and interpreting and comparing ordinal and nominal categorical data sets. |
 | `AC9M6ST02` | Partial | Populations, samples and fair sampling (`mt_4zgPzc6yu5`) | Explaining how biased or convenient samples mislead is covered; identifying statistical arguments in traditional and digital media and critiquing their data representations and conclusions (e.g. misleading graphs) is not. |
 | `AC9M6ST03` | Partial | Statistical questions (`mt_iykH2P5oFq`); Writing a data summary (`mt_tuEnyrp5Ia`) | Posing statistical questions and writing a summary of findings in context are covered; planning and carrying out the data collection and refining questions as part of a full investigation are not. |

@@ -53,8 +53,8 @@ content descriptions** (`acara-v9`), bringing it to **8 sources / 3,881 standard
 Australian coverage includes English, Mathematics, Science, HASS, Health and
 Physical Education, Digital Technologies, and Design and Technologies. Arts,
 Languages, elaborations and achievement standards are outside this contribution.
-Australian Mathematics now has 370 topic alignments: 97 of its 139 standards
-are fully covered, 35 partly covered, and 7 missing. The
+Australian Mathematics now has 370 topic alignments: 95 of its 139 standards
+are fully covered, 37 partly covered, and 7 missing. The
 [coverage report](reports/acara-v9-maths-coverage.md) lists every standard, linked
 topic and remaining gap. Other Australian subjects currently have source
 standards only. See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
