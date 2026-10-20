@@ -187,6 +187,11 @@ explanation, plus concise button labels paired with icons. [Water Lab](https://w
 reference. The agent renders, inspects and iterates
 in the browser rather than stopping at the first working HTML file.
 
+The skill includes [four runnable examples with readable source, key-state
+screenshots and design notes](.agents/skills/create-learning-experience/references/examples.md):
+Moon Visit, Sky Colour Explorer, Hidden Cubes and Bee Builder. The notes explain
+what to borrow and where each prototype has limits or exceptions.
+
 Optional connected LLM mode requires explicit author approval and a learning goal
 whose open-ended reasoning or text production cannot be adequately supported
 locally. That mode requires internet and a separate account connection; ChatGPT
@@ -209,6 +214,7 @@ This dataset is **multi-licensed** — read this before you use or redistribute 
 |---|---|
 | **The database** — the collection, structure, IDs, topic↔topic and topic↔standard relationships | [**ODbL 1.0**](LICENSE) — free for research **and** commercial use, **attribution** required, **share-alike** (derivative *databases* must stay open under ODbL). |
 | **The textual content Marble authored** — topic `description`/`name`/`evidence`/`assessmentPrompt`, dependency `reason`s, cluster `summary`s, original teaching-research prose | [**CC BY-SA 4.0**](LICENSE-CONTENT) — same spirit: attribution + share-alike. |
+| **Marble-authored learning examples** — application source, original artwork, captures and design notes | [**CC BY-SA 4.0**](LICENSE-CONTENT). Bundled Three.js and Baloo 2 retain their separate MIT and OFL licenses and notices. |
 | **`curriculum-standards.json`** — extracted from third-party frameworks | **Not** Marble's to relicense. Each source is under **its own upstream license** — see [**PROVENANCE.md**](PROVENANCE.md). |
 
 **Why share-alike + still commercial-friendly:** ODbL distinguishes a *derivative database* (extend/modify the taxonomy → must stay open) from a *produced work* (use it inside a product, model, or app → stays yours). So you can build a commercial product on this without open-sourcing your product; you only owe back improvements to the *taxonomy itself*.

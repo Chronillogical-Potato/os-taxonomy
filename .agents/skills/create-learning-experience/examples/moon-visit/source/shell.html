@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="color-scheme" content="dark"><title>The Moon's daytime visit</title>
+<style>
+@font-face{font-family:'Baloo 2';src:url(data:font/ttf;base64,__FONT__) format('truetype');font-weight:400 800;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:#0b1726;color:#fff5df;font-family:'Baloo 2',sans-serif}
+#world{position:absolute;inset:0;width:100%;height:100%;touch-action:none;outline:none}
+header{position:absolute;left:32px;top:24px;max-width:calc(100% - 64px);pointer-events:none;z-index:3}
+h1{font-size:21px;font-weight:500;letter-spacing:-.3px;margin:0;line-height:1.2}
+/* Match Sky Colour's prominent, Sun-opposite explanation and accent rule. */
+#explanation{position:absolute;z-index:3;top:24%;right:40px;width:min(28vw,390px);padding:18px 20px;border-left:4px solid #8bc8fa;background:linear-gradient(270deg,#07101fe8,#07101f00);text-shadow:0 2px 10px #030812;pointer-events:none}
+#instruction{font-size:clamp(27px,2.45vw,36px);font-weight:550;letter-spacing:-.5px;line-height:1.2;margin:0;text-wrap:pretty}
+body.sky.day{color:#141414}body.sky.day #explanation{background:linear-gradient(90deg,#fdfcfaed,#fdfcfa00);text-shadow:none}
+button{font:500 18px 'Baloo 2',sans-serif;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button:focus-visible{outline:4px solid #774dc7;outline-offset:5px}button[hidden],[hidden]{display:none!important}
+.icon{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:9px;width:auto;min-height:50px;padding:10px 18px;border:2px solid #242722;border-radius:22px;color:#141414;background:#fdfcfa;box-shadow:0 4px 0 #242722;transition:transform .12s,box-shadow .12s}
+.icon svg{width:23px;height:23px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.icon:hover{background:#fff6d4}.icon:active{translate:0 3px;box-shadow:0 1px 0 #242722}.icon:disabled{opacity:.45;cursor:default;translate:none}
+.red{background:#f42324;color:#fff;border-color:#8b0023;box-shadow:0 4px 0 #8b0023}.red:hover{background:#d61922}.red:active{box-shadow:0 1px 0 #8b0023}
+.button-label{display:block;margin:0;color:inherit;font-size:18px;font-weight:500;line-height:1.15;white-space:nowrap;pointer-events:none}
+.object{position:absolute;transform:translate(-50%,-50%);background:transparent;border:0;border-radius:50%;padding:0;color:#fff9dd;touch-action:none}
+.object:active{cursor:grabbing}.object:focus-visible{outline-offset:5px}
+.object .button-label{position:absolute;bottom:2px;left:50%;transform:translateX(-50%);padding:6px 10px;border:2px solid #242722;border-radius:18px;background:#fdfcfa;color:#141414;font-size:16px;box-shadow:0 3px 0 #242722}
+#earth{width:200px;height:200px;cursor:grab}#sun,#moon{width:80px;height:80px}#observer{width:56px;height:56px}
+#eye{position:absolute;transform:translate(-50%,-50%);z-index:4;min-width:176px}#eye.pulse{animation:pulse 2s infinite}
+#next{position:absolute;right:5vw;bottom:4vh;min-width:126px}
+#reset{position:absolute;right:5vw;bottom:4vh;min-width:150px}
+#hint{position:absolute;right:5vw;bottom:calc(4vh + 90px);min-width:94px}
+#choices{position:absolute;display:flex;gap:16px;left:50%;bottom:6vh;transform:translateX(-50%)}#choices .icon{min-width:116px}
+#choices button[aria-pressed=true]{background:#ffda72;box-shadow:0 4px 0 #242722,inset 0 0 0 3px #fff}
+#extra{position:absolute;left:50%;bottom:4vh;transform:translateX(-50%);min-width:164px}
+#lookTools{position:absolute;bottom:4vh;left:50%;transform:translateX(-50%);display:flex;gap:12px}#lookTools .icon{min-width:146px}
+#progress{position:absolute;top:64px;left:32px;display:flex;gap:7px;z-index:3}#progress i{width:9px;height:9px;border:1px solid #fff5df66;border-radius:50%;background:#fff5df33}#progress i.done,#progress i.active{background:#fff5df}#progress i.active{outline:1px solid #fff5df;outline-offset:2px}
+body.sky.day #progress i{background:#14141422;border-color:#14141433}body.sky.day #progress i.done,body.sky.day #progress i.active{background:#141414}body.sky.day #progress i.active{outline-color:#141414}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+body.sky #world{cursor:grab}body.sky #world:active{cursor:grabbing}#world:focus-visible{outline:4px solid #774dc7;outline-offset:-6px}
+#moonLocator{position:absolute;width:28px;height:28px;border:5px solid #fff;border-radius:50%;background:#f42324;transform:translate(-50%,-50%);pointer-events:none;z-index:2;box-shadow:0 3px 9px #102d4250}
+#feedbackToast{position:absolute;top:max(16px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:10;max-width:calc(100vw - 32px);width:max-content;padding:14px 26px;border:2px solid #242722;border-radius:22px;background:#fdfcfa;color:#141414;font-size:clamp(19px,2.2vw,25px);font-weight:550;text-align:center;line-height:1.2;box-shadow:0 4px 0 #242722;pointer-events:none;animation:toastIn .18s ease-out}
+#feedbackToast[data-result=correct]{background:#eaf6e3}
+@keyframes pulse{50%{outline:7px solid #fff4ce66}}@keyframes toastIn{from{opacity:0;translate:0 -8px}to{opacity:1;translate:0 0}}
+@media(max-width:800px){
+ header{top:20px;left:20px;max-width:calc(100% - 40px)}h1{font-size:17px}
+ #progress{top:62px;left:20px}
+ #explanation{top:105px;left:20px;right:auto;width:calc(100% - 40px);padding:0 0 0 14px;border-left-width:3px;background:transparent}body.sky.day #explanation{background:transparent}
+ #instruction{font-size:clamp(22px,5.9vw,28px);line-height:1.17;letter-spacing:-.3px}
+ .icon{font-size:16px;padding:10px 13px;border-radius:18px;gap:6px}.button-label{font-size:16px}
+}
+@media(max-width:600px){
+ #eye{min-width:154px}#next{min-width:112px}
+ #lookTools{bottom:calc(4vh + 68px);gap:10px}#lookTools .icon{min-width:132px}
+ #choices{bottom:6vh;gap:14px}#choices .icon{min-width:108px}
+ #hint{bottom:calc(4vh + 92px);min-width:88px}#extra{bottom:calc(4vh + 68px);min-width:160px}
+ .object .button-label{font-size:14px;padding:5px 7px}
+ #earth .button-label{top:50%;bottom:auto;transform:translate(-50%,-50%)}
+}
+@media(max-height:570px) and (min-width:801px){header{top:12px}h1{font-size:17px}#progress{top:48px}#explanation{top:24%;padding:10px 14px}#instruction{font-size:23px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body>
+<canvas id="world" aria-label="A model of Earth, the Sun, the Moon and a small explorer"></canvas>
+<div id="moonLocator" aria-hidden="true" hidden></div>
+<header><h1>The Moon’s daytime visit</h1></header>
+<aside id="explanation"><p id="instruction" role="status" aria-live="polite" aria-atomic="true"></p></aside>
+<button id="earth" class="object" aria-label="Turn Earth. Use left and right arrow keys." aria-keyshortcuts="ArrowLeft ArrowRight"><span class="button-label">Turn Earth</span></button>
+<button id="sun" class="object" aria-label="Sun"><span class="button-label">Sun</span></button><button id="moon" class="object" aria-label="Moon"><span class="button-label">Moon</span></button><button id="observer" class="object" aria-label="Explorer on Earth"><span class="button-label">Explorer</span></button>
+<button id="eye" class="icon pulse" aria-label="See the sky through the explorer’s eyes" hidden></button>
+<div id="lookTools" role="group" aria-label="Look around the sky" hidden><button id="lookSun" class="icon" aria-label="Look at Sun"></button><button id="lookMoon" class="icon" aria-label="Look at Moon"></button></div>
+<button id="reset" class="icon red" aria-label="Start again" hidden></button>
+<div id="choices" role="group" aria-label="Predict whether the explorer can see the Moon" hidden><button id="yes" class="icon" aria-label="Yes, the explorer can see the Moon"></button><button id="no" class="icon" aria-label="No, the explorer cannot see the Moon"></button></div>
+<button id="hint" class="icon" aria-label="Show a hint. This answer will count as supported." hidden></button>
+<button id="next" class="icon red" aria-label="Continue" hidden></button>
+<button id="extra" class="icon" aria-label="Explore more: move the Moon" hidden></button>
+<div id="progress" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div id="feedbackToast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+<script>__APP__</script>
+</body></html>

@@ -1,0 +1,3 @@
+# Preserve imported snapshot bytes, including upstream OFL/shader whitespace.
+*/experience.html whitespace=-blank-at-eol linguist-generated=true
+*/THIRD-PARTY-NOTICES.txt whitespace=-blank-at-eol

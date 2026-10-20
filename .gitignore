@@ -3,3 +3,5 @@ node_modules/
 *.log
 .env
 .env.*
+
+.agents/skills/create-learning-experience/examples/dist/

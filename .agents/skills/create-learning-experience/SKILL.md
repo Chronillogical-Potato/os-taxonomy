@@ -68,8 +68,14 @@ Creating an experience does not authorize publishing research or child context.
 
 Read [interaction-design.md](references/interaction-design.md) and
 [visual-design.md](references/visual-design.md) before proposing the concept. Design what the child will see
-and do, and what that action will reveal about understanding. Before building the full HTML, present a compact,
-concrete proposal containing:
+and do, and what that action will reveal about understanding. Use the
+[example index](references/examples.md) to select a relevant example: read its
+short design note and inspect its key-state screenshots before proposing the
+concept. After approval, run the example and inspect relevant readable source
+when adapting its interaction. Examples illustrate specific decisions and carry
+annotated limits; current skill rules take precedence. Do not copy every example
+or force its sequence onto a different goal. Before building the full HTML,
+present a compact, concrete proposal containing:
 
 - The observable learning goal and selected topic(s).
 - The central visual/interactive activity, with an example interaction or short
