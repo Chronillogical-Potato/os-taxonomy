@@ -91,12 +91,35 @@ provided an approved concept, validate any missing essentials without repeating
 an approval ceremony. A small sketch may help the decision, but is not the full
 experience. After agreement, make routine implementation decisions autonomously.
 
+## Optional connected LLM mode
+
+Default to local, deterministic interactions. Consider runtime LLM calls only when
+achieving the learning goal requires open-ended reasoning or text production
+that local rules, simulation or prepared content cannot adequately provide. Do
+not add an LLM just for conversational decoration, generic hints, personalization
+or grading answers the browser can already check. Using an LLM to author the
+experience does not justify LLM calls while the child uses it.
+
+If this condition applies, read [llm-connected-experiences.md](references/llm-connected-experiences.md).
+During concept design, explain the essential learning role, connection/provider,
+data sent, account usage/cost and loss of offline operation. Obtain **explicit
+approval from the experience's author before including runtime LLM calls**.
+General concept approval or approval to update this skill is not permission for
+this capability. An explicit request that already approves these terms counts;
+do not repeat approval. Without it, continue with an agreed local alternative or
+explain which part of the goal cannot be met locally. Never silently substitute
+a narrower task and claim it assesses the original goal.
+
 ## Build the experience
 
-Deliver one HTML file with embedded CSS, JavaScript and required assets. It must
-open directly in a browser without accounts, a build step, a server or network
-access. Keep any research/design companion outside the child-facing flow. Use
-local interactions and no tracking or transmission of child responses by default.
+By default, deliver one HTML file with embedded CSS, JavaScript and required
+assets that opens directly in a browser without accounts, a build step, a server
+or network access. Author-approved connected LLM mode is the narrow exception:
+keep the experience UI and assets self-contained, and disclose the required
+connection service, parent authentication and network access. Do not call that
+mode offline or promise that HTML alone supplies the connection. Keep any
+research/design companion outside the child-facing flow. Use local interactions
+and no tracking or transmission of child responses by default.
 Use the bundled **Baloo 2** throughout with the user-refined Moon Visit / Sky
 Colour baseline: small sentence-case titles at 500, prominent explanations at
 550, and icon-plus-label buttons at 500. Read the exact roles and usage in

@@ -171,8 +171,9 @@ node --test scripts/teaching-research.test.mjs
 ## Create a learning experience
 
 The [`create-learning-experience` agent skill](.agents/skills/create-learning-experience/SKILL.md)
-helps turn a child's age and a user-confirmed goal into a standalone, offline HTML
-learning experience. It uses topic prerequisites and available teaching research,
+helps turn a child's age and a user-confirmed goal into a standalone HTML
+learning experience that works offline by default. It uses topic prerequisites
+and available teaching research,
 develops a targeted research brief when needed, and agrees a concept with you
 before building. Experiences use visual interactions, scaffolding, UI-assessed
 transfer tasks and optional extensions. Spatial topics use Three.js with direct
@@ -185,6 +186,11 @@ visible at a time: a small top-left title and a large, prominent instruction or
 explanation, plus concise button labels paired with icons. [Water Lab](https://withmarble.com/water-lab) is the visual quality
 reference. The agent renders, inspects and iterates
 in the browser rather than stopping at the first working HTML file.
+
+Optional connected LLM mode requires explicit author approval and a learning goal
+whose open-ended reasoning or text production cannot be adequately supported
+locally. That mode requires internet and a separate account connection; ChatGPT
+plan usage is a preview option for eligible local/open-source integrations.
 
 In Codex, open this repository and invoke `$create-learning-experience`, for example:
 

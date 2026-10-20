@@ -71,7 +71,10 @@ Also exercise:
 - Keyboard navigation and visible focus, narrow-screen layout, understandable
   controls/feedback and alternatives to interaction-specific barriers.
 - Console errors and unexpected requests. Confirm required assets and interactions
-  work offline via `file://`, with no server, CDN, fonts or remote data required.
+  work offline via `file://`, with no server, CDN, fonts or remote data required
+  by default. For explicitly approved connected LLM mode, validate the agreed
+  launch path and the checks in [llm-connected-experiences.md](llm-connected-experiences.md);
+  local assets still render without network. Report any untested live connection.
 
 For assessable transfer tasks, deliberately try an incorrect prediction, hints,
 retries and direct reveal before answering. Confirm that none earns independent

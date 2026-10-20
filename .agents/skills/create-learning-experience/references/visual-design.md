@@ -91,15 +91,19 @@ For spatial topics, use Three.js. Follow the current
 [official installation documentation](https://threejs.org/manual/pages/installation.html).
 Install a pinned package release and only the necessary addons in a local
 scratch project. A development server and bundler are allowed during authoring;
-the **delivered HTML** still requires no build, server or network.
+the **delivered HTML** still requires no build, server or network by default.
+Author-approved [connected LLM mode](llm-connected-experiences.md) permits its
+declared inference connection; it does not permit remote visual dependencies.
 
 Bundle the used Three.js modules and application code into a single inline script
 with a suitable tool such as esbuild or an equivalent bundler. Embed textures,
-fonts and required assets; avoid runtime import maps, CDN imports, fetches, remote
+fonts and required assets; avoid runtime import maps, CDN imports, asset fetches, remote
 fonts and relative asset requests. Preserve third-party notices including
 Three.js's MIT license. Smoke-test the final artifact itself via `file://` with
-network blocked, not only the development server version. Do not commit generated
-experiences or their dependency directories to os-taxonomy unless requested.
+network blocked, not only the development server version. For approved connected
+mode, check local rendering with the network blocked and separately exercise the
+declared connection and its failure states through the agreed launch path. Do not
+commit generated experiences or their dependency directories to os-taxonomy unless requested.
 
 ## Crafted cel-shaded 3D
 
