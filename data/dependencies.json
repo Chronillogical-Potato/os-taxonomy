@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3225,
+  "edgeCount": 3235,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -1676,6 +1676,18 @@
       "prerequisiteId": "mt_8jFSnXxqQD",
       "strength": "hard",
       "reason": "Writing/interpreting expressions requires understanding grouping symbols"
+    },
+    {
+      "topicId": "mt_4zgPzc6yu5",
+      "prerequisiteId": "mt_iykH2P5oFq",
+      "strength": "hard",
+      "reason": "Distinguishing a sample from its population requires first identifying the population and attribute a statistical question is about"
+    },
+    {
+      "topicId": "mt_4zgPzc6yu5",
+      "prerequisiteId": "mt_xSgAgg9Ej_",
+      "strength": "hard",
+      "reason": "Random selection is defined as giving every member an equal chance of being chosen, which requires understanding equally likely outcomes"
     },
     {
       "topicId": "mt_50SdpkNH49",
@@ -6796,6 +6808,24 @@
       "reason": "Animal intelligence builds on understanding of communication as complex behaviour"
     },
     {
+      "topicId": "mt_fQ9Rw10fss",
+      "prerequisiteId": "mt_4zgPzc6yu5",
+      "strength": "hard",
+      "reason": "Stating the assumptions and limits of an estimate depends on understanding representative versus biased samples"
+    },
+    {
+      "topicId": "mt_fQ9Rw10fss",
+      "prerequisiteId": "mt_Cg8VPguS_V",
+      "strength": "hard",
+      "reason": "The assessment includes estimating a population mean from a sample mean, which requires calculating and interpreting the mean"
+    },
+    {
+      "topicId": "mt_fQ9Rw10fss",
+      "prerequisiteId": "mt_xAf2bu9wYK",
+      "strength": "hard",
+      "reason": "Estimating from a sample proportion requires expressing the sample count as a fraction of the sample and applying it to the population"
+    },
+    {
       "topicId": "mt_fqAkSv3cUE",
       "prerequisiteId": "mt_44HkROUnzE",
       "strength": "hard",
@@ -8984,6 +9014,18 @@
       "prerequisiteId": "mt_mwirOvigWD",
       "strength": "soft",
       "reason": "Curriculum fossil formation topic (GB Y3) directly underpins detailed dinosaur fossil formation understanding"
+    },
+    {
+      "topicId": "mt_iykH2P5oFq",
+      "prerequisiteId": "mt_1VSfm9yiLn",
+      "strength": "soft",
+      "reason": "Experience asking and answering questions about collected categorical data gives the concrete basis for recognising which questions need data that varies"
+    },
+    {
+      "topicId": "mt_iykH2P5oFq",
+      "prerequisiteId": "mt_fmm-P17Vka",
+      "strength": "soft",
+      "reason": "Terms such as data, sample and average help pupils describe the population, attribute and expected variation"
     },
     {
       "topicId": "mt_iYOcfzFqMw",
@@ -17474,6 +17516,24 @@
       "prerequisiteId": "mt_iWGnyUyN2j",
       "strength": "soft",
       "reason": "Navigating friendship changes benefits from conflict resolution skills"
+    },
+    {
+      "topicId": "mt_x7V1qrkiqH",
+      "prerequisiteId": "mt_fQ9Rw10fss",
+      "strength": "hard",
+      "reason": "Comparing estimates from several samples presupposes being able to produce an estimate from a single sample"
+    },
+    {
+      "topicId": "mt_x7V1qrkiqH",
+      "prerequisiteId": "mt_sHJqh6UUya",
+      "strength": "soft",
+      "reason": "Seeing relative frequencies vary between runs of a probability experiment is a close analogue of chance variation between random samples"
+    },
+    {
+      "topicId": "mt_x7V1qrkiqH",
+      "prerequisiteId": "mt_XSXnTQoQ4l",
+      "strength": "soft",
+      "reason": "Using the range to describe spread helps pupils summarise how much the sample estimates vary"
     },
     {
       "topicId": "mt_x8TshvbbQT",
