@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Correct three existing nutrition teaching-research records to distinguish food groups from nutrients across teaching text, activities, representations and assessment; align balanced-plate activities with healthy-eating guides and keep citation links consistent. Update canonical source records and the public projection together, retaining identities and coverage counts.
+
 - Complete Australian Foundation–Year 6 Design and Technologies coverage: all 29 standards Full, with 111 alignments across 78 topics. Add 30 topics and 89 prerequisites within existing Science, Life Skills and Geography subjects, including shared Design & Technology and Food & Cooking domains. Correct food-group versus nutrient terminology in three existing nutrition topics, and qualify two overstated claims. All 593 content descriptions in the agreed seven-area scope are now Full; publish a verified scope summary. PE, Arts, Languages, elaborations and achievement standards remain excluded. Preserve existing IDs, curriculum links, prerequisites and teaching-research records; refresh centrality, coverage and checksums.
 
 - Complete Australian Foundation–Year 6 Digital Technologies coverage: all 38 standards Full, with 93 alignments across 74 topics. Add 38 Computing topics and 98 prerequisites; introduce six shared domains and move three existing general Computing topics out of Artificial Intelligence without changing their IDs or content. Reuse Mathematics algorithms, English digital creation and research, and existing design, privacy and citizenship topics. Preserve existing curriculum links, prerequisites and teaching-research records; refresh centrality, coverage and checksums.

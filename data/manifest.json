@@ -47,8 +47,8 @@
       "sha256": "7bae0dbd339c33cb39859adff99f93e14799cae89dd4abe0eef67a46c3cc18e2"
     },
     "teaching-research.json": {
-      "bytes": 23522400,
-      "sha256": "7013a336ed9535d60cbe3d4b97ba1ec44e73c6a281e1c2394ac27ce426723ffc"
+      "bytes": 23538768,
+      "sha256": "1c98d5aa410e3fd3b348ddf4d57c80076e06e9adc57fe17eb7a9f92ed27da9c3"
     },
     "archived-teaching-research.json": {
       "bytes": 50334,
@@ -62,7 +62,7 @@
   ],
   "teachingResearch": {
     "schemaVersion": 1,
-    "exportedAt": "2026-10-19T16:08:02.198Z",
+    "exportedAt": "2026-10-21T21:30:26.046Z",
     "topicFileSha256": "e5b037a5309ed12bbecd4ead88655231ff55a6fe49d98383e00f79bcfeb07bab",
     "coverage": {
       "topicCount": 1930,

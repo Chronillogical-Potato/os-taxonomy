@@ -43,6 +43,16 @@ always healthier. Effects differ by food, nutrient and preparation conditions
 Playground surfacing is described as reducing injury risk or severity, without
 guaranteeing that no injury occurs.
 
+## Teaching-guidance correction after PR review
+
+The linked research for Animal Nutrition still described nutrients as food groups.
+The three existing nutrition records now distinguish food groups from nutrients
+throughout their teaching summaries, activities, representations and assessment.
+Balanced-plate activities follow a local healthy-eating guide rather than dividing
+food into seven nutrient proportions. Citation claims and activity source claims
+remain linked. The canonical research records and public projection are updated
+together, preserving record identities and coverage.
+
 ## Verification and scope
 
 The live graph, persisted mirror, database and export agree. All existing IDs,

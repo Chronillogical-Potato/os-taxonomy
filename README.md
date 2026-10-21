@@ -194,9 +194,17 @@ portability, checked by a separate factual critic, and sampled by a second agent
 Most original pedagogy and assessment were retained and may contain claims that
 the updated guidance qualifies; chart-specific alignment repairs after #30 are
 recorded in the affected learning-guidance review notes; read the constraints and review notes alongside
-them. Sources were **not re-fetched or re-verified** for this release. Historical
+them. Sources were **not re-fetched or re-verified** for the initial publication;
+later nutrition-guide checks are recorded in the affected review notes. Historical
 `verified: true` and `confidence: "high"` are not new evidence ratings. Activities
 are research-informed proposals, **not empirically validated interventions**.
+
+Nutrition terminology corrections in [#63](https://github.com/withmarbleapp/os-taxonomy/pull/63)
+update the existing Animal Nutrition, Balanced Diet & Food Groups, and Nutrients
+in a Healthy Diet guidance, activities and assessment to distinguish nutrients
+from food groups. Balanced-plate activities use food groups in a local guide;
+the records retain their identities. See the
+[review note](reports/acara-v9-design-technologies-authoring-review.md#teaching-guidance-correction-after-pr-review).
 
 Some original research quoted restricted curriculum standards. Matched passages
 are replaced with inline curriculum references, including inside citation claims;
