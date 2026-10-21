@@ -109,6 +109,41 @@
           "portableSha256": "82f05fdb7c61282deca71ba8491f0c88a4f93c322bb86738cf0f3095e06bd51a"
         }
       }
+    },
+    "otter-forest": {
+      "originalHtml": "otter-forest.html",
+      "htmlSha256": "2836fc166bc21496b459efec939d7a0529b6fea930324f671e5c6d8a95a92849",
+      "sourceFolder": "kelp-development",
+      "files": {
+        "app.js": {
+          "originalSha256": "917b74fd25753e8629bdb9569deaf14d9699bd8ec74c60ab4da554b3fe115794",
+          "portableSha256": "917b74fd25753e8629bdb9569deaf14d9699bd8ec74c60ab4da554b3fe115794"
+        },
+        "model.mjs": {
+          "originalSha256": "5cb094af81f8ae85e0080c209773a8ae28863a0537e0d12b7f9a0eea11807a10",
+          "portableSha256": "5cb094af81f8ae85e0080c209773a8ae28863a0537e0d12b7f9a0eea11807a10"
+        },
+        "challenges.mjs": {
+          "originalSha256": "165ab38382a5627f864add5c0b17caf088c7e93763f8bb473974093b8d951cd4",
+          "portableSha256": "165ab38382a5627f864add5c0b17caf088c7e93763f8bb473974093b8d951cd4"
+        },
+        "visuals.js": {
+          "originalSha256": "0e65d3b311e17b29a1507895240c860a59c8b7906779486100e9824e0622e51d",
+          "portableSha256": "af9658ff5cf1b44da5f45f88bfc84ec1d66da2adc815f432e6d51fcca24b48d0"
+        },
+        "otter-animation.mjs": {
+          "originalSha256": "e73b558f2c7a17a195402199164937561c34716730d2edc02db21cd0993818c5",
+          "portableSha256": "e73b558f2c7a17a195402199164937561c34716730d2edc02db21cd0993818c5"
+        },
+        "vocabulary.js": {
+          "originalSha256": "7f5e94ac54cf89ab605ab5170c4f31e5ed7f4f9c06f3113cc37c96ab35d461fe",
+          "portableSha256": "7f5e94ac54cf89ab605ab5170c4f31e5ed7f4f9c06f3113cc37c96ab35d461fe"
+        },
+        "shell.html": {
+          "originalSha256": "865dd81c847aa74d3f68767884e9389204b0ecc965d105d7ace6459ffd928c33",
+          "portableSha256": "865dd81c847aa74d3f68767884e9389204b0ecc965d105d7ace6459ffd928c33"
+        }
+      }
     }
   },
   "sharedFiles": {

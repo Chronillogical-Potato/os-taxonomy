@@ -187,9 +187,9 @@ explanation, plus concise button labels paired with icons. [Water Lab](https://w
 reference. The agent renders, inspects and iterates
 in the browser rather than stopping at the first working HTML file.
 
-The skill includes [four runnable examples with readable source, key-state
+The skill includes [five runnable examples with readable source, key-state
 screenshots and design notes](.agents/skills/create-learning-experience/references/examples.md):
-Moon Visit, Sky Colour Explorer, Hidden Cubes and Bee Builder. The notes explain
+Moon Visit, Sky Colour Explorer, Hidden Cubes, Bee Builder and Otter Forest. The notes explain
 what to borrow and where each prototype has limits or exceptions.
 
 Optional connected LLM mode requires explicit author approval and a learning goal

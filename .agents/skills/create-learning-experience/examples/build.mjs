@@ -6,7 +6,7 @@ import {build} from 'esbuild';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const assets = path.resolve(root, '../assets');
-const names = ['moon-visit', 'sky-colour-explorer', 'hidden-cubes', 'bee-builder'];
+const names = ['moon-visit', 'sky-colour-explorer', 'hidden-cubes', 'bee-builder', 'otter-forest'];
 const requested = process.argv.slice(2);
 if (requested.some(name => !names.includes(name))) {
   throw new Error(`Choose an example: ${names.join(', ')}`);
