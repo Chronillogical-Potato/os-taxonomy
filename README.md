@@ -239,9 +239,9 @@ node scripts/validate.mjs
 node --test scripts/teaching-research.test.mjs
 ```
 
-## Create a learning experience
+## Marble Builder
 
-The [`create-learning-experience` agent skill](.agents/skills/create-learning-experience/SKILL.md)
+The [`marble-builder` agent skill](.agents/skills/marble-builder/SKILL.md)
 helps turn a child's age and a user-confirmed goal into a standalone HTML
 learning experience that works offline by default. It uses topic prerequisites
 and available teaching research,
@@ -259,7 +259,7 @@ reference. The agent renders, inspects and iterates
 in the browser rather than stopping at the first working HTML file.
 
 The skill includes [five runnable examples with readable source, key-state
-screenshots and design notes](.agents/skills/create-learning-experience/references/examples.md):
+screenshots and design notes](.agents/skills/marble-builder/references/examples.md):
 Moon Visit, Sky Colour Explorer, Hidden Cubes, Bee Builder and Otter Forest. The notes explain
 what to borrow and where each prototype has limits or exceptions.
 
@@ -268,9 +268,9 @@ whose open-ended reasoning or text production cannot be adequately supported
 locally. That mode requires internet and a separate account connection; ChatGPT
 plan usage is a preview option for eligible local/open-source integrations.
 
-In Codex, open this repository and invoke `$create-learning-experience`, for example:
+In Codex, open this repository and invoke `$marble-builder`, for example:
 
-> Use $create-learning-experience to help my 8-year-old understand why equivalent
+> Use $marble-builder to help my 8-year-old understand why equivalent
 > fractions represent the same quantity.
 
 Other agents can follow the linked `SKILL.md` directly. No Marble account or

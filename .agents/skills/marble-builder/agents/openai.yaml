@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marble Builder"
+  short_description: "Design and build learning experiences for children"
+  default_prompt: "Use $marble-builder to help me design and build a standalone HTML learning experience for my child."

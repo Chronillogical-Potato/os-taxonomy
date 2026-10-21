@@ -1,9 +1,9 @@
 ---
-name: create-learning-experience
+name: marble-builder
 description: Design a learning experience for a child with the user, ground it in os-taxonomy and teaching research, then build and validate a standalone HTML experience. Use for creating or revising child-facing learning activities, rather than general curriculum lookup.
 ---
 
-# Create a learning experience
+# Marble Builder
 
 Turn a user-confirmed learning goal into an educationally sound, standalone HTML
 experience through a short design conversation. Use this repository's topics,
