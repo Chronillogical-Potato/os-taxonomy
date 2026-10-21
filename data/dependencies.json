@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3853,
+  "edgeCount": 3915,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -32,6 +32,24 @@
       "prerequisiteId": "mt_oNWXXAn3cn",
       "strength": "hard",
       "reason": "Must understand basic insect features before studying how they are adapted for survival"
+    },
+    {
+      "topicId": "mt_085iC6v-Oa",
+      "prerequisiteId": "mt_JivEBTD_KV",
+      "strength": "soft",
+      "reason": "'Peer Pressure and Resisting It' supports 'Analysing risky situations'"
+    },
+    {
+      "topicId": "mt_085iC6v-Oa",
+      "prerequisiteId": "mt_Udv6pH1nRh",
+      "strength": "hard",
+      "reason": "'Analysing risky situations' builds on 'Staying safe online and offline'"
+    },
+    {
+      "topicId": "mt_085iC6v-Oa",
+      "prerequisiteId": "mt_W5euSyU2sO",
+      "strength": "soft",
+      "reason": "'Scams & Online Safety' supports 'Analysing risky situations'"
     },
     {
       "topicId": "mt_09sySPqM9Z",
@@ -766,6 +784,18 @@
       "reason": "Must understand AI fairness before designing responsible AI systems"
     },
     {
+      "topicId": "mt_1ZwxvIqIxf",
+      "prerequisiteId": "mt_rqLMfiw61L",
+      "strength": "soft",
+      "reason": "'Assertive Communication' supports 'Communicating consent clearly'"
+    },
+    {
+      "topicId": "mt_1ZwxvIqIxf",
+      "prerequisiteId": "mt_-WhvVTsKV-",
+      "strength": "hard",
+      "reason": "'Communicating consent clearly' builds on 'Rehearsing permission skills'"
+    },
+    {
       "topicId": "mt_20WfHhnL39",
       "prerequisiteId": "mt_yqAL6O5i_v",
       "strength": "soft",
@@ -884,6 +914,30 @@
       "prerequisiteId": "mt_TDUpy57QVM",
       "strength": "soft",
       "reason": "Critiquing others' mathematical reasoning and explaining errors applies the universal error-analysis habit to peer arguments"
+    },
+    {
+      "topicId": "mt_2eVg4Tt5r0",
+      "prerequisiteId": "mt_4k3HGahK2k",
+      "strength": "soft",
+      "reason": "'Healthy Lifestyle Choices' supports 'Putting healthy habits into practice'"
+    },
+    {
+      "topicId": "mt_2eVg4Tt5r0",
+      "prerequisiteId": "mt_QhLAeAlHI0",
+      "strength": "hard",
+      "reason": "'Putting healthy habits into practice' builds on 'Balanced Diet & Food Groups'"
+    },
+    {
+      "topicId": "mt_2eVg4Tt5r0",
+      "prerequisiteId": "mt_vbbxnY7ZDT",
+      "strength": "hard",
+      "reason": "'Putting healthy habits into practice' builds on 'Keeping clean and healthy'"
+    },
+    {
+      "topicId": "mt_2eVg4Tt5r0",
+      "prerequisiteId": "mt_wudskBtVQc",
+      "strength": "soft",
+      "reason": "'Health messages around us' supports 'Putting healthy habits into practice'"
     },
     {
       "topicId": "mt_2_fB4LuVwc",
@@ -2614,6 +2668,24 @@
       "reason": "'Creating digital multimodal texts' builds on 'Making multimodal texts'"
     },
     {
+      "topicId": "mt_7b8EHUBoxd",
+      "prerequisiteId": "mt_I9iSzpGRn5",
+      "strength": "soft",
+      "reason": "'Understanding Bullying' supports 'Telling and getting help'"
+    },
+    {
+      "topicId": "mt_7b8EHUBoxd",
+      "prerequisiteId": "mt_PdYlsA33jB",
+      "strength": "hard",
+      "reason": "'Telling and getting help' builds on 'Asking for Help'"
+    },
+    {
+      "topicId": "mt_7b8EHUBoxd",
+      "prerequisiteId": "mt_R2_rZ4F6r4",
+      "strength": "hard",
+      "reason": "'Telling and getting help' builds on 'No, go, tell'"
+    },
+    {
       "topicId": "mt__7BVYUN180",
       "prerequisiteId": "mt_2qkn8Lhc8e",
       "strength": "hard",
@@ -3634,6 +3706,24 @@
       "reason": "Summarising literary texts draws on the summarisation skills developed with informational texts at LKS2 level"
     },
     {
+      "topicId": "mt_a0_W_oIEQg",
+      "prerequisiteId": "mt_Amw5ikSSQI",
+      "strength": "hard",
+      "reason": "'How experiences shape who I am' builds on 'Resilience and Bouncing Back'"
+    },
+    {
+      "topicId": "mt_a0_W_oIEQg",
+      "prerequisiteId": "mt_ij20XUbMHg",
+      "strength": "hard",
+      "reason": "'How experiences shape who I am' builds on 'Qualities that shape who I am'"
+    },
+    {
+      "topicId": "mt_a0_W_oIEQg",
+      "prerequisiteId": "mt_pAuo9Op89t",
+      "strength": "soft",
+      "reason": "'Growth Mindset' supports 'How experiences shape who I am'"
+    },
+    {
       "topicId": "mt_a0yi2vpoUn",
       "prerequisiteId": "mt_CdB3nZHkEA",
       "strength": "soft",
@@ -4202,6 +4292,24 @@
       "prerequisiteId": "mt_ZRoQVXf_aD",
       "strength": "hard",
       "reason": "Supervolcano-scale events and climate impacts depends on volcano monitoring fundamentals"
+    },
+    {
+      "topicId": "mt_Amojd_oviu",
+      "prerequisiteId": "mt_4k3HGahK2k",
+      "strength": "soft",
+      "reason": "'Healthy Lifestyle Choices' supports 'Finding reliable health information'"
+    },
+    {
+      "topicId": "mt_Amojd_oviu",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "hard",
+      "reason": "'Finding reliable health information' builds on 'Using Multiple Sources'"
+    },
+    {
+      "topicId": "mt_Amojd_oviu",
+      "prerequisiteId": "mt_OTrQJVRRJ6",
+      "strength": "hard",
+      "reason": "'Finding reliable health information' builds on 'Reading health messages'"
     },
     {
       "topicId": "mt_Amw5ikSSQI",
@@ -4894,6 +5002,18 @@
       "reason": "The carbon cycle's biological removal of CO₂ is via photosynthesis — that process must be understood to trace carbon through the cycle"
     },
     {
+      "topicId": "mt_-beOa1AO6W",
+      "prerequisiteId": "mt_j8Pv3s7TZR",
+      "strength": "hard",
+      "reason": "'Planning for change' builds on 'Choosing the Right Coping Strategy'"
+    },
+    {
+      "topicId": "mt_-beOa1AO6W",
+      "prerequisiteId": "mt_pu2mmK27UA",
+      "strength": "soft",
+      "reason": "'Growing Up & Puberty' supports 'Planning for change'"
+    },
+    {
       "topicId": "mt_bESTSBB0wK",
       "prerequisiteId": "mt_4K1dr204Hi",
       "strength": "soft",
@@ -5186,6 +5306,12 @@
       "prerequisiteId": "mt_dpM1l5IOk6",
       "strength": "hard",
       "reason": "Must understand dinosaurs are extinct before learning fossils are how we know about them"
+    },
+    {
+      "topicId": "mt_bkMDDstwwG",
+      "prerequisiteId": "mt_a0_W_oIEQg",
+      "strength": "soft",
+      "reason": "'How experiences shape who I am' supports 'Personal Growth Over Time'"
     },
     {
       "topicId": "mt_bkMDDstwwG",
@@ -6742,6 +6868,18 @@
       "reason": "Gathering and paraphrasing builds on research projects"
     },
     {
+      "topicId": "mt_DRNXFr0ds6",
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "soft",
+      "reason": "'Everyday Safety Awareness' supports 'Health and safety signs'"
+    },
+    {
+      "topicId": "mt_DRNXFr0ds6",
+      "prerequisiteId": "mt_sQYvGbYD1I",
+      "strength": "hard",
+      "reason": "'Health and safety signs' builds on 'Texts are everywhere'"
+    },
+    {
       "topicId": "mt_ds2TOtP8I1",
       "prerequisiteId": "mt_4A7FYmvVhA",
       "strength": "hard",
@@ -6818,6 +6956,30 @@
       "prerequisiteId": "mt_mQcWGh02no",
       "strength": "hard",
       "reason": "Age 7-8 strategic tool use is prerequisite to age 8-9 level"
+    },
+    {
+      "topicId": "mt_dXP_wBLIwU",
+      "prerequisiteId": "mt_35-DhMh_Yr",
+      "strength": "soft",
+      "reason": "'Positive Self-Talk' supports 'How people and places shape identity'"
+    },
+    {
+      "topicId": "mt_dXP_wBLIwU",
+      "prerequisiteId": "mt_5zPXTvZTcX",
+      "strength": "soft",
+      "reason": "'Special places I belong to' supports 'How people and places shape identity'"
+    },
+    {
+      "topicId": "mt_dXP_wBLIwU",
+      "prerequisiteId": "mt_a0_W_oIEQg",
+      "strength": "hard",
+      "reason": "'How people and places shape identity' builds on 'How experiences shape who I am'"
+    },
+    {
+      "topicId": "mt_dXP_wBLIwU",
+      "prerequisiteId": "mt_x3DJWIEHBq",
+      "strength": "hard",
+      "reason": "'How people and places shape identity' builds on 'Groups I belong to'"
     },
     {
       "topicId": "mt_dXq9VWm31W",
@@ -9304,6 +9466,18 @@
       "reason": "Fluency requires prior experience with columnar methods for three digits"
     },
     {
+      "topicId": "mt_hHcaPPtPzS",
+      "prerequisiteId": "mt_LhkP_KKIRS",
+      "strength": "soft",
+      "reason": "'Naming Basic Emotions' supports 'Early warning signs'"
+    },
+    {
+      "topicId": "mt_hHcaPPtPzS",
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "hard",
+      "reason": "'Early warning signs' builds on 'Everyday Safety Awareness'"
+    },
+    {
       "topicId": "mt_HhuSDxwDNM",
       "prerequisiteId": "mt_nvdpxAJTBG",
       "strength": "hard",
@@ -9416,6 +9590,18 @@
       "prerequisiteId": "mt_SUOhjmRqv9",
       "strength": "hard",
       "reason": "Identifying similes and metaphors requires the ability to distinguish literal from figurative language"
+    },
+    {
+      "topicId": "mt_hkIbGmuH7D",
+      "prerequisiteId": "mt_h-z88yf9Pn",
+      "strength": "soft",
+      "reason": "'Vocabulary: ethics and citizenship' supports 'When permission is needed'"
+    },
+    {
+      "topicId": "mt_hkIbGmuH7D",
+      "prerequisiteId": "mt_sh1Mq-mshx",
+      "strength": "hard",
+      "reason": "'When permission is needed' builds on 'Asking permission'"
     },
     {
       "topicId": "mt_hlGKg5M7qJ",
@@ -9910,6 +10096,18 @@
       "reason": "'Choosing the Right Material' supports 'Natural and made materials'"
     },
     {
+      "topicId": "mt_I9cDkW4Qz-",
+      "prerequisiteId": "mt_83gRQ9OPkc",
+      "strength": "hard",
+      "reason": "'My body belongs to me' builds on 'Body Parts & Senses'"
+    },
+    {
+      "topicId": "mt_I9cDkW4Qz-",
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "soft",
+      "reason": "'Everyday Safety Awareness' supports 'My body belongs to me'"
+    },
+    {
       "topicId": "mt_I9iSzpGRn5",
       "prerequisiteId": "mt_9NQEiYLQA3",
       "strength": "soft",
@@ -10106,6 +10304,24 @@
       "prerequisiteId": "mt_rkrG2w7WXI",
       "strength": "hard",
       "reason": "'Who makes the rules?' builds on 'Rules and agreements exist'"
+    },
+    {
+      "topicId": "mt_ij20XUbMHg",
+      "prerequisiteId": "mt_HBcvu0UxYe",
+      "strength": "soft",
+      "reason": "'Makes someone a good friend' supports 'Qualities that shape who I am'"
+    },
+    {
+      "topicId": "mt_ij20XUbMHg",
+      "prerequisiteId": "mt_nHvYYrhoM7",
+      "strength": "hard",
+      "reason": "'Qualities that shape who I am' builds on 'All about me'"
+    },
+    {
+      "topicId": "mt_ij20XUbMHg",
+      "prerequisiteId": "mt_w4nSIDhIgC",
+      "strength": "soft",
+      "reason": "'Roles in a Group' supports 'Qualities that shape who I am'"
     },
     {
       "topicId": "mt_Ik-WC2ARPf",
@@ -12028,6 +12244,18 @@
       "reason": "Food chains benefit from knowing the variety of animals that eat each other"
     },
     {
+      "topicId": "mt_L8y31QOR6s",
+      "prerequisiteId": "mt_kvrvpQris4",
+      "strength": "soft",
+      "reason": "'Expressing Feelings with Words' supports 'Saying yes or no respectfully'"
+    },
+    {
+      "topicId": "mt_L8y31QOR6s",
+      "prerequisiteId": "mt_sh1Mq-mshx",
+      "strength": "soft",
+      "reason": "'Asking permission' supports 'Saying yes or no respectfully'"
+    },
+    {
       "topicId": "mt_LADBSIowuS",
       "prerequisiteId": "mt_7VrR1GzhrN",
       "strength": "hard",
@@ -13864,6 +14092,18 @@
       "reason": "Irregular and collective plurals build on regular plural noun formation"
     },
     {
+      "topicId": "mt_nHvYYrhoM7",
+      "prerequisiteId": "mt_0O4mXv3asF",
+      "strength": "soft",
+      "reason": "'My family and where we're from' supports 'All about me'"
+    },
+    {
+      "topicId": "mt_nHvYYrhoM7",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "'Similarities & Differences' supports 'All about me'"
+    },
+    {
       "topicId": "mt_nIl1kKZHsk",
       "prerequisiteId": "mt_E5ju6kQSu3",
       "strength": "hard",
@@ -14428,6 +14668,18 @@
       "reason": "Must understand circuit behaviour before representing circuits with formal symbols"
     },
     {
+      "topicId": "mt_O12GEyNwSi",
+      "prerequisiteId": "mt_My0OL6fhGL",
+      "strength": "soft",
+      "reason": "'Advertising & Spending' supports 'Gender stereotypes in media'"
+    },
+    {
+      "topicId": "mt_O12GEyNwSi",
+      "prerequisiteId": "mt_urxvHF8Vds",
+      "strength": "hard",
+      "reason": "'Gender stereotypes in media' builds on 'How stereotypes shape choices'"
+    },
+    {
       "topicId": "mt_O2dS6gvClw",
       "prerequisiteId": "mt_Jq0MjURrRC",
       "strength": "hard",
@@ -14966,6 +15218,18 @@
       "prerequisiteId": "mt_UvNrOXny1i",
       "strength": "soft",
       "reason": "'Syllables' supports 'Rhythm in rhymes and songs'"
+    },
+    {
+      "topicId": "mt_OTrQJVRRJ6",
+      "prerequisiteId": "mt_My0OL6fhGL",
+      "strength": "hard",
+      "reason": "'Reading health messages' builds on 'Advertising & Spending'"
+    },
+    {
+      "topicId": "mt_OTrQJVRRJ6",
+      "prerequisiteId": "mt_wudskBtVQc",
+      "strength": "hard",
+      "reason": "'Reading health messages' builds on 'Health messages around us'"
     },
     {
       "topicId": "mt_OtShuvs3x8",
@@ -16798,6 +17062,24 @@
       "reason": "Multiples of 100 require understanding 100 as a unit"
     },
     {
+      "topicId": "mt_R2_rZ4F6r4",
+      "prerequisiteId": "mt_hHcaPPtPzS",
+      "strength": "hard",
+      "reason": "'No, go, tell' builds on 'Early warning signs'"
+    },
+    {
+      "topicId": "mt_R2_rZ4F6r4",
+      "prerequisiteId": "mt_I9cDkW4Qz-",
+      "strength": "soft",
+      "reason": "'My body belongs to me' supports 'No, go, tell'"
+    },
+    {
+      "topicId": "mt_R2_rZ4F6r4",
+      "prerequisiteId": "mt_PdYlsA33jB",
+      "strength": "hard",
+      "reason": "'No, go, tell' builds on 'Asking for Help'"
+    },
+    {
       "topicId": "mt_-r3B4FQyX3",
       "prerequisiteId": "mt_44HkROUnzE",
       "strength": "soft",
@@ -17332,6 +17614,12 @@
       "reason": "Assertive communication builds on basic conflict resolution"
     },
     {
+      "topicId": "mt_rqLMfiw61L",
+      "prerequisiteId": "mt_L8y31QOR6s",
+      "strength": "soft",
+      "reason": "'Saying yes or no respectfully' supports 'Assertive Communication'"
+    },
+    {
       "topicId": "mt_rTn43s8RNX",
       "prerequisiteId": "mt_SwaNNdm_Ks",
       "strength": "hard",
@@ -17660,6 +17948,18 @@
       "prerequisiteId": "mt_xsk3iuNVVI",
       "strength": "soft",
       "reason": "'Multimedia elements in texts' supports 'Stages of speeches and videos'"
+    },
+    {
+      "topicId": "mt_sh1Mq-mshx",
+      "prerequisiteId": "mt_FwI7q7DSIx",
+      "strength": "soft",
+      "reason": "'Taking Turns and Sharing' supports 'Asking permission'"
+    },
+    {
+      "topicId": "mt_sh1Mq-mshx",
+      "prerequisiteId": "mt_YbX3LD0Eca",
+      "strength": "soft",
+      "reason": "'Listening to Others' supports 'Asking permission'"
     },
     {
       "topicId": "mt_ShAptVcQR3",
@@ -18994,6 +19294,18 @@
       "reason": "Ordering with inequality symbols extends Y6 work with negative numbers in context"
     },
     {
+      "topicId": "mt_Udv6pH1nRh",
+      "prerequisiteId": "mt_R2_rZ4F6r4",
+      "strength": "hard",
+      "reason": "'Staying safe online and offline' builds on 'No, go, tell'"
+    },
+    {
+      "topicId": "mt_Udv6pH1nRh",
+      "prerequisiteId": "mt_zIzJGkaj0Q",
+      "strength": "hard",
+      "reason": "'Staying safe online and offline' builds on 'Basic digital citizenship'"
+    },
+    {
       "topicId": "mt_UEe3MC5RZc",
       "prerequisiteId": "mt_aw0PldeT_L",
       "strength": "hard",
@@ -19324,6 +19636,12 @@
       "reason": "Constructing and interpreting food webs requires the food web diagram representation"
     },
     {
+      "topicId": "mt_urxvHF8Vds",
+      "prerequisiteId": "mt_2oswCNuapH",
+      "strength": "hard",
+      "reason": "'How stereotypes shape choices' builds on 'Stereotypes and Individual Differences'"
+    },
+    {
       "topicId": "mt_uSUqTjOl8m",
       "prerequisiteId": "mt_FNSeo9_T2Z",
       "strength": "soft",
@@ -19628,6 +19946,12 @@
       "prerequisiteId": "mt_yJmvUCCym7",
       "strength": "soft",
       "reason": "Word problems to 20 extend from word problems within 10 — same problem structures at a higher range"
+    },
+    {
+      "topicId": "mt_vbbxnY7ZDT",
+      "prerequisiteId": "mt_cxJRc15osy",
+      "strength": "soft",
+      "reason": "'Basic Body Needs' supports 'Keeping clean and healthy'"
     },
     {
       "topicId": "mt_VBl1T1sFCM",
@@ -20470,6 +20794,24 @@
       "reason": "Communication needs awareness of animal diversity"
     },
     {
+      "topicId": "mt_-WhvVTsKV-",
+      "prerequisiteId": "mt_hkIbGmuH7D",
+      "strength": "hard",
+      "reason": "'Rehearsing permission skills' builds on 'When permission is needed'"
+    },
+    {
+      "topicId": "mt_-WhvVTsKV-",
+      "prerequisiteId": "mt_L8y31QOR6s",
+      "strength": "hard",
+      "reason": "'Rehearsing permission skills' builds on 'Saying yes or no respectfully'"
+    },
+    {
+      "topicId": "mt_-WhvVTsKV-",
+      "prerequisiteId": "mt_rqLMfiw61L",
+      "strength": "soft",
+      "reason": "'Assertive Communication' supports 'Rehearsing permission skills'"
+    },
+    {
       "topicId": "mt_WkKkb7W9Qd",
       "prerequisiteId": "mt_8dstvf-KKb",
       "strength": "soft",
@@ -20666,6 +21008,18 @@
       "prerequisiteId": "mt_zIzJGkaj0Q",
       "strength": "hard",
       "reason": "Advanced ethical decision-making depends on earlier decision-making foundations"
+    },
+    {
+      "topicId": "mt_wudskBtVQc",
+      "prerequisiteId": "mt_cxJRc15osy",
+      "strength": "soft",
+      "reason": "'Basic Body Needs' supports 'Health messages around us'"
+    },
+    {
+      "topicId": "mt_wudskBtVQc",
+      "prerequisiteId": "mt_DRNXFr0ds6",
+      "strength": "hard",
+      "reason": "'Health messages around us' builds on 'Health and safety signs'"
     },
     {
       "topicId": "mt_Wu-ftkzoiE",
@@ -23120,6 +23474,24 @@
       "prerequisiteId": "mt_M_xcaRcvSo",
       "strength": "soft",
       "reason": "Knight knowledge provides military context for the Crusades"
+    },
+    {
+      "topicId": "mt_zYX3606Dgd",
+      "prerequisiteId": "mt_-beOa1AO6W",
+      "strength": "hard",
+      "reason": "'Support for changes and puberty' builds on 'Planning for change'"
+    },
+    {
+      "topicId": "mt_zYX3606Dgd",
+      "prerequisiteId": "mt_Jd2aWEUJ9G",
+      "strength": "soft",
+      "reason": "'Personal Coping Toolkit' supports 'Support for changes and puberty'"
+    },
+    {
+      "topicId": "mt_zYX3606Dgd",
+      "prerequisiteId": "mt_pu2mmK27UA",
+      "strength": "hard",
+      "reason": "'Support for changes and puberty' builds on 'Growing Up & Puberty'"
     }
   ]
 }
