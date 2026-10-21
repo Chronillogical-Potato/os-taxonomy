@@ -12,7 +12,7 @@ load minified HTML into model context: use `source/` instead.
 | Sky Colour Explorer | Revealing an invisible mechanism; connecting model and observer views | [Sky Colour Explorer](../examples/sky-colour-explorer/design.md) |
 | Hidden Cubes | Building composite units; revealing hidden structure; checking a learner's plan | [Hidden Cubes](../examples/hidden-cubes/design.md) |
 | Bee Builder | Deliberate 2D geometry; comparing equal areas and boundaries; construction transfer | [Bee Builder](../examples/bee-builder/design.md) |
-| Otter Forest | Emergent ecosystem dynamics; interventions, sustained goals and matched-time comparisons | [Otter Forest](../examples/otter-forest/design.md) |
+| Otter Forest | Nonlinear investigations and free exploration; emergent ecosystem dynamics, sustained goals and matched-time comparisons | [Otter Forest](../examples/otter-forest/design.md) |
 
 Borrow the relationship between learning action, representation, support and
 independent evidence. Do not copy a screen sequence, palette, mascot, fixed

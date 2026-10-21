@@ -83,6 +83,9 @@ present a compact, concrete proposal containing:
   check that they preserve the relationships the child needs to understand.
 - How the activity teaches the idea, including the important research basis and
   any significant uncertainty.
+- The flow: guided sequence, branching investigations, open exploration or a
+  combination. Explain meaningful choices, prerequisites and how learners can
+  return to unfinished work; do not default to a fixed sequence of screens.
 - How support will be introduced, adjusted and faded.
 - An independent task the interface can assess: the child's action, the observable
   response, the scoring rule and a plausible misconception it distinguishes.
@@ -146,7 +149,13 @@ Follow [visual-design.md](references/visual-design.md) for Marble-derived fonts,
 colors, tactile controls, scene composition and the standalone Three.js workflow.
 Respect explicit user constraints.
 
-Design a coherent learning sequence rather than a collection of screens:
+Choose a coherent learning flow rather than defaulting to a linear sequence.
+Use guided steps where prerequisites matter; offer selectable investigations,
+revisiting and open exploration where these serve the goal. A clear next action
+can be a meaningful choice. For dynamic simulations, read
+[simulation-design.md](references/simulation-design.md).
+
+Design the experience around these principles:
 
 - Begin every experience with a **richly illustrated title screen that poses the
   central question** in child-friendly language. Make the question the large,

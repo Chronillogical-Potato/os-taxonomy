@@ -82,6 +82,11 @@ Also exercise:
 
 - The core path from start to completion, correct and incorrect answers, repeated
   attempts, hints, recovery/reteaching, independent check, extension and restart.
+- For branching flows, enter investigations in different orders, leave one
+  unfinished and return, revisit after help/reveal, and distinguish resume from
+  replay/full restart. Navigation must preserve the relevant experiment and
+  evidence; it must not bypass prerequisites or manufacture independent success.
+  For dynamic systems, also use [simulation-design.md](simulation-design.md).
 - Any generated task/answer pairs, boundary values, randomization and state changes.
   In particular, restarting or retrying must not corrupt scores or expose stale
   answers; independent success must not inherit a supported-practice flag.

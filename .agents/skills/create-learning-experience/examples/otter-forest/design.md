@@ -26,14 +26,19 @@ assessment credit. The lesson uses the small title and prominent instruction.
 This is a reference for emergent behavior and indirect effects, rather than a
 fixed animation that plays a predetermined ecological outcome.
 
-## Learning sequence and evidence
+## Learning flow and evidence
 
 Guided observation follows an otter hunting and an urchin grazing. The learner
 then removes and adds an otter, restores kelp, and orders a food chain. This
 supported discovery establishes the controls and relationships; it is separate
 from later reflection evidence.
 
-Four freely selectable investigations progress from recovering kelp to keeping
+The menu offers a suggested progression without locking investigations into a
+required order. Learners can return to unfinished worlds, revisit discovery or
+choose unscored exploration. This makes Otter a reference for nonlinear learning
+flows, rather than a fixed tutorial–quiz sequence.
+
+Four freely selectable investigations range from recovering kelp to keeping
 a community, restoring an eelgrass meadow, and sharing a rocky coast. The
 latter connects otters, sea stars, mussels, urchins and kelp: alternate prey and
 shared prey complicate a simple “more predators is better” rule. Free

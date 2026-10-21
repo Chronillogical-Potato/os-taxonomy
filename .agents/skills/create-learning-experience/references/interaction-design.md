@@ -5,7 +5,8 @@
 For the main loop, identify what the child sees, the decision or manipulation
 they make, the consequence revealed, and the insight that consequence supports.
 Keep the meaningful representation prominent and controls close to what they
-change. Show one clear next action; introduce controls and complexity gradually.
+change. Keep the immediate action or choice clear; introduce controls and
+complexity gradually.
 A long explanation followed by a quiz is not a substitute for this design work.
 
 Begin with a richly illustrated cover posing the central question and one start
@@ -21,6 +22,49 @@ If the goal requires reading material or mathematical notation, agree the narrow
 exception for task text with
 the user before building. Read [visual-design.md](visual-design.md) for the visual
 reference, fonts, control treatment and polish criteria.
+
+## Choose the learning flow deliberately
+
+Do not assume every experience is a tutorial followed by a quiz and a finish
+screen. Choose a guided sequence, a set of investigations, a manipulable sandbox
+or a combination according to the learning goal. A short guided introduction can
+establish essential relationships and controls before opening up learner choice.
+Use a required order only where an actual prerequisite justifies it; a suggested
+route can orient learners without locking every other activity.
+
+Make choices educationally distinct: investigate a different relationship,
+change a condition, revisit an unresolved question or explore freely. A menu
+whose only usable option is always “Next” does not create meaningful agency.
+Keep navigation concise and suited to the device; branching does not require
+persistent tabs, extra headings or a dashboard.
+
+Let learners leave and return without accidentally losing their experiment or
+response evidence. Distinguish resume, replay of an investigation and a full
+restart; make the scope of any reset understandable. Revisiting an answer or
+switching branches must not clear its support/reveal history and make it appear
+independent. Gate only the evidence that requires an independent attempt, not
+unrelated exploration. Exploration itself can remain unscored.
+
+[Otter Forest](../examples/otter-forest/design.md) is the reference for a guided
+introduction opening into selectable investigations, saved in-session worlds,
+replay and free exploration. Borrow that structure when it fits; do not impose
+its number of challenges or require a menu for every experience. For experiments
+whose outcomes unfold over time, read [simulation-design.md](simulation-design.md).
+
+## Reveal relationships through visual transformations
+
+Use transformations that make the reasoning inspectable: follow one event before
+showing many, open a solid into layers, unfold boundaries onto a shared scale,
+or move from a world overview to an observer's view. Preserve object identity
+and the quantities that matter through the transition. Offer replay, pause or
+stepping when a transient event carries the explanation; essential information
+must also remain understandable with reduced motion.
+
+For comparisons, make the controlled quantities explicit in the representation.
+Bee Builder holds area constant when comparing boundaries; different scales or
+uncontrolled size changes would undermine that comparison. Decorative ink,
+shading and oversized hit targets must not distort mathematical boundaries or
+make unrelated objects selectable.
 
 ## Vocabulary is available where it is used
 
@@ -77,7 +121,10 @@ Use picking/raycasting and large invisible hit areas to attach interaction to
 objects. Show affordances with a subtle halo, handle, motion cue or ghost state;
 never depend on a written control manual. Preserve keyboard alternatives and
 accessible semantic controls without building an unrelated side control panel.
-Avoid free camera navigation unless it is part of the learning goal.
+Allow bounded orbit/zoom when it helps inspection, with a reliable reset and
+keyboard alternatives. Keep guided views where orientation matters. Distinguish
+camera gestures from object edits: a drag, pinch or cancelled gesture must not
+become a tap that removes an object or commits an answer.
 
 Separate the underlying model from its visual projection and answer checking.
 Render practice and assessment from consistent state. Changing the camera must
@@ -118,6 +165,14 @@ responses separate from assisted retries. Use several discriminating observation
 when one answer could easily be luck, without imposing a universal question
 count or percentage. After revealing a solution or hint, use a new case to obtain
 new independent evidence rather than awarding mastery for repeating the answer.
+
+When the goal includes a method or causal mechanism, check that as well as the
+outcome: a correct total can coexist with an incorrect layer plan; predicting
+visibility differs from constructing its light path. Use complementary evidence
+where needed without adding a second task by default. Define freshness by the
+underlying problem, not cosmetic changes: rotated versions of an already-seen
+solid are equivalent when orientation is irrelevant. Bound incidental demands
+such as arithmetic so they do not displace the target reasoning.
 
 Default to an experience that can assess the core goal without parent scoring.
 Do not quietly replace the core check with an open explanation and an adult
