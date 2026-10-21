@@ -8,7 +8,7 @@ export function otterPose(o,time,reduced=false){
  const stroke=reduced?0:Math.sin(time*6+o.id);
  return {phase:reach?'reach':diving?'dive':returning?'carry':eating?'eat':'swim',
   pitch:diving?.7:returning?.7-1.25*Math.min(1,age/.35):.06,
-  roll:o.meals>0&&o.meals%5===0?Math.PI*surface:0,
+  roll:!reduced&&o.meals>0&&o.meals%5===0?Math.PI*surface:0,
   stroke,reach,eating,mealScale:eating?Math.min(1,age/.22):0,
   chew:eating&&!returning&&!reduced?Math.sin(time*9)*.09:0};
 }

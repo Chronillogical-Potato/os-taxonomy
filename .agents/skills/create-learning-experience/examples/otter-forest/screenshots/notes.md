@@ -59,3 +59,27 @@ This pass did not exhaust the question bank, complete all four challenge goals,
 validate the ecological model against empirical data, test physical touch
 hardware or establish learning effectiveness. The rocky-coast and meadow tray
 checks confirm available controls, not successful long-term ecosystem outcomes.
+
+## PR review regression checks
+
+The screenshot set above was retained from the camera revision because these
+review fixes do not change those compositions. A later bounded check used the
+rebuilt exact snapshot and portable page to verify persistent reflection
+exposure across replay, retention of an earlier independent success after an
+unsuccessful revisit, and retention when a replayed goal is achieved again.
+Reflection entry used the disclosed goal-flag setup. For the replay achievement
+check, real plant/add controls first met the community predicates; only the
+held-goal duration was accelerated to `31.99` before an actual simulation tick.
+This tests evidence bookkeeping, not long-term goal stability.
+
+The same check verified plain-text live announcers separate from interactive
+vocabulary, stable announcement DOM writes and accessibility-tree live
+properties. This is not a screen-reader listening test. Camera shortcuts
+ignored Ctrl/Meta/Alt modifiers; immediate resize with animation frames held
+preserved orbit, including retained orbit state on mobile. Exact inspection-pose
+pixel continuity was not established: the additional comparison was inconclusive
+while the inspection camera was easing; it is not claimed as a passed check.
+Scene presses restored goal copy after help. Reduced-motion pose tests returned
+zero body roll. Injected WebGL failure showed the existing warning and hid
+unusable controls; WebGL console errors in that fault-injection test were
+expected. No physical-device or ecological validation is implied.

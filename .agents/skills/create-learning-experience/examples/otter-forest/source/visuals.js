@@ -196,7 +196,7 @@ export function createView(host){
   width=host.clientWidth;height=host.clientHeight;renderer.setSize(width,height);camera.aspect=width/height;
   camera.fov=width<800?44:37;camera.updateProjectionMatrix();
   scene.fog.near=width<800?78:45;scene.fog.far=width<800?130:95;
-  const pose=defaultPose();camera.position.copy(pose.pos);focus=pose.look;camera.lookAt(focus);
+  cameraFrame(true);
  }
  function cameraFrame(reduced){
   const narrow=width<800;
@@ -298,6 +298,6 @@ export function createView(host){
  }
  function highlight(x,z){ring.position.set(x,.25,z);ring.visible=true;}
  function project(x,y,z){const p=new T.Vector3(x,y,z).project(camera);return {x:(p.x*.5+.5)*width,y:(-.5*p.y+.5)*height};}
- resize();camera.position.set(22,21,34);window.addEventListener('resize',resize);
+ resize();window.addEventListener('resize',resize);
  return {renderer,scene,camera,resize,sync,pick,highlight,zoomBy,rotateBy,resetView,viewState:()=>({...orbit}),clearHighlight:()=>ring.visible=false,inspect:p=>{targetFocus=p;},project,stats:()=>renderer.info.render,canvas:renderer.domElement};
 }

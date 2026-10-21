@@ -66,7 +66,9 @@ causes and predictions. Incorrect responses receive an explanation. Answer-
 revealing help marks reflection evidence assisted; both correct responses
 without that help are required for the positive reflection result. Repeating
 revealed questions does not retroactively turn earlier errors into independent
-success. Goal achievement and reflection results remain separate.
+success. Question-exposure history survives investigation replay within the
+session, and revisiting reflection cannot erase an earlier independent success.
+Goal achievement and reflection results remain separate.
 
 This is narrow evidence of recognizing causal relationships within this
 session. The fixed questions, preceding discovery and repeated contexts do not

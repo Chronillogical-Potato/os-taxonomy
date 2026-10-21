@@ -29,10 +29,10 @@ $('help').innerHTML=icon('help');
 $('menu-button').innerHTML=icon('compare')+'<span class="ml-button-label">Menu</span>';
 for(const key of ['kelp','urchin','fish'])$('meters').insertAdjacentHTML('beforeend',`<div class="meter">${icon(key)}<div class="meter-track"><div class="meter-fill" id="meter-${key}"></div></div></div>`);
 let view;
-try{view=createView($('world'));}catch(e){say('Open this file in a browser with WebGL enabled to see the underwater world.');throw e;}
+try{view=createView($('world'));}catch(e){document.querySelector('main').dataset.stage='unavailable';for(const id of ['help','menu-button','meters'])$(id).style.display='none';say('Open this file in a browser with WebGL enabled to see the underwater world.');throw e;}
 let world=createWorld('forest',27),mode=null,stage='intro',running=false,demo=false,time=0,acc=0,speed=1;
 let state=null,drag=null,down=null,inspectTarget=null,highlightUntil=0,undoState=null,noticeUntil=0,discoveryAdded=false,discoveryRemoved=false;
-const sessions=new Map(),completed=new Map();let discoverySeen=false,chainOrder=[],chainAttempts=0,chainFirstCorrect=null;
+const sessions=new Map(),completed=new Map(),reflectionExposures=new Set();let discoverySeen=false,chainOrder=[],chainAttempts=0,chainFirstCorrect=null;
 function clearUI(){scenePointers.clear();pinchDistance=0;for(const id of ['controls','tools','choices','menu-options','timeline','food-chain'])$(id).replaceChildren();$('timeline').hidden=true;$('drag-ghost').hidden=true;view.inspect(null);view.clearHighlight();inspectTarget=null;drag=null;}
 function setStage(next){stage=next;clearUI();document.querySelector('main').dataset.stage=stage;document.querySelector('main').dataset.goals=String(!!challenges[mode]&&stage==='exploring');document.querySelector('main').dataset.meadow=String(!!world.meadow);document.querySelector('main').dataset.web=String(world.kind==='web');document.querySelector('h1').textContent=mode?(challenges[mode]?.title||({'explore-forest':'Explore the kelp forest','explore-meadow':'Explore the eelgrass meadow','explore-web':'Explore the rocky coast'}[mode])||'Open exploration'):stage==='menu'?'Choose an investigation':'Discover the forest';$('run-progress').hidden=true;$('world').tabIndex=canView()?0:-1;document.querySelector('#meter-urchin').closest('.meter').querySelector('svg').outerHTML=icon(world.meadow?'slug':'urchin');document.querySelector('#meter-fish').closest('.meter').querySelector('svg').outerHTML=icon(world.meadow?'algae':'fish');}
 function fresh(id){const w=challengeWorld(id);return {world:w,baseline:copy(w),start:copy(w),goal:goalState(),edits:0,running:true,speed:1,stage:'exploring',answers:[],question:0,feedback:false,assisted:false,previous:null,lastDeparture:0};}
@@ -140,12 +140,12 @@ function showBranch(branch){state.branch=branch;
  }else{world=copy(branch==='original'?state.baseline:state.live);say('Your world and the same start left alone, after equal elapsed time.');}
  for(const id of ['original','changed','previous'])$(id)?.setAttribute('aria-pressed',String(id===(branch==='original'?'original':branch==='previous'?'previous':'changed')));
 }
-function beginReflection(){if(!challenges[mode]||!state.goal.achieved)return;running=false;state.question=0;state.feedback=false;state.answers=[];state.assisted=!!state.reflectionSeen;state.reflectionSeen=true;setStage('question');renderQuestion();}
+function beginReflection(){if(!challenges[mode]||!state.goal.achieved)return;running=false;state.question=0;state.feedback=false;state.answers=[];state.assisted=reflectionExposures.has(mode);reflectionExposures.add(mode);setStage('question');renderQuestion();}
 function renderQuestion(){const q=questions[mode][state.question];say(state.feedback?q.why:q.q);
  if(state.feedback){button('controls','next-question',state.question===1?'See reflection':'Next question','next',()=>{if(state.question===1){setStage('reflection-done');reflectionDone();}else{state.question++;state.feedback=false;setStage('question');renderQuestion();}},true);button('controls','investigate','Investigate again','eye',()=>{setStage('exploring');running=true;renderMode();});return;}
  for(let i=0;i<q.a.length;i++)button('choices','answer-'+i,q.a[i],i===0?'eye':i===1?'compare':'hand',()=>{state.answers.push({question:state.question,choice:i,correct:i===q.correct,assisted:state.assisted});state.feedback=true;setStage('question');renderQuestion();});
 }
-function reflectionDone(){const understood=state.answers.length===2&&state.answers.every(a=>a.correct&&!a.assisted);completed.set(mode,{goal:true,understood,answers:copy(state.answers)});
+function reflectionDone(){const understood=state.answers.length===2&&state.answers.every(a=>a.correct&&!a.assisted);if(!completed.get(mode)?.understood)completed.set(mode,{goal:true,understood,answers:copy(state.answers)});
  say(understood?'You reached the goal and explained both relationships. Try the next investigation.':'You reached the goal. Some relationships need another look; try a change and watch its effects.');
  button('controls','choose-next','Choose an investigation','next',showMenu,true);button('controls','keep-exploring','Keep exploring','eye',()=>{running=true;setStage('exploring');renderMode();});
 }
@@ -160,11 +160,11 @@ $('help').onclick=()=>{
 // can become a delete tap, even if it returns to its starting point.
 const scenePointers=new Map();let pinchDistance=0;
 addEventListener('keydown',e=>{if(e.key==='Escape'){scenePointers.clear();}});
-$('world').addEventListener('keydown',e=>{if(!canView())return;const moves={ArrowLeft:[-30,0],ArrowRight:[30,0],ArrowUp:[0,-20],ArrowDown:[0,20]};if(moves[e.key]){e.preventDefault();view.rotateBy(...moves[e.key]);}else if(e.key==='+'||e.key==='='){e.preventDefault();view.zoomBy(1.25);}else if(e.key==='-'){e.preventDefault();view.zoomBy(.8);}else if(e.key.toLowerCase()==='r'){e.preventDefault();view.resetView();}});
+$('world').addEventListener('keydown',e=>{if(!canView()||e.ctrlKey||e.metaKey||e.altKey)return;const moves={ArrowLeft:[-30,0],ArrowRight:[30,0],ArrowUp:[0,-20],ArrowDown:[0,20]};if(moves[e.key]){e.preventDefault();view.rotateBy(...moves[e.key]);}else if(e.key==='+'||e.key==='='){e.preventDefault();view.zoomBy(1.25);}else if(e.key==='-'){e.preventDefault();view.zoomBy(.8);}else if(e.key.toLowerCase()==='r'){e.preventDefault();view.resetView();}});
 const spread=()=>{const p=[...scenePointers.values()];return p.length===2?Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y):0;};
 $('world').addEventListener('pointerdown',e=>{
  if(!canView()||e.button!==0)return;
- view.inspect(null);noticeUntil=0;
+ view.inspect(null);if(noticeUntil){noticeUntil=0;if(stage==='exploring')say(goalText());else if(stage==='discovery-rescue')say('Bring back the kelp. Add life or remove it, then watch what changes.');}
  scenePointers.set(e.pointerId,{x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY,moved:false,object:view.pick(e.clientX,e.clientY).object});
  $('world').setPointerCapture(e.pointerId);
  if(scenePointers.size>1){for(const p of scenePointers.values())p.moved=true;pinchDistance=spread();}
@@ -183,7 +183,7 @@ $('world').addEventListener('pointerup',e=>{
 for(const name of ['pointercancel','lostpointercapture'])$('world').addEventListener(name,e=>{scenePointers.delete(e.pointerId);pinchDistance=0;for(const p of scenePointers.values())p.moved=true;});
 $('world').addEventListener('wheel',e=>{if(!canView()||e.ctrlKey)return;e.preventDefault();view.inspect(null);view.zoomBy(Math.exp(-e.deltaY*.001));},{passive:false});
 function tick(){step(world);if(state&&stage!=='comparison')step(state.baseline);
- if(stage==='exploring'&&challenges[mode]){const was=state.goal.achieved;advanceGoal(mode,state.goal,world,DT);if(!was&&state.goal.achieved){completed.set(mode,{goal:true,understood:false});notice('Goal achieved. Keep exploring, or finish to explain what you found.');finishButton();}}
+ if(stage==='exploring'&&challenges[mode]){const was=state.goal.achieved;advanceGoal(mode,state.goal,world,DT);if(!was&&state.goal.achieved){if(!completed.get(mode)?.understood)completed.set(mode,{goal:true,understood:false});notice('Goal achieved. Keep exploring, or finish to explain what you found.');finishButton();}}
  if(stage==='discovery-rescue'){advanceGoal('rescue',state.goal,world,DT);if(state.goal.achieved){running=false;chainOrder=[];setStage('discovery-chain');renderChain();}}
  if(stage==='exploring'&&world.departures>state.lastDeparture){state.lastDeparture=world.departures;notice('An otter ran short of food and left this small habitat.');}
  
@@ -220,4 +220,4 @@ world.kelp.forEach(k=>{if(k.z>0&&k.x<6)k.b=.12;});world.urchins=world.urchins.fi
 view.inspect({type:'cover'});$('cover-start').innerHTML=icon('next')+'<span>Let’s find out</span>';
 $('cover-start').onclick=()=>{startDiscovery();$('follow').focus({preventScroll:true});};
 requestAnimationFrame(animate);
-window.otterForest={snapshot:()=>({stage,mode,running,speed,world:copy(world),metrics:metrics(world),goal:state?.goal,edits:state?.edits,answers:state?.answers,question:state?.question,feedback:state?.feedback,savedModes:[...sessions.keys()],completed:[...completed.entries()],discoverySeen,discoveryAdded,discoveryRemoved,chainOrder:[...chainOrder],chainAttempts,chainFirstCorrect,render:view.stats(),camera:view.viewState(),reduced}),project:(x,y,z)=>view.project(x,y,z)};
+window.otterForest={snapshot:()=>({stage,mode,running,speed,world:copy(world),metrics:metrics(world),goal:state?.goal,edits:state?.edits,answers:state?.answers,question:state?.question,feedback:state?.feedback,savedModes:[...sessions.keys()],completed:[...completed.entries()],reflectionExposures:[...reflectionExposures],discoverySeen,discoveryAdded,discoveryRemoved,chainOrder:[...chainOrder],chainAttempts,chainFirstCorrect,render:view.stats(),camera:view.viewState(),reduced}),project:(x,y,z)=>view.project(x,y,z)};

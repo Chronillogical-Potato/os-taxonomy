@@ -19,7 +19,7 @@ h1{font-size:21px;font-weight:500;letter-spacing:-.3px;margin:0;line-height:1.2}
 button.control{min-height:50px;border:2px solid #473522;border-radius:22px;padding:10px 18px;background:#fffcf6;box-shadow:0 4px 0 #d1c5af,inset 0 2px 0 #fff;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:transform .12s,box-shadow .12s,background .12s}
 button.control svg{width:24px;height:24px;flex-shrink:0}button.control:hover{background:#fff1cb;transform:translateY(-2px)}button.control:active{transform:translateY(4px);box-shadow:0 1px 0 #b99d70}button.control[aria-pressed=true]{background:#ffcf66;box-shadow:0 5px 0 #b88a3e,inset 0 2px 0 #ffe8a4}button.control.primary{background:#f42324;color:#fff;border-color:#8b0023;box-shadow:0 5px 0 #8b0023,inset 0 2px 0 #ffffff55}button.control.primary:hover{background:#dc171e}button.control:disabled{opacity:.4;cursor:default;transform:none}button:focus-visible{outline:4px solid #1d6475;outline-offset:6px}
 #restart{position:absolute;z-index:5;right:24px;top:22px;width:44px;height:44px;min-height:44px;padding:8px;border:0;background:#ffffff80;box-shadow:none;border-radius:22px;display:flex;align-items:center;justify-content:center}#restart svg{width:23px;height:23px}#restart:hover{background:#fff8}
-.scene-tap{cursor:pointer;outline:none}.scene-tap:focus-visible .wall{stroke:#1d6475;stroke-width:5}.scene-tap:hover .wall{stroke:#4c735f;stroke-width:5}.scene-tap:active .wall{stroke:#294c3c;stroke-width:6}.wall{transition:stroke .15s,stroke-width .15s}.bee-float{animation:float 3s ease-in-out infinite}.draw-in{animation:appear .6s both}.chosenRing{stroke:#1d6475;stroke-dasharray:8 7;stroke-width:3;fill:none;animation:appear .25s both}
+.room-focus{stroke:transparent;stroke-width:8;stroke-linejoin:round}.scene-tap{cursor:pointer;outline:none}.scene-tap:hover .room-focus{stroke:#4c735f}.scene-tap:focus-visible .room-focus{stroke:#1d6475;stroke-width:10;stroke-dasharray:10 5}.scene-tap:active .room-focus{stroke:#294c3c}.scene-tap:focus-visible .wall{stroke:#1d6475;stroke-width:5}.scene-tap:hover .wall{stroke:#4c735f;stroke-width:5}.scene-tap:active .wall{stroke:#294c3c;stroke-width:6}.wall{transition:stroke .15s,stroke-width .15s}.bee-float{animation:float 3s ease-in-out infinite}.draw-in{animation:appear .6s both}.chosenRing{stroke:#1d6475;stroke-dasharray:8 7;stroke-width:3;fill:none;animation:appear .25s both}
 @keyframes float{50%{transform:translateY(-6px)}}@keyframes appear{from{opacity:0}to{opacity:1}}
 @media(max-width:800px){header{left:20px;top:20px;max-width:calc(100% - 80px)}#experienceTitle{font-size:12px;margin-bottom:4px}h1{font-size:17px}.progress{top:79px;left:20px}#restart{right:12px;top:14px}#explanation{top:105px;left:20px;width:calc(100% - 40px);padding:0 0 0 14px;border-left-width:3px;background:transparent}#instruction{font-size:clamp(22px,5.9vw,28px);line-height:1.17;letter-spacing:-.3px}#world{inset:180px -30px 176px}#scene{width:min(100%,1050px)}#controls{bottom:22px;left:14px;right:14px;gap:8px}button.control{font-size:16px;padding:10px 13px;min-height:50px;border-radius:18px;gap:6px}button.control svg{width:23px;height:23px}#controls .primary{flex-basis:auto}main{min-height:650px}}
 @media(max-height:700px) and (min-width:801px){header{top:14px}#experienceTitle{font-size:12px}h1{font-size:17px}.progress{top:75px}#explanation{top:24%;padding:10px 14px}#instruction{font-size:27px}#world{top:90px;bottom:105px}#controls{bottom:25px}main{min-height:560px}}
@@ -444,7 +444,31 @@ function close(restore=false){clearTimeout(leaveTimer);const old=anchor;if(old&&
 function open(term,pin=false){if(!visible(term))return;clearTimeout(leaveTimer);if(anchor!==term)close();anchor=term;pinned=pinned||pin;popup.querySelector('#vocab-word').textContent=term.textContent;popup.querySelector('#vocab-definition').textContent=definitions.get(term.dataset.vocabKey);if(term.getAttribute('role')==='button')term.setAttribute('aria-expanded','true');if(!descriptionTarget){descriptionTarget=term.closest('button,a')||term;savedDescription=descriptionTarget.getAttribute('aria-describedby');}descriptionTarget.setAttribute('aria-describedby',((savedDescription||'')+' vocab-definition').trim());popup.hidden=false;position();}
 function activate(term){if(anchor===term&&pinned)close();else open(term,true);}
 function laterClose(){clearTimeout(leaveTimer);if(!pinned)leaveTimer=setTimeout(()=>{if(!popup.matches(':hover')&&!anchor?.matches(':hover')&&document.activeElement!==anchor&&!popup.contains(document.activeElement))close();},180);}
+// Keep interactive term wrapping outside live regions. Mirror only changed plain
+// text into dedicated announcers, so one instruction update produces one update.
+const liveSources=new Map();
+function prepareAnnouncements(){
+ for(const source of document.querySelectorAll('[aria-live],[role="status"],[role="alert"]')){
+  if(source.closest('[data-vocab-skip]')||liveSources.has(source))continue;
+  const mode=source.getAttribute('aria-live')||(source.getAttribute('role')==='alert'?'assertive':'polite');
+  if(mode==='off')continue;
+  const announcer=document.createElement('div');announcer.dataset.vocabSkip='';
+  announcer.className='vocab-announcer';announcer.setAttribute('aria-live',mode);announcer.setAttribute('aria-atomic','true');
+  announcer.style.cssText='position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;pointer-events:none';
+  source.setAttribute('aria-live','off');
+  if(['status','alert'].includes(source.getAttribute('role')))source.removeAttribute('role');
+  document.body.append(announcer);liveSources.set(source,{announcer,text:''});
+ }
+}
+function syncAnnouncements(){
+ for(const [source,entry]of liveSources){
+  if(!source.isConnected){entry.announcer.remove();liveSources.delete(source);continue;}
+  const text=visible(source)?source.textContent.trim():'';
+  if(text!==entry.text){entry.text=text;entry.announcer.textContent=text;}
+ }
+}
 function annotate(){
+ prepareAnnouncements();
  if(anchor&&!visible(anchor))close();
  const nodes=[],walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
   const p=n.parentElement;if(!p||!n.data.trim()||p.closest('script,style,svg,canvas,textarea,input,option,.vocab-term,#vocab-popover,[data-vocab-skip]'))return NodeFilter.FILTER_REJECT;
@@ -454,6 +478,7 @@ function annotate(){
   for(const m of matches){frag.append(document.createTextNode(n.data.slice(end,m.index)));const term=document.createElement('span');term.className='vocab-term';term.dataset.vocabKey=aliases.get(m[0].toLowerCase());term.textContent=m[0];const control=n.parentElement.closest('button,a');if(!control){term.tabIndex=0;term.setAttribute('role','button');term.setAttribute('aria-label','Explain '+m[0]);}if(!control){term.setAttribute('aria-controls','vocab-popover');term.setAttribute('aria-expanded','false');}frag.append(term);end=m.index+m[0].length;}
   frag.append(document.createTextNode(n.data.slice(end)));n.replaceWith(frag);
  }
+ syncAnnouncements();
 }
 const observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;annotate();});});observer.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['hidden','inert','class','data-screen']});
 document.addEventListener('pointerover',e=>{if(e.pointerType!=='mouse')return;const term=e.target.closest('.vocab-term');if(term)open(term);else if(popup.contains(e.target))clearTimeout(leaveTimer);});
@@ -523,7 +548,7 @@ function roomFace(p,d,{thin=false}={}){const key='room-face-'+(++illustrationId)
  const shadow=(offset,fill)=>`<path d="M${l} ${t+h*(.64+.08/1.57+offset)}L${l+w*.57} ${t+h*(.72+offset)}L${r} ${t+h*(.72-.34*.43/1.43+offset)}V${b}H${l}Z" fill="${fill}"/>`;
  return `<defs><clipPath id="${key}"><path d="${d}"/></clipPath></defs><path class="honey" d="${d}" fill="#ecc158"/>
  <g clip-path="url(#${key})" pointer-events="none">${shadow(0,'#c9973b')}${shadow(.085,'#d6a345')}<path d="M${l+w*.12} ${t+h*.14}L${l+w*.49} ${t+h*.08}L${l+w*.54} ${t+h*.15}L${l+w*.16} ${t+h*.22}Z" fill="#f6d884"/></g>
- <path class="wall" d="${d}" fill="none" stroke="${INK}" stroke-width="${thin?1.8:2.2}" stroke-linejoin="round"/>${contourRibbon(p,thin?2.8:3.8)}`;}
+ <path class="wall" d="${d}" fill="none" stroke="${INK}" stroke-width="${thin?1.8:2.2}" stroke-linejoin="round"/>${contourRibbon(p,thin?2.8:3.8)}<path class="room-focus" d="${d}" fill="none" pointer-events="none"/>`;}
 
 function cell(shape,x,y,area,{id='',droplets=false,thin=false,flat=false}={}){const p=vertices(shape,area),r=Math.sqrt(area/Math.PI),d=shape==='circle'?`M${r},0A${r},${r} 0 1 0 ${-r},0A${r},${r} 0 1 0 ${r},0Z`:ptsPath(p);return `<g ${id?`id="${id}"`:''} transform="translate(${x} ${y})">${roomFace(p,d,{thin})}${droplets?[-1,0,1].map(i=>droplet(i*22,2,1.15)).join(''):''}</g>`;}
 

@@ -76,7 +76,9 @@ into the popup, Escape/close/outside dismissal, focus restoration, dynamic copy
 and narrow positioning. A definition tap inside an action button or label must
 not submit, advance or edit; the surrounding action must still work. Confirm
 word help preserves evidence unless vocabulary recall is the assessed goal, and
-never reveals the current answer. Avoid duplicate wrappers after scene changes.
+never reveals the current answer. Avoid duplicate wrappers after scene changes. Check that instruction updates
+produce one plain-text live announcement rather than repeated term-wrapping
+mutations; browser accessibility inspection alone is not a screen-reader test.
 
 Also exercise:
 

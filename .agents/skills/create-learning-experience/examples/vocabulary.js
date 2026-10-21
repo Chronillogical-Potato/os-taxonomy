@@ -56,7 +56,31 @@ function close(restore=false){clearTimeout(leaveTimer);const old=anchor;if(old&&
 function open(term,pin=false){if(!visible(term))return;clearTimeout(leaveTimer);if(anchor!==term)close();anchor=term;pinned=pinned||pin;popup.querySelector('#vocab-word').textContent=term.textContent;popup.querySelector('#vocab-definition').textContent=definitions.get(term.dataset.vocabKey);if(term.getAttribute('role')==='button')term.setAttribute('aria-expanded','true');if(!descriptionTarget){descriptionTarget=term.closest('button,a')||term;savedDescription=descriptionTarget.getAttribute('aria-describedby');}descriptionTarget.setAttribute('aria-describedby',((savedDescription||'')+' vocab-definition').trim());popup.hidden=false;position();}
 function activate(term){if(anchor===term&&pinned)close();else open(term,true);}
 function laterClose(){clearTimeout(leaveTimer);if(!pinned)leaveTimer=setTimeout(()=>{if(!popup.matches(':hover')&&!anchor?.matches(':hover')&&document.activeElement!==anchor&&!popup.contains(document.activeElement))close();},180);}
+// Keep interactive term wrapping outside live regions. Mirror only changed plain
+// text into dedicated announcers, so one instruction update produces one update.
+const liveSources=new Map();
+function prepareAnnouncements(){
+ for(const source of document.querySelectorAll('[aria-live],[role="status"],[role="alert"]')){
+  if(source.closest('[data-vocab-skip]')||liveSources.has(source))continue;
+  const mode=source.getAttribute('aria-live')||(source.getAttribute('role')==='alert'?'assertive':'polite');
+  if(mode==='off')continue;
+  const announcer=document.createElement('div');announcer.dataset.vocabSkip='';
+  announcer.className='vocab-announcer';announcer.setAttribute('aria-live',mode);announcer.setAttribute('aria-atomic','true');
+  announcer.style.cssText='position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;pointer-events:none';
+  source.setAttribute('aria-live','off');
+  if(['status','alert'].includes(source.getAttribute('role')))source.removeAttribute('role');
+  document.body.append(announcer);liveSources.set(source,{announcer,text:''});
+ }
+}
+function syncAnnouncements(){
+ for(const [source,entry]of liveSources){
+  if(!source.isConnected){entry.announcer.remove();liveSources.delete(source);continue;}
+  const text=visible(source)?source.textContent.trim():'';
+  if(text!==entry.text){entry.text=text;entry.announcer.textContent=text;}
+ }
+}
 function annotate(){
+ prepareAnnouncements();
  if(anchor&&!visible(anchor))close();
  const nodes=[],walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
   const p=n.parentElement;if(!p||!n.data.trim()||p.closest('script,style,svg,canvas,textarea,input,option,.vocab-term,#vocab-popover,[data-vocab-skip]'))return NodeFilter.FILTER_REJECT;
@@ -66,6 +90,7 @@ function annotate(){
   for(const m of matches){frag.append(document.createTextNode(n.data.slice(end,m.index)));const term=document.createElement('span');term.className='vocab-term';term.dataset.vocabKey=aliases.get(m[0].toLowerCase());term.textContent=m[0];const control=n.parentElement.closest('button,a');if(!control){term.tabIndex=0;term.setAttribute('role','button');term.setAttribute('aria-label','Explain '+m[0]);}if(!control){term.setAttribute('aria-controls','vocab-popover');term.setAttribute('aria-expanded','false');}frag.append(term);end=m.index+m[0].length;}
   frag.append(document.createTextNode(n.data.slice(end)));n.replaceWith(frag);
  }
+ syncAnnouncements();
 }
 const observer=new MutationObserver(()=>{if(scheduled)return;scheduled=true;queueMicrotask(()=>{scheduled=false;annotate();});});observer.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['hidden','inert','class','data-screen']});
 document.addEventListener('pointerover',e=>{if(e.pointerType!=='mouse')return;const term=e.target.closest('.vocab-term');if(term)open(term);else if(popup.contains(e.target))clearTimeout(leaveTimer);});

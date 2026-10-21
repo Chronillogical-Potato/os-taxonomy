@@ -470,7 +470,7 @@ const openingPath=new THREE.BufferGeometry();openingPath.setAttribute('position'
 openingScene.add(new THREE.Mesh(openingPath,new THREE.MeshBasicMaterial({color:'#d9c699',side:THREE.DoubleSide})));
 const opening=createOpening({question:'Why does the sky change colour?',onStart:resetLesson,focusTarget:'#meetAir'});
 function renderOpening(){openingCamera.aspect=layout.w/layout.h;openingCamera.position.set(0,2,6);openingCamera.lookAt(0,6,-45);openingCamera.updateProjectionMatrix();renderer.render(openingScene,openingCamera);}
-function reset(){resetLesson();opening.show(true);}
+function reset(){resetLesson();renderOpening();opening.show(true);}
 function animate(ms){
  if(opening.isOpen){renderOpening();frames++;lastFrame=ms;requestAnimationFrame(animate);return;}
  const wallDt=Math.min(.25,Math.max(0,(ms-lastFrame)/1000)),dt=Math.min(.05,wallDt);lastFrame=ms;time=ms/1000;
@@ -482,4 +482,4 @@ function animate(ms){
 }
 // Read-only diagnostics used by local validation; no storage or transmission.
 window.skyExplorer={snapshot:()=>JSON.parse(JSON.stringify({...state,coverOpen:opening.isOpen,worldScale:world.scale,path:airPath(state.angle),singleColour,singleEvening,wavePaused,waveElapsed,wavePending,dragging,skyColourAmount,airTint:airMaterial.uniforms.tint.value.getHexString(),airlessStars:airlessSky.stars.visible,starCount:airlessSky.stars.geometry.attributes.position.count,firstSkyArrival:singleMotion?.firstSkyArrival,visiblePhotons:singleMotion?.paths.filter(p=>p.marker.visible).length??0,visibleMolecules:closeAir.visible?closeAir.children.length:0,waveDuration:singleMotion?.duration,teachingPaths:singleMotion?.paths.map(p=>({c:p.c,scattered:p.scattered,reachesEye:p.reachesEye,source:p.source,site:p.site,end:p.end,marker:p.marker.position,incomingTime:p.incomingTime,arrival:p.arrival,speed:p.speed})),evidence:evidence(state.responses),frames})),rayAlignment:()=>{world.updateMatrixWorld(true);const eye=world.worldToLocal(scout.eyeAnchor.getWorldPosition(new THREE.Vector3()));return {targets:rayTargets.length,maxEyeError:Math.max(0,...rayTargets.map(p=>p.distanceTo(eye))),sites:[]};},graphicsReady:()=>!renderer.getContext().isContextLost()&&frames>2,sunScreen:()=>{const q=sun.getWorldPosition(new THREE.Vector3()).project(camera);return{x:(q.x+1)*layout.w/2,y:(1-q.y)*layout.h/2};}};
-resize();reset();renderer.render(scene,camera);requestAnimationFrame(animate);
+resize();reset();requestAnimationFrame(animate);

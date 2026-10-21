@@ -100,6 +100,8 @@ language access and answer-revealing help used in the teaching design.
 The examples share [vocabulary.js](../examples/vocabulary.js); inspect its scoped
 lexicon and event handling when adapting it. Review the new topic's definitions
 rather than treating that example lexicon as complete for every experience.
+Keep interactive word wrapping outside live announcement regions; announce
+changed instructions once as plain text through a separate accessible region.
 
 ## Spatial experiences use Three.js
 

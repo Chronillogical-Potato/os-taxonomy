@@ -54,7 +54,7 @@ function roomFace(p,d,{thin=false}={}){const key='room-face-'+(++illustrationId)
  const shadow=(offset,fill)=>`<path d="M${l} ${t+h*(.64+.08/1.57+offset)}L${l+w*.57} ${t+h*(.72+offset)}L${r} ${t+h*(.72-.34*.43/1.43+offset)}V${b}H${l}Z" fill="${fill}"/>`;
  return `<defs><clipPath id="${key}"><path d="${d}"/></clipPath></defs><path class="honey" d="${d}" fill="#ecc158"/>
  <g clip-path="url(#${key})" pointer-events="none">${shadow(0,'#c9973b')}${shadow(.085,'#d6a345')}<path d="M${l+w*.12} ${t+h*.14}L${l+w*.49} ${t+h*.08}L${l+w*.54} ${t+h*.15}L${l+w*.16} ${t+h*.22}Z" fill="#f6d884"/></g>
- <path class="wall" d="${d}" fill="none" stroke="${INK}" stroke-width="${thin?1.8:2.2}" stroke-linejoin="round"/>${contourRibbon(p,thin?2.8:3.8)}`;}
+ <path class="wall" d="${d}" fill="none" stroke="${INK}" stroke-width="${thin?1.8:2.2}" stroke-linejoin="round"/>${contourRibbon(p,thin?2.8:3.8)}<path class="room-focus" d="${d}" fill="none" pointer-events="none"/>`;}
 
 function cell(shape,x,y,area,{id='',droplets=false,thin=false,flat=false}={}){const p=vertices(shape,area),r=Math.sqrt(area/Math.PI),d=shape==='circle'?`M${r},0A${r},${r} 0 1 0 ${-r},0A${r},${r} 0 1 0 ${r},0Z`:ptsPath(p);return `<g ${id?`id="${id}"`:''} transform="translate(${x} ${y})">${roomFace(p,d,{thin})}${droplets?[-1,0,1].map(i=>droplet(i*22,2,1.15)).join(''):''}</g>`;}
 

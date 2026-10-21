@@ -58,3 +58,12 @@ while underlying lesson controls are inert.
 The dedicated vocabulary captures and the Bee/Cubes cover refresh show the latest
 word-help affordances. Other lesson screenshots retain the preceding visual
 revision and may omit dashed terms; open the current HTML for the live UI.
+
+## Filled-room keyboard focus check
+
+[keyboard-room-focus.png](keyboard-room-focus.png) was captured at 1440 × 900
+from the reviewed snapshot after entering the comparison and focusing its
+filled square room through keyboard focus. The teal dashed focus path is
+painted after the room's ink contour and remains visible above it. The same
+computed focus styles were checked in the rebuilt portable page. This is a
+browser visual/DOM check, not a screen-reader or physical-device test.

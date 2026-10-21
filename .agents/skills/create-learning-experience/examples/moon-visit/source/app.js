@@ -194,7 +194,7 @@ function renderOpening(){
  openingCamera.position.set(narrow?-.3:-3.1,1.8,24);openingCamera.lookAt(narrow?-.3:-3.1,1.8,0);openingCamera.updateProjectionMatrix();
  renderer.render(openingScene,openingCamera);
 }
-function reset(){resetLesson();opening.show(true);}
+function reset(){resetLesson();renderOpening();opening.show(true);}
 let last=0;
 function frame(t){requestAnimationFrame(frame);if(t-last<1000/45)return;last=t;if(opening.isOpen){renderOpening();return;}
  if(transition){const u=Math.min(1,(t-transition.start)/transition.duration); // A smooth dolly, then the local camera takes over.
