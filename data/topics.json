@@ -679,6 +679,7 @@
       ],
       "assessmentPrompt": "If {{name}} wants to find out something — like where you put their shoes or why the sky is blue — can they start their question with the right word, like \"where\" or \"why\"?",
       "standards": [
+        "acara-v9:AC9HSFS01",
         "ccss-ela:L.K.1d"
       ]
     },
@@ -3269,6 +3270,13 @@
         "acara-v9:AC9E2LY05",
         "acara-v9:AC9E3LY05",
         "acara-v9:AC9EFLY05",
+        "acara-v9:AC9HS1S01",
+        "acara-v9:AC9HS1S03",
+        "acara-v9:AC9HS1S05",
+        "acara-v9:AC9HS2S01",
+        "acara-v9:AC9HS2S03",
+        "acara-v9:AC9HS2S05",
+        "acara-v9:AC9HSFS04",
         "ccss-ela:RI.1.1",
         "ccss-ela:RI.2.1",
         "ccss-ela:RI.3.1",
@@ -3304,6 +3312,8 @@
         "acara-v9:AC9E1LE05",
         "acara-v9:AC9E2LE03",
         "acara-v9:AC9EFLE05",
+        "acara-v9:AC9HS1S06",
+        "acara-v9:AC9HSFS05",
         "ccss-ela:RL.1.2",
         "ccss-ela:RL.1.3",
         "ccss-ela:RL.2.5",
@@ -3360,6 +3370,8 @@
       ],
       "assessmentPrompt": "When {{name}} reads a story told from one character's point of view, can they think about how a different character in the same story might have seen events differently?",
       "standards": [
+        "acara-v9:AC9HS1S04",
+        "acara-v9:AC9HS2S04",
         "ccss-ela:RL.1.6",
         "ccss-ela:RL.1.9",
         "ccss-ela:RL.2.3",
@@ -3657,6 +3669,7 @@
         "acara-v9:AC9E4LA02",
         "acara-v9:AC9E4LY03",
         "acara-v9:AC9E5LY03",
+        "acara-v9:AC9HS3S04",
         "ccss-ela:RI.3.6"
       ]
     },
@@ -3681,6 +3694,30 @@
         "acara-v9:AC9E6LE01",
         "ccss-ela:RL.3.3",
         "ccss-ela:RL.3.6"
+      ]
+    },
+    {
+      "id": "mt_8FwtdJzeDh",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Reading Comprehension",
+      "name": "Combining information from texts",
+      "description": "Integrate information from two texts on the same topic in order to write or speak about the subject knowledgeably, combining and comparing what each source contributes",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.01973684210526316,
+      "evidence": [
+        "Read two informational texts on the same topic and identify information that appears in both, information unique to each, and any contradictions between them",
+        "Combine key details from two sources into a coherent summary or short report that draws on both texts",
+        "Explain how reading a second text on the same topic added to, confirmed, or challenged understanding gained from the first text"
+      ],
+      "assessmentPrompt": "If {{name}} is researching a topic using two different books or articles, can they combine the information they've gathered from both to talk or write about the subject more fully than either source alone?",
+      "standards": [
+        "acara-v9:AC9E4LY05",
+        "acara-v9:AC9E6LY05",
+        "acara-v9:AC9HS3S04",
+        "acara-v9:AC9HS4S04",
+        "ccss-ela:RI.4.9"
       ]
     },
     {
@@ -3725,6 +3762,31 @@
         "acara-v9:AC9E3LE03",
         "acara-v9:AC9E4LE03",
         "ccss-ela:RL.4.3"
+      ]
+    },
+    {
+      "id": "mt_KbCCmLmxYN",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Reading Comprehension",
+      "name": "Interpreting visual information in texts",
+      "description": "Interpret information presented visually, orally, or quantitatively in informational texts (e.g., charts, graphs, diagrams, timelines, animations) and explain how it contributes to understanding the text",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.01842105263157895,
+      "evidence": [
+        "Read and interpret data from a chart, graph, or table included in an informational text and explain how it supports or extends the written information",
+        "Explain how a diagram, map, or timeline in an informational text helps the reader understand the topic in ways that words alone might not",
+        "Synthesise information from both the written text and a visual element (graph, illustration, infographic) to draw a conclusion that neither source provides independently"
+      ],
+      "assessmentPrompt": "When {{name}} reads a non-fiction article that includes a chart or timeline, can they explain what extra information those visuals add — beyond what the written text says?",
+      "standards": [
+        "acara-v9:AC9E6LA07",
+        "acara-v9:AC9HS3S03",
+        "acara-v9:AC9HS4S03",
+        "acara-v9:AC9HS5S03",
+        "acara-v9:AC9HS6S03",
+        "ccss-ela:RI.4.7"
       ]
     },
     {
@@ -3821,28 +3883,6 @@
         "acara-v9:AC9E6LE01",
         "acara-v9:AC9E6LE02",
         "ccss-ela:RL.4.9"
-      ]
-    },
-    {
-      "id": "mt_8FwtdJzeDh",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Reading Comprehension",
-      "name": "Combining information from texts",
-      "description": "Integrate information from two texts on the same topic in order to write or speak about the subject knowledgeably, combining and comparing what each source contributes",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.01973684210526316,
-      "evidence": [
-        "Read two informational texts on the same topic and identify information that appears in both, information unique to each, and any contradictions between them",
-        "Combine key details from two sources into a coherent summary or short report that draws on both texts",
-        "Explain how reading a second text on the same topic added to, confirmed, or challenged understanding gained from the first text"
-      ],
-      "assessmentPrompt": "If {{name}} is researching a topic using two different books or articles, can they combine the information they've gathered from both to talk or write about the subject more fully than either source alone?",
-      "standards": [
-        "acara-v9:AC9E4LY05",
-        "acara-v9:AC9E6LY05",
-        "ccss-ela:RI.4.9"
       ]
     },
     {
@@ -3948,6 +3988,11 @@
       "standards": [
         "acara-v9:AC9E4LY01",
         "acara-v9:AC9E6LY01",
+        "acara-v9:AC9HS4S04",
+        "acara-v9:AC9HS5S02",
+        "acara-v9:AC9HS5S04",
+        "acara-v9:AC9HS6S02",
+        "acara-v9:AC9HS6S04",
         "ccss-ela:RI.4.6"
       ]
     },
@@ -4023,27 +4068,6 @@
       ]
     },
     {
-      "id": "mt_KbCCmLmxYN",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Reading Comprehension",
-      "name": "Interpreting visual information in texts",
-      "description": "Interpret information presented visually, orally, or quantitatively in informational texts (e.g., charts, graphs, diagrams, timelines, animations) and explain how it contributes to understanding the text",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.01842105263157895,
-      "evidence": [
-        "Read and interpret data from a chart, graph, or table included in an informational text and explain how it supports or extends the written information",
-        "Explain how a diagram, map, or timeline in an informational text helps the reader understand the topic in ways that words alone might not",
-        "Synthesise information from both the written text and a visual element (graph, illustration, infographic) to draw a conclusion that neither source provides independently"
-      ],
-      "assessmentPrompt": "When {{name}} reads a non-fiction article that includes a chart or timeline, can they explain what extra information those visuals add — beyond what the written text says?",
-      "standards": [
-        "acara-v9:AC9E6LA07",
-        "ccss-ela:RI.4.7"
-      ]
-    },
-    {
       "id": "mt_IX37F4rNed",
       "type": "PROCEDURAL",
       "subject": "English",
@@ -4065,6 +4089,7 @@
         "acara-v9:AC9E5LE02",
         "acara-v9:AC9E5LY02",
         "acara-v9:AC9E6LY02",
+        "acara-v9:AC9HS6S05",
         "uk-nc-2013:Eng.UKS2.Read.Comp.8"
       ]
     },
@@ -4088,6 +4113,10 @@
         "acara-v9:AC9E4LY01",
         "acara-v9:AC9E6LA02",
         "acara-v9:AC9E6LY01",
+        "acara-v9:AC9HS5S04",
+        "acara-v9:AC9HS5S07",
+        "acara-v9:AC9HS6S04",
+        "acara-v9:AC9HS6S07",
         "ccss-ela:RI.5.6"
       ]
     },
@@ -4410,6 +4439,8 @@
       "assessmentPrompt": "When {{name}} writes a school report using several sources, do they bring together information from all of them into their own words — rather than just quoting or copying from one source at a time?",
       "standards": [
         "acara-v9:AC9E6LY05",
+        "acara-v9:AC9HS6S02",
+        "acara-v9:AC9HS6S07",
         "ccss-ela:RI.5.9"
       ]
     },
@@ -4433,6 +4464,9 @@
         "acara-v9:AC9E5LY04",
         "acara-v9:AC9E6LY04",
         "acara-v9:AC9E6LY05",
+        "acara-v9:AC9HS5S01",
+        "acara-v9:AC9HS5S02",
+        "acara-v9:AC9HS6S02",
         "ccss-ela:RI.5.7"
       ]
     },
@@ -4754,6 +4788,11 @@
         "acara-v9:AC9E1LY02",
         "acara-v9:AC9E2LY02",
         "acara-v9:AC9E5LY02",
+        "acara-v9:AC9HS1S01",
+        "acara-v9:AC9HS2S01",
+        "acara-v9:AC9HS3S01",
+        "acara-v9:AC9HS4S01",
+        "acara-v9:AC9HSFS01",
         "ccss-ela:SL.1.3",
         "ccss-ela:SL.2.3",
         "ccss-ela:SL.3.3",
@@ -4843,6 +4882,7 @@
         "acara-v9:AC9E2LY02",
         "acara-v9:AC9E3LE02",
         "acara-v9:AC9EFLA02",
+        "acara-v9:AC9HSFS03",
         "uk-nc-2013:Eng.SL.4",
         "uk-nc-2013:Eng.SL.9"
       ]
@@ -4981,6 +5021,11 @@
         "acara-v9:AC9E4LY07",
         "acara-v9:AC9E5LY07",
         "acara-v9:AC9E6LY07",
+        "acara-v9:AC9HS2S06",
+        "acara-v9:AC9HS3S07",
+        "acara-v9:AC9HS4S07",
+        "acara-v9:AC9HS5S07",
+        "acara-v9:AC9HS6S07",
         "ccss-ela:SL.3.4",
         "ccss-ela:SL.4.4",
         "ccss-ela:SL.5.4"
@@ -6135,7 +6180,7 @@
       "name": "Domain Vocabulary Across Subject Areas",
       "description": "Acquire and use accurately academic and domain-specific vocabulary relevant to grade-level topics, including words that signal precise meaning in informational texts across subject areas",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.08026315789473684,
       "evidence": [
         "Identify and define academic vocabulary (e.g., compare, contrast, summarise, evidence, interpret) used across multiple subject areas and use these words accurately in discussion and writing",
@@ -6147,6 +6192,10 @@
         "acara-v9:AC9E3LA10",
         "acara-v9:AC9E5LA08",
         "acara-v9:AC9E5LY06",
+        "acara-v9:AC9HS3S07",
+        "acara-v9:AC9HS4S07",
+        "acara-v9:AC9HS5S07",
+        "acara-v9:AC9HS6S07",
         "ccss-ela:L.4.6",
         "ccss-ela:L.5.6",
         "ccss-ela:RI.4.4",
@@ -6479,6 +6528,9 @@
       ],
       "assessmentPrompt": "When {{name}} is given a writing project that involves finding out about something — like an animal or a place — can they look up information and use what they find to write about the topic?",
       "standards": [
+        "acara-v9:AC9HS1S02",
+        "acara-v9:AC9HS2S02",
+        "acara-v9:AC9HS3S02",
         "ccss-ela:RI.1.8",
         "ccss-ela:W.1.7",
         "ccss-ela:W.1.8",
@@ -6987,7 +7039,7 @@
       "name": "Short Research Projects",
       "description": "Conduct short research projects that build knowledge about a topic, gather information from print and digital sources, and take brief organised notes",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06842105263157895,
       "evidence": [
         "Generate three research questions about an assigned topic and identify two sources for each",
@@ -6996,6 +7048,13 @@
       ],
       "assessmentPrompt": "When {{name}} is given a research project at school, can they look up information from books or websites, take organised notes, and then write it up in their own words?",
       "standards": [
+        "acara-v9:AC9HS3S01",
+        "acara-v9:AC9HS3S02",
+        "acara-v9:AC9HS4S01",
+        "acara-v9:AC9HS4S02",
+        "acara-v9:AC9HS4S07",
+        "acara-v9:AC9HS5S01",
+        "acara-v9:AC9HS6S01",
         "ccss-ela:W.3.7",
         "ccss-ela:W.3.8",
         "ccss-ela:W.4.7",
@@ -7079,7 +7138,7 @@
       "name": "Evidence-Based Writing",
       "description": "Draw evidence from informational texts to support analysis, reflection, and research in writing, applying grade-level reading standards to non-fiction",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06578947368421052,
       "evidence": [
         "Write a research-based paragraph or short report that cites specific facts, details, and evidence from informational texts to support key points",
@@ -7089,6 +7148,9 @@
       "assessmentPrompt": "When {{name}} writes a non-fiction piece — like a report on climate change — do they draw on specific facts and evidence from things they've read, weaving that information into their own writing?",
       "standards": [
         "acara-v9:AC9E5LA02",
+        "acara-v9:AC9HS5S05",
+        "acara-v9:AC9HS5S07",
+        "acara-v9:AC9HS6S05",
         "ccss-ela:W.4.9b",
         "ccss-ela:W.5.9b"
       ]
@@ -7114,6 +7176,31 @@
         "ccss-ela:W.4.9a",
         "ccss-ela:W.5.9",
         "ccss-ela:W.5.9a"
+      ]
+    },
+    {
+      "id": "mt_dRLP8g0SAg",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Writing Composition",
+      "name": "Research & Note-Taking",
+      "description": "Gather relevant information from print and digital sources, summarise or paraphrase information in notes and finished work, and provide a basic bibliography or list of sources",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": 0.05789473684210526,
+      "evidence": [
+        "Take organised notes from multiple sources using own words rather than copying",
+        "Create a bibliography listing sources used in a research project",
+        "Paraphrase key information from a source without changing the meaning"
+      ],
+      "assessmentPrompt": "If {{name}} is researching a topic for a school project, can they find information from books or websites, put it in their own words, and keep track of where they got it from?",
+      "standards": [
+        "acara-v9:AC9HS4S02",
+        "acara-v9:AC9HS5S02",
+        "acara-v9:AC9HS5S07",
+        "acara-v9:AC9HS6S02",
+        "acara-v9:AC9HS6S07",
+        "ccss-ela:W.5.8"
       ]
     },
     {
@@ -7158,26 +7245,6 @@
         "acara-v9:AC9E5LE05",
         "acara-v9:AC9E6LE05",
         "uk-nc-2013:Eng.UKS2.Write.Comp.1c"
-      ]
-    },
-    {
-      "id": "mt_dRLP8g0SAg",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Writing Composition",
-      "name": "Research & Note-Taking",
-      "description": "Gather relevant information from print and digital sources, summarise or paraphrase information in notes and finished work, and provide a basic bibliography or list of sources",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "centrality": 0.05789473684210526,
-      "evidence": [
-        "Take organised notes from multiple sources using own words rather than copying",
-        "Create a bibliography listing sources used in a research project",
-        "Paraphrase key information from a source without changing the meaning"
-      ],
-      "assessmentPrompt": "If {{name}} is researching a topic for a school project, can they find information from books or websites, put it in their own words, and keep track of where they got it from?",
-      "standards": [
-        "ccss-ela:W.5.8"
       ]
     },
     {
@@ -8497,7 +8564,10 @@
         "Use 'evidence', 'interpretation', and 'bias' correctly in a sentence about a historical source"
       ],
       "assessmentPrompt": "If you asked {{name}} whether something they read in a history book was definitely true, could they explain why it might not be — using words like 'source', 'evidence', or 'bias'?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS1S06",
+        "acara-v9:AC9HS2S06"
+      ]
     },
     {
       "id": "mt_wWlZoLQBR6",
@@ -9532,6 +9602,27 @@
       "standards": []
     },
     {
+      "id": "mt_QepALf3bin",
+      "type": "CONCEPTUAL",
+      "subject": "Life Skills",
+      "domain": "Entrepreneurship",
+      "name": "Social Enterprise",
+      "description": "Using business skills to help others or solve social and environmental problems; making money AND making a difference; examples of social enterprises",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0.0118421052631579,
+      "evidence": [
+        "Explain what a social enterprise is in their own words (a business that helps people or the planet)",
+        "Give an example of a real social enterprise or charity shop",
+        "Suggest a social enterprise idea that could help their school or community"
+      ],
+      "assessmentPrompt": "Could {{name}} come up with an idea for a business that both makes money and helps people or the environment?",
+      "standards": [
+        "acara-v9:AC9HS3K07",
+        "acara-v9:AC9HS5K07"
+      ]
+    },
+    {
       "id": "mt_b0sXYFblDL",
       "type": "CONCEPTUAL",
       "subject": "Life Skills",
@@ -9604,24 +9695,6 @@
       "standards": []
     },
     {
-      "id": "mt_QepALf3bin",
-      "type": "CONCEPTUAL",
-      "subject": "Life Skills",
-      "domain": "Entrepreneurship",
-      "name": "Social Enterprise",
-      "description": "Using business skills to help others or solve social and environmental problems; making money AND making a difference; examples of social enterprises",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.0118421052631579,
-      "evidence": [
-        "Explain what a social enterprise is in their own words (a business that helps people or the planet)",
-        "Give an example of a real social enterprise or charity shop",
-        "Suggest a social enterprise idea that could help their school or community"
-      ],
-      "assessmentPrompt": "Could {{name}} come up with an idea for a business that both makes money and helps people or the environment?",
-      "standards": []
-    },
-    {
       "id": "mt_tqgZH11cP5",
       "type": "CONCEPTUAL",
       "subject": "Life Skills",
@@ -9637,7 +9710,9 @@
         "Explain why a long supply chain can make a product more expensive"
       ],
       "assessmentPrompt": "If you asked {{name}} how a chocolate bar gets from a cocoa farm to a shop shelf, could they describe the main steps in the journey?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS5K08"
+      ]
     },
     {
       "id": "mt_RNRymbz5SO",
@@ -9773,7 +9848,7 @@
       "name": "Advertising & Spending",
       "description": "How advertising tries to influence what we buy; being a critical consumer; understanding 'value for money'; the difference between emotional and rational spending",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Spot at least two persuasion techniques in a real advert (bright colours, celebrity, special offer)",
@@ -9781,7 +9856,9 @@
         "Describe a time when advertising made them want something they didn't really need"
       ],
       "assessmentPrompt": "When {{name}} sees an advert for a toy or game, can they recognise that the advert is trying to make them want to buy it?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS6K08"
+      ]
     },
     {
       "id": "mt_uSUqTjOl8m",
@@ -9899,7 +9976,7 @@
       "name": "Borrowing & Debt",
       "description": "What borrowing money means; that loans must be repaid with interest; what credit is; why too much debt can be risky; responsible borrowing",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.01842105263157895,
       "evidence": [
         "Explain what a loan is and that borrowed money must be paid back with extra (interest)",
@@ -9907,7 +9984,9 @@
         "Describe what happens if someone borrows too much money and can't repay it"
       ],
       "assessmentPrompt": "Could {{name}} explain why borrowing money costs more than the amount you borrow, and why that matters?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS6K08"
+      ]
     },
     {
       "id": "mt_r1hw-KenpK",
@@ -9917,7 +9996,7 @@
       "name": "Financial Planning",
       "description": "Setting longer-term financial goals; planning and prioritising spending; how saving regularly adds up over time; the value of thinking ahead with money",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Set a realistic savings goal and calculate how long it would take saving a fixed amount each week",
@@ -9925,7 +10004,9 @@
         "Explain why planning ahead with money is better than spending everything as it comes in"
       ],
       "assessmentPrompt": "If {{name}} wanted to save up for something costing £30, could they work out a realistic plan for how long it would take?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS6K08"
+      ]
     },
     {
       "id": "mt_0Rx1ISxXFE",
@@ -9935,7 +10016,7 @@
       "name": "Global Trade",
       "description": "Why countries trade with each other; imports and exports; how goods travel around the world; that different countries use different currencies",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Explain why countries buy goods from other countries (they can't make everything themselves)",
@@ -9943,7 +10024,9 @@
         "Explain that different countries use different currencies and you need to exchange money when travelling"
       ],
       "assessmentPrompt": "If {{name}} looked at the labels on items in your kitchen, could they explain why so many things come from different countries?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS6K05"
+      ]
     },
     {
       "id": "mt_udgPy5oAvR",
@@ -9971,7 +10054,7 @@
       "name": "Scams & Online Safety",
       "description": "Recognising financial scams and tricks; phishing emails and fake websites; protecting personal and financial information online; 'if it seems too good to be true, it probably is'",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.02894736842105263,
       "evidence": [
         "Identify at least two warning signs of a scam (asking for personal details, too-good-to-be-true offers, urgency)",
@@ -9979,7 +10062,9 @@
         "Describe what to do if they receive a suspicious message or email (don't click, tell an adult)"
       ],
       "assessmentPrompt": "If {{name}} received a message saying they'd won a prize and just needed to enter their details, would they know it's probably a scam?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS6K08"
+      ]
     },
     {
       "id": "mt_cSz7XTxVAx",
@@ -9997,7 +10082,9 @@
         "Describe why taxes are needed (everyone chips in so everyone benefits)"
       ],
       "assessmentPrompt": "Could {{name}} explain where the money comes from to pay for things like schools and hospitals that everyone uses?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS4K08"
+      ]
     },
     {
       "id": "mt_yJmvUCCym7",
@@ -11998,6 +12085,7 @@
       ],
       "assessmentPrompt": "Can {{name}} sort a pile of objects — like buttons, coins, or toy animals — into groups and count how many are in each group?",
       "standards": [
+        "acara-v9:AC9HSFS02",
         "acara-v9:AC9MFST01",
         "ccss-math:K.MD.3"
       ]
@@ -12019,6 +12107,7 @@
       ],
       "assessmentPrompt": "Can {{name}} read a simple chart or pictogram — like one showing how many children chose each favourite fruit — and answer questions like \"which was most popular\"?",
       "standards": [
+        "acara-v9:AC9HS1S03",
         "acara-v9:AC9M1ST01",
         "acara-v9:AC9M2ST01",
         "acara-v9:AC9M2ST02",
@@ -12066,6 +12155,8 @@
       ],
       "assessmentPrompt": "Can {{name}} look at a collection of objects — like different coloured counters — sort them into up to three groups, count each group, and organise the results into a simple chart?",
       "standards": [
+        "acara-v9:AC9HS1S02",
+        "acara-v9:AC9HS2S02",
         "acara-v9:AC9M1ST01",
         "acara-v9:AC9M1ST02",
         "acara-v9:AC9M2ST01",
@@ -12115,6 +12206,7 @@
       ],
       "assessmentPrompt": "Can {{name}} draw a simple bar chart or picture graph to show information — like how many of each colour of sweet are in a bag — and answer questions from it?",
       "standards": [
+        "acara-v9:AC9HS2S03",
         "acara-v9:AC9M2ST02",
         "ccss-math:2.MD.10"
       ]
@@ -12136,6 +12228,7 @@
       ],
       "assessmentPrompt": "Can {{name}} choose the right type of chart for some data — for example, a bar chart for favourite colours or a line graph for temperature over a week — and draw it correctly?",
       "standards": [
+        "acara-v9:AC9HS4S03",
         "acara-v9:AC9M4ST01",
         "acara-v9:AC9M5ST01",
         "acara-v9:AC9M5ST02",
@@ -12160,6 +12253,10 @@
       ],
       "assessmentPrompt": "If {{name}} looked at a bar chart showing how many books different children read last month, could they work out the total, find the difference between the most and least, and draw their own chart with a scale like \"each square = 2 books\"?",
       "standards": [
+        "acara-v9:AC9HS3S03",
+        "acara-v9:AC9HS3S04",
+        "acara-v9:AC9HS4S03",
+        "acara-v9:AC9HS4S04",
         "acara-v9:AC9M3ST01",
         "acara-v9:AC9M3ST02",
         "acara-v9:AC9M4ST01",
@@ -12268,6 +12365,7 @@
       ],
       "assessmentPrompt": "If {{name}} recorded the temperature outside every hour for a day, could they plot those readings on a line graph with proper labels — and then use it to answer questions like 'when was it warmest?' or 'how much did it drop between 3pm and 6pm?'",
       "standards": [
+        "acara-v9:AC9HS5S03",
         "acara-v9:AC9M5ST02",
         "uk-nc-2013:Ma6/5.1a"
       ]
@@ -12393,6 +12491,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a dot plot of how long children in their class took to run 100 m, could they describe where most times bunch up, how spread out they are and whether there are any odd ones out — and suggest a sensible reason for what they see?",
       "standards": [
+        "acara-v9:AC9HS6S03",
         "acara-v9:AC9M6ST01",
         "ccss-math:6.SP.2",
         "ccss-math:6.SP.5c",
@@ -12520,6 +12619,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} whether 'How many pets does our family have?' and 'How many pets do children in your class have?' are the same kind of question, can they explain that the second one has lots of different answers — so you'd need to collect data from many people — while the first has just one answer?",
       "standards": [
+        "acara-v9:AC9HS6S01",
         "acara-v9:AC9M6ST03",
         "ccss-math:6.SP.1"
       ]
@@ -12562,6 +12662,7 @@
       ],
       "assessmentPrompt": "If {{name}} timed how long 25 friends took to solve a puzzle, could they write a short report saying how many were timed, how the times were measured, a typical time and how spread out the times were (with units) — and mention any time that stood out?",
       "standards": [
+        "acara-v9:AC9HS6S03",
         "acara-v9:AC9M6ST03",
         "ccss-math:6.SP.5",
         "ccss-math:6.SP.5c",
@@ -14177,6 +14278,8 @@
       ],
       "assessmentPrompt": "Can {{name}} give directions to find something around the house using words like \"above,\" \"below,\" \"beside,\" \"in front of,\" or \"behind\"?",
       "standards": [
+        "acara-v9:AC9HSFS02",
+        "acara-v9:AC9HSFS05",
         "acara-v9:AC9MFSP02",
         "ccss-math:K.G.1",
         "uk-nc-2013:Maths/Y1/GPD/1"
@@ -16729,7 +16832,7 @@
       "name": "Ordering Events in Time",
       "description": "Sequence events in chronological order using language such as before, after, next, first, today, yesterday, tomorrow, morning, afternoon, evening",
       "ageRangeStart": 4,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.2144736842105263,
       "evidence": [
         "Order three daily events using 'first', 'next', 'last'",
@@ -16738,6 +16841,10 @@
       ],
       "assessmentPrompt": "If you ask {{name}} to describe what happened this morning in order, can they use words like \"first\", \"then\", \"after that\" — putting breakfast before leaving for school?",
       "standards": [
+        "acara-v9:AC9HS1S02",
+        "acara-v9:AC9HS2S02",
+        "acara-v9:AC9HSFS02",
+        "acara-v9:AC9HSFS05",
         "acara-v9:AC9M1M03",
         "acara-v9:AC9MFM02",
         "uk-nc-2013:Maths/Y1/M/10"
@@ -21537,6 +21644,8 @@
       ],
       "assessmentPrompt": "If {{name}} loves dogs but their friend is scared of dogs, can {{name}} understand that their friend's fear is real even though they don't feel it themselves?",
       "standards": [
+        "acara-v9:AC9HS1S04",
+        "acara-v9:AC9HSFS03",
         "ib-pyp-pspe:PSPE-ID-LO-P1-6"
       ]
     },
@@ -21557,6 +21666,8 @@
       ],
       "assessmentPrompt": "Can {{name}} talk positively about how families in their class are different — some have two mums, some speak another language at home, some celebrate different holidays — and see this as interesting rather than strange?",
       "standards": [
+        "acara-v9:AC9HS1K01",
+        "acara-v9:AC9HSFK02",
         "ib-pyp-pspe:PSPE-ID-CU-P1-5",
         "ib-pyp-pspe:PSPE-ID-LO-P1-4"
       ]
@@ -21636,6 +21747,7 @@
       ],
       "assessmentPrompt": "When reading a story together, can {{name}} pause and explain how a character might be feeling and why — putting themselves in the character's shoes?",
       "standards": [
+        "acara-v9:AC9HS2S04",
         "ib-pyp-pspe:PSPE-ID-CU-P2-2",
         "ib-pyp-pspe:PSPE-ID-LO-P2-8"
       ]
@@ -21734,6 +21846,7 @@
       ],
       "assessmentPrompt": "Does {{name}} show genuine interest when learning about how families from different cultures celebrate, eat, or worship — asking questions respectfully rather than dismissing things that are unfamiliar?",
       "standards": [
+        "acara-v9:AC9HS4K09",
         "ib-pyp-pspe:PSPE-ID-LO-P3-7",
         "ib-pyp-pspe:PSPE.INT.P3.CU.3"
       ]
@@ -22166,7 +22279,7 @@
       "name": "Rules and agreements exist",
       "description": "Understand why rules and agreements exist — that they help keep people safe, make things fair, and help groups work well together — and follow agreed rules willingly rather than only when being watched",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.0118421052631579,
       "evidence": [
         "Explain the reason behind at least two rules at home or school",
@@ -22175,6 +22288,7 @@
       ],
       "assessmentPrompt": "Does {{name}} follow the class rules or family agreements even when no adult is watching — not because they're scared of punishment but because they understand why the rules matter?",
       "standards": [
+        "acara-v9:AC9HS3K06",
         "ib-pyp-pspe:PSPE.INT.P2.CU.2",
         "ib-pyp-pspe:PSPE.INT.P3.CU.5"
       ]
@@ -22255,6 +22369,8 @@
       ],
       "assessmentPrompt": "When {{name}} faces a tricky choice — like whether to tell the teacher that a friend cheated — can they think through their options and the consequences rather than just reacting?",
       "standards": [
+        "acara-v9:AC9HS2S05",
+        "acara-v9:AC9HS3S06",
         "ib-pyp-pspe:PSPE-ID-LO-P2-6"
       ]
     },
@@ -22301,7 +22417,7 @@
       "domain": "Responsible Decision-Making",
       "name": "Community Rights and Responsibilities",
       "description": "Understand their rights and responsibilities as a member of a community — that everyone has a right to be treated with respect and to feel safe, and that with rights come responsibilities to treat others the same way",
-      "ageRangeStart": 9,
+      "ageRangeStart": 8,
       "ageRangeEnd": 11,
       "centrality": 0.0131578947368421,
       "evidence": [
@@ -22311,6 +22427,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that they have a right to feel safe at school AND a responsibility to help make school safe for others — understanding that rights and responsibilities go together?",
       "standards": [
+        "acara-v9:AC9HS3K06",
+        "acara-v9:AC9HS3K07",
         "ib-pyp-pspe:PSPE.INT.P3.CU.5"
       ]
     },
@@ -22340,7 +22458,7 @@
       "name": "Ethics in Real-World Issues",
       "description": "Evaluate the ethical dimensions of real-world issues they encounter — such as environmental responsibility, fairness in sport, digital ethics, or social justice — considering multiple perspectives and forming a reasoned personal position",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1776315789473684,
       "evidence": [
         "Identify an ethical issue and describe at least two different perspectives on it",
@@ -22349,6 +22467,8 @@
       ],
       "assessmentPrompt": "Can {{name}} discuss a real issue — like whether it's fair that some children have more than others, or whether animals should be kept in zoos — considering different viewpoints and explaining their own position thoughtfully?",
       "standards": [
+        "acara-v9:AC9HS5S06",
+        "acara-v9:AC9HS6S06",
         "ib-pyp-pspe:PSPE.INT.P4.CU.4",
         "ib-pyp-pspe:PSPE.INT.P4.LO.5"
       ]
@@ -23937,6 +24057,29 @@
       ]
     },
     {
+      "id": "mt_KsKLVW_ssY",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Earth's Systems",
+      "name": "Shapes of land and water",
+      "description": "Develop a model to represent the shapes and kinds of land (mountains, valleys, plains) and bodies of water (rivers, lakes, oceans) in an area",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": 0.1223684210526316,
+      "evidence": [
+        "Name and describe at least four types of landforms (mountain, valley, plain, hill, cliff)",
+        "Name and describe at least three types of water bodies (river, lake, ocean, pond)",
+        "Create or interpret a simple model or map showing land and water features of an area"
+      ],
+      "assessmentPrompt": "Can {{name}} look at a map or build a model showing mountains, rivers, and oceans, and explain what each type of land or water feature is?",
+      "standards": [
+        "acara-v9:AC9HS1K03",
+        "acara-v9:AC9HS1S02",
+        "acara-v9:AC9HS2S02",
+        "ngss-k5:2-ESS2-2"
+      ]
+    },
+    {
       "id": "mt_zCGwH1OQZa",
       "type": "LANGUAGE",
       "subject": "Science",
@@ -24040,26 +24183,6 @@
       ]
     },
     {
-      "id": "mt_KsKLVW_ssY",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Earth's Systems",
-      "name": "Shapes of land and water",
-      "description": "Develop a model to represent the shapes and kinds of land (mountains, valleys, plains) and bodies of water (rivers, lakes, oceans) in an area",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.1223684210526316,
-      "evidence": [
-        "Name and describe at least four types of landforms (mountain, valley, plain, hill, cliff)",
-        "Name and describe at least three types of water bodies (river, lake, ocean, pond)",
-        "Create or interpret a simple model or map showing land and water features of an area"
-      ],
-      "assessmentPrompt": "Can {{name}} look at a map or build a model showing mountains, rivers, and oceans, and explain what each type of land or water feature is?",
-      "standards": [
-        "ngss-k5:2-ESS2-2"
-      ]
-    },
-    {
       "id": "mt_nRF_VRntrW",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -24077,6 +24200,29 @@
       "assessmentPrompt": "Can {{name}} name the different places water is found on Earth — in oceans, rivers, ice caps, and even underground — and explain that ice is just frozen water?",
       "standards": [
         "ngss-k5:2-ESS2-3"
+      ]
+    },
+    {
+      "id": "mt_-G6erQvLig",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Earth's Systems",
+      "name": "Finding patterns in data",
+      "description": "Analyse and interpret data from maps to describe patterns of Earth's features, recognising that many features result from processes that occur over long periods",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0.04605263157894737,
+      "evidence": [
+        "Use a map to identify patterns in the location of mountains, rivers, lakes, and other features",
+        "Describe patterns observed (e.g. mountains in chains, rivers flow from high to low ground)",
+        "Explain that Earth's features result from processes like erosion, volcanic activity, and plate movement over long periods"
+      ],
+      "assessmentPrompt": "Can {{name}} look at a map and notice patterns like mountains running in lines, rivers flowing to the sea, or deserts clustered near the equator?",
+      "standards": [
+        "acara-v9:AC9HS3S03",
+        "acara-v9:AC9HS4S03",
+        "acara-v9:AC9HS5S03",
+        "ngss-k5:4-ESS2-2"
       ]
     },
     {
@@ -24138,26 +24284,6 @@
       "standards": [
         "acara-v9:AC9S5U02",
         "ngss-k5:4-ESS2-1"
-      ]
-    },
-    {
-      "id": "mt_-G6erQvLig",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Earth's Systems",
-      "name": "Finding patterns in data",
-      "description": "Analyse and interpret data from maps to describe patterns of Earth's features, recognising that many features result from processes that occur over long periods",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.04605263157894737,
-      "evidence": [
-        "Use a map to identify patterns in the location of mountains, rivers, lakes, and other features",
-        "Describe patterns observed (e.g. mountains in chains, rivers flow from high to low ground)",
-        "Explain that Earth's features result from processes like erosion, volcanic activity, and plate movement over long periods"
-      ],
-      "assessmentPrompt": "Can {{name}} look at a map and notice patterns like mountains running in lines, rivers flowing to the sea, or deserts clustered near the equator?",
-      "standards": [
-        "ngss-k5:4-ESS2-2"
       ]
     },
     {
@@ -24268,7 +24394,7 @@
       "name": "Reducing Human Impact",
       "description": "Communicate solutions that will reduce the impact of humans on the land, water, air, and other living things in the local environment",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.007894736842105263,
       "evidence": [
         "Identify at least three ways humans negatively impact the local environment (litter, pollution, habitat destruction)",
@@ -24277,6 +24403,9 @@
       ],
       "assessmentPrompt": "Can {{name}} suggest ways people can help the environment — like recycling, not littering, saving water, or planting trees?",
       "standards": [
+        "acara-v9:AC9HS1K04",
+        "acara-v9:AC9HS1S05",
+        "acara-v9:AC9HSFK03",
         "ngss-k5:K-ESS3-3"
       ]
     },
@@ -24520,7 +24649,9 @@
         "Apply 'carbon footprint' and 'sustainability' correctly in a discussion about everyday human choices"
       ],
       "assessmentPrompt": "Can {{name}} explain what a carbon footprint is — not just that it's about pollution, but what it actually measures?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS4K06"
+      ]
     },
     {
       "id": "mt_uVaS12lN1i",
@@ -24563,6 +24694,30 @@
       ]
     },
     {
+      "id": "mt_7e-lG7YOWa",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Ecosystems & Habitats",
+      "name": "Communities Protecting Resources",
+      "description": "Obtain and combine information about ways individual communities use science ideas to protect the Earth's resources and environment",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": 0.04736842105263158,
+      "evidence": [
+        "Describe at least three real-world examples of communities protecting resources or the environment",
+        "Explain the science ideas behind each example (e.g. solar panels convert sunlight to electricity, reducing fossil fuel use)",
+        "Discuss how individual actions and community efforts combine to make a difference"
+      ],
+      "assessmentPrompt": "Can {{name}} describe real examples of how communities protect the environment — like using solar panels, creating nature reserves, or cleaning up rivers?",
+      "standards": [
+        "acara-v9:AC9HS4K06",
+        "acara-v9:AC9HS5K07",
+        "acara-v9:AC9S5H02",
+        "acara-v9:AC9S6H02",
+        "ngss-k5:5-ESS3-1"
+      ]
+    },
+    {
       "id": "mt_yNWt3GQBNp",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -24600,28 +24755,6 @@
       "assessmentPrompt": "Can {{name}} explain the big groups that scientists sort all living things into — like plants, animals, and tiny micro-organisms — and give examples of each?",
       "standards": [
         "uk-nc-2013:Y6.Sci.LTH.1"
-      ]
-    },
-    {
-      "id": "mt_7e-lG7YOWa",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Ecosystems & Habitats",
-      "name": "Communities Protecting Resources",
-      "description": "Obtain and combine information about ways individual communities use science ideas to protect the Earth's resources and environment",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 12,
-      "centrality": 0.04736842105263158,
-      "evidence": [
-        "Describe at least three real-world examples of communities protecting resources or the environment",
-        "Explain the science ideas behind each example (e.g. solar panels convert sunlight to electricity, reducing fossil fuel use)",
-        "Discuss how individual actions and community efforts combine to make a difference"
-      ],
-      "assessmentPrompt": "Can {{name}} describe real examples of how communities protect the environment — like using solar panels, creating nature reserves, or cleaning up rivers?",
-      "standards": [
-        "acara-v9:AC9S5H02",
-        "acara-v9:AC9S6H02",
-        "ngss-k5:5-ESS3-1"
       ]
     },
     {
@@ -29895,7 +30028,7 @@
       "name": "The Amazon Rainforest",
       "description": "Know that the Amazon is Earth's greatest rainforest — spanning nine countries across South America, containing the world's largest river by water volume, and home to an estimated 10% of all species on Earth including 40,000 plant species, 1,300 bird species, and 3,000 types of fish",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Locate the Amazon rainforest on a map of South America and name at least two countries it spans",
@@ -29903,7 +30036,9 @@
         "Give at least two specific numbers showing the Amazon's biodiversity, such as 40,000 plant species or 1,300 bird species"
       ],
       "assessmentPrompt": "Can {{name}} tell you about the Amazon — that it's the biggest rainforest in the world, spread across nine countries, with more types of animals and plants than almost anywhere else on Earth?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS4K05"
+      ]
     },
     {
       "id": "mt_v6CBCMuvz1",
@@ -29939,7 +30074,9 @@
         "Explain the impact of deforestation on at least two of: biodiversity, climate, and indigenous peoples"
       ],
       "assessmentPrompt": "Can {{name}} explain why rainforests are being cut down — naming causes like cattle farming, palm oil, and logging — and say roughly how fast it's happening?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS5K04"
+      ]
     },
     {
       "id": "mt_JcfP1hWKa_",
@@ -30032,7 +30169,9 @@
         "Describe how consumer choices (e.g. buying Rainforest Alliance certified products) can reduce deforestation pressure"
       ],
       "assessmentPrompt": "Can {{name}} check ingredient labels at the supermarket and spot products linked to rainforests — like palm oil in biscuits or cocoa in chocolate — and explain why choosing sustainable versions helps protect forests?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS4K05"
+      ]
     },
     {
       "id": "mt_HJd-8EEC6N",
@@ -30157,6 +30296,9 @@
       ],
       "assessmentPrompt": "Can {{name}} use a magnifying glass to look carefully at something like a leaf or an insect and describe in detail what they see?",
       "standards": [
+        "acara-v9:AC9HS1S06",
+        "acara-v9:AC9HS2S06",
+        "acara-v9:AC9HSFS05",
         "acara-v9:AC9S1I03",
         "acara-v9:AC9S1I06",
         "acara-v9:AC9S2I03",
@@ -30286,6 +30428,8 @@
       ],
       "assessmentPrompt": "After finishing an experiment, can {{name}} explain what they found out, what it means, what they'd predict for next time, and how they could improve the test?",
       "standards": [
+        "acara-v9:AC9HS3S05",
+        "acara-v9:AC9HS4S05",
         "acara-v9:AC9S2I05",
         "acara-v9:AC9S2I06",
         "acara-v9:AC9S3I01",
@@ -30389,6 +30533,7 @@
       ],
       "assessmentPrompt": "When {{name}} looks at their experiment results, can they spot patterns — like things that are similar, different, or changing — and use the evidence to back up their answer?",
       "standards": [
+        "acara-v9:AC9HS3S05",
         "acara-v9:AC9S2I04",
         "acara-v9:AC9S3H01",
         "acara-v9:AC9S3I01",
@@ -30409,7 +30554,7 @@
       "name": "Comparing Possible Solutions",
       "description": "Generate and compare multiple possible solutions to a problem based on how well each is likely to meet the criteria and constraints",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Generate at least three possible solutions to a defined design problem",
@@ -30418,6 +30563,10 @@
       ],
       "assessmentPrompt": "Can {{name}} brainstorm several different solutions to a design challenge and then compare them to decide which one best meets the requirements?",
       "standards": [
+        "acara-v9:AC9HS3S06",
+        "acara-v9:AC9HS4S06",
+        "acara-v9:AC9HS5S06",
+        "acara-v9:AC9HS6S06",
         "ngss-k5:3-5-ETS1-2"
       ]
     },
@@ -30548,6 +30697,9 @@
       ],
       "assessmentPrompt": "Can {{name}} write up or present their experiment results, explain what caused what, and discuss how confident they are in their findings?",
       "standards": [
+        "acara-v9:AC9HS4S05",
+        "acara-v9:AC9HS5S05",
+        "acara-v9:AC9HS6S05",
         "acara-v9:AC9S4I06",
         "acara-v9:AC9S5I04",
         "acara-v9:AC9S5I05",
@@ -32365,7 +32517,7 @@
       "name": "Natural Disaster Solutions",
       "description": "Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans, such as earthquakes, floods, or volcanic eruptions",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.05,
       "evidence": [
         "Identify at least two natural hazards and their impacts on human life and property",
@@ -32374,6 +32526,8 @@
       ],
       "assessmentPrompt": "Can {{name}} come up with different ideas for keeping people safe from earthquakes or floods, and compare which ones would work best?",
       "standards": [
+        "acara-v9:AC9HS4S06",
+        "acara-v9:AC9HS5K05",
         "acara-v9:AC9S4H02",
         "ngss-k5:4-ESS3-2"
       ]
@@ -33394,7 +33548,9 @@
         "Describe the effects of extreme weather on communities and landscapes"
       ],
       "assessmentPrompt": "If {{name}} saw news about a hurricane, could they explain how it forms over warm ocean water, why it spins, and what makes it so destructive when it reaches land?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS5K05"
+      ]
     },
     {
       "id": "mt_VI5kdtf28e",
@@ -33413,6 +33569,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain where petrol, electricity, and gas come from — that they come from natural resources like oil, coal, wind, or sunlight — and how using them affects the environment?",
       "standards": [
+        "acara-v9:AC9HS4K06",
         "ngss-k5:4-ESS3-1"
       ]
     },
@@ -33486,7 +33643,9 @@
         "Evaluate the advantages and limitations of a weather protection solution"
       ],
       "assessmentPrompt": "If {{name}} saw pictures of houses on stilts in a flood zone and a tornado shelter, could they explain how each design protects people and discuss whether one solution works better than another?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HS5K05"
+      ]
     },
     {
       "id": "mt_iYOcfzFqMw",
