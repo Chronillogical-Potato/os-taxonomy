@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3722,
+  "edgeCount": 3853,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -158,6 +158,12 @@
       "prerequisiteId": "mt_sDmrVCfzqt",
       "strength": "soft",
       "reason": "Digestion is the mechanism by which nutrients from diet become available to cells"
+    },
+    {
+      "topicId": "mt_0O4mXv3asF",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "'Similarities & Differences' supports 'My family and our places'"
     },
     {
       "topicId": "mt_0QJoKWABdC",
@@ -418,6 +424,18 @@
       "reason": "Need noun concept before plural forms"
     },
     {
+      "topicId": "mt_196Gb4q6a5",
+      "prerequisiteId": "mt_x08z0N0HX8",
+      "strength": "soft",
+      "reason": "'Questions about the past' supports 'Telling stories of the past'"
+    },
+    {
+      "topicId": "mt_196Gb4q6a5",
+      "prerequisiteId": "mt_zlSoIKPyId",
+      "strength": "hard",
+      "reason": "'Telling stories of the past' builds on 'Retelling Stories with Structure'"
+    },
+    {
       "topicId": "mt_19j_5AuuQI",
       "prerequisiteId": "mt_9L3NQqgqRd",
       "strength": "soft",
@@ -566,6 +584,18 @@
       "prerequisiteId": "mt_Z_Wu_77ybI",
       "strength": "hard",
       "reason": "Chemical changes involve rearrangement of atoms into new substances — atom/compound concepts are required"
+    },
+    {
+      "topicId": "mt_1kdEZRLyaZ",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "Noticing similarities and differences between people"
+    },
+    {
+      "topicId": "mt_1kdEZRLyaZ",
+      "prerequisiteId": "mt_zbEcwd40uv",
+      "strength": "hard",
+      "reason": "Describing festivals in the community builds on family celebrations"
     },
     {
       "topicId": "mt_1KkvzwYxbR",
@@ -748,6 +778,18 @@
       "reason": "Must know where the poles are before learning about explorers who went there"
     },
     {
+      "topicId": "mt__25ZZdiEZd",
+      "prerequisiteId": "mt_dRLP8g0SAg",
+      "strength": "soft",
+      "reason": "'Research & Note-Taking' supports 'Significant people in a colony'"
+    },
+    {
+      "topicId": "mt__25ZZdiEZd",
+      "prerequisiteId": "mt_e0I0OSxNFc",
+      "strength": "hard",
+      "reason": "'Significant people in a colony' builds on 'Why new colonies began'"
+    },
+    {
       "topicId": "mt_26OJ9MetR9",
       "prerequisiteId": "mt_PThM5P7Umd",
       "strength": "soft",
@@ -886,6 +928,12 @@
       "reason": "Recognising that accounts diverge in systematic ways — based on who is telling the story — is an application of the universal pattern-recognition habit"
     },
     {
+      "topicId": "mt_2GDBmKCJxs",
+      "prerequisiteId": "mt_wzUzVEBqJb",
+      "strength": "hard",
+      "reason": "'Different views about places' builds on 'Other People's Feelings and Thoughts'"
+    },
+    {
       "topicId": "mt_2jbUekyTu4",
       "prerequisiteId": "mt_fZTn0W_iZR",
       "strength": "hard",
@@ -1010,6 +1058,24 @@
       "prerequisiteId": "mt_liIW336odh",
       "strength": "hard",
       "reason": "Similarity requires understanding shape properties — equal angles, proportional sides"
+    },
+    {
+      "topicId": "mt_2qc_Kq63Le",
+      "prerequisiteId": "mt_cUpJvBD1YA",
+      "strength": "hard",
+      "reason": "'Important local people and places' builds on 'Natural, managed and built features'"
+    },
+    {
+      "topicId": "mt_2qc_Kq63Le",
+      "prerequisiteId": "mt_x08z0N0HX8",
+      "strength": "hard",
+      "reason": "'Important local people and places' builds on 'Questions about the past'"
+    },
+    {
+      "topicId": "mt_2qc_Kq63Le",
+      "prerequisiteId": "mt_zbEcwd40uv",
+      "strength": "soft",
+      "reason": "'Celebrations we share' supports 'Important local people and places'"
     },
     {
       "topicId": "mt_2qkn8Lhc8e",
@@ -1304,6 +1370,18 @@
       "prerequisiteId": "mt_lutxvMlkwS",
       "strength": "hard",
       "reason": "Must know plant growth requirements before arguing that most material comes from air and water"
+    },
+    {
+      "topicId": "mt_3itytx4K1v",
+      "prerequisiteId": "mt_-vvVxpOHG2",
+      "strength": "hard",
+      "reason": "'Picture timelines and maps' builds on 'Ordering Events in Time'"
+    },
+    {
+      "topicId": "mt_3itytx4K1v",
+      "prerequisiteId": "mt_xppl18avyY",
+      "strength": "soft",
+      "reason": "'Sorting into categories' supports 'Picture timelines and maps'"
     },
     {
       "topicId": "mt_3JgrHY221M",
@@ -1634,6 +1712,18 @@
       "prerequisiteId": "mt_UNzojLkNdm",
       "strength": "hard",
       "reason": "Calculating event durations requires reading time to the minute"
+    },
+    {
+      "topicId": "mt_4GyMkXpZRW",
+      "prerequisiteId": "mt__25ZZdiEZd",
+      "strength": "soft",
+      "reason": "'Significant people in a colony' supports 'Migration stories since 1901'"
+    },
+    {
+      "topicId": "mt_4GyMkXpZRW",
+      "prerequisiteId": "mt_a0yi2vpoUn",
+      "strength": "hard",
+      "reason": "'Migration stories since 1901' builds on 'Changing rights in the 1900s'"
     },
     {
       "topicId": "mt_4i-FKXDDXh",
@@ -2110,6 +2200,18 @@
       "reason": "Empathy and social awareness mastery depends on advanced social awareness skills"
     },
     {
+      "topicId": "mt_5zPXTvZTcX",
+      "prerequisiteId": "mt_deexfCHU9m",
+      "strength": "soft",
+      "reason": "'Reducing Human Impact' supports 'Special places I belong to'"
+    },
+    {
+      "topicId": "mt_5zPXTvZTcX",
+      "prerequisiteId": "mt_qeZYF6HZ4o",
+      "strength": "soft",
+      "reason": "'Positional Language' supports 'Special places I belong to'"
+    },
+    {
       "topicId": "mt_5_Zr9xXDNH",
       "prerequisiteId": "mt_4vHa3I5bNj",
       "strength": "hard",
@@ -2153,6 +2255,12 @@
     },
     {
       "topicId": "mt_61Pa4Eksva",
+      "prerequisiteId": "mt_fXE9t2ETGx",
+      "strength": "soft",
+      "reason": "Picture maps of familiar places come before reading plans"
+    },
+    {
+      "topicId": "mt_61Pa4Eksva",
       "prerequisiteId": "mt_qeZYF6HZ4o",
       "strength": "soft",
       "reason": "Positional language supports describing locations on a plan"
@@ -2186,6 +2294,24 @@
       "prerequisiteId": "mt_klyw-tdlhP",
       "strength": "soft",
       "reason": "Naming what you are feeling is emotional comprehension monitoring — the universal habit of noticing what's happening inside applied to emotional experience"
+    },
+    {
+      "topicId": "mt_69w5GVudJl",
+      "prerequisiteId": "mt_3itytx4K1v",
+      "strength": "hard",
+      "reason": "'Timelines of past events' builds on 'Picture timelines and maps'"
+    },
+    {
+      "topicId": "mt_69w5GVudJl",
+      "prerequisiteId": "mt_bj1YCgNWUx",
+      "strength": "soft",
+      "reason": "'Days, Weeks, Months & Years' supports 'Timelines of past events'"
+    },
+    {
+      "topicId": "mt_69w5GVudJl",
+      "prerequisiteId": "mt_-vvVxpOHG2",
+      "strength": "hard",
+      "reason": "'Timelines of past events' builds on 'Ordering Events in Time'"
     },
     {
       "topicId": "mt_6aJUzBYGNs",
@@ -3389,9 +3515,27 @@
     },
     {
       "topicId": "mt_9REmUc8r4D",
+      "prerequisiteId": "mt_E5KC4AnRLW",
+      "strength": "hard",
+      "reason": "'Comparing old and new objects' builds on 'Reading between the lines'"
+    },
+    {
+      "topicId": "mt_9REmUc8r4D",
+      "prerequisiteId": "mt__F_i67waLN",
+      "strength": "soft",
+      "reason": "'Childhood then and now' supports 'Comparing old and new objects'"
+    },
+    {
+      "topicId": "mt_9REmUc8r4D",
       "prerequisiteId": "mt_LE7nFEwS12",
       "strength": "soft",
       "reason": "Understanding that knowledge of the past comes from surviving evidence builds on the habit of activating prior knowledge — what do I already know, and where did that knowledge come from?"
+    },
+    {
+      "topicId": "mt_9REmUc8r4D",
+      "prerequisiteId": "mt_vJO5Bxk4z-",
+      "strength": "hard",
+      "reason": "'Comparing old and new objects' builds on 'Observing with simple equipment'"
     },
     {
       "topicId": "mt_9REmUc8r4D",
@@ -3422,6 +3566,24 @@
       "prerequisiteId": "mt_w2xiMNkyyX",
       "strength": "hard",
       "reason": "Must understand Earth's orbit before explaining why different constellations appear in different seasons"
+    },
+    {
+      "topicId": "mt_9wfokahWw6",
+      "prerequisiteId": "mt_6EfevRyeFW",
+      "strength": "hard",
+      "reason": "'Managing bushfires, floods and droughts' builds on 'Extreme Weather Events'"
+    },
+    {
+      "topicId": "mt_9wfokahWw6",
+      "prerequisiteId": "mt_bFK6owxsmi",
+      "strength": "hard",
+      "reason": "'Managing bushfires, floods and droughts' builds on 'Why Australian environments matter'"
+    },
+    {
+      "topicId": "mt_9wfokahWw6",
+      "prerequisiteId": "mt_cpDpjJaE5u",
+      "strength": "soft",
+      "reason": "'Natural Disaster Solutions' supports 'Managing bushfires, floods and droughts'"
     },
     {
       "topicId": "mt_9XVFje6Tyr",
@@ -3470,6 +3632,24 @@
       "prerequisiteId": "mt_sMAcZW6vWM",
       "strength": "soft",
       "reason": "Summarising literary texts draws on the summarisation skills developed with informational texts at LKS2 level"
+    },
+    {
+      "topicId": "mt_a0yi2vpoUn",
+      "prerequisiteId": "mt_CdB3nZHkEA",
+      "strength": "soft",
+      "reason": "'Australian days, symbols and festivals' supports 'Changing rights in the 1900s'"
+    },
+    {
+      "topicId": "mt_a0yi2vpoUn",
+      "prerequisiteId": "mt_mRU4H9-fgb",
+      "strength": "hard",
+      "reason": "'Changing rights in the 1900s' builds on 'Annotated timelines'"
+    },
+    {
+      "topicId": "mt_a0yi2vpoUn",
+      "prerequisiteId": "mt_QayfDN4rTB",
+      "strength": "hard",
+      "reason": "'Changing rights in the 1900s' builds on 'Federation and the Constitution'"
     },
     {
       "topicId": "mt_a1FdAsRKOF",
@@ -3994,6 +4174,18 @@
       "reason": "Percentages as fractions/decimals extends Y6 percentage calculations"
     },
     {
+      "topicId": "mt_Am6mmH2X0s",
+      "prerequisiteId": "mt_JNzgBlNkx0",
+      "strength": "hard",
+      "reason": "'Contact and invasion' builds on 'Life in the first colony'"
+    },
+    {
+      "topicId": "mt_Am6mmH2X0s",
+      "prerequisiteId": "mt_oqrqjd9jm9",
+      "strength": "hard",
+      "reason": "'Contact and invasion' builds on 'Diverse First Nations peoples'"
+    },
+    {
       "topicId": "mt_Am_iTzHjoe",
       "prerequisiteId": "mt_edaoZRkK6M",
       "strength": "hard",
@@ -4402,6 +4594,18 @@
       "reason": "Trojan War is the most famous Greek myth — must know Greek myths first"
     },
     {
+      "topicId": "mt_axrs4Gfdm9",
+      "prerequisiteId": "mt_kt3K54xUPu",
+      "strength": "soft",
+      "reason": "The national indicative map shows Countries in different parts of Australia"
+    },
+    {
+      "topicId": "mt_axrs4Gfdm9",
+      "prerequisiteId": "mt_pK6QkcKxZT",
+      "strength": "hard",
+      "reason": "'Connections to Country across Australia' builds on 'First Nations links to local Country'"
+    },
+    {
       "topicId": "mt_ay0qkGj0jg",
       "prerequisiteId": "mt_enj1sMcfOT",
       "strength": "hard",
@@ -4762,6 +4966,18 @@
       "reason": "Using >, <, = for measurements parallels using them for numbers"
     },
     {
+      "topicId": "mt_bFK6owxsmi",
+      "prerequisiteId": "mt_38d-k-dJPa",
+      "strength": "hard",
+      "reason": "'Why Australian environments matter' builds on 'The Amazon Rainforest' (comparison with another continent)"
+    },
+    {
+      "topicId": "mt_bFK6owxsmi",
+      "prerequisiteId": "mt_r_ja_V9Q70",
+      "strength": "soft",
+      "reason": "'Places here and nearby' supports 'Why Australian environments matter'"
+    },
+    {
       "topicId": "mt_BGMS9We5w9",
       "prerequisiteId": "mt_tX0R4-4WXy",
       "strength": "hard",
@@ -5038,6 +5254,18 @@
       "reason": "KS3 narrative writing extends KS2 writing narratives with settings, characters, and plot"
     },
     {
+      "topicId": "mt_blzW9Z8J7-",
+      "prerequisiteId": "mt_cSz7XTxVAx",
+      "strength": "hard",
+      "reason": "'What local councils do' builds on 'Taxes & Public Services'"
+    },
+    {
+      "topicId": "mt_blzW9Z8J7-",
+      "prerequisiteId": "mt_IiWjd0377Z",
+      "strength": "hard",
+      "reason": "'What local councils do' builds on 'Who makes the rules?'"
+    },
+    {
       "topicId": "mt_-bMnJcPJy8",
       "prerequisiteId": "mt_J4j7d3iAfg",
       "strength": "hard",
@@ -5260,6 +5488,18 @@
       "reason": "Reading a timeline with a scale and reading coordinates on a grid share the same positional-notation skills"
     },
     {
+      "topicId": "mt_C3eNLQJlgt",
+      "prerequisiteId": "mt_mRU4H9-fgb",
+      "strength": "soft",
+      "reason": "Egyptian timelines apply dated, scaled timeline skills"
+    },
+    {
+      "topicId": "mt_C3eNLQJlgt",
+      "prerequisiteId": "mt_w4cUnN_SsQ",
+      "strength": "soft",
+      "reason": "Egyptian maps apply general map-reading skills"
+    },
+    {
       "topicId": "mt_-c4Ca_nBzX",
       "prerequisiteId": "mt_J4j7d3iAfg",
       "strength": "soft",
@@ -5414,6 +5654,18 @@
       "prerequisiteId": "mt_XuHmIn2xje",
       "strength": "hard",
       "reason": "Two-step A+S context problems extend Y3 problem-solving"
+    },
+    {
+      "topicId": "mt_CdB3nZHkEA",
+      "prerequisiteId": "mt_2qc_Kq63Le",
+      "strength": "soft",
+      "reason": "'Important local people and places' supports 'Australian days, symbols and festivals'"
+    },
+    {
+      "topicId": "mt_CdB3nZHkEA",
+      "prerequisiteId": "mt_zbEcwd40uv",
+      "strength": "hard",
+      "reason": "'Australian days, symbols and festivals' builds on 'Celebrations we share'"
     },
     {
       "topicId": "mt_cdMlC7EpTJ",
@@ -5948,6 +6200,24 @@
       "prerequisiteId": "mt_CSGqz245rV",
       "strength": "hard",
       "reason": "Philosophers lived in Athens — need city-state context"
+    },
+    {
+      "topicId": "mt_cUpJvBD1YA",
+      "prerequisiteId": "mt_5zPXTvZTcX",
+      "strength": "hard",
+      "reason": "'Natural, managed and built features' builds on 'Special places I belong to'"
+    },
+    {
+      "topicId": "mt_cUpJvBD1YA",
+      "prerequisiteId": "mt_KsKLVW_ssY",
+      "strength": "hard",
+      "reason": "'Natural, managed and built features' builds on 'Shapes of land and water'"
+    },
+    {
+      "topicId": "mt_cUpJvBD1YA",
+      "prerequisiteId": "mt_qeZYF6HZ4o",
+      "strength": "soft",
+      "reason": "'Positional Language' supports 'Natural, managed and built features'"
     },
     {
       "topicId": "mt_curkA82CmO",
@@ -6586,6 +6856,18 @@
       "reason": "Writing multiplication/division statements requires fluency with symbols"
     },
     {
+      "topicId": "mt_e0I0OSxNFc",
+      "prerequisiteId": "mt_mRU4H9-fgb",
+      "strength": "hard",
+      "reason": "'Why new colonies began' builds on 'Annotated timelines'"
+    },
+    {
+      "topicId": "mt_e0I0OSxNFc",
+      "prerequisiteId": "mt_OqDYMyw39G",
+      "strength": "hard",
+      "reason": "'Why new colonies began' builds on 'Why Britain colonised in 1788'"
+    },
+    {
       "topicId": "mt_E1wR8IfCV6",
       "prerequisiteId": "mt_13CtLTcWUB",
       "strength": "soft",
@@ -6704,6 +6986,18 @@
       "prerequisiteId": "mt_7XcCG43ZZW",
       "strength": "hard",
       "reason": "Making 10 is a specific application of decomposing numbers into pairs"
+    },
+    {
+      "topicId": "mt_E8IfrMksV0",
+      "prerequisiteId": "mt_Am6mmH2X0s",
+      "strength": "hard",
+      "reason": "'Impact of the colonies' builds on 'Contact and invasion'"
+    },
+    {
+      "topicId": "mt_E8IfrMksV0",
+      "prerequisiteId": "mt_e0I0OSxNFc",
+      "strength": "hard",
+      "reason": "'Impact of the colonies' builds on 'Why new colonies began'"
     },
     {
       "topicId": "mt_EaWjCyn8W2",
@@ -7246,6 +7540,18 @@
       "reason": "Theatre was part of festivals honouring Dionysus"
     },
     {
+      "topicId": "mt_f62To2mA0B",
+      "prerequisiteId": "mt_blzW9Z8J7-",
+      "strength": "hard",
+      "reason": "'Three levels of government' builds on 'What local councils do'"
+    },
+    {
+      "topicId": "mt_f62To2mA0B",
+      "prerequisiteId": "mt_n51zr0RFt4",
+      "strength": "hard",
+      "reason": "'Three levels of government' builds on 'How Australia's government works'"
+    },
+    {
       "topicId": "mt_f67qGDhyfi",
       "prerequisiteId": "mt_1VSfm9yiLn",
       "strength": "soft",
@@ -7472,6 +7778,18 @@
       "prerequisiteId": "mt_TlLE4cZgOr",
       "strength": "hard",
       "reason": "Full water cycle builds on basic rain/puddle/evaporation concept"
+    },
+    {
+      "topicId": "mt__F_i67waLN",
+      "prerequisiteId": "mt_0O4mXv3asF",
+      "strength": "hard",
+      "reason": "'Childhood then and now' builds on 'My family and our places'"
+    },
+    {
+      "topicId": "mt__F_i67waLN",
+      "prerequisiteId": "mt_pBvABgZo5O",
+      "strength": "soft",
+      "reason": "'Family roles then and now' supports 'Childhood then and now'"
     },
     {
       "topicId": "mt_fI-8iqf_Id",
@@ -7918,6 +8236,18 @@
       "reason": "Expanding brackets produces terms that then need collecting"
     },
     {
+      "topicId": "mt_fXE9t2ETGx",
+      "prerequisiteId": "mt_5zPXTvZTcX",
+      "strength": "soft",
+      "reason": "Familiar places provide the content of early picture maps"
+    },
+    {
+      "topicId": "mt_fXE9t2ETGx",
+      "prerequisiteId": "mt_qeZYF6HZ4o",
+      "strength": "hard",
+      "reason": "Placing things on a picture map uses positional language"
+    },
+    {
       "topicId": "mt_fxPtngwUfz",
       "prerequisiteId": "mt_A-FyLLLLzy",
       "strength": "hard",
@@ -8078,6 +8408,24 @@
       "prerequisiteId": "mt_sZXPK1FnRB",
       "strength": "hard",
       "reason": "'Leaving out words readers know' builds on 'Pronouns'"
+    },
+    {
+      "topicId": "mt_g8gJIsDxmj",
+      "prerequisiteId": "mt_7e-lG7YOWa",
+      "strength": "soft",
+      "reason": "'Communities Protecting Resources' supports 'Working together for a civic goal'"
+    },
+    {
+      "topicId": "mt_g8gJIsDxmj",
+      "prerequisiteId": "mt_JumBNYAiA_",
+      "strength": "hard",
+      "reason": "'Working together for a civic goal' builds on 'Proposing action on local issues'"
+    },
+    {
+      "topicId": "mt_g8gJIsDxmj",
+      "prerequisiteId": "mt_tF6XuKIq8_",
+      "strength": "hard",
+      "reason": "'Working together for a civic goal' builds on 'Why people join in'"
     },
     {
       "topicId": "mt_g9RcQOhU5d",
@@ -9748,6 +10096,18 @@
       "reason": "Engineering solutions benefit from understanding weather systems"
     },
     {
+      "topicId": "mt_IiWjd0377Z",
+      "prerequisiteId": "mt_h_shhH-6DC",
+      "strength": "soft",
+      "reason": "'Community Rights and Responsibilities' supports 'Who makes the rules?'"
+    },
+    {
+      "topicId": "mt_IiWjd0377Z",
+      "prerequisiteId": "mt_rkrG2w7WXI",
+      "strength": "hard",
+      "reason": "'Who makes the rules?' builds on 'Rules and agreements exist'"
+    },
+    {
       "topicId": "mt_Ik-WC2ARPf",
       "prerequisiteId": "mt_26OJ9MetR9",
       "strength": "soft",
@@ -10678,6 +11038,18 @@
       "reason": "Plate boundary mechanisms require knowing what tectonic plates are"
     },
     {
+      "topicId": "mt_JNzgBlNkx0",
+      "prerequisiteId": "mt_j32D5DZX7x",
+      "strength": "hard",
+      "reason": "'Life in the first colony' builds on 'Firsthand and Secondhand Accounts'"
+    },
+    {
+      "topicId": "mt_JNzgBlNkx0",
+      "prerequisiteId": "mt_OqDYMyw39G",
+      "strength": "hard",
+      "reason": "'Life in the first colony' builds on 'Why Britain colonised in 1788'"
+    },
+    {
       "topicId": "mt_jO0gHMk7Ti",
       "prerequisiteId": "mt_tX0R4-4WXy",
       "strength": "hard",
@@ -10724,6 +11096,36 @@
       "prerequisiteId": "mt_Wyd-l-6H7G",
       "strength": "hard",
       "reason": "KS3 species distribution and climate change extends KS2 understanding that environmental change can threaten living things"
+    },
+    {
+      "topicId": "mt_JumBNYAiA_",
+      "prerequisiteId": "mt_2GDBmKCJxs",
+      "strength": "hard",
+      "reason": "'Proposing action on local issues' builds on 'Different views about places'"
+    },
+    {
+      "topicId": "mt_JumBNYAiA_",
+      "prerequisiteId": "mt_HveO1bOXpJ",
+      "strength": "soft",
+      "reason": "'Comparing Possible Solutions' supports 'Proposing action on local issues'"
+    },
+    {
+      "topicId": "mt_JumBNYAiA_",
+      "prerequisiteId": "mt_RhntJz7p_6",
+      "strength": "hard",
+      "reason": "'Proposing action on local issues' builds on 'Stop, Think, Then Choose'"
+    },
+    {
+      "topicId": "mt_Juxx4n-8mu",
+      "prerequisiteId": "mt_PJZf6WGfzl",
+      "strength": "soft",
+      "reason": "Knowing their own country and its divisions supports locating neighbours"
+    },
+    {
+      "topicId": "mt_Juxx4n-8mu",
+      "prerequisiteId": "mt_w4cUnN_SsQ",
+      "strength": "hard",
+      "reason": "Locating countries requires reading maps"
     },
     {
       "topicId": "mt_Jvg8X0N5u0",
@@ -11098,6 +11500,24 @@
       "reason": "Tides/waves/currents require basic ocean knowledge"
     },
     {
+      "topicId": "mt_KDIuiKzYTt",
+      "prerequisiteId": "mt_8ad4U6msea",
+      "strength": "soft",
+      "reason": "Athenian democracy as an origin of voting and citizenship ideas"
+    },
+    {
+      "topicId": "mt_KDIuiKzYTt",
+      "prerequisiteId": "mt_blzW9Z8J7-",
+      "strength": "hard",
+      "reason": "'Australia's democracy and elections' builds on 'What local councils do'"
+    },
+    {
+      "topicId": "mt_KDIuiKzYTt",
+      "prerequisiteId": "mt_OzdI2-ZoXX",
+      "strength": "hard",
+      "reason": "'Australia's democracy and elections' builds on 'Rules and laws'"
+    },
+    {
       "topicId": "mt_kDKo4lxRKi",
       "prerequisiteId": "mt_7OJjLOl0fz",
       "strength": "hard",
@@ -11380,6 +11800,24 @@
       "reason": "'Rhythm in rhymes and songs' supports 'Inventing rhymes and alliteration'"
     },
     {
+      "topicId": "mt_KQRxnwElNc",
+      "prerequisiteId": "mt_m43jiOAOCt",
+      "strength": "soft",
+      "reason": "Indigenous ecological knowledge elsewhere (rainforests) relates to caring for Country"
+    },
+    {
+      "topicId": "mt_KQRxnwElNc",
+      "prerequisiteId": "mt_oqrqjd9jm9",
+      "strength": "hard",
+      "reason": "'Caring for Country and resources' builds on 'Diverse First Nations peoples'"
+    },
+    {
+      "topicId": "mt_KQRxnwElNc",
+      "prerequisiteId": "mt_VI5kdtf28e",
+      "strength": "hard",
+      "reason": "'Caring for Country and resources' builds on 'Natural resources'"
+    },
+    {
       "topicId": "mt_Kr3IyA6m-O",
       "prerequisiteId": "mt_cFltwUQi-d",
       "strength": "hard",
@@ -11417,9 +11855,39 @@
     },
     {
       "topicId": "mt_KsKLVW_ssY",
+      "prerequisiteId": "mt_fXE9t2ETGx",
+      "strength": "soft",
+      "reason": "Picture maps and models prepare for representing landforms on a map or model"
+    },
+    {
+      "topicId": "mt_KsKLVW_ssY",
       "prerequisiteId": "mt_go5i87u2b9",
       "strength": "soft",
       "reason": "Seasonal observation supports understanding land and water features"
+    },
+    {
+      "topicId": "mt_kt3K54xUPu",
+      "prerequisiteId": "mt_l-3JUgI80b",
+      "strength": "hard",
+      "reason": "Knowing whose Country the school is on comes before reading the national indicative map"
+    },
+    {
+      "topicId": "mt_kt3K54xUPu",
+      "prerequisiteId": "mt_PJZf6WGfzl",
+      "strength": "soft",
+      "reason": "Comparing with the states and territories map"
+    },
+    {
+      "topicId": "mt_kt3K54xUPu",
+      "prerequisiteId": "mt_pK6QkcKxZT",
+      "strength": "hard",
+      "reason": "Local Country connections ground the Australia-wide picture"
+    },
+    {
+      "topicId": "mt_kt3K54xUPu",
+      "prerequisiteId": "mt_w4cUnN_SsQ",
+      "strength": "soft",
+      "reason": "Reading maps with keys and labels"
     },
     {
       "topicId": "mt_KTSoXcO7OL",
@@ -11534,6 +12002,18 @@
       "prerequisiteId": "mt_zVLOm6U7bh",
       "strength": "soft",
       "reason": "Knowing animals helps understand what they need"
+    },
+    {
+      "topicId": "mt_l-3JUgI80b",
+      "prerequisiteId": "mt_5zPXTvZTcX",
+      "strength": "soft",
+      "reason": "'Special places I belong to' supports 'The Country our school is on'"
+    },
+    {
+      "topicId": "mt_l-3JUgI80b",
+      "prerequisiteId": "mt__sYpBrdzcp",
+      "strength": "soft",
+      "reason": "'Sharing ideas about Australian stories' supports 'The Country our school is on'"
     },
     {
       "topicId": "mt_l6OpmOKMuT",
@@ -12184,6 +12664,24 @@
       "reason": "Vibrating materials producing sound is a concrete anchor for understanding wave motion"
     },
     {
+      "topicId": "mt_lyxrFwNUqE",
+      "prerequisiteId": "mt_ejht12jhm2",
+      "strength": "hard",
+      "reason": "'Places in the Asia region' builds on 'Grid references and directions'"
+    },
+    {
+      "topicId": "mt_lyxrFwNUqE",
+      "prerequisiteId": "mt_Juxx4n-8mu",
+      "strength": "soft",
+      "reason": "Locating neighbouring countries supports locating the Asia region"
+    },
+    {
+      "topicId": "mt_lyxrFwNUqE",
+      "prerequisiteId": "mt_r_ja_V9Q70",
+      "strength": "hard",
+      "reason": "'Places in the Asia region' builds on 'Places here and nearby'"
+    },
+    {
       "topicId": "mt_lzCcQzPJZi",
       "prerequisiteId": "mt_6nqVnVdexe",
       "strength": "hard",
@@ -12556,6 +13054,12 @@
       "reason": "Must understand possessive apostrophe to use it in writing"
     },
     {
+      "topicId": "mt_Mk_Bup-vsr",
+      "prerequisiteId": "mt_CdB3nZHkEA",
+      "strength": "soft",
+      "reason": "National symbols are often seen on national days"
+    },
+    {
       "topicId": "mt_mkDqmejLMw",
       "prerequisiteId": "mt_enj1sMcfOT",
       "strength": "soft",
@@ -12868,6 +13372,18 @@
       "reason": "'Simple tests and experiments' supports 'Did it happen as predicted?'"
     },
     {
+      "topicId": "mt_mRU4H9-fgb",
+      "prerequisiteId": "mt_69w5GVudJl",
+      "strength": "hard",
+      "reason": "'Annotated timelines' builds on 'Timelines of past events'"
+    },
+    {
+      "topicId": "mt_mRU4H9-fgb",
+      "prerequisiteId": "mt_FW9_8F52bw",
+      "strength": "hard",
+      "reason": "'Annotated timelines' builds on 'Short Research Projects'"
+    },
+    {
       "topicId": "mt_mr_Vk7FGzK",
       "prerequisiteId": "mt_s2mfRBoTal",
       "strength": "hard",
@@ -12914,6 +13430,18 @@
       "prerequisiteId": "mt_zVLOm6U7bh",
       "strength": "soft",
       "reason": "Wild/farm/pet distinction enriched by curriculum animal group identification"
+    },
+    {
+      "topicId": "mt_MVlTa0XKgo",
+      "prerequisiteId": "mt_9REmUc8r4D",
+      "strength": "hard",
+      "reason": "'Technology changes how we live' builds on 'Comparing old and new objects'"
+    },
+    {
+      "topicId": "mt_MVlTa0XKgo",
+      "prerequisiteId": "mt__F_i67waLN",
+      "strength": "hard",
+      "reason": "'Technology changes how we live' builds on 'Childhood then and now'"
     },
     {
       "topicId": "mt_MVovx37Xct",
@@ -13076,6 +13604,42 @@
       "prerequisiteId": "mt_W_CNRTBgYR",
       "strength": "soft",
       "reason": "Pottery paintings are a key evidence type for Greek history"
+    },
+    {
+      "topicId": "mt_n3ojDXoaqC",
+      "prerequisiteId": "mt_0Rx1ISxXFE",
+      "strength": "hard",
+      "reason": "'Australia's links with the world' builds on 'Global Trade'"
+    },
+    {
+      "topicId": "mt_n3ojDXoaqC",
+      "prerequisiteId": "mt_lyxrFwNUqE",
+      "strength": "hard",
+      "reason": "'Australia's links with the world' builds on 'Places in the Asia region'"
+    },
+    {
+      "topicId": "mt_n51zr0RFt4",
+      "prerequisiteId": "mt_8ad4U6msea",
+      "strength": "soft",
+      "reason": "Athenian democracy as an origin of democratic ideas"
+    },
+    {
+      "topicId": "mt_n51zr0RFt4",
+      "prerequisiteId": "mt_8ShghTx0jd",
+      "strength": "soft",
+      "reason": "Magna Carta and limits on power underpin Westminster government"
+    },
+    {
+      "topicId": "mt_n51zr0RFt4",
+      "prerequisiteId": "mt_Ik-WC2ARPf",
+      "strength": "soft",
+      "reason": "Parliament and common law as a medieval legacy"
+    },
+    {
+      "topicId": "mt_n51zr0RFt4",
+      "prerequisiteId": "mt_QayfDN4rTB",
+      "strength": "hard",
+      "reason": "'How Australia's government works' builds on 'Federation and the Constitution'"
     },
     {
       "topicId": "mt__N55B7u7HD",
@@ -14272,6 +14836,30 @@
       "reason": "Converting between mixed numbers and improper fractions requires both terms"
     },
     {
+      "topicId": "mt_OqDYMyw39G",
+      "prerequisiteId": "mt_j32D5DZX7x",
+      "strength": "soft",
+      "reason": "'Firsthand and Secondhand Accounts' supports 'Why Britain colonised in 1788'"
+    },
+    {
+      "topicId": "mt_OqDYMyw39G",
+      "prerequisiteId": "mt_mRU4H9-fgb",
+      "strength": "hard",
+      "reason": "'Why Britain colonised in 1788' builds on 'Annotated timelines'"
+    },
+    {
+      "topicId": "mt_oqrqjd9jm9",
+      "prerequisiteId": "mt_axrs4Gfdm9",
+      "strength": "hard",
+      "reason": "'Diverse First Nations peoples' builds on 'Connections to Country across Australia'"
+    },
+    {
+      "topicId": "mt_oqrqjd9jm9",
+      "prerequisiteId": "mt_kt3K54xUPu",
+      "strength": "hard",
+      "reason": "First Nations diversity builds on knowing Australia is made up of many Countries"
+    },
+    {
       "topicId": "mt_oqvJJKCJXw",
       "prerequisiteId": "mt_HFN1pGASpZ",
       "strength": "hard",
@@ -14560,6 +15148,18 @@
       "reason": "Must know basic insect body plan before studying detailed anatomy"
     },
     {
+      "topicId": "mt_OzdI2-ZoXX",
+      "prerequisiteId": "mt_IiWjd0377Z",
+      "strength": "hard",
+      "reason": "'Rules and laws' builds on 'Who makes the rules?'"
+    },
+    {
+      "topicId": "mt_OzdI2-ZoXX",
+      "prerequisiteId": "mt_Ik-WC2ARPf",
+      "strength": "soft",
+      "reason": "Common law as a medieval legacy"
+    },
+    {
       "topicId": "mt_OzRZ89GrQW",
       "prerequisiteId": "mt_e4x3l2JeLI",
       "strength": "hard",
@@ -14684,6 +15284,18 @@
       "prerequisiteId": "mt_cPZwlUk8Nd",
       "strength": "hard",
       "reason": "Using £ and p symbols extends Y1 recognition of coin values"
+    },
+    {
+      "topicId": "mt_pBvABgZo5O",
+      "prerequisiteId": "mt_0O4mXv3asF",
+      "strength": "hard",
+      "reason": "'Family roles then and now' builds on 'My family and our places'"
+    },
+    {
+      "topicId": "mt_pBvABgZo5O",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "'Similarities & Differences' supports 'Family roles then and now'"
     },
     {
       "topicId": "mt__PcuXj7_I1",
@@ -14902,6 +15514,30 @@
       "reason": "Oral composition requires vocabulary like 'compose', 'sentence', and 'sequence' to participate meaningfully in the exercise"
     },
     {
+      "topicId": "mt_PJZf6WGfzl",
+      "prerequisiteId": "mt_QVUW4olzHP",
+      "strength": "hard",
+      "reason": "'States, territories and Countries' builds on 'From local to state'"
+    },
+    {
+      "topicId": "mt_PJZf6WGfzl",
+      "prerequisiteId": "mt_w4cUnN_SsQ",
+      "strength": "hard",
+      "reason": "'States, territories and Countries' builds on 'Reading and drawing maps'"
+    },
+    {
+      "topicId": "mt_pK6QkcKxZT",
+      "prerequisiteId": "mt_l-3JUgI80b",
+      "strength": "hard",
+      "reason": "'First Nations links to local Country' builds on 'The Country our school is on'"
+    },
+    {
+      "topicId": "mt_pK6QkcKxZT",
+      "prerequisiteId": "mt_svBtqePrBP",
+      "strength": "hard",
+      "reason": "'First Nations links to local Country' builds on 'Places change and are cared for'"
+    },
+    {
       "topicId": "mt_PL9VkDwXfh",
       "prerequisiteId": "mt_b7T-CjOYUR",
       "strength": "hard",
@@ -15104,6 +15740,12 @@
       "prerequisiteId": "mt_oN7fI4d_kU",
       "strength": "soft",
       "reason": "Castle knowledge provides contrast with village life"
+    },
+    {
+      "topicId": "mt_pTz6u49fQt",
+      "prerequisiteId": "mt_69w5GVudJl",
+      "strength": "soft",
+      "reason": "Placing ancient Egypt on a timeline uses general timeline skills"
     },
     {
       "topicId": "mt_pTz6u49fQt",
@@ -15416,6 +16058,18 @@
       "prerequisiteId": "mt_AQo4u7O4sM",
       "strength": "soft",
       "reason": "Area models for distributive property support understanding long multiplication layout"
+    },
+    {
+      "topicId": "mt_QayfDN4rTB",
+      "prerequisiteId": "mt_e0I0OSxNFc",
+      "strength": "hard",
+      "reason": "'Federation and the Constitution' builds on 'Why new colonies began'"
+    },
+    {
+      "topicId": "mt_QayfDN4rTB",
+      "prerequisiteId": "mt_KDIuiKzYTt",
+      "strength": "hard",
+      "reason": "'Federation and the Constitution' builds on 'Australia's democracy and elections'"
     },
     {
       "topicId": "mt_QaYfeVL-0C",
@@ -15884,6 +16538,18 @@
       "prerequisiteId": "mt_OlhMP7ShFT",
       "strength": "hard",
       "reason": "'Pictures in stories and fact books' builds on 'Pictures and Text Working Together'"
+    },
+    {
+      "topicId": "mt_QVUW4olzHP",
+      "prerequisiteId": "mt_61Pa4Eksva",
+      "strength": "hard",
+      "reason": "'From local to state' builds on 'Finding places on a plan'"
+    },
+    {
+      "topicId": "mt_QVUW4olzHP",
+      "prerequisiteId": "mt_cUpJvBD1YA",
+      "strength": "hard",
+      "reason": "'From local to state' builds on 'Natural, managed and built features'"
     },
     {
       "topicId": "mt_qw6mhOl-Qy",
@@ -16412,6 +17078,18 @@
       "prerequisiteId": "mt_yBJyCfhtem",
       "strength": "hard",
       "reason": "Must know what nouns are before learning words that precede them"
+    },
+    {
+      "topicId": "mt_r_ja_V9Q70",
+      "prerequisiteId": "mt_cUpJvBD1YA",
+      "strength": "hard",
+      "reason": "'Places here and nearby' builds on 'Natural, managed and built features'"
+    },
+    {
+      "topicId": "mt_r_ja_V9Q70",
+      "prerequisiteId": "mt_Juxx4n-8mu",
+      "strength": "hard",
+      "reason": "Comparing places in neighbouring countries requires locating those countries"
     },
     {
       "topicId": "mt_RKeheOL9uo",
@@ -17290,6 +17968,24 @@
       "reason": "Cross-book comparison draws on understanding themes and conventions"
     },
     {
+      "topicId": "mt_svBtqePrBP",
+      "prerequisiteId": "mt_cUpJvBD1YA",
+      "strength": "soft",
+      "reason": "'Natural, managed and built features' supports 'Places change and are cared for'"
+    },
+    {
+      "topicId": "mt_svBtqePrBP",
+      "prerequisiteId": "mt_deexfCHU9m",
+      "strength": "hard",
+      "reason": "'Places change and are cared for' builds on 'Reducing Human Impact'"
+    },
+    {
+      "topicId": "mt_svBtqePrBP",
+      "prerequisiteId": "mt_l-3JUgI80b",
+      "strength": "hard",
+      "reason": "'Places change and are cared for' builds on 'The Country our school is on'"
+    },
+    {
       "topicId": "mt_svFa6_mjO_",
       "prerequisiteId": "mt_tAJH5BrpOx",
       "strength": "hard",
@@ -17618,6 +18314,18 @@
       "prerequisiteId": "mt_OnV_DTp5i8",
       "strength": "soft",
       "reason": "Migration patterns connect to food web dynamics and seasonal food availability"
+    },
+    {
+      "topicId": "mt_tF6XuKIq8_",
+      "prerequisiteId": "mt_h_shhH-6DC",
+      "strength": "hard",
+      "reason": "'Why people join in' builds on 'Community Rights and Responsibilities'"
+    },
+    {
+      "topicId": "mt_tF6XuKIq8_",
+      "prerequisiteId": "mt_QepALf3bin",
+      "strength": "soft",
+      "reason": "'Social Enterprise' supports 'Why people join in'"
     },
     {
       "topicId": "mt_TffvIu6VgG",
@@ -19403,6 +20111,12 @@
     },
     {
       "topicId": "mt_VXcua6-txq",
+      "prerequisiteId": "mt_196Gb4q6a5",
+      "strength": "soft",
+      "reason": "'Telling stories of the past' supports 'Vocabulary: historical thinking'"
+    },
+    {
+      "topicId": "mt_VXcua6-txq",
       "prerequisiteId": "mt_WzOyJFKDIu",
       "strength": "soft",
       "reason": "Acquiring the specialist vocabulary of historical thinking (source, bias, chronology, corroborate) builds on the academic vocabulary development taught in English"
@@ -19798,6 +20512,18 @@
       "reason": "Structured opinion with reasons and linking words builds on stating a simple opinion/preference"
     },
     {
+      "topicId": "mt_wlhg-ivMh6",
+      "prerequisiteId": "mt_2qc_Kq63Le",
+      "strength": "hard",
+      "reason": "'How our community changed' builds on 'Important local people and places'"
+    },
+    {
+      "topicId": "mt_wlhg-ivMh6",
+      "prerequisiteId": "mt_MVlTa0XKgo",
+      "strength": "soft",
+      "reason": "'Technology changes how we live' supports 'How our community changed'"
+    },
+    {
       "topicId": "mt_WNBHZ1d94L",
       "prerequisiteId": "mt_0B64gfJf7j",
       "strength": "hard",
@@ -20176,6 +20902,18 @@
       "reason": "Understanding that others have perspectives and feelings requires the vocabulary of empathy and perspective"
     },
     {
+      "topicId": "mt_x08z0N0HX8",
+      "prerequisiteId": "mt_6lHBTwQPrS",
+      "strength": "hard",
+      "reason": "'Questions about the past' builds on 'Question Words'"
+    },
+    {
+      "topicId": "mt_x08z0N0HX8",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "soft",
+      "reason": "'Asking Questions' supports 'Questions about the past'"
+    },
+    {
       "topicId": "mt_X0Tr8IYaEd",
       "prerequisiteId": "mt_hbe_kdE_7C",
       "strength": "soft",
@@ -20204,6 +20942,18 @@
       "prerequisiteId": "mt_Hqz5y_tWz2",
       "strength": "hard",
       "reason": "Point of view analysis requires understanding character development and plot structure"
+    },
+    {
+      "topicId": "mt_x3DJWIEHBq",
+      "prerequisiteId": "mt_DkzsZdyaL2",
+      "strength": "hard",
+      "reason": "'Groups I belong to' builds on 'The world contains many cultures, traditions'"
+    },
+    {
+      "topicId": "mt_x3DJWIEHBq",
+      "prerequisiteId": "mt_tF6XuKIq8_",
+      "strength": "soft",
+      "reason": "'Why people join in' supports 'Groups I belong to'"
     },
     {
       "topicId": "mt_X4CJpPRxae",
@@ -21004,6 +21754,18 @@
       "reason": "Being an upstander builds on caring for others"
     },
     {
+      "topicId": "mt_yDQmYTrrzP",
+      "prerequisiteId": "mt__ab4knIaSL",
+      "strength": "hard",
+      "reason": "Classifying resources builds on needs and wants"
+    },
+    {
+      "topicId": "mt_yDQmYTrrzP",
+      "prerequisiteId": "mt_tqgZH11cP5",
+      "strength": "hard",
+      "reason": "'Natural, human and capital resources' builds on 'Supply Chains'"
+    },
+    {
       "topicId": "mt_ydtcIBwHB9",
       "prerequisiteId": "mt_VBl1T1sFCM",
       "strength": "hard",
@@ -21260,6 +22022,12 @@
       "prerequisiteId": "mt_ZBMcX2oRor",
       "strength": "soft",
       "reason": "Reciting poems supports writing poetry — understanding performance element"
+    },
+    {
+      "topicId": "mt_yNGrY9xJ8Y",
+      "prerequisiteId": "mt_9REmUc8r4D",
+      "strength": "soft",
+      "reason": "Using Egyptian artefacts as evidence applies the general skill of using objects as evidence"
     },
     {
       "topicId": "mt_yNGrY9xJ8Y",
@@ -21746,6 +22514,12 @@
       "prerequisiteId": "mt_mquPi2IP-J",
       "strength": "soft",
       "reason": "Temperature homeostasis links to enzyme activity in respiration and why stable temperature matters for cell function"
+    },
+    {
+      "topicId": "mt_zbEcwd40uv",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "'Similarities & Differences' supports 'Celebrations we share'"
     },
     {
       "topicId": "mt_ZBMcX2oRor",
@@ -22322,6 +23096,18 @@
       "prerequisiteId": "mt_cChv2j_-Da",
       "strength": "hard",
       "reason": "Must be able to use strategies before explaining why they work"
+    },
+    {
+      "topicId": "mt_ZY38c705Ce",
+      "prerequisiteId": "mt_2OSTHTWDpa",
+      "strength": "hard",
+      "reason": "'People shaping places' builds on 'Deforestation Causes & Scale'"
+    },
+    {
+      "topicId": "mt_ZY38c705Ce",
+      "prerequisiteId": "mt_KQRxnwElNc",
+      "strength": "hard",
+      "reason": "'People shaping places' builds on 'Caring for Country and resources'"
     },
     {
       "topicId": "mt_Zy-CKUkq34",
