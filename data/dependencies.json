@@ -4781,21 +4781,9 @@
     },
     {
       "topicId": "mt_c29FaCTNsx",
-      "prerequisiteId": "mt_u5HkSxZECM",
-      "strength": "hard",
-      "reason": "Constructing pictograms, tally charts, and bar charts requires these display vocabulary terms"
-    },
-    {
-      "topicId": "mt_c29FaCTNsx",
       "prerequisiteId": "mt_xppl18avyY",
       "strength": "hard",
       "reason": "Constructing pictograms and tally charts requires classifying and counting objects first"
-    },
-    {
-      "topicId": "mt_c29FaCTNsx",
-      "prerequisiteId": "mt_ylXdiVRAYv",
-      "strength": "soft",
-      "reason": "Data representation formats (pictograms, tally charts) support organising data"
     },
     {
       "topicId": "mt_C3eNLQJlgt",
@@ -16126,6 +16114,12 @@
       "reason": "Interpreting products is prerequisite to interpreting multiplication as comparison"
     },
     {
+      "topicId": "mt_u5HkSxZECM",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "hard",
+      "reason": "Using tally, frequency and pictogram vocabulary when describing how data is recorded and displayed requires first having read and made simple pictograms and tally charts"
+    },
+    {
       "topicId": "mt_u6SYiVx7FX",
       "prerequisiteId": "mt__p5n8z5soJ",
       "strength": "soft",
@@ -18866,6 +18860,12 @@
       "prerequisiteId": "mt_YQkUdIHO8L",
       "strength": "hard",
       "reason": "Must understand observable states of matter before modelling them with particles"
+    },
+    {
+      "topicId": "mt_ylXdiVRAYv",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "soft",
+      "reason": "Data representation formats (pictograms, tally charts) support organising data"
     },
     {
       "topicId": "mt_ylXdiVRAYv",

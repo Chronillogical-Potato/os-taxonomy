@@ -83,7 +83,7 @@ remaining gap. The 27 Movement and physical activity (PE) standards are excluded
 these figures do not represent full Health and Physical Education coverage.
 
 Australian Digital Technologies has 47 topic alignments across 30 existing
-topics: 3 of its 38 standards are fully covered, 22 partly covered, and 13
+topics: 2 of its 38 standards are fully covered, 23 partly covered, and 13
 missing. The [coverage report](reports/acara-v9-digital-technologies-coverage.md)
 lists every standard, linked topic and remaining gap. Design and Technologies
 currently has source standards only.

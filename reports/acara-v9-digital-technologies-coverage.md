@@ -2,15 +2,15 @@
 
 Reviewed 21 October 2026 against the 38 Foundation–Year 6 Digital Technologies content descriptions. The mapping adds 47 alignments across 30 existing topics.
 
-**3 standards are fully covered, 22 partly covered, and 13 missing.** Full means the linked topics collectively cover every required part at the expected level, including practice or rehearsal where required. Individual links may cover only part of a standard.
+**2 standards are fully covered, 23 partly covered, and 13 missing.** Full means the linked topics collectively cover every required part at the expected level, including practice or rehearsal where required. Individual links may cover only part of a standard.
 
 | Year band | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
 | Foundation | 1 | 2 | 0 | 3 |
 | Years 1–2 | 1 | 6 | 2 | 9 |
-| Years 3–4 | 1 | 8 | 3 | 12 |
+| Years 3–4 | 0 | 9 | 3 | 12 |
 | Years 5–6 | 0 | 6 | 8 | 14 |
-| **Total** | **3** | **22** | **13** | **38** |
+| **Total** | **2** | **23** | **13** | **38** |
 
 ## Foundation
 
@@ -40,7 +40,7 @@ Reviewed 21 October 2026 against the 38 Foundation–Year 6 Digital Technologies
 |---|---|---|---|
 | `AC9TDI4K01` | Missing | — | No topic at Years 3-4 level explores and describes a range of digital systems and their peripherals (printers, cameras, headphones, sensors); the everyday-computer topics are pitched at Foundation-Year 2 level. |
 | `AC9TDI4K02` | Partial | Patterns & Codes for Information (`mt_n5_Jt4ExUd`) | Encoding and sending messages as light or sound patterns (n5_Jt4ExUd) is covered; exploring how different types of data (text, images, sound, video) are transmitted between digital systems is not. |
-| `AC9TDI4K03` | Full | Data and Information for Computers (`mt_kH1DzOPsXG`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Bar graphs (`mt_ChjMU2GDJa`) | — |
+| `AC9TDI4K03` | Partial | Data and Information for Computers (`mt_kH1DzOPsXG`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Bar graphs (`mt_ChjMU2GDJa`) | Recognising data types (numbers, text, images, sounds; kH1DzOPsXG), drawing scaled pictograms and bar graphs (r8XnXwRA6g) and choosing a bar chart or time graph for discrete versus continuous data (ChjMU2GDJa) are covered; exploring how the same data set can be represented differently because the purpose or audience changes (e.g. a table to look up values, a graph to compare, an icon or colour code to show at a glance) is not. |
 | `AC9TDI4P01` | Partial | Simple Design Problems (`mt_Z5-fSCOBep`) | Defining a design problem with success criteria and constraints (Z5-fSCOBep, a general/physical design context) is covered; defining a problem to be solved by a digital solution is not, and no topic covers user stories (writing or co-creating "As a ..., I want ..., so that ..." statements to describe user needs). |
 | `AC9TDI4P02` | Partial | Step-by-Step Instructions (`mt__p5n8z5soJ`) | Following and describing sequences of steps (_p5n8z5soJ, pitched at Foundation-Year 2 level) is covered; branching with comparison operators (e.g. if score > 10) and iteration are not. |
 | `AC9TDI4P03` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Modelling with Sketches (`mt_hi8cVycbwn`) | Transferable design skills - generating and comparing possible solutions against criteria (HveO1bOXpJ) and communicating a design as a sketch or model (hi8cVycbwn) - are covered; designing a digital solution (e.g. storyboarding or sketching the screens, inputs, outputs and steps of a game, app or program) is not assessed - the linked design topics concern physical products, general solutions or business ideas. |
