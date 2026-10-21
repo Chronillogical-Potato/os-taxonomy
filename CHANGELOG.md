@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Align Australian Foundation–Year 6 Digital Technologies with 47 links across 30 existing topics. Publish a code-by-code audit of all 38 standards: 2 fully covered, 23 partly covered and 13 missing. Preserve existing curriculum links and topic content; correct two prerequisite directions around Foundation pictograms, refresh derived centrality and approximate age spans, and update the teaching-research topic-file binding.
+
 - Align selected Australian Foundation–Year 6 Health content with 84 links across 52 existing topics. Review all 32 Personal, social and community health standards: 11 fully covered, 19 partly covered and 2 missing. Exclude the 27 PE standards. Preserve existing curriculum links, topic content and prerequisite edges; refresh approximate age spans and the teaching-research topic-file binding.
 
 - Align Australian Foundation–Year 6 HASS with 144 links across 66 existing topics. Publish a code-by-code audit of all 89 standards: 39 fully covered, 23 partly covered and 27 missing. Preserve existing curriculum links, topic content and prerequisite edges; refresh approximate age spans and the teaching-research topic-file binding.
