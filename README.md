@@ -85,8 +85,13 @@ these figures do not represent full Health and Physical Education coverage.
 Australian Digital Technologies has 47 topic alignments across 30 existing
 topics: 2 of its 38 standards are fully covered, 23 partly covered, and 13
 missing. The [coverage report](reports/acara-v9-digital-technologies-coverage.md)
-lists every standard, linked topic and remaining gap. Design and Technologies
-currently has source standards only.
+lists every standard, linked topic and remaining gap.
+
+Australian Design and Technologies has 79 topic alignments across 48
+existing topics: 3 of its 29 standards are fully covered, 26 partly covered,
+and 0 missing. The
+[coverage report](reports/acara-v9-design-technologies-coverage.md) lists every
+standard, linked topic and remaining gap.
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
 ### A topic

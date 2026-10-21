@@ -121,6 +121,8 @@
       ],
       "assessmentPrompt": "If {{name}} had to write instructions for making a jam sandwich so precise that even a robot could follow them, could they include every single step?",
       "standards": [
+        "acara-v9:AC9TDE2P04",
+        "acara-v9:AC9TDEFP01",
         "acara-v9:AC9TDI2P02",
         "acara-v9:AC9TDI4P02"
       ]
@@ -4914,6 +4916,7 @@
         "acara-v9:AC9E3LE02",
         "acara-v9:AC9EFLA02",
         "acara-v9:AC9HSFS03",
+        "acara-v9:AC9TDE2P03",
         "uk-nc-2013:Eng.SL.4",
         "uk-nc-2013:Eng.SL.9"
       ]
@@ -9465,7 +9468,7 @@
       "name": "Goods & Services",
       "description": "Some people make things (goods) and some people do things for others (services); recognising both in everyday life and understanding that both have value",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02102496714848883,
       "evidence": [
         "Sort a set of pictures into goods (things you can touch) and services (things people do for you)",
@@ -9473,7 +9476,10 @@
         "Explain that both making things and helping people are valuable kinds of work"
       ],
       "assessmentPrompt": "Could {{name}} tell you the difference between a product you buy in a shop and a service like getting a haircut, and give examples of each?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE2K01",
+        "acara-v9:AC9TDEFK01"
+      ]
     },
     {
       "id": "mt_CrGnpVjnk8",
@@ -9593,7 +9599,7 @@
       "name": "Making a Simple Plan",
       "description": "Before starting a business, making a simple plan: what will I make or do, who will buy it, what do I need, how much will it cost, and what price will I charge?",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.0328515111695138,
       "evidence": [
         "Write or draw a simple business plan covering: product, customer, materials needed, and price",
@@ -9601,7 +9607,9 @@
         "Explain why planning ahead is better than just starting without thinking"
       ],
       "assessmentPrompt": "If {{name}} wanted to run a small business at a school fair, could they write a simple plan covering what they'd sell, what they'd need, and what they'd charge?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE6P05"
+      ]
     },
     {
       "id": "mt_M2Gou3O6qT",
@@ -9668,7 +9676,7 @@
       "name": "Ethics in Business",
       "description": "Being honest, being fair, treating workers well, not harming the environment; what makes a 'good' business; whether businesses should care about more than profit",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04336399474375821,
       "evidence": [
         "Name at least two things that make a business ethical (fair wages, honest advertising, environmentally responsible)",
@@ -9676,7 +9684,9 @@
         "Describe a situation where a business owner faces an ethical choice and suggest what they should do"
       ],
       "assessmentPrompt": "If {{name}} heard about a company paying its workers very little to make bigger profits, could they explain why that's unfair and suggest a better approach?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE6K01"
+      ]
     },
     {
       "id": "mt_bAYy0ytbfC",
@@ -9695,6 +9705,7 @@
       ],
       "assessmentPrompt": "If {{name}} had to stand up in front of the class and explain a business idea in two minutes, could they do it confidently and persuasively?",
       "standards": [
+        "acara-v9:AC9TDE6P02",
         "acara-v9:AC9TDI6P04"
       ]
     },
@@ -9742,7 +9753,7 @@
       "name": "Supply Chains",
       "description": "Where products come from before they reach the customer; raw materials, making, transporting, and selling; the journey of a product from start to finish",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04073587385019711,
       "evidence": [
         "Trace the journey of a familiar product (e.g. chocolate bar) from raw material to shop shelf",
@@ -9751,7 +9762,8 @@
       ],
       "assessmentPrompt": "If you asked {{name}} how a chocolate bar gets from a cocoa farm to a shop shelf, could they describe the main steps in the journey?",
       "standards": [
-        "acara-v9:AC9HS5K08"
+        "acara-v9:AC9HS5K08",
+        "acara-v9:AC9TDE6K03"
       ]
     },
     {
@@ -22081,7 +22093,7 @@
       "name": "Resolving Disagreements with Friends",
       "description": "Resolve simple disagreements with peers by talking it through — explaining how they feel, listening to the other person's side, and finding a compromise or solution that both can accept",
       "ageRangeStart": 6,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.0328515111695138,
       "evidence": [
         "Explain their own point of view calmly during a disagreement",
@@ -22092,6 +22104,7 @@
       "standards": [
         "acara-v9:AC9HP2P02",
         "acara-v9:AC9HP4P04",
+        "acara-v9:AC9TDE6P04",
         "ib-pyp-pspe:PSPE.INT.P2.LO.9"
       ]
     },
@@ -22103,7 +22116,7 @@
       "name": "Roles in a Group",
       "description": "Understand different roles people play in groups — leader, supporter, mediator, idea-generator — and recognise that effective groups need a mix of roles, not everyone trying to be the leader",
       "ageRangeStart": 6,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01708278580814717,
       "evidence": [
         "Name at least three different roles people can play in a group",
@@ -22113,6 +22126,7 @@
       "assessmentPrompt": "In a group project, can {{name}} recognise that they don't always have to be in charge — and that sometimes the group works better when they support someone else's idea rather than pushing their own?",
       "standards": [
         "acara-v9:AC9HP2P01",
+        "acara-v9:AC9TDE4P05",
         "ib-pyp-pspe:PSPE.INT.P2.LO.5",
         "ib-pyp-pspe:PSPE.INT.P2.LO.6"
       ]
@@ -22125,7 +22139,7 @@
       "name": "Working Well in a Group",
       "description": "Work effectively as part of a small group — contributing their own ideas, listening to others' ideas, taking on a fair share of the work, and supporting the group to reach a shared goal",
       "ageRangeStart": 6,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.02102496714848883,
       "evidence": [
         "Contribute at least one idea during a group discussion",
@@ -22135,6 +22149,8 @@
       "assessmentPrompt": "When {{name}} has to do a group project at school, do they pull their weight — sharing ideas and doing their part — rather than sitting back or trying to take over?",
       "standards": [
         "acara-v9:AC9HP2P02",
+        "acara-v9:AC9TDE2P04",
+        "acara-v9:AC9TDE4P05",
         "ib-pyp-pspe:PSPE.INT.P2.CU.1",
         "ib-pyp-pspe:PSPE.INT.P2.LO.3"
       ]
@@ -22886,7 +22902,7 @@
       "name": "Breaking Tasks into Steps",
       "description": "Break a challenging task into smaller, manageable steps rather than feeling overwhelmed by the whole thing — and celebrate progress along the way",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.04336399474375821,
       "evidence": [
         "Take a challenging task and list at least three smaller steps to complete it",
@@ -22894,7 +22910,9 @@
         "Acknowledge progress after completing each step"
       ],
       "assessmentPrompt": "If {{name}} has a big school project that feels overwhelming, can they break it down into smaller steps — like 'first I'll research, then I'll write the introduction' — rather than panicking about the whole thing?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE4P05"
+      ]
     },
     {
       "id": "mt_j8Pv3s7TZR",
@@ -23055,7 +23073,7 @@
       "name": "Time and Attention Management",
       "description": "Manage their own time and attention effectively — prioritising tasks, minimising distractions, and maintaining focus on important work even when it's not the most exciting option",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.0354796320630749,
       "evidence": [
         "Create a simple plan for completing multiple tasks in a sensible order",
@@ -23064,6 +23082,7 @@
       ],
       "assessmentPrompt": "When {{name}} has homework to finish but also wants to play a game, can they manage their time — doing the homework first or setting a timer — rather than always needing you to enforce it?",
       "standards": [
+        "acara-v9:AC9TDE6P05",
         "ib-pyp-pspe:PSPE-ID-LO-P3-12"
       ]
     },
@@ -23225,7 +23244,7 @@
       "name": "Wild, Farm & Pet Animals",
       "description": "Understand the difference between wild animals, farm animals, and pets — wild animals find their own food and shelter in nature; farm animals are kept by people for food, wool, or eggs; pets are animals people keep for companionship — and know that wild animals should be observed from a distance",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.03942181340341656,
       "evidence": [
         "Sorts animals into wild, farm, and pet categories with examples",
@@ -23233,7 +23252,9 @@
         "Understands that wild animals should be observed, not approached"
       ],
       "assessmentPrompt": "If {{name}} sees a fox in the garden, can they explain that it's a wild animal — different from their pet cat or a farm sheep — and that wild animals look after themselves and shouldn't be touched?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE2K03"
+      ]
     },
     {
       "id": "mt_wHN14Unk7h",
@@ -24523,7 +24544,7 @@
       "name": "Reducing Human Impact",
       "description": "Communicate solutions that will reduce the impact of humans on the land, water, air, and other living things in the local environment",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.00788436268068331,
       "evidence": [
         "Identify at least three ways humans negatively impact the local environment (litter, pollution, habitat destruction)",
@@ -24535,6 +24556,7 @@
         "acara-v9:AC9HS1K04",
         "acara-v9:AC9HS1S05",
         "acara-v9:AC9HSFK03",
+        "acara-v9:AC9TDE2K01",
         "ngss-k5:K-ESS3-3"
       ]
     },
@@ -24779,7 +24801,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what a carbon footprint is — not just that it's about pollution, but what it actually measures?",
       "standards": [
-        "acara-v9:AC9HS4K06"
+        "acara-v9:AC9HS4K06",
+        "acara-v9:AC9TDE4K01"
       ]
     },
     {
@@ -25267,7 +25290,7 @@
       "name": "Building shade from the sun",
       "description": "Use tools and materials to design and build a structure that will reduce the warming effect of sunlight on an area, such as a shade or shelter",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.01839684625492773,
       "evidence": [
         "Design a structure intended to reduce the warming effect of sunlight on an area",
@@ -25276,6 +25299,8 @@
       ],
       "assessmentPrompt": "Can {{name}} design and build a simple shade — like an umbrella or canopy — and test whether it keeps an area cooler in the sun?",
       "standards": [
+        "acara-v9:AC9TDE2P02",
+        "acara-v9:AC9TDEFP01",
         "ngss-k5:K-PS3-2"
       ]
     },
@@ -25325,7 +25350,7 @@
       "name": "Building a simple circuit",
       "description": "Construct a simple series electrical circuit, identifying and naming its basic parts: cells, wires, bulbs, switches, and buzzers",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.06307490144546649,
       "evidence": [
         "Build a complete series circuit that lights a bulb or sounds a buzzer",
@@ -25334,6 +25359,7 @@
       ],
       "assessmentPrompt": "Can {{name}} build a working circuit with a battery, wires, and a light bulb, and name each part they're using?",
       "standards": [
+        "acara-v9:AC9TDE4P03",
         "uk-nc-2013:Y4.Sci.E.2"
       ]
     },
@@ -25376,6 +25402,7 @@
       "standards": [
         "acara-v9:AC9S3U03",
         "acara-v9:AC9S6U03",
+        "acara-v9:AC9TDE6K02",
         "ngss-k5:4-PS3-2"
       ]
     },
@@ -25397,6 +25424,27 @@
       "assessmentPrompt": "Can {{name}} explain what happens inside the wall when they flip a light switch — that it completes or breaks the electrical loop?",
       "standards": [
         "uk-nc-2013:Y4.Sci.E.4"
+      ]
+    },
+    {
+      "id": "mt_loYPGHJ8lm",
+      "type": "REPRESENTATIONAL",
+      "subject": "Science",
+      "domain": "Energy",
+      "name": "Reading and drawing circuit diagrams",
+      "description": "Draw and read simple circuit diagrams using standard symbols for cells, bulbs, switches, buzzers, and wires; identify whether a circuit is complete or broken from a diagram; match circuit diagrams to physical circuits",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.01971090670170828,
+      "evidence": [
+        "Draw a circuit diagram for a cell, switch, and bulb using standard symbols",
+        "Identify from a diagram whether a switch is open or closed and predict whether the bulb lights",
+        "Match a photograph of a physical circuit to the correct circuit diagram from a set of options"
+      ],
+      "assessmentPrompt": "If {{name}} sees a circuit diagram with symbols for a battery, switch, and light bulb, can they tell you whether the bulb would light up — and draw the diagram for a simple circuit you describe?",
+      "standards": [
+        "acara-v9:AC9S4I04",
+        "acara-v9:AC9TDE4P02"
       ]
     },
     {
@@ -25457,6 +25505,8 @@
       "assessmentPrompt": "Could {{name}} design and build a simple device — like a rubber-band car or a solar oven — that changes energy from one form to another?",
       "standards": [
         "acara-v9:AC9S6U03",
+        "acara-v9:AC9TDE6K02",
+        "acara-v9:AC9TDE6P03",
         "ngss-k5:4-PS3-4"
       ]
     },
@@ -25477,26 +25527,6 @@
       ],
       "assessmentPrompt": "Does {{name}} know the difference between a series circuit and a parallel circuit — not just which one, but what actually makes them different electrically?",
       "standards": []
-    },
-    {
-      "id": "mt_loYPGHJ8lm",
-      "type": "REPRESENTATIONAL",
-      "subject": "Science",
-      "domain": "Energy",
-      "name": "Reading and drawing circuit diagrams",
-      "description": "Draw and read simple circuit diagrams using standard symbols for cells, bulbs, switches, buzzers, and wires; identify whether a circuit is complete or broken from a diagram; match circuit diagrams to physical circuits",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.01971090670170828,
-      "evidence": [
-        "Draw a circuit diagram for a cell, switch, and bulb using standard symbols",
-        "Identify from a diagram whether a switch is open or closed and predict whether the bulb lights",
-        "Match a photograph of a physical circuit to the correct circuit diagram from a set of options"
-      ],
-      "assessmentPrompt": "If {{name}} sees a circuit diagram with symbols for a battery, switch, and light bulb, can they tell you whether the bulb would light up — and draw the diagram for a simple circuit you describe?",
-      "standards": [
-        "acara-v9:AC9S4I04"
-      ]
     },
     {
       "id": "mt_2Um22lTBZV",
@@ -25556,6 +25586,7 @@
       "assessmentPrompt": "Can {{name}} draw a circuit diagram using the proper symbols for batteries, bulbs, switches, and wires instead of drawing pictures?",
       "standards": [
         "acara-v9:AC9S6U03",
+        "acara-v9:AC9TDE6P02",
         "uk-nc-2013:Y6.Sci.E.3"
       ]
     },
@@ -25597,6 +25628,8 @@
       "assessmentPrompt": "If {{name}} adds a second bulb to a series circuit and it gets dimmer, can they explain why the energy is being shared between the two bulbs?",
       "standards": [
         "acara-v9:AC9S6U03",
+        "acara-v9:AC9TDE6K02",
+        "acara-v9:AC9TDE6K05",
         "uk-nc-2013:Y6.Sci.E.2"
       ]
     },
@@ -25858,7 +25891,7 @@
       "name": "Pushes & Pulls",
       "description": "Understand that pushes and pulls are forces that can change the speed or direction of an object's motion, and compare the effects of different strengths and directions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.04862023653088042,
       "evidence": [
         "Describe a push and a pull as types of force that make objects move, speed up, slow down, or change direction",
@@ -25869,6 +25902,7 @@
       "standards": [
         "acara-v9:AC9S1U03",
         "acara-v9:AC9SFU02",
+        "acara-v9:AC9TDE2K02",
         "ngss-k5:K-PS2-1"
       ]
     },
@@ -25880,7 +25914,7 @@
       "name": "Testing Push & Pull Designs",
       "description": "Analyse data to determine if a design solution works as intended to change the speed or direction of an object with a push or pull",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.001314060446780552,
       "evidence": [
         "Test a simple design (e.g. ramp, launcher) and collect data on whether it meets the goal",
@@ -25889,7 +25923,32 @@
       ],
       "assessmentPrompt": "If {{name}} builds a ramp to make a ball go into a cup, can they test it and figure out what to change if the ball misses?",
       "standards": [
+        "acara-v9:AC9TDE2K02",
+        "acara-v9:AC9TDE2P03",
+        "acara-v9:AC9TDEFP01",
         "ngss-k5:K-PS2-2"
+      ]
+    },
+    {
+      "id": "mt_-p_xp4hMvh",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Friction & Surfaces",
+      "description": "Compare how things move on different surfaces, noticing that some surfaces create more friction than others",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.0354796320630749,
+      "evidence": [
+        "Observe and compare how the same object moves on at least three different surfaces",
+        "Describe that rough surfaces slow objects down more than smooth surfaces",
+        "Use the word 'friction' to explain why movement differs on different surfaces"
+      ],
+      "assessmentPrompt": "Can {{name}} explain why a toy car rolls further on a smooth wooden floor than on carpet?",
+      "standards": [
+        "acara-v9:AC9S4U03",
+        "acara-v9:AC9TDE2K02",
+        "uk-nc-2013:Y3.Sci.FM.1"
       ]
     },
     {
@@ -25911,27 +25970,6 @@
       "standards": [
         "acara-v9:AC9S4U03",
         "uk-nc-2013:Y3.Sci.FM.2"
-      ]
-    },
-    {
-      "id": "mt_-p_xp4hMvh",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Forces & Motion",
-      "name": "Friction & Surfaces",
-      "description": "Compare how things move on different surfaces, noticing that some surfaces create more friction than others",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 10,
-      "centrality": 0.0354796320630749,
-      "evidence": [
-        "Observe and compare how the same object moves on at least three different surfaces",
-        "Describe that rough surfaces slow objects down more than smooth surfaces",
-        "Use the word 'friction' to explain why movement differs on different surfaces"
-      ],
-      "assessmentPrompt": "Can {{name}} explain why a toy car rolls further on a smooth wooden floor than on carpet?",
-      "standards": [
-        "acara-v9:AC9S4U03",
-        "uk-nc-2013:Y3.Sci.FM.1"
       ]
     },
     {
@@ -25980,6 +26018,28 @@
       ]
     },
     {
+      "id": "mt_Y9k86G8BBT",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Air Resistance & Friction",
+      "description": "Identify the effects of air resistance, water resistance, and friction, and understand that these forces act between moving surfaces to oppose motion",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.01314060446780552,
+      "evidence": [
+        "Define air resistance, water resistance, and friction as forces that oppose motion",
+        "Give everyday examples of each force and explain how they slow things down",
+        "Describe how these forces depend on factors like speed, surface area, or surface texture"
+      ],
+      "assessmentPrompt": "Can {{name}} explain why a parachute slows you down, why swimming is harder than walking, and why bike brakes use rubber pads?",
+      "standards": [
+        "acara-v9:AC9S4U03",
+        "acara-v9:AC9TDE4K02",
+        "uk-nc-2013:Y5.Sci.F.2"
+      ]
+    },
+    {
       "id": "mt_3WMADSy0mA",
       "type": "PROCEDURAL",
       "subject": "Science",
@@ -26018,6 +26078,28 @@
       "standards": []
     },
     {
+      "id": "mt_Q2k3fSwyzQ",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Forces & Motion",
+      "name": "Levers, Pulleys & Gears",
+      "description": "Recognise that some mechanisms including levers, pulleys, and gears allow a smaller force to have a greater effect",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.01314060446780552,
+      "evidence": [
+        "Describe how a lever works: effort at one end moves a load at the other, with a pivot in between",
+        "Explain how a pulley changes the direction of a force and can make lifting easier",
+        "Describe how gears transfer and change the size or direction of forces"
+      ],
+      "assessmentPrompt": "Can {{name}} explain how a see-saw, a pulley on a flagpole, or the gears on a bicycle make it easier to move heavy things with less effort?",
+      "standards": [
+        "acara-v9:AC9TDE4K02",
+        "acara-v9:AC9TDE6K05",
+        "uk-nc-2013:Y5.Sci.F.3"
+      ]
+    },
+    {
       "id": "mt_AlLYwCm92a",
       "type": "PROCEDURAL",
       "subject": "Science",
@@ -26035,27 +26117,6 @@
       "assessmentPrompt": "If {{name}} rolls a ball down ramps of different heights, can they spot the pattern and predict how far it will roll from a new height?",
       "standards": [
         "ngss-k5:3-PS2-2"
-      ]
-    },
-    {
-      "id": "mt_Y9k86G8BBT",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Forces & Motion",
-      "name": "Air Resistance & Friction",
-      "description": "Identify the effects of air resistance, water resistance, and friction, and understand that these forces act between moving surfaces to oppose motion",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.01314060446780552,
-      "evidence": [
-        "Define air resistance, water resistance, and friction as forces that oppose motion",
-        "Give everyday examples of each force and explain how they slow things down",
-        "Describe how these forces depend on factors like speed, surface area, or surface texture"
-      ],
-      "assessmentPrompt": "Can {{name}} explain why a parachute slows you down, why swimming is harder than walking, and why bike brakes use rubber pads?",
-      "standards": [
-        "acara-v9:AC9S4U03",
-        "uk-nc-2013:Y5.Sci.F.2"
       ]
     },
     {
@@ -26096,26 +26157,6 @@
         "acara-v9:AC9S4U03",
         "ngss-k5:5-PS2-1",
         "uk-nc-2013:Y5.Sci.F.1"
-      ]
-    },
-    {
-      "id": "mt_Q2k3fSwyzQ",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Forces & Motion",
-      "name": "Levers, Pulleys & Gears",
-      "description": "Recognise that some mechanisms including levers, pulleys, and gears allow a smaller force to have a greater effect",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.01314060446780552,
-      "evidence": [
-        "Describe how a lever works: effort at one end moves a load at the other, with a pivot in between",
-        "Explain how a pulley changes the direction of a force and can make lifting easier",
-        "Describe how gears transfer and change the size or direction of forces"
-      ],
-      "assessmentPrompt": "Can {{name}} explain how a see-saw, a pulley on a flagpole, or the gears on a bicycle make it easier to move heavy things with less effort?",
-      "standards": [
-        "uk-nc-2013:Y5.Sci.F.3"
       ]
     },
     {
@@ -26794,6 +26835,31 @@
       "standards": []
     },
     {
+      "id": "mt_rTn43s8RNX",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Matter & Materials",
+      "name": "Choosing the Right Material",
+      "description": "Identify and compare the suitability of everyday materials for particular uses, explaining why specific materials are chosen for specific purposes",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 10,
+      "centrality": 0.02759526938239159,
+      "evidence": [
+        "Explain why a specific material is chosen for a purpose based on its properties (e.g. glass for windows because it's transparent)",
+        "Compare two materials and decide which is more suitable for a given use with reasoning",
+        "Suggest an alternative material for an object and explain why it would or wouldn't work"
+      ],
+      "assessmentPrompt": "Can {{name}} explain why windows are made of glass and not wood, or why wellies are made of rubber and not paper?",
+      "standards": [
+        "acara-v9:AC9S4U04",
+        "acara-v9:AC9TDE2K01",
+        "acara-v9:AC9TDE4P03",
+        "acara-v9:AC9TDEFK01",
+        "ngss-k5:2-PS1-2",
+        "uk-nc-2013:Y2.Sci.UEM.1"
+      ]
+    },
+    {
       "id": "mt_auVZZEuXjs",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -26915,29 +26981,8 @@
       "standards": [
         "acara-v9:AC9S1U03",
         "acara-v9:AC9S2U03",
+        "acara-v9:AC9TDE2P02",
         "uk-nc-2013:Y2.Sci.UEM.2"
-      ]
-    },
-    {
-      "id": "mt_rTn43s8RNX",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Matter & Materials",
-      "name": "Choosing the Right Material",
-      "description": "Identify and compare the suitability of everyday materials for particular uses, explaining why specific materials are chosen for specific purposes",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 10,
-      "centrality": 0.02759526938239159,
-      "evidence": [
-        "Explain why a specific material is chosen for a purpose based on its properties (e.g. glass for windows because it's transparent)",
-        "Compare two materials and decide which is more suitable for a given use with reasoning",
-        "Suggest an alternative material for an object and explain why it would or wouldn't work"
-      ],
-      "assessmentPrompt": "Can {{name}} explain why windows are made of glass and not wood, or why wellies are made of rubber and not paper?",
-      "standards": [
-        "acara-v9:AC9S4U04",
-        "ngss-k5:2-PS1-2",
-        "uk-nc-2013:Y2.Sci.UEM.1"
       ]
     },
     {
@@ -26966,7 +27011,7 @@
       "name": "Classifying Materials",
       "description": "Plan and conduct an investigation to classify different kinds of materials by their observable properties",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.006570302233902759,
       "evidence": [
         "Design a simple test to compare one property across several materials",
@@ -26975,6 +27020,7 @@
       ],
       "assessmentPrompt": "Can {{name}} test a set of objects and sort them by properties like whether they float, conduct heat, or are magnetic?",
       "standards": [
+        "acara-v9:AC9TDE4P01",
         "ngss-k5:2-PS1-1"
       ]
     },
@@ -27051,7 +27097,7 @@
       "name": "Testing Materials for Uses",
       "description": "Give reasons, based on evidence from comparative and fair tests, for the particular uses of everyday materials including metals, wood, and plastic",
       "ageRangeStart": 7,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.02759526938239159,
       "evidence": [
         "Design a fair test to compare a specific property of two or more materials",
@@ -27061,6 +27107,10 @@
       "assessmentPrompt": "After testing different materials, can {{name}} explain with evidence why saucepans are made of metal but their handles are plastic?",
       "standards": [
         "acara-v9:AC9S4U04",
+        "acara-v9:AC9TDE4K02",
+        "acara-v9:AC9TDE4P01",
+        "acara-v9:AC9TDE4P03",
+        "acara-v9:AC9TDE6P01",
         "ngss-k5:2-PS1-2",
         "uk-nc-2013:Y5.Sci.PCM.4"
       ]
@@ -27115,7 +27165,7 @@
       "name": "Advanced Material Properties",
       "description": "Compare and group everyday materials based on advanced properties: hardness, solubility, transparency, electrical and thermal conductivity, and response to magnets",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.0328515111695138,
       "evidence": [
         "Define and test for at least four properties: hardness, solubility, conductivity, magnetism",
@@ -27125,6 +27175,9 @@
       "assessmentPrompt": "Can {{name}} test materials and sort them by whether they dissolve in water, conduct electricity, or are attracted to a magnet?",
       "standards": [
         "acara-v9:AC9S4U04",
+        "acara-v9:AC9TDE6K05",
+        "acara-v9:AC9TDE6P01",
+        "acara-v9:AC9TDE6P03",
         "ngss-k5:5-PS1-3",
         "uk-nc-2013:Y5.Sci.PCM.1"
       ]
@@ -27189,7 +27242,8 @@
       ],
       "assessmentPrompt": "If {{name}} had to choose a material to make a window, could they use words like 'transparent' and 'insulator' to explain their choice — not just say 'you can see through it'?",
       "standards": [
-        "acara-v9:AC9S6U03"
+        "acara-v9:AC9S6U03",
+        "acara-v9:AC9TDE6K05"
       ]
     },
     {
@@ -30068,7 +30122,7 @@
       "name": "Indigenous Ecological Knowledge",
       "description": "Understand that indigenous peoples of the rainforest have developed deep ecological knowledge over thousands of years — using plants for medicine, food, and building materials, practising sustainable farming methods like shifting cultivation, and understanding animal behaviour and forest ecology in ways that modern science is only beginning to appreciate",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.005256241787122208,
       "evidence": [
         "Give at least two examples of indigenous knowledge, such as using specific plants as medicine or practising sustainable farming",
@@ -30076,7 +30130,9 @@
         "Describe how indigenous knowledge and modern science can work together to protect rainforests"
       ],
       "assessmentPrompt": "Can {{name}} explain that indigenous rainforest peoples know an enormous amount about forest plants and animals — like which plants cure illnesses — and that scientists are learning from this knowledge?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDE4K03"
+      ]
     },
     {
       "id": "mt_XxgU_91AXg",
@@ -30196,7 +30252,7 @@
       "name": "Deforestation Causes & Scale",
       "description": "Understand the causes and scale of rainforest deforestation — cattle ranching (largest driver in the Amazon), soy and palm oil plantations, logging for timber, and mining — and know that approximately 10 million hectares of forest are lost globally each year, with devastating consequences for biodiversity, climate, and indigenous communities",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05256241787122207,
       "evidence": [
         "Name at least three major causes of deforestation: cattle ranching, palm oil, soy, logging, and mining",
@@ -30205,7 +30261,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why rainforests are being cut down — naming causes like cattle farming, palm oil, and logging — and say roughly how fast it's happening?",
       "standards": [
-        "acara-v9:AC9HS5K04"
+        "acara-v9:AC9HS5K04",
+        "acara-v9:AC9TDE6K03"
       ]
     },
     {
@@ -30291,7 +30348,7 @@
       "name": "Rainforest Products in Daily Life",
       "description": "Understand how rainforest products connect to everyday life through global supply chains — palm oil is in snacks, soap, and cosmetics; soy feeds livestock worldwide; cocoa becomes chocolate; rubber is in tyres and gloves; timber becomes furniture; and many medicines originate from rainforest plants — and that consumer choices can drive either destruction or sustainable practices",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04993429697766097,
       "evidence": [
         "Name at least four products linked to rainforests: palm oil, soy, cocoa, rubber, timber, and medicines",
@@ -30300,7 +30357,8 @@
       ],
       "assessmentPrompt": "Can {{name}} check ingredient labels at the supermarket and spot products linked to rainforests — like palm oil in biscuits or cocoa in chocolate — and explain why choosing sustainable versions helps protect forests?",
       "standards": [
-        "acara-v9:AC9HS4K05"
+        "acara-v9:AC9HS4K05",
+        "acara-v9:AC9TDE6K03"
       ]
     },
     {
@@ -30386,6 +30444,7 @@
       ],
       "assessmentPrompt": "If {{name}} tests two different paper aeroplane designs, can they compare the results and explain which one flew better and why?",
       "standards": [
+        "acara-v9:AC9TDE2P03",
         "ngss-k5:K-2-ETS1-3"
       ]
     },
@@ -30406,6 +30465,9 @@
       ],
       "assessmentPrompt": "Can {{name}} draw or build a model to show how they'd design something — like a boat shape that floats well — and explain why the shape matters?",
       "standards": [
+        "acara-v9:AC9TDE2P01",
+        "acara-v9:AC9TDE4P02",
+        "acara-v9:AC9TDEFP01",
         "acara-v9:AC9TDI4P03",
         "ngss-k5:K-2-ETS1-2"
       ]
@@ -30698,6 +30760,10 @@
         "acara-v9:AC9HS4S06",
         "acara-v9:AC9HS5S06",
         "acara-v9:AC9HS6S06",
+        "acara-v9:AC9TDE4P02",
+        "acara-v9:AC9TDE4P04",
+        "acara-v9:AC9TDE6P02",
+        "acara-v9:AC9TDE6P04",
         "acara-v9:AC9TDI4P03",
         "acara-v9:AC9TDI4P05",
         "acara-v9:AC9TDI6P04",
@@ -30740,6 +30806,10 @@
       "assessmentPrompt": "When {{name}} builds and tests a prototype, can they run a fair test, find what didn't work, and figure out how to make it better?",
       "standards": [
         "acara-v9:AC9S4I02",
+        "acara-v9:AC9TDE4P03",
+        "acara-v9:AC9TDE4P04",
+        "acara-v9:AC9TDE6P02",
+        "acara-v9:AC9TDE6P03",
         "acara-v9:AC9TDI4P05",
         "acara-v9:AC9TDI6P04",
         "acara-v9:AC9TDI6P06",
@@ -30763,6 +30833,11 @@
       ],
       "assessmentPrompt": "Can {{name}} clearly state what problem they're trying to solve with a design, what would make it successful, and what limits they have on materials or time?",
       "standards": [
+        "acara-v9:AC9TDE4P01",
+        "acara-v9:AC9TDE4P04",
+        "acara-v9:AC9TDE6P01",
+        "acara-v9:AC9TDE6P04",
+        "acara-v9:AC9TDE6P05",
         "acara-v9:AC9TDI4P01",
         "acara-v9:AC9TDI6P01",
         "ngss-k5:3-5-ETS1-1"
@@ -31872,7 +31947,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why their body needs food, water, sleep, and exercise — and what happens if they miss any of them?",
       "standards": [
-        "acara-v9:AC9HP2P06"
+        "acara-v9:AC9HP2P06",
+        "acara-v9:AC9TDE2K04"
       ]
     },
     {
@@ -31974,8 +32050,8 @@
       "domain": "The Human Body",
       "name": "Balanced Diet & Food Groups",
       "description": "Know the main food groups (carbohydrates, proteins, fats, vitamins, minerals, fibre, water) and understand that a balanced diet includes the right amounts from each group to keep the body healthy and provide energy, growth materials, and protection from illness",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 10,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
       "centrality": 0.01839684625492773,
       "evidence": [
         "Name at least five food groups and give an example food for each (e.g. carbohydrates = bread, protein = chicken)",
@@ -31984,7 +32060,10 @@
       ],
       "assessmentPrompt": "If {{name}} looked at their dinner plate, could they identify which foods give energy, which help muscles grow, and which keep them healthy?",
       "standards": [
-        "acara-v9:AC9HP4P10"
+        "acara-v9:AC9HP4P10",
+        "acara-v9:AC9TDE2K04",
+        "acara-v9:AC9TDE4K04",
+        "acara-v9:AC9TDE6K04"
       ]
     },
     {
@@ -32135,7 +32214,9 @@
       "standards": [
         "acara-v9:AC9HP4P10",
         "acara-v9:AC9HP6P09",
-        "acara-v9:AC9HP6P10"
+        "acara-v9:AC9HP6P10",
+        "acara-v9:AC9TDE4K04",
+        "acara-v9:AC9TDE6K04"
       ]
     },
     {
@@ -32668,7 +32749,7 @@
       "name": "Natural Disaster Solutions",
       "description": "Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans, such as earthquakes, floods, or volcanic eruptions",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04993429697766097,
       "evidence": [
         "Identify at least two natural hazards and their impacts on human life and property",
@@ -32680,6 +32761,7 @@
         "acara-v9:AC9HS4S06",
         "acara-v9:AC9HS5K05",
         "acara-v9:AC9S4H02",
+        "acara-v9:AC9TDE6K01",
         "ngss-k5:4-ESS3-2"
       ]
     },
@@ -32815,7 +32897,7 @@
       "name": "Communication with Light & Sound",
       "description": "Design and build a device that uses light or sound to solve the problem of communicating over a distance",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.07490144546649145,
       "evidence": [
         "Design a device that uses light or sound to communicate over a distance (e.g. string telephone, torch signals)",
@@ -32824,6 +32906,7 @@
       ],
       "assessmentPrompt": "Could {{name}} design a simple device — like a string telephone or a mirror signalling system — to send a message to someone far away?",
       "standards": [
+        "acara-v9:AC9TDE2P02",
         "ngss-k5:1-PS4-4"
       ]
     },
@@ -33648,6 +33731,7 @@
       "standards": [
         "acara-v9:AC9S3H02",
         "acara-v9:AC9S4H02",
+        "acara-v9:AC9TDE4K01",
         "ngss-k5:3-ESS3-1"
       ]
     },
@@ -33790,7 +33874,7 @@
       "name": "Weather-Resistant Engineering",
       "description": "Understand that engineers design buildings, flood defences, and warning systems to protect communities from extreme weather — hurricane-resistant roofs, flood barriers, tornado shelters, and early-warning alert systems — and evaluate the merits of these solutions",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05256241787122207,
       "evidence": [
         "Describe at least two engineering solutions designed to protect against extreme weather",
@@ -33799,7 +33883,8 @@
       ],
       "assessmentPrompt": "If {{name}} saw pictures of houses on stilts in a flood zone and a tornado shelter, could they explain how each design protects people and discuss whether one solution works better than another?",
       "standards": [
-        "acara-v9:AC9HS5K05"
+        "acara-v9:AC9HS5K05",
+        "acara-v9:AC9TDE6K01"
       ]
     },
     {
