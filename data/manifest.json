@@ -1,7 +1,7 @@
 {
   "dataset": "Marble Skill Taxonomy",
   "taxonomyVersion": "v1",
-  "generatedAt": "2026-10-21T16:06:39.920Z",
+  "generatedAt": "2026-10-21T17:07:52.411Z",
   "codesOnlySources": [
     "c3-social-studies",
     "ib-pyp-pspe",
@@ -9,7 +9,7 @@
     "ngss-ms"
   ],
   "counts": {
-    "topics": 1837,
+    "topics": 1862,
     "topicsBySubject": {
       "Computing": 21,
       "English": 368,
@@ -18,25 +18,25 @@
       "Learning to Learn": 18,
       "Life Skills": 38,
       "Mathematics": 587,
-      "Personal & Social Development": 101,
-      "Science": 571
+      "Personal & Social Development": 124,
+      "Science": 573
     },
-    "dependencies": 3853,
+    "dependencies": 3915,
     "curricula": 8,
     "curriculumStandards": 3881,
-    "topicStandardLinks": 4047,
+    "topicStandardLinks": 4080,
     "clusters": 176,
     "teachingResearch": 1049,
     "archivedTeachingResearch": 2
   },
   "files": {
     "topics.json": {
-      "bytes": 2041832,
-      "sha256": "93e2b5cad2ec4fb9e340519f37a22755c58d81cff5a896db37a2887cdf8aa58b"
+      "bytes": 2072832,
+      "sha256": "31555e2030d4dcdbed79dfc63dc51b6da1fc1e8377bfd3e2e3a4f5f0c9e05dc9"
     },
     "dependencies.json": {
-      "bytes": 831564,
-      "sha256": "f76f338c4375c291f98435bca0f6ecbd1a3b7a9a2cdda32aa80a387d8d0ed0fd"
+      "bytes": 843783,
+      "sha256": "21ae5d2425639dd5581af785adb6810e512a295394c43cff4cc6d758f446dcf2"
     },
     "curriculum-standards.json": {
       "bytes": 2112149,
@@ -47,8 +47,8 @@
       "sha256": "7bae0dbd339c33cb39859adff99f93e14799cae89dd4abe0eef67a46c3cc18e2"
     },
     "teaching-research.json": {
-      "bytes": 23520261,
-      "sha256": "745ed647ae2dc7f5b29b16d1ddf1b4982b0befc66e563f2ddf27fb6ed008010e"
+      "bytes": 23520836,
+      "sha256": "3e03017784d8ceb281d1f7a1e572830c50ba6e65d08d19d2a883df0ab146c7c9"
     },
     "archived-teaching-research.json": {
       "bytes": 50334,
@@ -63,11 +63,11 @@
   "teachingResearch": {
     "schemaVersion": 1,
     "exportedAt": "2026-10-19T16:08:02.198Z",
-    "topicFileSha256": "93e2b5cad2ec4fb9e340519f37a22755c58d81cff5a896db37a2887cdf8aa58b",
+    "topicFileSha256": "31555e2030d4dcdbed79dfc63dc51b6da1fc1e8377bfd3e2e3a4f5f0c9e05dc9",
     "coverage": {
-      "topicCount": 1837,
+      "topicCount": 1862,
       "withResearch": 1049,
-      "withoutResearch": 788,
+      "withoutResearch": 813,
       "bySubject": {
         "Computing": {
           "topics": 21,
@@ -105,23 +105,26 @@
           "withoutResearch": 85
         },
         "Personal & Social Development": {
-          "topics": 101,
+          "topics": 124,
           "withResearch": 0,
-          "withoutResearch": 101
+          "withoutResearch": 124
         },
         "Science": {
-          "topics": 571,
+          "topics": 573,
           "withResearch": 547,
-          "withoutResearch": 24
+          "withoutResearch": 26
         }
       },
       "missingTopicIds": [
         "mt_-1okUh0Jdv",
         "mt_-DuXzMVVXQ",
+        "mt_-WhvVTsKV-",
+        "mt_-beOa1AO6W",
         "mt_-mw3JeIjhU",
         "mt_-nj-DnW4uU",
         "mt_-tcJeAhK5k",
         "mt_02DH7sGXCi",
+        "mt_085iC6v-Oa",
         "mt_0FYFiLTqx4",
         "mt_0MfpLj0Uhb",
         "mt_0O4mXv3asF",
@@ -139,6 +142,7 @@
         "mt_1GDEHyEZYH",
         "mt_1GF5MeNZPA",
         "mt_1KCwbGvm1F",
+        "mt_1ZwxvIqIxf",
         "mt_1kdEZRLyaZ",
         "mt_1m4J4KOjPy",
         "mt_1ro8W1cZYn",
@@ -150,6 +154,7 @@
         "mt_2NfIKEYdbm",
         "mt_2X9Cd38eSJ",
         "mt_2_fB4LuVwc",
+        "mt_2eVg4Tt5r0",
         "mt_2jksKpNzeF",
         "mt_2l06snztdP",
         "mt_2oswCNuapH",
@@ -200,6 +205,7 @@
         "mt_7DEMuNxUTh",
         "mt_7SfQuXgNtd",
         "mt_7SsduPB2tP",
+        "mt_7b8EHUBoxd",
         "mt_7oZ2YenzhX",
         "mt_7xt5pXdVvl",
         "mt_8-POYyg7GJ",
@@ -246,6 +252,7 @@
         "mt_Ag9NSWJu-X",
         "mt_AhfyJoTQtY",
         "mt_Am6mmH2X0s",
+        "mt_Amojd_oviu",
         "mt_Amw5ikSSQI",
         "mt_AvJMWQbDsr",
         "mt_AzTrT5ySCx",
@@ -267,6 +274,7 @@
         "mt_CqzsM0BDFP",
         "mt_CrGnpVjnk8",
         "mt_DMvKfP4uGC",
+        "mt_DRNXFr0ds6",
         "mt_DVSHx3YMkN",
         "mt_DcSMuVWgKU",
         "mt_Dg5lQZFpav",
@@ -321,6 +329,7 @@
         "mt_Hqz5y_tWz2",
         "mt_HrgDjxcWvf",
         "mt_I65kFjWwnF",
+        "mt_I9cDkW4Qz-",
         "mt_I9iSzpGRn5",
         "mt_II6iw4BmJI",
         "mt_IR8kIjZn_V",
@@ -358,6 +367,7 @@
         "mt_KbCCmLmxYN",
         "mt_KmPZ5diLEP",
         "mt_KpBg1_T_84",
+        "mt_L8y31QOR6s",
         "mt_LADBSIowuS",
         "mt_LBT-9jz7kR",
         "mt_LCJNRaRXtW",
@@ -399,11 +409,13 @@
         "mt_NmvuwVUFRS",
         "mt_NnlnxCx1DO",
         "mt_O-U263ukg1",
+        "mt_O12GEyNwSi",
         "mt_O2dS6gvClw",
         "mt_OJVkWvIaM_",
         "mt_OLwNsTI6C7",
         "mt_ORlMNVV4FL",
         "mt_OTFABm2xdf",
+        "mt_OTrQJVRRJ6",
         "mt_Of-WsrRQ8B",
         "mt_OgJPbGkrYk",
         "mt_OiDHqtLoln",
@@ -446,6 +458,7 @@
         "mt_Qxyikkkzam",
         "mt_Qzbh-_v0Gq",
         "mt_R1xLS1c2Pg",
+        "mt_R2_rZ4F6r4",
         "mt_RNRymbz5SO",
         "mt_RNYNrRMqKL",
         "mt_RNeEF1JU4J",
@@ -490,6 +503,7 @@
         "mt_U_8iVFZuHH",
         "mt_U_HQXCnAaG",
         "mt_UcmVDMgFGX",
+        "mt_Udv6pH1nRh",
         "mt_UvNrOXny1i",
         "mt_V-ldQp56bF",
         "mt_V6456X6pJE",
@@ -570,6 +584,7 @@
         "mt__qlBYNP62H",
         "mt__sYpBrdzcp",
         "mt__yvsKKp3TS",
+        "mt_a0_W_oIEQg",
         "mt_a0yi2vpoUn",
         "mt_a6AYrbb7x4",
         "mt_a6m7PqTuJN",
@@ -623,6 +638,7 @@
         "mt_dALEWRHXnZ",
         "mt_dJOKkYMsCv",
         "mt_dRLP8g0SAg",
+        "mt_dXP_wBLIwU",
         "mt_dgheXIYAD-",
         "mt_dknMcCqvoY",
         "mt_dlg6i-Lw0I",
@@ -664,11 +680,13 @@
         "mt_h02-C8PRrj",
         "mt_h3vmvQW5Wa",
         "mt_h7zVgCDVmx",
+        "mt_hHcaPPtPzS",
         "mt_hJW7hVflm3",
         "mt_h_shhH-6DC",
         "mt_haNr13NIuN",
         "mt_hbe_kdE_7C",
         "mt_hjtbA3g-Nn",
+        "mt_hkIbGmuH7D",
         "mt_hp2qJ-QRBn",
         "mt_hvmqr1qcTU",
         "mt_hzkNpp2PdV",
@@ -677,6 +695,7 @@
         "mt_i8AGTuk4fJ",
         "mt_iFkd0CTwlA",
         "mt_iWGnyUyN2j",
+        "mt_ij20XUbMHg",
         "mt_iodbOOmEQs",
         "mt_ish_uH8vZe",
         "mt_iv-BJS9W60",
@@ -738,6 +757,7 @@
         "mt_n6GhzDPllD",
         "mt_nDAcXoPa0c",
         "mt_nFBLNoChD0",
+        "mt_nHvYYrhoM7",
         "mt_nIl1kKZHsk",
         "mt_nKS_vCYrg3",
         "mt_nNDX_jZ-cb",
@@ -811,6 +831,7 @@
         "mt_saW7PxtPxw",
         "mt_scBgiMKhG_",
         "mt_sdmm_m60qX",
+        "mt_sh1Mq-mshx",
         "mt_svBtqePrBP",
         "mt_sxcE47yOvd",
         "mt_szw1Ln490b",
@@ -843,6 +864,7 @@
         "mt_ujwtRoYJ34",
         "mt_ukLvUD8DFA",
         "mt_uorNrPTh6U",
+        "mt_urxvHF8Vds",
         "mt_uuB3owTqNY",
         "mt_uvILgZq9HN",
         "mt_uycuqPaiJ1",
@@ -857,6 +879,7 @@
         "mt_vLLyGZQ2AM",
         "mt_vPmPulZtJG",
         "mt_vauULTecMH",
+        "mt_vbbxnY7ZDT",
         "mt_vpMDMbx4pc",
         "mt_w4cUnN_SsQ",
         "mt_w4nSIDhIgC",
@@ -870,6 +893,7 @@
         "mt_wlhg-ivMh6",
         "mt_wq-1OJ_8s5",
         "mt_wtbCz5hBdw",
+        "mt_wudskBtVQc",
         "mt_wvcFlwOrDl",
         "mt_wwdRhPyz6s",
         "mt_wzUzVEBqJb",
@@ -900,6 +924,7 @@
         "mt_zIcYzrrO0Z",
         "mt_zIzJGkaj0Q",
         "mt_zQfWqImxva",
+        "mt_zYX3606Dgd",
         "mt_zbEcwd40uv",
         "mt_zh_RyesCgZ",
         "mt_zlSoIKPyId",
