@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,616 · **Prerequisite edges:** 3,317 · **Subjects:** 8
+> **Version:** `v1` · **Topics:** 1,677 · **Prerequisite edges:** 3,465 · **Subjects:** 8
 
 ## See it
 
@@ -15,10 +15,10 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,616 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,317 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,677 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,465 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 567 topics have no research in this release.
+- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 628 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
@@ -26,7 +26,7 @@ Most curriculum data is either a flat list of standards or locked inside a produ
 | Subject | Topics |
 |---|---:|
 | Science | 547 |
-| Mathematics | 529 |
+| Mathematics | 590 |
 | English | 286 |
 | History | 90 |
 | Personal & Social Development | 88 |
@@ -64,13 +64,13 @@ its 189 standards are fully covered, 76 partly covered, and 3 missing. Its
 including Australian literature, digital and multimodal texts, and consonant
 clusters.
 
-Australian Science has 208 topic alignments across 103 existing topics: 43 of
-its 77 standards are fully covered, 33 partly covered, and 1 missing. Its
+Australian Science has 210 topic alignments across 105 topics: 45 of
+its 77 standards are fully covered, 31 partly covered, and 1 missing. Its
 [coverage report](reports/acara-v9-science-coverage.md) lists every standard,
 matched topic and remaining gap.
 
-Australian HASS (Humanities and Social Sciences) has 144 topic alignments across
-66 existing topics: 39 of its 89 standards are fully covered, 23 partly covered,
+Australian HASS (Humanities and Social Sciences) has 147 topic alignments across
+68 topics: 39 of its 89 standards are fully covered, 23 partly covered,
 and 27 missing. Its
 [coverage report](reports/acara-v9-hass-coverage.md) lists every standard,
 matched topic and remaining gap.
@@ -82,8 +82,8 @@ covered, 19 partly covered, and 2 missing. The
 remaining gap. The 27 Movement and physical activity (PE) standards are excluded;
 these figures do not represent full Health and Physical Education coverage.
 
-Australian Digital Technologies has 47 topic alignments across 30 existing
-topics: 2 of its 38 standards are fully covered, 23 partly covered, and 13
+Australian Digital Technologies has 50 topic alignments across 33
+topics: 5 of its 38 standards are fully covered, 21 partly covered, and 12
 missing. The [coverage report](reports/acara-v9-digital-technologies-coverage.md)
 lists every standard, linked topic and remaining gap.
 
@@ -134,7 +134,7 @@ See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It covers **547 Science**
 and **502 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
-make the **567 topics without research** explicit; absence is not a judgement
+make the **628 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
 [`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.

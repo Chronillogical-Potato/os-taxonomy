@@ -1,8 +1,8 @@
 # Australian Curriculum v9: Science coverage
 
-Reviewed 20 October 2026 against all 77 ACARA v9 Foundation–Year 6 Science content descriptions. The authoring pass adds 208 alignments across 103 existing topics.
+Reviewed 21 October 2026 against all 77 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 210 alignments across 105 topics.
 
-**43 standards are fully covered, 33 partly covered, and 1 missing.** Full means the linked topics collectively cover every required part of the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
+**45 standards are fully covered, 31 partly covered, and 1 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
 
 | Year | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
@@ -11,9 +11,9 @@ Reviewed 20 October 2026 against all 77 ACARA v9 Foundation–Year 6 Science con
 | Year 2 | 4 | 6 | 0 | 10 |
 | Year 3 | 6 | 6 | 0 | 12 |
 | Year 4 | 9 | 3 | 0 | 12 |
-| Year 5 | 7 | 5 | 0 | 12 |
-| Year 6 | 6 | 6 | 0 | 12 |
-| **Total** | **43** | **33** | **1** | **77** |
+| Year 5 | 8 | 4 | 0 | 12 |
+| Year 6 | 7 | 5 | 0 | 12 |
+| **Total** | **45** | **31** | **1** | **77** |
 
 ## Foundation
 
@@ -102,7 +102,7 @@ Reviewed 20 October 2026 against all 77 ACARA v9 Foundation–Year 6 Science con
 | `AC9S5I01` | Full | Fair testing (age 9+) (`mt_5PgQB0QkWi`); Controlling variables (`mt_ArVBEpMAPk`) | — |
 | `AC9S5I02` | Partial | Controlling variables (`mt_ArVBEpMAPk`); Accurate Measurement (`mt_Psun-u_lPf`) | Planning with changed/measured/controlled variables and repeat readings is covered; describing potential risks and planning safe use of equipment are not taught; identifying required permissions to conduct investigations on Country/Place (First Nations protocols) is not covered by any topic. |
 | `AC9S5I03` | Full | Accurate Measurement (`mt_Psun-u_lPf`); Measuring accurately (`mt_nUnowllzaN`); Recording data and results (`mt_rDjtmDogJr`) | — |
-| `AC9S5I04` | Partial | Recording data and results (`mt_rDjtmDogJr`); Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Drawing Particle Diagrams (`mt_htAYR-iCFF`) | Constructing appropriate tables, graphs and visual models and describing patterns and relationships are covered; processing data and information (working on collected data to make it usable, e.g. calculating totals, differences or averages, or re-sorting and combining results) is not assessed. The calculations named are examples only; the requirement is that some processing is done. |
+| `AC9S5I04` | Full | Recording data and results (`mt_rDjtmDogJr`); Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Drawing Particle Diagrams (`mt_htAYR-iCFF`); Validating and describing categorical data (`mt_QHT16CrFO-`) | — |
 | `AC9S5I05` | Partial | Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Accurate Measurement (`mt_Psun-u_lPf`); Fair testing (age 9+) (`mt_5PgQB0QkWi`); Evidence Supporting Ideas (`mt_AstzvYDU2m`) | Sources of error and degree of trust, anomalous results, further questions, and evidence-based conclusions are covered; comparing one's own observations/findings/methods with those of others is not taught. |
 | `AC9S5I06` | Full | Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Choosing Form and Tone for Your Audience (`mt_v5DyOEpbbr`); Active and passive voice (`mt_gbTyzvnWzr`); Multimedia Presentations (`mt_VtqvUORa8K`) | — |
 | `AC9S5U01` | Full | Structures for Survival (`mt_8VA40Tumth`); How animals adapt to environments (`mt_LRzjbo1Fn6`); Structural Adaptations (`mt_EaWjCyn8W2`) | — |
@@ -119,7 +119,7 @@ Reviewed 20 October 2026 against all 77 ACARA v9 Foundation–Year 6 Science con
 | `AC9S6I01` | Full | Fair testing (age 9+) (`mt_5PgQB0QkWi`); Controlling variables (`mt_ArVBEpMAPk`) | — |
 | `AC9S6I02` | Partial | Controlling variables (`mt_ArVBEpMAPk`); Accurate Measurement (`mt_Psun-u_lPf`) | Planning repeatable fair tests with variables is covered; describing risks and planning safe use are not taught at primary level (only in secondary mt_Ae56umVlTT); identifying required permissions to conduct investigations on Country/Place (First Nations protocols) is not covered by any topic. |
 | `AC9S6I03` | Full | Accurate Measurement (`mt_Psun-u_lPf`); Measuring accurately (`mt_nUnowllzaN`); Recording data and results (`mt_rDjtmDogJr`) | — |
-| `AC9S6I04` | Partial | Recording data and results (`mt_rDjtmDogJr`); Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Drawing Particle Diagrams (`mt_htAYR-iCFF`) | Constructing appropriate tables, graphs and visual models and describing patterns, trends and relationships are covered; processing data and information is not assessed (examples such as totals, differences or averages are illustrative, not required). |
+| `AC9S6I04` | Full | Recording data and results (`mt_rDjtmDogJr`); Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Drawing Particle Diagrams (`mt_htAYR-iCFF`); Comparing data sets digitally (`mt_mn765HbXi1`) | — |
 | `AC9S6I05` | Partial | Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Accurate Measurement (`mt_Psun-u_lPf`); Fair testing (age 9+) (`mt_5PgQB0QkWi`); Evidence Supporting Ideas (`mt_AstzvYDU2m`) | Error, trust, anomalies, follow-up questions and evidence-based conclusions are covered; comparing one's own observations/findings/methods with those of others is not taught. |
 | `AC9S6I06` | Full | Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`); Choosing Form and Tone for Your Audience (`mt_v5DyOEpbbr`); Active and passive voice (`mt_gbTyzvnWzr`); Multimedia Presentations (`mt_VtqvUORa8K`); Adapting Speech to Context (`mt_bkvB7QYKwg`) | — |
 | `AC9S6U01` | Partial | Ocean Ecosystems (`mt_w4OYcWJs6H`) | How non-living factors (temperature, light, salinity) interact with living things and how change cascades is covered (ocean context); investigating and measuring the physical conditions of a habitat and analysing growth/survival data are not. |

@@ -1,8 +1,8 @@
 # Australian Curriculum v9: HASS coverage
 
-Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 HASS content descriptions. The authoring pass adds 144 alignments across 66 existing topics.
+Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 147 alignments across 68 topics.
 
-**39 standards are fully covered, 23 partly covered, and 27 missing.** Full means the linked topics collectively cover every required part of the standard; partial means specific content remains missing. Individual links may cover only part of a broad standard.
+**39 standards are fully covered, 23 partly covered, and 27 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
 
 | Year | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
@@ -29,7 +29,7 @@ Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 HASS conten
 | `AC9HSFK03` | Partial | Reducing Human Impact (`mt_deexfCHU9m`) | How places can be looked after (reducing litter, pollution and waste in the local environment, deexfCHU9m) is covered; the features of familiar places children belong to and why some places are special are not. |
 | `AC9HSFK04` | Missing | — | no topic covers First Nations Australians or Country/Place, including the Country/Place on which the school is located. |
 | `AC9HSFS01` | Full | Question Words (`mt_6lHBTwQPrS`); Asking Questions (`mt_f8n4txtLej`) | — |
-| `AC9HSFS02` | Partial | Sorting into categories (`mt_xppl18avyY`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`) | Sorting into categories (xppl18avyY), sequencing events in time order (-vvVxpOHG2) and positional language (qeZYF6HZ4o) are covered; recording events on pictorial timelines and locations on pictorial maps or models is not. |
+| `AC9HSFS02` | Partial | Sorting into categories (`mt_xppl18avyY`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`) | Sorting into categories (xppl18avyY), sequencing events in time order (-vvVxpOHG2) and positional language (qeZYF6HZ4o) are covered; recording events on pictorial timelines (placing events, not just ordering them verbally) and recording locations on pictorial maps or models are not (PR #52 final review). |
 | `AC9HSFS03` | Full | Expressing & Justifying Opinions (`mt_S0hzjAeLSK`); Other People's Feelings and Thoughts (`mt_wzUzVEBqJb`) | — |
 | `AC9HSFS04` | Full | Reading between the lines (`mt_E5KC4AnRLW`) | — |
 | `AC9HSFS05` | Full | Retelling Stories with Structure (`mt_zlSoIKPyId`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`); Observing with simple equipment (`mt_vJO5Bxk4z-`) | — |
@@ -76,7 +76,7 @@ Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 HASS conten
 | `AC9HS3K06` | Partial | Rules and agreements exist (`mt_rkrG2w7WXI`); Community Rights and Responsibilities (`mt_h_shhH-6DC`) | Why rules matter, what happens when they are not followed (rkrG2w7WXI) and community rights and responsibilities (h_shhH-6DC) are covered; who makes rules in schools and communities is not. |
 | `AC9HS3K07` | Partial | Community Rights and Responsibilities (`mt_h_shhH-6DC`); Social Enterprise (`mt_QepALf3bin`) | Responsible community membership (h_shhH-6DC) and proposing an idea to help the school or community (QepALf3bin) are covered; why people participate in communities (volunteering, clubs, events) is not. |
 | `AC9HS3S01` | Full | Short Research Projects (`mt_FW9_8F52bw`); Asking Questions (`mt_f8n4txtLej`) | — |
-| `AC9HS3S02` | Partial | Short Research Projects (`mt_FW9_8F52bw`); Shared Research Projects (`mt_4A4RpX-Go9`) | Locating and collecting information from print and digital sources and sorting notes into categories are covered; recording information on annotated timelines and maps is not. |
+| `AC9HS3S02` | Partial | Short Research Projects (`mt_FW9_8F52bw`); Shared Research Projects (`mt_4A4RpX-Go9`); Reading and drawing maps (`mt_w4cUnN_SsQ`) | Locating and collecting information from print and digital sources and sorting notes into categories (FW9_8F52bw, 4A4RpX-Go9), and recording information on annotated maps (labelled maps with a key and marked landmarks, w4cUnN_SsQ), are covered; recording information on annotated timelines is not. |
 | `AC9HS3S03` | Full | Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Interpreting visual information in texts (`mt_KbCCmLmxYN`); Finding patterns in data (`mt_-G6erQvLig`) | — |
 | `AC9HS3S04` | Full | Combining information from texts (`mt_8FwtdJzeDh`); Why the author wrote it (`mt_OltpfaX7l6`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`) | — |
 | `AC9HS3S05` | Full | Using evidence to answer questions (`mt_CVywzrjT_c`); Drawing conclusions from evidence (`mt_7VrR1GzhrN`) | — |
@@ -97,7 +97,7 @@ Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 HASS conten
 | `AC9HS4K08` | Partial | Taxes & Public Services (`mt_cSz7XTxVAx`) | How taxes fund public services that the community uses (cSz7XTxVAx) is covered; the roles of local government (councils) and how community members contribute to local services are not. |
 | `AC9HS4K09` | Partial | The world contains many cultures, traditions (`mt_DkzsZdyaL2`) | Diversity of cultures, traditions and beliefs is covered (DkzsZdyaL2); the groups students themselves belong to and the importance of belonging to identity are not. |
 | `AC9HS4S01` | Full | Short Research Projects (`mt_FW9_8F52bw`); Asking Questions (`mt_f8n4txtLej`) | — |
-| `AC9HS4S02` | Partial | Short Research Projects (`mt_FW9_8F52bw`); Research & Note-Taking (`mt_dRLP8g0SAg`) | Locating, collecting and noting information from multiple sources is covered; recording on annotated timelines and maps is not. |
+| `AC9HS4S02` | Partial | Short Research Projects (`mt_FW9_8F52bw`); Research & Note-Taking (`mt_dRLP8g0SAg`); Reading and drawing maps (`mt_w4cUnN_SsQ`); Grid references and directions (`mt_ejht12jhm2`) | Locating, collecting and noting information from multiple sources (FW9_8F52bw, dRLP8g0SAg), and recording information on annotated maps (labelled maps with a key, w4cUnN_SsQ; grid references to record feature locations, ejht12jhm2), are covered; recording information on annotated timelines is not. |
 | `AC9HS4S03` | Full | Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Bar graphs (`mt_ChjMU2GDJa`); Interpreting visual information in texts (`mt_KbCCmLmxYN`); Finding patterns in data (`mt_-G6erQvLig`) | — |
 | `AC9HS4S04` | Full | Combining information from texts (`mt_8FwtdJzeDh`); Firsthand and Secondhand Accounts (`mt_j32D5DZX7x`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`) | — |
 | `AC9HS4S05` | Full | Drawing conclusions from evidence (`mt_7VrR1GzhrN`); Drawing conclusions from evidence (age 9+) (`mt_nyPMkeHlVJ`) | — |
