@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3317,
+  "edgeCount": 3466,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -298,6 +298,30 @@
       "reason": "GB route: Year 1 experience of hours, minutes and seconds as units of time supports reading o'clock and half-past times; soft because this node is GB-only"
     },
     {
+      "topicId": "mt_0ZDouU664X",
+      "prerequisiteId": "mt_nvdpxAJTBG",
+      "strength": "hard",
+      "reason": "Counting a collection in equal groups uses skip counting"
+    },
+    {
+      "topicId": "mt_0ZDouU664X",
+      "prerequisiteId": "mt_PZ909yPrEC",
+      "strength": "soft",
+      "reason": "Seeing equal groups as repeated addition supports quantifying collections"
+    },
+    {
+      "topicId": "mt_0ZDouU664X",
+      "prerequisiteId": "mt_r0VXbfAmsH",
+      "strength": "soft",
+      "reason": "Bundling into tens draws on knowing a ten is ten ones"
+    },
+    {
+      "topicId": "mt_0ZDouU664X",
+      "prerequisiteId": "mt_t9BICauBSI",
+      "strength": "soft",
+      "reason": "Recognising small groups instantly speeds up counting collections in groups"
+    },
+    {
       "topicId": "mt_0zqOTjjW2k",
       "prerequisiteId": "mt_v3Vz_Pgjjv",
       "strength": "hard",
@@ -470,6 +494,18 @@
       "prerequisiteId": "mt_DJh2JPwTf6",
       "strength": "soft",
       "reason": "Understanding herbivore/carnivore classification helps interpret coprolite contents"
+    },
+    {
+      "topicId": "mt_1GDEHyEZYH",
+      "prerequisiteId": "mt_LpSuPgL31x",
+      "strength": "hard",
+      "reason": "Sharing on screen builds on equal sharing with real objects"
+    },
+    {
+      "topicId": "mt_1GDEHyEZYH",
+      "prerequisiteId": "mt_PZ909yPrEC",
+      "strength": "soft",
+      "reason": "Seeing equal groups as repeated addition supports grouping tasks"
     },
     {
       "topicId": "mt_1GF5MeNZPA",
@@ -1246,6 +1282,24 @@
       "reason": "Drawing conclusions that address a hypothesis with reference to evidence mirrors the English skill of drawing evidence from informational texts to support analysis"
     },
     {
+      "topicId": "mt_3m0pA-aeat",
+      "prerequisiteId": "mt_LlMl2PbaZe",
+      "strength": "hard",
+      "reason": "Checking requires multiplying and dividing by multiples of powers of 10"
+    },
+    {
+      "topicId": "mt_3m0pA-aeat",
+      "prerequisiteId": "mt_QU5R7Aajy9",
+      "strength": "soft",
+      "reason": "Rounding answers supports estimation"
+    },
+    {
+      "topicId": "mt_3m0pA-aeat",
+      "prerequisiteId": "mt_SoDP1fSQEB",
+      "strength": "hard",
+      "reason": "Checking decimal products requires multiplying decimals"
+    },
+    {
       "topicId": "mt_3pgTpuetKi",
       "prerequisiteId": "mt_AB-TEMXSGJ",
       "strength": "soft",
@@ -1631,6 +1685,12 @@
     },
     {
       "topicId": "mt_4MFUAsbx_6",
+      "prerequisiteId": "mt_LBT-9jz7kR",
+      "strength": "soft",
+      "reason": "Naming straight and reflex angles supports measuring them in degrees"
+    },
+    {
+      "topicId": "mt_4MFUAsbx_6",
       "prerequisiteId": "mt_qUGMyMYn9m",
       "strength": "hard",
       "reason": "Using a protractor requires understanding degree measurement"
@@ -1742,6 +1802,18 @@
       "prerequisiteId": "mt_jgNB2752b9",
       "strength": "hard",
       "reason": "KS3 magnetic field lines and Earth's magnetism extends KS2 magnetic poles, attraction and repulsion"
+    },
+    {
+      "topicId": "mt_5bmrA-0pBi",
+      "prerequisiteId": "mt_9L5qyBYmg-",
+      "strength": "hard",
+      "reason": "Estimating money totals requires reading and calculating in dollars and cents"
+    },
+    {
+      "topicId": "mt_5bmrA-0pBi",
+      "prerequisiteId": "mt_QaYfeVL-0C",
+      "strength": "hard",
+      "reason": "Checking money calculations uses estimation by rounding"
     },
     {
       "topicId": "mt_5FREdVoS8s",
@@ -1976,6 +2048,36 @@
       "prerequisiteId": "mt_r6oKXpN0er",
       "strength": "soft",
       "reason": "Understanding ecosystem roles helps explain why so many species evolved"
+    },
+    {
+      "topicId": "mt_61Nhj8W78f",
+      "prerequisiteId": "mt_NM5I3yN-Q6",
+      "strength": "soft",
+      "reason": "Symmetry supports designing geometric patterns"
+    },
+    {
+      "topicId": "mt_61Nhj8W78f",
+      "prerequisiteId": "mt_RdfzwInyAj",
+      "strength": "soft",
+      "reason": "Combining transformations into tessellations builds on performing them in geometry software"
+    },
+    {
+      "topicId": "mt_61Nhj8W78f",
+      "prerequisiteId": "mt_SH7QgFl8-v",
+      "strength": "hard",
+      "reason": "Tessellations combine translations, reflections and rotations"
+    },
+    {
+      "topicId": "mt_61Pa4Eksva",
+      "prerequisiteId": "mt_qeZYF6HZ4o",
+      "strength": "soft",
+      "reason": "Positional language supports describing locations on a plan"
+    },
+    {
+      "topicId": "mt_61Pa4Eksva",
+      "prerequisiteId": "mt_TdV9YGJEoY",
+      "strength": "hard",
+      "reason": "Locating positions on a plan uses position and direction vocabulary"
     },
     {
       "topicId": "mt_68pIoiiG4g",
@@ -2632,6 +2734,30 @@
       "reason": "Phylogenetic and cladistic analysis depends on understanding geological time and stratigraphy"
     },
     {
+      "topicId": "mt_8cs4YPkp23",
+      "prerequisiteId": "mt_FSLJbKkryb",
+      "strength": "hard",
+      "reason": "Money transactions require recognising Australian coins and notes"
+    },
+    {
+      "topicId": "mt_8cs4YPkp23",
+      "prerequisiteId": "mt_glPPG-kTQY",
+      "strength": "soft",
+      "reason": "Totals and change use adding within 100"
+    },
+    {
+      "topicId": "mt_8cs4YPkp23",
+      "prerequisiteId": "mt_wh3UqnWsa7",
+      "strength": "soft",
+      "reason": "Costs of several identical items use repeated addition"
+    },
+    {
+      "topicId": "mt_8DT3LXwwH-",
+      "prerequisiteId": "mt_-bMnJcPJy8",
+      "strength": "hard",
+      "reason": "Simulations extend comparing experimental and theoretical results"
+    },
+    {
       "topicId": "mt_8FwtdJzeDh",
       "prerequisiteId": "mt_w4wKFP3jud",
       "strength": "hard",
@@ -2660,6 +2786,18 @@
       "prerequisiteId": "mt_YUJ5pwalqL",
       "strength": "soft",
       "reason": "Classifying regular/irregular polygons benefits from angle estimation skills"
+    },
+    {
+      "topicId": "mt_8IsaoMPvod",
+      "prerequisiteId": "mt_4zgPzc6yu5",
+      "strength": "soft",
+      "reason": "Knowing how samples can mislead supports critiquing media claims"
+    },
+    {
+      "topicId": "mt_8IsaoMPvod",
+      "prerequisiteId": "mt_TiFjjvBMaY",
+      "strength": "hard",
+      "reason": "Critiquing media displays builds on analysing display effectiveness"
     },
     {
       "topicId": "mt_8jFSnXxqQD",
@@ -2990,6 +3128,18 @@
       "prerequisiteId": "mt_THl9GLxwoL",
       "strength": "hard",
       "reason": "Representing a two-digit number as tens and ones with blocks or drawings, and placing it between two tens on a number line, requires two-digit place value"
+    },
+    {
+      "topicId": "mt_9L5qyBYmg-",
+      "prerequisiteId": "mt_8cs4YPkp23",
+      "strength": "hard",
+      "reason": "Dollars-and-cents notation and change build on whole-dollar and cents transactions"
+    },
+    {
+      "topicId": "mt_9L5qyBYmg-",
+      "prerequisiteId": "mt_ewmuMMPAzP",
+      "strength": "soft",
+      "reason": "Calculating change uses addition and subtraction with regrouping"
     },
     {
       "topicId": "mt_9lN0SpKlEH",
@@ -3428,6 +3578,18 @@
       "prerequisiteId": "mt_6oxQPNLHNv",
       "strength": "hard",
       "reason": "Prior experience measuring mass/capacity in standard units feeds into formal measurement with g/kg/l"
+    },
+    {
+      "topicId": "mt_-af65bxfdp",
+      "prerequisiteId": "mt_bnwHo5wfCD",
+      "strength": "soft",
+      "reason": "Comparing mass and capacity indirectly precedes measuring them with scaled instruments"
+    },
+    {
+      "topicId": "mt_-af65bxfdp",
+      "prerequisiteId": "mt_e7tLi9SCIE",
+      "strength": "soft",
+      "reason": "Choosing smaller units for accuracy prepares for reading finer scale markings"
     },
     {
       "topicId": "mt_AfIzLRvMgW",
@@ -4492,6 +4654,24 @@
       "reason": "Handwriting needed for spelling practice"
     },
     {
+      "topicId": "mt_biGHAbkoV2",
+      "prerequisiteId": "mt_BK5xwkrD5C",
+      "strength": "soft",
+      "reason": "Naming parts within 10 supports partitioning on a ten frame"
+    },
+    {
+      "topicId": "mt_biGHAbkoV2",
+      "prerequisiteId": "mt_m1W6nTQJ2b",
+      "strength": "hard",
+      "reason": "On-screen addition and subtraction within 20 uses the same make-ten strategies"
+    },
+    {
+      "topicId": "mt_biGHAbkoV2",
+      "prerequisiteId": "mt_Y6_cq3UMyy",
+      "strength": "soft",
+      "reason": "Builds on using on-screen counters and ten frames in Foundation"
+    },
+    {
       "topicId": "mt_bj1YCgNWUx",
       "prerequisiteId": "mt_-vvVxpOHG2",
       "strength": "hard",
@@ -4520,6 +4700,18 @@
       "prerequisiteId": "mt_PThM5P7Umd",
       "strength": "hard",
       "reason": "Must understand peasant life before grasping serfdom in the feudal system"
+    },
+    {
+      "topicId": "mt_BK5xwkrD5C",
+      "prerequisiteId": "mt_7XcCG43ZZW",
+      "strength": "soft",
+      "reason": "Partitioning numbers to 10 into pairs supports naming the parts"
+    },
+    {
+      "topicId": "mt_BK5xwkrD5C",
+      "prerequisiteId": "mt_t9BICauBSI",
+      "strength": "hard",
+      "reason": "Recognising the parts of a collection quickly requires subitising small groups"
     },
     {
       "topicId": "mt_bK84sPehyP",
@@ -4648,6 +4840,18 @@
       "reason": "Must understand dinosaurs existed before learning to name species"
     },
     {
+      "topicId": "mt_bnwHo5wfCD",
+      "prerequisiteId": "mt_-P1kdZhHbL",
+      "strength": "hard",
+      "reason": "Indirect comparison of mass builds on direct comparison with a balance"
+    },
+    {
+      "topicId": "mt_bnwHo5wfCD",
+      "prerequisiteId": "mt_zkFbMLpu3U",
+      "strength": "hard",
+      "reason": "Indirect comparison of capacity builds on direct comparison of capacity"
+    },
+    {
       "topicId": "mt_BO_AHGLCk0",
       "prerequisiteId": "mt_4pLvMN8uzL",
       "strength": "hard",
@@ -4702,6 +4906,18 @@
       "reason": "Minibeast classification keys are a concrete application of curriculum classification-keys"
     },
     {
+      "topicId": "mt_Bt-iORUzdO",
+      "prerequisiteId": "mt_r0VXbfAmsH",
+      "strength": "hard",
+      "reason": "Trading a ten for ten ones requires knowing a ten is ten ones"
+    },
+    {
+      "topicId": "mt_Bt-iORUzdO",
+      "prerequisiteId": "mt_THl9GLxwoL",
+      "strength": "hard",
+      "reason": "Non-standard partitions extend the standard tens-and-ones partition"
+    },
+    {
       "topicId": "mt_BtMbZibZUj",
       "prerequisiteId": "mt_F978c32kDr",
       "strength": "hard",
@@ -4754,6 +4970,18 @@
       "prerequisiteId": "mt_PiWZA8Z0ZJ",
       "strength": "hard",
       "reason": "Must know the Moon is a sky object before observing its phases"
+    },
+    {
+      "topicId": "mt_bZC-wqWX7Y",
+      "prerequisiteId": "mt_FHIAv6dfhU",
+      "strength": "hard",
+      "reason": "Experimenting with factors requires knowing factors and multiples"
+    },
+    {
+      "topicId": "mt_bZC-wqWX7Y",
+      "prerequisiteId": "mt_QeKWt4BZn3",
+      "strength": "hard",
+      "reason": "Creating factor algorithms builds on creating number-generating algorithms"
     },
     {
       "topicId": "mt_Bztatrv-_v",
@@ -5686,6 +5914,24 @@
       "reason": "Must understand dinosaurs existed before classifying their diets"
     },
     {
+      "topicId": "mt_dJOKkYMsCv",
+      "prerequisiteId": "mt_fR0UtsSREU",
+      "strength": "hard",
+      "reason": "Ordering numbers to 20 needs reading and writing the numerals to 20"
+    },
+    {
+      "topicId": "mt_dJOKkYMsCv",
+      "prerequisiteId": "mt_sYpKWbq5ra",
+      "strength": "soft",
+      "reason": "Knowing each number is one more than the last supports ordering"
+    },
+    {
+      "topicId": "mt_dJOKkYMsCv",
+      "prerequisiteId": "mt__YRJ23GuIK",
+      "strength": "hard",
+      "reason": "Ordering a set builds on comparing two numerals"
+    },
+    {
       "topicId": "mt_dknMcCqvoY",
       "prerequisiteId": "mt_phpn6KhCAv",
       "strength": "soft",
@@ -5720,6 +5966,18 @@
       "prerequisiteId": "mt_xWg0lI_gG4",
       "strength": "hard",
       "reason": "Length word problems build on comparing measured lengths"
+    },
+    {
+      "topicId": "mt_dlg6i-Lw0I",
+      "prerequisiteId": "mt_J4j7d3iAfg",
+      "strength": "soft",
+      "reason": "Chance experiments provide the contexts for independent and dependent events"
+    },
+    {
+      "topicId": "mt_dlg6i-Lw0I",
+      "prerequisiteId": "mt_UcGn2hjhYU",
+      "strength": "hard",
+      "reason": "Judging dependence requires comparing likelihoods of outcomes"
     },
     {
       "topicId": "mt_dlm3NspUyy",
@@ -6058,6 +6316,24 @@
       "reason": "Extends Y5 fraction word problems to unlike denominators"
     },
     {
+      "topicId": "mt_e7tLi9SCIE",
+      "prerequisiteId": "mt_4lp_b5Pzik",
+      "strength": "soft",
+      "reason": "Applies the idea to capacity measurement"
+    },
+    {
+      "topicId": "mt_e7tLi9SCIE",
+      "prerequisiteId": "mt_cqSf213hSa",
+      "strength": "hard",
+      "reason": "Choosing a smaller unit requires measuring with uniform informal units"
+    },
+    {
+      "topicId": "mt_e7tLi9SCIE",
+      "prerequisiteId": "mt_zd0YkB3xNj",
+      "strength": "soft",
+      "reason": "Applies the idea to mass measurement"
+    },
+    {
       "topicId": "mt_e8CZ7E5qW7",
       "prerequisiteId": "mt_7XcCG43ZZW",
       "strength": "hard",
@@ -6122,6 +6398,18 @@
       "prerequisiteId": "mt_FP-mjXaq3B",
       "strength": "hard",
       "reason": "Generating equivalent fractions with visual models is prerequisite to algebraic explanation of equivalence"
+    },
+    {
+      "topicId": "mt_ebQURBOsM5",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "hard",
+      "reason": "Frequency tables build on tally charts"
+    },
+    {
+      "topicId": "mt_ebQURBOsM5",
+      "prerequisiteId": "mt_X53txVXOcG",
+      "strength": "soft",
+      "reason": "Spreadsheet recording builds on early digital data tools"
     },
     {
       "topicId": "mt_EBYGhd8X3x",
@@ -6284,6 +6572,12 @@
       "prerequisiteId": "mt_v9uYnIY5-B",
       "strength": "soft",
       "reason": "Mars/SETI/Fermi paradox analysis depends on understanding the scale of the universe"
+    },
+    {
+      "topicId": "mt_ejht12jhm2",
+      "prerequisiteId": "mt_w4cUnN_SsQ",
+      "strength": "hard",
+      "reason": "Grid references extend reading and creating maps"
     },
     {
       "topicId": "mt_eKJG-0eC6D",
@@ -6458,6 +6752,12 @@
       "prerequisiteId": "mt_aPBzD28_mT",
       "strength": "hard",
       "reason": "Three-digit operations require three-digit place-value understanding"
+    },
+    {
+      "topicId": "mt_ewmuMMPAzP",
+      "prerequisiteId": "mt_Bt-iORUzdO",
+      "strength": "soft",
+      "reason": "Renaming tens as ones underpins regrouping in addition and subtraction"
     },
     {
       "topicId": "mt_ewmuMMPAzP",
@@ -7030,6 +7330,18 @@
       "reason": "Must understand print direction before letter identification matters"
     },
     {
+      "topicId": "mt_FSLJbKkryb",
+      "prerequisiteId": "mt_FIkqA0qhnj",
+      "strength": "soft",
+      "reason": "General coin-and-note recognition supports learning Australian denominations"
+    },
+    {
+      "topicId": "mt_FSLJbKkryb",
+      "prerequisiteId": "mt_m1W6nTQJ2b",
+      "strength": "hard",
+      "reason": "Simple purchase problems require adding and subtracting within 20"
+    },
+    {
       "topicId": "mt_fT4G0QloX5",
       "prerequisiteId": "mt_ofOGCQ7FWj",
       "strength": "soft",
@@ -7112,6 +7424,18 @@
       "prerequisiteId": "mt_qzGADV-NGe",
       "strength": "soft",
       "reason": "Ray diagrams for prisms and lenses connect to colour and dispersion concepts"
+    },
+    {
+      "topicId": "mt_FVVSQR9vGg",
+      "prerequisiteId": "mt_9L5qyBYmg-",
+      "strength": "hard",
+      "reason": "Reading a calculator display as money requires dollars-and-cents notation"
+    },
+    {
+      "topicId": "mt_FVVSQR9vGg",
+      "prerequisiteId": "mt_ewmuMMPAzP",
+      "strength": "soft",
+      "reason": "Estimating and checking totals uses addition and subtraction within 1000"
     },
     {
       "topicId": "mt_FW9_8F52bw",
@@ -7358,6 +7682,18 @@
       "prerequisiteId": "mt_z9jn9HogfE",
       "strength": "hard",
       "reason": "Must understand polar geography before learning about climate zone classification"
+    },
+    {
+      "topicId": "mt_gC-6JXAG5S",
+      "prerequisiteId": "mt_hyvHv2BCwb",
+      "strength": "soft",
+      "reason": "Decomposing shapes into more equal shares supports halving again"
+    },
+    {
+      "topicId": "mt_gC-6JXAG5S",
+      "prerequisiteId": "mt_xACS3rWWDp",
+      "strength": "hard",
+      "reason": "Eighths by repeated halving build on halves and quarters of shapes"
     },
     {
       "topicId": "mt_GDG9_SZmsO",
@@ -7792,6 +8128,12 @@
       "reason": "Understanding quadratic graphs requires prior experience plotting linear graphs"
     },
     {
+      "topicId": "mt_h02-C8PRrj",
+      "prerequisiteId": "mt_nRksLqt-iR",
+      "strength": "hard",
+      "reason": "Comparing cross-sections requires knowing the properties of 3-D objects"
+    },
+    {
       "topicId": "mt_H0ajATAlus",
       "prerequisiteId": "mt_v33BwiyRnd",
       "strength": "hard",
@@ -8036,6 +8378,24 @@
       "prerequisiteId": "mt_IdFxLz-UW9",
       "strength": "hard",
       "reason": "Using terminology precisely requires understanding the grammatical concepts behind the terms"
+    },
+    {
+      "topicId": "mt_HczwO1sr-y",
+      "prerequisiteId": "mt_AQcVRBddko",
+      "strength": "hard",
+      "reason": "Ordering on an interactive number line requires ordering three-digit numbers"
+    },
+    {
+      "topicId": "mt_HczwO1sr-y",
+      "prerequisiteId": "mt_F_zEAJ8VIo",
+      "strength": "hard",
+      "reason": "On-screen representation to 1000 extends representing numbers to 1000"
+    },
+    {
+      "topicId": "mt_HczwO1sr-y",
+      "prerequisiteId": "mt_QguIGVMB1o",
+      "strength": "soft",
+      "reason": "Builds on representing numbers to 120 with physical and virtual materials"
     },
     {
       "topicId": "mt_HdI1y5KsBl",
@@ -9046,6 +9406,24 @@
       "reason": "Understanding how we know about Egypt requires 'archaeologist' and 'artefact' vocabulary"
     },
     {
+      "topicId": "mt_ish_uH8vZe",
+      "prerequisiteId": "mt_FVVSQR9vGg",
+      "strength": "soft",
+      "reason": "Year 3 calculator checks for money precede efficient Year 4 calculator use"
+    },
+    {
+      "topicId": "mt_ish_uH8vZe",
+      "prerequisiteId": "mt_mpS-JK_p_m",
+      "strength": "hard",
+      "reason": "Using a calculator well requires understanding the operations it performs"
+    },
+    {
+      "topicId": "mt_ish_uH8vZe",
+      "prerequisiteId": "mt_QaYfeVL-0C",
+      "strength": "soft",
+      "reason": "Checking calculator results uses estimation by rounding"
+    },
+    {
       "topicId": "mt_islVn_P28Z",
       "prerequisiteId": "mt_22XbXTRq50",
       "strength": "hard",
@@ -9874,6 +10252,24 @@
       "reason": "Calculating energy efficiency as a percentage requires percentage calculation skills from Math"
     },
     {
+      "topicId": "mt_Jz9UuT8BXW",
+      "prerequisiteId": "mt_0XxyaQLRhn",
+      "strength": "soft",
+      "reason": "Half past on a clock connects to half an hour"
+    },
+    {
+      "topicId": "mt_Jz9UuT8BXW",
+      "prerequisiteId": "mt_gC-6JXAG5S",
+      "strength": "hard",
+      "reason": "Splitting an activity into eighths requires knowing eighths from repeated halving of shapes and objects"
+    },
+    {
+      "topicId": "mt_Jz9UuT8BXW",
+      "prerequisiteId": "mt_-hTTat0mBR",
+      "strength": "hard",
+      "reason": "Halves of events require understanding a half as one of two equal parts"
+    },
+    {
       "topicId": "mt_K0mZxY2AM8",
       "prerequisiteId": "mt_EHuU1ZeUFA",
       "strength": "soft",
@@ -9920,6 +10316,12 @@
       "prerequisiteId": "mt_cFltwUQi-d",
       "strength": "hard",
       "reason": "Finding fractions of discrete sets extends finding fractions of shapes/quantities"
+    },
+    {
+      "topicId": "mt_k2WE0-22-4",
+      "prerequisiteId": "mt_gC-6JXAG5S",
+      "strength": "soft",
+      "reason": "Halves, quarters and eighths by repeated halving lead into unit fractions"
     },
     {
       "topicId": "mt_k2WE0-22-4",
@@ -10444,6 +10846,18 @@
       "reason": "Using letters in expressions extends KS2 simple formulae work"
     },
     {
+      "topicId": "mt_kxeuXm6EyC",
+      "prerequisiteId": "mt_ebQURBOsM5",
+      "strength": "hard",
+      "reason": "An investigation requires collecting and recording data for a question"
+    },
+    {
+      "topicId": "mt_kxeuXm6EyC",
+      "prerequisiteId": "mt_r8XnXwRA6g",
+      "strength": "hard",
+      "reason": "An investigation requires representing data in a scaled display"
+    },
+    {
       "topicId": "mt_KYx0m4OyZv",
       "prerequisiteId": "mt_iTjrKEdAOj",
       "strength": "hard",
@@ -10514,6 +10928,18 @@
       "prerequisiteId": "mt_gtTl3R5buH",
       "strength": "hard",
       "reason": "Using properties requires understanding what multiplication means"
+    },
+    {
+      "topicId": "mt_LBT-9jz7kR",
+      "prerequisiteId": "mt_h0CVtqI2xo",
+      "strength": "hard",
+      "reason": "Straight and reflex angles extend acute, right and obtuse angle names"
+    },
+    {
+      "topicId": "mt_LBT-9jz7kR",
+      "prerequisiteId": "mt_MFfYcnv6Tv",
+      "strength": "hard",
+      "reason": "Relating angles to right angles and full turns requires understanding turns"
     },
     {
       "topicId": "mt_lcf8lx-LkZ",
@@ -11105,6 +11531,12 @@
     },
     {
       "topicId": "mt_m1W6nTQJ2b",
+      "prerequisiteId": "mt_BK5xwkrD5C",
+      "strength": "soft",
+      "reason": "Recognising the parts of numbers within 10 supports adding and subtracting within 20"
+    },
+    {
+      "topicId": "mt_m1W6nTQJ2b",
       "prerequisiteId": "mt_e8CZ7E5qW7",
       "strength": "hard",
       "reason": "Making-ten strategy requires knowing bonds to 10"
@@ -11350,6 +11782,24 @@
       "reason": "Evaporation knowledge supports understanding recovery of dissolved substances"
     },
     {
+      "topicId": "mt_MgsDabdnr1",
+      "prerequisiteId": "mt_0XxyaQLRhn",
+      "strength": "hard",
+      "reason": "Quarter past and quarter to build on reading hours and half hours"
+    },
+    {
+      "topicId": "mt_MgsDabdnr1",
+      "prerequisiteId": "mt_Jz9UuT8BXW",
+      "strength": "soft",
+      "reason": "A quarter of an hour connects fractions of time to the clock"
+    },
+    {
+      "topicId": "mt_MgsDabdnr1",
+      "prerequisiteId": "mt_Y9XKzLrUAZ",
+      "strength": "soft",
+      "reason": "Quarter turns connect to quarter past and quarter to"
+    },
+    {
       "topicId": "mt_MHaiUd2FLA",
       "prerequisiteId": "mt_AQcVRBddko",
       "strength": "hard",
@@ -11482,6 +11932,30 @@
       "reason": "KS3 figurative language nuance extends KS2 evaluating how authors use figurative language"
     },
     {
+      "topicId": "mt_mMDpLugX2X",
+      "prerequisiteId": "mt_ilPrU0cbtT",
+      "strength": "soft",
+      "reason": "Estimation checks the spreadsheet results"
+    },
+    {
+      "topicId": "mt_mMDpLugX2X",
+      "prerequisiteId": "mt_NmvuwVUFRS",
+      "strength": "soft",
+      "reason": "Builds on choosing calculators and checking by estimation"
+    },
+    {
+      "topicId": "mt_mMDpLugX2X",
+      "prerequisiteId": "mt_oMkQQ2O-ML",
+      "strength": "hard",
+      "reason": "Spreadsheet discounts and GST apply the percentage and GST reasoning"
+    },
+    {
+      "topicId": "mt_mMDpLugX2X",
+      "prerequisiteId": "mt_Qe2PsFmSAH",
+      "strength": "hard",
+      "reason": "Builds on budgets with calculators or spreadsheets"
+    },
+    {
       "topicId": "mt_mMMXD4v9Sh",
       "prerequisiteId": "mt_8UL1opbJEt",
       "strength": "soft",
@@ -11504,6 +11978,24 @@
       "prerequisiteId": "mt_szw1Ln490b",
       "strength": "hard",
       "reason": "Describing the pyramids and Sphinx requires 'pyramid', 'sphinx', and related vocabulary"
+    },
+    {
+      "topicId": "mt_mN4Ye_vtR7",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "hard",
+      "reason": "Explaining suitability requires identifying faces, edges and vertices"
+    },
+    {
+      "topicId": "mt_mn765HbXi1",
+      "prerequisiteId": "mt_QHT16CrFO-",
+      "strength": "hard",
+      "reason": "Comparing data sets builds on representing and describing categorical data"
+    },
+    {
+      "topicId": "mt_mn765HbXi1",
+      "prerequisiteId": "mt_XSXnTQoQ4l",
+      "strength": "hard",
+      "reason": "Comparing distributions by range requires averages and range"
     },
     {
       "topicId": "mt_mnEVZNkX3p",
@@ -12082,6 +12574,42 @@
       "reason": "Rounding supports estimation"
     },
     {
+      "topicId": "mt_NM5I3yN-Q6",
+      "prerequisiteId": "mt_hR2Y7NhMSY",
+      "strength": "hard",
+      "reason": "Rotational symmetry is learned alongside line symmetry"
+    },
+    {
+      "topicId": "mt_NM5I3yN-Q6",
+      "prerequisiteId": "mt_MFfYcnv6Tv",
+      "strength": "hard",
+      "reason": "Rotational symmetry requires understanding fractions of a turn"
+    },
+    {
+      "topicId": "mt_NmvuwVUFRS",
+      "prerequisiteId": "mt_G3sVFQNCme",
+      "strength": "soft",
+      "reason": "Checking calculator results uses rounding estimates"
+    },
+    {
+      "topicId": "mt_NmvuwVUFRS",
+      "prerequisiteId": "mt_ish_uH8vZe",
+      "strength": "hard",
+      "reason": "Builds on choosing and checking calculator use for whole-number operations"
+    },
+    {
+      "topicId": "mt_NmvuwVUFRS",
+      "prerequisiteId": "mt_MCu_SNg_OW",
+      "strength": "soft",
+      "reason": "Interpreting a decimal answer as a remainder builds on division with remainders"
+    },
+    {
+      "topicId": "mt_NmvuwVUFRS",
+      "prerequisiteId": "mt_q9EaJc2FP8",
+      "strength": "hard",
+      "reason": "Multiplying larger numbers on a calculator requires understanding multi-digit multiplication"
+    },
+    {
       "topicId": "mt_nNDX_jZ-cb",
       "prerequisiteId": "mt_Iwg2diBSyW",
       "strength": "soft",
@@ -12302,6 +12830,12 @@
       "prerequisiteId": "mt_pJ5zsocdNx",
       "strength": "soft",
       "reason": "Senses send messages to brain; understanding senses helps understand why brain receives signals"
+    },
+    {
+      "topicId": "mt_nx4a3kH-59",
+      "prerequisiteId": "mt_bZC-wqWX7Y",
+      "strength": "hard",
+      "reason": "Designing algorithms with several alternatives extends creating algorithms with decisions"
     },
     {
       "topicId": "mt_NYA50DFcOO",
@@ -12796,6 +13330,24 @@
       "reason": "Acquiring new vocabulary requires word-solving strategies to learn words independently"
     },
     {
+      "topicId": "mt_oMkQQ2O-ML",
+      "prerequisiteId": "mt_1KkvzwYxbR",
+      "strength": "soft",
+      "reason": "Negative balances use negative numbers in context"
+    },
+    {
+      "topicId": "mt_oMkQQ2O-ML",
+      "prerequisiteId": "mt_PNSyfH56eQ",
+      "strength": "hard",
+      "reason": "Percentage discounts and GST require calculating percentages of amounts"
+    },
+    {
+      "topicId": "mt_oMkQQ2O-ML",
+      "prerequisiteId": "mt_Qe2PsFmSAH",
+      "strength": "hard",
+      "reason": "Discounts and GST extend practical dollars-and-cents problem solving"
+    },
+    {
       "topicId": "mt_OMmiuv9ZLH",
       "prerequisiteId": "mt_SdIWVjzopp",
       "strength": "hard",
@@ -12952,6 +13504,18 @@
       "reason": "Must know rainforest animals before classifying them into groups"
     },
     {
+      "topicId": "mt_O-U263ukg1",
+      "prerequisiteId": "mt_iykH2P5oFq",
+      "strength": "soft",
+      "reason": "Posing statistical questions supports refining questions"
+    },
+    {
+      "topicId": "mt_O-U263ukg1",
+      "prerequisiteId": "mt_SHVyE1CLUa",
+      "strength": "hard",
+      "reason": "Refining and conducting a full investigation builds on planning investigations"
+    },
+    {
       "topicId": "mt_O_UOTiMvT_",
       "prerequisiteId": "mt_klyw-tdlhP",
       "strength": "soft",
@@ -13034,6 +13598,12 @@
       "prerequisiteId": "mt_JRzXQl9M7c",
       "strength": "soft",
       "reason": "Dot plots are the main display on which clusters, gaps, peaks and skew are first described; the description also applies to other displays"
+    },
+    {
+      "topicId": "mt_oxfxzbat3k",
+      "prerequisiteId": "mt_0u4KLbvBa1",
+      "strength": "hard",
+      "reason": "Explaining odd/even properties requires recognising odd and even numbers"
     },
     {
       "topicId": "mt_OyOYHlZ2_T",
@@ -13912,6 +14482,54 @@
       "reason": "Point/straight-line/vertically-opposite angle rules build on Y5 angle-sum knowledge"
     },
     {
+      "topicId": "mt_Qe2PsFmSAH",
+      "prerequisiteId": "mt_5bmrA-0pBi",
+      "strength": "hard",
+      "reason": "Budgets and best buys build on estimating and checking money calculations"
+    },
+    {
+      "topicId": "mt_Qe2PsFmSAH",
+      "prerequisiteId": "mt_ish_uH8vZe",
+      "strength": "soft",
+      "reason": "Budgets and best buys use a calculator with estimation checks"
+    },
+    {
+      "topicId": "mt_Qe2PsFmSAH",
+      "prerequisiteId": "mt_MCu_SNg_OW",
+      "strength": "soft",
+      "reason": "Unit prices use division"
+    },
+    {
+      "topicId": "mt_Qe2PsFmSAH",
+      "prerequisiteId": "mt_NmvuwVUFRS",
+      "strength": "soft",
+      "reason": "Unit prices and budget totals use calculators for multiplication and division"
+    },
+    {
+      "topicId": "mt_Qe2PsFmSAH",
+      "prerequisiteId": "mt_q9EaJc2FP8",
+      "strength": "soft",
+      "reason": "Costing multiple items uses multi-digit multiplication"
+    },
+    {
+      "topicId": "mt_QeKWt4BZn3",
+      "prerequisiteId": "mt_A-FyLLLLzy",
+      "strength": "soft",
+      "reason": "Describing patterns produced draws on pattern rules"
+    },
+    {
+      "topicId": "mt_QeKWt4BZn3",
+      "prerequisiteId": "mt_pjfmCMMPjO",
+      "strength": "soft",
+      "reason": "Mental multiplication supports carrying out doubling or multiplying steps"
+    },
+    {
+      "topicId": "mt_QeKWt4BZn3",
+      "prerequisiteId": "mt_zQfWqImxva",
+      "strength": "hard",
+      "reason": "Generating number sets with algorithms extends following and creating simple algorithms"
+    },
+    {
       "topicId": "mt_QepALf3bin",
       "prerequisiteId": "mt_cq711F7ruL",
       "strength": "soft",
@@ -13934,6 +14552,30 @@
       "prerequisiteId": "mt_Wa44s-f8Ws",
       "strength": "hard",
       "reason": "Must do simple tests before setting up formal fair tests with controlled variables"
+    },
+    {
+      "topicId": "mt_QguIGVMB1o",
+      "prerequisiteId": "mt_9L3NQqgqRd",
+      "strength": "soft",
+      "reason": "Representing numbers to 100 with tens and ones extends to 120"
+    },
+    {
+      "topicId": "mt_QguIGVMB1o",
+      "prerequisiteId": "mt_dJOKkYMsCv",
+      "strength": "soft",
+      "reason": "Ordering numbers to 20 on physical and virtual tracks comes first"
+    },
+    {
+      "topicId": "mt_QguIGVMB1o",
+      "prerequisiteId": "mt_U0waNfD8PB",
+      "strength": "hard",
+      "reason": "Ordering numbers past 100 extends comparing and ordering numbers"
+    },
+    {
+      "topicId": "mt_QguIGVMB1o",
+      "prerequisiteId": "mt_XV0B4kWwqL",
+      "strength": "hard",
+      "reason": "Representing numbers to 120 requires reading and writing them"
     },
     {
       "topicId": "mt_QhFEDyIwSO",
@@ -13988,6 +14630,18 @@
       "prerequisiteId": "mt_E1wR8IfCV6",
       "strength": "soft",
       "reason": "Exploratory food groups complements curriculum nutrition topic (GB Y3)"
+    },
+    {
+      "topicId": "mt_QHT16CrFO-",
+      "prerequisiteId": "mt_fmm-P17Vka",
+      "strength": "soft",
+      "reason": "Mode and distribution vocabulary support reporting"
+    },
+    {
+      "topicId": "mt_QHT16CrFO-",
+      "prerequisiteId": "mt_TiFjjvBMaY",
+      "strength": "hard",
+      "reason": "Reporting distribution shape builds on describing distributions"
     },
     {
       "topicId": "mt_qixeaiswFP",
@@ -14074,6 +14728,18 @@
       "reason": "Need to recognise 3-D shapes before composing them"
     },
     {
+      "topicId": "mt_QpJydot2Kh",
+      "prerequisiteId": "mt_r8XnXwRA6g",
+      "strength": "hard",
+      "reason": "Comparing scaled displays requires making scaled pictographs and bar graphs"
+    },
+    {
+      "topicId": "mt_QpJydot2Kh",
+      "prerequisiteId": "mt__yvsKKp3TS",
+      "strength": "hard",
+      "reason": "Choosing displays for a purpose builds on comparing displays of the same data"
+    },
+    {
       "topicId": "mt_QpmVikVaqY",
       "prerequisiteId": "mt_70Ys4i1AB1",
       "strength": "hard",
@@ -14144,6 +14810,30 @@
       "prerequisiteId": "mt_3S10OOGPqu",
       "strength": "hard",
       "reason": "Degree measurement system requires understanding what an angle is"
+    },
+    {
+      "topicId": "mt_qUjW0N1cYO",
+      "prerequisiteId": "mt_1GDEHyEZYH",
+      "strength": "hard",
+      "reason": "Year 1 sharing and grouping problems extend Foundation sharing with physical and virtual objects"
+    },
+    {
+      "topicId": "mt_qUjW0N1cYO",
+      "prerequisiteId": "mt_LpSuPgL31x",
+      "strength": "hard",
+      "reason": "Sharing problems require equal sharing"
+    },
+    {
+      "topicId": "mt_qUjW0N1cYO",
+      "prerequisiteId": "mt_nvdpxAJTBG",
+      "strength": "soft",
+      "reason": "Skip counting is used to count equal groups"
+    },
+    {
+      "topicId": "mt_qUjW0N1cYO",
+      "prerequisiteId": "mt_PZ909yPrEC",
+      "strength": "soft",
+      "reason": "Repeated addition is used to total equal groups"
     },
     {
       "topicId": "mt_qw6mhOl-Qy",
@@ -14522,6 +15212,24 @@
       "prerequisiteId": "mt_ifPDOYvUqm",
       "strength": "hard",
       "reason": "Word problems require unit-fraction ÷ whole number skill"
+    },
+    {
+      "topicId": "mt_RdfzwInyAj",
+      "prerequisiteId": "mt_efOeaGFyGM",
+      "strength": "soft",
+      "reason": "Describing where a transformed shape ends up supports describing changes and invariants"
+    },
+    {
+      "topicId": "mt_RdfzwInyAj",
+      "prerequisiteId": "mt_NM5I3yN-Q6",
+      "strength": "hard",
+      "reason": "Identifying symmetries in transformed figures requires line and rotational symmetry"
+    },
+    {
+      "topicId": "mt_RdfzwInyAj",
+      "prerequisiteId": "mt_SH7QgFl8-v",
+      "strength": "hard",
+      "reason": "Performing transformations in software builds on transformations on a grid"
     },
     {
       "topicId": "mt_rDjtmDogJr",
@@ -15148,6 +15856,18 @@
       "reason": "Experimental probability requires understanding the 0–1 probability scale first"
     },
     {
+      "topicId": "mt_SHVyE1CLUa",
+      "prerequisiteId": "mt_QHT16CrFO-",
+      "strength": "hard",
+      "reason": "The investigation acquires, validates and represents data"
+    },
+    {
+      "topicId": "mt_SHVyE1CLUa",
+      "prerequisiteId": "mt_Y6JmLjnfRP",
+      "strength": "hard",
+      "reason": "Planning an investigation builds on conducting one"
+    },
+    {
       "topicId": "mt_Sij9ByyHq6",
       "prerequisiteId": "mt_5TBUFnCy5-",
       "strength": "hard",
@@ -15176,6 +15896,18 @@
       "prerequisiteId": "mt_O2dS6gvClw",
       "strength": "hard",
       "reason": "The Y5-6 statutory word list is the direct continuation of the Y3-4 word list"
+    },
+    {
+      "topicId": "mt_SK7WntVZ6y",
+      "prerequisiteId": "mt_MqqR7VUoz1",
+      "strength": "hard",
+      "reason": "Approximating real objects builds on composing shapes from familiar shapes"
+    },
+    {
+      "topicId": "mt_SK7WntVZ6y",
+      "prerequisiteId": "mt_QNxFnxikCN",
+      "strength": "soft",
+      "reason": "Building with 3-D shapes supports approximating 3-D objects"
     },
     {
       "topicId": "mt_skYly2Qm01",
@@ -15251,6 +15983,12 @@
     },
     {
       "topicId": "mt_snlqRCiA1R",
+      "prerequisiteId": "mt_ejht12jhm2",
+      "strength": "soft",
+      "reason": "Grid references that name cells precede plotting points with coordinates"
+    },
+    {
+      "topicId": "mt_snlqRCiA1R",
       "prerequisiteId": "mt_oDlduFnemk",
       "strength": "hard",
       "reason": "Plotting points requires understanding the coordinate system"
@@ -15266,6 +16004,18 @@
       "prerequisiteId": "mt_XLP1IM3Qbb",
       "strength": "hard",
       "reason": "Multiplying decimals by whole numbers builds on whole-number multiplication"
+    },
+    {
+      "topicId": "mt_SOM6Imm2sO",
+      "prerequisiteId": "mt_-af65bxfdp",
+      "strength": "hard",
+      "reason": "Interpreting unmarked intervals extends reading scales with labelled markings"
+    },
+    {
+      "topicId": "mt_SOM6Imm2sO",
+      "prerequisiteId": "mt_DOe893F6gN",
+      "strength": "hard",
+      "reason": "Reading partial units requires measuring with standard units"
     },
     {
       "topicId": "mt_SqhXQhAEUf",
@@ -15748,6 +16498,18 @@
       "reason": "Basic suffix spelling from Y1 provides foundation"
     },
     {
+      "topicId": "mt_TiFjjvBMaY",
+      "prerequisiteId": "mt_ChjMU2GDJa",
+      "strength": "soft",
+      "reason": "Column graphs are among the displays compared"
+    },
+    {
+      "topicId": "mt_TiFjjvBMaY",
+      "prerequisiteId": "mt_QpJydot2Kh",
+      "strength": "hard",
+      "reason": "Analysing display effectiveness builds on choosing displays for a purpose"
+    },
+    {
       "topicId": "mt_tIi6L1n7kF",
       "prerequisiteId": "mt_Hqz5y_tWz2",
       "strength": "hard",
@@ -16012,6 +16774,18 @@
       "reason": "The summary requires choosing between mean with MAD and median with IQR and justifying the choice by shape, so learners must be able to calculate and interpret the MAD"
     },
     {
+      "topicId": "mt_tVvZVWO5d6",
+      "prerequisiteId": "mt_bj1YCgNWUx",
+      "strength": "hard",
+      "reason": "Reading a calendar requires knowing days, weeks and months"
+    },
+    {
+      "topicId": "mt_tVvZVWO5d6",
+      "prerequisiteId": "mt_EXlmTURK_o",
+      "strength": "soft",
+      "reason": "Days in each month help count days between dates"
+    },
+    {
       "topicId": "mt_tX0R4-4WXy",
       "prerequisiteId": "mt_yHQacItlhf",
       "strength": "hard",
@@ -16052,6 +16826,12 @@
       "prerequisiteId": "mt_BnabTHkNIp",
       "strength": "hard",
       "reason": "Must know some dinosaur species before comparing their sizes"
+    },
+    {
+      "topicId": "mt_U0waNfD8PB",
+      "prerequisiteId": "mt_dJOKkYMsCv",
+      "strength": "soft",
+      "reason": "Ordering numbers to 20 precedes comparing and ordering numbers to 120"
     },
     {
       "topicId": "mt_U0waNfD8PB",
@@ -16376,6 +17156,12 @@
       "prerequisiteId": "mt_6XCURuNwPw",
       "strength": "soft",
       "reason": "GB route: Year 2 comparing and sequencing intervals of time is the groundwork for recording and comparing durations in seconds, minutes and hours; soft because this node is GB-only"
+    },
+    {
+      "topicId": "mt_UNzojLkNdm",
+      "prerequisiteId": "mt_MgsDabdnr1",
+      "strength": "soft",
+      "reason": "Reading quarter hours supports reading time to the nearest minute"
     },
     {
       "topicId": "mt_UooUHC_V7U",
@@ -17242,6 +18028,24 @@
       "reason": "Must know the Sun-centred system before understanding Earth's rotation and orbit within it"
     },
     {
+      "topicId": "mt_W3VOAuFwVw",
+      "prerequisiteId": "mt_aHAM29nidj",
+      "strength": "hard",
+      "reason": "Describing additive patterns builds on counting forwards and backwards in steps"
+    },
+    {
+      "topicId": "mt_W3VOAuFwVw",
+      "prerequisiteId": "mt_ZjIFGc6zPW",
+      "strength": "soft",
+      "reason": "Identifying the unit of repeat in repeating patterns prepares for describing the rule of growing patterns"
+    },
+    {
+      "topicId": "mt_w4cUnN_SsQ",
+      "prerequisiteId": "mt_61Pa4Eksva",
+      "strength": "hard",
+      "reason": "Creating maps builds on locating positions on a plan of a familiar space"
+    },
+    {
       "topicId": "mt_W4j7T_PnGH",
       "prerequisiteId": "mt_dSeFrAWE4v",
       "strength": "hard",
@@ -17944,6 +18748,18 @@
       "reason": "Must understand Arctic geography before learning about the tundra biome"
     },
     {
+      "topicId": "mt_X53txVXOcG",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "soft",
+      "reason": "Digital displays build on pictograms and tally charts"
+    },
+    {
+      "topicId": "mt_X53txVXOcG",
+      "prerequisiteId": "mt_ylXdiVRAYv",
+      "strength": "hard",
+      "reason": "Recording data digitally requires sorting data into categories"
+    },
+    {
       "topicId": "mt_X5cypSGoGU",
       "prerequisiteId": "mt_jHgRQ4hR0g",
       "strength": "hard",
@@ -18580,6 +19396,30 @@
       "reason": "Must understand Earth's orbit and rotation before understanding gravity as the force maintaining them"
     },
     {
+      "topicId": "mt_Y6_cq3UMyy",
+      "prerequisiteId": "mt_PgsHGYJMH-",
+      "strength": "hard",
+      "reason": "Showing number stories on screen builds on representing addition and subtraction with objects"
+    },
+    {
+      "topicId": "mt_Y6_cq3UMyy",
+      "prerequisiteId": "mt_t9BICauBSI",
+      "strength": "soft",
+      "reason": "Subitising small groups on a ten frame speeds up finding totals"
+    },
+    {
+      "topicId": "mt_Y6JmLjnfRP",
+      "prerequisiteId": "mt_kxeuXm6EyC",
+      "strength": "hard",
+      "reason": "An independent investigation builds on guided investigations"
+    },
+    {
+      "topicId": "mt_Y6JmLjnfRP",
+      "prerequisiteId": "mt_yrvYKSwSRZ",
+      "strength": "hard",
+      "reason": "The investigation records and displays data with digital tools"
+    },
+    {
       "topicId": "mt_Y6P9y1Rz-u",
       "prerequisiteId": "mt_6eTZUwKQZr",
       "strength": "hard",
@@ -19084,6 +19924,18 @@
       "reason": "Must understand basic diet classification before advancing to anatomical classification"
     },
     {
+      "topicId": "mt_yrvYKSwSRZ",
+      "prerequisiteId": "mt_ebQURBOsM5",
+      "strength": "hard",
+      "reason": "Collecting data digitally builds on collecting data for a question"
+    },
+    {
+      "topicId": "mt_yrvYKSwSRZ",
+      "prerequisiteId": "mt_X53txVXOcG",
+      "strength": "soft",
+      "reason": "Builds on early digital data tools"
+    },
+    {
       "topicId": "mt_ySnOkVIu22",
       "prerequisiteId": "mt_b6kZgqolEd",
       "strength": "soft",
@@ -19133,6 +19985,12 @@
     },
     {
       "topicId": "mt_YUJ5pwalqL",
+      "prerequisiteId": "mt_LBT-9jz7kR",
+      "strength": "soft",
+      "reason": "Comparing angles to right and straight angles supports estimating in degrees"
+    },
+    {
+      "topicId": "mt_YUJ5pwalqL",
       "prerequisiteId": "mt_qUGMyMYn9m",
       "strength": "hard",
       "reason": "Estimating/comparing angles requires understanding the degree system"
@@ -19142,6 +20000,18 @@
       "prerequisiteId": "mt_URTJbS3hhs",
       "strength": "hard",
       "reason": "Bioaccumulation occurs through food chains and webs — the feeding relationships must be understood first"
+    },
+    {
+      "topicId": "mt__yvsKKp3TS",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "hard",
+      "reason": "Comparing displays requires making tally charts and pictograms"
+    },
+    {
+      "topicId": "mt__yvsKKp3TS",
+      "prerequisiteId": "mt_VhBH8wrFC6",
+      "strength": "hard",
+      "reason": "Comparing displays requires making picture and bar graphs"
     },
     {
       "topicId": "mt_Yw1_4Nfsql",
@@ -19558,6 +20428,12 @@
       "reason": "Choosing long vs short division exemplifies Y6 strategic tool use"
     },
     {
+      "topicId": "mt_ZjIFGc6zPW",
+      "prerequisiteId": "mt_WXW0hjNhph",
+      "strength": "hard",
+      "reason": "Identifying the repeating unit requires copying and continuing repeating patterns"
+    },
+    {
       "topicId": "mt_ZJu8s-Q1xa",
       "prerequisiteId": "mt_m6UaSmrQVG",
       "strength": "hard",
@@ -19748,6 +20624,24 @@
       "prerequisiteId": "mt_tiPyEkm4cU",
       "strength": "hard",
       "reason": "Detailed respiratory system builds on knowing we breathe air into lungs for oxygen"
+    },
+    {
+      "topicId": "mt_zQfWqImxva",
+      "prerequisiteId": "mt__p5n8z5soJ",
+      "strength": "hard",
+      "reason": "Following an algorithm builds on following step-by-step instructions"
+    },
+    {
+      "topicId": "mt_zQfWqImxva",
+      "prerequisiteId": "mt_W3VOAuFwVw",
+      "strength": "soft",
+      "reason": "Describing pattern rules supports describing the number patterns an algorithm produces"
+    },
+    {
+      "topicId": "mt_zQfWqImxva",
+      "prerequisiteId": "mt_w6MxaaoMXZ",
+      "strength": "soft",
+      "reason": "Recognising number patterns supports describing what an algorithm produces"
     },
     {
       "topicId": "mt_zrCyqhngYm",

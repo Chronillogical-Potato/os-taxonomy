@@ -6,6 +6,10 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Add explicit eighths-of-events learning to the Year 2 fractions-of-time topic, with a 16-minute activity split into eight equal 2-minute parts and a prerequisite on eighths. Clarify the $7 virtual-payment task as a $5 note plus a $2 coin. Mathematics coverage remains 139 Full; refresh graph centrality and dataset checksums.
+
+- Fill the documented Australian Foundation–Year 6 Mathematics gaps with 61 new topics and 149 prerequisite links, including virtual manipulatives, Australian currency, algorithms, digital tools, geometry and statistical investigations. The reviewed Mathematics report now marks all 139 standards Full, with 442 links across 325 topics. Shared learning also closes three Digital Technologies and two Science standards and adds HASS map coverage. Replace five pounds-based Australian maths links with Australian-currency coverage; preserve all non-Australian links and existing topic content. Refresh derived centrality, research coverage for the new topics and dataset checksums; teaching-research records are unchanged.
+
 - Align Australian Foundation–Year 6 Design and Technologies with 79 links across 48 existing topics. Publish a code-by-code audit of all 29 standards: 3 fully covered, 26 partly covered and 0 missing. Preserve existing curriculum links, topic content and prerequisite edges; refresh approximate age spans and the teaching-research topic-file binding.
 
 - Align Australian Foundation–Year 6 Digital Technologies with 47 links across 30 existing topics. Publish a code-by-code audit of all 38 standards: 2 fully covered, 23 partly covered and 13 missing. Preserve existing curriculum links and topic content; correct two prerequisite directions around Foundation pictograms, refresh derived centrality and approximate age spans, and update the teaching-research topic-file binding.

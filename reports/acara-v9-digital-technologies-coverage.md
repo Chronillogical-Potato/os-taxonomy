@@ -1,16 +1,16 @@
 # Australian Curriculum v9: Digital Technologies coverage
 
-Reviewed 21 October 2026 against the 38 Foundation–Year 6 Digital Technologies content descriptions. The mapping adds 47 alignments across 30 existing topics.
+Reviewed 21 October 2026 against all 38 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 50 alignments across 33 topics.
 
-**2 standards are fully covered, 23 partly covered, and 13 missing.** Full means the linked topics collectively cover every required part at the expected level, including practice or rehearsal where required. Individual links may cover only part of a standard.
+**5 standards are fully covered, 21 partly covered, and 12 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
 
 | Year band | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
 | Foundation | 1 | 2 | 0 | 3 |
 | Years 1–2 | 1 | 6 | 2 | 9 |
-| Years 3–4 | 0 | 9 | 3 | 12 |
-| Years 5–6 | 0 | 6 | 8 | 14 |
-| **Total** | **2** | **23** | **13** | **38** |
+| Years 3–4 | 2 | 7 | 3 | 12 |
+| Years 5–6 | 1 | 6 | 7 | 14 |
+| **Total** | **5** | **21** | **12** | **38** |
 
 ## Foundation
 
@@ -40,13 +40,13 @@ Reviewed 21 October 2026 against the 38 Foundation–Year 6 Digital Technologies
 |---|---|---|---|
 | `AC9TDI4K01` | Missing | — | No topic at Years 3-4 level explores and describes a range of digital systems and their peripherals (printers, cameras, headphones, sensors); the everyday-computer topics are pitched at Foundation-Year 2 level. |
 | `AC9TDI4K02` | Partial | Patterns & Codes for Information (`mt_n5_Jt4ExUd`) | Encoding and sending messages as light or sound patterns (n5_Jt4ExUd) is covered; exploring how different types of data (text, images, sound, video) are transmitted between digital systems is not. |
-| `AC9TDI4K03` | Partial | Data and Information for Computers (`mt_kH1DzOPsXG`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Bar graphs (`mt_ChjMU2GDJa`) | Recognising data types (numbers, text, images, sounds; kH1DzOPsXG), drawing scaled pictograms and bar graphs (r8XnXwRA6g) and choosing a bar chart or time graph for discrete versus continuous data (ChjMU2GDJa) are covered; exploring how the same data set can be represented differently because the purpose or audience changes (e.g. a table to look up values, a graph to compare, an icon or colour code to show at a glance) is not. |
+| `AC9TDI4K03` | Full | Data and Information for Computers (`mt_kH1DzOPsXG`); Scaled picture and bar graphs (`mt_r8XnXwRA6g`); Bar graphs (`mt_ChjMU2GDJa`); Choosing displays for a purpose (`mt_QpJydot2Kh`) | — |
 | `AC9TDI4P01` | Partial | Simple Design Problems (`mt_Z5-fSCOBep`) | Defining a design problem with success criteria and constraints (Z5-fSCOBep, a general/physical design context) is covered; defining a problem to be solved by a digital solution is not, and no topic covers user stories (writing or co-creating "As a ..., I want ..., so that ..." statements to describe user needs). |
-| `AC9TDI4P02` | Partial | Step-by-Step Instructions (`mt__p5n8z5soJ`) | Following and describing sequences of steps (_p5n8z5soJ, pitched at Foundation-Year 2 level) is covered; branching with comparison operators (e.g. if score > 10) and iteration are not. |
+| `AC9TDI4P02` | Full | Step-by-Step Instructions (`mt__p5n8z5soJ`); Following number algorithms (`mt_zQfWqImxva`) | — |
 | `AC9TDI4P03` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Modelling with Sketches (`mt_hi8cVycbwn`) | Transferable design skills - generating and comparing possible solutions against criteria (HveO1bOXpJ) and communicating a design as a sketch or model (hi8cVycbwn) - are covered; designing a digital solution (e.g. storyboarding or sketching the screens, inputs, outputs and steps of a game, app or program) is not assessed - the linked design topics concern physical products, general solutions or business ideas. |
 | `AC9TDI4P04` | Missing | — | No topic has children implement algorithms as visual (block-based) programs with control structures and user input. |
 | `AC9TDI4P05` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Fair testing (age 8+) (`mt_eoPcc4nrBE`) | Judging how general/physical solutions meet design criteria through comparison and prototype testing (HveO1bOXpJ, eoPcc4nrBE) is covered; discussing how existing digital systems and students' own digital solutions satisfy design criteria is not, and no topic covers user stories (writing or co-creating "As a ..., I want ..., so that ..." statements to describe user needs). |
-| `AC9TDI4P06` | Partial | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Short Research Projects (`mt_FW9_8F52bw`) | Creating and publishing content on a computer or tablet (nYU6x2E2T8) and locating information in digital sources (FW9_8F52bw) are covered; using core features of common digital tools (formatting text, inserting images, saving, naming and organising files) and following agreed conventions are not assessed at Years 3-4 level. |
+| `AC9TDI4P06` | Partial | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Short Research Projects (`mt_FW9_8F52bw`) | Creating and publishing content on a computer or tablet (nYU6x2E2T8) and locating information in digital sources (FW9_8F52bw) are covered; using core features of common digital tools (formatting text, inserting images, saving, naming and organising files) and following agreed conventions are not assessed at Years 3-4 level. mt_AHAFw-atka was removed after review: it is pitched at Years 5-6 and its evidence does not require digital formatting. |
 | `AC9TDI4P07` | Partial | Basic digital citizenship (`mt_zIzJGkaj0Q`) | Agreed online behaviours and what to do if something online is uncomfortable (zIzJGkaj0Q) are covered; using digital tools to share content, plan tasks and collaborate (shared documents, online workspaces, digital planning tools) is not taught; group-work topics are non-digital. |
 | `AC9TDI4P08` | Missing | — | No topic covers logging in with a memorised password or explaining why a password should be easy to remember but hard to guess. |
 | `AC9TDI4P09` | Partial | AI Data Collection and Privacy (`mt_HopZomN12L`); Basic digital citizenship (`mt_zIzJGkaj0Q`); Scams & Online Safety (`mt_W5euSyU2sO`) | General knowledge of what personal data online services collect and why (HopZomN12L), protecting personal information (zIzJGkaj0Q) and online risks such as scams (W5euSyU2sO) are covered; identifying what personal data is stored and shared in the child's own online accounts (e.g. profile details, photos, location, contacts in a school or game account) is not. |
@@ -60,7 +60,7 @@ Reviewed 21 October 2026 against the 38 Foundation–Year 6 Digital Technologies
 | `AC9TDI6K03` | Missing | — | No topic explains that digital systems represent all data (text, images, sound) using numbers. |
 | `AC9TDI6K04` | Missing | — | No topic covers representing data with on/off states or binary. |
 | `AC9TDI6P01` | Partial | Simple Design Problems (`mt_Z5-fSCOBep`) | Defining a design problem with criteria and constraints (Z5-fSCOBep, general/physical design context) is covered; defining problems for digital solutions, co-developing design criteria, and creating user stories are not (no topic covers user stories (writing or co-creating "As a ..., I want ..., so that ..." statements to describe user needs)). |
-| `AC9TDI6P02` | Missing | — | No topic has children design algorithms with multiple alternatives (if/else-if branching) and iteration. |
+| `AC9TDI6P02` | Full | Designing number algorithms (`mt_nx4a3kH-59`) | — |
 | `AC9TDI6P03` | Missing | — | No topic covers designing a user interface for a digital system (layout, navigation, user needs). |
 | `AC9TDI6P04` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Fair testing (age 8+) (`mt_eoPcc4nrBE`); Pitching an Idea (`mt_bAYy0ytbfC`) | Transferable design skills - generating and comparing designs (HveO1bOXpJ), testing, modifying and retesting a physical prototype (eoPcc4nrBE), communicating an idea in a pitch (bAYy0ytbfC) - are covered; generating, modifying, communicating and evaluating designs for a digital solution (screens, user flow, algorithm design) is not. |
 | `AC9TDI6P05` | Missing | — | No topic has children implement algorithms as visual programs using control structures, variables and input. |
