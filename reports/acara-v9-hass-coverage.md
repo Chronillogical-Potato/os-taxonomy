@@ -29,7 +29,7 @@ Reviewed 21 October 2026 against all 89 ACARA v9 Foundation–Year 6 HASS conten
 | `AC9HSFK03` | Partial | Reducing Human Impact (`mt_deexfCHU9m`) | How places can be looked after (reducing litter, pollution and waste in the local environment, deexfCHU9m) is covered; the features of familiar places children belong to and why some places are special are not. |
 | `AC9HSFK04` | Missing | — | no topic covers First Nations Australians or Country/Place, including the Country/Place on which the school is located. |
 | `AC9HSFS01` | Full | Question Words (`mt_6lHBTwQPrS`); Asking Questions (`mt_f8n4txtLej`) | — |
-| `AC9HSFS02` | Partial | Sorting into categories (`mt_xppl18avyY`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`) | Sorting into categories (xppl18avyY), sequencing events in time order (-vvVxpOHG2) and positional language (qeZYF6HZ4o) are covered; recording locations on pictorial maps or models is not. |
+| `AC9HSFS02` | Partial | Sorting into categories (`mt_xppl18avyY`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`) | Sorting into categories (xppl18avyY), sequencing events in time order (-vvVxpOHG2) and positional language (qeZYF6HZ4o) are covered; recording events on pictorial timelines and locations on pictorial maps or models is not. |
 | `AC9HSFS03` | Full | Expressing & Justifying Opinions (`mt_S0hzjAeLSK`); Other People's Feelings and Thoughts (`mt_wzUzVEBqJb`) | — |
 | `AC9HSFS04` | Full | Reading between the lines (`mt_E5KC4AnRLW`) | — |
 | `AC9HSFS05` | Full | Retelling Stories with Structure (`mt_zlSoIKPyId`); Ordering Events in Time (`mt_-vvVxpOHG2`); Positional Language (`mt_qeZYF6HZ4o`); Observing with simple equipment (`mt_vJO5Bxk4z-`) | — |
