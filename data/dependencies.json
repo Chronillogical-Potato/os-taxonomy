@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3466,
+  "edgeCount": 3659,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -586,6 +586,18 @@
       "reason": "Must know rainforest animals before constructing food chains with them"
     },
     {
+      "topicId": "mt_1m4J4KOjPy",
+      "prerequisiteId": "mt_4A7FYmvVhA",
+      "strength": "hard",
+      "reason": "'Talks with a beginning and end' builds on 'Describing Aloud'"
+    },
+    {
+      "topicId": "mt_1m4J4KOjPy",
+      "prerequisiteId": "mt_ZBMcX2oRor",
+      "strength": "soft",
+      "reason": "'Reciting Poetry' supports 'Talks with a beginning and end'"
+    },
+    {
       "topicId": "mt_1m5ItPiwUK",
       "prerequisiteId": "mt_dRCnJEIwk4",
       "strength": "hard",
@@ -614,6 +626,12 @@
       "prerequisiteId": "mt_Y2WcY2lOTK",
       "strength": "hard",
       "reason": "Applying Newton's laws to orbital motion depends on understanding gravity as a force"
+    },
+    {
+      "topicId": "mt_-1okUh0Jdv",
+      "prerequisiteId": "mt_5zTlbDWkDI",
+      "strength": "soft",
+      "reason": "'Stages of texts across subjects' supports 'Comparing Structure in Information Texts'"
     },
     {
       "topicId": "mt_-1okUh0Jdv",
@@ -826,6 +844,24 @@
       "reason": "Critiquing others' mathematical reasoning and explaining errors applies the universal error-analysis habit to peer arguments"
     },
     {
+      "topicId": "mt_2_fB4LuVwc",
+      "prerequisiteId": "mt_86DyHo9zO3",
+      "strength": "soft",
+      "reason": "'Formal and Informal English' supports 'Language for different roles'"
+    },
+    {
+      "topicId": "mt_2_fB4LuVwc",
+      "prerequisiteId": "mt_dALEWRHXnZ",
+      "strength": "hard",
+      "reason": "'Language for different roles' builds on 'Asking, offering and requesting'"
+    },
+    {
+      "topicId": "mt_2_fB4LuVwc",
+      "prerequisiteId": "mt_mpzmwTktqF",
+      "strength": "hard",
+      "reason": "'Language for different roles' builds on 'Home talk and school talk'"
+    },
+    {
       "topicId": "mt_2GDBmKCJxs",
       "prerequisiteId": "mt_9REmUc8r4D",
       "strength": "hard",
@@ -866,6 +902,18 @@
       "prerequisiteId": "mt_wQ89AEXhz3",
       "strength": "soft",
       "reason": "Multiplication table patterns exercise repeated reasoning"
+    },
+    {
+      "topicId": "mt_2jksKpNzeF",
+      "prerequisiteId": "mt_lp3qyEujIv",
+      "strength": "soft",
+      "reason": "'Inference vs Explicit Meaning' supports 'Visualising to understand and judge'"
+    },
+    {
+      "topicId": "mt_2jksKpNzeF",
+      "prerequisiteId": "mt_RNYNrRMqKL",
+      "strength": "hard",
+      "reason": "'Visualising to understand and judge' builds on 'Making pictures in your head'"
     },
     {
       "topicId": "mt_2l06snztdP",
@@ -1192,6 +1240,18 @@
       "reason": "Understanding tropical climate deepens understanding of why the Amazon is so productive"
     },
     {
+      "topicId": "mt_39Yyr1KG7F",
+      "prerequisiteId": "mt_qzwQAOfurw",
+      "strength": "hard",
+      "reason": "'Doing, thinking and saying verbs' builds on 'Grammar Terms: Nouns, Verbs and Tense'"
+    },
+    {
+      "topicId": "mt_39Yyr1KG7F",
+      "prerequisiteId": "mt_yBJyCfhtem",
+      "strength": "hard",
+      "reason": "'Doing, thinking and saying verbs' builds on 'Basic Nouns & Verbs'"
+    },
+    {
       "topicId": "mt_3duNkf6Qmr",
       "prerequisiteId": "mt_4uPnLieBPN",
       "strength": "hard",
@@ -1220,6 +1280,18 @@
       "prerequisiteId": "mt_Zt30Gxi-qp",
       "strength": "soft",
       "reason": "Using the complement rule is easier once students can calculate basic probabilities and see that favourable + unfavourable outcomes cover all possibilities"
+    },
+    {
+      "topicId": "mt__3hJj0H4HF",
+      "prerequisiteId": "mt_6-MYToNZ39",
+      "strength": "hard",
+      "reason": "'Words with more than one meaning' builds on 'Discussing and Questioning New Words'"
+    },
+    {
+      "topicId": "mt__3hJj0H4HF",
+      "prerequisiteId": "mt_WzOyJFKDIu",
+      "strength": "hard",
+      "reason": "'Words with more than one meaning' builds on 'Domain Vocabulary Across Subject Areas'"
     },
     {
       "topicId": "mt_3-ii06P4YS",
@@ -2050,6 +2122,18 @@
       "reason": "Understanding ecosystem roles helps explain why so many species evolved"
     },
     {
+      "topicId": "mt_5zTlbDWkDI",
+      "prerequisiteId": "mt_oVwNnjYPUY",
+      "strength": "hard",
+      "reason": "'Stages of texts across subjects' builds on 'Structure of information texts'"
+    },
+    {
+      "topicId": "mt_5zTlbDWkDI",
+      "prerequisiteId": "mt_yIk_4o0MOa",
+      "strength": "hard",
+      "reason": "'Stages of texts across subjects' builds on 'How texts in subjects differ'"
+    },
+    {
       "topicId": "mt_61Nhj8W78f",
       "prerequisiteId": "mt_NM5I3yN-Q6",
       "strength": "soft",
@@ -2392,10 +2476,34 @@
       "reason": "Writing number words to 100 requires reading the corresponding numerals"
     },
     {
+      "topicId": "mt_78-pnKfzmv",
+      "prerequisiteId": "mt_AHAFw-atka",
+      "strength": "soft",
+      "reason": "'Layout and Formatting in Informational Writing' supports 'Creating digital multimodal texts'"
+    },
+    {
+      "topicId": "mt_78-pnKfzmv",
+      "prerequisiteId": "mt_AHXePdicRf",
+      "strength": "hard",
+      "reason": "'Creating digital multimodal texts' builds on 'Making multimodal texts'"
+    },
+    {
       "topicId": "mt__7BVYUN180",
       "prerequisiteId": "mt_2qkn8Lhc8e",
       "strength": "hard",
       "reason": "The motor effect (force on a current in a field) is an application of electromagnetism — requires knowledge of both magnetic fields and current-produced fields"
+    },
+    {
+      "topicId": "mt_7DEMuNxUTh",
+      "prerequisiteId": "mt_BhYJZUsErp",
+      "strength": "hard",
+      "reason": "'Segmenting consonant clusters' builds on 'Segmenting words into sounds'"
+    },
+    {
+      "topicId": "mt_7DEMuNxUTh",
+      "prerequisiteId": "mt_PvU3eoikev",
+      "strength": "hard",
+      "reason": "'Segmenting consonant clusters' builds on 'Onsets & Rimes'"
     },
     {
       "topicId": "mt_7D-vlii8F-",
@@ -2480,6 +2588,18 @@
       "prerequisiteId": "mt_ZFwPZaDJ0_",
       "strength": "hard",
       "reason": "Must gather data simply before presenting in charts and diagrams"
+    },
+    {
+      "topicId": "mt_7-N8TmQUsB",
+      "prerequisiteId": "mt_BGMS9We5w9",
+      "strength": "hard",
+      "reason": "'Reading for history and culture' builds on 'Similar storylines across cultures'"
+    },
+    {
+      "topicId": "mt_7-N8TmQUsB",
+      "prerequisiteId": "mt_tX0R4-4WXy",
+      "strength": "soft",
+      "reason": "'Themes Across Cultures and Traditions' supports 'Reading for history and culture'"
     },
     {
       "topicId": "mt_7nduoLvoB1",
@@ -2618,6 +2738,18 @@
       "prerequisiteId": "mt_OvyoRo47K-",
       "strength": "hard",
       "reason": "Decomposing numbers into pairs requires understanding addition as combining"
+    },
+    {
+      "topicId": "mt_7xt5pXdVvl",
+      "prerequisiteId": "mt_0MfpLj0Uhb",
+      "strength": "soft",
+      "reason": "'Recommending Books' supports 'Recognising an author's style'"
+    },
+    {
+      "topicId": "mt_7xt5pXdVvl",
+      "prerequisiteId": "mt_sUVOS2jH3J",
+      "strength": "hard",
+      "reason": "'Recognising an author's style' builds on 'Comparing Books'"
     },
     {
       "topicId": "mt_7_XXh9NCp0",
@@ -3238,6 +3370,18 @@
       "reason": "Understanding that everything we know comes from evidence requires 'evidence' and 'source' vocabulary"
     },
     {
+      "topicId": "mt_9V8Z386RDx",
+      "prerequisiteId": "mt_sSQlLOnAow",
+      "strength": "soft",
+      "reason": "'Characters, settings, and events' supports 'Changing a familiar story'"
+    },
+    {
+      "topicId": "mt_9V8Z386RDx",
+      "prerequisiteId": "mt_zlSoIKPyId",
+      "strength": "hard",
+      "reason": "'Changing a familiar story' builds on 'Retelling Stories with Structure'"
+    },
+    {
       "topicId": "mt_9VZem2vUqk",
       "prerequisiteId": "mt_BVpB5wyijZ",
       "strength": "hard",
@@ -3647,6 +3791,12 @@
     },
     {
       "topicId": "mt_AHAFw-atka",
+      "prerequisiteId": "mt_AHXePdicRf",
+      "strength": "soft",
+      "reason": "'Making multimodal texts' supports 'Layout and Formatting in Informational Writing'"
+    },
+    {
+      "topicId": "mt_AHAFw-atka",
       "prerequisiteId": "mt_AvJMWQbDsr",
       "strength": "hard",
       "reason": "Layout devices build on paragraph organisation"
@@ -3704,6 +3854,24 @@
       "prerequisiteId": "mt_ytUG3yjCYt",
       "strength": "hard",
       "reason": "Classifying ocean animals builds on knowing the variety exists"
+    },
+    {
+      "topicId": "mt_AHXePdicRf",
+      "prerequisiteId": "mt_AvJMWQbDsr",
+      "strength": "hard",
+      "reason": "'Making multimodal texts' builds on 'Organising Writing into Paragraphs'"
+    },
+    {
+      "topicId": "mt_AHXePdicRf",
+      "prerequisiteId": "mt_hp2qJ-QRBn",
+      "strength": "hard",
+      "reason": "'Making multimodal texts' builds on 'Basic Informational Writing'"
+    },
+    {
+      "topicId": "mt_AHXePdicRf",
+      "prerequisiteId": "mt_qUKddG0UYv",
+      "strength": "soft",
+      "reason": "'Pictures in stories and fact books' supports 'Making multimodal texts'"
     },
     {
       "topicId": "mt_aivrWs6jrS",
@@ -4558,6 +4726,18 @@
       "reason": "Using >, <, = for measurements parallels using them for numbers"
     },
     {
+      "topicId": "mt_BGMS9We5w9",
+      "prerequisiteId": "mt_tX0R4-4WXy",
+      "strength": "hard",
+      "reason": "'Similar storylines across cultures' builds on 'Themes Across Cultures and Traditions'"
+    },
+    {
+      "topicId": "mt_BGMS9We5w9",
+      "prerequisiteId": "mt_UcmVDMgFGX",
+      "strength": "hard",
+      "reason": "'Similar storylines across cultures' builds on 'Stories from different places and times'"
+    },
+    {
       "topicId": "mt_bHbpLW1HUg",
       "prerequisiteId": "mt_EGIlsfHxb6",
       "strength": "hard",
@@ -4700,6 +4880,24 @@
       "prerequisiteId": "mt_PThM5P7Umd",
       "strength": "hard",
       "reason": "Must understand peasant life before grasping serfdom in the feudal system"
+    },
+    {
+      "topicId": "mt_bJyOTtP0b6",
+      "prerequisiteId": "mt_86DyHo9zO3",
+      "strength": "hard",
+      "reason": "'Language, roles and social distance' builds on 'Formal and Informal English'"
+    },
+    {
+      "topicId": "mt_bJyOTtP0b6",
+      "prerequisiteId": "mt_bkvB7QYKwg",
+      "strength": "soft",
+      "reason": "'Adapting Speech to Context' supports 'Language, roles and social distance'"
+    },
+    {
+      "topicId": "mt_bJyOTtP0b6",
+      "prerequisiteId": "mt_k0-aLFge4X",
+      "strength": "hard",
+      "reason": "'Language, roles and social distance' builds on 'Language that builds relationships'"
     },
     {
       "topicId": "mt_BK5xwkrD5C",
@@ -5116,6 +5314,24 @@
       "reason": "Add/sub within one whole is prerequisite to extending beyond one whole"
     },
     {
+      "topicId": "mt_cB_j7towTD",
+      "prerequisiteId": "mt_cGzd5z56FB",
+      "strength": "hard",
+      "reason": "'Making new versions of stories' builds on 'Retelling and adapting stories'"
+    },
+    {
+      "topicId": "mt_cB_j7towTD",
+      "prerequisiteId": "mt_I65kFjWwnF",
+      "strength": "soft",
+      "reason": "'Revising and editing' supports 'Making new versions of stories'"
+    },
+    {
+      "topicId": "mt_cB_j7towTD",
+      "prerequisiteId": "mt_YNe6siFTFq",
+      "strength": "soft",
+      "reason": "'Writing Poetry' supports 'Making new versions of stories'"
+    },
+    {
       "topicId": "mt_CBxOcjh69x",
       "prerequisiteId": "mt_5S4byWDX6n",
       "strength": "soft",
@@ -5278,6 +5494,12 @@
       "reason": "Understanding Roman society structure needed for examining enslaved people in Rome"
     },
     {
+      "topicId": "mt__CFtXgDaEL",
+      "prerequisiteId": "mt__PcuXj7_I1",
+      "strength": "hard",
+      "reason": "'Headlines, menus and links online' builds on 'Layout and navigation words online'"
+    },
+    {
       "topicId": "mt_Cg8VPguS_V",
       "prerequisiteId": "mt_fmm-P17Vka",
       "strength": "hard",
@@ -5296,6 +5518,24 @@
       "reason": "Calculating mean requires division giving decimal answers"
     },
     {
+      "topicId": "mt_cGzd5z56FB",
+      "prerequisiteId": "mt_9V8Z386RDx",
+      "strength": "hard",
+      "reason": "'Retelling and adapting stories' builds on 'Changing a familiar story'"
+    },
+    {
+      "topicId": "mt_cGzd5z56FB",
+      "prerequisiteId": "mt_VEwM7ClYYE",
+      "strength": "soft",
+      "reason": "'Story Sequence and Central Message' supports 'Retelling and adapting stories'"
+    },
+    {
+      "topicId": "mt_cGzd5z56FB",
+      "prerequisiteId": "mt_zlSoIKPyId",
+      "strength": "hard",
+      "reason": "'Retelling and adapting stories' builds on 'Retelling Stories with Structure'"
+    },
+    {
       "topicId": "mt_ChjMU2GDJa",
       "prerequisiteId": "mt_r8XnXwRA6g",
       "strength": "hard",
@@ -5306,6 +5546,24 @@
       "prerequisiteId": "mt_u5HkSxZECM",
       "strength": "hard",
       "reason": "Distinguishing discrete from continuous data and choosing graphical methods requires these terms"
+    },
+    {
+      "topicId": "mt_cIxLOPS1Hc",
+      "prerequisiteId": "mt_PsQdUQBw0D",
+      "strength": "hard",
+      "reason": "'Presentations that build a theme' builds on 'Presenting an argument'"
+    },
+    {
+      "topicId": "mt_cIxLOPS1Hc",
+      "prerequisiteId": "mt__q8ln4Lvf7",
+      "strength": "hard",
+      "reason": "'Presentations that build a theme' builds on 'Technical words in presentations'"
+    },
+    {
+      "topicId": "mt_cIxLOPS1Hc",
+      "prerequisiteId": "mt_VtqvUORa8K",
+      "strength": "soft",
+      "reason": "'Multimedia Presentations' supports 'Presentations that build a theme'"
     },
     {
       "topicId": "mt_cJ8CeyRKKs",
@@ -5788,6 +6046,24 @@
       "reason": "Must identify electrical appliances before building circuits"
     },
     {
+      "topicId": "mt_dALEWRHXnZ",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "soft",
+      "reason": "'Asking Questions' supports 'Asking, offering and requesting'"
+    },
+    {
+      "topicId": "mt_dALEWRHXnZ",
+      "prerequisiteId": "mt_mpzmwTktqF",
+      "strength": "soft",
+      "reason": "'Home talk and school talk' supports 'Asking, offering and requesting'"
+    },
+    {
+      "topicId": "mt_dALEWRHXnZ",
+      "prerequisiteId": "mt_u1-UfD0rTH",
+      "strength": "hard",
+      "reason": "'Asking, offering and requesting' builds on 'Four Types of Sentences'"
+    },
+    {
       "topicId": "mt_DbI1kNg_0R",
       "prerequisiteId": "mt_AB-TEMXSGJ",
       "strength": "hard",
@@ -5866,6 +6142,24 @@
       "reason": "Animals of the World rainforest topic builds on knowing specific rainforest animals (exploratory age 5 -> exploratory age 7)"
     },
     {
+      "topicId": "mt_DcSMuVWgKU",
+      "prerequisiteId": "mt_hJW7hVflm3",
+      "strength": "hard",
+      "reason": "'Trying figurative language in writing' builds on 'Similes & Metaphors'"
+    },
+    {
+      "topicId": "mt_DcSMuVWgKU",
+      "prerequisiteId": "mt_LMX-nZETLM",
+      "strength": "soft",
+      "reason": "'Vivid Word Choices' supports 'Trying figurative language in writing'"
+    },
+    {
+      "topicId": "mt_DcSMuVWgKU",
+      "prerequisiteId": "mt_NTAc_EMeHZ",
+      "strength": "hard",
+      "reason": "'Trying figurative language in writing' builds on 'Borrowing from books you've read'"
+    },
+    {
       "topicId": "mt_deexfCHU9m",
       "prerequisiteId": "mt_e6PP4ip39V",
       "strength": "soft",
@@ -5876,6 +6170,18 @@
       "prerequisiteId": "mt_DA7-JYRvtP",
       "strength": "hard",
       "reason": "Must know circuit components before testing which materials conduct electricity"
+    },
+    {
+      "topicId": "mt_dgheXIYAD-",
+      "prerequisiteId": "mt_70Ys4i1AB1",
+      "strength": "soft",
+      "reason": "'Compound Words' supports 'Three-letter consonant clusters'"
+    },
+    {
+      "topicId": "mt_dgheXIYAD-",
+      "prerequisiteId": "mt_-nj-DnW4uU",
+      "strength": "hard",
+      "reason": "'Three-letter consonant clusters' builds on 'Reading and spelling consonant blends'"
     },
     {
       "topicId": "mt_DI1cyAyGyN",
@@ -6248,6 +6554,18 @@
       "prerequisiteId": "mt_MlD0gwLSw9",
       "strength": "hard",
       "reason": "Boudicca's revolt is a response to the Roman invasion of Britain"
+    },
+    {
+      "topicId": "mt_E2iv1E6klO",
+      "prerequisiteId": "mt_2jksKpNzeF",
+      "strength": "hard",
+      "reason": "'Visualising complex texts' builds on 'Visualising to understand and judge'"
+    },
+    {
+      "topicId": "mt_E2iv1E6klO",
+      "prerequisiteId": "mt_kJ4xXKL_nO",
+      "strength": "soft",
+      "reason": "'Synthesising across multiple texts' supports 'Visualising complex texts'"
     },
     {
       "topicId": "mt_e3-_toGuWf",
@@ -6748,6 +7066,18 @@
       "reason": "Constructing Venn diagrams is the representational skill for the set enumeration work in mt_1YwOCMMwD8"
     },
     {
+      "topicId": "mt__evtvKA25j",
+      "prerequisiteId": "mt_-1okUh0Jdv",
+      "strength": "hard",
+      "reason": "'Blended and adapted text types' builds on 'Comparing Structure in Information Texts'"
+    },
+    {
+      "topicId": "mt__evtvKA25j",
+      "prerequisiteId": "mt_Sg-jC5f9L6",
+      "strength": "hard",
+      "reason": "'Blended and adapted text types' builds on 'Stages of speeches and videos'"
+    },
+    {
       "topicId": "mt_ewmuMMPAzP",
       "prerequisiteId": "mt_aPBzD28_mT",
       "strength": "hard",
@@ -6866,6 +7196,24 @@
       "prerequisiteId": "mt_fLOkq-HfPB",
       "strength": "hard",
       "reason": "Age 6-7 modelling with bar models/diagrams builds on age 5-6 modelling with objects and pictures"
+    },
+    {
+      "topicId": "mt_f7RadQGOnQ",
+      "prerequisiteId": "mt_hJW7hVflm3",
+      "strength": "hard",
+      "reason": "'Personification and sound devices' builds on 'Similes & Metaphors'"
+    },
+    {
+      "topicId": "mt_f7RadQGOnQ",
+      "prerequisiteId": "mt_j89i4u2fKr",
+      "strength": "soft",
+      "reason": "'Spotting and making alliteration' supports 'Personification and sound devices'"
+    },
+    {
+      "topicId": "mt_f7RadQGOnQ",
+      "prerequisiteId": "mt_ty63-JSHTC",
+      "strength": "hard",
+      "reason": "'Personification and sound devices' builds on 'Rhythm and sound words'"
     },
     {
       "topicId": "mt_f8n4txtLej",
@@ -7330,6 +7678,18 @@
       "reason": "Must understand print direction before letter identification matters"
     },
     {
+      "topicId": "mt_fruAJ2RaRT",
+      "prerequisiteId": "mt_5FREdVoS8s",
+      "strength": "hard",
+      "reason": "'Old and new texts compared' builds on 'Multiple Accounts of Events'"
+    },
+    {
+      "topicId": "mt_fruAJ2RaRT",
+      "prerequisiteId": "mt_M-S5oQhxYa",
+      "strength": "hard",
+      "reason": "'Old and new texts compared' builds on 'Same purpose, different audience'"
+    },
+    {
       "topicId": "mt_FSLJbKkryb",
       "prerequisiteId": "mt_FIkqA0qhnj",
       "strength": "soft",
@@ -7624,6 +7984,18 @@
       "reason": "Understanding weathering/erosion helps explain patterns in Earth's features"
     },
     {
+      "topicId": "mt_G7jhJrOD2P",
+      "prerequisiteId": "mt_9yFAtUkoYr",
+      "strength": "soft",
+      "reason": "'Pronouns for clarity' supports 'Leaving out words readers know'"
+    },
+    {
+      "topicId": "mt_G7jhJrOD2P",
+      "prerequisiteId": "mt_sZXPK1FnRB",
+      "strength": "hard",
+      "reason": "'Leaving out words readers know' builds on 'Pronouns'"
+    },
+    {
       "topicId": "mt_g9RcQOhU5d",
       "prerequisiteId": "mt_bABr-c2DfV",
       "strength": "soft",
@@ -7646,6 +8018,36 @@
       "prerequisiteId": "mt_JwP9QFv6gQ",
       "strength": "hard",
       "reason": "Numbers to 10M extends Y5 numbers to 1M"
+    },
+    {
+      "topicId": "mt_GbisjfWodT",
+      "prerequisiteId": "mt_8-POYyg7GJ",
+      "strength": "soft",
+      "reason": "'Predicting what happens next' supports 'Picturing and summing up stories'"
+    },
+    {
+      "topicId": "mt_GbisjfWodT",
+      "prerequisiteId": "mt_mLPEMpYb_R",
+      "strength": "hard",
+      "reason": "'Picturing and summing up stories' builds on 'Listening to Texts Read Aloud'"
+    },
+    {
+      "topicId": "mt_gBK8uXQlQW",
+      "prerequisiteId": "mt_1m4J4KOjPy",
+      "strength": "hard",
+      "reason": "'Precise words in presentations' builds on 'Talks with a beginning and end'"
+    },
+    {
+      "topicId": "mt_gBK8uXQlQW",
+      "prerequisiteId": "mt_ds2TOtP8I1",
+      "strength": "hard",
+      "reason": "'Precise words in presentations' builds on 'Reporting & Recounting'"
+    },
+    {
+      "topicId": "mt_gBK8uXQlQW",
+      "prerequisiteId": "mt_WzOyJFKDIu",
+      "strength": "soft",
+      "reason": "'Domain Vocabulary Across Subject Areas' supports 'Precise words in presentations'"
     },
     {
       "topicId": "mt_gbTyzvnWzr",
@@ -8422,6 +8824,12 @@
       "reason": "Drawing regular/irregular polygons benefits from property knowledge"
     },
     {
+      "topicId": "mt_HF1t82HCJu",
+      "prerequisiteId": "mt_gZIo5oiBMt",
+      "strength": "hard",
+      "reason": "'What is this text for?' builds on 'Different Types of Texts'"
+    },
+    {
       "topicId": "mt_HFN1pGASpZ",
       "prerequisiteId": "mt_2oswCNuapH",
       "strength": "hard",
@@ -8786,6 +9194,24 @@
       "prerequisiteId": "mt_Z5-fSCOBep",
       "strength": "hard",
       "reason": "Must define a design problem before generating and comparing multiple solutions"
+    },
+    {
+      "topicId": "mt_hvmqr1qcTU",
+      "prerequisiteId": "mt_furAIwoO9t",
+      "strength": "soft",
+      "reason": "'How Language Choices Affect the Reader' supports 'Puns and playing with words'"
+    },
+    {
+      "topicId": "mt_hvmqr1qcTU",
+      "prerequisiteId": "mt_IoGOSAQ8bz",
+      "strength": "soft",
+      "reason": "'Idioms & Proverbs' supports 'Puns and playing with words'"
+    },
+    {
+      "topicId": "mt_hvmqr1qcTU",
+      "prerequisiteId": "mt_ty63-JSHTC",
+      "strength": "hard",
+      "reason": "'Puns and playing with words' builds on 'Rhythm and sound words'"
     },
     {
       "topicId": "mt_hVpGOEz2kG",
@@ -9586,6 +10012,18 @@
       "reason": "Justified views requires drawing inferences with evidence"
     },
     {
+      "topicId": "mt_ix4nIsZzS3",
+      "prerequisiteId": "mt_7-N8TmQUsB",
+      "strength": "hard",
+      "reason": "'How context shapes responses' builds on 'Reading for history and culture'"
+    },
+    {
+      "topicId": "mt_ix4nIsZzS3",
+      "prerequisiteId": "mt_LCJNRaRXtW",
+      "strength": "soft",
+      "reason": "'Different viewpoints in texts' supports 'How context shapes responses'"
+    },
+    {
       "topicId": "mt_IY3KwGLZgk",
       "prerequisiteId": "mt_AylKwhbDWM",
       "strength": "hard",
@@ -9826,6 +10264,18 @@
       "reason": "Understanding human impact requires ecosystem systems thinking"
     },
     {
+      "topicId": "mt_j89i4u2fKr",
+      "prerequisiteId": "mt_4GiE83rJF_",
+      "strength": "soft",
+      "reason": "'Rhyming words' supports 'Spotting and making alliteration'"
+    },
+    {
+      "topicId": "mt_j89i4u2fKr",
+      "prerequisiteId": "mt_PvU3eoikev",
+      "strength": "hard",
+      "reason": "'Spotting and making alliteration' builds on 'Onsets & Rimes'"
+    },
+    {
       "topicId": "mt_j8Pv3s7TZR",
       "prerequisiteId": "mt_i1kk9HDctI",
       "strength": "hard",
@@ -9884,6 +10334,18 @@
       "prerequisiteId": "mt_Wx5m6mwkpj",
       "strength": "soft",
       "reason": "Plant adaptations (buttress roots in thin soil) connect to the poor-soil paradox"
+    },
+    {
+      "topicId": "mt_JcLwbDGGvJ",
+      "prerequisiteId": "mt_nePS3LNvBy",
+      "strength": "hard",
+      "reason": "'Same topic, different texts' builds on 'Stories, facts and persuading'"
+    },
+    {
+      "topicId": "mt_JcLwbDGGvJ",
+      "prerequisiteId": "mt_qUKddG0UYv",
+      "strength": "hard",
+      "reason": "'Same topic, different texts' builds on 'Pictures in stories and fact books'"
     },
     {
       "topicId": "mt_jCy07DyBNU",
@@ -10193,6 +10655,12 @@
     },
     {
       "topicId": "mt_JVVKT-_AD9",
+      "prerequisiteId": "mt__CFtXgDaEL",
+      "strength": "soft",
+      "reason": "'Headlines, menus and links online' supports 'Using Multiple Sources'"
+    },
+    {
+      "topicId": "mt_JVVKT-_AD9",
       "prerequisiteId": "mt_Cqm8iy48UI",
       "strength": "soft",
       "reason": "Cross-subject: drawing on information from multiple print/digital sources benefits from the ability to read and interpret tables"
@@ -10214,6 +10682,18 @@
       "prerequisiteId": "mt_uUa6cgv8zV",
       "strength": "hard",
       "reason": "Earth's layers builds on knowing Earth is made of rock"
+    },
+    {
+      "topicId": "mt_JWjSZNk1Qy",
+      "prerequisiteId": "mt_HF1t82HCJu",
+      "strength": "hard",
+      "reason": "'Who is this text for?' builds on 'What is this text for?'"
+    },
+    {
+      "topicId": "mt_JWjSZNk1Qy",
+      "prerequisiteId": "mt_nePS3LNvBy",
+      "strength": "hard",
+      "reason": "'Who is this text for?' builds on 'Stories, facts and persuading'"
     },
     {
       "topicId": "mt_JwP9QFv6gQ",
@@ -10268,6 +10748,24 @@
       "prerequisiteId": "mt_-hTTat0mBR",
       "strength": "hard",
       "reason": "Halves of events require understanding a half as one of two equal parts"
+    },
+    {
+      "topicId": "mt_k0-aLFge4X",
+      "prerequisiteId": "mt_2_fB4LuVwc",
+      "strength": "hard",
+      "reason": "'Language that builds relationships' builds on 'Language for different roles'"
+    },
+    {
+      "topicId": "mt_k0-aLFge4X",
+      "prerequisiteId": "mt_86DyHo9zO3",
+      "strength": "hard",
+      "reason": "'Language that builds relationships' builds on 'Formal and Informal English'"
+    },
+    {
+      "topicId": "mt_k0-aLFge4X",
+      "prerequisiteId": "mt_sXRHr7tfS5",
+      "strength": "soft",
+      "reason": "'Engaging Listeners and Valuing Viewpoints' supports 'Language that builds relationships'"
     },
     {
       "topicId": "mt_K0mZxY2AM8",
@@ -10732,6 +11230,24 @@
       "reason": "Must understand tundra to compare terrestrial Arctic vs marine Antarctic"
     },
     {
+      "topicId": "mt_KpBg1_T_84",
+      "prerequisiteId": "mt_4GiE83rJF_",
+      "strength": "hard",
+      "reason": "'Inventing rhymes and alliteration' builds on 'Rhyming words'"
+    },
+    {
+      "topicId": "mt_KpBg1_T_84",
+      "prerequisiteId": "mt_j89i4u2fKr",
+      "strength": "hard",
+      "reason": "'Inventing rhymes and alliteration' builds on 'Spotting and making alliteration'"
+    },
+    {
+      "topicId": "mt_KpBg1_T_84",
+      "prerequisiteId": "mt_OTFABm2xdf",
+      "strength": "soft",
+      "reason": "'Rhythm in rhymes and songs' supports 'Inventing rhymes and alliteration'"
+    },
+    {
       "topicId": "mt_Kr3IyA6m-O",
       "prerequisiteId": "mt_cFltwUQi-d",
       "strength": "hard",
@@ -10940,6 +11456,18 @@
       "prerequisiteId": "mt_MFfYcnv6Tv",
       "strength": "hard",
       "reason": "Relating angles to right angles and full turns requires understanding turns"
+    },
+    {
+      "topicId": "mt_lC0gkyimcr",
+      "prerequisiteId": "mt_ntqNLHsj5n",
+      "strength": "soft",
+      "reason": "'Commas in lists' supports 'Capital letters in titles'"
+    },
+    {
+      "topicId": "mt_lC0gkyimcr",
+      "prerequisiteId": "mt_uM6q_KBWKy",
+      "strength": "hard",
+      "reason": "'Capital letters in titles' builds on 'Capitals for Names, Days and I'"
     },
     {
       "topicId": "mt_lcf8lx-LkZ",
@@ -11174,6 +11702,12 @@
       "prerequisiteId": "mt_FGCFUCqJBB",
       "strength": "hard",
       "reason": "Choosing words for effect builds on oral rehearsal and vocabulary building"
+    },
+    {
+      "topicId": "mt_LMX-nZETLM",
+      "prerequisiteId": "mt_vPmPulZtJG",
+      "strength": "soft",
+      "reason": "'Words that show characters and places' supports 'Vivid Word Choices'"
     },
     {
       "topicId": "mt_lMz9nAs7VO",
@@ -11818,6 +12352,18 @@
       "reason": "Ordering and comparing numbers over 1000 requires the full 10,000 representations toolkit"
     },
     {
+      "topicId": "mt_MIA4wfENUm",
+      "prerequisiteId": "mt_f7RadQGOnQ",
+      "strength": "hard",
+      "reason": "'Hyperbole and emotive language' builds on 'Personification and sound devices'"
+    },
+    {
+      "topicId": "mt_MIA4wfENUm",
+      "prerequisiteId": "mt_IoGOSAQ8bz",
+      "strength": "hard",
+      "reason": "'Hyperbole and emotive language' builds on 'Idioms & Proverbs'"
+    },
+    {
       "topicId": "mt_miGrca8zaS",
       "prerequisiteId": "mt_i1kk9HDctI",
       "strength": "soft",
@@ -12058,6 +12604,12 @@
       "reason": "Four-digit columnar methods extend three-digit columnar methods"
     },
     {
+      "topicId": "mt_mpzmwTktqF",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "soft",
+      "reason": "'Listening and responding' supports 'Home talk and school talk'"
+    },
+    {
       "topicId": "mt_mQcWGh02no",
       "prerequisiteId": "mt_e4x3l2JeLI",
       "strength": "soft",
@@ -12134,6 +12686,24 @@
       "prerequisiteId": "mt_s2mfRBoTal",
       "strength": "hard",
       "reason": "Adding/subtracting to 20 procedurally requires knowing the number bonds"
+    },
+    {
+      "topicId": "mt_M-S5oQhxYa",
+      "prerequisiteId": "mt_JWjSZNk1Qy",
+      "strength": "hard",
+      "reason": "'Same purpose, different audience' builds on 'Who is this text for?'"
+    },
+    {
+      "topicId": "mt_mSpJK-rKW_",
+      "prerequisiteId": "mt_4IxR66uGLc",
+      "strength": "hard",
+      "reason": "'How sound creates meaning in poems' builds on 'Poems, Drama & Prose'"
+    },
+    {
+      "topicId": "mt_mSpJK-rKW_",
+      "prerequisiteId": "mt_f7RadQGOnQ",
+      "strength": "hard",
+      "reason": "'How sound creates meaning in poems' builds on 'Personification and sound devices'"
     },
     {
       "topicId": "mt_mTpV-0rtkO",
@@ -12508,6 +13078,24 @@
       "reason": "Insects as pollinators/decomposers are key to understanding ecosystem services"
     },
     {
+      "topicId": "mt_nePS3LNvBy",
+      "prerequisiteId": "mt_91f1XFvGZq",
+      "strength": "soft",
+      "reason": "'Writing opinions' supports 'Stories, facts and persuading'"
+    },
+    {
+      "topicId": "mt_nePS3LNvBy",
+      "prerequisiteId": "mt_gZIo5oiBMt",
+      "strength": "hard",
+      "reason": "'Stories, facts and persuading' builds on 'Different Types of Texts'"
+    },
+    {
+      "topicId": "mt_nePS3LNvBy",
+      "prerequisiteId": "mt_HF1t82HCJu",
+      "strength": "hard",
+      "reason": "'Stories, facts and persuading' builds on 'What is this text for?'"
+    },
+    {
       "topicId": "mt_nFBLNoChD0",
       "prerequisiteId": "mt_18qkgxr_-T",
       "strength": "hard",
@@ -12548,6 +13136,24 @@
       "prerequisiteId": "mt_XMz_ohNjYO",
       "strength": "soft",
       "reason": "Alexander's conquests explain how Greek ideas spread"
+    },
+    {
+      "topicId": "mt_-nj-DnW4uU",
+      "prerequisiteId": "mt_7DEMuNxUTh",
+      "strength": "hard",
+      "reason": "'Reading and spelling consonant blends' builds on 'Segmenting consonant clusters'"
+    },
+    {
+      "topicId": "mt_-nj-DnW4uU",
+      "prerequisiteId": "mt_9-OHslmt1g",
+      "strength": "soft",
+      "reason": "'Consonant Digraphs' supports 'Reading and spelling consonant blends'"
+    },
+    {
+      "topicId": "mt_-nj-DnW4uU",
+      "prerequisiteId": "mt__KHQttMde3",
+      "strength": "hard",
+      "reason": "'Reading and spelling consonant blends' builds on 'Blending Sounds to Read Words'"
     },
     {
       "topicId": "mt_nKS_vCYrg3",
@@ -12754,6 +13360,24 @@
       "reason": "KS3 3D shape properties extend KS2 identifying 3D shapes from 2D representations"
     },
     {
+      "topicId": "mt_nrXT7pDpG6",
+      "prerequisiteId": "mt_BhYJZUsErp",
+      "strength": "soft",
+      "reason": "'Segmenting words into sounds' supports 'Writing and fixing together'"
+    },
+    {
+      "topicId": "mt_nrXT7pDpG6",
+      "prerequisiteId": "mt_OyOYHlZ2_T",
+      "strength": "soft",
+      "reason": "'Responding to Writing Feedback' supports 'Writing and fixing together'"
+    },
+    {
+      "topicId": "mt_nrXT7pDpG6",
+      "prerequisiteId": "mt_QEr24lqzvH",
+      "strength": "hard",
+      "reason": "'Writing and fixing together' builds on 'Starting and Ending Sentences'"
+    },
+    {
       "topicId": "mt_NSC3LT_-ch",
       "prerequisiteId": "mt_6oxQPNLHNv",
       "strength": "hard",
@@ -12764,6 +13388,18 @@
       "prerequisiteId": "mt_mFJ-2ZF6Tk",
       "strength": "soft",
       "reason": "Year 4 estimating and comparing measures gives practice in judging sensible amounts before measuring"
+    },
+    {
+      "topicId": "mt_NTAc_EMeHZ",
+      "prerequisiteId": "mt_cB_j7towTD",
+      "strength": "hard",
+      "reason": "'Borrowing from books you've read' builds on 'Making new versions of stories'"
+    },
+    {
+      "topicId": "mt_NTAc_EMeHZ",
+      "prerequisiteId": "mt_vauULTecMH",
+      "strength": "hard",
+      "reason": "'Borrowing from books you've read' builds on 'Narrative Writing'"
     },
     {
       "topicId": "mt_nTL-owFJTF",
@@ -13450,6 +14086,18 @@
       "reason": "Must know animal groups before learning about offspring and life stages"
     },
     {
+      "topicId": "mt_ORlMNVV4FL",
+      "prerequisiteId": "mt_oX753JF2Ub",
+      "strength": "hard",
+      "reason": "'How image order shapes meaning' builds on 'How images are framed'"
+    },
+    {
+      "topicId": "mt_ORlMNVV4FL",
+      "prerequisiteId": "mt_xsk3iuNVVI",
+      "strength": "soft",
+      "reason": "'Multimedia elements in texts' supports 'How image order shapes meaning'"
+    },
+    {
       "topicId": "mt_Oru08pKlxd",
       "prerequisiteId": "mt_4i-FKXDDXh",
       "strength": "hard",
@@ -13490,6 +14138,18 @@
       "prerequisiteId": "mt_H8OgKZbgGe",
       "strength": "hard",
       "reason": "Deep-sea extreme environment survival depends on symbiosis and mutualistic relationships"
+    },
+    {
+      "topicId": "mt_OTFABm2xdf",
+      "prerequisiteId": "mt_4GiE83rJF_",
+      "strength": "hard",
+      "reason": "'Rhythm in rhymes and songs' builds on 'Rhyming words'"
+    },
+    {
+      "topicId": "mt_OTFABm2xdf",
+      "prerequisiteId": "mt_UvNrOXny1i",
+      "strength": "soft",
+      "reason": "'Syllables' supports 'Rhythm in rhymes and songs'"
     },
     {
       "topicId": "mt_OtShuvs3x8",
@@ -13552,6 +14212,18 @@
       "reason": "Interpreting distance–time graphs requires understanding compound units such as metres per second or km/h"
     },
     {
+      "topicId": "mt_oVnNR1lVv6",
+      "prerequisiteId": "mt_7DEMuNxUTh",
+      "strength": "hard",
+      "reason": "'Adding, deleting and swapping sounds' builds on 'Segmenting consonant clusters'"
+    },
+    {
+      "topicId": "mt_oVnNR1lVv6",
+      "prerequisiteId": "mt_PvU3eoikev",
+      "strength": "hard",
+      "reason": "'Adding, deleting and swapping sounds' builds on 'Onsets & Rimes'"
+    },
+    {
       "topicId": "mt_oVwNnjYPUY",
       "prerequisiteId": "mt_ujwtRoYJ34",
       "strength": "hard",
@@ -13598,6 +14270,24 @@
       "prerequisiteId": "mt_JRzXQl9M7c",
       "strength": "soft",
       "reason": "Dot plots are the main display on which clusters, gaps, peaks and skew are first described; the description also applies to other displays"
+    },
+    {
+      "topicId": "mt_oX753JF2Ub",
+      "prerequisiteId": "mt_KbCCmLmxYN",
+      "strength": "soft",
+      "reason": "'Interpreting visual information in texts' supports 'How images are framed'"
+    },
+    {
+      "topicId": "mt_oX753JF2Ub",
+      "prerequisiteId": "mt_OlhMP7ShFT",
+      "strength": "hard",
+      "reason": "'How images are framed' builds on 'Pictures and Text Working Together'"
+    },
+    {
+      "topicId": "mt_oX753JF2Ub",
+      "prerequisiteId": "mt_qUKddG0UYv",
+      "strength": "hard",
+      "reason": "'How images are framed' builds on 'Pictures in stories and fact books'"
     },
     {
       "topicId": "mt_oxfxzbat3k",
@@ -13766,6 +14456,18 @@
       "prerequisiteId": "mt_cPZwlUk8Nd",
       "strength": "hard",
       "reason": "Using £ and p symbols extends Y1 recognition of coin values"
+    },
+    {
+      "topicId": "mt__PcuXj7_I1",
+      "prerequisiteId": "mt_aVZJhPbc_1",
+      "strength": "soft",
+      "reason": "'Text Features & Presentation' supports 'Layout and navigation words online'"
+    },
+    {
+      "topicId": "mt__PcuXj7_I1",
+      "prerequisiteId": "mt_YrDlg_J4kQ",
+      "strength": "hard",
+      "reason": "'Layout and navigation words online' builds on 'Menus and links on websites'"
     },
     {
       "topicId": "mt_PCX1jZZnf9",
@@ -14104,6 +14806,24 @@
       "reason": "Advanced Egyptian state organisation and labour administration depends on pyramid building and engineering knowledge"
     },
     {
+      "topicId": "mt_Pp_pizml7n",
+      "prerequisiteId": "mt_OlhMP7ShFT",
+      "strength": "soft",
+      "reason": "'Pictures and Text Working Together' supports 'Words and pictures in Australian stories'"
+    },
+    {
+      "topicId": "mt_Pp_pizml7n",
+      "prerequisiteId": "mt_sSQlLOnAow",
+      "strength": "hard",
+      "reason": "'Words and pictures in Australian stories' builds on 'Characters, settings, and events'"
+    },
+    {
+      "topicId": "mt_Pp_pizml7n",
+      "prerequisiteId": "mt__sYpBrdzcp",
+      "strength": "hard",
+      "reason": "'Words and pictures in Australian stories' builds on 'Sharing ideas about Australian stories'"
+    },
+    {
       "topicId": "mt_PpWSHA-0kv",
       "prerequisiteId": "mt_OvyoRo47K-",
       "strength": "hard",
@@ -14120,6 +14840,24 @@
       "prerequisiteId": "mt_zuKAX6lcYR",
       "strength": "hard",
       "reason": "Counting back as a subtraction strategy requires understanding subtraction"
+    },
+    {
+      "topicId": "mt_PsQdUQBw0D",
+      "prerequisiteId": "mt_gBK8uXQlQW",
+      "strength": "hard",
+      "reason": "'Presenting an argument' builds on 'Precise words in presentations'"
+    },
+    {
+      "topicId": "mt_PsQdUQBw0D",
+      "prerequisiteId": "mt_V6456X6pJE",
+      "strength": "soft",
+      "reason": "'Fact vs opinion' supports 'Presenting an argument'"
+    },
+    {
+      "topicId": "mt_PsQdUQBw0D",
+      "prerequisiteId": "mt_WKxX-b86Vr",
+      "strength": "hard",
+      "reason": "'Presenting an argument' builds on 'Structured Opinion Writing'"
     },
     {
       "topicId": "mt_Psun-u_lPf",
@@ -14222,6 +14960,18 @@
       "prerequisiteId": "mt_NDZYiLvApW",
       "strength": "soft",
       "reason": "Conservation aims to protect biodiversity"
+    },
+    {
+      "topicId": "mt_pxIoWWZy8L",
+      "prerequisiteId": "mt_1KCwbGvm1F",
+      "strength": "hard",
+      "reason": "'Reading on a screen' builds on 'Understanding print'"
+    },
+    {
+      "topicId": "mt_pxIoWWZy8L",
+      "prerequisiteId": "mt_XeMZdf2Y9W",
+      "strength": "soft",
+      "reason": "'Book Features and Author's Reasons' supports 'Reading on a screen'"
     },
     {
       "topicId": "mt_-p_xp4hMvh",
@@ -14332,6 +15082,24 @@
       "reason": "Title formatting relates to quotation mark use"
     },
     {
+      "topicId": "mt_q2jwCeUZ9s",
+      "prerequisiteId": "mt__MDiDU9Vck",
+      "strength": "soft",
+      "reason": "'Writing to inform' supports 'How recounts and reports are organised'"
+    },
+    {
+      "topicId": "mt_q2jwCeUZ9s",
+      "prerequisiteId": "mt_ZhUuT__i2H",
+      "strength": "hard",
+      "reason": "'How recounts and reports are organised' builds on 'Non-Fiction Text Features'"
+    },
+    {
+      "topicId": "mt_q2jwCeUZ9s",
+      "prerequisiteId": "mt_zlSoIKPyId",
+      "strength": "soft",
+      "reason": "'Retelling Stories with Structure' supports 'How recounts and reports are organised'"
+    },
+    {
       "topicId": "mt_Q2k3fSwyzQ",
       "prerequisiteId": "mt_3WMADSy0mA",
       "strength": "hard",
@@ -14378,6 +15146,24 @@
       "prerequisiteId": "mt_TDUpy57QVM",
       "strength": "hard",
       "reason": "Evaluating whether a strategy helped requires being able to analyse what went wrong when it didn't"
+    },
+    {
+      "topicId": "mt__q8ln4Lvf7",
+      "prerequisiteId": "mt_gBK8uXQlQW",
+      "strength": "hard",
+      "reason": "'Technical words in presentations' builds on 'Precise words in presentations'"
+    },
+    {
+      "topicId": "mt__q8ln4Lvf7",
+      "prerequisiteId": "mt_PsQdUQBw0D",
+      "strength": "hard",
+      "reason": "'Technical words in presentations' builds on 'Presenting an argument'"
+    },
+    {
+      "topicId": "mt__q8ln4Lvf7",
+      "prerequisiteId": "mt_VtqvUORa8K",
+      "strength": "soft",
+      "reason": "'Multimedia Presentations' supports 'Technical words in presentations'"
     },
     {
       "topicId": "mt_q9EaJc2FP8",
@@ -14450,6 +15236,18 @@
       "prerequisiteId": "mt_aFvsj35QzC",
       "strength": "hard",
       "reason": "Multi-paragraph main idea analysis builds on identifying main topic and key details in simpler texts"
+    },
+    {
+      "topicId": "mt_qdd0t4Sj6A",
+      "prerequisiteId": "mt_Pp_pizml7n",
+      "strength": "hard",
+      "reason": "'How characters and places connect' builds on 'Words and pictures in Australian stories'"
+    },
+    {
+      "topicId": "mt_qdd0t4Sj6A",
+      "prerequisiteId": "mt_sSQlLOnAow",
+      "strength": "hard",
+      "reason": "'How characters and places connect' builds on 'Characters, settings, and events'"
     },
     {
       "topicId": "mt_QdMMLRYWhn",
@@ -14836,10 +15634,34 @@
       "reason": "Repeated addition is used to total equal groups"
     },
     {
+      "topicId": "mt_qUKddG0UYv",
+      "prerequisiteId": "mt_gZIo5oiBMt",
+      "strength": "soft",
+      "reason": "'Different Types of Texts' supports 'Pictures in stories and fact books'"
+    },
+    {
+      "topicId": "mt_qUKddG0UYv",
+      "prerequisiteId": "mt_OlhMP7ShFT",
+      "strength": "hard",
+      "reason": "'Pictures in stories and fact books' builds on 'Pictures and Text Working Together'"
+    },
+    {
       "topicId": "mt_qw6mhOl-Qy",
       "prerequisiteId": "mt_T6nrrf2K43",
       "strength": "hard",
       "reason": "Verb prefixes (dis-, de-, mis-, over-, re-) build on general prefix knowledge from Y3-4; learners must understand how prefixes modify root words before applying this specifically to verbs"
+    },
+    {
+      "topicId": "mt_QwCjG9Pexc",
+      "prerequisiteId": "mt_0wUwxyBs5y",
+      "strength": "soft",
+      "reason": "'Commas After Introductory Elements' supports 'Apostrophes for shared ownership'"
+    },
+    {
+      "topicId": "mt_QwCjG9Pexc",
+      "prerequisiteId": "mt_HdI1y5KsBl",
+      "strength": "hard",
+      "reason": "'Apostrophes for shared ownership' builds on 'Apostrophes for possession (age 7+)'"
     },
     {
       "topicId": "mt_QwWo6an9N1",
@@ -15184,6 +16006,18 @@
       "reason": "Single-unit bar graphs are prerequisite to scaled bar graphs"
     },
     {
+      "topicId": "mt_r-BgS-lqTe",
+      "prerequisiteId": "mt_f8n4txtLej",
+      "strength": "hard",
+      "reason": "'Giving and following instructions' builds on 'Asking Questions'"
+    },
+    {
+      "topicId": "mt_r-BgS-lqTe",
+      "prerequisiteId": "mt_mB7DVai-Uf",
+      "strength": "hard",
+      "reason": "'Giving and following instructions' builds on 'Listening and responding'"
+    },
+    {
       "topicId": "mt_rbPioPELM1",
       "prerequisiteId": "mt_UKmtuAsSLN",
       "strength": "hard",
@@ -15352,6 +16186,12 @@
       "reason": "Understanding rules benefits from knowing right/wrong"
     },
     {
+      "topicId": "mt_rKwE6w2V6G",
+      "prerequisiteId": "mt_fruAJ2RaRT",
+      "strength": "hard",
+      "reason": "'Texts as clues to their time' builds on 'Old and new texts compared'"
+    },
+    {
       "topicId": "mt_RlILL2sccX",
       "prerequisiteId": "mt_B3W5EfimJw",
       "strength": "hard",
@@ -15422,6 +16262,18 @@
       "prerequisiteId": "mt_SsS7GptD_o",
       "strength": "hard",
       "reason": "Must understand money as exchange medium before practising transactions"
+    },
+    {
+      "topicId": "mt_RNYNrRMqKL",
+      "prerequisiteId": "mt_E5KC4AnRLW",
+      "strength": "soft",
+      "reason": "'Reading between the lines' supports 'Making pictures in your head'"
+    },
+    {
+      "topicId": "mt_RNYNrRMqKL",
+      "prerequisiteId": "mt_GbisjfWodT",
+      "strength": "hard",
+      "reason": "'Making pictures in your head' builds on 'Picturing and summing up stories'"
     },
     {
       "topicId": "mt_roAgL1rQRF",
@@ -15838,6 +16690,18 @@
       "reason": "KS3 detailed diet components extend KS2 understanding that animals need the right nutrition"
     },
     {
+      "topicId": "mt_Sg-jC5f9L6",
+      "prerequisiteId": "mt_5zTlbDWkDI",
+      "strength": "hard",
+      "reason": "'Stages of speeches and videos' builds on 'Stages of texts across subjects'"
+    },
+    {
+      "topicId": "mt_Sg-jC5f9L6",
+      "prerequisiteId": "mt_xsk3iuNVVI",
+      "strength": "soft",
+      "reason": "'Multimedia elements in texts' supports 'Stages of speeches and videos'"
+    },
+    {
       "topicId": "mt_ShAptVcQR3",
       "prerequisiteId": "mt_hsN-YvCNQY",
       "strength": "hard",
@@ -15994,6 +16858,24 @@
       "reason": "Plotting points requires understanding the coordinate system"
     },
     {
+      "topicId": "mt_So_5wBv8fI",
+      "prerequisiteId": "mt_DMvKfP4uGC",
+      "strength": "soft",
+      "reason": "'Letter Formation Families' supports 'Writing neatly at a steady pace'"
+    },
+    {
+      "topicId": "mt_So_5wBv8fI",
+      "prerequisiteId": "mt_H7DquwQi_F",
+      "strength": "hard",
+      "reason": "'Writing neatly at a steady pace' builds on 'Forming Capital Letters'"
+    },
+    {
+      "topicId": "mt_So_5wBv8fI",
+      "prerequisiteId": "mt_WBfj79OqXz",
+      "strength": "hard",
+      "reason": "'Writing neatly at a steady pace' builds on 'Sitting and holding a pencil'"
+    },
+    {
       "topicId": "mt_SoDP1fSQEB",
       "prerequisiteId": "mt_wPgpMJ0-PA",
       "strength": "hard",
@@ -16040,6 +16922,18 @@
       "prerequisiteId": "mt_ytUG3yjCYt",
       "strength": "hard",
       "reason": "Understanding zones requires knowing ocean has diverse life at different depths"
+    },
+    {
+      "topicId": "mt_sQYvGbYD1I",
+      "prerequisiteId": "mt_1KCwbGvm1F",
+      "strength": "soft",
+      "reason": "'Understanding print' supports 'Texts are everywhere'"
+    },
+    {
+      "topicId": "mt_sQYvGbYD1I",
+      "prerequisiteId": "mt_gZIo5oiBMt",
+      "strength": "hard",
+      "reason": "'Texts are everywhere' builds on 'Different Types of Texts'"
     },
     {
       "topicId": "mt_SrmHaJXKrX",
@@ -16144,6 +17038,18 @@
       "reason": "Same-numerator/denom comparison is prerequisite to different-denom comparison"
     },
     {
+      "topicId": "mt_sxcE47yOvd",
+      "prerequisiteId": "mt_DcSMuVWgKU",
+      "strength": "hard",
+      "reason": "'Flashback, foreshadowing and more' builds on 'Trying figurative language in writing'"
+    },
+    {
+      "topicId": "mt_sxcE47yOvd",
+      "prerequisiteId": "mt_j6ENpc8--_",
+      "strength": "hard",
+      "reason": "'Flashback, foreshadowing and more' builds on 'Planning Narratives'"
+    },
+    {
       "topicId": "mt_sXRHr7tfS5",
       "prerequisiteId": "mt_6eTZUwKQZr",
       "strength": "soft",
@@ -16166,6 +17072,18 @@
       "prerequisiteId": "mt_ZBMcX2oRor",
       "strength": "soft",
       "reason": "Reciting/presenting skills support engaging an audience"
+    },
+    {
+      "topicId": "mt__sYpBrdzcp",
+      "prerequisiteId": "mt_5n-O41lUgn",
+      "strength": "soft",
+      "reason": "'Connecting reading to experience' supports 'Sharing ideas about Australian stories'"
+    },
+    {
+      "topicId": "mt__sYpBrdzcp",
+      "prerequisiteId": "mt_thsY1ZesaU",
+      "strength": "hard",
+      "reason": "'Sharing ideas about Australian stories' builds on 'Discussing Texts as a Group'"
     },
     {
       "topicId": "mt_sYpKWbq5ra",
@@ -16220,6 +17138,18 @@
       "prerequisiteId": "mt_IfEgu0X449",
       "strength": "soft",
       "reason": "Expressing probability as fractions, decimals, and percentages requires comparing and ordering fractions — a skill built in the Fractions domain"
+    },
+    {
+      "topicId": "mt_T0jF7ylSvV",
+      "prerequisiteId": "mt_enj1sMcfOT",
+      "strength": "soft",
+      "reason": "'Past, Present and Progressive Tense' supports 'Quoted and reported speech'"
+    },
+    {
+      "topicId": "mt_T0jF7ylSvV",
+      "prerequisiteId": "mt_-mw3JeIjhU",
+      "strength": "hard",
+      "reason": "'Quoted and reported speech' builds on 'Punctuating Direct Speech'"
     },
     {
       "topicId": "mt_t1JXeNgKcu",
@@ -16406,6 +17336,24 @@
       "prerequisiteId": "mt_OnV_DTp5i8",
       "strength": "soft",
       "reason": "Migration patterns connect to food web dynamics and seasonal food availability"
+    },
+    {
+      "topicId": "mt_TffvIu6VgG",
+      "prerequisiteId": "mt_4GiE83rJF_",
+      "strength": "hard",
+      "reason": "'What holds a poem together' builds on 'Rhyming words'"
+    },
+    {
+      "topicId": "mt_TffvIu6VgG",
+      "prerequisiteId": "mt_OTFABm2xdf",
+      "strength": "hard",
+      "reason": "'What holds a poem together' builds on 'Rhythm in rhymes and songs'"
+    },
+    {
+      "topicId": "mt_TffvIu6VgG",
+      "prerequisiteId": "mt_YNe6siFTFq",
+      "strength": "soft",
+      "reason": "'Writing Poetry' supports 'What holds a poem together'"
     },
     {
       "topicId": "mt_TfOiog-ALs",
@@ -16810,6 +17758,24 @@
       "reason": "Newton's laws explain why friction and air resistance slow objects down — the KS2 observation of resistance now has a theoretical explanation"
     },
     {
+      "topicId": "mt_ty63-JSHTC",
+      "prerequisiteId": "mt_fL1Xz8ostr",
+      "strength": "soft",
+      "reason": "'Expressive and Sensory Language' supports 'Rhythm and sound words'"
+    },
+    {
+      "topicId": "mt_ty63-JSHTC",
+      "prerequisiteId": "mt_gR5_n99Ntt",
+      "strength": "soft",
+      "reason": "'Forms of Poetry and Performance' supports 'Rhythm and sound words'"
+    },
+    {
+      "topicId": "mt_ty63-JSHTC",
+      "prerequisiteId": "mt_TffvIu6VgG",
+      "strength": "hard",
+      "reason": "'Rhythm and sound words' builds on 'What holds a poem together'"
+    },
+    {
       "topicId": "mt_tzMr83pS8v",
       "prerequisiteId": "mt_bPFToj0OhZ",
       "strength": "hard",
@@ -16958,6 +17924,18 @@
       "prerequisiteId": "mt_iFFKZd-Vgv",
       "strength": "hard",
       "reason": "Comparing and ordering likelihoods requires first knowing the vocabulary of likelihood (certain, likely, unlikely, impossible)"
+    },
+    {
+      "topicId": "mt_UcmVDMgFGX",
+      "prerequisiteId": "mt_qdd0t4Sj6A",
+      "strength": "hard",
+      "reason": "'Stories from different places and times' builds on 'How characters and places connect'"
+    },
+    {
+      "topicId": "mt_UcmVDMgFGX",
+      "prerequisiteId": "mt_tX0R4-4WXy",
+      "strength": "soft",
+      "reason": "'Themes Across Cultures and Traditions' supports 'Stories from different places and times'"
     },
     {
       "topicId": "mt_udgPy5oAvR",
@@ -17236,6 +18214,18 @@
       "reason": "Describing translations on a grid requires the grid-based transformation diagram representation"
     },
     {
+      "topicId": "mt_uQI6mhU6hW",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "hard",
+      "reason": "'Skimming, scanning and checking' builds on 'Using Multiple Sources'"
+    },
+    {
+      "topicId": "mt_uQI6mhU6hW",
+      "prerequisiteId": "mt_rQ2YJJi4uh",
+      "strength": "hard",
+      "reason": "'Skimming, scanning and checking' builds on 'Self-Correcting While Reading'"
+    },
+    {
       "topicId": "mt_uQljqc0J5j",
       "prerequisiteId": "mt_BnabTHkNIp",
       "strength": "soft",
@@ -17500,6 +18490,18 @@
       "reason": "Same-denom add/sub is prerequisite to related-denom add/sub"
     },
     {
+      "topicId": "mt_v9qTyarbgE",
+      "prerequisiteId": "mt_9-OHslmt1g",
+      "strength": "hard",
+      "reason": "'Sound games with clusters and digraphs' builds on 'Consonant Digraphs'"
+    },
+    {
+      "topicId": "mt_v9qTyarbgE",
+      "prerequisiteId": "mt_oVnNR1lVv6",
+      "strength": "hard",
+      "reason": "'Sound games with clusters and digraphs' builds on 'Adding, deleting and swapping sounds'"
+    },
+    {
       "topicId": "mt_V9SQS9gLFw",
       "prerequisiteId": "mt_7hB8s5eOP1",
       "strength": "soft",
@@ -17567,6 +18569,12 @@
     },
     {
       "topicId": "mt_vauULTecMH",
+      "prerequisiteId": "mt_cB_j7towTD",
+      "strength": "soft",
+      "reason": "'Making new versions of stories' supports 'Narrative Writing'"
+    },
+    {
+      "topicId": "mt_vauULTecMH",
       "prerequisiteId": "mt_nDAcXoPa0c",
       "strength": "hard",
       "reason": "Developed narrative with settings/characters/plot builds on simple sequential narrative writing"
@@ -17594,6 +18602,24 @@
       "prerequisiteId": "mt_ZL9qVVnpwN",
       "strength": "hard",
       "reason": "Must understand how sound works before designing a communication device using it"
+    },
+    {
+      "topicId": "mt_vC-_ESyMut",
+      "prerequisiteId": "mt_E5KC4AnRLW",
+      "strength": "hard",
+      "reason": "'Understanding and judging films' builds on 'Reading between the lines'"
+    },
+    {
+      "topicId": "mt_vC-_ESyMut",
+      "prerequisiteId": "mt_RNYNrRMqKL",
+      "strength": "hard",
+      "reason": "'Understanding and judging films' builds on 'Making pictures in your head'"
+    },
+    {
+      "topicId": "mt_vC-_ESyMut",
+      "prerequisiteId": "mt_ukLvUD8DFA",
+      "strength": "soft",
+      "reason": "'Inferring Characters' Feelings and Motives' supports 'Understanding and judging films'"
     },
     {
       "topicId": "mt_VEwM7ClYYE",
@@ -17726,6 +18752,30 @@
       "prerequisiteId": "mt_YB0qF5KX9C",
       "strength": "hard",
       "reason": "Describing how energy and fuels affect the environment requires 'renewable', 'non-renewable', and 'fossil fuel' vocabulary"
+    },
+    {
+      "topicId": "mt_VitRPAsDik",
+      "prerequisiteId": "mt_5FREdVoS8s",
+      "strength": "hard",
+      "reason": "'Media texts and their context' builds on 'Multiple Accounts of Events'"
+    },
+    {
+      "topicId": "mt_VitRPAsDik",
+      "prerequisiteId": "mt_rKwE6w2V6G",
+      "strength": "hard",
+      "reason": "'Media texts and their context' builds on 'Texts as clues to their time'"
+    },
+    {
+      "topicId": "mt_VJEQ32O0Ae",
+      "prerequisiteId": "mt_JWjSZNk1Qy",
+      "strength": "hard",
+      "reason": "'Clues to audience and purpose' builds on 'Who is this text for?'"
+    },
+    {
+      "topicId": "mt_VJEQ32O0Ae",
+      "prerequisiteId": "mt_OltpfaX7l6",
+      "strength": "soft",
+      "reason": "'Why the author wrote it' supports 'Clues to audience and purpose'"
     },
     {
       "topicId": "mt_vJO5Bxk4z-",
@@ -17896,10 +18946,40 @@
       "reason": "Must understand buyers and sellers before exploring customer concept in depth"
     },
     {
+      "topicId": "mt_vPmPulZtJG",
+      "prerequisiteId": "mt_fL1Xz8ostr",
+      "strength": "hard",
+      "reason": "'Words that show characters and places' builds on 'Expressive and Sensory Language'"
+    },
+    {
+      "topicId": "mt_vPmPulZtJG",
+      "prerequisiteId": "mt_GLY3R3YSlf",
+      "strength": "hard",
+      "reason": "'Words that show characters and places' builds on 'Comparing Characters Across Stories'"
+    },
+    {
+      "topicId": "mt_VRZawp3oFZ",
+      "prerequisiteId": "mt_02DH7sGXCi",
+      "strength": "hard",
+      "reason": "'Fast, legible joined writing' builds on 'Joining Letters'"
+    },
+    {
+      "topicId": "mt_VRZawp3oFZ",
+      "prerequisiteId": "mt_So_5wBv8fI",
+      "strength": "hard",
+      "reason": "'Fast, legible joined writing' builds on 'Writing neatly at a steady pace'"
+    },
+    {
       "topicId": "mt_-vsLvsxp0L",
       "prerequisiteId": "mt_v3Vz_Pgjjv",
       "strength": "hard",
       "reason": "Animal babies builds on knowing animals live in diverse environments"
+    },
+    {
+      "topicId": "mt_VtqvUORa8K",
+      "prerequisiteId": "mt_AHXePdicRf",
+      "strength": "soft",
+      "reason": "'Making multimodal texts' supports 'Multimedia Presentations'"
     },
     {
       "topicId": "mt_VtqvUORa8K",
@@ -18140,6 +19220,18 @@
       "prerequisiteId": "mt_XSp-S0wter",
       "strength": "hard",
       "reason": "Analysing how different materials interact with different EM waves requires understanding the full EM spectrum"
+    },
+    {
+      "topicId": "mt_w5sIW_-T_J",
+      "prerequisiteId": "mt_pxIoWWZy8L",
+      "strength": "hard",
+      "reason": "'Finding your way in digital texts' builds on 'Reading on a screen'"
+    },
+    {
+      "topicId": "mt_w5sIW_-T_J",
+      "prerequisiteId": "mt_ZhUuT__i2H",
+      "strength": "soft",
+      "reason": "'Non-Fiction Text Features' supports 'Finding your way in digital texts'"
     },
     {
       "topicId": "mt_w6MxaaoMXZ",
@@ -18440,6 +19532,18 @@
       "prerequisiteId": "mt_XLP1IM3Qbb",
       "strength": "soft",
       "reason": "Checking division with multiplication requires fluent multiplication"
+    },
+    {
+      "topicId": "mt_wtbCz5hBdw",
+      "prerequisiteId": "mt_N8CpN1EJrP",
+      "strength": "hard",
+      "reason": "'Simple sentences: one idea' builds on 'Building sentences'"
+    },
+    {
+      "topicId": "mt_wtbCz5hBdw",
+      "prerequisiteId": "mt_YXVQaufkKO",
+      "strength": "soft",
+      "reason": "'Joining Words with 'And'' supports 'Simple sentences: one idea'"
     },
     {
       "topicId": "mt_WtcFrxGOgw",
@@ -19216,6 +20320,12 @@
       "reason": "Multimedia analysis builds on relating illustrations to text"
     },
     {
+      "topicId": "mt_xsk3iuNVVI",
+      "prerequisiteId": "mt_oX753JF2Ub",
+      "strength": "soft",
+      "reason": "'How images are framed' supports 'Multimedia elements in texts'"
+    },
+    {
       "topicId": "mt_XSp-S0wter",
       "prerequisiteId": "mt_LxK9OKZQZX",
       "strength": "hard",
@@ -19298,6 +20408,18 @@
       "prerequisiteId": "mt_x8TshvbbQT",
       "strength": "hard",
       "reason": "Counting and reading/writing to 120 extends from reading/writing numerals to 100"
+    },
+    {
+      "topicId": "mt_xvKvxDXdJj",
+      "prerequisiteId": "mt_of2GggtxFl",
+      "strength": "soft",
+      "reason": "'Spaces Between Words' supports 'Counting words in spoken sentences'"
+    },
+    {
+      "topicId": "mt_xvKvxDXdJj",
+      "prerequisiteId": "mt_UvNrOXny1i",
+      "strength": "soft",
+      "reason": "'Syllables' supports 'Counting words in spoken sentences'"
     },
     {
       "topicId": "mt_xVW5U41tbp",
@@ -19630,6 +20752,24 @@
       "reason": "KS3 graphing (lines of best fit, gradients) extends KS2 ability to construct and interpret line graphs and scatter graphs"
     },
     {
+      "topicId": "mt_yIk_4o0MOa",
+      "prerequisiteId": "mt_aVZJhPbc_1",
+      "strength": "soft",
+      "reason": "'Text Features & Presentation' supports 'How texts in subjects differ'"
+    },
+    {
+      "topicId": "mt_yIk_4o0MOa",
+      "prerequisiteId": "mt_q2jwCeUZ9s",
+      "strength": "hard",
+      "reason": "'How texts in subjects differ' builds on 'How recounts and reports are organised'"
+    },
+    {
+      "topicId": "mt_yIk_4o0MOa",
+      "prerequisiteId": "mt_ZhUuT__i2H",
+      "strength": "hard",
+      "reason": "'How texts in subjects differ' builds on 'Non-Fiction Text Features'"
+    },
+    {
       "topicId": "mt_yJmvUCCym7",
       "prerequisiteId": "mt_PgsHGYJMH-",
       "strength": "hard",
@@ -19736,6 +20876,12 @@
       "prerequisiteId": "mt_fL1Xz8ostr",
       "strength": "soft",
       "reason": "Recognising literary language supports writing poetry"
+    },
+    {
+      "topicId": "mt_YNe6siFTFq",
+      "prerequisiteId": "mt_KpBg1_T_84",
+      "strength": "soft",
+      "reason": "'Inventing rhymes and alliteration' supports 'Writing Poetry'"
     },
     {
       "topicId": "mt_YNe6siFTFq",
@@ -19880,6 +21026,18 @@
       "prerequisiteId": "mt_BI6oGIO-xM",
       "strength": "hard",
       "reason": "Must understand what minibeasts are before learning to name specific ones"
+    },
+    {
+      "topicId": "mt_YrDlg_J4kQ",
+      "prerequisiteId": "mt_w5sIW_-T_J",
+      "strength": "hard",
+      "reason": "'Menus and links on websites' builds on 'Finding your way in digital texts'"
+    },
+    {
+      "topicId": "mt_YrDlg_J4kQ",
+      "prerequisiteId": "mt_ZhUuT__i2H",
+      "strength": "hard",
+      "reason": "'Menus and links on websites' builds on 'Non-Fiction Text Features'"
     },
     {
       "topicId": "mt__YRJ23GuIK",
