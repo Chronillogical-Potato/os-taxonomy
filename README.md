@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,759 · **Prerequisite edges:** 3,659 · **Subjects:** 8
+> **Version:** `v1` · **Topics:** 1,783 · **Prerequisite edges:** 3,722 · **Subjects:** 8
 
 ## See it
 
@@ -15,17 +15,17 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,759 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,659 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,783 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,722 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 710 topics have no research in this release.
+- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 734 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
 
 | Subject | Topics |
 |---|---:|
-| Science | 547 |
+| Science | 571 |
 | Mathematics | 590 |
 | English | 368 |
 | History | 90 |
@@ -67,10 +67,11 @@ Australian English has 630 topic alignments across 267 topics. All
 and review of Australian literature, phonics, comprehension, digital texts,
 multimodal creation and spoken presentations. This batch adds 82 English topics.
 
-Australian Science has 211 topic alignments across 106 topics: 46 of
-its 77 standards are fully covered, 30 partly covered, and 1 missing. Its
-[coverage report](reports/acara-v9-science-coverage.md) lists every standard,
-matched topic and remaining gap.
+Australian Science has 245 topic alignments across 131 topics. All
+77 Foundation–Year 6 content descriptions are fully covered in the
+[coverage report](reports/acara-v9-science-coverage.md), following gap authoring
+and review of practical investigations, measurements, data, scientific
+communication and Australian contexts. This batch adds 24 Science topics.
 
 Australian HASS (Humanities and Social Sciences) has 147 topic alignments across
 68 topics: 39 of its 89 standards are fully covered, 23 partly covered,
@@ -137,7 +138,7 @@ See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It covers **547 Science**
 and **502 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
-make the **710 topics without research** explicit; absence is not a judgement
+make the **734 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
 [`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.

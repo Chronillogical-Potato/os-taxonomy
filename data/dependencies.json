@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3659,
+  "edgeCount": 3722,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -2788,6 +2788,24 @@
       "reason": "Using acquired vocabulary supports recognising register differences"
     },
     {
+      "topicId": "mt_89qLyvE70d",
+      "prerequisiteId": "mt_nUnowllzaN",
+      "strength": "soft",
+      "reason": "'Measuring accurately' supports 'Safe equipment use in fair tests'"
+    },
+    {
+      "topicId": "mt_89qLyvE70d",
+      "prerequisiteId": "mt_qgb76wHN2X",
+      "strength": "hard",
+      "reason": "'Safe equipment use in fair tests' builds on 'Fair testing'"
+    },
+    {
+      "topicId": "mt_89qLyvE70d",
+      "prerequisiteId": "mt_TTH2ouwyTW",
+      "strength": "hard",
+      "reason": "'Safe equipment use in fair tests' builds on 'Safe steps in science tests'"
+    },
+    {
       "topicId": "mt_89riIKwGYp",
       "prerequisiteId": "mt_4MFUAsbx_6",
       "strength": "hard",
@@ -2942,6 +2960,18 @@
       "prerequisiteId": "mt_XLP1IM3Qbb",
       "strength": "soft",
       "reason": "Evaluating expressions requires fluent multiplication"
+    },
+    {
+      "topicId": "mt_8NYqAhHCa-",
+      "prerequisiteId": "mt_m6UaSmrQVG",
+      "strength": "soft",
+      "reason": "'Preventing Erosion' supports 'Fast and slow changes to land'"
+    },
+    {
+      "topicId": "mt_8NYqAhHCa-",
+      "prerequisiteId": "mt_vAP_A986IQ",
+      "strength": "hard",
+      "reason": "'Fast and slow changes to land' builds on 'Erosion and weathering'"
     },
     {
       "topicId": "mt_8OAGVdeTJ_",
@@ -4088,6 +4118,12 @@
       "prerequisiteId": "mt_Lb2ZnMdkYR",
       "strength": "soft",
       "reason": "Distributive law is explicitly used in problem-solving"
+    },
+    {
+      "topicId": "mt_ArVBEpMAPk",
+      "prerequisiteId": "mt_89qLyvE70d",
+      "strength": "soft",
+      "reason": "'Safe equipment use in fair tests' supports 'Controlling variables'"
     },
     {
       "topicId": "mt_ArVBEpMAPk",
@@ -6172,6 +6208,18 @@
       "reason": "Must know circuit components before testing which materials conduct electricity"
     },
     {
+      "topicId": "mt_Dg5lQZFpav",
+      "prerequisiteId": "mt_auVZZEuXjs",
+      "strength": "soft",
+      "reason": "'Describing Material Properties' supports 'Shape and material change movement'"
+    },
+    {
+      "topicId": "mt_Dg5lQZFpav",
+      "prerequisiteId": "mt_B3W5EfimJw",
+      "strength": "hard",
+      "reason": "'Shape and material change movement' builds on 'Pushes & Pulls'"
+    },
+    {
       "topicId": "mt_dgheXIYAD-",
       "prerequisiteId": "mt_70Ys4i1AB1",
       "strength": "soft",
@@ -6764,6 +6812,24 @@
       "prerequisiteId": "mt_QqG6IdmTSE",
       "strength": "hard",
       "reason": "×10 both directions extends Y5 ×10 relationship"
+    },
+    {
+      "topicId": "mt_E-E8z9ZZOz",
+      "prerequisiteId": "mt_dJOKkYMsCv",
+      "strength": "soft",
+      "reason": "'Ordering numbers to 20' supports 'Ordering data and simple models'"
+    },
+    {
+      "topicId": "mt_E-E8z9ZZOz",
+      "prerequisiteId": "mt_SwaNNdm_Ks",
+      "strength": "soft",
+      "reason": "'Grouping Materials' supports 'Ordering data and simple models'"
+    },
+    {
+      "topicId": "mt_E-E8z9ZZOz",
+      "prerequisiteId": "mt_ZFwPZaDJ0_",
+      "strength": "hard",
+      "reason": "'Ordering data and simple models' builds on 'Recording Data'"
     },
     {
       "topicId": "mt_EedcpioR0v",
@@ -7466,6 +7532,24 @@
       "prerequisiteId": "mt_K0mZxY2AM8",
       "strength": "hard",
       "reason": "Must observe sun/moon/star patterns before relating daylight to time of year"
+    },
+    {
+      "topicId": "mt_fKAq8aOfhD",
+      "prerequisiteId": "mt_1m4J4KOjPy",
+      "strength": "soft",
+      "reason": "'Talks with clear structure' supports 'Telling others what we found'"
+    },
+    {
+      "topicId": "mt_fKAq8aOfhD",
+      "prerequisiteId": "mt_vJO5Bxk4z-",
+      "strength": "hard",
+      "reason": "'Telling others what we found' builds on 'Observing with simple equipment'"
+    },
+    {
+      "topicId": "mt_fKAq8aOfhD",
+      "prerequisiteId": "mt_ZFwPZaDJ0_",
+      "strength": "hard",
+      "reason": "'Telling others what we found' builds on 'Recording Data'"
     },
     {
       "topicId": "mt_fkcxpeYP85",
@@ -8444,6 +8528,18 @@
       "prerequisiteId": "mt_lWqmKn5Jvr",
       "strength": "hard",
       "reason": "Recognising that living things have changed over time and fossils provide evidence requires evolution and fossil record vocabulary"
+    },
+    {
+      "topicId": "mt_GtL2PVfRYP",
+      "prerequisiteId": "mt_EHuU1ZeUFA",
+      "strength": "hard",
+      "reason": "'Planets moving among stars' builds on 'Naming the Planets'"
+    },
+    {
+      "topicId": "mt_GtL2PVfRYP",
+      "prerequisiteId": "mt_fk33IEGP-T",
+      "strength": "hard",
+      "reason": "'Planets moving among stars' builds on 'Sun, Moon, and stars'"
     },
     {
       "topicId": "mt_gtTl3R5buH",
@@ -9452,6 +9548,18 @@
       "prerequisiteId": "mt_bABr-c2DfV",
       "strength": "hard",
       "reason": "Diffusion in and between cells requires knowing about the cell membrane as a selectively permeable boundary"
+    },
+    {
+      "topicId": "mt_i8AGTuk4fJ",
+      "prerequisiteId": "mt_e3-_toGuWf",
+      "strength": "hard",
+      "reason": "'Natural and made materials' builds on 'Testing Materials for Uses'"
+    },
+    {
+      "topicId": "mt_i8AGTuk4fJ",
+      "prerequisiteId": "mt_rTn43s8RNX",
+      "strength": "soft",
+      "reason": "'Choosing the Right Material' supports 'Natural and made materials'"
     },
     {
       "topicId": "mt_I9iSzpGRn5",
@@ -10498,6 +10606,18 @@
       "reason": "The plan-do-review cycle is the mature form of the basic planning habit established at age 6-7"
     },
     {
+      "topicId": "mt_jIUuqbJJRb",
+      "prerequisiteId": "mt_MRQcEvyPJv",
+      "strength": "hard",
+      "reason": "'Checking predictions with others' builds on 'Did it happen as predicted?'"
+    },
+    {
+      "topicId": "mt_jIUuqbJJRb",
+      "prerequisiteId": "mt_Wa44s-f8Ws",
+      "strength": "hard",
+      "reason": "'Checking predictions with others' builds on 'Simple tests and experiments'"
+    },
+    {
       "topicId": "mt_JivEBTD_KV",
       "prerequisiteId": "mt_h-z88yf9Pn",
       "strength": "hard",
@@ -10856,6 +10976,18 @@
       "prerequisiteId": "mt_wQ89AEXhz3",
       "strength": "hard",
       "reason": "All tables to 12×12 extends knowledge of 3/4/8 tables"
+    },
+    {
+      "topicId": "mt_K5Zqgu7rzp",
+      "prerequisiteId": "mt_nwSWPTENmv",
+      "strength": "hard",
+      "reason": "'Exploring safely with senses' builds on 'The Five Senses'"
+    },
+    {
+      "topicId": "mt_K5Zqgu7rzp",
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "soft",
+      "reason": "'Everyday Safety Awareness' supports 'Exploring safely with senses'"
     },
     {
       "topicId": "mt_K6qtan847r",
@@ -11414,6 +11546,24 @@
       "prerequisiteId": "mt_ytUG3yjCYt",
       "strength": "soft",
       "reason": "Food chains benefit from knowing the variety of animals that eat each other"
+    },
+    {
+      "topicId": "mt_LADBSIowuS",
+      "prerequisiteId": "mt_7VrR1GzhrN",
+      "strength": "hard",
+      "reason": "'Comparing findings with other groups' builds on 'Drawing conclusions from evidence'"
+    },
+    {
+      "topicId": "mt_LADBSIowuS",
+      "prerequisiteId": "mt_jIUuqbJJRb",
+      "strength": "hard",
+      "reason": "'Comparing findings with other groups' builds on 'Checking predictions with others'"
+    },
+    {
+      "topicId": "mt_LADBSIowuS",
+      "prerequisiteId": "mt_qgb76wHN2X",
+      "strength": "soft",
+      "reason": "'Fair testing' supports 'Comparing findings with other groups'"
     },
     {
       "topicId": "mt_lAvS72LOUO",
@@ -12676,10 +12826,46 @@
       "reason": "Aerobic respiration uses oxygen obtained through gas exchange — the supply mechanism must be understood first"
     },
     {
+      "topicId": "mt_MRCnuYwnFQ",
+      "prerequisiteId": "mt_nUnowllzaN",
+      "strength": "soft",
+      "reason": "'Measuring accurately' supports 'Investigating habitat conditions'"
+    },
+    {
+      "topicId": "mt_MRCnuYwnFQ",
+      "prerequisiteId": "mt_rDjtmDogJr",
+      "strength": "hard",
+      "reason": "'Investigating habitat conditions' builds on 'Recording data and results'"
+    },
+    {
+      "topicId": "mt_MRCnuYwnFQ",
+      "prerequisiteId": "mt_w4OYcWJs6H",
+      "strength": "hard",
+      "reason": "'Investigating habitat conditions' builds on 'Ocean Ecosystems' (non-living factors affect living things)"
+    },
+    {
       "topicId": "mt_mRCPP_Ab2W",
       "prerequisiteId": "mt_ytUG3yjCYt",
       "strength": "soft",
       "reason": "Mammals vs fish distinction benefits from knowing ocean animal variety"
+    },
+    {
+      "topicId": "mt_MRQcEvyPJv",
+      "prerequisiteId": "mt_HZvTriQWTh",
+      "strength": "soft",
+      "reason": "'Local weather patterns' supports 'Did it happen as predicted?'"
+    },
+    {
+      "topicId": "mt_MRQcEvyPJv",
+      "prerequisiteId": "mt_vJO5Bxk4z-",
+      "strength": "hard",
+      "reason": "'Did it happen as predicted?' builds on 'Observing with simple equipment'"
+    },
+    {
+      "topicId": "mt_MRQcEvyPJv",
+      "prerequisiteId": "mt_Wa44s-f8Ws",
+      "strength": "soft",
+      "reason": "'Simple tests and experiments' supports 'Did it happen as predicted?'"
     },
     {
       "topicId": "mt_mr_Vk7FGzK",
@@ -12824,6 +13010,18 @@
       "prerequisiteId": "mt_vKcxX6iNOA",
       "strength": "hard",
       "reason": "Writing fractions and recognising equivalence requires 'equivalent fraction' vocabulary"
+    },
+    {
+      "topicId": "mt_mYujFoIsVG",
+      "prerequisiteId": "mt_5r47Pvstyn",
+      "strength": "soft",
+      "reason": "'Objects vs Materials' supports 'Breaking materials into pieces'"
+    },
+    {
+      "topicId": "mt_mYujFoIsVG",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "hard",
+      "reason": "'Breaking materials into pieces' builds on 'Changing Shapes of Solids'"
     },
     {
       "topicId": "mt_mywsN77hGZ",
@@ -13582,6 +13780,30 @@
       "reason": "Reading fluency supports reading aloud own writing"
     },
     {
+      "topicId": "mt_nZaqNZaN0V",
+      "prerequisiteId": "mt_5l7iGkf1Tp",
+      "strength": "hard",
+      "reason": "'Modelling seasons and day length' builds on 'The solar system'"
+    },
+    {
+      "topicId": "mt_nZaqNZaN0V",
+      "prerequisiteId": "mt_LQt4vnKeB4",
+      "strength": "soft",
+      "reason": "'Earth & Space Vocabulary' supports 'Modelling seasons and day length'"
+    },
+    {
+      "topicId": "mt_nZaqNZaN0V",
+      "prerequisiteId": "mt_q15w--Fb5H",
+      "strength": "hard",
+      "reason": "'Modelling seasons and day length' builds on 'Earth's rotation and day/night'"
+    },
+    {
+      "topicId": "mt_nZaqNZaN0V",
+      "prerequisiteId": "mt_w2xiMNkyyX",
+      "strength": "soft",
+      "reason": "'Earth's Spin & Orbit' supports 'Modelling seasons and day length'"
+    },
+    {
       "topicId": "mt_nzdtOLXWWa",
       "prerequisiteId": "mt_aCwj2PCoRV",
       "strength": "hard",
@@ -13706,6 +13928,12 @@
       "prerequisiteId": "mt_Hw70LI5xza",
       "strength": "hard",
       "reason": "Being willing to revise a hypothesis requires first distinguishing observation from interpretation — you can only update your interpretation if you recognise it as separate from the data"
+    },
+    {
+      "topicId": "mt_obF-6VYRya",
+      "prerequisiteId": "mt_MRQcEvyPJv",
+      "strength": "soft",
+      "reason": "'Did it happen as predicted?' supports 'Changing Your Mind with Evidence'"
     },
     {
       "topicId": "mt_obF-6VYRya",
@@ -15118,6 +15346,18 @@
       "reason": "Understanding levers, pulleys, and gears requires moment, lever, and fulcrum vocabulary"
     },
     {
+      "topicId": "mt_q2MKwlPl_u",
+      "prerequisiteId": "mt_1GVAmcwAiO",
+      "strength": "hard",
+      "reason": "'Science as teamwork' builds on 'Science Can Be Revised'"
+    },
+    {
+      "topicId": "mt_q2MKwlPl_u",
+      "prerequisiteId": "mt_KiRn5lnRgj",
+      "strength": "soft",
+      "reason": "'Changing Ideas About Space' supports 'Science as teamwork'"
+    },
+    {
       "topicId": "mt_q3vRl4dddK",
       "prerequisiteId": "mt_uTKgmWqSoI",
       "strength": "soft",
@@ -16066,6 +16306,24 @@
       "reason": "Performing transformations in software builds on transformations on a grid"
     },
     {
+      "topicId": "mt_RdIBKLbgyp",
+      "prerequisiteId": "mt_nUnowllzaN",
+      "strength": "hard",
+      "reason": "'Investigating melting and freezing' builds on 'Measuring accurately'"
+    },
+    {
+      "topicId": "mt_RdIBKLbgyp",
+      "prerequisiteId": "mt_Pl-nsjYGZ3",
+      "strength": "hard",
+      "reason": "'Investigating melting and freezing' builds on 'Heating & Cooling Changes'"
+    },
+    {
+      "topicId": "mt_RdIBKLbgyp",
+      "prerequisiteId": "mt_YQkUdIHO8L",
+      "strength": "soft",
+      "reason": "'Solids, Liquids & Gases' supports 'Investigating melting and freezing'"
+    },
+    {
       "topicId": "mt_rDjtmDogJr",
       "prerequisiteId": "mt_7IFpDVNsmt",
       "strength": "hard",
@@ -16112,6 +16370,18 @@
       "prerequisiteId": "mt_sYpKWbq5ra",
       "strength": "soft",
       "reason": "The +1 pattern in counting is the earliest repeated reasoning"
+    },
+    {
+      "topicId": "mt_RhlY8jeu7Q",
+      "prerequisiteId": "mt_nUnowllzaN",
+      "strength": "hard",
+      "reason": "'Heat sources and temperature change' builds on 'Measuring accurately'"
+    },
+    {
+      "topicId": "mt_RhlY8jeu7Q",
+      "prerequisiteId": "mt_X_aDUBh-HF",
+      "strength": "hard",
+      "reason": "'Heat sources and temperature change' builds on 'How energy travels around'"
     },
     {
       "topicId": "mt_RhntJz7p_6",
@@ -16472,6 +16742,18 @@
       "prerequisiteId": "mt_FZ_ixwU1p1",
       "strength": "hard",
       "reason": "Must know what a rainforest is before learning about products from it"
+    },
+    {
+      "topicId": "mt_S2dCRbxdvM",
+      "prerequisiteId": "mt_ArVBEpMAPk",
+      "strength": "hard",
+      "reason": "'Permission to investigate on Country' builds on 'Controlling variables'"
+    },
+    {
+      "topicId": "mt_S2dCRbxdvM",
+      "prerequisiteId": "mt_v5pOal_23d",
+      "strength": "soft",
+      "reason": "'Risks and safety plans' supports 'Permission to investigate on Country'"
     },
     {
       "topicId": "mt_S2fP8rUwrl",
@@ -17488,6 +17770,18 @@
       "reason": "Anaerobic respiration is defined in contrast to aerobic — it is the fallback when oxygen supply is insufficient"
     },
     {
+      "topicId": "mt_tlfSqLFm_Y",
+      "prerequisiteId": "mt_AghN5YcCHX",
+      "strength": "soft",
+      "reason": "'Weather Forecasting' supports 'How data builds explanations'"
+    },
+    {
+      "topicId": "mt_tlfSqLFm_Y",
+      "prerequisiteId": "mt_CVywzrjT_c",
+      "strength": "hard",
+      "reason": "'How data builds explanations' builds on 'Using evidence to answer questions'"
+    },
+    {
       "topicId": "mt_TlGhXAqC4p",
       "prerequisiteId": "mt_aulwq39aj8",
       "strength": "soft",
@@ -17648,6 +17942,24 @@
       "prerequisiteId": "mt_V9SQS9gLFw",
       "strength": "hard",
       "reason": "The heart's role in the double circulatory system is only meaningful when gas exchange at the lungs is understood"
+    },
+    {
+      "topicId": "mt_TTH2ouwyTW",
+      "prerequisiteId": "mt_K5Zqgu7rzp",
+      "strength": "hard",
+      "reason": "'Safe steps in science tests' builds on 'Exploring safely with senses'"
+    },
+    {
+      "topicId": "mt_TTH2ouwyTW",
+      "prerequisiteId": "mt_Wa44s-f8Ws",
+      "strength": "hard",
+      "reason": "'Safe steps in science tests' builds on 'Simple tests and experiments'"
+    },
+    {
+      "topicId": "mt_TTH2ouwyTW",
+      "prerequisiteId": "mt_XirhnAB6Ye",
+      "strength": "soft",
+      "reason": "'Asking scientific questions' supports 'Safe steps in science tests'"
     },
     {
       "topicId": "mt_TTzJTF-OkG",
@@ -18101,6 +18413,12 @@
     },
     {
       "topicId": "mt_UKmtuAsSLN",
+      "prerequisiteId": "mt_mYujFoIsVG",
+      "strength": "soft",
+      "reason": "'Breaking materials into pieces' supports 'Reversible Changes'"
+    },
+    {
+      "topicId": "mt_UKmtuAsSLN",
       "prerequisiteId": "mt_Pl-nsjYGZ3",
       "strength": "hard",
       "reason": "Must understand state changes before categorising them as reversible"
@@ -18440,6 +18758,18 @@
       "prerequisiteId": "mt_QR3vxbN1o4",
       "strength": "soft",
       "reason": "Identifying audience and purpose before writing is the writing-domain form of the universal planning habit"
+    },
+    {
+      "topicId": "mt_v5pOal_23d",
+      "prerequisiteId": "mt_89qLyvE70d",
+      "strength": "hard",
+      "reason": "'Risks and safety plans' builds on 'Safe equipment use in fair tests'"
+    },
+    {
+      "topicId": "mt_v5pOal_23d",
+      "prerequisiteId": "mt_ArVBEpMAPk",
+      "strength": "hard",
+      "reason": "'Risks and safety plans' builds on 'Controlling variables'"
     },
     {
       "topicId": "mt_v5yDTWEiyQ",
@@ -18860,6 +19190,24 @@
       "prerequisiteId": "mt_ZhvwM6LMBL",
       "strength": "hard",
       "reason": "Expressive reading builds on basic reading fluency"
+    },
+    {
+      "topicId": "mt_vLLyGZQ2AM",
+      "prerequisiteId": "mt_LADBSIowuS",
+      "strength": "hard",
+      "reason": "'Comparing methods and findings' builds on 'Comparing findings with other groups'"
+    },
+    {
+      "topicId": "mt_vLLyGZQ2AM",
+      "prerequisiteId": "mt_nyPMkeHlVJ",
+      "strength": "soft",
+      "reason": "'Drawing conclusions from evidence (age 9+)' supports 'Comparing methods and findings'"
+    },
+    {
+      "topicId": "mt_vLLyGZQ2AM",
+      "prerequisiteId": "mt_Psun-u_lPf",
+      "strength": "hard",
+      "reason": "'Comparing methods and findings' builds on 'Accurate Measurement'"
     },
     {
       "topicId": "mt_VLu59hpQ4T",
@@ -19382,6 +19730,18 @@
       "prerequisiteId": "mt_HhuSDxwDNM",
       "strength": "hard",
       "reason": "Solving multiplication/division problems requires knowing the table facts"
+    },
+    {
+      "topicId": "mt_wH4t4TH0Yw",
+      "prerequisiteId": "mt_R6YoRXkRxS",
+      "strength": "soft",
+      "reason": "'Properties of materials' supports 'Rocks, soils and minerals as resources'"
+    },
+    {
+      "topicId": "mt_wH4t4TH0Yw",
+      "prerequisiteId": "mt_yhhprm7dZK",
+      "strength": "hard",
+      "reason": "'Rocks, soils and minerals as resources' builds on 'Rocks and soil'"
     },
     {
       "topicId": "mt_wHN14Unk7h",
@@ -21542,6 +21902,24 @@
       "prerequisiteId": "mt_YKkCM63fSC",
       "strength": "hard",
       "reason": "Need sight word bank for fluency"
+    },
+    {
+      "topicId": "mt_zIcYzrrO0Z",
+      "prerequisiteId": "mt__00ZSLnB7p",
+      "strength": "soft",
+      "reason": "'Volume & Vibrations' supports 'Different ways to make sounds'"
+    },
+    {
+      "topicId": "mt_zIcYzrrO0Z",
+      "prerequisiteId": "mt_KTSoXcO7OL",
+      "strength": "soft",
+      "reason": "'Pitch of Sounds' supports 'Different ways to make sounds'"
+    },
+    {
+      "topicId": "mt_zIcYzrrO0Z",
+      "prerequisiteId": "mt_VBl1T1sFCM",
+      "strength": "hard",
+      "reason": "'Different ways to make sounds' builds on 'Vibrations & Sound'"
     },
     {
       "topicId": "mt_zir5yyAzUB",
