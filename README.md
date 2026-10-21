@@ -73,8 +73,15 @@ Australian HASS (Humanities and Social Sciences) has 144 topic alignments across
 66 existing topics: 39 of its 89 standards are fully covered, 23 partly covered,
 and 27 missing. Its
 [coverage report](reports/acara-v9-hass-coverage.md) lists every standard,
-matched topic and remaining gap. Other Australian subjects currently have source
-standards only.
+matched topic and remaining gap.
+
+Selected Australian Health content has 84 topic alignments across 52 existing
+topics. Of the 32 Personal, social and community health standards, 11 are fully
+covered, 19 partly covered, and 2 missing. The
+[coverage report](reports/acara-v9-health-coverage.md) lists each standard and
+remaining gap. The 27 Movement and physical activity (PE) standards are excluded;
+these figures do not represent full Health and Physical Education coverage.
+Digital Technologies and Design and Technologies currently have source standards only.
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
 ### A topic

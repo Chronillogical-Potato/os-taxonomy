@@ -237,6 +237,27 @@
       "standards": []
     },
     {
+      "id": "mt_tzMr83pS8v",
+      "type": "CONCEPTUAL",
+      "subject": "Computing",
+      "domain": "Artificial Intelligence",
+      "name": "Deepfakes and AI-Generated Content",
+      "description": "Deepfakes, AI-generated images and text; how to spot them and why they matter; the importance of checking sources; not everything online is real",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.01447368421052632,
+      "evidence": [
+        "Explain what a deepfake is and give an example of AI-generated content",
+        "Describe at least two clues that might reveal an image or text was AI-generated",
+        "Explain why it matters that AI can create realistic fake content"
+      ],
+      "assessmentPrompt": "If {{name}} saw an amazing photo online, would they think to question whether it might have been created by AI rather than captured by a camera?",
+      "standards": [
+        "acara-v9:AC9HP4P09",
+        "acara-v9:AC9HP6P09"
+      ]
+    },
+    {
       "id": "mt_cVp_nop-5L",
       "type": "CONCEPTUAL",
       "subject": "Computing",
@@ -298,7 +319,7 @@
       "name": "AI Data Collection and Privacy",
       "description": "What data AI systems collect about you; who has it and why it matters; cookies, tracking, smart speakers always listening; your data is valuable",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03026315789473684,
       "evidence": [
         "Name at least three types of personal data that AI systems collect",
@@ -306,7 +327,9 @@
         "Describe one step they can take to protect their privacy online"
       ],
       "assessmentPrompt": "Does {{name}} understand that apps and websites collect information about what they do online, and could they explain why that matters?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP6P08"
+      ]
     },
     {
       "id": "mt__BbOjiY5A5",
@@ -324,24 +347,6 @@
         "Suggest one way to reduce bias in an AI system (use more diverse data, test with different groups)"
       ],
       "assessmentPrompt": "Could {{name}} explain why an AI trained mostly on photos of light-skinned faces might not work as well for people with darker skin?",
-      "standards": []
-    },
-    {
-      "id": "mt_tzMr83pS8v",
-      "type": "CONCEPTUAL",
-      "subject": "Computing",
-      "domain": "Artificial Intelligence",
-      "name": "Deepfakes and AI-Generated Content",
-      "description": "Deepfakes, AI-generated images and text; how to spot them and why they matter; the importance of checking sources; not everything online is real",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.01447368421052632,
-      "evidence": [
-        "Explain what a deepfake is and give an example of AI-generated content",
-        "Describe at least two clues that might reveal an image or text was AI-generated",
-        "Explain why it matters that AI can create realistic fake content"
-      ],
-      "assessmentPrompt": "If {{name}} saw an amazing photo online, would they think to question whether it might have been created by AI rather than captured by a camera?",
       "standards": []
     },
     {
@@ -4464,6 +4469,7 @@
         "acara-v9:AC9E5LY04",
         "acara-v9:AC9E6LY04",
         "acara-v9:AC9E6LY05",
+        "acara-v9:AC9HP6P09",
         "acara-v9:AC9HS5S01",
         "acara-v9:AC9HS5S02",
         "acara-v9:AC9HS6S02",
@@ -9537,7 +9543,7 @@
       "name": "Learning from Failure",
       "description": "Not every business idea works; entrepreneurs try, fail, learn, and try again; iteration and resilience as core entrepreneurial skills; famous failure-to-success stories",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.025,
       "evidence": [
         "Give an example of a famous entrepreneur who failed before succeeding",
@@ -9545,7 +9551,9 @@
         "Describe why failing and trying again is better than giving up"
       ],
       "assessmentPrompt": "If {{name}}'s first attempt at a project or business idea didn't work out, would they see it as a chance to improve rather than a reason to give up?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP4P01"
+      ]
     },
     {
       "id": "mt_phpn6KhCAv",
@@ -9857,6 +9865,7 @@
       ],
       "assessmentPrompt": "When {{name}} sees an advert for a toy or game, can they recognise that the advert is trying to make them want to buy it?",
       "standards": [
+        "acara-v9:AC9HP4P09",
         "acara-v9:AC9HS6K08"
       ]
     },
@@ -10063,6 +10072,7 @@
       ],
       "assessmentPrompt": "If {{name}} received a message saying they'd won a prize and just needed to enter their details, would they know it's probably a scam?",
       "standards": [
+        "acara-v9:AC9HP6P08",
         "acara-v9:AC9HS6K08"
       ]
     },
@@ -21342,6 +21352,7 @@
       ],
       "assessmentPrompt": "When {{name}} is frustrated — say a sibling takes their toy — do they use words to say how they feel rather than snatching it back or crying?",
       "standards": [
+        "acara-v9:AC9HPFP03",
         "ib-pyp-pspe:PSPE.INT.P1.LO.4"
       ]
     },
@@ -21353,7 +21364,7 @@
       "name": "Feelings Change and Differ",
       "description": "Understand that everyone has feelings, that feelings change throughout the day, and that the same event can make different people feel different things",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.1078947368421053,
       "evidence": [
         "Give an example of a time their feelings changed during a single day",
@@ -21362,6 +21373,7 @@
       ],
       "assessmentPrompt": "If you and {{name}} watch the same film and you find it funny but {{name}} finds it scary, can they understand why you both felt differently?",
       "standards": [
+        "acara-v9:AC9HP2P03",
         "ib-pyp-pspe:PSPE-ID-CU-P1-3"
       ]
     },
@@ -21382,6 +21394,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a friend crying at a birthday party, can they tell you what that friend might be feeling and name the emotion?",
       "standards": [
+        "acara-v9:AC9HPFP03",
         "ib-pyp-pspe:PSPE-ID-LO-P1-5",
         "ib-pyp-pspe:PSPE-ID-LO-P1-6"
       ]
@@ -21394,7 +21407,7 @@
       "name": "Triggers and Causes of Feelings",
       "description": "Understand that feelings have causes — something happens (a trigger) and that makes us feel a certain way — and begin to identify what triggers their own emotions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.08552631578947369,
       "evidence": [
         "Describe a trigger for at least three different emotions from their own experience",
@@ -21403,8 +21416,30 @@
       ],
       "assessmentPrompt": "When {{name}} gets upset about something at school, can they explain to you what happened that made them feel that way?",
       "standards": [
+        "acara-v9:AC9HP2P03",
         "ib-pyp-pspe:PSPE-ID-LO-P2-3",
         "ib-pyp-pspe:PSPE-ID-LO-P2-4"
+      ]
+    },
+    {
+      "id": "mt_Ytd8XC3eQr",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Emotional Literacy",
+      "name": "How Emotions Feel in Your Body",
+      "description": "Understand the connection between emotions and the body — recognising physical signals like butterflies in the stomach (nervous), clenched fists (angry), racing heart (scared or excited), and tight shoulders (stressed)",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "centrality": 0.01842105263157895,
+      "evidence": [
+        "Name at least three body sensations and match them to the emotions they signal",
+        "Notice a physical feeling in their own body and identify the emotion behind it",
+        "Explain why the body reacts physically when we have strong emotions"
+      ],
+      "assessmentPrompt": "Before a school performance or sports day, can {{name}} notice and tell you about the physical feelings in their body — like butterflies in their tummy — and connect them to being nervous or excited?",
+      "standards": [
+        "acara-v9:AC9HP2P03",
+        "ib-pyp-pspe:PSPE-ID-CU-P2-3"
       ]
     },
     {
@@ -21448,26 +21483,6 @@
       ]
     },
     {
-      "id": "mt_Ytd8XC3eQr",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Emotional Literacy",
-      "name": "How Emotions Feel in Your Body",
-      "description": "Understand the connection between emotions and the body — recognising physical signals like butterflies in the stomach (nervous), clenched fists (angry), racing heart (scared or excited), and tight shoulders (stressed)",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.01842105263157895,
-      "evidence": [
-        "Name at least three body sensations and match them to the emotions they signal",
-        "Notice a physical feeling in their own body and identify the emotion behind it",
-        "Explain why the body reacts physically when we have strong emotions"
-      ],
-      "assessmentPrompt": "Before a school performance or sports day, can {{name}} notice and tell you about the physical feelings in their body — like butterflies in their tummy — and connect them to being nervous or excited?",
-      "standards": [
-        "ib-pyp-pspe:PSPE-ID-CU-P2-3"
-      ]
-    },
-    {
       "id": "mt_rymBfJmvFl",
       "type": "CONCEPTUAL",
       "subject": "Personal & Social Development",
@@ -21475,7 +21490,7 @@
       "name": "Mild to Strong Emotions",
       "description": "Understand that emotions come in different intensities — from mild to strong — and that the same emotion can feel very different depending on how intense it is (e.g., annoyed → angry → furious, or nervous → anxious → panicked)",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01578947368421053,
       "evidence": [
         "Place three related emotion words in order from mild to strong",
@@ -21484,6 +21499,7 @@
       ],
       "assessmentPrompt": "Can {{name}} tell the difference between being a bit annoyed about losing a game and being truly furious — and explain that they're different levels of the same feeling?",
       "standards": [
+        "acara-v9:AC9HP4P06",
         "ib-pyp-pspe:PSPE-ID-LO-P2-10"
       ]
     },
@@ -21494,7 +21510,7 @@
       "domain": "Emotional Literacy",
       "name": "Culture and Experience Shape Emotions",
       "description": "Understand that emotional responses are shaped by personal experiences, culture, and context — the same situation triggers different emotions in different people because of their backgrounds and past experiences",
-      "ageRangeStart": 9,
+      "ageRangeStart": 8,
       "ageRangeEnd": 11,
       "centrality": 0.01447368421052632,
       "evidence": [
@@ -21504,6 +21520,7 @@
       ],
       "assessmentPrompt": "If one child in {{name}}'s class gets very scared during a thunderstorm while others think it's exciting, can {{name}} understand that the scared child might have had a frightening experience with storms before?",
       "standards": [
+        "acara-v9:AC9HP4P06",
         "ib-pyp-pspe:PSPE-ID-CU-P3-1"
       ]
     },
@@ -21535,7 +21552,7 @@
       "name": "Emotions and Decision-Making",
       "description": "Understand how emotions influence thinking and decision-making — that strong feelings can cloud judgement, that we often make different choices when calm versus when upset, and that recognising this gives us more control",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.08157894736842106,
       "evidence": [
         "Give an example of a time a strong emotion led them or someone else to a poor decision",
@@ -21544,6 +21561,7 @@
       ],
       "assessmentPrompt": "If {{name}} sends an angry message to a friend during an argument and later regrets it, can they explain how their anger affected their decision and what they might do differently next time?",
       "standards": [
+        "acara-v9:AC9HP6P06",
         "ib-pyp-pspe:PSPE-ID-LO-P3-3"
       ]
     },
@@ -21625,7 +21643,9 @@
         "Use kind words to encourage or cheer up someone who is struggling"
       ],
       "assessmentPrompt": "If a younger child at school falls over in the playground, does {{name}} go over to help or comfort them without being told to by an adult?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HPFP02"
+      ]
     },
     {
       "id": "mt_wzUzVEBqJb",
@@ -21666,6 +21686,7 @@
       ],
       "assessmentPrompt": "Can {{name}} talk positively about how families in their class are different — some have two mums, some speak another language at home, some celebrate different holidays — and see this as interesting rather than strange?",
       "standards": [
+        "acara-v9:AC9HPFP01",
         "acara-v9:AC9HS1K01",
         "acara-v9:AC9HSFK02",
         "ib-pyp-pspe:PSPE-ID-CU-P1-5",
@@ -21698,7 +21719,7 @@
       "name": "Different Lives and Experiences",
       "description": "Understand that people's lives and experiences can be very different from their own — that some children face challenges like disability, poverty, family difficulties, or being new to a country — and develop compassion rather than judgement",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.02368421052631579,
       "evidence": [
         "Describe at least two ways another child's life experience might differ significantly from their own",
@@ -21707,6 +21728,7 @@
       ],
       "assessmentPrompt": "If a new child joins {{name}}'s class who doesn't speak much English or whose family situation is very different, does {{name}} show understanding and try to include them rather than avoiding them?",
       "standards": [
+        "acara-v9:AC9HP4P05",
         "ib-pyp-pspe:PSPE-ID-LO-P2-1"
       ]
     },
@@ -21738,7 +21760,7 @@
       "name": "Seeing Someone Else's Point of View",
       "description": "Practise perspective-taking by imagining how someone else might feel in a given situation — using prompts like 'How would you feel if that happened to you?' and applying this when reading stories or during real interactions",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.04078947368421053,
       "evidence": [
         "Describe how a character in a story feels and give reasons based on the plot",
@@ -21747,6 +21769,7 @@
       ],
       "assessmentPrompt": "When reading a story together, can {{name}} pause and explain how a character might be feeling and why — putting themselves in the character's shoes?",
       "standards": [
+        "acara-v9:AC9HP6P04",
         "acara-v9:AC9HS2S04",
         "ib-pyp-pspe:PSPE-ID-CU-P2-2",
         "ib-pyp-pspe:PSPE-ID-LO-P2-8"
@@ -21777,8 +21800,8 @@
       "domain": "Empathy & Social Awareness",
       "name": "Prejudice and Discrimination",
       "description": "Understand the impact of prejudice and discrimination on individuals and communities — that treating people unfairly because of their identity causes real harm — and recognise their own responsibility to stand against it",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
       "centrality": 0.03157894736842105,
       "evidence": [
         "Define prejudice and discrimination in their own words with examples",
@@ -21787,26 +21810,11 @@
       ],
       "assessmentPrompt": "If {{name}} sees someone at school being excluded or teased because of their race, religion, or disability, can they explain why that's wrong and describe what they could do about it?",
       "standards": [
+        "acara-v9:AC9HP4P05",
+        "acara-v9:AC9HP6P05",
+        "acara-v9:AC9HP6P10",
         "ib-pyp-pspe:PSPE-ID-LO-P4-8"
       ]
-    },
-    {
-      "id": "mt_cOknxrYhwL",
-      "type": "META",
-      "subject": "Personal & Social Development",
-      "domain": "Empathy & Social Awareness",
-      "name": "Questioning Your Own Biases",
-      "description": "Reflect on their own assumptions and biases — recognising that everyone carries unconscious assumptions about others, and that actively questioning these assumptions is an ongoing practice that leads to greater fairness and empathy",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.06842105263157895,
-      "evidence": [
-        "Describe a time they made an assumption about someone that turned out to be wrong",
-        "Explain what unconscious bias means in simple terms",
-        "Describe a strategy for checking their own assumptions, such as asking questions before judging"
-      ],
-      "assessmentPrompt": "Can {{name}} catch themselves making an assumption about someone — like assuming a quiet child is unfriendly — and then question whether that assumption is fair?",
-      "standards": []
     },
     {
       "id": "mt_2oswCNuapH",
@@ -21815,8 +21823,8 @@
       "domain": "Empathy & Social Awareness",
       "name": "Stereotypes and Individual Differences",
       "description": "Recognise stereotypes — oversimplified beliefs about groups of people based on gender, race, age, or other characteristics — and understand that stereotypes are unfair because they ignore individual differences",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
       "centrality": 0.02236842105263158,
       "evidence": [
         "Define what a stereotype is in their own words",
@@ -21825,6 +21833,9 @@
       ],
       "assessmentPrompt": "If someone says 'boys don't cry' or 'girls aren't good at maths', can {{name}} explain why those statements are unfair stereotypes that don't apply to everyone?",
       "standards": [
+        "acara-v9:AC9HP4P03",
+        "acara-v9:AC9HP6P03",
+        "acara-v9:AC9HP6P05",
         "ib-pyp-pspe:PSPE-ID-CU-P4-3",
         "ib-pyp-pspe:PSPE-ID-LO-P4-6"
       ]
@@ -21836,8 +21847,8 @@
       "domain": "Empathy & Social Awareness",
       "name": "The world contains many cultures, traditions",
       "description": "Understand that the world contains many cultures, traditions, and belief systems, and that learning about others' perspectives enriches our own understanding — developing genuine curiosity about and respect for cultural diversity",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
       "centrality": 0.0131578947368421,
       "evidence": [
         "Describe a cultural practice different from their own and explain what they find interesting about it",
@@ -21846,9 +21857,31 @@
       ],
       "assessmentPrompt": "Does {{name}} show genuine interest when learning about how families from different cultures celebrate, eat, or worship — asking questions respectfully rather than dismissing things that are unfamiliar?",
       "standards": [
+        "acara-v9:AC9HP4P05",
+        "acara-v9:AC9HP6P05",
         "acara-v9:AC9HS4K09",
         "ib-pyp-pspe:PSPE-ID-LO-P3-7",
         "ib-pyp-pspe:PSPE.INT.P3.CU.3"
+      ]
+    },
+    {
+      "id": "mt_cOknxrYhwL",
+      "type": "META",
+      "subject": "Personal & Social Development",
+      "domain": "Empathy & Social Awareness",
+      "name": "Questioning Your Own Biases",
+      "description": "Reflect on their own assumptions and biases — recognising that everyone carries unconscious assumptions about others, and that actively questioning these assumptions is an ongoing practice that leads to greater fairness and empathy",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 12,
+      "centrality": 0.06842105263157895,
+      "evidence": [
+        "Describe a time they made an assumption about someone that turned out to be wrong",
+        "Explain what unconscious bias means in simple terms",
+        "Describe a strategy for checking their own assumptions, such as asking questions before judging"
+      ],
+      "assessmentPrompt": "Can {{name}} catch themselves making an assumption about someone — like assuming a quiet child is unfriendly — and then question whether that assumption is fair?",
+      "standards": [
+        "acara-v9:AC9HP6P05"
       ]
     },
     {
@@ -21901,7 +21934,7 @@
       "name": "Asking for Help",
       "description": "Ask for help when they need it — from a friend, teacher, or family member — and understand that asking for help is a sign of strength, not weakness",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.01052631578947368,
       "evidence": [
         "Approach an appropriate person and ask for help clearly",
@@ -21910,6 +21943,8 @@
       ],
       "assessmentPrompt": "If {{name}} is stuck on something at school or feeling worried about something, will they ask a teacher or friend for help rather than struggling in silence?",
       "standards": [
+        "acara-v9:AC9HP2P05",
+        "acara-v9:AC9HPFP05",
         "ib-pyp-pspe:PSPE.INT.P1.LO.7"
       ]
     },
@@ -21921,7 +21956,7 @@
       "name": "Listening to Others",
       "description": "Listen to others when they are speaking — looking at the speaker, waiting until they finish, and showing they have heard by responding to what was said rather than just talking about their own ideas",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Face the speaker and maintain attention while someone else is talking",
@@ -21930,6 +21965,8 @@
       ],
       "assessmentPrompt": "When a friend is telling {{name}} about their weekend, does {{name}} actually listen and ask questions about it — rather than immediately jumping in to talk about their own weekend?",
       "standards": [
+        "acara-v9:AC9HP2P02",
+        "acara-v9:AC9HPFP02",
         "ib-pyp-pspe:PSPE.INT.P1.LO.3"
       ]
     },
@@ -21941,7 +21978,7 @@
       "name": "Makes someone a good friend",
       "description": "Understand what makes someone a good friend — being kind, honest, reliable, and including others — and recognise behaviours that are not friendly, such as being bossy, leaving people out, or saying mean things",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.01578947368421053,
       "evidence": [
         "List at least four qualities of a good friend",
@@ -21950,6 +21987,9 @@
       ],
       "assessmentPrompt": "Can {{name}} describe what makes a good friend and recognise when someone — including themselves — isn't being a good friend?",
       "standards": [
+        "acara-v9:AC9HP2P01",
+        "acara-v9:AC9HP2P02",
+        "acara-v9:AC9HPFP02",
         "ib-pyp-pspe:PSPE.INT.P1.CU.4"
       ]
     },
@@ -21970,6 +22010,7 @@
       ],
       "assessmentPrompt": "When {{name}} is playing a board game with friends or siblings, can they wait for their turn and share the pieces without grabbing or getting upset?",
       "standards": [
+        "acara-v9:AC9HPFP02",
         "ib-pyp-pspe:PSPE.INT.P1.CU.2",
         "ib-pyp-pspe:PSPE.INT.P1.LO.2"
       ]
@@ -21991,6 +22032,72 @@
       ],
       "assessmentPrompt": "When {{name}} is working on something with a friend or sibling, can they use words like 'cooperate' or 'take turns' to describe what they're doing — and actually practise those things?",
       "standards": []
+    },
+    {
+      "id": "mt_iWGnyUyN2j",
+      "type": "PROCEDURAL",
+      "subject": "Personal & Social Development",
+      "domain": "Friendship & Cooperation",
+      "name": "Resolving Disagreements with Friends",
+      "description": "Resolve simple disagreements with peers by talking it through — explaining how they feel, listening to the other person's side, and finding a compromise or solution that both can accept",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.03289473684210526,
+      "evidence": [
+        "Explain their own point of view calmly during a disagreement",
+        "Listen to the other person's perspective without interrupting",
+        "Suggest a compromise or solution that addresses both sides"
+      ],
+      "assessmentPrompt": "If {{name}} and a friend disagree about which game to play at break time, can they talk it through and find a compromise — rather than one person always getting their way or the argument escalating?",
+      "standards": [
+        "acara-v9:AC9HP2P02",
+        "acara-v9:AC9HP4P04",
+        "ib-pyp-pspe:PSPE.INT.P2.LO.9"
+      ]
+    },
+    {
+      "id": "mt_w4nSIDhIgC",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Friendship & Cooperation",
+      "name": "Roles in a Group",
+      "description": "Understand different roles people play in groups — leader, supporter, mediator, idea-generator — and recognise that effective groups need a mix of roles, not everyone trying to be the leader",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "centrality": 0.01710526315789474,
+      "evidence": [
+        "Name at least three different roles people can play in a group",
+        "Identify their own preferred role and describe its strengths",
+        "Explain why groups work better when different people take different roles"
+      ],
+      "assessmentPrompt": "In a group project, can {{name}} recognise that they don't always have to be in charge — and that sometimes the group works better when they support someone else's idea rather than pushing their own?",
+      "standards": [
+        "acara-v9:AC9HP2P01",
+        "ib-pyp-pspe:PSPE.INT.P2.LO.5",
+        "ib-pyp-pspe:PSPE.INT.P2.LO.6"
+      ]
+    },
+    {
+      "id": "mt_QxsoqVUt6u",
+      "type": "PROCEDURAL",
+      "subject": "Personal & Social Development",
+      "domain": "Friendship & Cooperation",
+      "name": "Working Well in a Group",
+      "description": "Work effectively as part of a small group — contributing their own ideas, listening to others' ideas, taking on a fair share of the work, and supporting the group to reach a shared goal",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "centrality": 0.02105263157894737,
+      "evidence": [
+        "Contribute at least one idea during a group discussion",
+        "Listen to and build on another group member's idea",
+        "Complete their assigned part of a group task on time"
+      ],
+      "assessmentPrompt": "When {{name}} has to do a group project at school, do they pull their weight — sharing ideas and doing their part — rather than sitting back or trying to take over?",
+      "standards": [
+        "acara-v9:AC9HP2P02",
+        "ib-pyp-pspe:PSPE.INT.P2.CU.1",
+        "ib-pyp-pspe:PSPE.INT.P2.LO.3"
+      ]
     },
     {
       "id": "mt_Ag9NSWJu-X",
@@ -22018,7 +22125,7 @@
       "name": "Friendships change over time",
       "description": "Understand that friendships change over time — that it's normal for friends to drift apart or for new friendships to form — and develop strategies for making new friends and handling friendship changes without feeling like something is wrong with them",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Explain that friendships changing is normal and doesn't mean something is wrong",
@@ -22026,68 +22133,8 @@
         "Talk about a friendship that changed and how they handled it"
       ],
       "assessmentPrompt": "If {{name}}'s best friend starts spending more time with someone else, can they handle it without falling apart — understanding that friendships shift and they can make new friends too?",
-      "standards": []
-    },
-    {
-      "id": "mt_iWGnyUyN2j",
-      "type": "PROCEDURAL",
-      "subject": "Personal & Social Development",
-      "domain": "Friendship & Cooperation",
-      "name": "Resolving Disagreements with Friends",
-      "description": "Resolve simple disagreements with peers by talking it through — explaining how they feel, listening to the other person's side, and finding a compromise or solution that both can accept",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.03289473684210526,
-      "evidence": [
-        "Explain their own point of view calmly during a disagreement",
-        "Listen to the other person's perspective without interrupting",
-        "Suggest a compromise or solution that addresses both sides"
-      ],
-      "assessmentPrompt": "If {{name}} and a friend disagree about which game to play at break time, can they talk it through and find a compromise — rather than one person always getting their way or the argument escalating?",
       "standards": [
-        "ib-pyp-pspe:PSPE.INT.P2.LO.9"
-      ]
-    },
-    {
-      "id": "mt_w4nSIDhIgC",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Friendship & Cooperation",
-      "name": "Roles in a Group",
-      "description": "Understand different roles people play in groups — leader, supporter, mediator, idea-generator — and recognise that effective groups need a mix of roles, not everyone trying to be the leader",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.01710526315789474,
-      "evidence": [
-        "Name at least three different roles people can play in a group",
-        "Identify their own preferred role and describe its strengths",
-        "Explain why groups work better when different people take different roles"
-      ],
-      "assessmentPrompt": "In a group project, can {{name}} recognise that they don't always have to be in charge — and that sometimes the group works better when they support someone else's idea rather than pushing their own?",
-      "standards": [
-        "ib-pyp-pspe:PSPE.INT.P2.LO.5",
-        "ib-pyp-pspe:PSPE.INT.P2.LO.6"
-      ]
-    },
-    {
-      "id": "mt_QxsoqVUt6u",
-      "type": "PROCEDURAL",
-      "subject": "Personal & Social Development",
-      "domain": "Friendship & Cooperation",
-      "name": "Working Well in a Group",
-      "description": "Work effectively as part of a small group — contributing their own ideas, listening to others' ideas, taking on a fair share of the work, and supporting the group to reach a shared goal",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.02105263157894737,
-      "evidence": [
-        "Contribute at least one idea during a group discussion",
-        "Listen to and build on another group member's idea",
-        "Complete their assigned part of a group task on time"
-      ],
-      "assessmentPrompt": "When {{name}} has to do a group project at school, do they pull their weight — sharing ideas and doing their part — rather than sitting back or trying to take over?",
-      "standards": [
-        "ib-pyp-pspe:PSPE.INT.P2.CU.1",
-        "ib-pyp-pspe:PSPE.INT.P2.LO.3"
+        "acara-v9:AC9HP4P04"
       ]
     },
     {
@@ -22097,8 +22144,8 @@
       "domain": "Friendship & Cooperation",
       "name": "Assertive Communication",
       "description": "Use assertive communication — expressing needs, opinions, and boundaries clearly and respectfully without being aggressive (pushy/demanding) or passive (giving in/staying silent) — including saying no when something doesn't feel right",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
       "centrality": 0.04605263157894737,
       "evidence": [
         "Explain the difference between assertive, aggressive, and passive responses",
@@ -22107,7 +22154,33 @@
       ],
       "assessmentPrompt": "If friends want {{name}} to do something they're uncomfortable with — like excluding another child or breaking a rule — can {{name}} say 'I don't want to do that' firmly but politely?",
       "standards": [
+        "acara-v9:AC9HP4P04",
+        "acara-v9:AC9HP4P07",
+        "acara-v9:AC9HP6P07",
+        "acara-v9:AC9HP6P08",
         "ib-pyp-pspe:PSPE.INT.P2.LO.8"
+      ]
+    },
+    {
+      "id": "mt_z98J_Zg2L3",
+      "type": "META",
+      "subject": "Personal & Social Development",
+      "domain": "Friendship & Cooperation",
+      "name": "Self-Reflection in Relationships",
+      "description": "Reflect on their own role and behaviour in relationships — recognising patterns in how they interact with others, understanding what they contribute to friendships, and identifying areas where they could improve as a friend or team member",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0.07763157894736843,
+      "evidence": [
+        "Identify a pattern in their own social behaviour, such as always wanting to lead or avoiding confrontation",
+        "Describe what they do well in relationships and one area they'd like to improve",
+        "Set a specific social goal, such as 'I will ask others for their ideas before sharing mine'"
+      ],
+      "assessmentPrompt": "Can {{name}} honestly reflect on their friendships and say something like 'I think I sometimes take over in group work and I'm trying to listen more' — showing awareness of their own social patterns?",
+      "standards": [
+        "acara-v9:AC9HP4P04",
+        "ib-pyp-pspe:PSPE.INT.P4.CU.2",
+        "ib-pyp-pspe:PSPE.INT.P4.LO.1"
       ]
     },
     {
@@ -22118,7 +22191,7 @@
       "name": "Giving and Receiving Feedback",
       "description": "Give and receive constructive feedback — telling someone what they did well and what could be improved in a way that is helpful rather than hurtful, and receiving feedback about their own work without becoming defensive",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.06842105263157895,
       "evidence": [
         "Give feedback that includes both a specific positive point and a constructive suggestion",
@@ -22127,6 +22200,7 @@
       ],
       "assessmentPrompt": "If {{name}} reviews a classmate's story and finds mistakes, can they give feedback that's helpful — like 'I loved this part, and this bit could be clearer' — rather than just saying 'it's wrong'?",
       "standards": [
+        "acara-v9:AC9HP6P04",
         "ib-pyp-pspe:PSPE.INT.P3.LO.8"
       ]
     },
@@ -22138,7 +22212,7 @@
       "name": "Helping Others Resolve Conflicts",
       "description": "Mediate conflicts between others — helping two friends who are arguing by listening to both sides, helping them see each other's perspective, and guiding them toward a fair resolution",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Listen to both sides of a conflict without taking sides initially",
@@ -22147,29 +22221,9 @@
       ],
       "assessmentPrompt": "If two of {{name}}'s friends are arguing and both come to {{name}} for support, can {{name}} help them talk it out fairly rather than just taking one side?",
       "standards": [
+        "acara-v9:AC9HP6P04",
         "ib-pyp-pspe:PSPE.INT.P3.LO.7",
         "ib-pyp-pspe:PSPE.INT.P4.LO.3"
-      ]
-    },
-    {
-      "id": "mt_z98J_Zg2L3",
-      "type": "META",
-      "subject": "Personal & Social Development",
-      "domain": "Friendship & Cooperation",
-      "name": "Self-Reflection in Relationships",
-      "description": "Reflect on their own role and behaviour in relationships — recognising patterns in how they interact with others, understanding what they contribute to friendships, and identifying areas where they could improve as a friend or team member",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.07763157894736843,
-      "evidence": [
-        "Identify a pattern in their own social behaviour, such as always wanting to lead or avoiding confrontation",
-        "Describe what they do well in relationships and one area they'd like to improve",
-        "Set a specific social goal, such as 'I will ask others for their ideas before sharing mine'"
-      ],
-      "assessmentPrompt": "Can {{name}} honestly reflect on their friendships and say something like 'I think I sometimes take over in group work and I'm trying to listen more' — showing awareness of their own social patterns?",
-      "standards": [
-        "ib-pyp-pspe:PSPE.INT.P4.CU.2",
-        "ib-pyp-pspe:PSPE.INT.P4.LO.1"
       ]
     },
     {
@@ -22243,7 +22297,7 @@
       "name": "Everyday Safety Awareness",
       "description": "Keep themselves safe in everyday situations — knowing basic safety rules about roads, strangers, water, and the internet — and understanding who their trusted adults are and when to tell them something",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.005263157894736842,
       "evidence": [
         "State at least three basic safety rules and explain why each matters",
@@ -22251,7 +22305,11 @@
         "Demonstrate safe behaviour in a familiar everyday situation without being reminded"
       ],
       "assessmentPrompt": "Does {{name}} know their basic safety rules — like not going off with someone they don't know, looking both ways before crossing, and telling you if something online makes them uncomfortable?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP2P05",
+        "acara-v9:AC9HPFP05",
+        "acara-v9:AC9HPFP06"
+      ]
     },
     {
       "id": "mt_Wc6cOTQ1bA",
@@ -22312,34 +22370,14 @@
       "standards": []
     },
     {
-      "id": "mt_zIzJGkaj0Q",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Responsible Decision-Making",
-      "name": "Basic digital citizenship",
-      "description": "Understand basic digital citizenship — being kind online, protecting personal information, recognising that people behind screens are real people with real feelings, and knowing what to do if something online makes them uncomfortable",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.01842105263157895,
-      "evidence": [
-        "State at least three rules for staying safe and being kind online",
-        "Explain why hurtful messages online are just as harmful as saying them in person",
-        "Describe what they should do if someone online makes them feel uncomfortable or asks for personal information"
-      ],
-      "assessmentPrompt": "When {{name}} is chatting with friends online or playing multiplayer games, do they treat people kindly and know not to share personal details like their address or school name?",
-      "standards": [
-        "ib-pyp-pspe:PSPE.INT.P2.CU.5"
-      ]
-    },
-    {
       "id": "mt_yCmYV9ruQu",
       "type": "CONCEPTUAL",
       "subject": "Personal & Social Development",
       "domain": "Responsible Decision-Making",
       "name": "Bystanders and Upstanders",
       "description": "Understand the bystander role — that when someone witnesses unkind or unfair behaviour, they have a choice: they can be a passive bystander (doing nothing), join in, or be an upstander (speaking up or getting help) — and develop the confidence to be an upstander",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
       "centrality": 0.02894736842105263,
       "evidence": [
         "Explain the difference between a bystander and an upstander",
@@ -22348,8 +22386,54 @@
       ],
       "assessmentPrompt": "If {{name}} sees a group of children being mean to someone at school, do they have the courage to say something, walk away with the person being targeted, or tell a teacher — rather than just watching?",
       "standards": [
+        "acara-v9:AC9HP2P05",
+        "acara-v9:AC9HP4P08",
+        "acara-v9:AC9HP4P10",
         "ib-pyp-pspe:PSPE.INT.P1.CU.5",
         "ib-pyp-pspe:PSPE.INT.P2.LO.11"
+      ]
+    },
+    {
+      "id": "mt_I9iSzpGRn5",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Responsible Decision-Making",
+      "name": "Understanding Bullying",
+      "description": "Understand what bullying is — repeated behaviour intended to hurt someone, including physical, verbal, social (exclusion, spreading rumours), and cyberbullying — and know that it is always wrong and what to do if they experience or witness it",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.02894736842105263,
+      "evidence": [
+        "Define bullying and distinguish it from a one-off conflict",
+        "Name at least three forms of bullying including cyberbullying",
+        "Describe the steps they should take if they experience or witness bullying"
+      ],
+      "assessmentPrompt": "Does {{name}} understand the difference between a one-off argument and bullying, and do they know what to do if they see someone being bullied — rather than just ignoring it?",
+      "standards": [
+        "acara-v9:AC9HP2P05",
+        "acara-v9:AC9HP4P08"
+      ]
+    },
+    {
+      "id": "mt_zIzJGkaj0Q",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Responsible Decision-Making",
+      "name": "Basic digital citizenship",
+      "description": "Understand basic digital citizenship — being kind online, protecting personal information, recognising that people behind screens are real people with real feelings, and knowing what to do if something online makes them uncomfortable",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 10,
+      "centrality": 0.01842105263157895,
+      "evidence": [
+        "State at least three rules for staying safe and being kind online",
+        "Explain why hurtful messages online are just as harmful as saying them in person",
+        "Describe what they should do if someone online makes them feel uncomfortable or asks for personal information"
+      ],
+      "assessmentPrompt": "When {{name}} is chatting with friends online or playing multiplayer games, do they treat people kindly and know not to share personal details like their address or school name?",
+      "standards": [
+        "acara-v9:AC9HP4P08",
+        "acara-v9:AC9HP4P10",
+        "ib-pyp-pspe:PSPE.INT.P2.CU.5"
       ]
     },
     {
@@ -22375,24 +22459,6 @@
       ]
     },
     {
-      "id": "mt_I9iSzpGRn5",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Responsible Decision-Making",
-      "name": "Understanding Bullying",
-      "description": "Understand what bullying is — repeated behaviour intended to hurt someone, including physical, verbal, social (exclusion, spreading rumours), and cyberbullying — and know that it is always wrong and what to do if they experience or witness it",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.02894736842105263,
-      "evidence": [
-        "Define bullying and distinguish it from a one-off conflict",
-        "Name at least three forms of bullying including cyberbullying",
-        "Describe the steps they should take if they experience or witness bullying"
-      ],
-      "assessmentPrompt": "Does {{name}} understand the difference between a one-off argument and bullying, and do they know what to do if they see someone being bullied — rather than just ignoring it?",
-      "standards": []
-    },
-    {
       "id": "mt_h-z88yf9Pn",
       "type": "LANGUAGE",
       "subject": "Personal & Social Development",
@@ -22400,7 +22466,7 @@
       "name": "Vocabulary: ethics and citizenship",
       "description": "Know and use the vocabulary of ethics and citizenship — bullying, cyberbullying, bystander, upstander, peer pressure, digital citizenship, rights, responsibility, and ethical — and understand the distinctions between these closely related terms",
       "ageRangeStart": 7,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Explain what 'ethics' means in their own words and give an example of an ethical dilemma",
@@ -22408,7 +22474,10 @@
         "Define 'consent' and 'integrity' and explain why they matter in relationships and online behaviour"
       ],
       "assessmentPrompt": "If {{name}} saw someone being treated unkindly online and you asked them about it, could they explain the difference between being a bystander and an upstander — and what 'digital citizenship' means?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP4P07",
+        "acara-v9:AC9HP6P07"
+      ]
     },
     {
       "id": "mt_h_shhH-6DC",
@@ -22430,6 +22499,29 @@
         "acara-v9:AC9HS3K06",
         "acara-v9:AC9HS3K07",
         "ib-pyp-pspe:PSPE.INT.P3.CU.5"
+      ]
+    },
+    {
+      "id": "mt_JivEBTD_KV",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Responsible Decision-Making",
+      "name": "Peer Pressure and Resisting It",
+      "description": "Understand peer pressure — the influence friends and peers can have on your choices and behaviour — and develop strategies for resisting pressure to do something they know is wrong or that makes them uncomfortable",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.1026315789473684,
+      "evidence": [
+        "Define peer pressure in their own words and give a real-world example",
+        "Describe at least two strategies for resisting peer pressure, such as walking away or using humour",
+        "Explain why going along with something wrong to fit in usually makes things worse"
+      ],
+      "assessmentPrompt": "If {{name}}'s friends dare them to do something risky or unkind — like shoplifting a sweet or posting an embarrassing photo of someone — can they resist the pressure and explain why they won't do it?",
+      "standards": [
+        "acara-v9:AC9HP4P08",
+        "acara-v9:AC9HP6P08",
+        "acara-v9:AC9HP6P10",
+        "ib-pyp-pspe:PSPE-ID-CU-P4-4"
       ]
     },
     {
@@ -22471,26 +22563,6 @@
         "acara-v9:AC9HS6S06",
         "ib-pyp-pspe:PSPE.INT.P4.CU.4",
         "ib-pyp-pspe:PSPE.INT.P4.LO.5"
-      ]
-    },
-    {
-      "id": "mt_JivEBTD_KV",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Responsible Decision-Making",
-      "name": "Peer Pressure and Resisting It",
-      "description": "Understand peer pressure — the influence friends and peers can have on your choices and behaviour — and develop strategies for resisting pressure to do something they know is wrong or that makes them uncomfortable",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.1026315789473684,
-      "evidence": [
-        "Define peer pressure in their own words and give a real-world example",
-        "Describe at least two strategies for resisting peer pressure, such as walking away or using humour",
-        "Explain why going along with something wrong to fit in usually makes things worse"
-      ],
-      "assessmentPrompt": "If {{name}}'s friends dare them to do something risky or unkind — like shoplifting a sweet or posting an embarrassing photo of someone — can they resist the pressure and explain why they won't do it?",
-      "standards": [
-        "ib-pyp-pspe:PSPE-ID-CU-P4-4"
       ]
     },
     {
@@ -22614,7 +22686,7 @@
       "name": "Your Impact on Others",
       "description": "Reflect on how your behaviour lands on others — consider not just what you intended but what the actual impact was on the other person",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.05394736842105263,
       "evidence": [
         "Describe how something they said or did affected someone else — e.g. 'When I didn't include them, they looked upset'",
@@ -22622,7 +22694,10 @@
         "After a conflict, explain what they could have done differently and what effect that would have had"
       ],
       "assessmentPrompt": "Can {{name}} think about how something they said or did might have felt to the other person — not just what they meant by it, but what the impact actually was?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP6P06",
+        "acara-v9:AC9HP6P10"
+      ]
     },
     {
       "id": "mt_Mb1JUJmnbX",
@@ -22784,7 +22859,7 @@
       "name": "Choosing the Right Coping Strategy",
       "description": "Understand that different situations require different coping strategies — what works for anger might not work for sadness, and what helps at school might be different from what helps at home",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Name at least two different coping strategies and explain when each one is most useful",
@@ -22793,6 +22868,8 @@
       ],
       "assessmentPrompt": "Can {{name}} recognise that when they're angry they need to do something physical like walk around, but when they're worried they need to talk it through — rather than using the same approach for every difficult feeling?",
       "standards": [
+        "acara-v9:AC9HP4P02",
+        "acara-v9:AC9HP4P06",
         "ib-pyp-pspe:PSPE-ID-CU-P2-7"
       ]
     },
@@ -22804,7 +22881,7 @@
       "name": "Growth Mindset",
       "description": "Understand the concept of a growth mindset — that abilities and intelligence can grow with effort, practice, and good strategies — as opposed to a fixed mindset where you believe you're either good at something or you're not",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.03552631578947368,
       "evidence": [
         "Explain the difference between growth mindset and fixed mindset in their own words",
@@ -22813,6 +22890,7 @@
       ],
       "assessmentPrompt": "When {{name}} finds something difficult like learning to ride a bike or mastering times tables, do they say 'I can't do it YET' rather than 'I'm just not good at this'?",
       "standards": [
+        "acara-v9:AC9HP4P01",
         "ib-pyp-pspe:PSPE-ID-CU-P2-4",
         "ib-pyp-pspe:PSPE-ID-LO-P2-12"
       ]
@@ -22825,7 +22903,7 @@
       "name": "Positive Self-Talk",
       "description": "Use positive self-talk to manage difficult situations — replacing unhelpful thoughts like 'I'm stupid' or 'I'll never be able to do this' with encouraging ones like 'This is hard but I can keep trying' or 'I've done hard things before'",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.02894736842105263,
       "evidence": [
         "Give an example of an unhelpful thought and rephrase it as a helpful one",
@@ -22834,6 +22912,8 @@
       ],
       "assessmentPrompt": "When {{name}} is struggling with homework and starts saying 'I'm rubbish at this', can they catch that thought and replace it with something more helpful like 'I just need to try a different approach'?",
       "standards": [
+        "acara-v9:AC9HP4P06",
+        "acara-v9:AC9HP6P01",
         "ib-pyp-pspe:PSPE-ID-LO-P2-11",
         "ib-pyp-pspe:PSPE-ID-LO-P3-10"
       ]
@@ -22863,8 +22943,8 @@
       "domain": "Self-Regulation & Resilience",
       "name": "Personal Coping Toolkit",
       "description": "Reflect on which self-regulation and coping strategies work best for them personally, building a 'toolkit' of approaches they can draw on in different situations and sharing what works with others",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
       "centrality": 0.1105263157894737,
       "evidence": [
         "Describe at least three personal coping strategies and when each is most effective",
@@ -22873,8 +22953,33 @@
       ],
       "assessmentPrompt": "Can {{name}} tell you 'When I'm stressed about exams I go for a walk and that helps, but when I'm sad I need to talk to someone' — showing they know their own coping toolkit?",
       "standards": [
+        "acara-v9:AC9HP4P02",
+        "acara-v9:AC9HP6P02",
+        "acara-v9:AC9HP6P06",
         "ib-pyp-pspe:PSPE-ID-CU-P3-6",
         "ib-pyp-pspe:PSPE-ID-CU-P4-7"
+      ]
+    },
+    {
+      "id": "mt_Amw5ikSSQI",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Self-Regulation & Resilience",
+      "name": "Resilience and Bouncing Back",
+      "description": "Understand resilience as the ability to recover from setbacks, adapt to difficult circumstances, and keep going — recognising that resilience is a skill that develops through experience, not a trait you either have or don't",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 11,
+      "centrality": 0.0881578947368421,
+      "evidence": [
+        "Define resilience in their own words and explain why it matters",
+        "Describe a time they bounced back from a setback and what helped them recover",
+        "Explain that resilience grows through experience and that struggling doesn't mean you're weak"
+      ],
+      "assessmentPrompt": "After a real disappointment — like not getting a part in the school play or failing a test they studied for — can {{name}} feel upset but then pick themselves up and figure out what to do next?",
+      "standards": [
+        "acara-v9:AC9HP4P01",
+        "ib-pyp-pspe:PSPE-ID-CU-P4-8",
+        "ib-pyp-pspe:PSPE-ID-LO-P4-7"
       ]
     },
     {
@@ -22895,27 +23000,6 @@
       "assessmentPrompt": "Can {{name}} set themselves a goal — like improving their swimming or finishing a book series — and actually work towards it step by step, adjusting their plan if needed?",
       "standards": [
         "ib-pyp-pspe:PSPE-ID-LO-P2-5"
-      ]
-    },
-    {
-      "id": "mt_Amw5ikSSQI",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Self-Regulation & Resilience",
-      "name": "Resilience and Bouncing Back",
-      "description": "Understand resilience as the ability to recover from setbacks, adapt to difficult circumstances, and keep going — recognising that resilience is a skill that develops through experience, not a trait you either have or don't",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.0881578947368421,
-      "evidence": [
-        "Define resilience in their own words and explain why it matters",
-        "Describe a time they bounced back from a setback and what helped them recover",
-        "Explain that resilience grows through experience and that struggling doesn't mean you're weak"
-      ],
-      "assessmentPrompt": "After a real disappointment — like not getting a part in the school play or failing a test they studied for — can {{name}} feel upset but then pick themselves up and figure out what to do next?",
-      "standards": [
-        "ib-pyp-pspe:PSPE-ID-CU-P4-8",
-        "ib-pyp-pspe:PSPE-ID-LO-P4-7"
       ]
     },
     {
@@ -28039,6 +28123,7 @@
       ],
       "assessmentPrompt": "Can {{name}} point to their eyes, ears, nose, tongue, and skin and tell you which sense each one is used for?",
       "standards": [
+        "acara-v9:AC9HPFP05",
         "uk-nc-2013:Y1.Sci.A.4"
       ]
     },
@@ -31723,7 +31808,7 @@
       "name": "Basic Body Needs",
       "description": "Know that the body needs food for energy, water to stay hydrated, sleep to rest and grow, and exercise to keep muscles and the heart strong — and that these are basic needs every human body has",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02236842105263158,
       "evidence": [
         "List the four basic needs: food (energy), water (hydration), sleep (rest and growth), exercise (strength)",
@@ -31731,7 +31816,9 @@
         "Describe what happens if one need isn't met (e.g. feeling tired without sleep, thirsty without water)"
       ],
       "assessmentPrompt": "Can {{name}} explain why their body needs food, water, sleep, and exercise — and what happens if they miss any of them?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP2P06"
+      ]
     },
     {
       "id": "mt_SdIWVjzopp",
@@ -31833,7 +31920,7 @@
       "name": "Balanced Diet & Food Groups",
       "description": "Know the main food groups (carbohydrates, proteins, fats, vitamins, minerals, fibre, water) and understand that a balanced diet includes the right amounts from each group to keep the body healthy and provide energy, growth materials, and protection from illness",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01842105263157895,
       "evidence": [
         "Name at least five food groups and give an example food for each (e.g. carbohydrates = bread, protein = chicken)",
@@ -31841,7 +31928,9 @@
         "State that vitamins and minerals protect against illness and help the body work properly"
       ],
       "assessmentPrompt": "If {{name}} looked at their dinner plate, could they identify which foods give energy, which help muscles grow, and which keep them healthy?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP4P10"
+      ]
     },
     {
       "id": "mt_C7FNeIDGc6",
@@ -31952,6 +32041,49 @@
       "standards": []
     },
     {
+      "id": "mt_pu2mmK27UA",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "The Human Body",
+      "name": "Growing Up & Puberty",
+      "description": "Describe the stages of human development from birth to old age: baby, toddler, child, adolescent (puberty), young adult, middle-aged adult, elderly — understanding the physical changes that happen at each stage, especially during puberty",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.03684210526315789,
+      "evidence": [
+        "Name and order at least six life stages from birth to old age",
+        "Describe key physical changes during puberty (growth spurts, body shape changes, development of adult features)",
+        "Explain that puberty is triggered by hormones — chemical messengers released by glands"
+      ],
+      "assessmentPrompt": "Can {{name}} describe how a person’s body changes as they grow from a baby to an adult to an elderly person — and explain what happens during puberty?",
+      "standards": [
+        "acara-v9:AC9HP4P02",
+        "acara-v9:AC9HP6P02"
+      ]
+    },
+    {
+      "id": "mt_4k3HGahK2k",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "The Human Body",
+      "name": "Healthy Lifestyle Choices",
+      "description": "Understand how lifestyle choices affect the body’s health: a balanced diet, regular exercise, adequate sleep, and avoiding harmful substances (tobacco, alcohol, drugs) help body systems function well, while poor choices increase the risk of disease",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.02368421052631579,
+      "evidence": [
+        "Explain how regular exercise strengthens the heart, lungs, and muscles",
+        "Describe how a poor diet high in sugar and fat can lead to obesity, tooth decay, and heart problems",
+        "State at least two harmful effects of smoking (damages lungs, increases heart disease risk) or alcohol (damages liver, affects brain)"
+      ],
+      "assessmentPrompt": "Can {{name}} explain how what they eat, how much they exercise, and how much they sleep affects how their body works — and why smoking or drugs are harmful?",
+      "standards": [
+        "acara-v9:AC9HP4P10",
+        "acara-v9:AC9HP6P09",
+        "acara-v9:AC9HP6P10"
+      ]
+    },
+    {
       "id": "mt_QK-ZZb7UUN",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -31967,42 +32099,6 @@
         "Measure their own resting and post-exercise heart rate and explain the difference"
       ],
       "assessmentPrompt": "Can {{name}} explain why their heart beats faster when they run — and how their heart and lungs are working together to deliver more oxygen to their muscles?",
-      "standards": []
-    },
-    {
-      "id": "mt_pu2mmK27UA",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "The Human Body",
-      "name": "Growing Up & Puberty",
-      "description": "Describe the stages of human development from birth to old age: baby, toddler, child, adolescent (puberty), young adult, middle-aged adult, elderly — understanding the physical changes that happen at each stage, especially during puberty",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.03684210526315789,
-      "evidence": [
-        "Name and order at least six life stages from birth to old age",
-        "Describe key physical changes during puberty (growth spurts, body shape changes, development of adult features)",
-        "Explain that puberty is triggered by hormones — chemical messengers released by glands"
-      ],
-      "assessmentPrompt": "Can {{name}} describe how a person’s body changes as they grow from a baby to an adult to an elderly person — and explain what happens during puberty?",
-      "standards": []
-    },
-    {
-      "id": "mt_4k3HGahK2k",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "The Human Body",
-      "name": "Healthy Lifestyle Choices",
-      "description": "Understand how lifestyle choices affect the body’s health: a balanced diet, regular exercise, adequate sleep, and avoiding harmful substances (tobacco, alcohol, drugs) help body systems function well, while poor choices increase the risk of disease",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 11,
-      "centrality": 0.02368421052631579,
-      "evidence": [
-        "Explain how regular exercise strengthens the heart, lungs, and muscles",
-        "Describe how a poor diet high in sugar and fat can lead to obesity, tooth decay, and heart problems",
-        "State at least two harmful effects of smoking (damages lungs, increases heart disease risk) or alcohol (damages liver, affects brain)"
-      ],
-      "assessmentPrompt": "Can {{name}} explain how what they eat, how much they exercise, and how much they sleep affects how their body works — and why smoking or drugs are harmful?",
       "standards": []
     },
     {
@@ -33186,7 +33282,7 @@
       "name": "Dressing for the Weather",
       "description": "Choose appropriate clothing and equipment for different weather conditions — coat and umbrella for rain, sun hat and sunscreen for hot sun, warm layers for cold — understanding that weather affects what we do and how we prepare each day",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.002631578947368421,
       "evidence": [
         "Select appropriate clothing for at least three different weather conditions",
@@ -33194,7 +33290,10 @@
         "Describe how weather affects daily activities like playtime, walking to school, or outdoor events"
       ],
       "assessmentPrompt": "Before going outside, can {{name}} check the weather and choose the right clothes — like grabbing a raincoat if it's cloudy or a sun hat if it's hot?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9HP2P06",
+        "acara-v9:AC9HPFP06"
+      ]
     },
     {
       "id": "mt_TlLE4cZgOr",
