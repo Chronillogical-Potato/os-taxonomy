@@ -4484,7 +4484,7 @@
       "description": "Draw on information from multiple print or digital sources, demonstrating the ability to locate an answer to a question quickly or solve a problem efficiently",
       "ageRangeStart": 10,
       "ageRangeEnd": 12,
-      "centrality": 0.07116564417177915,
+      "centrality": 0.07607361963190185,
       "evidence": [
         "Use search features, indexes, and headings to locate specific information across sources",
         "Synthesise information from two or more sources to answer a research question",
@@ -7662,7 +7662,7 @@
       "description": "Place ancient Egypt on a timeline spanning over 3,000 years — from around 3100 BCE (unification under the first pharaoh) to 30 BCE (Roman conquest) — understanding that this civilisation lasted longer than the time between the Romans and today, and was divided into major periods: the Old Kingdom (pyramid age), Middle Kingdom, and New Kingdom (empire age)",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.07730061349693251,
+      "centrality": 0.08220858895705521,
       "evidence": [
         "Place ancient Egypt on a timeline showing it lasted over 3,000 years",
         "Name the three main periods (Old, Middle, New Kingdom) and associate one fact with each",
@@ -7680,7 +7680,7 @@
       "description": "Understand how the pyramids were built: thousands of workers moved enormous stone blocks using ramps, rollers, and sledges, the work was organised by the pharaoh's officials, and the design evolved from flat-topped mastabas to step pyramids (like Djoser's) to the smooth-sided Great Pyramid — and know that later pharaohs were buried in hidden rock-cut tombs in the Valley of the Kings",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.0785276073619632,
+      "centrality": 0.0834355828220859,
       "evidence": [
         "Describe at least two methods used to move and raise heavy stone blocks",
         "Explain that pyramid design changed over time from simple tombs to the Great Pyramid",
@@ -7806,7 +7806,7 @@
       "description": "Evaluate ancient Egypt's lasting legacy: the Egyptians developed early forms of medicine, mathematics (used to build pyramids and survey land after floods), astronomy (calendar based on star observations), and engineering that influenced later civilisations including Greece and Rome — and compare ancient Egypt with other early civilisations (Mesopotamia, Indus Valley, Shang Dynasty) to identify shared features like writing, agriculture, cities, and organised religion",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.1312883435582822,
+      "centrality": 0.1361963190184049,
       "evidence": [
         "Name at least two Egyptian achievements that influenced later civilisations",
         "Identify at least two features that ancient Egypt shared with other early civilisations",
@@ -7824,7 +7824,7 @@
       "description": "Know that ancient Egypt eventually came to an end: the last pharaoh was Cleopatra VII, who allied with Rome but was defeated by Octavian (later Augustus) in 31 BCE, after which Egypt became a province of the Roman Empire — ending over 3,000 years of pharaonic rule and beginning a new chapter in Egypt's history",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.1190184049079755,
+      "centrality": 0.12392638036809817,
       "evidence": [
         "Name Cleopatra VII as the last pharaoh of ancient Egypt",
         "Explain that Egypt was conquered by Rome and became part of the Roman Empire",
@@ -7842,7 +7842,7 @@
       "description": "Analyse Egyptian art and architecture: understand that Egyptian paintings followed strict conventions (people shown from the side with eyes from the front, size indicating importance), that tomb and temple design evolved from mastabas to step pyramids to smooth pyramids to rock-cut temples like Abu Simbel, and that obelisks, colossal statues, and temples like Karnak demonstrated the pharaoh's power and devotion to the gods",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.08834355828220859,
+      "centrality": 0.09325153374233129,
       "evidence": [
         "Identify at least two conventions used in Egyptian painting and explain their purpose",
         "Describe how monument design changed over the course of Egyptian history",
@@ -7860,7 +7860,7 @@
       "description": "Read and construct historical timelines — place Ancient Egyptian periods, pharaohs, and key events on a timeline relative to each other and to the present day; interpret maps showing the Nile delta, trade routes, and the location of key sites",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.07239263803680981,
+      "centrality": 0.07730061349693251,
       "evidence": [
         "Place the Old, Middle, and New Kingdoms on a timeline and calculate the number of years between them",
         "Read a map of ancient Egypt and identify the Nile, Memphis, Thebes, and the Valley of the Kings",
@@ -7932,7 +7932,7 @@
       "description": "Understand that modern Egyptologists use advanced technologies — CT scanning of mummies, satellite imagery to find buried structures, DNA analysis — alongside traditional excavation, and think critically about the ethics of archaeology: whether mummies should be displayed in museums, who owns ancient artefacts, and how colonial-era collecting affects how we study and present ancient Egypt today",
       "ageRangeStart": 10,
       "ageRangeEnd": 12,
-      "centrality": 0.4331288343558282,
+      "centrality": 0.4343558282208589,
       "evidence": [
         "Name at least two modern technologies used in Egyptology and explain what they reveal",
         "Discuss at least one ethical question about how ancient Egyptian artefacts are treated today",
@@ -8004,7 +8004,7 @@
       "description": "Analyse who built the pyramids and why, evaluating the evidence against the alien-builder myth and the slave-labour myth: archaeological evidence from worker villages at Giza shows a paid, skilled, well-fed workforce; discuss the social functions of monument building as a form of state organisation, religious duty, and employment; and assess the current controversy over newly discovered construction ramps and logistics",
       "ageRangeStart": 12,
       "ageRangeEnd": 14,
-      "centrality": 0.2920245398773006,
+      "centrality": 0.29325153374233126,
       "evidence": [
         "Cites at least three pieces of archaeological evidence from Giza that point to an organised, skilled, fed workforce rather than slaves or aliens (e.g. worker villages, bakery remains, graffiti tags, medical care)",
         "Explains why the alien hypothesis fails to meet the standards of historical evidence and what the burden of proof in history requires",
@@ -8418,7 +8418,7 @@
       "description": "Evaluate the lasting contributions of Greek and Roman civilisations to modern life — democracy, law, language (Latin roots), architecture (columns, arches, domes), sport (Olympics), philosophy, literature, and theatre — and understand that Greek ideas reached us through Rome, and then through later European civilisations, in a chain of cultural transmission",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.1411042944785276,
+      "centrality": 0.1460122699386503,
       "evidence": [
         "List at least five ways ancient Greece and Rome still influence modern life",
         "Explain how Greek culture spread to Rome and then from Rome across Europe",
@@ -9045,7 +9045,7 @@
       "description": "What the Middle Ages gave us: Parliament, universities, common law, Gothic architecture, the English language (Anglo-Saxon + Norman French), place names, surnames; why we are still fascinated by the medieval world",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.1693251533742331,
+      "centrality": 0.17423312883435582,
       "evidence": [
         "Name at least three things from the Middle Ages that still affect our lives today",
         "Explain how the English language was shaped by Anglo-Saxon and Norman French",
@@ -9063,7 +9063,7 @@
       "description": "The medieval world beyond Europe: the Islamic Golden Age (maths, medicine, architecture), the Mali Empire and Mansa Musa, Song Dynasty China; how the medieval world was connected through trade routes like the Silk Road",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.1644171779141104,
+      "centrality": 0.16932515337423312,
       "evidence": [
         "Name at least two achievements of the Islamic Golden Age (algebra, hospitals, architecture)",
         "Describe who Mansa Musa was and why he is remembered",
@@ -12724,7 +12724,7 @@
       "description": "Complete, read, and interpret information in tables, including timetables",
       "ageRangeStart": 9,
       "ageRangeEnd": 12,
-      "centrality": 0.06625766871165645,
+      "centrality": 0.07116564417177915,
       "evidence": [
         "Read a bus timetable to find the departure time for a particular stop",
         "Complete a two-way table from given data about favourite sports by gender",
@@ -13060,7 +13060,7 @@
       "description": "Construct and interpret frequency tables, bar charts, pie charts, pictograms, and vertical line charts for both categorical and grouped numerical data, choosing appropriate representations for the data type",
       "ageRangeStart": 11,
       "ageRangeEnd": 13,
-      "centrality": 0.1791411042944785,
+      "centrality": 0.18036809815950922,
       "evidence": [
         "Construct a grouped frequency table from raw continuous data, choosing appropriate class intervals",
         "Draw a pie chart by calculating the angle for each category",
@@ -13338,7 +13338,7 @@
       "description": "Recognise, find, and name a quarter as one of four equal parts of an object, shape, or quantity",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.2638036809815951,
+      "centrality": 0.2846625766871166,
       "evidence": [
         "Fold a shape into four equal parts and identify each as 'a quarter'",
         "Find a quarter of 12 objects by sharing into 4 equal groups",
@@ -13381,7 +13381,7 @@
       "description": "Understand that decomposing a shape into more equal shares creates smaller shares",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.2343558282208589,
+      "centrality": 0.2552147239263804,
       "evidence": [
         "Explain that a quarter of a pizza is smaller than a half of the same pizza",
         "Demonstrate that fourths are smaller pieces than halves",
@@ -13442,7 +13442,7 @@
       "description": "Partition circles and rectangles into two and four equal shares and describe them using the words halves, fourths, and quarters",
       "ageRangeStart": 6,
       "ageRangeEnd": 8,
-      "centrality": 0.2343558282208589,
+      "centrality": 0.2552147239263804,
       "evidence": [
         "Divide a circle into two equal halves",
         "Divide a rectangle into four equal quarters",
@@ -13564,7 +13564,7 @@
       "description": "Connect halves, quarters and eighths through repeated halving of shapes, objects and collections, and represent eighths of shapes and objects",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.04294478527607362,
+      "centrality": 0.07116564417177915,
       "evidence": [
         "Fold a paper strip in half, then half again, then half again, and label the halves, quarters and eighths",
         "Show that 2 eighths of a pizza is the same amount as 1 quarter",
@@ -17013,7 +17013,7 @@
       "description": "Select and use appropriate tools and representations strategically: choose between mental, written, and diagrammatic methods; use calculators for checking; select fraction models suited to the task",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.09202453987730061,
+      "centrality": 0.09325153374233129,
       "evidence": [
         "Decide to use mental multiplication for 25×4 but a written method for 167×3",
         "Choose fraction strips rather than a number line to compare 3/8 and 1/4",
@@ -17174,7 +17174,7 @@
       "description": "Select and use tools and representations strategically: choose between mental methods, formal written methods, protractors, fraction strips, and diagrams based on the demands of the problem",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.1177914110429448,
+      "centrality": 0.11901840490797547,
       "evidence": [
         "Choose mental multiplication for 25 × 40 but long multiplication for 347 × 26",
         "Select a protractor to verify an estimated angle rather than relying on visual inspection alone",
@@ -17396,7 +17396,7 @@
       "description": "Select and use tools and representations strategically: choose between mental methods, formal written methods, algebraic approaches, coordinate grids, and technology based on the demands of the problem",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
-      "centrality": 0.1558282208588957,
+      "centrality": 0.1570552147239264,
       "evidence": [
         "Explain why long division is more appropriate than mental methods for 4,752 ÷ 13",
         "Choose a coordinate grid approach to verify a translation rather than computing from a description alone",
@@ -17831,7 +17831,7 @@
       "centrality": 0.03190184049079755,
       "evidence": [
         "Sort a mixed handful of real Australian coins into cents coins and dollar coins and explain why the small $2 coin is worth more than the larger 50c coin",
-        "Pay exactly for a $7 toy by dragging virtual $5, $2 and $1 coins and notes in a money app",
+        "Pay exactly for a $7 toy in a money app by dragging a virtual $5 note and a virtual $2 coin",
         "Find the total cost of a $5 book and a $3 pen and say whether a $10 note is enough"
       ],
       "assessmentPrompt": "When {{name}} plays shop, can they name the Australian coins and notes — like the $1, $2 and 50c coins and the $5 note — and work out if they have enough to buy two things?",
@@ -18141,7 +18141,7 @@
       "description": "Compare durations of events and calculate the time taken by particular events or tasks",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.05276073619631902,
+      "centrality": 0.05766871165644172,
       "evidence": [
         "Work out that a TV show from 5:17 p.m. to 5:43 p.m. lasted 26 minutes",
         "Compare a 35-minute bus journey with a 40-minute walk and say which takes longer and by how much",
@@ -18198,17 +18198,17 @@
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
       "domain": "Measurement",
-      "name": "Halves and quarters of time",
-      "description": "Identify common uses of halves and quarters in relation to events and time, such as half an hour, a quarter of an hour, half-time in a game and a quarter of a day",
+      "name": "Fractions of time and events",
+      "description": "Identify common uses of halves, quarters and eighths in relation to events and time, such as half-time in a game, half an hour, a quarter of an hour, and an activity split into eight equal time parts",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.04171779141104295,
+      "centrality": 0.046625766871165646,
       "evidence": [
-        "Explain that half an hour is 30 minutes because an hour is split into 2 equal parts",
+        "Describe half-time in a football game as the point when half the playing time is over, and explain that half an hour is 30 minutes because an hour is split into 2 equal parts",
         "Show a quarter of an hour on a clock face as a quarter of the way round",
-        "Describe half-time in a football game as the point when half the playing time is over"
+        "Represent a 16-minute class activity as a strip of eight equal 2-minute parts, colour one part and say it is one eighth of the activity (2 minutes)"
       ],
-      "assessmentPrompt": "If {{name}} is told dinner will be ready in half an hour, do they know that means 30 minutes — and can they explain what 'half-time' in a game means?",
+      "assessmentPrompt": "If a 16-minute game is split into 8 equal turns, can {{name}} work out that each turn is one eighth of the game — 2 minutes — and do they know that half an hour is 30 minutes?",
       "standards": [
         "acara-v9:AC9M2M02"
       ]
@@ -18343,7 +18343,7 @@
       "description": "Recognise, read and show quarter past and quarter to the hour on an analog clock, linking each to a quarter turn of the minute hand",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
-      "centrality": 0.0441717791411043,
+      "centrality": 0.049079754601226995,
       "evidence": [
         "Read a clock showing 3:15 as 'quarter past three'",
         "Set the hands of a clock to quarter to seven",
@@ -18404,7 +18404,7 @@
       "description": "Tell, write and estimate the time to the nearest minute on analogue and digital clocks, using vocabulary such as o'clock, a.m./p.m., morning, afternoon, noon and midnight; record and compare times and durations in seconds, minutes and hours",
       "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.05030674846625767,
+      "centrality": 0.05521472392638037,
       "evidence": [
         "Read 7:43 from an analogue clock face and write it on a digital display",
         "Estimate whether brushing teeth takes about 2 seconds, 2 minutes or 2 hours, then time it to check",
@@ -18638,7 +18638,7 @@
       "description": "Solve word problems involving elapsed time by adding and subtracting time intervals in minutes, including using a number line",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
-      "centrality": 0.05276073619631902,
+      "centrality": 0.05766871165644172,
       "evidence": [
         "A film starts at 2:15 and lasts 47 minutes — when does it end?",
         "Calculate how many minutes between 9:20 and 10:05",
@@ -18981,7 +18981,7 @@
       "description": "Solve problems involving converting between units of time (hours↔minutes, minutes↔seconds, years↔months, weeks↔days)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.0736196319018405,
+      "centrality": 0.0785276073619632,
       "evidence": [
         "Convert 3 hours 25 minutes to 205 minutes",
         "A programme lasts 150 seconds — express in minutes and seconds",

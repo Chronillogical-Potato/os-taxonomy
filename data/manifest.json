@@ -1,7 +1,7 @@
 {
   "dataset": "Marble Skill Taxonomy",
   "taxonomyVersion": "v1",
-  "generatedAt": "2026-10-21T13:37:48.002Z",
+  "generatedAt": "2026-10-21T14:22:52.946Z",
   "codesOnlySources": [
     "c3-social-studies",
     "ib-pyp-pspe",
@@ -20,7 +20,7 @@
       "Personal & Social Development": 88,
       "Science": 547
     },
-    "dependencies": 3465,
+    "dependencies": 3466,
     "curricula": 8,
     "curriculumStandards": 3881,
     "topicStandardLinks": 3856,
@@ -30,12 +30,12 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1848991,
-      "sha256": "773b8399e5b6d290be01c893910b57e54cd1872828155f4c405ad9f3850f0d69"
+      "bytes": 1849221,
+      "sha256": "39d334db5199e1c51aabff2b77a57dc626de854ca741569ed816a5998ad6a15d"
     },
     "dependencies.json": {
-      "bytes": 752953,
-      "sha256": "f57e57f164932d7ceea795bccf38618bf8ed278fc4a57e188ff16acb4b29f704"
+      "bytes": 753189,
+      "sha256": "1269226298a7bf1ea9a4167ce590dd0cbf75615edb45becf961146ae1e80b25d"
     },
     "curriculum-standards.json": {
       "bytes": 2112149,
@@ -47,7 +47,7 @@
     },
     "teaching-research.json": {
       "bytes": 23516467,
-      "sha256": "36e3e4d389c4ab927524941c638fa91bfdfbe12ea2c9e37ece7b534501c5a7fc"
+      "sha256": "c25c8fbc7cf74c6353d6bca13545aef148d3bcf4ee221e9bc486c5f10cbd55fb"
     },
     "archived-teaching-research.json": {
       "bytes": 50334,
@@ -62,7 +62,7 @@
   "teachingResearch": {
     "schemaVersion": 1,
     "exportedAt": "2026-10-19T16:08:02.198Z",
-    "topicFileSha256": "773b8399e5b6d290be01c893910b57e54cd1872828155f4c405ad9f3850f0d69",
+    "topicFileSha256": "39d334db5199e1c51aabff2b77a57dc626de854ca741569ed816a5998ad6a15d",
     "coverage": {
       "topicCount": 1677,
       "withResearch": 1049,

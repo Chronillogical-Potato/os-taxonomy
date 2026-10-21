@@ -60,7 +60,7 @@ Reviewed 21 October 2026 against all 139 ACARA v9 Foundation–Year 6 content de
 | `AC9M2A02` | Full | Fluent adding and subtracting within 20 (`mt__t4afSyZRm`); Fluent addition and subtraction (`mt_3e_PQxwC12`); Number bonds (`mt_s2mfRBoTal`); Inverse: addition undoes subtraction (`mt_ehGS_uVSJv`) | — |
 | `AC9M2A03` | Full | Times tables (`mt_HhuSDxwDNM`) | — |
 | `AC9M2M01` | Full | Measuring length (age 6+) (`mt_cqSf213hSa`); Measuring mass and weight (`mt_zd0YkB3xNj`); Capacity and volume (`mt_4lp_b5Pzik`); Smaller units for accuracy (`mt_e7tLi9SCIE`) | — |
-| `AC9M2M02` | Full | Halves & Quarters of Shapes (`mt_xACS3rWWDp`); What Is a Half? (`mt_-hTTat0mBR`); Finding halves and quarters (age 5+) (`mt_g3W0mdADVu`); Halves, quarters and eighths (`mt_gC-6JXAG5S`); Halves and quarters of time (`mt_Jz9UuT8BXW`) | — |
+| `AC9M2M02` | Full | Halves & Quarters of Shapes (`mt_xACS3rWWDp`); What Is a Half? (`mt_-hTTat0mBR`); Finding halves and quarters (age 5+) (`mt_g3W0mdADVu`); Halves, quarters and eighths (`mt_gC-6JXAG5S`); Fractions of time and events (`mt_Jz9UuT8BXW`) | — |
 | `AC9M2M03` | Full | Days, Weeks, Months & Years (`mt_bj1YCgNWUx`); Time Units and Calendar Facts (`mt_EXlmTURK_o`); Using a calendar (`mt_tVvZVWO5d6`) | — |
 | `AC9M2M04` | Full | Telling Time: Hours and Half Hours (`mt_0XxyaQLRhn`); Quarter past and quarter to (`mt_MgsDabdnr1`) | — |
 | `AC9M2M05` | Full | Turns & Directions (`mt_Y9XKzLrUAZ`); Position, direction, and movement (`mt_TdV9YGJEoY`) | — |

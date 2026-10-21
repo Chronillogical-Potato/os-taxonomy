@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3465,
+  "edgeCount": 3466,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -10256,6 +10256,12 @@
       "prerequisiteId": "mt_0XxyaQLRhn",
       "strength": "soft",
       "reason": "Half past on a clock connects to half an hour"
+    },
+    {
+      "topicId": "mt_Jz9UuT8BXW",
+      "prerequisiteId": "mt_gC-6JXAG5S",
+      "strength": "hard",
+      "reason": "Splitting an activity into eighths requires knowing eighths from repeated halving of shapes and objects"
     },
     {
       "topicId": "mt_Jz9UuT8BXW",
