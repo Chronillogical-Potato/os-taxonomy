@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3915,
+  "edgeCount": 4013,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -214,6 +214,18 @@
       "reason": "DNA structure and replication depends on chromosomes and Mendelian inheritance"
     },
     {
+      "topicId": "mt_0sR1xhrn7W",
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "soft",
+      "reason": "'Everyday Safety Awareness' supports 'Logging in to my account'"
+    },
+    {
+      "topicId": "mt_0sR1xhrn7W",
+      "prerequisiteId": "mt_SZrMv3YAky",
+      "strength": "soft",
+      "reason": "'Hardware and software' supports 'Logging in to my account'"
+    },
+    {
       "topicId": "mt_0T0Zf0YG6k",
       "prerequisiteId": "mt_AstzvYDU2m",
       "strength": "soft",
@@ -302,6 +314,30 @@
       "prerequisiteId": "mt_ntqNLHsj5n",
       "strength": "soft",
       "reason": "Introductory-element comma use builds on broader comma awareness from list punctuation"
+    },
+    {
+      "topicId": "mt_0XHRJ49akv",
+      "prerequisiteId": "mt_EedcpioR0v",
+      "strength": "soft",
+      "reason": "'Recommendation Systems and Filter Bubbles' supports 'My digital footprint'"
+    },
+    {
+      "topicId": "mt_0XHRJ49akv",
+      "prerequisiteId": "mt_hkIbGmuH7D",
+      "strength": "soft",
+      "reason": "'When permission is needed' supports 'My digital footprint'"
+    },
+    {
+      "topicId": "mt_0XHRJ49akv",
+      "prerequisiteId": "mt_HopZomN12L",
+      "strength": "soft",
+      "reason": "'AI Data Collection and Privacy' supports 'My digital footprint'"
+    },
+    {
+      "topicId": "mt_0XHRJ49akv",
+      "prerequisiteId": "mt_qOv8OP8z2G",
+      "strength": "hard",
+      "reason": "'My digital footprint' builds on 'What my accounts store'"
     },
     {
       "topicId": "mt_0XxyaQLRhn",
@@ -2032,6 +2068,18 @@
       "reason": "Checking money calculations uses estimation by rounding"
     },
     {
+      "topicId": "mt_5CcwPYEafI",
+      "prerequisiteId": "mt_QpK9BpUO__",
+      "strength": "hard",
+      "reason": "'Co-creating user stories' builds on 'How apps meet users' needs'"
+    },
+    {
+      "topicId": "mt_5CcwPYEafI",
+      "prerequisiteId": "mt_Z5-fSCOBep",
+      "strength": "hard",
+      "reason": "'Co-creating user stories' builds on 'Simple Design Problems'"
+    },
+    {
       "topicId": "mt_5FREdVoS8s",
       "prerequisiteId": "mt_j32D5DZX7x",
       "strength": "hard",
@@ -2234,6 +2282,24 @@
       "prerequisiteId": "mt_nTL-owFJTF",
       "strength": "hard",
       "reason": "Composite volume requires volume formula for individual prisms"
+    },
+    {
+      "topicId": "mt_5UtPmgdoQ9",
+      "prerequisiteId": "mt_8dstvf-KKb",
+      "strength": "soft",
+      "reason": "'Checking Your Own Work' supports 'Testing and debugging programs'"
+    },
+    {
+      "topicId": "mt_5UtPmgdoQ9",
+      "prerequisiteId": "mt_sPV503BQnI",
+      "strength": "hard",
+      "reason": "'Testing and debugging programs' builds on 'My first visual program'"
+    },
+    {
+      "topicId": "mt_5UtPmgdoQ9",
+      "prerequisiteId": "mt_TDUpy57QVM",
+      "strength": "soft",
+      "reason": "'Learning from Mistakes' supports 'Testing and debugging programs'"
     },
     {
       "topicId": "mt_5XLhiqmocP",
@@ -2528,6 +2594,18 @@
       "prerequisiteId": "mt_dRCnJEIwk4",
       "strength": "hard",
       "reason": "Chemosynthesis as energy base of vent communities depends on deep sea and bioluminescence"
+    },
+    {
+      "topicId": "mt_6XbAmdmjDb",
+      "prerequisiteId": "mt_sPV503BQnI",
+      "strength": "hard",
+      "reason": "'Loops in programs' builds on 'My first visual program'"
+    },
+    {
+      "topicId": "mt_6XbAmdmjDb",
+      "prerequisiteId": "mt_zQfWqImxva",
+      "strength": "soft",
+      "reason": "'Following number algorithms' supports 'Loops in programs'"
     },
     {
       "topicId": "mt_6XCURuNwPw",
@@ -3406,6 +3484,24 @@
       "reason": "Adaptations concept requires knowing the variety of ocean animals"
     },
     {
+      "topicId": "mt_9fyI5B1U_V",
+      "prerequisiteId": "mt_33zncDHC3N",
+      "strength": "soft",
+      "reason": "'Giving and Receiving Feedback' supports 'Improving digital designs'"
+    },
+    {
+      "topicId": "mt_9fyI5B1U_V",
+      "prerequisiteId": "mt_9qF97kGhvq",
+      "strength": "hard",
+      "reason": "'Improving digital designs' builds on 'Designing a digital solution'"
+    },
+    {
+      "topicId": "mt_9fyI5B1U_V",
+      "prerequisiteId": "mt_WoBE0CZWGg",
+      "strength": "soft",
+      "reason": "'Designing a user interface' supports 'Improving digital designs'"
+    },
+    {
       "topicId": "mt_9gpUHWVKMR",
       "prerequisiteId": "mt_aWOK1npO5s",
       "strength": "soft",
@@ -3578,6 +3674,24 @@
       "prerequisiteId": "mt_PJyCGJz5Hv",
       "strength": "hard",
       "reason": "Planning writing builds on Y1 oral rehearsal"
+    },
+    {
+      "topicId": "mt_9qF97kGhvq",
+      "prerequisiteId": "mt_5CcwPYEafI",
+      "strength": "hard",
+      "reason": "'Designing a digital solution' builds on 'Co-creating user stories'"
+    },
+    {
+      "topicId": "mt_9qF97kGhvq",
+      "prerequisiteId": "mt_hi8cVycbwn",
+      "strength": "soft",
+      "reason": "'Modelling with Sketches' supports 'Designing a digital solution'"
+    },
+    {
+      "topicId": "mt_9qF97kGhvq",
+      "prerequisiteId": "mt_HveO1bOXpJ",
+      "strength": "soft",
+      "reason": "'Comparing Possible Solutions' supports 'Designing a digital solution'"
     },
     {
       "topicId": "mt_9QzSnn8m80",
@@ -6454,6 +6568,24 @@
       "reason": "Polar animals builds on knowing animals live everywhere including cold places"
     },
     {
+      "topicId": "mt_d6BsiDtFjP",
+      "prerequisiteId": "mt_h-z88yf9Pn",
+      "strength": "soft",
+      "reason": "'Vocabulary: ethics and citizenship' supports 'Planning digital group projects'"
+    },
+    {
+      "topicId": "mt_d6BsiDtFjP",
+      "prerequisiteId": "mt_JI0Iv01hCT",
+      "strength": "hard",
+      "reason": "'Planning digital group projects' builds on 'Collaborating in shared documents'"
+    },
+    {
+      "topicId": "mt_d6BsiDtFjP",
+      "prerequisiteId": "mt_QR3vxbN1o4",
+      "strength": "soft",
+      "reason": "'Planning a Task' supports 'Planning digital group projects'"
+    },
+    {
       "topicId": "mt_d7XktBQPxm",
       "prerequisiteId": "mt_IuHa5UI5od",
       "strength": "hard",
@@ -7306,6 +7438,12 @@
       "reason": "Describing character/setting/event in depth builds on analysing character traits and motivations; the step up is from trait analysis to comprehensive in-depth description using multiple textual details"
     },
     {
+      "topicId": "mt_EfF81YvgXV",
+      "prerequisiteId": "mt_5CcwPYEafI",
+      "strength": "hard",
+      "reason": "'User stories and design criteria' builds on 'Co-creating user stories'"
+    },
+    {
       "topicId": "mt_efOeaGFyGM",
       "prerequisiteId": "mt_hR2Y7NhMSY",
       "strength": "hard",
@@ -7462,6 +7600,12 @@
       "reason": "Must understand insects' ecosystem roles to grasp why their decline matters"
     },
     {
+      "topicId": "mt_el7qeUK-Cd",
+      "prerequisiteId": "mt_Hft-0nxZvB",
+      "strength": "hard",
+      "reason": "'How the internet sends data' builds on 'Computer networks'"
+    },
+    {
       "topicId": "mt_EmR5n58jZt",
       "prerequisiteId": "mt_DyGBW3ZHh3",
       "strength": "hard",
@@ -7502,6 +7646,30 @@
       "prerequisiteId": "mt_yBJyCfhtem",
       "strength": "hard",
       "reason": "Must identify verbs before applying tense"
+    },
+    {
+      "topicId": "mt_eNJ99tRb3p",
+      "prerequisiteId": "mt_5UtPmgdoQ9",
+      "strength": "hard",
+      "reason": "'Building and testing programs' builds on 'Testing and debugging programs'"
+    },
+    {
+      "topicId": "mt_eNJ99tRb3p",
+      "prerequisiteId": "mt_6XbAmdmjDb",
+      "strength": "hard",
+      "reason": "'Building and testing programs' builds on 'Loops in programs'"
+    },
+    {
+      "topicId": "mt_eNJ99tRb3p",
+      "prerequisiteId": "mt_nx4a3kH-59",
+      "strength": "soft",
+      "reason": "'Designing number algorithms' supports 'Building and testing programs'"
+    },
+    {
+      "topicId": "mt_eNJ99tRb3p",
+      "prerequisiteId": "mt_YZOjP8KHsM",
+      "strength": "hard",
+      "reason": "'Building and testing programs' builds on 'Variables in programs'"
     },
     {
       "topicId": "mt_eoPcc4nrBE",
@@ -8836,6 +9004,24 @@
       "reason": "Eye sends signals to brain via optic nerve; knowing brain receives sense messages helps"
     },
     {
+      "topicId": "mt_GKL5Usnd11",
+      "prerequisiteId": "mt_DA7-JYRvtP",
+      "strength": "soft",
+      "reason": "'Building a simple circuit' supports 'Inside a computer'"
+    },
+    {
+      "topicId": "mt_GKL5Usnd11",
+      "prerequisiteId": "mt_kV441n9SLg",
+      "strength": "soft",
+      "reason": "'Peripherals for different purposes' is helpful background for 'Inside a computer' but not required to understand CPU, RAM and storage"
+    },
+    {
+      "topicId": "mt_GKL5Usnd11",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "hard",
+      "reason": "'Inside a computer' builds on 'Parts of a computer' (basic components and input/output before internal components)"
+    },
+    {
       "topicId": "mt_glPPG-kTQY",
       "prerequisiteId": "mt_m1W6nTQJ2b",
       "strength": "hard",
@@ -8936,6 +9122,18 @@
       "prerequisiteId": "mt_V6456X6pJE",
       "strength": "hard",
       "reason": "Evaluating arguments builds on KS2 distinguishing fact from opinion"
+    },
+    {
+      "topicId": "mt_gNDkyx19tk",
+      "prerequisiteId": "mt_kH1DzOPsXG",
+      "strength": "hard",
+      "reason": "'Data that is about me' builds on 'Data and Information for Computers'"
+    },
+    {
+      "topicId": "mt_gNDkyx19tk",
+      "prerequisiteId": "mt_sh1Mq-mshx",
+      "strength": "soft",
+      "reason": "'Asking permission' supports 'Data that is about me'"
     },
     {
       "topicId": "mt_gNUE4B3vuk",
@@ -9466,6 +9664,18 @@
       "reason": "Fluency requires prior experience with columnar methods for three digits"
     },
     {
+      "topicId": "mt_Hft-0nxZvB",
+      "prerequisiteId": "mt_GKL5Usnd11",
+      "strength": "soft",
+      "reason": "'Inside a computer' supports 'Computer networks'"
+    },
+    {
+      "topicId": "mt_Hft-0nxZvB",
+      "prerequisiteId": "mt_YfbfIdljWd",
+      "strength": "hard",
+      "reason": "'Computer networks' builds on 'Sending data between devices'"
+    },
+    {
       "topicId": "mt_hHcaPPtPzS",
       "prerequisiteId": "mt_LhkP_KKIRS",
       "strength": "soft",
@@ -9898,6 +10108,24 @@
       "reason": "Independent writing self-evaluation (8-9) builds directly on the scaffolded version introduced with teacher support (5-7)"
     },
     {
+      "topicId": "mt_h_XQsdIavD",
+      "prerequisiteId": "mt_hkIbGmuH7D",
+      "strength": "soft",
+      "reason": "'When permission is needed' supports 'Privacy when collecting data'"
+    },
+    {
+      "topicId": "mt_h_XQsdIavD",
+      "prerequisiteId": "mt_qOv8OP8z2G",
+      "strength": "hard",
+      "reason": "'Privacy when collecting data' builds on 'What my accounts store'"
+    },
+    {
+      "topicId": "mt_h_XQsdIavD",
+      "prerequisiteId": "mt_yrvYKSwSRZ",
+      "strength": "soft",
+      "reason": "'Collecting data with digital tools' supports 'Privacy when collecting data'"
+    },
+    {
       "topicId": "mt_HY8Yycu_rz",
       "prerequisiteId": "mt_6oxQPNLHNv",
       "strength": "soft",
@@ -10136,6 +10364,24 @@
       "prerequisiteId": "mt_jHgRQ4hR0g",
       "strength": "soft",
       "reason": "Solving equations uses order-of-operations understanding"
+    },
+    {
+      "topicId": "mt_ic4dmtTZlw",
+      "prerequisiteId": "mt_EedcpioR0v",
+      "strength": "soft",
+      "reason": "'Recommendation Systems and Filter Bubbles' supports 'Apps store my data online'"
+    },
+    {
+      "topicId": "mt_ic4dmtTZlw",
+      "prerequisiteId": "mt_gNDkyx19tk",
+      "strength": "hard",
+      "reason": "'Apps store my data online' builds on 'Data that is about me'"
+    },
+    {
+      "topicId": "mt_ic4dmtTZlw",
+      "prerequisiteId": "mt_zIzJGkaj0Q",
+      "strength": "soft",
+      "reason": "'Basic digital citizenship' supports 'Apps store my data online'"
     },
     {
       "topicId": "mt_I_c57p0aGN",
@@ -10472,6 +10718,12 @@
       "prerequisiteId": "mt_-r3B4FQyX3",
       "strength": "soft",
       "reason": "Advanced K-Pg analysis connects with KS3 extinction and natural selection concepts"
+    },
+    {
+      "topicId": "mt_iqmt8wL26h",
+      "prerequisiteId": "mt__p5n8z5soJ",
+      "strength": "hard",
+      "reason": "'Decisions and repeats in algorithms' builds on 'Step-by-Step Instructions'"
     },
     {
       "topicId": "mt_iQYPw8bMfN",
@@ -11156,6 +11408,24 @@
       "prerequisiteId": "mt_e4x3l2JeLI",
       "strength": "hard",
       "reason": "Must be able to measure with tools before comparing measurements in different units"
+    },
+    {
+      "topicId": "mt_JI0Iv01hCT",
+      "prerequisiteId": "mt_mqMPlNMIEN",
+      "strength": "hard",
+      "reason": "'Collaborating in shared documents' builds on 'Sharing and working together digitally'"
+    },
+    {
+      "topicId": "mt_JI0Iv01hCT",
+      "prerequisiteId": "mt_QxsoqVUt6u",
+      "strength": "soft",
+      "reason": "'Working Well in a Group' supports 'Collaborating in shared documents'"
+    },
+    {
+      "topicId": "mt_JI0Iv01hCT",
+      "prerequisiteId": "mt_XeT37rd69f",
+      "strength": "soft",
+      "reason": "'Saving and organising files' supports 'Collaborating in shared documents'"
     },
     {
       "topicId": "mt_jIcgbCmziD",
@@ -12122,6 +12392,12 @@
       "prerequisiteId": "mt_OltpfaX7l6",
       "strength": "hard",
       "reason": "Evaluating author's use of reasons and evidence builds on identifying author's POV and purpose; the step up is from identifying purpose to evaluating the quality of reasoning"
+    },
+    {
+      "topicId": "mt_kV441n9SLg",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "hard",
+      "reason": "'Peripherals for different purposes' builds on 'Parts of a computer'"
     },
     {
       "topicId": "mt_kvrvpQris4",
@@ -13528,6 +13804,24 @@
       "reason": "KS2 finding pairs satisfying an equation with two unknowns is a precursor to simultaneous equations"
     },
     {
+      "topicId": "mt_mqMPlNMIEN",
+      "prerequisiteId": "mt_0sR1xhrn7W",
+      "strength": "soft",
+      "reason": "'Logging in to my account' supports 'Sharing and working together digitally'"
+    },
+    {
+      "topicId": "mt_mqMPlNMIEN",
+      "prerequisiteId": "mt_FwI7q7DSIx",
+      "strength": "soft",
+      "reason": "'Taking Turns and Sharing' supports 'Sharing and working together digitally'"
+    },
+    {
+      "topicId": "mt_mqMPlNMIEN",
+      "prerequisiteId": "mt_zIzJGkaj0Q",
+      "strength": "soft",
+      "reason": "'Basic digital citizenship' supports 'Sharing and working together digitally'"
+    },
+    {
       "topicId": "mt_mqQ-DtH5m-",
       "prerequisiteId": "mt_T8JGTJ-oNI",
       "strength": "hard",
@@ -13724,6 +14018,24 @@
       "prerequisiteId": "mt_oN7fI4d_kU",
       "strength": "hard",
       "reason": "Castles provide the physical context for understanding knights who lived and served in them"
+    },
+    {
+      "topicId": "mt_MXxVMCr7_4",
+      "prerequisiteId": "mt_1z-gJBJFlM",
+      "strength": "soft",
+      "reason": "'Designing Fair AI Rules' supports 'Evaluating digital solutions'"
+    },
+    {
+      "topicId": "mt_MXxVMCr7_4",
+      "prerequisiteId": "mt_EfF81YvgXV",
+      "strength": "hard",
+      "reason": "'Evaluating digital solutions' builds on 'User stories and design criteria'"
+    },
+    {
+      "topicId": "mt_MXxVMCr7_4",
+      "prerequisiteId": "mt_Q57cnsiKsB",
+      "strength": "hard",
+      "reason": "'Evaluating digital solutions' builds on 'Checking solutions against criteria'"
     },
     {
       "topicId": "mt_My0OL6fhGL",
@@ -14090,6 +14402,24 @@
       "prerequisiteId": "mt_18qkgxr_-T",
       "strength": "hard",
       "reason": "Irregular and collective plurals build on regular plural noun formation"
+    },
+    {
+      "topicId": "mt_nfGAtwqSvP",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "soft",
+      "reason": "'Parts of a computer' supports 'Decisions and input in programs'"
+    },
+    {
+      "topicId": "mt_nfGAtwqSvP",
+      "prerequisiteId": "mt_sPV503BQnI",
+      "strength": "hard",
+      "reason": "'Decisions and input in programs' builds on 'My first visual program'"
+    },
+    {
+      "topicId": "mt_nfGAtwqSvP",
+      "prerequisiteId": "mt_zQfWqImxva",
+      "strength": "soft",
+      "reason": "'Following number algorithms' supports 'Decisions and input in programs'"
     },
     {
       "topicId": "mt_nHvYYrhoM7",
@@ -14668,6 +14998,18 @@
       "reason": "Must understand circuit behaviour before representing circuits with formal symbols"
     },
     {
+      "topicId": "mt_o0vTMl8vj5",
+      "prerequisiteId": "mt_SZrMv3YAky",
+      "strength": "hard",
+      "reason": "'Parts of a computer' builds on 'Hardware and software'"
+    },
+    {
+      "topicId": "mt_o0vTMl8vj5",
+      "prerequisiteId": "mt_w5sIW_-T_J",
+      "strength": "soft",
+      "reason": "'Navigating digital texts' supports 'Parts of a computer'"
+    },
+    {
       "topicId": "mt_O12GEyNwSi",
       "prerequisiteId": "mt_My0OL6fhGL",
       "strength": "soft",
@@ -14936,6 +15278,24 @@
       "prerequisiteId": "mt_wRlf0g2MbB",
       "strength": "soft",
       "reason": "Noticing similarities and differences among people draws on vocabulary of community, fair, and care"
+    },
+    {
+      "topicId": "mt_OKCmMGWczX",
+      "prerequisiteId": "mt_AzTrT5ySCx",
+      "strength": "soft",
+      "reason": "'AI in Daily Life' supports 'Problems digital systems solve'"
+    },
+    {
+      "topicId": "mt_OKCmMGWczX",
+      "prerequisiteId": "mt_XbGfVhfiUz",
+      "strength": "soft",
+      "reason": "'Computers in Everyday Life' supports 'Problems digital systems solve'"
+    },
+    {
+      "topicId": "mt_OKCmMGWczX",
+      "prerequisiteId": "mt_YbX3LD0Eca",
+      "strength": "soft",
+      "reason": "'Listening to Others' supports 'Problems digital systems solve'"
     },
     {
       "topicId": "mt_OkSJfrmFb_",
@@ -16060,6 +16420,18 @@
       "reason": "Syllable awareness builds toward phoneme level"
     },
     {
+      "topicId": "mt_pWaBywSX9V",
+      "prerequisiteId": "mt_W5euSyU2sO",
+      "strength": "soft",
+      "reason": "'Scams & Online Safety' supports 'Unique passphrases'"
+    },
+    {
+      "topicId": "mt_pWaBywSX9V",
+      "prerequisiteId": "mt_y8-x0P5P9R",
+      "strength": "hard",
+      "reason": "'Unique passphrases' builds on 'Memorable, hard-to-guess passwords'"
+    },
+    {
       "topicId": "mt_pwo81ls_J-",
       "prerequisiteId": "mt_v3Vz_Pgjjv",
       "strength": "hard",
@@ -16268,6 +16640,24 @@
       "prerequisiteId": "mt_uTKgmWqSoI",
       "strength": "soft",
       "reason": "Safety awareness draws on vocabulary of 'safe', 'trusted adult', and 'choice'"
+    },
+    {
+      "topicId": "mt_Q57cnsiKsB",
+      "prerequisiteId": "mt_5CcwPYEafI",
+      "strength": "hard",
+      "reason": "'Checking solutions against criteria' builds on 'Co-creating user stories'"
+    },
+    {
+      "topicId": "mt_Q57cnsiKsB",
+      "prerequisiteId": "mt_eoPcc4nrBE",
+      "strength": "soft",
+      "reason": "'Fair testing (age 8+)' supports 'Checking solutions against criteria'"
+    },
+    {
+      "topicId": "mt_Q57cnsiKsB",
+      "prerequisiteId": "mt_sPV503BQnI",
+      "strength": "soft",
+      "reason": "'My first visual program' supports 'Checking solutions against criteria'"
     },
     {
       "topicId": "mt_q7zxOloj_L",
@@ -16684,6 +17074,36 @@
       "reason": "Need to recognise 3-D shapes before composing them"
     },
     {
+      "topicId": "mt_qOv8OP8z2G",
+      "prerequisiteId": "mt_0sR1xhrn7W",
+      "strength": "soft",
+      "reason": "'Logging in to my account' supports 'What my accounts store'"
+    },
+    {
+      "topicId": "mt_qOv8OP8z2G",
+      "prerequisiteId": "mt_hkIbGmuH7D",
+      "strength": "soft",
+      "reason": "'When permission is needed' supports 'What my accounts store'"
+    },
+    {
+      "topicId": "mt_qOv8OP8z2G",
+      "prerequisiteId": "mt_HopZomN12L",
+      "strength": "soft",
+      "reason": "'AI Data Collection and Privacy' supports 'What my accounts store'"
+    },
+    {
+      "topicId": "mt_qOv8OP8z2G",
+      "prerequisiteId": "mt_ic4dmtTZlw",
+      "strength": "hard",
+      "reason": "'What my accounts store' builds on 'Apps store my data online'"
+    },
+    {
+      "topicId": "mt_qOv8OP8z2G",
+      "prerequisiteId": "mt_zIzJGkaj0Q",
+      "strength": "soft",
+      "reason": "'Basic digital citizenship' supports 'What my accounts store'"
+    },
+    {
       "topicId": "mt_QpJydot2Kh",
       "prerequisiteId": "mt_r8XnXwRA6g",
       "strength": "hard",
@@ -16694,6 +17114,18 @@
       "prerequisiteId": "mt__yvsKKp3TS",
       "strength": "hard",
       "reason": "Choosing displays for a purpose builds on comparing displays of the same data"
+    },
+    {
+      "topicId": "mt_QpK9BpUO__",
+      "prerequisiteId": "mt_OKCmMGWczX",
+      "strength": "hard",
+      "reason": "'How apps meet users' needs' builds on 'Problems digital systems solve'"
+    },
+    {
+      "topicId": "mt_QpK9BpUO__",
+      "prerequisiteId": "mt_u6SYiVx7FX",
+      "strength": "soft",
+      "reason": "'Voice Assistants and How They Work' supports 'How apps meet users' needs'"
     },
     {
       "topicId": "mt_QpmVikVaqY",
@@ -17120,6 +17552,30 @@
       "prerequisiteId": "mt_snlqRCiA1R",
       "strength": "hard",
       "reason": "Four-quadrant coordinates extend first-quadrant plotting"
+    },
+    {
+      "topicId": "mt_r5rwyP8zRU",
+      "prerequisiteId": "mt_AHXePdicRf",
+      "strength": "soft",
+      "reason": "'Making multimodal texts' supports 'Choosing the right digital tool'"
+    },
+    {
+      "topicId": "mt_r5rwyP8zRU",
+      "prerequisiteId": "mt_JVVKT-_AD9",
+      "strength": "soft",
+      "reason": "'Using Multiple Sources' supports 'Choosing the right digital tool'"
+    },
+    {
+      "topicId": "mt_r5rwyP8zRU",
+      "prerequisiteId": "mt_VtqvUORa8K",
+      "strength": "soft",
+      "reason": "'Multimedia Presentations' supports 'Choosing the right digital tool'"
+    },
+    {
+      "topicId": "mt_r5rwyP8zRU",
+      "prerequisiteId": "mt_XeT37rd69f",
+      "strength": "hard",
+      "reason": "'Choosing the right digital tool' builds on 'Saving and organising files'"
     },
     {
       "topicId": "mt_r6oKXpN0er",
@@ -17980,6 +18436,24 @@
       "reason": "Experimental probability requires understanding the 0–1 probability scale first"
     },
     {
+      "topicId": "mt_sHMpam8zcd",
+      "prerequisiteId": "mt_jBQS-CicNn",
+      "strength": "soft",
+      "reason": "'First Quadrant Coordinates' supports 'All data as numbers'"
+    },
+    {
+      "topicId": "mt_sHMpam8zcd",
+      "prerequisiteId": "mt_kH1DzOPsXG",
+      "strength": "hard",
+      "reason": "'All data as numbers' builds on 'Data and Information for Computers'"
+    },
+    {
+      "topicId": "mt_sHMpam8zcd",
+      "prerequisiteId": "mt_QpJydot2Kh",
+      "strength": "soft",
+      "reason": "'Choosing displays for a purpose' supports 'All data as numbers'"
+    },
+    {
       "topicId": "mt_SHVyE1CLUa",
       "prerequisiteId": "mt_QHT16CrFO-",
       "strength": "hard",
@@ -18158,6 +18632,24 @@
       "prerequisiteId": "mt_DOe893F6gN",
       "strength": "hard",
       "reason": "Reading partial units requires measuring with standard units"
+    },
+    {
+      "topicId": "mt_sPV503BQnI",
+      "prerequisiteId": "mt_iqmt8wL26h",
+      "strength": "soft",
+      "reason": "'Decisions and repeats in algorithms' supports 'My first visual program'; branching and loops are taught in the later loop and decision topics"
+    },
+    {
+      "topicId": "mt_sPV503BQnI",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "soft",
+      "reason": "'Parts of a computer' supports 'My first visual program'"
+    },
+    {
+      "topicId": "mt_sPV503BQnI",
+      "prerequisiteId": "mt__p5n8z5soJ",
+      "strength": "hard",
+      "reason": "'My first visual program' builds on 'Step-by-Step Instructions' (a first program is a start event plus a sequence)"
     },
     {
       "topicId": "mt_SqhXQhAEUf",
@@ -18380,6 +18872,18 @@
       "prerequisiteId": "mt_QH-Fs97twT",
       "strength": "soft",
       "reason": "Simple food chain understanding prepares for interdependence concept in pollination"
+    },
+    {
+      "topicId": "mt_SZrMv3YAky",
+      "prerequisiteId": "mt_WRRv1ABECC",
+      "strength": "soft",
+      "reason": "'Smart Versus Not-Smart Devices' supports 'Hardware and software'"
+    },
+    {
+      "topicId": "mt_SZrMv3YAky",
+      "prerequisiteId": "mt_XbGfVhfiUz",
+      "strength": "hard",
+      "reason": "'Hardware and software' builds on 'Computers in Everyday Life'"
     },
     {
       "topicId": "mt_-SZU6cVB_-",
@@ -20878,6 +21382,24 @@
       "reason": "Must know flower function before understanding pollination and seed formation"
     },
     {
+      "topicId": "mt_WoBE0CZWGg",
+      "prerequisiteId": "mt_9qF97kGhvq",
+      "strength": "hard",
+      "reason": "'Designing a user interface' builds on 'Designing a digital solution'"
+    },
+    {
+      "topicId": "mt_WoBE0CZWGg",
+      "prerequisiteId": "mt__CFtXgDaEL",
+      "strength": "soft",
+      "reason": "'Headlines, menus and links online' supports 'Designing a user interface'"
+    },
+    {
+      "topicId": "mt_WoBE0CZWGg",
+      "prerequisiteId": "mt__PcuXj7_I1",
+      "strength": "soft",
+      "reason": "'Layout and navigation words online' supports 'Designing a user interface'"
+    },
+    {
       "topicId": "mt_wPgpMJ0-PA",
       "prerequisiteId": "mt_LlMl2PbaZe",
       "strength": "hard",
@@ -20930,6 +21452,24 @@
       "prerequisiteId": "mt_IzQvs7k_sE",
       "strength": "soft",
       "reason": "Counting in 4s and 8s supports learning those table facts"
+    },
+    {
+      "topicId": "mt_WQiVj8gIRs",
+      "prerequisiteId": "mt_HLUqHJ9Y7n",
+      "strength": "soft",
+      "reason": "'Patterns with Powers of Ten' supports 'Binary on and off'"
+    },
+    {
+      "topicId": "mt_WQiVj8gIRs",
+      "prerequisiteId": "mt_jY7uf0Cb7o",
+      "strength": "soft",
+      "reason": "'Place value of each digit' supports 'Binary on and off'"
+    },
+    {
+      "topicId": "mt_WQiVj8gIRs",
+      "prerequisiteId": "mt_sHMpam8zcd",
+      "strength": "hard",
+      "reason": "'Binary on and off' builds on 'All data as numbers'"
     },
     {
       "topicId": "mt_Wr6DDgr_kH",
@@ -21484,6 +22024,18 @@
       "reason": "Print concepts needed to understand book features"
     },
     {
+      "topicId": "mt_XeT37rd69f",
+      "prerequisiteId": "mt_0sR1xhrn7W",
+      "strength": "soft",
+      "reason": "'Logging in to my account' supports 'Saving and organising files'"
+    },
+    {
+      "topicId": "mt_XeT37rd69f",
+      "prerequisiteId": "mt_nYU6x2E2T8",
+      "strength": "soft",
+      "reason": "'Sharing and Publishing Your Writing' supports 'Saving and organising files'"
+    },
+    {
       "topicId": "mt_xfwv0M83mJ",
       "prerequisiteId": "mt_8H2kO4k2B9",
       "strength": "soft",
@@ -22018,6 +22570,12 @@
       "reason": "Etymological spelling patterns extend the suffix and sound-spelling work from Y3"
     },
     {
+      "topicId": "mt_y8-x0P5P9R",
+      "prerequisiteId": "mt_0sR1xhrn7W",
+      "strength": "hard",
+      "reason": "'Memorable, hard-to-guess passwords' builds on 'Logging in to my account'"
+    },
+    {
       "topicId": "mt_Y9k86G8BBT",
       "prerequisiteId": "mt_AvrQauS_zX",
       "strength": "soft",
@@ -22166,6 +22724,24 @@
       "prerequisiteId": "mt_Qkl46lyris",
       "strength": "hard",
       "reason": "Understanding joints, tendons and ligaments requires first knowing skeletal structure and function"
+    },
+    {
+      "topicId": "mt_YfbfIdljWd",
+      "prerequisiteId": "mt_kH1DzOPsXG",
+      "strength": "soft",
+      "reason": "'Data and Information for Computers' supports 'Sending data between devices'"
+    },
+    {
+      "topicId": "mt_YfbfIdljWd",
+      "prerequisiteId": "mt_n5_Jt4ExUd",
+      "strength": "soft",
+      "reason": "'Patterns & Codes for Information' supports 'Sending data between devices'"
+    },
+    {
+      "topicId": "mt_YfbfIdljWd",
+      "prerequisiteId": "mt_o0vTMl8vj5",
+      "strength": "hard",
+      "reason": "'Sending data between devices' builds on 'Parts of a computer'"
     },
     {
       "topicId": "mt_YFS7JFk64p",
@@ -22748,6 +23324,18 @@
       "prerequisiteId": "mt_nvdpxAJTBG",
       "strength": "soft",
       "reason": "Skip counting supports counting in tenths"
+    },
+    {
+      "topicId": "mt_YZOjP8KHsM",
+      "prerequisiteId": "mt_nfGAtwqSvP",
+      "strength": "hard",
+      "reason": "'Variables in programs' builds on 'Decisions and input in programs'"
+    },
+    {
+      "topicId": "mt_YZOjP8KHsM",
+      "prerequisiteId": "mt_XuHmIn2xje",
+      "strength": "soft",
+      "reason": "'Missing number problems (age 7+)' supports 'Variables in programs'"
     },
     {
       "topicId": "mt_z07UNAIsNc",
