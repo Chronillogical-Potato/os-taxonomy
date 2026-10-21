@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Fill the Australian Foundation–Year 6 Science gaps with 24 new topics and 63 prerequisite links, including safe investigations, comparisons of predictions and findings, observations and models, properties of materials, heat, changing landforms, habitat conditions, planetary patterns and seasons. The reviewed Science report now marks all 77 standards Full, with 245 alignments across 131 topics. Add a digital-observation link from the existing Mathematics data topic; preserve existing topic content, curriculum links and prerequisite edges. Refresh derived centrality, research coverage and dataset checksums; teaching-research records are unchanged.
+
 - Fill the Australian Foundation–Year 6 English gaps with 82 new topics and 193 prerequisite links, including Australian and First Nations literature, phoneme manipulation, digital navigation, multimodal creation, comprehension, handwriting and presentations. The reviewed English report now marks all 189 standards Full, with 630 links across 267 topics. Shared learning brings Science to 46 Full / 30 Partial / 1 Missing and Digital Technologies to 6 / 20 / 12. Preserve existing topic content, curriculum links and prerequisite edges; refresh derived centrality, research coverage and dataset checksums. Teaching-research records are unchanged.
 
 - Add explicit eighths-of-events learning to the Year 2 fractions-of-time topic, with a 16-minute activity split into eight equal 2-minute parts and a prerequisite on eighths. Clarify the $7 virtual-payment task as a $5 note plus a $2 coin. Mathematics coverage remains 139 Full; refresh graph centrality and dataset checksums.
