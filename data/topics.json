@@ -10,7 +10,7 @@
       "name": "AI in Daily Life",
       "description": "Spotting AI in daily life: face unlock on a phone, video recommendations, spelling auto-correct, automatic doors that detect people; technology that seems to 'know' things",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02631578947368421,
       "evidence": [
         "Identify at least five examples of AI in their daily life",
@@ -18,7 +18,9 @@
         "Describe one way AI makes their life easier and one time it might not work perfectly"
       ],
       "assessmentPrompt": "Could {{name}} point out several things they use every day — like auto-correct or face unlock — and explain that these are examples of AI?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI2P03"
+      ]
     },
     {
       "id": "mt_XbGfVhfiUz",
@@ -28,7 +30,7 @@
       "name": "Computers in Everyday Life",
       "description": "Identifying computers in everyday life — not just laptops but phones, tablets, smart speakers, traffic lights, washing machines; what makes something a computer",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02763157894736842,
       "evidence": [
         "Point out at least five everyday objects that contain computers",
@@ -36,7 +38,32 @@
         "Sort a set of objects into 'contains a computer' and 'does not contain a computer'"
       ],
       "assessmentPrompt": "Could {{name}} look around your home and point out at least five things that have a computer inside them, including ones that don't look like traditional computers?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI2K01",
+        "acara-v9:AC9TDIFK01"
+      ]
+    },
+    {
+      "id": "mt_kH1DzOPsXG",
+      "type": "CONCEPTUAL",
+      "subject": "Computing",
+      "domain": "Artificial Intelligence",
+      "name": "Data and Information for Computers",
+      "description": "What data is: information that computers use — numbers, words, pictures, sounds; everything a computer knows comes from data that people give it",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 10,
+      "centrality": 0.02631578947368421,
+      "evidence": [
+        "Define data as information stored in a computer (numbers, text, images, sounds)",
+        "Give at least three examples of data they create every day (photos, messages, search queries)",
+        "Explain that a computer only knows what it has been given — it has no knowledge of its own"
+      ],
+      "assessmentPrompt": "Could {{name}} explain what 'data' means and give examples of data they create every time they use a phone or computer?",
+      "standards": [
+        "acara-v9:AC9TDI2K02",
+        "acara-v9:AC9TDI4K03",
+        "acara-v9:AC9TDIFP01"
+      ]
     },
     {
       "id": "mt_jvJ35MmCvK",
@@ -64,7 +91,7 @@
       "name": "Smart Versus Not-Smart Devices",
       "description": "Sorting objects into 'smart' (can sense and respond) and 'not smart' (just sits there); a toaster vs a smart speaker; introduction to the idea that some machines can sense and respond to the world",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.025,
       "evidence": [
         "Sort a set of objects into 'smart' (responds to input) and 'not smart' (does the same thing every time)",
@@ -72,7 +99,10 @@
         "Give an example of a machine that senses something and responds (automatic door, motion-sensor light)"
       ],
       "assessmentPrompt": "Could {{name}} explain the difference between a normal light switch and one that turns on automatically when you walk into a room?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI2K01",
+        "acara-v9:AC9TDIFK01"
+      ]
     },
     {
       "id": "mt__p5n8z5soJ",
@@ -82,7 +112,7 @@
       "name": "Step-by-Step Instructions",
       "description": "Step-by-step instructions for everyday tasks (making a sandwich, brushing teeth); that if instructions are wrong or missing, things go wrong; computers follow instructions exactly",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 10,
       "centrality": 0.025,
       "evidence": [
         "Write or describe step-by-step instructions for a simple everyday task",
@@ -90,7 +120,10 @@
         "Explain that a computer follows instructions exactly — it cannot guess what you meant"
       ],
       "assessmentPrompt": "If {{name}} had to write instructions for making a jam sandwich so precise that even a robot could follow them, could they include every single step?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI2P02",
+        "acara-v9:AC9TDI4P02"
+      ]
     },
     {
       "id": "mt_u6SYiVx7FX",
@@ -100,7 +133,7 @@
       "name": "Voice Assistants and How They Work",
       "description": "What happens when you talk to Alexa, Siri, or Google Assistant; they listen, try to understand, look up answers; sometimes they get it wrong; they are tools, not alive",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.02631578947368421,
       "evidence": [
         "Describe the steps that happen when you ask a voice assistant a question (it listens, processes words, finds an answer, speaks back)",
@@ -108,7 +141,30 @@
         "Explain that a voice assistant is a computer program, not a person — it doesn't understand or feel"
       ],
       "assessmentPrompt": "If {{name}} asked Alexa or Siri a question and got a wrong answer, could they explain why the voice assistant sometimes makes mistakes?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI2P03"
+      ]
+    },
+    {
+      "id": "mt_EedcpioR0v",
+      "type": "CONCEPTUAL",
+      "subject": "Computing",
+      "domain": "Artificial Intelligence",
+      "name": "Recommendation Systems and Filter Bubbles",
+      "description": "How recommendation systems work: YouTube, Netflix, and shop websites track what you click and find patterns; filter bubbles; the difference between helpful suggestions and manipulation",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
+      "centrality": 0.01052631578947368,
+      "evidence": [
+        "Explain how YouTube or Netflix decides what to suggest next",
+        "Describe what a 'filter bubble' is (only seeing things similar to what you already like)",
+        "Give one benefit and one risk of recommendation systems"
+      ],
+      "assessmentPrompt": "Does {{name}} understand why YouTube keeps suggesting similar videos to ones they've watched, and could they explain how the recommendation system works?",
+      "standards": [
+        "acara-v9:AC9TDI2P07",
+        "acara-v9:AC9TDI6P10"
+      ]
     },
     {
       "id": "mt_fT4G0QloX5",
@@ -144,24 +200,6 @@
         "Describe why AI is not magic — it follows mathematical rules applied to data"
       ],
       "assessmentPrompt": "If an AI incorrectly identified a picture of a muffin as a chihuahua, could {{name}} explain why that kind of mistake happens?",
-      "standards": []
-    },
-    {
-      "id": "mt_kH1DzOPsXG",
-      "type": "CONCEPTUAL",
-      "subject": "Computing",
-      "domain": "Artificial Intelligence",
-      "name": "Data and Information for Computers",
-      "description": "What data is: information that computers use — numbers, words, pictures, sounds; everything a computer knows comes from data that people give it",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.02631578947368421,
-      "evidence": [
-        "Define data as information stored in a computer (numbers, text, images, sounds)",
-        "Give at least three examples of data they create every day (photos, messages, search queries)",
-        "Explain that a computer only knows what it has been given — it has no knowledge of its own"
-      ],
-      "assessmentPrompt": "Could {{name}} explain what 'data' means and give examples of data they create every time they use a phone or computer?",
       "standards": []
     },
     {
@@ -219,22 +257,26 @@
       "standards": []
     },
     {
-      "id": "mt_EedcpioR0v",
+      "id": "mt_HopZomN12L",
       "type": "CONCEPTUAL",
       "subject": "Computing",
       "domain": "Artificial Intelligence",
-      "name": "Recommendation Systems and Filter Bubbles",
-      "description": "How recommendation systems work: YouTube, Netflix, and shop websites track what you click and find patterns; filter bubbles; the difference between helpful suggestions and manipulation",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.01052631578947368,
+      "name": "AI Data Collection and Privacy",
+      "description": "What data AI systems collect about you; who has it and why it matters; cookies, tracking, smart speakers always listening; your data is valuable",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.03026315789473684,
       "evidence": [
-        "Explain how YouTube or Netflix decides what to suggest next",
-        "Describe what a 'filter bubble' is (only seeing things similar to what you already like)",
-        "Give one benefit and one risk of recommendation systems"
+        "Name at least three types of personal data that AI systems collect",
+        "Explain why personal data is valuable to companies",
+        "Describe one step they can take to protect their privacy online"
       ],
-      "assessmentPrompt": "Does {{name}} understand why YouTube keeps suggesting similar videos to ones they've watched, and could they explain how the recommendation system works?",
-      "standards": []
+      "assessmentPrompt": "Does {{name}} understand that apps and websites collect information about what they do online, and could they explain why that matters?",
+      "standards": [
+        "acara-v9:AC9HP6P08",
+        "acara-v9:AC9TDI4P09",
+        "acara-v9:AC9TDI6P10"
+      ]
     },
     {
       "id": "mt_tzMr83pS8v",
@@ -312,26 +354,6 @@
       "standards": []
     },
     {
-      "id": "mt_HopZomN12L",
-      "type": "CONCEPTUAL",
-      "subject": "Computing",
-      "domain": "Artificial Intelligence",
-      "name": "AI Data Collection and Privacy",
-      "description": "What data AI systems collect about you; who has it and why it matters; cookies, tracking, smart speakers always listening; your data is valuable",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.03026315789473684,
-      "evidence": [
-        "Name at least three types of personal data that AI systems collect",
-        "Explain why personal data is valuable to companies",
-        "Describe one step they can take to protect their privacy online"
-      ],
-      "assessmentPrompt": "Does {{name}} understand that apps and websites collect information about what they do online, and could they explain why that matters?",
-      "standards": [
-        "acara-v9:AC9HP6P08"
-      ]
-    },
-    {
       "id": "mt__BbOjiY5A5",
       "type": "CONCEPTUAL",
       "subject": "Computing",
@@ -357,7 +379,7 @@
       "name": "Designing Fair AI Rules",
       "description": "Design thinking applied to AI ethics: if you were designing an AI system, what rules would you give it? Who should it help? What should it not be allowed to do?",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Propose at least three rules for a hypothetical AI system they are designing",
@@ -365,7 +387,9 @@
         "Describe one real example of AI being used responsibly and one where it was not"
       ],
       "assessmentPrompt": "If {{name}} was designing an AI assistant for their school, could they think of rules to make sure it was fair and helpful for everyone?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI6P06"
+      ]
     },
     {
       "id": "mt__LiAEHt9nk",
@@ -4473,6 +4497,7 @@
         "acara-v9:AC9HS5S01",
         "acara-v9:AC9HS5S02",
         "acara-v9:AC9HS6S02",
+        "acara-v9:AC9TDI6P07",
         "ccss-ela:RI.5.7"
       ]
     },
@@ -5220,6 +5245,7 @@
         "acara-v9:AC9E6LY07",
         "acara-v9:AC9S5I06",
         "acara-v9:AC9S6I06",
+        "acara-v9:AC9TDI6P07",
         "ccss-ela:SL.5.5"
       ]
     },
@@ -6570,6 +6596,8 @@
         "acara-v9:AC9E6LY06",
         "acara-v9:AC9S3I06",
         "acara-v9:AC9S4I06",
+        "acara-v9:AC9TDI2P04",
+        "acara-v9:AC9TDI4P06",
         "ccss-ela:W.2.6",
         "ccss-ela:W.3.6",
         "ccss-ela:W.4.6",
@@ -7061,6 +7089,7 @@
         "acara-v9:AC9HS4S07",
         "acara-v9:AC9HS5S01",
         "acara-v9:AC9HS6S01",
+        "acara-v9:AC9TDI4P06",
         "ccss-ela:W.3.7",
         "ccss-ela:W.3.8",
         "ccss-ela:W.4.7",
@@ -7228,6 +7257,7 @@
       "standards": [
         "acara-v9:AC9E5LY06",
         "acara-v9:AC9E6LY06",
+        "acara-v9:AC9TDI6P07",
         "uk-nc-2013:Eng.App2.Y6.Text.2"
       ]
     },
@@ -9656,7 +9686,7 @@
       "name": "Pitching an Idea",
       "description": "Presenting a business idea to others convincingly; explaining what makes it good and why people should support it; building confidence in public speaking about ideas",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.025,
       "evidence": [
         "Deliver a 1-2 minute pitch for a business idea covering: what it is, who it helps, and why it's good",
@@ -9664,7 +9694,9 @@
         "Explain why being able to explain your idea clearly matters for getting support"
       ],
       "assessmentPrompt": "If {{name}} had to stand up in front of the class and explain a business idea in two minutes, could they do it confidently and persuasively?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9TDI6P04"
+      ]
     },
     {
       "id": "mt_rxJ2O_9Lkr",
@@ -9978,6 +10010,28 @@
       "standards": []
     },
     {
+      "id": "mt_W5euSyU2sO",
+      "type": "CONCEPTUAL",
+      "subject": "Life Skills",
+      "domain": "Money & Finance",
+      "name": "Scams & Online Safety",
+      "description": "Recognising financial scams and tricks; phishing emails and fake websites; protecting personal and financial information online; 'if it seems too good to be true, it probably is'",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.02894736842105263,
+      "evidence": [
+        "Identify at least two warning signs of a scam (asking for personal details, too-good-to-be-true offers, urgency)",
+        "Explain why you should never share passwords or bank details online",
+        "Describe what to do if they receive a suspicious message or email (don't click, tell an adult)"
+      ],
+      "assessmentPrompt": "If {{name}} received a message saying they'd won a prize and just needed to enter their details, would they know it's probably a scam?",
+      "standards": [
+        "acara-v9:AC9HP6P08",
+        "acara-v9:AC9HS6K08",
+        "acara-v9:AC9TDI4P09"
+      ]
+    },
+    {
       "id": "mt_bAy4dmP1-A",
       "type": "CONCEPTUAL",
       "subject": "Life Skills",
@@ -10054,27 +10108,6 @@
       ],
       "assessmentPrompt": "Could {{name}} explain why ice cream might cost more at the beach in summer than at a supermarket in winter?",
       "standards": []
-    },
-    {
-      "id": "mt_W5euSyU2sO",
-      "type": "CONCEPTUAL",
-      "subject": "Life Skills",
-      "domain": "Money & Finance",
-      "name": "Scams & Online Safety",
-      "description": "Recognising financial scams and tricks; phishing emails and fake websites; protecting personal and financial information online; 'if it seems too good to be true, it probably is'",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.02894736842105263,
-      "evidence": [
-        "Identify at least two warning signs of a scam (asking for personal details, too-good-to-be-true offers, urgency)",
-        "Explain why you should never share passwords or bank details online",
-        "Describe what to do if they receive a suspicious message or email (don't click, tell an adult)"
-      ],
-      "assessmentPrompt": "If {{name}} received a message saying they'd won a prize and just needed to enter their details, would they know it's probably a scam?",
-      "standards": [
-        "acara-v9:AC9HP6P08",
-        "acara-v9:AC9HS6K08"
-      ]
     },
     {
       "id": "mt_cSz7XTxVAx",
@@ -12079,6 +12112,35 @@
       ]
     },
     {
+      "id": "mt_c29FaCTNsx",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Pictograms and tally charts",
+      "description": "Interpret and construct simple pictograms, tally charts, block diagrams, and simple tables",
+      "ageRangeStart": 5,
+      "ageRangeEnd": 9,
+      "centrality": 0.1539473684210526,
+      "evidence": [
+        "Read a pictogram where each symbol represents one item",
+        "Construct a tally chart from collected data",
+        "Draw a block diagram to represent data from a survey"
+      ],
+      "assessmentPrompt": "Can {{name}} read a simple chart or pictogram — like one showing how many children chose each favourite fruit — and answer questions like \"which was most popular\"?",
+      "standards": [
+        "acara-v9:AC9HS1S03",
+        "acara-v9:AC9M1ST01",
+        "acara-v9:AC9M2ST01",
+        "acara-v9:AC9M2ST02",
+        "acara-v9:AC9M3ST01",
+        "acara-v9:AC9M3ST02",
+        "acara-v9:AC9TDI2K02",
+        "acara-v9:AC9TDIFK02",
+        "uk-nc-2013:Ma/KS2/Y3/S/1",
+        "uk-nc-2013:Maths/Y2/S/1"
+      ]
+    },
+    {
       "id": "mt_xppl18avyY",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -12097,34 +12159,8 @@
       "standards": [
         "acara-v9:AC9HSFS02",
         "acara-v9:AC9MFST01",
+        "acara-v9:AC9TDIFK02",
         "ccss-math:K.MD.3"
-      ]
-    },
-    {
-      "id": "mt_c29FaCTNsx",
-      "type": "REPRESENTATIONAL",
-      "subject": "Mathematics",
-      "domain": "Data & Statistics",
-      "name": "Pictograms and tally charts",
-      "description": "Interpret and construct simple pictograms, tally charts, block diagrams, and simple tables",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 9,
-      "centrality": 0.1539473684210526,
-      "evidence": [
-        "Read a pictogram where each symbol represents one item",
-        "Construct a tally chart from collected data",
-        "Draw a block diagram to represent data from a survey"
-      ],
-      "assessmentPrompt": "Can {{name}} read a simple chart or pictogram — like one showing how many children chose each favourite fruit — and answer questions like \"which was most popular\"?",
-      "standards": [
-        "acara-v9:AC9HS1S03",
-        "acara-v9:AC9M1ST01",
-        "acara-v9:AC9M2ST01",
-        "acara-v9:AC9M2ST02",
-        "acara-v9:AC9M3ST01",
-        "acara-v9:AC9M3ST02",
-        "uk-nc-2013:Ma/KS2/Y3/S/1",
-        "uk-nc-2013:Maths/Y2/S/1"
       ]
     },
     {
@@ -12149,6 +12185,29 @@
       ]
     },
     {
+      "id": "mt_VhBH8wrFC6",
+      "type": "REPRESENTATIONAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Picture & Bar Graphs",
+      "description": "Draw a picture graph and a bar graph (with single-unit scale) to represent a data set with up to four categories; solve put-together, take-apart, and compare problems using information presented in a bar graph",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": 0.1197368421052632,
+      "evidence": [
+        "Draw a picture graph with a symbol representing one unit for each data point",
+        "Draw a bar graph with labelled axes and a single-unit scale",
+        "Use a bar graph to answer comparison questions (e.g. 'How many more votes did cats get than dogs?')"
+      ],
+      "assessmentPrompt": "Can {{name}} draw a simple bar chart or picture graph to show information — like how many of each colour of sweet are in a bag — and answer questions from it?",
+      "standards": [
+        "acara-v9:AC9HS2S03",
+        "acara-v9:AC9M2ST02",
+        "acara-v9:AC9TDI2K02",
+        "ccss-math:2.MD.10"
+      ]
+    },
+    {
       "id": "mt_ylXdiVRAYv",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -12170,6 +12229,7 @@
         "acara-v9:AC9M1ST01",
         "acara-v9:AC9M1ST02",
         "acara-v9:AC9M2ST01",
+        "acara-v9:AC9TDI2K02",
         "ccss-math:1.MD.4",
         "uk-nc-2013:Ma/KS2/Y3/S/2",
         "uk-nc-2013:Maths/Y2/S/2"
@@ -12200,28 +12260,6 @@
       ]
     },
     {
-      "id": "mt_VhBH8wrFC6",
-      "type": "REPRESENTATIONAL",
-      "subject": "Mathematics",
-      "domain": "Data & Statistics",
-      "name": "Picture & Bar Graphs",
-      "description": "Draw a picture graph and a bar graph (with single-unit scale) to represent a data set with up to four categories; solve put-together, take-apart, and compare problems using information presented in a bar graph",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.1197368421052632,
-      "evidence": [
-        "Draw a picture graph with a symbol representing one unit for each data point",
-        "Draw a bar graph with labelled axes and a single-unit scale",
-        "Use a bar graph to answer comparison questions (e.g. 'How many more votes did cats get than dogs?')"
-      ],
-      "assessmentPrompt": "Can {{name}} draw a simple bar chart or picture graph to show information — like how many of each colour of sweet are in a bag — and answer questions from it?",
-      "standards": [
-        "acara-v9:AC9HS2S03",
-        "acara-v9:AC9M2ST02",
-        "ccss-math:2.MD.10"
-      ]
-    },
-    {
       "id": "mt_ChjMU2GDJa",
       "type": "REPRESENTATIONAL",
       "subject": "Mathematics",
@@ -12243,6 +12281,7 @@
         "acara-v9:AC9M5ST01",
         "acara-v9:AC9M5ST02",
         "acara-v9:AC9M6ST01",
+        "acara-v9:AC9TDI4K03",
         "uk-nc-2013:Ma/KS2/Y4/S/1"
       ]
     },
@@ -12270,6 +12309,7 @@
         "acara-v9:AC9M3ST01",
         "acara-v9:AC9M3ST02",
         "acara-v9:AC9M4ST01",
+        "acara-v9:AC9TDI4K03",
         "ccss-math:3.MD.3",
         "uk-nc-2013:Ma/KS2/Y4/S/2"
       ]
@@ -18931,26 +18971,6 @@
       ]
     },
     {
-      "id": "mt_6-j1NO2ZUH",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Multiplicative Comparison",
-      "description": "Solve word problems involving multiplicative comparison using drawings and equations with a symbol for the unknown number",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.025,
-      "evidence": [
-        "A blue ribbon is 3 times as long as a red ribbon of 7 cm — how long is the blue ribbon?",
-        "36 is 4 times a number — what is the number?",
-        "Explain why 'Sam has 5 more' is additive but 'Sam has 5 times as many' is multiplicative"
-      ],
-      "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
-      "standards": [
-        "ccss-math:4.OA.2"
-      ]
-    },
-    {
       "id": "mt_U4cIBXVug4",
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
@@ -18968,6 +18988,26 @@
       "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
       "standards": [
         "ccss-math:4.OA.1"
+      ]
+    },
+    {
+      "id": "mt_6-j1NO2ZUH",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Multiplicative Comparison",
+      "description": "Solve word problems involving multiplicative comparison using drawings and equations with a symbol for the unknown number",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.025,
+      "evidence": [
+        "A blue ribbon is 3 times as long as a red ribbon of 7 cm — how long is the blue ribbon?",
+        "36 is 4 times a number — what is the number?",
+        "Explain why 'Sam has 5 more' is additive but 'Sam has 5 times as many' is multiplicative"
+      ],
+      "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
+      "standards": [
+        "ccss-math:4.OA.2"
       ]
     },
     {
@@ -22308,7 +22348,8 @@
       "standards": [
         "acara-v9:AC9HP2P05",
         "acara-v9:AC9HPFP05",
-        "acara-v9:AC9HPFP06"
+        "acara-v9:AC9HPFP06",
+        "acara-v9:AC9TDI2P05"
       ]
     },
     {
@@ -22370,6 +22411,31 @@
       "standards": []
     },
     {
+      "id": "mt_zIzJGkaj0Q",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Responsible Decision-Making",
+      "name": "Basic digital citizenship",
+      "description": "Understand basic digital citizenship — being kind online, protecting personal information, recognising that people behind screens are real people with real feelings, and knowing what to do if something online makes them uncomfortable",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.01842105263157895,
+      "evidence": [
+        "State at least three rules for staying safe and being kind online",
+        "Explain why hurtful messages online are just as harmful as saying them in person",
+        "Describe what they should do if someone online makes them feel uncomfortable or asks for personal information"
+      ],
+      "assessmentPrompt": "When {{name}} is chatting with friends online or playing multiplayer games, do they treat people kindly and know not to share personal details like their address or school name?",
+      "standards": [
+        "acara-v9:AC9HP4P08",
+        "acara-v9:AC9HP4P10",
+        "acara-v9:AC9TDI2P05",
+        "acara-v9:AC9TDI4P07",
+        "acara-v9:AC9TDI4P09",
+        "ib-pyp-pspe:PSPE.INT.P2.CU.5"
+      ]
+    },
+    {
       "id": "mt_yCmYV9ruQu",
       "type": "CONCEPTUAL",
       "subject": "Personal & Social Development",
@@ -22415,28 +22481,6 @@
       ]
     },
     {
-      "id": "mt_zIzJGkaj0Q",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Responsible Decision-Making",
-      "name": "Basic digital citizenship",
-      "description": "Understand basic digital citizenship — being kind online, protecting personal information, recognising that people behind screens are real people with real feelings, and knowing what to do if something online makes them uncomfortable",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 10,
-      "centrality": 0.01842105263157895,
-      "evidence": [
-        "State at least three rules for staying safe and being kind online",
-        "Explain why hurtful messages online are just as harmful as saying them in person",
-        "Describe what they should do if someone online makes them feel uncomfortable or asks for personal information"
-      ],
-      "assessmentPrompt": "When {{name}} is chatting with friends online or playing multiplayer games, do they treat people kindly and know not to share personal details like their address or school name?",
-      "standards": [
-        "acara-v9:AC9HP4P08",
-        "acara-v9:AC9HP4P10",
-        "ib-pyp-pspe:PSPE.INT.P2.CU.5"
-      ]
-    },
-    {
       "id": "mt_RhntJz7p_6",
       "type": "PROCEDURAL",
       "subject": "Personal & Social Development",
@@ -22476,7 +22520,8 @@
       "assessmentPrompt": "If {{name}} saw someone being treated unkindly online and you asked them about it, could they explain the difference between being a bystander and an upstander — and what 'digital citizenship' means?",
       "standards": [
         "acara-v9:AC9HP4P07",
-        "acara-v9:AC9HP6P07"
+        "acara-v9:AC9HP6P07",
+        "acara-v9:AC9TDI6P08"
       ]
     },
     {
@@ -30352,7 +30397,7 @@
       "name": "Modelling with Sketches",
       "description": "Develop a simple sketch, drawing, or physical model to illustrate how the shape of an object helps it function as needed to solve a given problem",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.03157894736842105,
       "evidence": [
         "Create a sketch, drawing, or physical model of a design solution",
@@ -30361,6 +30406,7 @@
       ],
       "assessmentPrompt": "Can {{name}} draw or build a model to show how they'd design something — like a boat shape that floats well — and explain why the shape matters?",
       "standards": [
+        "acara-v9:AC9TDI4P03",
         "ngss-k5:K-2-ETS1-2"
       ]
     },
@@ -30652,6 +30698,10 @@
         "acara-v9:AC9HS4S06",
         "acara-v9:AC9HS5S06",
         "acara-v9:AC9HS6S06",
+        "acara-v9:AC9TDI4P03",
+        "acara-v9:AC9TDI4P05",
+        "acara-v9:AC9TDI6P04",
+        "acara-v9:AC9TDI6P06",
         "ngss-k5:3-5-ETS1-2"
       ]
     },
@@ -30680,7 +30730,7 @@
       "name": "Fair testing (age 8+)",
       "description": "Plan and carry out fair tests in which variables are controlled and failure points are considered to identify aspects of a model or prototype that can be improved",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Plan a fair test of a prototype with clearly identified variables to control",
@@ -30690,6 +30740,9 @@
       "assessmentPrompt": "When {{name}} builds and tests a prototype, can they run a fair test, find what didn't work, and figure out how to make it better?",
       "standards": [
         "acara-v9:AC9S4I02",
+        "acara-v9:AC9TDI4P05",
+        "acara-v9:AC9TDI6P04",
+        "acara-v9:AC9TDI6P06",
         "ngss-k5:3-5-ETS1-3"
       ]
     },
@@ -30701,7 +30754,7 @@
       "name": "Simple Design Problems",
       "description": "Define a simple design problem reflecting a need or want that includes specified criteria for success and constraints on materials, time, or cost",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Define a design problem by describing the need or want it addresses",
@@ -30710,6 +30763,8 @@
       ],
       "assessmentPrompt": "Can {{name}} clearly state what problem they're trying to solve with a design, what would make it successful, and what limits they have on materials or time?",
       "standards": [
+        "acara-v9:AC9TDI4P01",
+        "acara-v9:AC9TDI6P01",
         "ngss-k5:3-5-ETS1-1"
       ]
     },
@@ -32959,6 +33014,27 @@
       ]
     },
     {
+      "id": "mt_n5_Jt4ExUd",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Waves, Light & Sound",
+      "name": "Patterns & Codes for Information",
+      "description": "Generate and compare multiple solutions that use patterns to transfer information, such as codes and signals",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.01052631578947368,
+      "evidence": [
+        "Describe at least two systems that use patterns of light or sound to transfer information (e.g. Morse code, semaphore, drum signals)",
+        "Design a simple code using light or sound patterns to send a message",
+        "Compare the advantages and disadvantages of different information transfer methods"
+      ],
+      "assessmentPrompt": "Can {{name}} come up with different ways to send a secret message using patterns of light or sound, like Morse code or drum beats?",
+      "standards": [
+        "acara-v9:AC9TDI4K02",
+        "ngss-k5:4-PS4-3"
+      ]
+    },
+    {
       "id": "mt_Pau0aqLNgp",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -33019,26 +33095,6 @@
         "ngss-k5:4-PS4-2",
         "uk-nc-2013:Y6.Sci.L.2",
         "uk-nc-2013:Y6.Sci.L.3"
-      ]
-    },
-    {
-      "id": "mt_n5_Jt4ExUd",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Waves, Light & Sound",
-      "name": "Patterns & Codes for Information",
-      "description": "Generate and compare multiple solutions that use patterns to transfer information, such as codes and signals",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.01052631578947368,
-      "evidence": [
-        "Describe at least two systems that use patterns of light or sound to transfer information (e.g. Morse code, semaphore, drum signals)",
-        "Design a simple code using light or sound patterns to send a message",
-        "Compare the advantages and disadvantages of different information transfer methods"
-      ],
-      "assessmentPrompt": "Can {{name}} come up with different ways to send a secret message using patterns of light or sound, like Morse code or drum beats?",
-      "standards": [
-        "ngss-k5:4-PS4-3"
       ]
     },
     {
