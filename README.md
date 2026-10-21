@@ -62,7 +62,13 @@ Australian English has 540 topic alignments across 185 existing topics: 110 of
 its 189 standards are fully covered, 76 partly covered, and 3 missing. Its
 [coverage report](reports/acara-v9-english-coverage.md) names the remaining gaps,
 including Australian literature, digital and multimodal texts, and consonant
-clusters. Other Australian subjects currently have source standards only.
+clusters.
+
+Australian Science has 208 topic alignments across 103 existing topics: 43 of
+its 77 standards are fully covered, 33 partly covered, and 1 missing. Its
+[coverage report](reports/acara-v9-science-coverage.md) lists every standard,
+matched topic and remaining gap. Other Australian subjects currently have source
+standards only.
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
 ### A topic

@@ -1691,7 +1691,7 @@
       "name": "Active and passive voice",
       "description": "Use the passive voice to shift focus from the agent to the action or recipient, understanding how passive constructions affect the presentation of information in formal and objective writing",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.07236842105263158,
       "evidence": [
         "Convert active sentences to passive voice and explain the change in emphasis",
@@ -1700,6 +1700,8 @@
       ],
       "assessmentPrompt": "When {{name}} wants to write about something without saying who did it — like in a science report — can they switch the sentence round to say \"The experiment was carried out\" instead of \"We carried out the experiment\"?",
       "standards": [
+        "acara-v9:AC9S5I06",
+        "acara-v9:AC9S6I06",
         "uk-nc-2013:Eng.App2.Y6.Sent.1",
         "uk-nc-2013:Eng.UKS2.Write.VGP.1b"
       ]
@@ -5100,6 +5102,7 @@
         "acara-v9:AC9E6LA01",
         "acara-v9:AC9E6LY02",
         "acara-v9:AC9E6LY07",
+        "acara-v9:AC9S6I06",
         "ccss-ela:SL.5.6"
       ]
     },
@@ -5164,6 +5167,8 @@
       "standards": [
         "acara-v9:AC9E5LY07",
         "acara-v9:AC9E6LY07",
+        "acara-v9:AC9S5I06",
+        "acara-v9:AC9S6I06",
         "ccss-ela:SL.5.5"
       ]
     },
@@ -6505,6 +6510,8 @@
         "acara-v9:AC9E4LY06",
         "acara-v9:AC9E5LY06",
         "acara-v9:AC9E6LY06",
+        "acara-v9:AC9S3I06",
+        "acara-v9:AC9S4I06",
         "ccss-ela:W.2.6",
         "ccss-ela:W.3.6",
         "ccss-ela:W.4.6",
@@ -6937,7 +6944,7 @@
       "name": "Choosing Form and Tone for Your Audience",
       "description": "Identify the audience for and purpose of writing before beginning, selecting the appropriate form, tone, and register to match the intended reader and communicative goal",
       "ageRangeStart": 8,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.06710526315789474,
       "evidence": [
         "Determine the audience (e.g., peers, teacher, younger children, a public audience) and purpose (to persuade, inform, entertain, or explain) before drafting and explain how these choices affect language and structure",
@@ -6947,6 +6954,10 @@
       "assessmentPrompt": "Before {{name}} starts a piece of writing, do they think about who will read it and why — adjusting their tone, vocabulary, and format accordingly, like writing more formally for a teacher than for a friend?",
       "standards": [
         "acara-v9:AC9E3LY01",
+        "acara-v9:AC9S3I06",
+        "acara-v9:AC9S4I06",
+        "acara-v9:AC9S5I06",
+        "acara-v9:AC9S6I06",
         "uk-nc-2013:Eng.UKS2.Write.Comp.1a"
       ]
     },
@@ -16750,6 +16761,7 @@
       "assessmentPrompt": "If {{name}} fills a jug using a small cup, can they count how many cups it takes — and understand that this tells you how much the jug holds?",
       "standards": [
         "acara-v9:AC9M2M01",
+        "acara-v9:AC9S2I03",
         "uk-nc-2013:Maths/Y1/M/7"
       ]
     },
@@ -16834,6 +16846,7 @@
       "assessmentPrompt": "If {{name}} measures the length of a book using small cubes laid end to end, can they count how many cubes it takes — and then try measuring the same book with a ruler?",
       "standards": [
         "acara-v9:AC9M1M02",
+        "acara-v9:AC9S1I03",
         "uk-nc-2013:Maths/Y1/M/5"
       ]
     },
@@ -16855,6 +16868,7 @@
       "assessmentPrompt": "If {{name}} uses balance scales to compare two objects, can they tell you which is heavier — and if given weights like 100g, can they balance an object on the scale?",
       "standards": [
         "acara-v9:AC9M2M01",
+        "acara-v9:AC9S2I03",
         "uk-nc-2013:Maths/Y1/M/6"
       ]
     },
@@ -23231,7 +23245,9 @@
         "Connects adaptations to the concept of natural selection at a basic level"
       ],
       "assessmentPrompt": "If {{name}} sees a woodpecker pecking a tree, can they explain that its strong beak, long tongue, and shock-absorbing skull are all adaptations — and describe what the word 'adaptation' means with other examples?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S5U01"
+      ]
     },
     {
       "id": "mt_H8OgKZbgGe",
@@ -23876,7 +23892,7 @@
       "name": "Local weather patterns",
       "description": "Use and share observations of local weather conditions to describe patterns over time, recording temperature, rainfall, and other conditions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.02105263157894737,
       "evidence": [
         "Observe and record daily weather conditions (temperature, cloud cover, precipitation, wind)",
@@ -23885,6 +23901,15 @@
       ],
       "assessmentPrompt": "Has {{name}} kept a weather diary for a week or more, recording whether it was sunny, rainy, or windy, and noticed any patterns?",
       "standards": [
+        "acara-v9:AC9S1H01",
+        "acara-v9:AC9S1I01",
+        "acara-v9:AC9S1I04",
+        "acara-v9:AC9S1U02",
+        "acara-v9:AC9S2H01",
+        "acara-v9:AC9S2I01",
+        "acara-v9:AC9SFI01",
+        "acara-v9:AC9SFI03",
+        "acara-v9:AC9SFI05",
         "ngss-k5:K-ESS2-1"
       ]
     },
@@ -23896,7 +23921,7 @@
       "name": "Seasonal changes",
       "description": "Observe changes across the four seasons and describe weather associated with each season, including how day length varies",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2,
       "evidence": [
         "Name the four seasons and describe typical weather for each",
@@ -23905,6 +23930,7 @@
       ],
       "assessmentPrompt": "Can {{name}} describe what happens in each season — like leaves falling in autumn, snow in winter — and notice that days are shorter in winter and longer in summer?",
       "standards": [
+        "acara-v9:AC9S1U02",
         "ngss-k5:K-ESS2-1",
         "uk-nc-2013:Y1.Sci.SC.1",
         "uk-nc-2013:Y1.Sci.SC.2"
@@ -23918,7 +23944,7 @@
       "name": "Evaporation and condensation",
       "description": "Name and use vocabulary for the water cycle — evaporation, condensation, precipitation, collection, transpiration, water vapour, runoff, groundwater — and describe each stage of the cycle using these terms in the correct sequence",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01447368421052632,
       "evidence": [
         "Describe the complete water cycle using at least four correct technical terms in the right order",
@@ -23926,7 +23952,9 @@
         "Use 'water vapour' and 'precipitation' correctly in descriptions of weather and the water cycle"
       ],
       "assessmentPrompt": "Can {{name}} explain where the puddle goes after it stops raining — using words like 'evaporation' or 'water vapour' rather than just 'it dries up'?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4U02"
+      ]
     },
     {
       "id": "mt_mwirOvigWD",
@@ -23956,7 +23984,7 @@
       "name": "Preventing Erosion",
       "description": "Compare multiple solutions designed to slow or prevent wind or water from changing the shape of the land",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.02894736842105263,
       "evidence": [
         "Describe how wind and water can change the shape of land (erosion)",
@@ -23965,6 +23993,7 @@
       ],
       "assessmentPrompt": "If {{name}} sees a sandcastle being washed away by waves, can they think of ways to protect it — like building a wall or planting grass to hold the sand?",
       "standards": [
+        "acara-v9:AC9S3H02",
         "ngss-k5:2-ESS2-1"
       ]
     },
@@ -23976,7 +24005,7 @@
       "name": "Properties of materials",
       "description": "Compare and group different kinds of rocks based on their appearance and simple physical properties such as hardness, texture, and colour",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.08421052631578947,
       "evidence": [
         "Describe at least three observable properties of rocks: hardness, texture, colour, grain size",
@@ -23985,6 +24014,7 @@
       ],
       "assessmentPrompt": "Can {{name}} examine a collection of rocks and sort them by whether they're hard or crumbly, rough or smooth, and light or dark?",
       "standards": [
+        "acara-v9:AC9S3U02",
         "uk-nc-2013:Y3.Sci.R.1"
       ]
     },
@@ -23996,7 +24026,7 @@
       "name": "Rocks and soil",
       "description": "Recognise that soils are made from rocks and organic matter, and that different soils have different properties",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.009210526315789473,
       "evidence": [
         "State that soil is a mixture of broken-down rock particles and decomposed organic matter (humus)",
@@ -24005,6 +24035,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that soil isn't just dirt — it's made from tiny broken-down bits of rock mixed with dead leaves and other organic material?",
       "standards": [
+        "acara-v9:AC9S3U02",
         "uk-nc-2013:Y3.Sci.R.3"
       ]
     },
@@ -24096,7 +24127,7 @@
       "name": "Erosion and weathering",
       "description": "Make observations and measurements to provide evidence of the effects of weathering or the rate of erosion by water, ice, wind, or vegetation",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.03421052631578948,
       "evidence": [
         "Define weathering (breaking down of rock in place) and erosion (movement of broken rock/soil)",
@@ -24105,6 +24136,7 @@
       ],
       "assessmentPrompt": "Can {{name}} look at a crumbling cliff or a river bank and explain how water, wind, or ice has slowly worn away the rock or soil over time?",
       "standards": [
+        "acara-v9:AC9S5U02",
         "ngss-k5:4-ESS2-1"
       ]
     },
@@ -24129,6 +24161,27 @@
       ]
     },
     {
+      "id": "mt_LsY4-T2fU7",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Earth's Systems",
+      "name": "Salt Water vs Fresh Water",
+      "description": "Describe and graph the amounts of salt water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 11,
+      "centrality": 0.07236842105263158,
+      "evidence": [
+        "State that about 97% of Earth's water is salt water in the oceans",
+        "Describe where fresh water is found: glaciers/ice caps, groundwater, rivers, lakes",
+        "Create or interpret a graph showing the relative amounts of salt water vs fresh water"
+      ],
+      "assessmentPrompt": "Can {{name}} explain that most of Earth's water is salty ocean water, and only a tiny fraction is the fresh water we drink, and show this on a graph?",
+      "standards": [
+        "acara-v9:AC9S4U02",
+        "ngss-k5:5-ESS2-2"
+      ]
+    },
+    {
       "id": "mt_bqL8DD1SbV",
       "type": "LANGUAGE",
       "subject": "Science",
@@ -24144,7 +24197,9 @@
         "Explain how fossils form using 'sediment' and 'sedimentary rock' correctly"
       ],
       "assessmentPrompt": "Could {{name}} explain the difference between a rock being weathered and being eroded — those are actually two different things?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S5U02"
+      ]
     },
     {
       "id": "mt_LKagN9GJPX",
@@ -24185,26 +24240,6 @@
       "standards": []
     },
     {
-      "id": "mt_LsY4-T2fU7",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Earth's Systems",
-      "name": "Salt Water vs Fresh Water",
-      "description": "Describe and graph the amounts of salt water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
-      "centrality": 0.07236842105263158,
-      "evidence": [
-        "State that about 97% of Earth's water is salt water in the oceans",
-        "Describe where fresh water is found: glaciers/ice caps, groundwater, rivers, lakes",
-        "Create or interpret a graph showing the relative amounts of salt water vs fresh water"
-      ],
-      "assessmentPrompt": "Can {{name}} explain that most of Earth's water is salty ocean water, and only a tiny fraction is the fresh water we drink, and show this on a graph?",
-      "standards": [
-        "ngss-k5:5-ESS2-2"
-      ]
-    },
-    {
       "id": "mt_e6PP4ip39V",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -24212,7 +24247,7 @@
       "name": "Plants and animals in their habitats",
       "description": "Use a model to represent the relationship between the needs of different plants and animals and the places they live, connecting organism needs to habitat features",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.007894736842105263,
       "evidence": [
         "Use a simple model (drawing, diagram) to show how a habitat provides what an organism needs",
@@ -24221,6 +24256,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a fish needs to live in water but a cactus can live in a desert, by matching what each living thing needs to where it lives?",
       "standards": [
+        "acara-v9:AC9S1U01",
         "ngss-k5:K-ESS3-1"
       ]
     },
@@ -24261,6 +24297,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a polar bear lives in the Arctic and not in a desert, and how the animals and plants in a habitat help each other?",
       "standards": [
+        "acara-v9:AC9S1U01",
         "ngss-k5:2-LS4-1",
         "uk-nc-2013:Y2.Sci.LTH.2"
       ]
@@ -24291,7 +24328,7 @@
       "name": "Living, Dead & Never Alive",
       "description": "Explore and compare the differences between things that are living, dead, and things that have never been alive",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.1355263157894737,
       "evidence": [
         "Sort a collection of objects into three groups: living, dead (was once alive), never alive",
@@ -24300,6 +24337,7 @@
       ],
       "assessmentPrompt": "If you show {{name}} a rock, a fallen leaf, and a caterpillar, can they tell you which is alive, which was once alive, and which was never alive?",
       "standards": [
+        "acara-v9:AC9S3U01",
         "uk-nc-2013:Y2.Sci.LTH.1"
       ]
     },
@@ -24421,7 +24459,9 @@
         "Explain what a decomposer does and why it matters, using the correct vocabulary"
       ],
       "assessmentPrompt": "Can {{name}} draw a food chain from a plant to a top predator and label each animal as a producer, consumer, predator, or prey?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4U01"
+      ]
     },
     {
       "id": "mt_oB-L8EVdIP",
@@ -24431,7 +24471,7 @@
       "name": "Food Chains & Energy Transfer",
       "description": "Construct and interpret food chains identifying producers, predators, and prey, and understand energy transfer between trophic levels",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.06315789473684211,
       "evidence": [
         "Construct a food chain with at least four organisms, labelling producer, primary consumer, predator",
@@ -24440,6 +24480,7 @@
       ],
       "assessmentPrompt": "Can {{name}} build a food chain for a woodland and point out which organisms are producers, which are predators, and which are prey?",
       "standards": [
+        "acara-v9:AC9S4U01",
         "uk-nc-2013:Y4.Sci.A.3"
       ]
     },
@@ -24489,7 +24530,7 @@
       "name": "Reading Food Web Diagrams",
       "description": "Read and interpret food web diagrams — identify producers, primary and secondary consumers, and decomposers; trace energy flow along food chains within the web; predict the effect of removing or adding a species",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.01973684210526316,
       "evidence": [
         "Identify the producer, herbivore, and carnivore in a food web from a diagram",
@@ -24497,7 +24538,9 @@
         "Predict what would happen to fox numbers if rabbits were removed from a food web diagram"
       ],
       "assessmentPrompt": "If {{name}} is shown a diagram with arrows connecting plants, insects, frogs, and hawks, can they trace which animals eat which and explain what would happen if the frogs disappeared?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4U01"
+      ]
     },
     {
       "id": "mt_A1Xfu5p5KT",
@@ -24567,7 +24610,7 @@
       "name": "Communities Protecting Resources",
       "description": "Obtain and combine information about ways individual communities use science ideas to protect the Earth's resources and environment",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04736842105263158,
       "evidence": [
         "Describe at least three real-world examples of communities protecting resources or the environment",
@@ -24576,6 +24619,8 @@
       ],
       "assessmentPrompt": "Can {{name}} describe real examples of how communities protect the environment — like using solar panels, creating nature reserves, or cleaning up rivers?",
       "standards": [
+        "acara-v9:AC9S5H02",
+        "acara-v9:AC9S6H02",
         "ngss-k5:5-ESS3-1"
       ]
     },
@@ -25051,6 +25096,28 @@
       ]
     },
     {
+      "id": "mt_X_aDUBh-HF",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Energy",
+      "name": "How energy travels around",
+      "description": "Observe and provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.06578947368421052,
+      "evidence": [
+        "Give at least one example of energy transfer by each: sound, light, heat, electric current",
+        "Explain that energy moves from a source to a destination through these means",
+        "Describe how electric currents transfer energy from a battery to a bulb through wires"
+      ],
+      "assessmentPrompt": "Can {{name}} give examples of how energy moves around — like heat from a radiator warming a room, light from a lamp reaching your eyes, or electricity flowing through a wire?",
+      "standards": [
+        "acara-v9:AC9S3U03",
+        "acara-v9:AC9S6U03",
+        "ngss-k5:4-PS3-2"
+      ]
+    },
+    {
       "id": "mt_Hah24nbToi",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -25118,7 +25185,7 @@
       "name": "Building an energy-converting device",
       "description": "Apply scientific ideas to design, test, and refine a device that converts energy from one form to another",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.01052631578947368,
       "evidence": [
         "Design a device that converts one form of energy to another (e.g. electrical to light, kinetic to sound)",
@@ -25127,6 +25194,7 @@
       ],
       "assessmentPrompt": "Could {{name}} design and build a simple device — like a rubber-band car or a solar oven — that changes energy from one form to another?",
       "standards": [
+        "acara-v9:AC9S6U03",
         "ngss-k5:4-PS3-4"
       ]
     },
@@ -25149,26 +25217,6 @@
       "standards": []
     },
     {
-      "id": "mt_X_aDUBh-HF",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Energy",
-      "name": "How energy travels around",
-      "description": "Observe and provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.06578947368421052,
-      "evidence": [
-        "Give at least one example of energy transfer by each: sound, light, heat, electric current",
-        "Explain that energy moves from a source to a destination through these means",
-        "Describe how electric currents transfer energy from a battery to a bulb through wires"
-      ],
-      "assessmentPrompt": "Can {{name}} give examples of how energy moves around — like heat from a radiator warming a room, light from a lamp reaching your eyes, or electricity flowing through a wire?",
-      "standards": [
-        "ngss-k5:4-PS3-2"
-      ]
-    },
-    {
       "id": "mt_loYPGHJ8lm",
       "type": "REPRESENTATIONAL",
       "subject": "Science",
@@ -25184,7 +25232,9 @@
         "Match a photograph of a physical circuit to the correct circuit diagram from a set of options"
       ],
       "assessmentPrompt": "If {{name}} sees a circuit diagram with symbols for a battery, switch, and light bulb, can they tell you whether the bulb would light up — and draw the diagram for a simple circuit you describe?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4I04"
+      ]
     },
     {
       "id": "mt_2Um22lTBZV",
@@ -25234,7 +25284,7 @@
       "name": "Drawing circuits with proper symbols",
       "description": "Use recognised symbols when representing a simple circuit in a diagram, including cell, wire, bulb, switch, buzzer, and motor",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.025,
       "evidence": [
         "Draw a circuit diagram using standard symbols for at least five components",
@@ -25243,6 +25293,7 @@
       ],
       "assessmentPrompt": "Can {{name}} draw a circuit diagram using the proper symbols for batteries, bulbs, switches, and wires instead of drawing pictures?",
       "standards": [
+        "acara-v9:AC9S6U03",
         "uk-nc-2013:Y6.Sci.E.3"
       ]
     },
@@ -25274,7 +25325,7 @@
       "name": "Why circuit components behave differently",
       "description": "Compare and give reasons for variations in how circuit components function, including brightness of bulbs, loudness of buzzers, and switch positions",
       "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.025,
       "evidence": [
         "Explain why adding more components in series reduces brightness/loudness (energy shared)",
@@ -25283,6 +25334,7 @@
       ],
       "assessmentPrompt": "If {{name}} adds a second bulb to a series circuit and it gets dimmer, can they explain why the energy is being shared between the two bulbs?",
       "standards": [
+        "acara-v9:AC9S6U03",
         "uk-nc-2013:Y6.Sci.E.2"
       ]
     },
@@ -25532,7 +25584,9 @@
         "Use 'weight' correctly as a force — distinct from 'mass' — in descriptions"
       ],
       "assessmentPrompt": "If {{name}} slides down a slide and slows near the bottom, can they name the force responsible and spell it correctly?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S1U03"
+      ]
     },
     {
       "id": "mt_B3W5EfimJw",
@@ -25542,7 +25596,7 @@
       "name": "Pushes & Pulls",
       "description": "Understand that pushes and pulls are forces that can change the speed or direction of an object's motion, and compare the effects of different strengths and directions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.04868421052631579,
       "evidence": [
         "Describe a push and a pull as types of force that make objects move, speed up, slow down, or change direction",
@@ -25551,6 +25605,8 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that pushing a toy car harder makes it go faster, and pushing it sideways makes it change direction?",
       "standards": [
+        "acara-v9:AC9S1U03",
+        "acara-v9:AC9SFU02",
         "ngss-k5:K-PS2-1"
       ]
     },
@@ -25582,7 +25638,7 @@
       "name": "Contact & Non-Contact Forces",
       "description": "Notice that some forces need contact between two objects (contact forces) while magnetic forces can act at a distance (non-contact forces)",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.03289473684210526,
       "evidence": [
         "Define contact forces as those needing objects to touch (e.g. push, pull, friction)",
@@ -25591,6 +25647,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why you have to touch a ball to kick it, but a magnet can pull a paperclip without touching it?",
       "standards": [
+        "acara-v9:AC9S4U03",
         "uk-nc-2013:Y3.Sci.FM.2"
       ]
     },
@@ -25602,7 +25659,7 @@
       "name": "Friction & Surfaces",
       "description": "Compare how things move on different surfaces, noticing that some surfaces create more friction than others",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.03552631578947368,
       "evidence": [
         "Observe and compare how the same object moves on at least three different surfaces",
@@ -25611,6 +25668,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a toy car rolls further on a smooth wooden floor than on carpet?",
       "standards": [
+        "acara-v9:AC9S4U03",
         "uk-nc-2013:Y3.Sci.FM.1"
       ]
     },
@@ -25622,7 +25680,7 @@
       "name": "Magnetic Materials",
       "description": "Observe how magnets attract or repel each other and attract some materials and not others",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.01052631578947368,
       "evidence": [
         "Demonstrate that magnets attract some materials (iron, steel, nickel) but not others (wood, plastic, copper)",
@@ -25631,6 +25689,7 @@
       ],
       "assessmentPrompt": "Can {{name}} test a magnet on different objects around the house and predict which ones will stick?",
       "standards": [
+        "acara-v9:AC9S4U03",
         "uk-nc-2013:Y3.Sci.FM.3",
         "uk-nc-2013:Y3.Sci.FM.4"
       ]
@@ -25733,6 +25792,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a parachute slows you down, why swimming is harder than walking, and why bike brakes use rubber pads?",
       "standards": [
+        "acara-v9:AC9S4U03",
         "uk-nc-2013:Y5.Sci.F.2"
       ]
     },
@@ -25771,6 +25831,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why everything falls downwards when you let go of it, and name the force that causes this?",
       "standards": [
+        "acara-v9:AC9S4U03",
         "ngss-k5:5-PS2-1",
         "uk-nc-2013:Y5.Sci.F.1"
       ]
@@ -26487,6 +26548,7 @@
       ],
       "assessmentPrompt": "Can {{name}} pick up different objects and describe their properties — like 'this is smooth and shiny' or 'this is rough and bendy'?",
       "standards": [
+        "acara-v9:AC9SFU03",
         "uk-nc-2013:Y1.Sci.EM.3"
       ]
     },
@@ -26498,7 +26560,7 @@
       "name": "Grouping Materials",
       "description": "Compare and group everyday materials based on their simple physical properties",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.1210526315789474,
       "evidence": [
         "Sort a set of materials into groups based on a chosen property (e.g. transparent vs opaque)",
@@ -26507,6 +26569,8 @@
       ],
       "assessmentPrompt": "Can {{name}} sort a pile of objects into groups based on their properties, like all the waterproof ones together or all the transparent ones?",
       "standards": [
+        "acara-v9:AC9S1I04",
+        "acara-v9:AC9SFU03",
         "uk-nc-2013:Y1.Sci.EM.4"
       ]
     },
@@ -26527,6 +26591,7 @@
       ],
       "assessmentPrompt": "Can {{name}} look around a room and correctly name the materials things are made of — like glass in the window, metal in the radiator, and plastic in a pen?",
       "standards": [
+        "acara-v9:AC9SFU03",
         "uk-nc-2013:Y1.Sci.EM.2"
       ]
     },
@@ -26547,6 +26612,7 @@
       ],
       "assessmentPrompt": "If you hold up a wooden spoon and a metal spoon, can {{name}} explain that both are spoons (the object) but made from different materials?",
       "standards": [
+        "acara-v9:AC9SFU03",
         "uk-nc-2013:Y1.Sci.EM.1"
       ]
     },
@@ -26576,7 +26642,7 @@
       "name": "Changing Shapes of Solids",
       "description": "Investigate how the shapes of solid objects can be changed by squashing, bending, twisting, and stretching",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.04078947368421053,
       "evidence": [
         "Demonstrate four ways to change the shape of a solid: squashing, bending, twisting, stretching",
@@ -26585,6 +26651,8 @@
       ],
       "assessmentPrompt": "Can {{name}} show you how to change the shape of clay by squashing it, twist a pipe cleaner, and explain that some materials bend while others snap?",
       "standards": [
+        "acara-v9:AC9S1U03",
+        "acara-v9:AC9S2U03",
         "uk-nc-2013:Y2.Sci.UEM.2"
       ]
     },
@@ -26596,7 +26664,7 @@
       "name": "Choosing the Right Material",
       "description": "Identify and compare the suitability of everyday materials for particular uses, explaining why specific materials are chosen for specific purposes",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 10,
       "centrality": 0.02763157894736842,
       "evidence": [
         "Explain why a specific material is chosen for a purpose based on its properties (e.g. glass for windows because it's transparent)",
@@ -26605,6 +26673,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why windows are made of glass and not wood, or why wellies are made of rubber and not paper?",
       "standards": [
+        "acara-v9:AC9S4U04",
         "ngss-k5:2-PS1-2",
         "uk-nc-2013:Y2.Sci.UEM.1"
       ]
@@ -26655,7 +26724,7 @@
       "name": "Drawing Particle Diagrams",
       "description": "Draw and interpret particle diagrams — dot representations showing the arrangement, spacing, and movement of particles in solids (close, regular, vibrating in place), liquids (close, random, flowing past each other), and gases (widely spaced, moving rapidly in all directions) — and use these diagrams to explain observable properties such as fixed shape, fixed volume, and compressibility",
       "ageRangeStart": 7,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1039473684210526,
       "evidence": [
         "Draw labelled particle diagrams for solids, liquids, and gases showing the correct arrangement and spacing of particles",
@@ -26663,7 +26732,12 @@
         "Sketch what happens to particles during a change of state (e.g. melting) and explain the energy changes involved"
       ],
       "assessmentPrompt": "If {{name}}'s science teacher draws a diagram with dots packed tightly in rows versus dots spread far apart and moving around, can {{name}} tell you which represents a solid and which a gas — and explain why, using the particles?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4I04",
+        "acara-v9:AC9S5I04",
+        "acara-v9:AC9S5U04",
+        "acara-v9:AC9S6I04"
+      ]
     },
     {
       "id": "mt_Pl-nsjYGZ3",
@@ -26682,6 +26756,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what happens to an ice cube when you heat it, and at what temperature water freezes and boils?",
       "standards": [
+        "acara-v9:AC9S3U04",
         "ngss-k5:2-PS1-4",
         "uk-nc-2013:Y4.Sci.SM.2"
       ]
@@ -26723,6 +26798,7 @@
       ],
       "assessmentPrompt": "After testing different materials, can {{name}} explain with evidence why saucepans are made of metal but their handles are plastic?",
       "standards": [
+        "acara-v9:AC9S4U04",
         "ngss-k5:2-PS1-2",
         "uk-nc-2013:Y5.Sci.PCM.4"
       ]
@@ -26735,7 +26811,7 @@
       "name": "Evaporation & the Water Cycle",
       "description": "Identify the role of evaporation and condensation in the water cycle, and associate the rate of evaporation with temperature",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.03815789473684211,
       "evidence": [
         "Describe evaporation as liquid turning to gas and condensation as gas turning to liquid",
@@ -26744,6 +26820,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why puddles disappear on a sunny day and where the water goes, and why the bathroom mirror steams up after a hot shower?",
       "standards": [
+        "acara-v9:AC9S4U02",
         "uk-nc-2013:Y4.Sci.SM.3"
       ]
     },
@@ -26764,6 +26841,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain the difference between a solid like ice, a liquid like water, and a gas like steam, and sort everyday things into these three groups?",
       "standards": [
+        "acara-v9:AC9S3U04",
         "uk-nc-2013:Y4.Sci.SM.1"
       ]
     },
@@ -26784,6 +26862,7 @@
       ],
       "assessmentPrompt": "Can {{name}} test materials and sort them by whether they dissolve in water, conduct electricity, or are attracted to a magnet?",
       "standards": [
+        "acara-v9:AC9S4U04",
         "ngss-k5:5-PS1-3",
         "uk-nc-2013:Y5.Sci.PCM.1"
       ]
@@ -26796,7 +26875,7 @@
       "name": "Dissolving & Solutions",
       "description": "Understand that some materials dissolve in liquid to form a solution, and describe how to recover a substance from a solution by evaporation",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.04868421052631579,
       "evidence": [
         "Explain that dissolving means a solid mixes completely into a liquid to form a solution",
@@ -26805,6 +26884,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain what happens when sugar dissolves in tea, and figure out how to get the salt back from salty water?",
       "standards": [
+        "acara-v9:AC9S6U04",
         "uk-nc-2013:Y5.Sci.PCM.2"
       ]
     },
@@ -26816,7 +26896,7 @@
       "name": "Irreversible Changes",
       "description": "Explain that some changes result in the formation of new materials and are not usually reversible, such as burning, rusting, and reactions with acid",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04473684210526316,
       "evidence": [
         "Define an irreversible change as one that creates new materials that cannot be changed back",
@@ -26825,6 +26905,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why you can't un-burn a piece of toast or turn rust back into shiny iron, because a completely new material has been made?",
       "standards": [
+        "acara-v9:AC9S6U04",
         "ngss-k5:5-PS1-4",
         "uk-nc-2013:Y5.Sci.PCM.6"
       ]
@@ -26837,7 +26918,7 @@
       "name": "Material Properties Vocabulary",
       "description": "Use technical vocabulary to describe and compare material properties — conductor, insulator, thermal, electrical, transparent, opaque, translucent, soluble, insoluble, magnetic, flexible, rigid, density — and apply these terms precisely when selecting and justifying materials for particular purposes",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.02763157894736842,
       "evidence": [
         "Classify a set of materials as electrical conductors or insulators and explain why using the correct terms",
@@ -26845,7 +26926,9 @@
         "Apply at least four property terms correctly when justifying a material choice for a given purpose"
       ],
       "assessmentPrompt": "If {{name}} had to choose a material to make a window, could they use words like 'transparent' and 'insulator' to explain their choice — not just say 'you can see through it'?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S6U03"
+      ]
     },
     {
       "id": "mt_UKmtuAsSLN",
@@ -26855,7 +26938,7 @@
       "name": "Reversible Changes",
       "description": "Demonstrate that dissolving, mixing, and changes of state are reversible changes where no new materials are formed",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.04473684210526316,
       "evidence": [
         "Define a reversible change as one where the original materials can be recovered",
@@ -26864,6 +26947,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that melting chocolate or dissolving sugar can be undone — you can get the original material back — because these are reversible changes?",
       "standards": [
+        "acara-v9:AC9S6U04",
         "uk-nc-2013:Y5.Sci.PCM.5"
       ]
     },
@@ -26924,6 +27008,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that everything is made of tiny particles we can't see, and that how tightly packed they are determines whether something is a solid, liquid, or gas?",
       "standards": [
+        "acara-v9:AC9S5U04",
         "ngss-k5:5-PS1-1"
       ]
     },
@@ -27646,7 +27731,7 @@
       "name": "Ocean Ecosystems",
       "description": "Understand ocean ecosystems as interconnected systems where living things (producers, consumers, decomposers) and non-living factors (temperature, salinity, light, currents) all interact, and that changes to one part affect the whole system",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.08552631578947369,
       "evidence": [
         "Describe an ocean ecosystem as a system of living and non-living parts that interact",
@@ -27654,7 +27739,9 @@
         "Explain how a change in one factor (like temperature) cascades through the whole ecosystem"
       ],
       "assessmentPrompt": "Can {{name}} explain why warmer ocean temperatures don't just affect one species — they change the whole ecosystem, from the plankton at the bottom of the food web to the whales at the top?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S6U01"
+      ]
     },
     {
       "id": "mt_J6uccv2Bo4",
@@ -27797,6 +27884,7 @@
       ],
       "assessmentPrompt": "Can {{name}} describe how a fish's body is different from a bird's body and explain features like scales, feathers, or fins?",
       "standards": [
+        "acara-v9:AC9SFU01",
         "ngss-k5:1-LS1-1",
         "uk-nc-2013:Y1.Sci.A.3"
       ]
@@ -27838,6 +27926,7 @@
       ],
       "assessmentPrompt": "If you point to a tree in the park, can {{name}} tell you what kind it is and whether it keeps its leaves in winter?",
       "standards": [
+        "acara-v9:AC9SFU01",
         "ngss-k5:K-LS1-1",
         "uk-nc-2013:Y1.Sci.P.1"
       ]
@@ -27870,7 +27959,7 @@
       "name": "Living Things Vocabulary",
       "description": "Name and use vocabulary for what makes something living — alive, dead, never been alive, movement, nutrition, growth, reproduction, sensitivity, excretion — and apply these terms when classifying objects and explaining why plants and animals count as living things",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.1776315789473684,
       "evidence": [
         "Correctly classify objects as living, dead, or never been alive and give a reason using one of the life process terms",
@@ -27878,7 +27967,9 @@
         "Explain why a plant is alive using at least two life process words"
       ],
       "assessmentPrompt": "Can {{name}} explain why a rock is not alive but a weed is — using a science word like 'nutrition' or 'growth' rather than just saying 'it moves'?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S3U01"
+      ]
     },
     {
       "id": "mt_zVLOm6U7bh",
@@ -27897,6 +27988,7 @@
       ],
       "assessmentPrompt": "When {{name}} sees a frog, a robin, or a goldfish, can they tell you which animal group each belongs to?",
       "standards": [
+        "acara-v9:AC9SFU01",
         "ngss-k5:K-LS1-1",
         "uk-nc-2013:Y1.Sci.A.1"
       ]
@@ -27918,6 +28010,7 @@
       ],
       "assessmentPrompt": "If you pick a flower from the garden, can {{name}} point to the roots, stem, leaves, and petals and say what each part does?",
       "standards": [
+        "acara-v9:AC9SFU01",
         "uk-nc-2013:Y1.Sci.P.2"
       ]
     },
@@ -27938,6 +28031,7 @@
       ],
       "assessmentPrompt": "If you ask {{name}} what a pet dog or a garden plant needs to stay alive, can they list the basic things like water, food, and air?",
       "standards": [
+        "acara-v9:AC9S1U01",
         "ngss-k5:K-LS1-1",
         "uk-nc-2013:Y2.Sci.A.2",
         "uk-nc-2013:Y2.Sci.P.2"
@@ -28023,6 +28117,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a plant on the windowsill grows better than one left in a dark cupboard?",
       "standards": [
+        "acara-v9:AC9S1I01",
         "ngss-k5:2-LS2-1",
         "uk-nc-2013:Y2.Sci.P.2"
       ]
@@ -28073,7 +28168,7 @@
       "name": "Drawing Life Cycle Diagrams",
       "description": "Draw and interpret life cycle diagrams for flowering plants, insects (complete and incomplete metamorphosis), birds, and mammals — labelling stages, describing transitions, and comparing cycles across species",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05263157894736842,
       "evidence": [
         "Draw a labelled life cycle diagram for a flowering plant including seed, seedling, mature plant, and flower/fruit",
@@ -28081,7 +28176,11 @@
         "Label a blank life cycle diagram for a given organism correctly, including transitions between stages"
       ],
       "assessmentPrompt": "If {{name}} is given a blank circular diagram, can they fill in the stages of a butterfly's life cycle in the right order with labels — and explain what changes at each stage?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S2I04",
+        "acara-v9:AC9S3I04",
+        "acara-v9:AC9S3U01"
+      ]
     },
     {
       "id": "mt_6xsEXxKdUX",
@@ -28120,6 +28219,7 @@
       ],
       "assessmentPrompt": "Can {{name}} compare the life cycle of a butterfly with that of a frog and explain what stages they all share — being born, growing, having babies, and dying?",
       "standards": [
+        "acara-v9:AC9S3U01",
         "ngss-k5:3-LS1-1",
         "uk-nc-2013:Y3.Sci.P.4"
       ]
@@ -28202,6 +28302,7 @@
       ],
       "assessmentPrompt": "Can {{name}} tell you why a crowded pot of seedlings doesn't grow as well as one with just a few plants?",
       "standards": [
+        "acara-v9:AC9S2I01",
         "uk-nc-2013:Y3.Sci.P.2"
       ]
     },
@@ -28222,6 +28323,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a camel's humps, a cactus's thick skin, or a polar bear's white fur help them survive where they live, and how these adaptations developed over time?",
       "standards": [
+        "acara-v9:AC9S5U01",
         "ngss-k5:3-LS4-3",
         "uk-nc-2013:Y6.Sci.EI.3"
       ]
@@ -28410,7 +28512,7 @@
       "name": "Structures for Survival",
       "description": "Construct an argument that plants and animals have internal and external structures that function to support survival, growth, behaviour, and reproduction",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 11,
       "centrality": 0.01710526315789474,
       "evidence": [
         "Give examples of external structures and their survival functions (e.g. thorns for protection, claws for catching prey)",
@@ -28419,6 +28521,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain how a cactus's thick stem helps it survive in a desert, or how a bird's wings help it find food?",
       "standards": [
+        "acara-v9:AC9S5U01",
         "ngss-k5:4-LS1-1"
       ]
     },
@@ -29900,7 +30003,7 @@
       "name": "Rainforest Futures & Trade-Offs",
       "description": "Understand that the future of rainforests depends on balancing competing needs — economic development for local communities, indigenous peoples' rights to their ancestral lands, global biodiversity conservation, and climate stability — and that there are no simple answers, requiring cooperation between governments, businesses, scientists, indigenous leaders, and consumers worldwide",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1026315789473684,
       "evidence": [
         "Name at least three competing interests: economic development, indigenous rights, biodiversity, and climate stability",
@@ -29908,7 +30011,10 @@
         "Suggest how different groups (governments, businesses, consumers, scientists) can each contribute to a better outcome"
       ],
       "assessmentPrompt": "Can {{name}} discuss the tricky problem of rainforest protection — that farmers need land, companies want resources, indigenous people have rights, and the whole planet needs the forests for climate — and there's no easy answer?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S5H02",
+        "acara-v9:AC9S6H02"
+      ]
     },
     {
       "id": "mt_xE_b3JiDZU",
@@ -29972,7 +30078,7 @@
       "name": "Asking scientific questions",
       "description": "Ask simple scientific questions and recognise that they can be answered in different ways including observation, testing, and research",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05657894736842106,
       "evidence": [
         "Ask at least three 'how' or 'why' questions about the natural world",
@@ -29981,6 +30087,15 @@
       ],
       "assessmentPrompt": "When {{name}} wonders about something — like 'why do leaves change colour?' — can they suggest how to find the answer, whether by looking closely, doing a test, or looking it up?",
       "standards": [
+        "acara-v9:AC9S1I01",
+        "acara-v9:AC9S1I02",
+        "acara-v9:AC9S1I05",
+        "acara-v9:AC9S2I01",
+        "acara-v9:AC9S2I02",
+        "acara-v9:AC9S3I01",
+        "acara-v9:AC9SFH01",
+        "acara-v9:AC9SFI01",
+        "acara-v9:AC9SFI05",
         "ngss-k5:K-2-ETS1-1",
         "uk-nc-2013:KS1.Sci.WS.1"
       ]
@@ -30033,7 +30148,7 @@
       "name": "Observing with simple equipment",
       "description": "Observe closely using simple equipment such as hand lenses, and use observations to describe, compare, and identify things",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.05394736842105263,
       "evidence": [
         "Use a hand lens or other simple equipment to make detailed observations",
@@ -30042,6 +30157,13 @@
       ],
       "assessmentPrompt": "Can {{name}} use a magnifying glass to look carefully at something like a leaf or an insect and describe in detail what they see?",
       "standards": [
+        "acara-v9:AC9S1I03",
+        "acara-v9:AC9S1I06",
+        "acara-v9:AC9S2I03",
+        "acara-v9:AC9S2I06",
+        "acara-v9:AC9SFH01",
+        "acara-v9:AC9SFI02",
+        "acara-v9:AC9SFI05",
         "uk-nc-2013:KS1.Sci.WS.2",
         "uk-nc-2013:KS1.Sci.WS.4"
       ]
@@ -30054,7 +30176,7 @@
       "name": "Recording Data",
       "description": "Gather and record data using simple methods such as tables, tally charts, and drawings to help answer questions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.04868421052631579,
       "evidence": [
         "Record observations and measurements in a simple table or tally chart",
@@ -30063,6 +30185,12 @@
       ],
       "assessmentPrompt": "Can {{name}} collect information during an experiment — like counting, measuring, or drawing — and put it into a simple table or chart?",
       "standards": [
+        "acara-v9:AC9S1I03",
+        "acara-v9:AC9S1I04",
+        "acara-v9:AC9S1I06",
+        "acara-v9:AC9S2I03",
+        "acara-v9:AC9S3I03",
+        "acara-v9:AC9SFI03",
         "uk-nc-2013:KS1.Sci.WS.6"
       ]
     },
@@ -30083,6 +30211,9 @@
       ],
       "assessmentPrompt": "Can {{name}} do a simple experiment — like testing which paper towel absorbs the most water — and use what they find out to answer the question?",
       "standards": [
+        "acara-v9:AC9S1I02",
+        "acara-v9:AC9S1I05",
+        "acara-v9:AC9SFI02",
         "uk-nc-2013:KS1.Sci.WS.3",
         "uk-nc-2013:KS1.Sci.WS.5"
       ]
@@ -30146,7 +30277,7 @@
       "name": "Drawing conclusions from evidence",
       "description": "Report on findings from enquiries using oral and written explanations, draw simple conclusions, make predictions, and suggest improvements",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1,
       "evidence": [
         "Write or present a clear report of findings from an investigation",
@@ -30155,6 +30286,12 @@
       ],
       "assessmentPrompt": "After finishing an experiment, can {{name}} explain what they found out, what it means, what they'd predict for next time, and how they could improve the test?",
       "standards": [
+        "acara-v9:AC9S2I05",
+        "acara-v9:AC9S2I06",
+        "acara-v9:AC9S3I01",
+        "acara-v9:AC9S3I05",
+        "acara-v9:AC9S3I06",
+        "acara-v9:AC9S4I05",
         "uk-nc-2013:KS2L.Sci.WS.6",
         "uk-nc-2013:KS2L.Sci.WS.7"
       ]
@@ -30167,7 +30304,7 @@
       "name": "Fair testing",
       "description": "Set up simple practical enquiries, comparative tests, and fair tests, understanding the importance of changing only one variable at a time",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.03947368421052631,
       "evidence": [
         "Explain what makes a test 'fair' (only one variable changes, everything else stays the same)",
@@ -30176,6 +30313,11 @@
       ],
       "assessmentPrompt": "If {{name}} wants to find out which soil is best for growing beans, can they set up a fair test where only the soil changes and everything else stays the same?",
       "standards": [
+        "acara-v9:AC9S2I02",
+        "acara-v9:AC9S2I05",
+        "acara-v9:AC9S3I02",
+        "acara-v9:AC9S3I05",
+        "acara-v9:AC9S4I02",
         "uk-nc-2013:KS2L.Sci.WS.1",
         "uk-nc-2013:KS2L.Sci.WS.2"
       ]
@@ -30188,7 +30330,7 @@
       "name": "Gathering, recording, classifying and presenting data",
       "description": "Gather, record, classify, and present data in a variety of ways including tables, bar charts, labelled diagrams, and keys",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.05657894736842106,
       "evidence": [
         "Organise data into a clear table with appropriate headings",
@@ -30197,6 +30339,9 @@
       ],
       "assessmentPrompt": "After doing an experiment, can {{name}} put their results into a neat table, draw a bar chart, and add labels to a diagram to show what they found?",
       "standards": [
+        "acara-v9:AC9S2I04",
+        "acara-v9:AC9S3I04",
+        "acara-v9:AC9S4I04",
         "uk-nc-2013:KS2L.Sci.WS.4",
         "uk-nc-2013:KS2L.Sci.WS.5"
       ]
@@ -30209,7 +30354,7 @@
       "name": "Measuring accurately",
       "description": "Make systematic and careful observations, take accurate measurements using standard units and equipment including thermometers and data loggers",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 12,
       "centrality": 0.04605263157894737,
       "evidence": [
         "Use at least three types of measuring equipment correctly (ruler, thermometer, measuring jug, scales)",
@@ -30218,6 +30363,12 @@
       ],
       "assessmentPrompt": "Can {{name}} use a thermometer to measure temperature accurately, read a ruler in centimetres, and record measurements carefully during an experiment?",
       "standards": [
+        "acara-v9:AC9S2I03",
+        "acara-v9:AC9S3I03",
+        "acara-v9:AC9S3U03",
+        "acara-v9:AC9S4I03",
+        "acara-v9:AC9S5I03",
+        "acara-v9:AC9S6I03",
         "uk-nc-2013:KS2L.Sci.WS.3"
       ]
     },
@@ -30229,7 +30380,7 @@
       "name": "Using evidence to answer questions",
       "description": "Identify differences, similarities, or changes related to scientific ideas and use straightforward scientific evidence to answer questions or support findings",
       "ageRangeStart": 7,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.1118421052631579,
       "evidence": [
         "Identify at least one pattern (similarity, difference, or trend) in a set of scientific data",
@@ -30238,6 +30389,14 @@
       ],
       "assessmentPrompt": "When {{name}} looks at their experiment results, can they spot patterns — like things that are similar, different, or changing — and use the evidence to back up their answer?",
       "standards": [
+        "acara-v9:AC9S2I04",
+        "acara-v9:AC9S3H01",
+        "acara-v9:AC9S3I01",
+        "acara-v9:AC9S3I04",
+        "acara-v9:AC9S3I05",
+        "acara-v9:AC9S4I01",
+        "acara-v9:AC9S4I04",
+        "acara-v9:AC9S4I05",
         "uk-nc-2013:KS2L.Sci.WS.8",
         "uk-nc-2013:KS2L.Sci.WS.9"
       ]
@@ -30296,6 +30455,7 @@
       ],
       "assessmentPrompt": "When {{name}} builds and tests a prototype, can they run a fair test, find what didn't work, and figure out how to make it better?",
       "standards": [
+        "acara-v9:AC9S4I02",
         "ngss-k5:3-5-ETS1-3"
       ]
     },
@@ -30327,7 +30487,7 @@
       "name": "Accurate Measurement",
       "description": "Take measurements with increasing accuracy and precision using a range of scientific equipment, taking repeat readings when appropriate",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.02236842105263158,
       "evidence": [
         "Use scientific equipment (scales, thermometers, measuring cylinders, stopwatches) with increasing precision",
@@ -30336,6 +30496,13 @@
       ],
       "assessmentPrompt": "Can {{name}} measure things precisely during experiments, know when to take repeat readings for reliability, and spot when a measurement seems wrong?",
       "standards": [
+        "acara-v9:AC9S4I03",
+        "acara-v9:AC9S5I02",
+        "acara-v9:AC9S5I03",
+        "acara-v9:AC9S5I05",
+        "acara-v9:AC9S6I02",
+        "acara-v9:AC9S6I03",
+        "acara-v9:AC9S6I05",
         "uk-nc-2013:KS2U.Sci.WS.2"
       ]
     },
@@ -30347,7 +30514,7 @@
       "name": "Controlling variables",
       "description": "Plan different types of scientific enquiries to answer questions, recognising and controlling variables where necessary",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1460526315789474,
       "evidence": [
         "Independently plan an investigation identifying the independent, dependent, and controlled variables",
@@ -30356,6 +30523,11 @@
       ],
       "assessmentPrompt": "Can {{name}} plan their own experiment from scratch — deciding what to test, what to measure, what to keep the same, and how many times to repeat it?",
       "standards": [
+        "acara-v9:AC9S4I02",
+        "acara-v9:AC9S5I01",
+        "acara-v9:AC9S5I02",
+        "acara-v9:AC9S6I01",
+        "acara-v9:AC9S6I02",
         "uk-nc-2013:KS2U.Sci.WS.1"
       ]
     },
@@ -30367,7 +30539,7 @@
       "name": "Drawing conclusions from evidence (age 9+)",
       "description": "Report and present findings including conclusions, causal relationships, explanations, and a degree of trust in results using oral and written forms",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1578947368421053,
       "evidence": [
         "Present findings clearly in written and oral form with appropriate scientific vocabulary",
@@ -30376,6 +30548,13 @@
       ],
       "assessmentPrompt": "Can {{name}} write up or present their experiment results, explain what caused what, and discuss how confident they are in their findings?",
       "standards": [
+        "acara-v9:AC9S4I06",
+        "acara-v9:AC9S5I04",
+        "acara-v9:AC9S5I05",
+        "acara-v9:AC9S5I06",
+        "acara-v9:AC9S6I04",
+        "acara-v9:AC9S6I05",
+        "acara-v9:AC9S6I06",
         "uk-nc-2013:KS2U.Sci.WS.5"
       ]
     },
@@ -30387,7 +30566,7 @@
       "name": "Evidence Supporting Ideas",
       "description": "Identify scientific evidence that has been used to support or refute ideas or arguments, evaluating the strength of evidence",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1934210526315789,
       "evidence": [
         "Distinguish between a claim and the evidence supporting it",
@@ -30396,6 +30575,9 @@
       ],
       "assessmentPrompt": "When {{name}} reads a science claim — like 'plants grow faster with music' — can they evaluate whether the evidence actually supports it or if the test wasn't fair?",
       "standards": [
+        "acara-v9:AC9S4H01",
+        "acara-v9:AC9S5I05",
+        "acara-v9:AC9S6I05",
         "uk-nc-2013:KS2U.Sci.WS.6"
       ]
     },
@@ -30407,7 +30589,7 @@
       "name": "Fair testing (age 9+)",
       "description": "Use test results to make predictions and set up further comparative and fair tests to investigate new questions",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.1460526315789474,
       "evidence": [
         "Use results from an investigation to make a specific, testable prediction",
@@ -30416,6 +30598,12 @@
       ],
       "assessmentPrompt": "After getting results from one experiment, can {{name}} use the pattern to predict what would happen in a new situation and then design a follow-up test to check?",
       "standards": [
+        "acara-v9:AC9S4I01",
+        "acara-v9:AC9S4I05",
+        "acara-v9:AC9S5I01",
+        "acara-v9:AC9S5I05",
+        "acara-v9:AC9S6I01",
+        "acara-v9:AC9S6I05",
         "uk-nc-2013:KS2U.Sci.WS.4"
       ]
     },
@@ -30427,7 +30615,7 @@
       "name": "Recording data and results",
       "description": "Record data and results of increasing complexity using scientific diagrams, classification keys, tables, scatter graphs, bar and line graphs",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.04473684210526316,
       "evidence": [
         "Choose and create an appropriate graph type for the data (bar chart, line graph, scatter graph)",
@@ -30436,6 +30624,11 @@
       ],
       "assessmentPrompt": "Can {{name}} choose the right type of graph for their data — a bar chart for categories or a line graph for continuous data — and draw it accurately?",
       "standards": [
+        "acara-v9:AC9S4I04",
+        "acara-v9:AC9S5I03",
+        "acara-v9:AC9S5I04",
+        "acara-v9:AC9S6I03",
+        "acara-v9:AC9S6I04",
         "uk-nc-2013:KS2U.Sci.WS.3"
       ]
     },
@@ -30447,7 +30640,7 @@
       "name": "Science Can Be Revised",
       "description": "Scientific knowledge is provisional — it is the best current explanation based on available evidence, and it can and should be revised when better evidence arrives",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.05131578947368421,
       "evidence": [
         "Give an example of a scientific idea that changed when new evidence was found — e.g. people once thought the Sun orbited the Earth",
@@ -30455,7 +30648,11 @@
         "Describe why it is important to keep testing ideas rather than just accepting them because an expert said so"
       ],
       "assessmentPrompt": "Does {{name}} understand that scientific facts can be revised as new discoveries are made — and that this is science working properly, not a sign that scientists were wrong?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4H01",
+        "acara-v9:AC9S5H01",
+        "acara-v9:AC9S6H01"
+      ]
     },
     {
       "id": "mt_Ae56umVlTT",
@@ -30804,7 +31001,7 @@
       "name": "Changing Ideas About Space",
       "description": "Understand that ideas about the solar system changed over time: ancient people believed Earth was at the centre (geocentric model, Ptolemy), until Copernicus proposed the Sun was at the centre (heliocentric model), later confirmed by Galileo’s telescope observations",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.01447368421052632,
       "evidence": [
         "Describe the geocentric model (Earth at the centre) and name Ptolemy as its main proponent",
@@ -30812,7 +31009,11 @@
         "Explain that Galileo used a telescope to find evidence supporting the heliocentric model (e.g. moons orbiting Jupiter)"
       ],
       "assessmentPrompt": "Can {{name}} tell you that people used to think the Sun went around the Earth, and explain how scientists like Copernicus and Galileo changed our understanding?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S4H01",
+        "acara-v9:AC9S5H01",
+        "acara-v9:AC9S6H01"
+      ]
     },
     {
       "id": "mt_Y2WcY2lOTK",
@@ -31046,7 +31247,9 @@
         "Distinguish between a planet, a moon, a star, and an asteroid using the correct vocabulary"
       ],
       "assessmentPrompt": "Can {{name}} name the planets in order from the Sun — and explain the difference between a star, a planet, and a moon?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S2U01"
+      ]
     },
     {
       "id": "mt_K0mZxY2AM8",
@@ -31077,7 +31280,7 @@
       "name": "Sun, Moon, and stars",
       "description": "Use observations of the sun, moon, and stars to describe predictable patterns such as the sun rising and setting, the moon changing shape, and stars appearing at night",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 8,
       "centrality": 0.025,
       "evidence": [
         "Describe the daily pattern of sunrise and sunset",
@@ -31086,6 +31289,8 @@
       ],
       "assessmentPrompt": "Can {{name}} describe patterns they've noticed in the sky — like the sun rising in the east, the moon changing shape over weeks, and stars coming out at night?",
       "standards": [
+        "acara-v9:AC9S1U02",
+        "acara-v9:AC9S2U01",
         "ngss-k5:1-ESS1-1"
       ]
     },
@@ -31117,7 +31322,7 @@
       "name": "Earth & Space Vocabulary",
       "description": "Use technical vocabulary for Earth's motion and the wider universe — rotation, revolution, axis, tilt, orbit, light year, gravitational force, atmosphere, lunar phases, waxing, waning, solstice, equinox, eclipse — and apply these when explaining day and night, the seasons, and the Moon's phases",
       "ageRangeStart": 8,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.009210526315789473,
       "evidence": [
         "Use 'rotation' and 'revolution' correctly to describe Earth's two distinct types of movement and explain what each causes",
@@ -31125,7 +31330,9 @@
         "Apply 'solstice' and 'equinox' correctly when explaining why seasons exist and why day length varies"
       ],
       "assessmentPrompt": "Can {{name}} explain the difference between the Earth rotating and the Earth orbiting the Sun — using the actual science words 'rotation' and 'revolution'?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S6U02"
+      ]
     },
     {
       "id": "mt_q15w--Fb5H",
@@ -31135,7 +31342,7 @@
       "name": "Earth's rotation and day/night",
       "description": "Use the idea of the Earth's rotation to explain day and night and the apparent movement of the sun across the sky",
       "ageRangeStart": 9,
-      "ageRangeEnd": 11,
+      "ageRangeEnd": 12,
       "centrality": 0.02236842105263158,
       "evidence": [
         "Explain that the Earth rotates (spins) on its axis once every 24 hours",
@@ -31144,6 +31351,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain that the sun doesn't actually move across the sky — it's the Earth spinning that makes it look like it does, and that's what causes day and night?",
       "standards": [
+        "acara-v9:AC9S6U02",
         "ngss-k5:5-ESS1-2",
         "uk-nc-2013:Y5.Sci.ES.4"
       ]
@@ -31176,7 +31384,7 @@
       "name": "The solar system",
       "description": "Describe the sun, Earth, and moon as approximately spherical bodies, and describe the movement of the Earth and other planets orbiting the sun in the solar system",
       "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeEnd": 12,
       "centrality": 0.025,
       "evidence": [
         "State that the sun, Earth, and moon are approximately spherical",
@@ -31185,6 +31393,7 @@
       ],
       "assessmentPrompt": "Can {{name}} describe the solar system — how Earth and the other planets orbit the sun, and how the moon orbits Earth, and that they're all roughly ball-shaped?",
       "standards": [
+        "acara-v9:AC9S6U02",
         "uk-nc-2013:Y5.Sci.ES.1",
         "uk-nc-2013:Y5.Sci.ES.2",
         "uk-nc-2013:Y5.Sci.ES.3"
@@ -31442,7 +31651,9 @@
         "Give an example of using each sense in everyday life (e.g. smelling food cooking, feeling hot water)"
       ],
       "assessmentPrompt": "If you blindfolded {{name}} and gave them something to smell, taste, and touch, could they name which sense they were using each time and which body part does the job?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9SFI02"
+      ]
     },
     {
       "id": "mt_lp1eTsQen7",
@@ -32163,6 +32374,7 @@
       ],
       "assessmentPrompt": "Can {{name}} come up with different ideas for keeping people safe from earthquakes or floods, and compare which ones would work best?",
       "standards": [
+        "acara-v9:AC9S4H02",
         "ngss-k5:4-ESS3-2"
       ]
     },
@@ -32347,7 +32559,9 @@
         "Describe what changes the pitch or volume of a sound using vibration vocabulary"
       ],
       "assessmentPrompt": "If you held up a piece of frosted glass, could {{name}} say whether it's transparent, translucent, or opaque — and explain what that word means?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S2U02"
+      ]
     },
     {
       "id": "mt_p6frRFuxS6",
@@ -32386,6 +32600,7 @@
       ],
       "assessmentPrompt": "Can {{name}} pluck a rubber band and explain that the vibrating band makes the sound, and then hold a ruler on a speaker and see it shake from the music?",
       "standards": [
+        "acara-v9:AC9S2U02",
         "ngss-k5:1-PS4-1",
         "uk-nc-2013:Y4.Sci.Snd.1"
       ]
@@ -32409,6 +32624,27 @@
       "standards": [
         "uk-nc-2013:Y3.Sci.L.4",
         "uk-nc-2013:Y3.Sci.L.5"
+      ]
+    },
+    {
+      "id": "mt_KTSoXcO7OL",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Waves, Light & Sound",
+      "name": "Pitch of Sounds",
+      "description": "Find patterns between the pitch of a sound and features of the object that produced it",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 9,
+      "centrality": 0.005263157894736842,
+      "evidence": [
+        "Describe the pattern: shorter/thinner/tighter objects produce higher-pitched sounds",
+        "Demonstrate pitch changes using at least one instrument or everyday object",
+        "Explain pitch as how high or low a sound is, determined by how fast the object vibrates"
+      ],
+      "assessmentPrompt": "Can {{name}} explain why a short guitar string makes a higher sound than a long one, or why a small drum sounds higher than a big one?",
+      "standards": [
+        "acara-v9:AC9S2U02",
+        "uk-nc-2013:Y4.Sci.Snd.3"
       ]
     },
     {
@@ -32452,23 +32688,24 @@
       ]
     },
     {
-      "id": "mt_KTSoXcO7OL",
+      "id": "mt__00ZSLnB7p",
       "type": "CONCEPTUAL",
       "subject": "Science",
       "domain": "Waves, Light & Sound",
-      "name": "Pitch of Sounds",
-      "description": "Find patterns between the pitch of a sound and features of the object that produced it",
-      "ageRangeStart": 8,
+      "name": "Volume & Vibrations",
+      "description": "Find patterns between the volume of a sound and the strength of the vibrations that produced it",
+      "ageRangeStart": 7,
       "ageRangeEnd": 9,
-      "centrality": 0.005263157894736842,
+      "centrality": 0.0131578947368421,
       "evidence": [
-        "Describe the pattern: shorter/thinner/tighter objects produce higher-pitched sounds",
-        "Demonstrate pitch changes using at least one instrument or everyday object",
-        "Explain pitch as how high or low a sound is, determined by how fast the object vibrates"
+        "Describe the pattern: stronger vibrations (larger movements) produce louder sounds",
+        "Demonstrate volume changes by varying the force applied to a sound-making object",
+        "Explain volume as how loud or quiet a sound is, determined by the size of vibrations"
       ],
-      "assessmentPrompt": "Can {{name}} explain why a short guitar string makes a higher sound than a long one, or why a small drum sounds higher than a big one?",
+      "assessmentPrompt": "Can {{name}} explain why hitting a drum harder makes a louder sound, and what's happening to the drum skin differently?",
       "standards": [
-        "uk-nc-2013:Y4.Sci.Snd.3"
+        "acara-v9:AC9S2U02",
+        "uk-nc-2013:Y4.Sci.Snd.4"
       ]
     },
     {
@@ -32512,26 +32749,6 @@
       ]
     },
     {
-      "id": "mt__00ZSLnB7p",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Waves, Light & Sound",
-      "name": "Volume & Vibrations",
-      "description": "Find patterns between the volume of a sound and the strength of the vibrations that produced it",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "centrality": 0.0131578947368421,
-      "evidence": [
-        "Describe the pattern: stronger vibrations (larger movements) produce louder sounds",
-        "Demonstrate volume changes by varying the force applied to a sound-making object",
-        "Explain volume as how loud or quiet a sound is, determined by the size of vibrations"
-      ],
-      "assessmentPrompt": "Can {{name}} explain why hitting a drum harder makes a louder sound, and what's happening to the drum skin differently?",
-      "standards": [
-        "uk-nc-2013:Y4.Sci.Snd.4"
-      ]
-    },
-    {
       "id": "mt_6w2g7aoPgz",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -32548,6 +32765,7 @@
       ],
       "assessmentPrompt": "Can {{name}} draw a diagram showing how light bounces off a book and enters your eye, which is how you actually see the book?",
       "standards": [
+        "acara-v9:AC9S5U03",
         "ngss-k5:4-PS4-2",
         "uk-nc-2013:Y6.Sci.L.2",
         "uk-nc-2013:Y6.Sci.L.3"
@@ -32589,7 +32807,9 @@
         "Explain what an echo is using the vocabulary of sound reflection correctly"
       ],
       "assessmentPrompt": "Can {{name}} explain why a straw looks bent in a glass of water using a proper science word — or tell you what's actually happening when you hear an echo?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S5U03"
+      ]
     },
     {
       "id": "mt_ph4xZVMiVq",
@@ -32628,6 +32848,7 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why a shadow of a hand looks like a hand shape, using the idea that light travels in straight lines?",
       "standards": [
+        "acara-v9:AC9S5U03",
         "uk-nc-2013:Y6.Sci.L.1",
         "uk-nc-2013:Y6.Sci.L.4"
       ]
@@ -32919,7 +33140,7 @@
       "name": "Weather Forecasting & Safety",
       "description": "Ask questions to obtain information about the purpose of weather forecasting and how people prepare for and respond to severe weather",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 8,
       "centrality": 0.01578947368421053,
       "evidence": [
         "Explain that weather forecasts help people plan and stay safe",
@@ -32928,6 +33149,9 @@
       ],
       "assessmentPrompt": "Can {{name}} explain why we check the weather forecast and what people do to get ready for a big storm or very hot weather?",
       "standards": [
+        "acara-v9:AC9S1H01",
+        "acara-v9:AC9S1U02",
+        "acara-v9:AC9S2H01",
         "ngss-k5:K-ESS3-2"
       ]
     },
@@ -33055,7 +33279,10 @@
         "Explain why weather forecasting is useful for safety and daily planning"
       ],
       "assessmentPrompt": "Can {{name}} explain what a meteorologist does, name some tools they use like satellites and radar, and describe why weather forecasts are important for keeping people safe?",
-      "standards": []
+      "standards": [
+        "acara-v9:AC9S2H01",
+        "acara-v9:AC9S3H01"
+      ]
     },
     {
       "id": "mt_AB-TEMXSGJ",
@@ -33101,7 +33328,7 @@
       "name": "Designing for Weather Hazards",
       "description": "Make a claim about the merit of a design solution that reduces the impacts of a weather-related hazard such as flooding, wind damage, or extreme temperatures",
       "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "ageRangeEnd": 10,
       "centrality": 0.03815789473684211,
       "evidence": [
         "Identify a specific weather-related hazard and its impacts on people",
@@ -33110,6 +33337,8 @@
       ],
       "assessmentPrompt": "If there's a risk of flooding in a town, can {{name}} evaluate different solutions like building levees, planting trees, or improving drainage and argue which works best?",
       "standards": [
+        "acara-v9:AC9S3H02",
+        "acara-v9:AC9S4H02",
         "ngss-k5:3-ESS3-1"
       ]
     },
