@@ -45,6 +45,12 @@ then enters the lesson with the smaller title/instruction treatment.
 Sky and Cubes sources share [opening.mjs](../examples/opening.mjs) for entry/focus
 behavior, while each stages its own artwork; Bee uses its native SVG composition.
 
+The examples also share [vocabulary.js](../examples/vocabulary.js): a scoped
+lexicon, dashed inline affordances and one hover/tap/keyboard word-help region.
+Each design note links its actual desktop/phone vocabulary captures. Review and
+adapt the definitions for a new topic and learner; the helper is a reference,
+not a universal dictionary or a task-specific hint system.
+
 Each example has `experience.html` (double-click to run offline), `source/`
 (readable application and shell), `design.md`, `screenshots/` and dependency
 notices. The WebGL examples require a capable browser; Bee Builder uses SVG.
@@ -65,7 +71,7 @@ The build embeds the skill's font/CSS and writes `dist/<example>.html`, leaving
 reviewed snapshots untouched. Open that output and validate it after editing;
 a successful build alone is not a UX review. Source imports were normalized
 from local scratch paths to npm package imports. `snapshot.json` records source
-and HTML hashes for the imported revision, including the shared opening module. Generated `dist/` and dependencies
+and HTML hashes for the imported revision, including the shared opening and vocabulary modules. Generated `dist/` and dependencies
 are excluded from version control.
 
 Marble-authored example material is shared under the repository's

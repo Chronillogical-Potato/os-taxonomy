@@ -1,3 +1,4 @@
+import '../../vocabulary.js';
 import {createOpening} from '../../opening.mjs';
 import * as THREE from 'three';
 import {createSunVisual,createSpaceBackground} from './space-visuals.mjs';

@@ -1,3 +1,4 @@
+import '../../vocabulary.js';
 import {createOpening} from '../../opening.mjs';
 import * as THREE from 'three';
 import {airPath,tasks,evidence,clamp} from './model.mjs';

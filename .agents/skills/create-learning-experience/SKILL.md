@@ -180,6 +180,18 @@ Design a coherent learning sequence rather than a collection of screens:
   a separate companion. For a goal that genuinely requires visible reading
   material or mathematical notation, resolve that conflict explicitly with the user during concept design
   rather than silently relaxing this rule.
+- Give every child-facing technical term a **dashed underline and an on-demand
+  meaning**, including terms in the opening question, instructions, feedback,
+  labels, buttons and extensions. Examples include photon, nitrogen, molecule,
+  horizon and volume. Hover on desktop or tap on mobile reveals a brief,
+  age-appropriate explanation; keyboard focus/activation must also work.
+  Keep definitions contextual and generic, without revealing the current answer.
+  Show only one definition at a time, dismissible by close, Escape or tapping
+  elsewhere. This requested word-help popover is a narrow exception to the text
+  budget, not another persistent explanation panel. Opening a definition must
+  not activate the surrounding action or submit a response. See
+  [interaction-design.md](references/interaction-design.md) for behavior and
+  assessment boundaries.
 - Make feedback visual first: reveal the relevant consequence or relationship,
   connect errors to likely misconceptions and offer a useful retry. A short
   replacement instruction can direct attention; do not add a feedback card.

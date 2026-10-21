@@ -50,6 +50,19 @@ rotations of the same dimensions. Restart resets this local history; it does not
 prove a learner has never seen a task. Completion is evidence of layer plans
 within this session, not spontaneous strategy selection or retained mastery.
 
+## Contextual vocabulary
+
+Technical terms have dashed underlines in child-visible copy, including controls
+and the opening question where relevant. Hover, tap or keyboard focus opens one
+brief meaning. These are generic language explanations, not task-specific hints;
+opening them does not submit a response or change this experience's evidence.
+Words inside action buttons are isolated from the surrounding action. Form labels
+retain their original accessible names.
+
+[Desktop word help](screenshots/vocabulary.png) ·
+[Phone word help](screenshots/vocabulary-narrow.png) ·
+[Shared vocabulary source](../vocabulary.js)
+
 ## What to inspect and reuse
 
 - [Application](source/app.js): `fillAt`, `discover`, `renderEquation`,

@@ -68,6 +68,16 @@ browser tools; inspecting source or the DOM alone does not validate presentation
    screenshots, scenarios exercised, observations and fixes, or the reason no
    revision was needed. Static inspection cannot stand in for this loop.
 
+Also inspect the vocabulary support in actual cover, instruction, feedback,
+button and extension states. Check that the technical-word inventory is covered
+(including plurals and phrases), meanings are accurate and short, and a term's
+hover/tap/keyboard interaction shows one readable explanation. Exercise movement
+into the popup, Escape/close/outside dismissal, focus restoration, dynamic copy
+and narrow positioning. A definition tap inside an action button or label must
+not submit, advance or edit; the surrounding action must still work. Confirm
+word help preserves evidence unless vocabulary recall is the assessed goal, and
+never reveals the current answer. Avoid duplicate wrappers after scene changes.
+
 Also exercise:
 
 - The core path from start to completion, correct and incorrect answers, repeated

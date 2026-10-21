@@ -37,3 +37,17 @@ For Moon, Sky and Cubes this also included 320px width and resize checks; Moon's
 cover camera was revised to avoid clipping on short landscape screens. These
 cover checks do not extend the earlier sampled lesson checks to the full task
 bank or establish learning effectiveness.
+
+Vocabulary support was added and captured on 2026-10-21. The dedicated
+[vocabulary](vocabulary.png) and [phone vocabulary](vocabulary-narrow.png)
+images show short, on-demand definitions in the actual lesson. Entry captures
+were refreshed where the cover includes an underlined term. Hover, touch,
+keyboard, dismissal, dynamic wording, button-action isolation and unchanged
+assessment evidence were sampled; cube equation labels were checked in the
+browser accessibility tree. The instruction popup position was refined to keep
+the full sentence visible. Definitions inside the question cover remain usable
+while underlying lesson controls are inert.
+
+The dedicated vocabulary captures and the Bee/Cubes cover refresh show the latest
+word-help affordances. Other lesson screenshots retain the preceding visual
+revision and may omit dashed terms; open the current HTML for the live UI.

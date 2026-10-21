@@ -49,6 +49,19 @@ unseen conceptual problems or retained mastery. Selected colours and positions
 are limited evidence, not a free explanation of atmospheric optics. Other-world
 views are exploratory and unscored.
 
+## Contextual vocabulary
+
+Technical terms have dashed underlines in child-visible copy, including controls
+and the opening question where relevant. Hover, tap or keyboard focus opens one
+brief meaning. These are generic language explanations, not task-specific hints;
+opening them does not submit a response or change this experience's evidence.
+Words inside action buttons are isolated from the surrounding action. Form labels
+retain their original accessible names.
+
+[Desktop word help](screenshots/vocabulary.png) ·
+[Phone word help](screenshots/vocabulary-narrow.png) ·
+[Shared vocabulary source](../vocabulary.js)
+
 ## What to inspect and reuse
 
 - [Application](source/app.js): staged introduction, `renderCheck`, `commit`,

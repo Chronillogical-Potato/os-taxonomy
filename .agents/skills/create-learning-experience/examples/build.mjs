@@ -16,6 +16,7 @@ const fontLicense = await fs.readFile(path.join(assets, 'fonts/OFL.txt'), 'utf8'
 const threeLicense = await fs.readFile(path.join(root, 'node_modules/three/LICENSE'), 'utf8');
 const css = (await fs.readFile(path.join(assets, 'marble-ui.css'), 'utf8'))
   .replace('./fonts/Baloo2-variable.ttf', `data:font/ttf;base64,${font.toString('base64')}`);
+const vocabulary = await fs.readFile(path.join(root, 'vocabulary.js'), 'utf8');
 const output = path.join(root, 'dist');
 await fs.mkdir(output, {recursive: true});
 for (const name of requested.length ? requested : names) {
@@ -32,6 +33,7 @@ for (const name of requested.length ? requested : names) {
   const html = (await fs.readFile(path.join(source, 'shell.html'), 'utf8'))
     .replace('__FONT__', () => font.toString('base64'))
     .replace('__CSS__', () => css)
+    .replace('__VOCABULARY__', () => vocabulary.replace(/<\/script/gi, '<\\/script'))
     .replace('__APP__', () => script)
     .replace('</head>', () => `<script type="text/plain" id="asset-licenses">${notices}</script></head>`);
   await fs.writeFile(path.join(output, `${name}.html`), html);

@@ -22,6 +22,41 @@ exception for task text with
 the user before building. Read [visual-design.md](visual-design.md) for the visual
 reference, fonts, control treatment and polish criteria.
 
+## Vocabulary is available where it is used
+
+Inventory the technical vocabulary in all child-visible copy, including the
+cover, changing instructions and feedback, controls, mathematical labels and
+optional extension. Mark each occurrence with a dashed underline. Handle
+plurals/capitalization and meaningful phrases such as “cubic unit” together.
+Use the word itself as the trigger; an extra icon is unnecessary here. For a
+canvas/3D label, provide an equivalent underlined, keyboard-accessible overlay
+rather than baking an unreachable technical word into the artwork.
+
+Hover on desktop, tap on mobile and keyboard focus/activation reveal the same
+short meaning. Keep only one explanation open; let the pointer move into it
+without dismissing it, and provide close, Escape and outside-tap dismissal.
+Position it near the term within the viewport. Close stale explanations when
+the term disappears or its scene is hidden. Do not rely on native title tooltips,
+hover alone or a remote dictionary. Definitions use plain language suited to the
+learner and context, explaining unfamiliar words without a chain of new jargon.
+
+A word in a button or form label still needs help. Avoid nested buttons: term
+activation must not choose a shape, submit a prediction or focus/edit a field.
+The surrounding action remains available, and its keyboard focus should expose
+word help without changing its action. Preserve accessible names, description
+associations, sensible focus order and the cover's isolation from lesson controls.
+
+Looking up incidental language does not change response evidence. Definitions
+must not contain the current answer, numerical result, hint or a model-specific
+claim that gives it away. If knowing the word's meaning is itself the agreed
+independent assessment target, opening its definition is support; record that
+honestly or offer a fresh unassisted task. This is the same distinction between
+language access and answer-revealing help used in the teaching design.
+
+The examples share [vocabulary.js](../examples/vocabulary.js); inspect its scoped
+lexicon and event handling when adapting it. Review the new topic's definitions
+rather than treating that example lexicon as complete for every experience.
+
 ## Spatial experiences use Three.js
 
 For spatial causal reasoning, use a coherent Three.js world. In the daytime-Moon

@@ -67,6 +67,16 @@ The cover is not practice or assessment and cannot change response evidence.
 Restart clears responses, assistance and reveals, and returns to this opening.
 Never use the actual independent task's answer as decorative cover artwork.
 
+## Technical-word affordances
+
+Use the [inline vocabulary treatment](component-styling.md#inline-word-meanings)
+wherever child-visible copy uses technical terms, including the question cover.
+A dashed underline exposes a short contextual meaning on hover, tap or keyboard
+focus/activation. The one-at-a-time temporary explanation is an approved exception
+to the lesson's one-instruction budget; keep the default scene free of persistent
+word-help panels. See [interaction-design.md](interaction-design.md#vocabulary-is-available-where-it-is-used)
+for dismissal, action isolation and assessment boundaries.
+
 ## Public Marble visual primitives
 
 Use [marble-ui.css](../assets/marble-ui.css) as a small scoped starting point,

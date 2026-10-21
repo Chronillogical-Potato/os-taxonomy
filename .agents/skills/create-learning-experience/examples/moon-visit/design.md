@@ -47,6 +47,19 @@ visibility reasoning and a selected causal sequence, not a spontaneous explanati
 retention, phase knowledge or actual sky observation. Binary predictions remain
 guessable; do not import this exact count or all-correct rule as a default.
 
+## Contextual vocabulary
+
+Technical terms have dashed underlines in child-visible copy, including controls
+and the opening question where relevant. Hover, tap or keyboard focus opens one
+brief meaning. These are generic language explanations, not task-specific hints;
+opening them does not submit a response or change this experience's evidence.
+Words inside action buttons are isolated from the surrounding action. Form labels
+retain their original accessible names.
+
+[Desktop word help](screenshots/vocabulary.png) ·
+[Phone word help](screenshots/vocabulary-narrow.png) ·
+[Shared vocabulary source](../vocabulary.js)
+
 ## What to inspect and reuse
 
 - [Application](source/app.js): `toSky`, `predict`, `tapObject`, UI state and

@@ -1,3 +1,4 @@
+import '../../vocabulary.js';
 import {createOpening} from '../../opening.mjs';
 import {shapeKey,practiceShapes,chooseTask,scorePlan,advances} from './tasks.js';
 import * as THREE from 'three';
