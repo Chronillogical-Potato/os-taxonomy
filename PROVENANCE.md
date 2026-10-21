@@ -70,10 +70,12 @@ when reusing source material; do not treat the research layer as a redistributio
 of the full frameworks. The existing NGSS trademark notice above also applies
 to NGSS references in teaching research.
 
-Original source verification flags and confidence values were preserved. Sources
-were not re-fetched for this publication, and a curriculum citation is evidence
-of alignment rather than an evaluated teaching intervention. Read the file-level
-notes and individual learning-guidance review notes before using an activity.
+Original source verification flags and confidence values were preserved in the
+initial publication, without re-fetching sources. Later nutrition corrections
+record specific healthy-eating-guide checks in the affected research records.
+A curriculum citation is evidence of alignment rather than an evaluated teaching
+intervention. Read the file-level notes and individual learning-guidance review
+notes before using an activity.
 
 ## Changing what ships
 

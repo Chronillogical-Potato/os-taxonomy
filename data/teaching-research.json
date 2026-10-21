@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-19T16:08:02.198Z",
-  "topicFileSha256": "26fdf19eb3eb4a1ba36ee083677940dac0ff08b6ee7d733fc1259f5f1df2c1c9",
+  "exportedAt": "2026-10-21T21:30:26.046Z",
+  "topicFileSha256": "e5b037a5309ed12bbecd4ead88655231ff55a6fe49d98383e00f79bcfeb07bab",
   "recordCount": 1049,
   "coverage": {
-    "topicCount": 1900,
+    "topicCount": 1930,
     "withResearch": 1049,
-    "withoutResearch": 851,
+    "withoutResearch": 881,
     "bySubject": {
       "Computing": {
         "topics": 59,
@@ -20,9 +20,9 @@
         "withoutResearch": 368
       },
       "Geography": {
-        "topics": 21,
+        "topics": 25,
         "withResearch": 0,
-        "withoutResearch": 21
+        "withoutResearch": 25
       },
       "History": {
         "topics": 112,
@@ -35,9 +35,9 @@
         "withoutResearch": 18
       },
       "Life Skills": {
-        "topics": 38,
+        "topics": 42,
         "withResearch": 0,
-        "withoutResearch": 38
+        "withoutResearch": 42
       },
       "Mathematics": {
         "topics": 587,
@@ -50,14 +50,15 @@
         "withoutResearch": 124
       },
       "Science": {
-        "topics": 573,
+        "topics": 595,
         "withResearch": 547,
-        "withoutResearch": 26
+        "withoutResearch": 48
       }
     },
     "missingTopicIds": [
       "mt_-1okUh0Jdv",
       "mt_-DuXzMVVXQ",
+      "mt_-Sk53QkyS0",
       "mt_-WhvVTsKV-",
       "mt_-beOa1AO6W",
       "mt_-mw3JeIjhU",
@@ -66,6 +67,7 @@
       "mt_02DH7sGXCi",
       "mt_085iC6v-Oa",
       "mt_0FYFiLTqx4",
+      "mt_0MI9ybM3j_",
       "mt_0MfpLj0Uhb",
       "mt_0O4mXv3asF",
       "mt_0QJoKWABdC",
@@ -108,6 +110,7 @@
       "mt_37QCuGOxFe",
       "mt_39Yyr1KG7F",
       "mt_3itytx4K1v",
+      "mt_3l9OJkjksw",
       "mt_3m0pA-aeat",
       "mt_3tQXH9GwIa",
       "mt_4-vfMgmCVB",
@@ -118,6 +121,7 @@
       "mt_4IxR66uGLc",
       "mt_4PA9IrxtCQ",
       "mt_4bc3EAxhlY",
+      "mt_4fK8Bb8Tr_",
       "mt_4zgPzc6yu5",
       "mt_5CcwPYEafI",
       "mt_5FREdVoS8s",
@@ -198,6 +202,7 @@
       "mt_AfIzLRvMgW",
       "mt_Ag9NSWJu-X",
       "mt_AhfyJoTQtY",
+      "mt_AigeWFgWIo",
       "mt_Am6mmH2X0s",
       "mt_Amojd_oviu",
       "mt_Amw5ikSSQI",
@@ -209,11 +214,13 @@
       "mt_BGMS9We5w9",
       "mt_BK5xwkrD5C",
       "mt_BLzNxSSdWu",
+      "mt_BYl4sds1SM",
       "mt_BhYJZUsErp",
       "mt_Bt-iORUzdO",
       "mt_BtMbZibZUj",
       "mt_C3eNLQJlgt",
       "mt_C7abt7pRr6",
+      "mt_CBXBu5e4Iv",
       "mt_CSGqz245rV",
       "mt_CUJr8L5_Wn",
       "mt_Cc-QHVo747",
@@ -226,6 +233,8 @@
       "mt_DcSMuVWgKU",
       "mt_Dg5lQZFpav",
       "mt_DkzsZdyaL2",
+      "mt_DnvWzDjoD8",
+      "mt_DxSbKzl-C-",
       "mt_E-E8z9ZZOz",
       "mt_E2iv1E6klO",
       "mt_E5KC4AnRLW",
@@ -234,6 +243,7 @@
       "mt_E7avIa-tcE",
       "mt_E8IfrMksV0",
       "mt_EHiM4_qg1R",
+      "mt_EWiY8-opdd",
       "mt_E_OryWIYkn",
       "mt_EbiGRVK8uR",
       "mt_EedcpioR0v",
@@ -241,6 +251,7 @@
       "mt_EfF81YvgXV",
       "mt_EqXlZfB4jp",
       "mt_Eqk6oSbySH",
+      "mt_F62VTeHB4-",
       "mt_F978c32kDr",
       "mt_FDKd7I79JZ",
       "mt_FGCFUCqJBB",
@@ -251,6 +262,7 @@
       "mt_FW9_8F52bw",
       "mt_FYK8m6eHQm",
       "mt_F_zEAJ8VIo",
+      "mt_FtCLISvSGw",
       "mt_FwI7q7DSIx",
       "mt_G7jhJrOD2P",
       "mt_GKL5Usnd11",
@@ -307,6 +319,7 @@
       "mt_JumBNYAiA_",
       "mt_Juxx4n-8mu",
       "mt_Jz9UuT8BXW",
+      "mt_K1jLX9FXdl",
       "mt_K5Zqgu7rzp",
       "mt_K6qtan847r",
       "mt_K8_RYIvrTV",
@@ -357,6 +370,7 @@
       "mt_NS5t-Jzlh8",
       "mt_NSC3LT_-ch",
       "mt_NTAc_EMeHZ",
+      "mt_NbkUKcOlEX",
       "mt_Nj32xtOhno",
       "mt_NmvuwVUFRS",
       "mt_NnlnxCx1DO",
@@ -379,6 +393,7 @@
       "mt_OyOYHlZ2_T",
       "mt_OzdI2-ZoXX",
       "mt_P0HBNfp46z",
+      "mt_P2nm-qVnvd",
       "mt_PCX1jZZnf9",
       "mt_PJZf6WGfzl",
       "mt_PJyCGJz5Hv",
@@ -391,6 +406,7 @@
       "mt_PsQdUQBw0D",
       "mt_PvU3eoikev",
       "mt_Q2Eud_PPz6",
+      "mt_Q2Zj3L8u9C",
       "mt_Q57cnsiKsB",
       "mt_QB4qIGJIIj",
       "mt_QCWWmDMYZR",
@@ -420,6 +436,7 @@
       "mt_RTwmvr9R7V",
       "mt_RdIBKLbgyp",
       "mt_RdfzwInyAj",
+      "mt_Re97rQJx_e",
       "mt_RgQxPddV8v",
       "mt_RhlY8jeu7Q",
       "mt_RhntJz7p_6",
@@ -452,6 +469,7 @@
       "mt_TfOiog-ALs",
       "mt_TffvIu6VgG",
       "mt_TiFjjvBMaY",
+      "mt_TrISKhznZt",
       "mt_UEe3MC5RZc",
       "mt_UGf6jICEhs",
       "mt_UHQfb-n-w3",
@@ -465,7 +483,9 @@
       "mt_V6456X6pJE",
       "mt_VA126P6Wp5",
       "mt_VEwM7ClYYE",
+      "mt_VIUF5Vspbg",
       "mt_VJEQ32O0Ae",
+      "mt_VLBf624ElK",
       "mt_VLu59hpQ4T",
       "mt_VMS3kDQ8sA",
       "mt_VP9yZJ1xeP",
@@ -552,6 +572,7 @@
       "mt_aClzPBiS9k",
       "mt_aCwj2PCoRV",
       "mt_aFvsj35QzC",
+      "mt_aGuP78tRMo",
       "mt_aS-Gdh-MHx",
       "mt_aVZJhPbc_1",
       "mt_aWOK1npO5s",
@@ -588,6 +609,7 @@
       "mt_cIxLOPS1Hc",
       "mt_cJ8CeyRKKs",
       "mt_cJjnPjuvCU",
+      "mt_cOJhDeLkPo",
       "mt_cOknxrYhwL",
       "mt_cSz7XTxVAx",
       "mt_cU3LcEVkBQ",
@@ -611,6 +633,7 @@
       "mt_e0I0OSxNFc",
       "mt_e1Yr6rhRNW",
       "mt_e7tLi9SCIE",
+      "mt_eFj9uWaPMI",
       "mt_eNJ99tRb3p",
       "mt_ebQURBOsM5",
       "mt_ejht12jhm2",
@@ -625,6 +648,7 @@
       "mt_fL1Xz8ostr",
       "mt_fMd7v87IiI",
       "mt_fQ9Rw10fss",
+      "mt_fQHBicp1Rf",
       "mt_fT4G0QloX5",
       "mt_fXE9t2ETGx",
       "mt_f_dMmvzxwo",
@@ -645,6 +669,7 @@
       "mt_h02-C8PRrj",
       "mt_h3vmvQW5Wa",
       "mt_h7zVgCDVmx",
+      "mt_hE05udHee7",
       "mt_hHcaPPtPzS",
       "mt_hJW7hVflm3",
       "mt_h_XQsdIavD",
@@ -653,6 +678,7 @@
       "mt_hbe_kdE_7C",
       "mt_hjtbA3g-Nn",
       "mt_hkIbGmuH7D",
+      "mt_hoc__Jx3sa",
       "mt_hp2qJ-QRBn",
       "mt_hvmqr1qcTU",
       "mt_hzkNpp2PdV",
@@ -682,6 +708,7 @@
       "mt_jvJ35MmCvK",
       "mt_k-V37x3zsF",
       "mt_k0-aLFge4X",
+      "mt_k6_dUr_oH6",
       "mt_k7VtbWdfDO",
       "mt_kH1DzOPsXG",
       "mt_kJ4xXKL_nO",
@@ -776,6 +803,7 @@
       "mt_q2jwCeUZ9s",
       "mt_q3vRl4dddK",
       "mt_q7zxOloj_L",
+      "mt_qKHfQjgNMk",
       "mt_qOv8OP8z2G",
       "mt_qUKddG0UYv",
       "mt_qUjW0N1cYO",
@@ -787,6 +815,7 @@
       "mt_r5rwyP8zRU",
       "mt_rKwE6w2V6G",
       "mt_rQ2YJJi4uh",
+      "mt_rSjwQLqLXH",
       "mt_r_ja_V9Q70",
       "mt_rf23aL6KwH",
       "mt_rkrG2w7WXI",
@@ -883,6 +912,7 @@
       "mt_x_Lg4RASVU",
       "mt_xjl6AEhnjk",
       "mt_xsk3iuNVVI",
+      "mt_xvHpeB03k5",
       "mt_xvKvxDXdJj",
       "mt_y8-x0P5P9R",
       "mt_y8sicbhMci",
@@ -67308,54 +67338,56 @@
     {
       "topicId": "mt_E1wR8IfCV6",
       "pedagogy": {
-        "summary": "- **Age:** 7–8 years\n\n- **Topic:** Animal Nutrition\n\n- **Standards — UK (DfE Y3 'Animals, including humans'):** \"identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat\".\n\n- **Standards — US (no direct NGSS PE):** No US elementary PE names food groups; the closest idea, that animals get materials and energy from food, sits within 5-PS3-1 / LS1.C ('[curriculum wording omitted; reference 5-PS3-1]... and the energy'). Treat as UK-led.\n\n- **Operational details:** The organising contrast is heterotroph vs autotroph in child terms: plants MAKE their own food (using light); animals CANNOT and must EAT it. From there children learn that food provides different things the body needs — the main food groups (carbohydrates, proteins, fats, vitamins, minerals, fibre, water) — and that the body needs the RIGHT TYPES and the RIGHT AMOUNTS (not just 'more is better'). Consequences of imbalance make it concrete (too little calcium → weak bones; too little of a vitamin → illness). Keep it at the level of grouping foods and matching each group to what it does; detailed nutrient chemistry is KS3.\n\n- **Checkpoint:** Tier A (concrete/observational). A Y3 child can name the food groups, sort foods into them, and state that animals must eat while plants make their own food; the conceptual stretch is 'right types AND amounts' — that a balanced variety, not a single favourite food, keeps the body healthy.",
+        "summary": "- **Age:** 7–8 years\n\n- **Topic:** Animal Nutrition\n\n- **Standards — UK (DfE Y3 'Animals, including humans'):** \"identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat\".\n\n- **Standards — US (no direct NGSS PE):** No US elementary PE names food groups; the closest idea, that animals get materials and energy from food, sits within 5-PS3-1 / LS1.C ('[curriculum wording omitted; reference 5-PS3-1]... and the energy'). Treat as UK-led.\n\n- **Operational details:** The organising contrast is heterotroph vs autotroph in child terms: plants MAKE their own food (using light); animals CANNOT and must EAT it. From there children learn two separate things: foods are sorted into the FOOD GROUPS of a local healthy-eating guide (in the UK, the Eatwell Guide's five groups: fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads), and foods supply NUTRIENTS the body needs (carbohydrates, proteins, fats, vitamins, minerals and fibre, plus water), most foods supplying several. The body needs the RIGHT TYPES and the RIGHT AMOUNTS (not just 'more is better') — a variety of foods from each food group in roughly the guide's proportions, balanced over a day or week. Consequences of imbalance make it concrete (too little calcium → weak bones; too little of a vitamin → illness). Keep it at the level of sorting foods into the guide's food groups and naming the main nutrients and their jobs; never call nutrients 'food groups'. Detailed nutrient chemistry is KS3.\n\n- **Checkpoint:** Tier A (concrete/observational). A Y3 child can sort foods into the Eatwell Guide's food groups, name the main nutrients and what they do, and state that animals must eat while plants make their own food; the conceptual stretch is 'right types AND amounts' — that a balanced variety, not a single favourite food, keeps the body healthy.",
         "bestPractices": [
           "Lead with the plant-vs-animal contrast (plants make their own food from light; animals cannot and must eat) because it is the load-bearing idea that distinguishes animal nutrition and sets up food chains.",
-          "Teach food groups by FUNCTION not just name (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre to keep the gut working, water for everything) so grouping is meaningful.",
+          "Teach nutrients by FUNCTION not just name (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre to keep the gut working, water for everything), separately from food groups, so children learn that food groups are groups of foods on a healthy-eating guide while nutrients are what those foods supply.",
           "Make 'right types AND amounts' concrete with consequences (too little calcium → weak bones; too little vitamin C → illness; too much sugar → unhealthy) rather than an abstract 'balance'.",
-          "Use real or pictured foods children eat and have them sort and build meals, connecting to their own diet.",
-          "Distinguish 'food' from 'nutrients': a single food (e.g. an egg) contains several nutrients — avoid one-food-one-group oversimplification where possible.",
+          "Use real or pictured foods children eat: sort them into the Eatwell Guide's food groups and build meals in roughly the guide's proportions (fruit and vegetables and starchy foods the biggest parts, oils and spreads small), balanced over a day, connecting to their own diet.",
+          "Distinguish food groups from nutrients: a single food (e.g. an egg or a glass of milk) sits in one food group but supplies several nutrients, and mixed dishes such as pizza combine several food groups — avoid matching each food to one nutrient.",
           "Link forward to digestion (how the body gets the nutrients out of food) and to food chains (why animals must eat other organisms)."
         ],
         "keyRepresentations": [
-          "A 'balanced plate' / Eatwell-style divided plate showing proportions of each food group",
-          "Food-group sorting cards (foods → carbohydrate/protein/fat/vitamins&minerals/fibre/water)",
+          "An Eatwell Guide plate showing the proportions of the five food groups (fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads), with foods high in fat, salt and sugar outside the main groups",
+          "Food-group sorting cards (foods → the five Eatwell food groups), with a 'mixed foods' pile for dishes such as pizza or sandwiches",
           "A plant-vs-animal contrast panel: plant with sun → 'makes its own food'; animal with mouth → 'must eat food'",
-          "A function strip pairing each food group with what it does for the body",
+          "A nutrient function strip pairing each nutrient (carbohydrates, proteins, fats, vitamins, minerals, fibre, plus water) with what it does for the body",
           "Consequence cards linking a missing nutrient to a health effect (calcium→bones, vitamin C→scurvy)"
         ],
         "commonMisconceptions": [
           "Thinking animals (or humans) can make their own food or 'get energy from the sun' like plants — the core misconception this topic must correct.",
           "Believing 'more food is always better' or that one favourite food can be a whole diet, missing 'right amounts' and variety.",
-          "Assuming each food belongs to exactly one group, rather than most foods containing several nutrients.",
+          "Assuming each food supplies just one nutrient, rather than most foods supplying several (e.g. milk supplies protein, fat and calcium).",
+          "Calling nutrients (carbohydrates, proteins, fats, vitamins) 'food groups' — food groups are groups of foods on a healthy-eating guide such as the Eatwell Guide, and each food supplies several nutrients.",
           "Confusing 'healthy = expensive/special food' rather than balance across ordinary foods.",
           "Thinking only 'unhealthy' people need to worry about nutrition, rather than everyone needing the right types and amounts."
         ]
       },
       "learn": {
-        "summary": "Animal nutrition for 7–8 year-olds (UK DfE Y3 'Animals, including humans'). The load-bearing idea is that plants MAKE their own food using light while animals CANNOT and must EAT to get energy and nutrients. From there children group foods, match each group to what it does for the body (energy, growth/repair, warmth, health, gut function, hydration), and grasp that the body needs the RIGHT TYPES and RIGHT AMOUNTS — a balanced variety, not a single favourite or simply 'more'. Consequences of imbalance (weak bones without calcium, illness without vitamin C) make this concrete. The core proposed activity is a build-a-balanced-plate task with a responsive balance meter, complemented by a real classroom food-sort and a plant-vs-animal contrast that also links to food chains; alternatives (reveal poster, sorting consolidation, nutritionist dialogue) are kept for their distinct purposes.",
+        "summary": "Animal nutrition for 7–8 year-olds (UK DfE Y3 'Animals, including humans'). The load-bearing idea is that plants MAKE their own food using light while animals CANNOT and must EAT to get energy and nutrients. From there children sort foods into the food groups of a local healthy-eating guide (in the UK, the Eatwell Guide's five groups), learn separately which nutrients foods supply and what each does for the body (energy, growth/repair, warmth, health, gut function; water for hydration), recognising that most foods supply several nutrients, and grasp that the body needs the RIGHT TYPES and RIGHT AMOUNTS — a variety of foods from each food group in roughly the guide's proportions over a day or week, not a single favourite or simply 'more'. Consequences of imbalance (weak bones without calcium, illness without vitamin C) make this concrete. The core proposed activity is a build-a-balanced-plate task with a responsive balance meter, complemented by a real classroom food-sort and a plant-vs-animal contrast that also links to food chains; alternatives (reveal poster, sorting consolidation, nutritionist dialogue) are kept for their distinct purposes.",
         "activities": [
           {
             "title": "Build a balanced plate with a live balance meter",
             "feedback": [
-              "If the plate is piled with only sweets or cakes: 'Lots of energy from sugar, but very little for growth or health — your body needs other groups too.' If it is piled with only one non-sugary food, name what that food gives and which groups are still missing.",
+              "If the plate is piled with only sweets or cakes: 'Lots of energy from sugar, but very little for growth or health — these foods sit outside the main food groups; your body needs foods from the main groups too.' If it is piled with only one non-sugary food, name which food group it comes from, what nutrients it gives and which food groups are still missing.",
               "If variety and proportions are good: meter settles green and the cartoon body perks up — 'Right types and right amounts.'",
-              "When a deficiency pop-up appears (e.g. too little calcium over time → weak bones), explain that calcium is a mineral (in the vitamins & minerals group) found in foods such as milk, cheese and yoghurt, and let the child add one of those foods.",
+              "When a deficiency pop-up appears (e.g. too little calcium over time → weak bones), explain that calcium is a mineral (a nutrient) found in foods from the dairy and alternatives group such as milk, cheese and yoghurt, and let the child add one of those foods.",
               "If two equal-sized plates score differently, draw attention to WHY: 'Same amount of food, but one has a healthy variety.'"
             ],
-            "rationale": "The objective is grouping foods and balancing amounts, which is a sortable, buildable task. A live balance meter is intended to make 'right types AND amounts' something the child notices through the recompute rather than a stated rule. The parallel real-food sort connects to the child's own diet as recommended in best practice.",
+            "rationale": "The objective is sorting foods into the guide's food groups and balancing amounts, which is a sortable, buildable task. A live balance meter is intended to make 'right types AND amounts' something the child notices through the recompute rather than a stated rule. The parallel real-food sort connects to the child's own diet as recommended in best practice.",
             "sourceClaims": [
               "DfE Y3 statutory requirement: 'identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat'.",
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients."
             ],
             "learnerActions": [
-              "Drag on-screen food cards onto a plate while a health/balance meter responds to what you add (in the classroom, do a parallel hands-on sort using real packets and pictures of your own meals).",
+              "Drag on-screen food cards onto an Eatwell-style plate divided into the five food groups while a health/balance meter responds to what you add (in the classroom, do a parallel hands-on sort using real packets and pictures of your own meals).",
               "Pile the plate with only cakes and sweets and read the meter: it swings to 'too much sugar — not enough for growth', with a cartoon body looking sluggish.",
-              "Now swap in some protein, vegetables, a carbohydrate and water; watch the meter settle into the green as the body perks up.",
+              "Now swap in foods from the main food groups — fruit and vegetables, a starchy food such as bread or rice, a protein food such as beans, eggs or fish, and a dairy food such as yoghurt — with water to drink; watch the meter settle into the green as the body perks up.",
               "Compare two plates with the SAME total amount of food but different variety, and say which scores healthier and why.",
               "When a nutrient is missing, read the consequence pop-up (e.g. too little calcium over a long time → weak bones; too little vitamin C over a long time → illness) and add a food that fixes it."
             ],
-            "intendedInsight": "It is the right TYPES and AMOUNTS together — a balanced variety — that keep the body healthy, not quantity alone; the same total food scores differently depending on its variety."
+            "intendedInsight": "It is the right TYPES and AMOUNTS together — a variety of foods from each food group in roughly the guide's proportions — that keep the body healthy, not quantity alone; the same total food scores differently depending on its variety."
           },
           {
             "title": "Plant makes food vs animal must eat",
@@ -67380,41 +67412,44 @@
             "intendedInsight": "Animals cannot make their own food and must eat (plants or other animals) to get energy and nutrients; plants make their own food using light, and in food chains like these the energy animals eat traces back to plants."
           },
           {
-            "title": "Reveal-the-job food-group poster (scaffold)",
+            "title": "Reveal-the-job nutrients and food-groups poster (scaffold)",
             "feedback": [
-              "When a section is revealed, restate the function in child terms and ask for one more food in that group.",
+              "When a nutrient flap is revealed, restate its job in child terms and ask for a food that supplies it, then ask which food group that food belongs to.",
               "On the myth-buster flap: reinforce that animals must eat; plants make their own food using light, but animals cannot.",
-              "If a child assigns a food to exactly one group, note that many foods (e.g. an egg) contain several nutrients."
+              "If a child matches a food to just one nutrient, note that many foods (e.g. an egg) supply several nutrients; if a child calls a nutrient a 'food group', point back to the Eatwell plate."
             ],
-            "rationale": "A reveal poster names groups and their functions and includes the plant-vs-animal myth-buster. It is a naming/revealing scaffold: it does not itself let the child actively balance amounts or experience the consequence of imbalance, so it supports but does not replace the build-a-plate task.",
+            "rationale": "A reveal poster names nutrients and their jobs, shows the Eatwell food groups as a separate panel, and includes the plant-vs-animal myth-buster. It is a naming/revealing scaffold: it does not itself let the child actively balance amounts or experience the consequence of imbalance, so it supports but does not replace the build-a-plate task.",
             "sourceClaims": [
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients.",
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week."
             ],
             "learnerActions": [
-              "Tap or lift each section of a balanced-plate / food-group poster to reveal the group name and its job (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre for the gut, water for everything).",
+              "Tap or lift each flap of a nutrients poster to reveal the nutrient and its job (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre for the gut, water for everything).",
+              "Tap each section of an Eatwell plate panel to reveal the food group's name and two example foods.",
               "Open a myth-buster flap: 'Can animals make their own food like plants?' and read the answer.",
-              "Name a food you ate recently and say which group(s) it belongs to."
+              "Name a food you ate recently, say which food group it belongs to and which nutrients it supplies."
             ],
-            "intendedInsight": "Each food group has a job in the body, and grouping foods is meaningful when tied to function."
+            "intendedInsight": "Each nutrient has a job in the body; food groups sort foods on a healthy-eating guide, and each food supplies several nutrients."
           },
           {
             "title": "Sort-and-match consolidation",
             "feedback": [
-              "For a mis-sort, point back to the food's main nutrient and the group's job.",
+              "For a mis-sort, point back to what kind of food it is and where the Eatwell Guide places it (e.g. beans go with proteins, cheese with dairy and alternatives, potatoes with starchy foods).",
               "For 'why can't a cat make its own food?': reinforce that animals must eat; plants make food using light, but animals cannot.",
               "If the child accepts 'humans make food from sunlight', re-run the plant-vs-animal contrast."
             ],
             "rationale": "Sorting, matching and single-answer questions check the objectives and rehearse the reasoning. On their own they do not build the quantitative balancing intuition, so they follow the active build task rather than replace it.",
             "sourceClaims": [
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients."
             ],
             "learnerActions": [
-              "Sort a set of food cards into groups by their main nutrient (carbohydrate / protein / fat / vitamins & minerals / fibre / water), noting foods such as eggs that could go in more than one group.",
-              "Match each group to its function.",
+              "Sort a set of food cards into the Eatwell Guide's five food groups, using a 'mixed foods' pile for dishes such as pizza that combine several groups.",
+              "Match each nutrient (carbohydrates, proteins, fats, vitamins, minerals, fibre, plus water) to its function, and name a food that supplies several of them (e.g. milk or an egg).",
               "Answer 'why can't a cat make its own food?' and explain in a sentence.",
               "Spot and reject a wrong claim such as 'humans make food from sunlight'."
             ],
-            "intendedInsight": "Consolidate naming food groups, linking them to function, and the reason animals cannot make their own food."
+            "intendedInsight": "Consolidate sorting foods into food groups, linking nutrients to their functions, and the reason animals cannot make their own food."
           },
           {
             "title": "Ask-a-nutritionist curiosity dialogue",
@@ -67434,21 +67469,23 @@
           }
         ],
         "constraints": [
-          "Keep at the level of grouping foods and matching each group to its job; detailed nutrient chemistry is KS3 and out of scope.",
+          "Keep at the level of sorting foods into a local guide's food groups and naming the main nutrients and their jobs; detailed nutrient chemistry is KS3 and out of scope.",
           "The reveal poster is a naming/revealing scaffold: it does not let a child actively balance amounts or experience the consequence of imbalance, so pair it with the active build task.",
           "Sort/match/single-answer questions consolidate and check recall and reasoning but do not by themselves build the quantitative balancing intuition.",
-          "Avoid one-food-one-group oversimplification: note that most foods (e.g. an egg) contain several nutrients.",
+          "Keep food groups and nutrients distinct: food groups are groups of foods on a healthy-eating guide; nutrients are what foods supply, and most foods (e.g. an egg) supply several.",
+          "Plate proportions follow the food groups of a local guide (Eatwell: fruit and vegetables and starchy foods the largest parts, oils and spreads small), balanced over a day or week — never equal shares of nutrients.",
           "Keep 'right types AND amounts' concrete via consequences (calcium→bones, vitamin C→illness, too much sugar→unhealthy) rather than an abstract 'balance'.",
-          "Use real or pictured foods the children actually eat so grouping connects to their own diet; keep the physical sort distinct from the on-screen responsive meter.",
+          "Use real or pictured foods the children actually eat so sorting connects to their own diet; keep the physical sort distinct from the on-screen responsive meter.",
           "A balance meter is an illustrative teaching device, not a clinical nutrition assessment; thresholds are simplified for learning."
         ],
         "reviewNotes": [
           "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were NOT re-fetched. Activities are research-informed proposals, not validated interventions.",
-          "The British Nutrition Foundation / Eatwell claim is marked verified:false in the source row; treat food-group role statements as standard KS2 guidance pending check.",
+          "The British Nutrition Foundation claim is marked verified:false and now states only nutrient roles; food-group statements cite the NHS Eatwell Guide, which was fetched and checked during the October 2026 nutrition review.",
           "Self-audit: 'plants get no nutrition' is a listed misconception — guidance clarifies plants DO get nutrition by making their own food, so no learner-facing action asserts plants are nutrition-free.",
           "Self-audit: the balance-meter thresholds and 'green/sluggish' outcomes are pedagogical simplifications, not measured nutritional facts; framed as a teaching device in constraints.",
           "The source assessment's probeDeeper food-chain and energy-origin questions have been incorporated into the plant-vs-animal activity to preserve the forward link to food chains.",
-          "The original 3D 'poor-fit' entry asserted a 3D scene 'adds cost without insight'; this reflects an internal catalog ranking rather than an established pedagogical law and was dropped rather than propagated as a universal claim."
+          "The original 3D 'poor-fit' entry asserted a 3D scene 'adds cost without insight'; this reflects an internal catalog ranking rather than an established pedagogical law and was dropped rather than propagated as a universal claim.",
+          "Nutrition review (October 2026): corrected the teaching text, sorting cards, activities, constraints and assessment so that carbohydrates, proteins, fats, vitamins, minerals and fibre are taught as nutrients, not 'food groups'. Foods are classified with the Eatwell Guide's five food groups, nutrients and their functions are taught separately (most foods supply several), and plate proportions follow the guide's food groups over a day or week. Learning aims, the plant-vs-animal activity and the dialogue are unchanged."
         ],
         "schemaVersion": 2
       },
@@ -67482,9 +67519,9 @@
           {
             "kind": "misconception",
             "pattern": "all foods are the same, or one food provides everything",
-            "nextMove": "introduce the main food groups and that the body needs a range of them",
+            "nextMove": "introduce the main food groups and that eating a variety of foods from each provides the range of nutrients the body needs",
             "distractor": null,
-            "revealedBy": "on the probe cannot name different food groups or their roles",
+            "revealedBy": "on the probe cannot name different food groups or what the nutrients in them do",
             "reteachPrerequisiteId": null
           },
           {
@@ -67498,7 +67535,7 @@
         ],
         "responseLevels": {
           "gap": "Says animals can make their own food, or that food gives no energy; cannot name food groups.",
-          "full": "Explains that animals cannot make their own food and must eat to get energy and nutrients (unlike plants), names the main food groups, and describes consequences of too much or too little of one.",
+          "full": "Explains that animals cannot make their own food and must eat to get energy and nutrients (unlike plants), names the main food groups and the main nutrients they supply, and describes consequences of too much or too little of a nutrient.",
           "partial": "Names food groups and knows animals eat, but as separate facts — cannot clearly contrast animals (must eat) with plants (make their own food), or link food to energy and the effect of imbalance."
         },
         "diagnosticPrompt": "A plant can sit in the sunshine and make its own food. Can a dog do the same — just sit in the sun and make its own food? Explain why or why not, and where a dog's energy actually comes from.",
@@ -67512,10 +67549,16 @@
           "verified": true
         },
         {
-          "claim": "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each.",
-          "source": "British Nutrition Foundation / Eatwell Guide (KS2 guidance)",
+          "claim": "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients.",
+          "source": "British Nutrition Foundation (KS2 nutrient guidance)",
           "url": "https://www.nutrition.org.uk/putting-it-into-practice/balancing-the-diet/",
           "verified": false
+        },
+        {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
         },
         {
           "claim": "NGSS frames the idea that food provides animals with the materials and energy they need within 5-PS3-1 / LS1.C, rather than a food-groups PE.",
@@ -67528,7 +67571,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T18:09:38.236Z",
-        "updatedAt": "2026-10-19T15:20:21.949Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": [
@@ -152031,25 +152074,26 @@
     {
       "topicId": "mt_QhLAeAlHI0",
       "pedagogy": {
-        "summary": "Two distinct ideas sit inside this topic and should be taught in order: (1) foods can be grouped by the NUTRIENT they mainly provide and each nutrient has a job — carbohydrates for energy, proteins for growth and repair, fats for energy/warmth and storage, and vitamins, minerals, fibre and water for keeping the body working and protected; and (2) a BALANCED diet means the right AMOUNTS from each group, not just having them all. Children readily learn the nutrient-jobs but the balance/proportion idea is the harder, more important one — it is why 'eat lots of everything' or 'fat is bad' are wrong. Bridge the science framing (nutrient groups) with the everyday UK Eatwell model (food-on-the-plate proportions: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Teach with real/pictured foods the child eats, classify them, then BUILD a balanced plate so proportion is something they construct, not a rule they recite. Note many foods (pizza, sandwich) are mixtures — a subtlety worth surfacing.",
+        "summary": "Two distinct ideas sit inside this topic and should be taught in order: (1) foods are sorted into the FOOD GROUPS of an appropriate local healthy-eating guide — in the UK the Eatwell Guide (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads), in Australia the Australian Guide to Healthy Eating (vegetables and legumes/beans; fruit; grain (cereal) foods; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives) — while NUTRIENTS are what foods supply, taught separately, each with a job: carbohydrates for energy, proteins for growth and repair, fats for energy/warmth and storage, and vitamins, minerals and fibre (with water) for keeping the body working and protected; most foods supply several nutrients; and (2) a BALANCED diet means a variety of foods from each food group in the right AMOUNTS shown by the guide, not just having them all. Children readily learn the nutrient jobs but the balance/proportion idea is the harder, more important one — it is why 'eat lots of everything' or 'fat is bad' are wrong. Never call nutrients 'food groups', and never imagine a balanced plate as equal shares of seven nutrients: proportions belong to food groups (Eatwell: fruit/veg and starchy foods biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Teach with real/pictured foods the child eats, classify them with the guide, then BUILD a balanced plate so proportion is something they construct, not a rule they recite. Note that mixed dishes (pizza, sandwich) combine several food groups — a subtlety worth surfacing.",
         "bestPractices": [
-          "Teach nutrient→job first with familiar example foods (bread=energy, chicken=growth, etc.), then move to the harder idea of BALANCE — right amounts from each group.",
-          "Use the Eatwell 'build a plate' proportion model so balance is constructed and seen, not memorised: fruit/veg and starchy foods largest, protein and dairy smaller, oils/spreads small, treats outside and occasional.",
-          "Classify real or pictured everyday foods into groups, and explicitly handle MIXED foods (a sandwich, pizza) so children see foods aren't always one group.",
+          "Teach nutrients and their jobs with familiar foods (bread supplies carbohydrate for energy; chicken supplies protein for growth and repair), noting that each food supplies several nutrients; separately, classify foods into the food groups of a local guide; then move to the harder idea of BALANCE — the right amounts from each food group.",
+          "Use a local healthy-eating guide's plate (e.g. the UK Eatwell Guide or the Australian Guide to Healthy Eating) as a 'build a plate' proportion model so balance is constructed and seen, not memorised; with Eatwell, fruit/veg and starchy foods are largest, protein and dairy smaller, oils/spreads small, treats outside and occasional.",
+          "Classify real or pictured everyday foods into the guide's food groups, and explicitly handle MIXED dishes (a sandwich, pizza) so children see a dish can combine several food groups.",
           "Correct 'good food / bad food' thinking: no single food is banned; it's the overall balance and amount over a day or week that matters (per NHS guidance).",
           "Avoid over-precision — no calorie counting; keep to groups, jobs and rough proportions appropriate to age, and connect diet to energy for activity and materials for growth."
         ],
         "keyRepresentations": [
-          "Nutrient→job table with example foods (carbs=energy, protein=growth/repair, fats=energy/warmth, vitamins/minerals=protection, fibre=digestion, water=hydration)",
-          "Eatwell-style plate showing the five food-on-the-plate groups by proportion",
+          "Nutrient→job table with example foods (carbs=energy, protein=growth/repair, fats=energy/warmth, vitamins/minerals=protection, fibre=digestion, water=hydration), noting that each food supplies several nutrients",
+          "A local healthy-eating guide plate (e.g. the Eatwell Guide or the Australian Guide to Healthy Eating) showing its five food groups by proportion",
           "A 'build a balanced plate' sorting surface where portions fill each segment",
-          "Sorting bins for classifying everyday foods (and a 'mixed foods' bin for pizza/sandwiches)",
+          "Food-group sorting bins for classifying everyday foods with the guide (and a 'mixed foods' bin for pizza/sandwiches)",
           "Over-a-day/week framing rather than every-meal-perfect"
         ],
         "commonMisconceptions": [
+          "Calling nutrients (carbohydrates, proteins, fats, vitamins) 'food groups', or imagining a balanced plate as equal shares of seven nutrients — food groups are groups of foods in a healthy-eating guide, and proportions follow those groups.",
           "'Fat (or carbs, or sugar) is bad and should be avoided' — missing that fats/carbs are needed for energy; it's balance and amount that matter.",
           "'A balanced diet means eating a bit of everything equally' — missing that the PROPORTIONS differ (more fruit/veg and starchy food, less oil).",
-          "'Foods belong to exactly one group' — many everyday foods (pizza, sandwiches, milk) are mixtures.",
+          "'Each food supplies just one nutrient' or 'a mixed dish fits one food group' — pizza and sandwiches combine several food groups, and foods such as milk supply several nutrients.",
           "'Vitamins/minerals give you energy' — they protect and help the body work; energy comes mainly from carbohydrates and fats.",
           "'Healthy food = salad only / treats are forbidden' — rather than occasional treats fitting within an overall balance.",
           "'You must eat perfectly at every meal' — missing that balance is judged over a day or week.",
@@ -152057,29 +152101,30 @@
         ]
       },
       "learn": {
-        "summary": "Teach two ideas in order for ages 7–9: (1) foods can be grouped by the main nutrient they provide and each nutrient has a job (carbohydrates for energy; proteins for growth and repair; fats for energy, warmth and storage; vitamins, minerals, fibre and water for keeping the body working and protected); and (2) a balanced diet means the RIGHT AMOUNTS from each group, not just having a bit of everything. The nutrient→job layer is easier; the proportion/balance idea is the harder, more valuable one and explains why 'eat lots of everything' and 'fat is bad' are wrong. Bridge the science framing to the UK Eatwell Guide (which replaced the earlier Eatwell plate in 2016: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional), build balanced plates by hand rather than reciting rules, surface that many foods (pizza, sandwiches, milk) are mixtures, and frame balance over a day or week rather than per-meal perfection. Avoid calorie counting; keep to groups, jobs and rough proportions.",
+        "summary": "Teach two ideas in order for ages 7–9: (1) foods are sorted into the food groups of an appropriate local healthy-eating guide (the UK Eatwell Guide's five groups; in Australia, the five food groups of the Australian Guide to Healthy Eating), while nutrients are taught separately — what foods supply and the job each does (carbohydrates for energy; proteins for growth and repair; fats for energy, warmth and storage; vitamins, minerals and fibre, with water, for keeping the body working and protected), recognising that most foods supply several nutrients; and (2) a balanced diet means a variety of foods from each food group in the RIGHT AMOUNTS shown by the guide, not just having a bit of everything. The nutrient→job layer is easier; the proportion/balance idea is the harder, more valuable one and explains why 'eat lots of everything' and 'fat is bad' are wrong. Proportions belong to food groups, never to equal shares of nutrients (the UK Eatwell Guide, which replaced the earlier Eatwell plate in 2016: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Build balanced plates by hand rather than reciting rules, surface that mixed dishes (pizza, sandwiches) combine several food groups, and frame balance over a day or week rather than per-meal perfection. Avoid calorie counting; keep to food groups, nutrient jobs and rough proportions.",
         "activities": [
           {
             "title": "Build a balanced plate",
             "feedback": [
-              "If the plate is all one food, ask: which nutrient jobs are now missing — where is the energy, the growth material, the protection? Point back to the empty segments.",
-              "If portions are equal across all groups, prompt: the Eatwell Guide makes fruit/veg and starchy foods the biggest parts and oils/spreads tiny — adjust the amounts, not just which foods are present.",
+              "If the plate is all one food, ask: which food groups are missing, and which nutrient jobs (energy, growth material, protection) may now go short? Point back to the empty segments.",
+              "If portions are equal across all groups, prompt: the guide does not use equal shares — with the Eatwell Guide, fruit/veg and starchy foods are the biggest parts and oils/spreads tiny — adjust the amounts, not just which foods are present.",
               "If a treat is placed into a main group, note that high fat/sugar foods sit outside the main groups and are eaten less often.",
-              "Praise correct reasoning that names the nutrient's job, not just that a food 'is healthy'."
+              "Praise correct reasoning that names a food's food group and the nutrients it supplies, not just that a food 'is healthy'."
             ],
-            "rationale": "Constructing and adjusting proportions makes the abstract ratio of a balanced diet concrete and lets children discover, rather than memorise, that amounts differ by group. Building a plate matches the Eatwell proportion model and the curriculum requirement to reason about the right types AND amount of nutrition.",
+            "rationale": "Constructing and adjusting proportions makes the abstract ratio of a balanced diet concrete and lets children discover, rather than memorise, that amounts differ by group. Building a plate matches the food-group proportion model of a local guide (here the Eatwell Guide) and the curriculum requirement to reason about the right types AND amount of nutrition.",
             "sourceClaims": [
               "The Eatwell Guide divides foods into five main groups — fruit and vegetables and starchy carbohydrates (each just over a third of the plate), protein foods, dairy and alternatives, and oils/spreads (small amounts) — with high fat/salt/sugar foods outside the main groups, eaten less often; balance is judged over a day or week, not every meal.",
+              "The Australian Guide to Healthy Eating groups foods into five food groups — vegetables and legumes/beans; fruit; grain (cereal) foods, mostly wholegrain and/or high cereal fibre varieties; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives, mostly reduced fat — and recommends a wide variety of foods from these groups every day.",
               "Y3 pupils should identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat."
             ],
             "learnerActions": [
-              "Collect real or pictured everyday foods the child actually eats, then sort each by the main food/nutrient group it belongs to (starchy carbohydrates, protein, dairy/alternatives, fruit/veg, oils/fats, treats).",
-              "Arrange foods onto a plate divided into Eatwell proportions so fruit/veg and starchy foods fill the largest areas, protein and dairy fill smaller areas, oils/spreads fill a tiny area, and sugary/fatty treats sit off to the side as occasional.",
-              "Deliberately try an unbalanced plate — a mountain of chips only, or nothing but fruit — and describe what is missing and which nutrient jobs are not covered.",
-              "Say what each food's nutrient does (e.g. bread = energy, chicken = growth and repair) as it is placed.",
+              "Collect real or pictured everyday foods the child actually eats, then sort each into the food groups of a local healthy-eating guide (Eatwell: fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads, with treats outside the main groups — or the Australian Guide to Healthy Eating's five food groups).",
+              "Arrange foods onto a plate divided into the guide's food-group proportions (with Eatwell, fruit/veg and starchy foods fill the largest areas, protein and dairy smaller areas, oils/spreads a tiny area, and sugary/fatty treats sit off to the side as occasional).",
+              "Deliberately try an unbalanced plate — a mountain of chips only, or nothing but fruit — and describe which food groups are missing and which nutrient jobs may not be covered.",
+              "As each food is placed, say its food group and one main nutrient it supplies and what that nutrient does (e.g. bread: starchy food, supplies carbohydrate for energy; chicken: protein food, supplies protein for growth and repair), noting that most foods supply several nutrients.",
               "Look across a whole day or week and check whether one wobbly meal is evened out by the others."
             ],
-            "intendedInsight": "Balance is not 'a bit of everything equally' — it is the right amounts, with fruit/veg and starchy foods making up most of the plate and treats only occasional; and balance is judged over a day or week, not at every single meal."
+            "intendedInsight": "Balance is not 'a bit of everything equally' — it is the right amounts of each food group, with (in the Eatwell Guide) fruit/veg and starchy foods making up most of the plate and treats only occasional; and balance is judged over a day or week, not at every single meal."
           },
           {
             "title": "Match each nutrient to its job",
@@ -152091,9 +152136,9 @@
             "rationale": "Establishing nutrient→job with familiar foods gives learners the vocabulary and functional reasoning they need before tackling proportion, and directly targets the common 'vitamins give energy' and 'protein = meat only' misconceptions. The specific nutrient functions are an age-appropriate framing not stated verbatim by the cited sources.",
             "sourceClaims": [],
             "learnerActions": [
-              "Reveal, one group at a time, what each nutrient group does for the body and list example foods: carbohydrates = energy; protein = growth and repair; fats = energy, warmth and storage; vitamins and minerals = protection and keeping the body working; fibre = digestion; water = hydration.",
-              "For each group, predict and then check what might happen if you ate too much or too little of it.",
-              "Name at least five groups with an example food for each, and explain the job of carbohydrates, proteins and fats in your own words."
+              "Reveal, one nutrient at a time, what each nutrient does for the body and list foods that supply it: carbohydrates = energy; protein = growth and repair; fats = energy, warmth and storage; vitamins and minerals = protection and keeping the body working; fibre = digestion; water = hydration.",
+              "For each nutrient, predict and then check what might happen if you had too much or too little of it.",
+              "Name at least five nutrients with a food that supplies each, say which food group each food belongs to, notice foods (such as milk) that supply several nutrients, and explain the job of carbohydrates, proteins and fats in your own words."
             ],
             "intendedInsight": "Each nutrient does a distinct job; vitamins and minerals protect and help the body work but do NOT supply energy — energy comes mainly from carbohydrates and fats."
           },
@@ -152101,16 +152146,18 @@
             "title": "Sort mixed foods",
             "feedback": [
               "If a sandwich is forced into a single group, ask what the bread, filling and spread each contribute.",
-              "Confirm when a learner correctly identifies milk as a mixture: it belongs to the dairy group and also supplies protein, fats and minerals such as calcium."
+              "Confirm when a learner explains that milk sits in one food group (dairy and alternatives) yet supplies several nutrients, such as protein, fat and calcium."
             ],
-            "rationale": "Explicitly handling mixed foods prevents the 'foods belong to exactly one group' misconception and makes real-world classification honest. This is a sound teaching proposal not directly evidenced by the cited sources.",
-            "sourceClaims": [],
+            "rationale": "Explicitly handling mixed dishes prevents the 'a dish fits one food group' misconception and makes real-world classification honest; the NHS Eatwell Guide treats pizzas, casseroles, pasta dishes and sandwiches as combinations of the food groups. Noting that single foods supply several nutrients keeps food groups and nutrients distinct.",
+            "sourceClaims": [
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week."
+            ],
             "learnerActions": [
-              "Classify everyday foods into nutrient-group bins, including a dedicated 'mixed foods' bin.",
-              "Break down mixed foods — a pizza, a sandwich, a glass of milk — into the groups they contain, naming each part.",
-              "Discuss why one food can belong to more than one group."
+              "Classify everyday foods into the guide's food-group bins, including a dedicated 'mixed foods' bin.",
+              "Break down mixed dishes — a pizza, a sandwich — into the food groups their ingredients come from, naming each part, and list the several nutrients a single food such as a glass of milk supplies.",
+              "Discuss why a mixed dish draws on several food groups, and why even a single food supplies several nutrients."
             ],
-            "intendedInsight": "Many real foods are mixtures of several groups, so classifying whole meals is not always one-to-one."
+            "intendedInsight": "Mixed dishes combine foods from several food groups, and most foods supply several nutrients, so neither classification is one-to-one."
           },
           {
             "title": "Myth-busting: is this food bad for me?",
@@ -152134,10 +152181,11 @@
           }
         ],
         "constraints": [
-          "Teach nutrient→job first with familiar foods, then move to the harder balance/proportion idea.",
-          "Do not introduce calorie counting; keep to groups, jobs and rough age-appropriate proportions.",
+          "Teach nutrients and their jobs with familiar foods, classify foods separately with a local guide's food groups, then move to the harder balance/proportion idea.",
+          "Classify foods with an appropriate local healthy-eating guide's food groups (e.g. the UK Eatwell Guide or the Australian Guide to Healthy Eating); never call nutrients 'food groups', and set plate proportions by the guide's food groups, never as equal shares of seven nutrients.",
+          "Do not introduce calorie counting; keep to food groups, nutrient jobs and rough age-appropriate proportions.",
           "Correct 'good food / bad food' thinking: no food or nutrient is banned, including fat; overall balance and amount over a day or week is what matters.",
-          "Classification tasks must explicitly include mixed foods (pizza, sandwich, milk) so learners do not assume one food = one group.",
+          "Food-group classification must explicitly include mixed dishes (pizza, sandwich), and nutrient tasks must note that one food (e.g. milk) supplies several nutrients.",
           "Recognition/matching tasks (categorising foods, picking the balanced plate) consolidate and assess but do not by themselves require learners to construct and adjust proportions — pair them with hands-on plate building.",
           "A tap-to-reveal or lift-the-flap plate teaches the nutrient→job layer well but does not let the learner construct and adjust proportions; treat it as a scaffold toward building a plate.",
           "Optional interaction examples that make the mechanism concrete: dragging foods into segments that fill up, a balance gauge that visibly tips when a tray is overloaded, instant group-classification feedback, and a day/week view showing a single wobbly meal evening out. These are illustrative, not mandatory."
@@ -152146,10 +152194,11 @@
           "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were not re-fetched. Activities are research-informed proposals, not validated interventions.",
           "The original source listed a 3D format as 'poor' with the claim '3D adds no conceptual value'; this universal comparative claim is not established by the cited sources and has been dropped rather than propagated as a pedagogical law.",
           "The original 'ideal' rationale asserted that building proportions is something 'no static image or quiz can do'; this comparative necessity claim is not supported by the cited sources. It has been softened to a narrowly scoped affordance (construction/adjustment) plus an objective limit (recognition tasks don't elicit independent construction).",
-          "sourceClaims were narrowed to [] on the 'Match each nutrient to its job' and 'Sort mixed foods' activities: the curriculum claim is a general necessity assertion that does not state nutrient functions, and no cited claim establishes the nutrient→job mapping or the mixed-foods principle. Those contents are retained as sound, age-appropriate proposals, not as source-evidenced findings. The build-a-plate activity retains the curriculum claim because it specifically references the right 'amount' of nutrition, which maps to the proportion/balance principle; this is a borderline rather than clear-cut support.",
+          "sourceClaims remain [] on the 'Match each nutrient to its job' activity: no cited claim states the nutrient→job mapping, so that content is a sound, age-appropriate proposal rather than a source-evidenced finding. The 'Sort mixed foods' activity now cites the NHS Eatwell Guide, which treats pizzas and sandwiches as combinations of food groups. The build-a-plate activity retains the curriculum claim because it references the right 'amount' of nutrition (borderline rather than clear-cut support) and now also cites the Australian food groups.",
           "The 'fat is always bad' probe question from the original assessment had been dropped from the candidate's learner-facing activities despite being a prominent misconception; it has been restored to the myth-busting activity with matching feedback.",
           "The diagnostic 'correctAnswer' states vitamins do not 'directly build muscle'; this is consistent with the age-appropriate framing (energy from carbohydrates/fats, growth from protein) and no error was found. Framing fats as 'warmth and storage' is simplified but acceptable for ages 7–9.",
-          "Source claims cite the Eatwell Guide and the national curriculum; they support the teaching principles of proportion and 'right types and amount of nutrition' but do not constitute evidence that any specific activity here was tested for effectiveness."
+          "Source claims cite the Eatwell Guide and the national curriculum; they support the teaching principles of proportion and 'right types and amount of nutrition' but do not constitute evidence that any specific activity here was tested for effectiveness.",
+          "Nutrition review (October 2026): the topic previously grouped foods 'by the nutrient they mainly provide' and called nutrients food groups. Corrected throughout: foods are classified with the food groups of a local healthy-eating guide (UK Eatwell Guide; Australian Guide to Healthy Eating for Australian examples); nutrients and their functions are taught separately, and most foods supply several; plate proportions follow food groups, not equal shares of nutrients. The NHS Eatwell page was fetched and checked; the Eat for Health page could not be fetched (timeout), so its claim is verified:false. Learning aims and activities are kept."
         ],
         "schemaVersion": 2
       },
@@ -152190,8 +152239,8 @@
         ],
         "responseLevels": {
           "gap": "Judges foods only as 'healthy' or 'unhealthy', or thinks vitamins give energy; can't match a nutrient to its job.",
-          "full": "Matches each nutrient to its function AND reasons about a real diet — why carbohydrates fuel the race, protein builds muscle, vitamins protect without giving energy — and can say what fails if a group is missing.",
-          "partial": "Names food groups with examples and can recite carbs=energy, protein=growth, but treats them as a list — can't reason about whether a particular diet meets a specific need, or slips on vitamins."
+          "full": "Matches each nutrient to its function AND reasons about a real diet — why carbohydrates fuel the race, protein builds muscle, vitamins protect without giving energy — and can say what fails if a nutrient is missing.",
+          "partial": "Sorts foods into food groups and names nutrients with examples, and can recite carbs=energy, protein=growth, but treats them as a list — can't reason about whether a particular diet meets a specific need, or slips on vitamins."
         },
         "diagnosticPrompt": "Sam is training for a swimming race and wants stronger muscles. He says 'I'll eat lots of oranges and take vitamin tablets, because vitamins give you energy and make you strong.' Do you agree with Sam's plan? What SHOULD he eat for energy and for building muscle — and why does each food help with its job?",
         "whatMakesItDiscriminate": "A child who thinks 'healthy = strong/energy' or 'vitamins give energy' endorses Sam. A child who understands nutrient function rejects the plan and correctly assigns carbohydrates to energy and protein to growth. Because the tier-two 'why' forces the nutrient-to-job link, you can't land it by guessing that oranges are healthy."
@@ -152204,17 +152253,29 @@
           "verified": true
         },
         {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
+        },
+        {
           "claim": "Y3 pupils should identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat.",
           "source": "DfE National Curriculum in England: Science programmes of study (KS2, Year 3, Animals including humans)",
           "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study",
           "verified": true
+        },
+        {
+          "claim": "The Australian Guide to Healthy Eating groups foods into five food groups — vegetables and legumes/beans; fruit; grain (cereal) foods, mostly wholegrain and/or high cereal fibre varieties; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives, mostly reduced fat — and recommends a wide variety of foods from these groups every day.",
+          "source": "Eat for Health — Australian Guide to Healthy Eating: the five food groups",
+          "url": "https://www.eatforhealth.gov.au/food-essentials/five-food-groups",
+          "verified": false
         }
       ],
       "confidence": "high",
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T23:25:13.989Z",
-        "updatedAt": "2026-10-19T15:21:13.062Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -162953,16 +163014,16 @@
     {
       "topicId": "mt_sDmrVCfzqt",
       "pedagogy": {
-        "summary": "- **Age:** 11–13 years\n\n- **Topic:** Nutrients in a Healthy Diet\n\n- **Standards — UK (DfE KS3 Biology, Nutrition & digestion):** \"the content of a healthy human diet: carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water, and why each is needed.\"\n\n- **Standards — US (NGSS):** No direct MS performance expectation on human dietary components; the nearest US content is 5-PS3-1 (energy in food came from the sun) and MS-LS1-7 (food rearranged to release energy / support growth). Diet composition is UK-led. (US/UK divergence.)\n\n- **Operational details:** Children name all seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and explain its role (carbohydrates and lipids for energy; protein for growth and repair; vitamins and minerals in small amounts for specific functions; fibre for gut movement; water as the medium for reactions and transport). A key discrimination is which components provide energy (carbohydrates, lipids, and protein in emergencies) and which do not (vitamins, minerals, fibre, water). The move that matters is from 'healthy vs junk food' folk categories to a functional account: each nutrient does a specific JOB, and 'balance' means the right proportions, not eliminating any group.\n\n- **Checkpoint:** Tier B. Extends KS2 'animals need the right nutrition and cannot make their own food'; feeds energy calculations, diet-imbalance/deficiency, and digestion. A child is secure when, given a nutrient, they can state a source, its body role, and whether it supplies energy.",
+        "summary": "- **Age:** 11–13 years\n\n- **Topic:** Nutrients in a Healthy Diet\n\n- **Standards — UK (DfE KS3 Biology, Nutrition & digestion):** \"the content of a healthy human diet: carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water, and why each is needed.\"\n\n- **Standards — US (NGSS):** No direct MS performance expectation on human dietary components; the nearest US content is 5-PS3-1 (energy in food came from the sun) and MS-LS1-7 (food rearranged to release energy / support growth). Diet composition is UK-led. (US/UK divergence.)\n\n- **Operational details:** Children name all seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and explain its role (carbohydrates and lipids for energy; protein for growth and repair; vitamins and minerals in small amounts for specific functions; fibre for gut movement; water as the medium for reactions and transport). A key discrimination is which components provide energy (carbohydrates, lipids, and protein in emergencies) and which do not (vitamins, minerals, fibre, water). The move that matters is from 'healthy vs junk food' folk categories to a functional account: each nutrient does a specific JOB, and 'balance' means eating a variety of foods from each food group of a local healthy-eating guide (in the UK, the Eatwell Guide's five food groups) in the right proportions, not eliminating any. Keep the seven nutrients distinct from food groups: an Eatwell-style plate shows food groups, not nutrients, and each food supplies several nutrients.\n\n- **Checkpoint:** Tier B. Extends KS2 'animals need the right nutrition and cannot make their own food'; feeds energy calculations, diet-imbalance/deficiency, and digestion. A child is secure when, given a nutrient, they can state a source, its body role, and whether it supplies energy.",
         "bestPractices": [
           "Teach each nutrient as a JOB with a food source rather than as a word, and immediately separate energy-providers from non-energy nutrients — the discrimination children most often miss.",
-          "Confront folk 'good food/bad food' categories directly: balance means proportion, and no group is simply 'bad'.",
-          "Use a real balanced-plate/Eatwell-style model so proportions are concrete and visual.",
+          "Confront folk 'good food/bad food' categories directly: balance means the right proportions of the food groups, and no food group or nutrient is simply 'bad'.",
+          "Use the Eatwell Guide (or another local healthy-eating guide) to show that proportions apply to food groups; then trace which nutrients each food group mainly supplies, noting that most foods supply several.",
           "Address the vitamin/mineral misconception explicitly — needed in small amounts, do specific jobs, carry no energy.",
-          "Bridge to the next topics by framing diet quantitatively (energy budget) and diagnostically (what happens if a group is missing)."
+          "Bridge to the next topics by framing diet quantitatively (energy budget) and diagnostically (what happens if a nutrient is missing)."
         ],
         "keyRepresentations": [
-          "Balanced-plate / Eatwell-guide illustration with the seven nutrient groups",
+          "Eatwell Guide illustration of the five food groups and their proportions, annotated with the main nutrients each group supplies",
           "Nutrient → source → role table, colour-coded for energy vs non-energy",
           "Icon key distinguishing energy-providing from non-energy nutrients",
           "Example meals annotated with which nutrients they supply"
@@ -162972,11 +163033,12 @@
           "Thinking all fat is unhealthy and should be eliminated, rather than being a needed energy store.",
           "Assuming protein is only for athletes/muscle-building rather than for all growth and repair.",
           "Treating fibre and water as unimportant because they carry no energy.",
-          "Equating 'healthy diet' with eating less, rather than eating the right balance."
+          "Equating 'healthy diet' with eating less, rather than eating the right balance.",
+          "Treating the seven nutrients as 'food groups', or expecting a balanced plate to give each nutrient an equal share."
         ]
       },
       "learn": {
-        "summary": "Learners (ages 11–13) name the seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and state its body role. The central discrimination is which components are the main energy providers (carbohydrates and lipids, with protein a secondary or backup energy source whose main job is growth and repair) versus which provide no or very little energy (vitamins, minerals, water, and fibre, which our own enzymes cannot digest). Activities move learners from 'healthy vs junk food' folk categories to a functional account where each nutrient does a specific job and 'balance' means right proportions, not eliminating any group.",
+        "summary": "Learners (ages 11–13) name the seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and state its body role. The central discrimination is which components are the main energy providers (carbohydrates and lipids, with protein a secondary or backup energy source whose main job is growth and repair) versus which provide no or very little energy (vitamins, minerals, water, and fibre, which our own enzymes cannot digest). Activities move learners from 'healthy vs junk food' folk categories to a functional account where each nutrient does a specific job and 'balance' means the right proportions of the food groups in a local healthy-eating guide such as the Eatwell Guide, with every nutrient job filled, not eliminating any. Nutrients are kept distinct from food groups, and learners recognise that each food supplies several nutrients.",
         "activities": [
           {
             "title": "Nutrient job cards: source, role, and energy tag",
@@ -162995,27 +163057,29 @@
               "For each of the seven nutrients — carbohydrates, lipids, proteins, vitamins, minerals, fibre, water — write or state one food source, the job it does in the body, and whether it provides energy.",
               "Sort the seven nutrients into two groups: 'main energy providers' (carbohydrates, lipids; protein as a secondary or backup source whose main job is growth and repair) and 'no or very little energy' (vitamins, minerals, water, and fibre, which our own enzymes cannot digest).",
               "Answer two myth-busting prompts explicitly: 'Do vitamins give you energy?' and 'Is all fat bad?', explaining your reasoning in a sentence each.",
-              "Optionally use a balanced-plate illustration where tapping a food reveals its nutrient card (e.g. tap chicken → 'protein — building blocks for growth and repair'; tap oil → 'lipid — concentrated energy store and insulation'), with a colour/icon key tagging energy vs non-energy groups and a lift-the-flap reveal for the two myth questions."
+              "Optionally use an Eatwell-style plate where tapping a food reveals the nutrients it supplies (e.g. tap chicken → 'protein — building blocks for growth and repair'; tap oil → 'lipid — concentrated energy store and insulation'), with a colour/icon key tagging energy vs non-energy nutrients and a lift-the-flap reveal for the two myth questions."
             ],
-            "intendedInsight": "Each nutrient has a distinct job, and only some nutrients supply energy; a healthy diet fills all seven jobs in the right proportions rather than sorting foods into 'good' and 'bad'."
+            "intendedInsight": "Each nutrient has a distinct job, and only some nutrients supply energy; a healthy diet fills all seven nutrient jobs by eating foods from each food group in the guide's proportions, rather than sorting foods into 'good' and 'bad'."
           },
           {
             "title": "Build a balanced plate",
             "feedback": [
-              "If one nutrient group dominates: flag the imbalance and prompt the learner to add variety so each job is filled in proportion.",
-              "If a group is missing entirely: ask which body role is now unfilled and what food could supply it.",
-              "Reinforce that a balanced diet means the right proportions, so no whole group is simply 'bad' to include."
+              "If one food group dominates the plate: flag the imbalance and prompt the learner to adjust towards the guide's food-group proportions.",
+              "If a food group is missing: ask which nutrients that group mainly supplies and which body roles may now go short, and what food could fill the gap.",
+              "If a learner tries to give each of the seven nutrients an equal share: explain that proportions apply to food groups, and that foods supply several nutrients at once.",
+              "Reinforce that a balanced diet means the right proportions of the food groups, so no whole food group is simply 'bad' to include."
             ],
-            "rationale": "A constructive 'build a balanced plate' task makes proportion concrete and active rather than stated, and bridges toward later quantitative energy-budget work. The live nutrient bars are an optional feedback example that makes the balance mechanism visible; the same task works with a physical plate and a checklist. This goes slightly beyond the naming/role core into evaluation.",
+            "rationale": "A constructive 'build a balanced plate' task makes food-group proportions concrete and active rather than stated, then links them to the nutrients each group supplies, bridging toward later quantitative energy-budget work. Live food-group and nutrient feedback is an optional example that makes the balance visible; the same task works with a paper Eatwell plate and a checklist. This goes slightly beyond the naming/role core into evaluation.",
             "sourceClaims": [
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
               "A balanced diet contains carbohydrates, proteins, lipids, vitamins, minerals, fibre and water, each with a distinct role; carbohydrates and lipids are the main energy sources while vitamins, minerals, fibre and water do not provide energy."
             ],
             "learnerActions": [
-              "Assemble a meal by choosing foods for a plate, aiming for the right proportions across the seven nutrient groups rather than maximising any single one.",
-              "Watch a live feedback panel (e.g. seven nutrient bars that fill as foods are added) and adjust the meal so no group is overloaded or missing.",
-              "Explain in one or two sentences why your finished plate counts as 'balanced' — which groups are present and roughly in what proportion."
+              "Assemble a day's meals using the Eatwell Guide (or another local healthy-eating guide), aiming for its food-group proportions — fruit and vegetables and starchy carbohydrates as the largest parts, smaller amounts of proteins and dairy and alternatives, and small amounts of oils and spreads.",
+              "Check the plate against the guide's food-group segments, then list which nutrients each food supplies and confirm that all seven nutrient jobs are covered (no equal shares of nutrients are expected).",
+              "Explain in one or two sentences why your finished plate counts as 'balanced' — which food groups are present, in roughly what proportion, and how they cover the seven nutrients."
             ],
-            "intendedInsight": "'Balance' is felt as proportion across all seven jobs, not as eliminating a food group or eating less overall."
+            "intendedInsight": "'Balance' means the right proportions of the food groups, which together cover all seven nutrient jobs — not equal shares of nutrients, eliminating a food group or eating less overall."
           },
           {
             "title": "Food-energy investigation (supervised)",
@@ -163057,10 +163121,11 @@
         ],
         "constraints": [
           "A learner is secure only when, given any nutrient, they can state a source, its body role, and whether it supplies energy — recognition/matching checks alone do not show they can construct this independently.",
-          "Treat the tap-to-reveal plate, colour/icon key, lift-the-flap, and live nutrient bars as optional interaction examples, not required mechanisms; the same content can be taught with a table, a paper plate, and sorting cards.",
+          "Treat the tap-to-reveal plate, colour/icon key, lift-the-flap, and live food-group and nutrient feedback as optional interaction examples, not required mechanisms; the same content can be taught with a table, a paper plate, and sorting cards.",
           "The matching/categorise check assesses the discrimination but does not by itself build it; pair it with the job-card and plate-building tasks.",
           "The food-burning investigation requires adult supervision and fire-safety precautions; measured temperature rises depend on setup and are a comparative demonstration, not a precise calorimetry value.",
-          "Address folk categories directly: 'balance' means proportion, protein is for all growth and repair (not only athletes), and no food is simply 'all bad' — it depends on how much.",
+          "Address folk categories directly: 'balance' means the right proportions of the food groups in a local guide, protein is for all growth and repair (not only athletes), and no food is simply 'all bad' — it depends on how much.",
+          "Keep the seven nutrients distinct from food groups: classify foods with a local healthy-eating guide's food groups (e.g. the Eatwell Guide), teach nutrients and their functions separately, recognise that foods supply several nutrients, and never set plate proportions as equal shares of nutrients.",
           "When categorising nutrients by energy, treat protein as a backup energy source (main job growth and repair) so this stays coherent with how it is framed elsewhere.",
           "An optional 'ask-a-dietitian' conversation wrap may be offered for curiosity questions about specific foods; it is a supplement to the defined-content job-card and plate tasks, not a required or superior medium.",
           "Diet composition here follows UK (DfE KS3) content; there is no direct US NGSS middle-school performance expectation on human dietary components, so framing may need adjustment for other curricula."
@@ -163070,7 +163135,8 @@
           "The original rated a 3D environment as adding 'nothing' and framed a static image as 'the most efficient, high-yield fit'; these categorical catalog-fit preferences have been removed. The neutral underlying observation is retained: nutrient roles are not inherently spatial, so a 3D/spatial environment offers little specific leverage here, though a fixed illustration, interactive, and physical formats each simply offer different experiences without one being universally necessary.",
           "One source (BBC Bitesize) is marked verified:false in the row; the energy/non-energy grouping it supports is widely taught but should be confirmed against the primary curriculum source before relying on it as authoritative.",
           "The claim that protein is used for energy 'only as a backup / in emergencies' is a standard simplification; it holds for typical diets but omits normal ongoing amino-acid turnover. Because the energy/non-energy categorisation is binary, protein is treated as a backup energy source there — flagged so the task does not appear to contradict protein's primary growth/repair role.",
-          "Food-burning temperature rises are setup-dependent and comparative only; absolute energy values are not established by this demonstration."
+          "Food-burning temperature rises are setup-dependent and comparative only; absolute energy values are not established by this demonstration.",
+          "Nutrition review (October 2026): the plate representation and the build-a-balanced-plate activity previously showed 'seven nutrient groups' on an Eatwell-style plate and asked for proportions across nutrients. Corrected: the plate shows the Eatwell Guide's five food groups and their proportions, nutrients are traced from the foods (most foods supply several), and the activity now cites the NHS Eatwell Guide (fetched and checked). The seven-component learning aim, job cards, food-energy investigation and checks are unchanged."
         ],
         "schemaVersion": 2
       },
@@ -163138,13 +163204,19 @@
           "source": "BBC Bitesize KS3 — Nutrition and digestion / balanced diet",
           "url": "https://www.bbc.co.uk/bitesize/topics/zf339j6",
           "verified": false
+        },
+        {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
         }
       ],
       "confidence": "high",
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T18:31:26.834Z",
-        "updatedAt": "2026-10-19T15:21:22.309Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
