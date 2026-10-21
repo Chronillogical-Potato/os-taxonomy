@@ -1,0 +1,161 @@
+{
+  "capturedAt": "2026-10-21",
+  "notes": "HTML snapshots are byte-for-byte copies of the latest local prototypes, all with question-led illustrated openings and contextual vocabulary support. Runtime dependency imports and the shared opening-module import are normalized for portability. Local prototype folders remain unchanged by this import.",
+  "experiences": {
+    "moon-visit": {
+      "originalHtml": "moon-visit.html",
+      "htmlSha256": "8266bf41c0d87d7ec0c3a8acb6b646098bcaf94f19041e86202bef9545935bd2",
+      "sourceFolder": "development",
+      "files": {
+        "app.js": {
+          "originalSha256": "775e5e8def6e8bc457c01839b53fd4225379ea4db9bacbf955cf811d3bd099d4",
+          "portableSha256": "4e1c642ebac9e77349bb02dc0c813bc6a211139d8a9b581ac3a09eb6a33c9be7"
+        },
+        "model.mjs": {
+          "originalSha256": "a1caa5bdf3ce2e338d2e9e8ca0db9eac55679455ed6338719f2d21a1a57a93b7",
+          "portableSha256": "a1caa5bdf3ce2e338d2e9e8ca0db9eac55679455ed6338719f2d21a1a57a93b7"
+        },
+        "ground-view.mjs": {
+          "originalSha256": "e2cb960392187f029f8b541cc009663534f3b771c31eccef74feddf5ef99240d",
+          "portableSha256": "01ae5e089beabc9b5b82bf23332df9a54a6f6db06ab434c1e9fe787ec4276a47"
+        },
+        "ground-landscape.mjs": {
+          "originalSha256": "c87d2feb3bed4c8055633ab6d3e063d769ad686e0f7010afbd0cbd0064444e12",
+          "portableSha256": "05de9dc0008002be556dc199eefd1b2ac960aef5df8f91be4646fe478b9ced0c"
+        },
+        "space-visuals.mjs": {
+          "originalSha256": "0820fd2dc8bf8db3fbeb75c5375dea3837222ecbc059afd4b3bb04bfebb9b911",
+          "portableSha256": "6cc1c2bc9960e8fae79d91a591a121f8355b2d333636373bd849859b0bb39a26"
+        },
+        "shell.html": {
+          "originalSha256": "21a07ad8438c8b1d755e7c315e596c2bd444686c1eb151a47fb1e96404274211",
+          "portableSha256": "21a07ad8438c8b1d755e7c315e596c2bd444686c1eb151a47fb1e96404274211"
+        },
+        "world-visuals.mjs": {
+          "originalSha256": "0d59be11a6662045060b8f16832371833ace79c17c5ddce03b491dd2324a4fa6",
+          "portableSha256": "f8d6468066ddf5658be44ccf633a71de3d9ee5b2144cb092f895f0d148bfd610"
+        }
+      }
+    },
+    "sky-colour-explorer": {
+      "originalHtml": "sky-colour-explorer.html",
+      "htmlSha256": "41d3edaff71f017724a54a50b821a2b31e61de14e13b1ea8ddb545319f197b2c",
+      "sourceFolder": "sky-development",
+      "files": {
+        "app.js": {
+          "originalSha256": "a837af2683fede41dabeb0290d87ce4e2b80f96d0cb28c556ced277bd65a2038",
+          "portableSha256": "3c7a1f03be1fb437aede1637c2312489e5bd86e6a2f75690135593d399e94d3e"
+        },
+        "model.mjs": {
+          "originalSha256": "623e9ab32c5b9542d878526b12e40bf1075a9a2fcef8a080a279b87c6aeedd54",
+          "portableSha256": "623e9ab32c5b9542d878526b12e40bf1075a9a2fcef8a080a279b87c6aeedd54"
+        },
+        "geometry.mjs": {
+          "originalSha256": "30a110bb6a1622c448f151720ab0d4d562cd3c9eab84129096d7b3462e30fc46",
+          "portableSha256": "30a110bb6a1622c448f151720ab0d4d562cd3c9eab84129096d7b3462e30fc46"
+        },
+        "teaching-waves.mjs": {
+          "originalSha256": "b545032cb124aa42583e3c229dda5feaadeeb5540076c6649353c810f93a43ff",
+          "portableSha256": "b545032cb124aa42583e3c229dda5feaadeeb5540076c6649353c810f93a43ff"
+        },
+        "photon-effects.mjs": {
+          "originalSha256": "c22d1df4c1686b694a5ac5b16ee615743fd515917c5fd63c71fd15f7696f490c",
+          "portableSha256": "e63883f9f6502ad6b0aa5530fe645e9900a9308d6a228052b398a19ad9aeb241"
+        },
+        "avatar.mjs": {
+          "originalSha256": "a07a256ca4838e92d51c419e7883bb925794ea021f9302ed80af77c453b7120c",
+          "portableSha256": "b7b815b8563d31d935034cb199ccefa3512806a45fd4cc64356dde7097d1afa3"
+        },
+        "space-visuals.mjs": {
+          "originalSha256": "60abc4e3079d8ad7bd71bbba1858b301abfd4ece843a0d94e56b1471da0b8704",
+          "portableSha256": "6b23c3a1064b4a3ddbb1a040c4b7500d599be80e064eadebe79cad46ef6af495"
+        },
+        "shell.html": {
+          "originalSha256": "926917a0279d1c3af278a1d2908388b5a5d4cfab5f6c074b12acda9c4554a27b",
+          "portableSha256": "926917a0279d1c3af278a1d2908388b5a5d4cfab5f6c074b12acda9c4554a27b"
+        }
+      }
+    },
+    "hidden-cubes": {
+      "originalHtml": "hidden-cubes.html",
+      "htmlSha256": "171dfd7e3742ae94767fca0de890354767fe87a6a5a9a19536c7ea1b72c3cb1f",
+      "sourceFolder": "volume-development",
+      "files": {
+        "app.js": {
+          "originalSha256": "c8c282f9f5941dc1b5738d5dd14ec8949d801305f7270e7a5159323f04251029",
+          "portableSha256": "4621b9c9ab0ed09be25f672afa623e05633805cfdb57d68f0c6bf265def07bcd"
+        },
+        "tasks.js": {
+          "originalSha256": "34750db75ec7a49736845b5954f0932078786329d118a45ef7fdcf64123304e5",
+          "portableSha256": "34750db75ec7a49736845b5954f0932078786329d118a45ef7fdcf64123304e5"
+        },
+        "shell.html": {
+          "originalSha256": "cd2013abd59462819cb390c26b3cf589c55983249763567dd512661d71fa3b98",
+          "portableSha256": "cd2013abd59462819cb390c26b3cf589c55983249763567dd512661d71fa3b98"
+        }
+      }
+    },
+    "bee-builder": {
+      "originalHtml": "bee-builder.html",
+      "htmlSha256": "fdfc5194b99bfad0a21eee7ebe1738906608e6552e199b1e07a75ecaf0789c96",
+      "sourceFolder": "bee-development",
+      "files": {
+        "app.js": {
+          "originalSha256": "04b3b8982e0b1a2cf62da3d0be3fd8afdb2a7b06aa15a2118caf5a3672a11d19",
+          "portableSha256": "04b3b8982e0b1a2cf62da3d0be3fd8afdb2a7b06aa15a2118caf5a3672a11d19"
+        },
+        "shell.html": {
+          "originalSha256": "c88ff30b21f80adff745005315cec3b16ab28eba69a1d484c8ad3be0eef16133",
+          "portableSha256": "c88ff30b21f80adff745005315cec3b16ab28eba69a1d484c8ad3be0eef16133"
+        }
+      }
+    },
+    "otter-forest": {
+      "originalHtml": "otter-forest.html",
+      "htmlSha256": "c0ba1e9d690af693fdf2befa7bd74ed24ba7e48eb6e64e852787997116a2aa76",
+      "sourceFolder": "kelp-development",
+      "files": {
+        "app.js": {
+          "originalSha256": "c8b3a36cff6ba30e28f4e946fad3cc68eb2535da7718c03cc76cee73d798602b",
+          "portableSha256": "c8b3a36cff6ba30e28f4e946fad3cc68eb2535da7718c03cc76cee73d798602b"
+        },
+        "model.mjs": {
+          "originalSha256": "5cb094af81f8ae85e0080c209773a8ae28863a0537e0d12b7f9a0eea11807a10",
+          "portableSha256": "5cb094af81f8ae85e0080c209773a8ae28863a0537e0d12b7f9a0eea11807a10"
+        },
+        "challenges.mjs": {
+          "originalSha256": "165ab38382a5627f864add5c0b17caf088c7e93763f8bb473974093b8d951cd4",
+          "portableSha256": "165ab38382a5627f864add5c0b17caf088c7e93763f8bb473974093b8d951cd4"
+        },
+        "visuals.js": {
+          "originalSha256": "4b1c38b01a63e5111ad71ba6316a12a95fa897ce99e337699a95c6e44f939797",
+          "portableSha256": "b1009319bcbf86f9f3bf224636b9298aefea106f5733800fa1a73242fd03b293"
+        },
+        "otter-animation.mjs": {
+          "originalSha256": "7a3e50b5137cd13bd9f2660e9b70c7e1c4996c2925c49bf9bbc49a9cbeed204c",
+          "portableSha256": "7a3e50b5137cd13bd9f2660e9b70c7e1c4996c2925c49bf9bbc49a9cbeed204c"
+        },
+        "vocabulary.js": {
+          "originalSha256": "356bebcd83ff8b69383d15993847d1c96b6d88a4fe298437cbc717e0a654d26f",
+          "portableSha256": "356bebcd83ff8b69383d15993847d1c96b6d88a4fe298437cbc717e0a654d26f"
+        },
+        "shell.html": {
+          "originalSha256": "f88da02a8bd92cd5214db71dd50dd20cf60956a241f25705364b9abf03084558",
+          "portableSha256": "f88da02a8bd92cd5214db71dd50dd20cf60956a241f25705364b9abf03084558"
+        }
+      }
+    }
+  },
+  "sharedFiles": {
+    "opening.mjs": {
+      "originalFile": "experience-opening.mjs",
+      "originalSha256": "c95b7ca59aaa8416d765f34e48d52d7ad65791abc6d62761fbc5a3797ded8f9f",
+      "portableSha256": "c95b7ca59aaa8416d765f34e48d52d7ad65791abc6d62761fbc5a3797ded8f9f"
+    },
+    "vocabulary.js": {
+      "originalFile": "experience-vocabulary.js",
+      "originalSha256": "e02a800d1bb2312feec40301c42505728d6cd6efb533e7a0575a083d3a607e59",
+      "portableSha256": "e02a800d1bb2312feec40301c42505728d6cd6efb533e7a0575a083d3a607e59"
+    }
+  }
+}

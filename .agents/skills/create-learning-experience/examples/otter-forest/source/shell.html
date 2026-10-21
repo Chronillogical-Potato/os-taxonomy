@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>What roles do otters and urchins play in a kelp forest?</title>
+<style>__CSS__
+html,body{margin:0;width:100%;height:100%;overflow:hidden}body.marble-learning{background:#123f4b;color:#fff4d9}
+.ml-stage{height:100svh;overflow:hidden;background:radial-gradient(ellipse at 72% -20%,#a2dfb6 0%,#368f91 30%,#185b6b 63%,#103d50 100%)}
+#world{position:absolute;inset:0;touch-action:none;cursor:crosshair}#world canvas{display:block;width:100%;height:100%}
+.sunlight{position:absolute;inset:0;pointer-events:none;background:linear-gradient(113deg,transparent 35%,#d9ffd815 36%,transparent 40%,transparent 45%,#e6ffcf18 46%,transparent 51%,transparent 58%,#ddffcd10 59%,transparent 63%);mix-blend-mode:screen}
+.vignette{position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 -100px 130px -70px #082c3c,inset 80px 0 130px -70px #082c3c}
+.marble-learning .ml-explanation{top:21%;width:min(26vw,350px);--ml-copy-wash:#103d50d9;--ml-copy-clear:#103d5000;--ml-copy-shadow:0 2px 12px #0a3640}
+#controls{position:absolute;z-index:4;bottom:32px;left:50%;transform:translateX(-50%);display:flex;justify-content:center;gap:10px;width:max-content;max-width:calc(100% - 40px);flex-wrap:wrap}
+#tools{position:absolute;z-index:4;left:40px;top:57%;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+#tools:empty{display:none}#tools .ml-control{min-height:46px;padding:8px 15px}
+#toolbar{position:absolute;z-index:4;top:20px;right:24px;display:flex;gap:8px}
+#progress{display:flex;gap:7px;margin-top:16px}
+#progress i{width:7px;height:7px;border:1px solid #d7eee3;border-radius:50%;opacity:.55}
+#progress i.active{background:#ffe39a;opacity:1;box-shadow:0 0 0 3px #ffe39a20}
+#progress i.done{background:#9cd5b8;opacity:1}
+#choices{position:absolute;z-index:4;left:40px;top:57%;display:flex;gap:10px;flex-wrap:wrap;max-width:350px}
+#choices:empty{display:none}
+#timeline{position:absolute;z-index:4;bottom:105px;left:50%;transform:translateX(-50%);width:min(480px,45vw);height:40px;display:flex;gap:15px;align-items:center;justify-content:center}
+#timeline[hidden]{display:none}#timeline input{width:100%;accent-color:#ffda72;cursor:pointer;height:28px}
+#timeline svg{width:24px;height:24px;flex:none;stroke:#f7e6be;fill:none;stroke-width:2}
+#meters{position:absolute;right:28px;top:110px;display:flex;gap:12px;pointer-events:none}
+.meter{width:36px;height:128px;background:#103a4480;border:1px solid #8ac3ba60;border-radius:22px;display:flex;flex-direction:column;align-items:center;gap:8px;padding:8px 5px}
+.meter svg{width:23px;height:23px;stroke:#fff1cd;fill:none;stroke-width:1.7;flex:none}
+.meter-track{height:76px;width:8px;background:#102f3f99;border-radius:5px;position:relative}
+.meter-fill{position:absolute;bottom:0;width:100%;background:#e3c95a;border-radius:5px;transition:height .2s}
+.meter:nth-child(2) .meter-fill{background:#c390ca}.meter:nth-child(3) .meter-fill{background:#efb47b}
+#object-action{position:absolute;z-index:4;transform:translate(-50%,-50%)}
+#order{position:absolute;z-index:4;left:65%;transform:translateX(-50%);bottom:170px;display:flex;align-items:center;gap:14px}
+#order:empty{display:none}.order-slot{width:78px;height:78px;border:2px dashed #ffedbd8c;border-radius:20px;display:grid;place-items:center;background:#143c4788}
+.order-slot svg{width:46px;height:46px;stroke:#fff1cd;fill:none;stroke-width:1.6}
+.order-arrow{font-size:30px;color:#ffebbd}
+#run-progress{position:absolute;bottom:0;left:0;height:4px;background:#ffda72;width:0;transition:width .2s}
+@media(max-width:800px){
+ .marble-learning .ml-header{max-width:calc(100% - 135px)}
+ .marble-learning .ml-explanation{top:92px;width:calc(100% - 40px);background:linear-gradient(90deg,#123e4db0,transparent);padding:8px 12px}
+ #toolbar{top:14px;right:14px}#toolbar .ml-control{width:44px;height:44px;min-height:44px}
+ #tools{top:auto;bottom:145px;left:20px;right:20px;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:7px}
+ #tools .ml-control{padding:8px 11px;font-size:15px}#tools .ml-button-label{font-size:15px}
+ #choices{top:auto;bottom:155px;left:20px;right:20px;max-width:none;justify-content:center}
+ #controls{bottom:25px;width:calc(100% - 30px);max-width:none;gap:8px}
+ #meters{right:18px;top:220px;gap:7px}.meter{width:28px;height:92px;padding:5px 3px}.meter-track{height:48px}.meter svg{width:19px;height:19px}
+ #timeline{bottom:95px;width:75vw}#order{bottom:230px;left:50%;gap:9px}.order-slot{width:58px;height:58px}.order-slot svg{width:36px;height:36px}
+ #progress{margin-top:12px}.vignette{box-shadow:inset 0 -110px 100px -65px #082c3c}
+}
+@media(max-width:360px){#order{bottom:300px}.marble-learning .ml-title{font-size:16px}}
+@media(max-height:600px) and (min-width:801px){#controls{bottom:15px}#tools,#choices{top:53%}.marble-learning .ml-explanation{top:20%}#meters{top:80px}}
+
+#menu-options{position:absolute;left:40px;top:45%;display:flex;flex-direction:column;gap:14px;z-index:4;width:330px}
+#menu-options:empty{display:none}#menu-options .ml-control{justify-content:flex-start;min-height:66px;border-radius:22px}#menu-options .ml-control svg{width:34px;height:34px}
+#tools{flex-direction:row;flex-wrap:wrap;width:320px;gap:12px;top:53%}
+.organism-token{width:90px;min-height:110px;padding:9px 8px 7px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;border:1px solid #a9d8bd90;border-radius:30px;background:#104551b0;color:#fff3ce;cursor:grab;touch-action:none;font:500 17px 'Baloo 2';box-shadow:0 5px 0 #092e3b80;transition:background .15s,scale .15s}
+.organism-token:hover{background:#24606ad9;scale:1.04}.organism-token:active{cursor:grabbing;scale:.97}
+.organism-token svg{width:58px;height:58px;fill:#d6b382;stroke:#172f30;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}.organism-token:nth-child(2) svg{fill:#ae80b9;stroke:#392843}.organism-token:nth-child(3) svg{fill:#c4bf62;stroke:#35492d}
+#tools #reset-world,#tools #undo{min-height:44px;padding:8px 14px;font-size:16px}
+#tools #reset-world .ml-button-label,#tools #undo .ml-button-label{font-size:16px}
+#drag-ghost{position:fixed;z-index:20;pointer-events:none;translate:-50% -50%;width:70px;height:70px;background:#fff4cebd;border:2px solid #ffe29a;border-radius:50%;display:grid;place-items:center;box-shadow:0 6px 24px #082d4055}
+#drag-ghost svg{width:50px;height:50px;fill:#e0bf85;stroke:#173b40;stroke-width:1.5}#drag-ghost[data-valid="false"]{opacity:.5;border-style:dashed}
+#toolbar{align-items:center}#toolbar #menu-button{min-height:44px;padding:8px 13px;font-size:16px}#toolbar #menu-button .ml-button-label{font-size:16px}
+main[data-stage="menu"] #meters{opacity:.4}
+@media(max-width:800px){
+ .marble-learning .ml-header{max-width:calc(100% - 180px)}
+ #toolbar #menu-button{width:auto;height:44px;min-height:44px}#toolbar #menu-button svg{width:20px;height:20px}
+ #tools{top:auto;bottom:148px;left:20px;right:20px;width:auto;gap:10px;justify-content:center}
+ .organism-token{width:78px;min-height:91px;border-radius:26px;font-size:16px}.organism-token svg{width:44px;height:44px}
+ #menu-options{top:auto;bottom:110px;left:20px;width:calc(100% - 40px);gap:12px}#menu-options .ml-control{min-height:59px}
+ #controls{bottom:20px}#tools #reset-world,#tools #undo{min-height:40px;padding:6px 10px}
+ #tools #reset-world{order:4}#tools #undo{order:5}
+ .ml-stage[data-stage="setup"] #tools{bottom:166px}
+}
+@media(max-width:360px){.organism-token{width:72px;min-height:86px}#tools{gap:8px}.ml-stage[data-stage="setup"] #tools{bottom:174px}#menu-options .ml-button-label{font-size:15px}.marble-learning .ml-title{font-size:16px}}
+@media(max-height:650px) and (min-width:801px){#menu-options{top:44%;gap:10px}#menu-options .ml-control{min-height:54px}#tools{top:52%}.organism-token{min-height:88px;width:80px}.organism-token svg{width:43px;height:43px}}
+
+#menu-options{top:38%;gap:9px;width:350px}#menu-options .ml-control{min-height:54px}
+#choices{top:48%;flex-direction:column;max-width:360px;width:32vw}#choices .ml-control{height:auto;min-height:54px;text-align:left;justify-content:flex-start}#choices .ml-button-label{white-space:normal}
+main[data-meadow="true"] .ml-stage{background:#245e61}
+main[data-meadow="true"] #tools{width:350px}.organism-token{width:76px;min-height:94px}.organism-token svg{width:48px;height:48px}
+#goal-ring{position:absolute;right:30px;top:275px;width:42px;height:42px;border:0;border-radius:50%;background:conic-gradient(#ffe399 var(--progress),#164452 0);box-shadow:0 0 0 1px #b5d6bb;z-index:3;cursor:help}#goal-ring:after{content:'◷';position:absolute;inset:5px;border-radius:50%;background:#164452;display:grid;place-items:center;color:#fff1cd;font-size:22px}
+#goal-ring[hidden]{display:none}
+@media(max-width:800px){
+ #menu-options{top:auto;bottom:106px;width:calc(100% - 40px);gap:9px}#menu-options .ml-control{min-height:51px}
+ #choices{top:auto;bottom:85px;left:20px;right:20px;width:auto;max-width:none;gap:10px}
+ #choices .ml-control{min-height:55px;width:100%;font-size:16px}
+ #tools,main[data-meadow="true"] #tools{width:auto;bottom:188px;gap:8px}
+ .organism-token{width:68px;min-height:80px;font-size:14px;border-radius:22px}.organism-token svg{width:38px;height:38px}
+ #tools #undo{min-height:38px;padding:5px 12px}
+ #controls .ml-control{min-height:42px;padding:7px 10px}#controls .ml-button-label{font-size:15px}
+ #goal-ring{right:20px;top:325px;width:32px;height:32px}
+ main[data-stage="learn-remove"] #tools,main[data-stage="learn-add"] #tools{bottom:90px}
+}
+@media(max-width:360px){.organism-token{width:62px;min-height:76px}#tools,main[data-meadow="true"] #tools{left:10px;right:10px;gap:6px;bottom:196px}#menu-options .ml-button-label{font-size:14px}#menu-options .ml-control{min-height:48px}#goal-ring{top:305px}}
+@media(max-height:650px) and (min-width:801px){#menu-options{top:34%;gap:7px}#menu-options .ml-control{min-height:49px}#choices{top:46%;max-width:340px}.organism-token{width:68px;min-height:80px}}
+
+
+.organism-token{height:100px;min-height:100px}.organism-token span{font-size:15px;white-space:nowrap}
+#organism-crab svg{fill:#d58d59;stroke:#51362c}#organism-slug svg{fill:#e5bb67;stroke:#4b462a}#organism-kelp svg{fill:#96b85e;stroke:#35492d}
+@media(max-width:800px){.organism-token{height:84px;min-height:84px;padding:6px 3px}.organism-token span{font-size:13px}}
+@media(max-height:650px) and (min-width:801px){.organism-token{height:84px;min-height:84px}}
+
+/* Menu text and choices share normal flow: wrapped text cannot cover buttons. */
+#lesson-panel{display:contents}
+main[data-stage="menu"] #lesson-panel{position:absolute;z-index:4;left:40px;top:110px;bottom:30px;width:min(420px,calc(100% - 80px));display:flex;flex-direction:column;gap:20px;overflow-y:auto;padding:0 8px 8px 0;box-sizing:border-box}
+main[data-stage="menu"] .ml-explanation{position:static;width:100%;max-width:none;margin:0;box-sizing:border-box;flex-shrink:0}
+main[data-stage="menu"] #menu-options{position:static;width:100%;gap:9px;flex-shrink:0}
+main[data-stage="menu"] #menu-options .ml-control{flex-shrink:0}
+#food-chain{position:absolute;left:53%;top:54%;transform:translateX(-50%);display:flex;gap:12px;align-items:center;z-index:4}
+#food-chain:empty{display:none}#food-chain .chain-slot{display:flex;flex-direction:column;gap:6px;width:100px;min-height:110px;padding:12px;border-radius:24px}#food-chain .chain-slot svg{width:45px;height:45px}.chain-arrow{font-size:30px;color:#ffedbd}
+main[data-stage="discovery-chain"] #choices{top:auto;bottom:110px;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100% - 30px);flex-direction:row}
+@media(max-width:800px){
+ main[data-stage="menu"] #lesson-panel{left:20px;top:92px;bottom:20px;width:calc(100% - 40px);gap:16px}
+ #food-chain{left:50%;top:auto;bottom:238px;gap:7px}#food-chain .chain-slot{width:78px;min-height:92px;padding:9px}#food-chain .chain-slot svg{width:34px;height:34px}.chain-arrow{font-size:23px}
+ main[data-stage="discovery-chain"] #choices{bottom:165px;left:50%;right:auto;gap:7px}main[data-stage="discovery-chain"] #choices .ml-control{width:auto;min-height:44px;padding:8px 10px}main[data-stage="discovery-chain"] #choices .ml-button-label{font-size:14px}
+}
+@media(max-width:360px){#food-chain .chain-slot{width:70px}#food-chain{gap:5px}main[data-stage="discovery-chain"] #choices .ml-control{padding:7px}}
+@media(max-height:650px) and (min-width:801px){main[data-stage="menu"] #lesson-panel{top:85px;bottom:16px;gap:12px}main[data-stage="menu"] .ml-instruction{font-size:25px}#food-chain{top:51%;left:63%}}
+
+#goal-panel[hidden],#goal-timer[hidden],#meters[hidden]{display:none}
+main[data-goals="true"] #lesson-panel{display:flex;flex-direction:column;position:absolute;z-index:3;left:40px;top:120px;width:350px;gap:16px}
+main[data-goals="true"] .ml-explanation{position:static;width:100%;max-width:none;margin:0;box-sizing:border-box}
+#goal-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+.goal-item{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1px solid #8bb4b64d;border-radius:14px;background:#143f4fe8;color:#b4c8cd;font:500 17px 'Baloo 2';line-height:1.25}
+.goal-item[data-met="true"]{background:#d8edc9;color:#173b40;border-color:#eff8d8}
+.goal-state{width:20px;flex:none;font-size:22px;font-weight:600}.goal-label{flex:1}.goal-value{font-variant-numeric:tabular-nums;flex:none;font-size:15px}
+#goal-timer{display:flex;align-items:center;gap:10px;height:26px;margin-top:10px;color:#ffe399;font-size:25px}
+.goal-timer-track{height:9px;flex:1;border-radius:8px;background:#143f4f;border:1px solid #8bb4b64d;overflow:hidden}#goal-timer-fill{height:100%;background:#ffe399;transition:width .2s}
+@media(max-width:800px){main[data-goals="true"] #lesson-panel{left:20px;top:92px;width:calc(100% - 40px);gap:10px}.goal-item{padding:6px 9px;font-size:15px;gap:7px;border-radius:11px;min-height:32px}.goal-state{font-size:18px}.goal-value{font-size:13px}#goal-list{gap:5px}#goal-timer{height:20px;margin-top:6px}}
+@media(max-height:650px) and (min-width:801px){main[data-goals="true"] #lesson-panel{top:90px;width:320px;gap:10px}main[data-goals="true"] .ml-instruction{font-size:24px}.goal-item{padding:6px 10px;font-size:15px}#goal-list{gap:5px}}
+
+@media(max-height:700px) and (min-width:801px){
+ main[data-goals="true"] #goal-panel{position:fixed;right:24px;top:100px;width:300px}
+}
+
+#cover{display:none}main[data-stage="cover"]>:not(#cover):not(.ml-header):not(#world):not(.sunlight):not(.vignette){display:none!important}
+main[data-stage="cover"] #cover{display:block;position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,#103d50ee 0%,#103d50bb 25%,#103d5000 60%)}
+main[data-stage="cover"] #world{pointer-events:none}
+main[data-stage="cover"] .ml-header{position:absolute;left:7%;top:25%;width:40%;max-width:none;z-index:3;padding:0}
+main[data-stage="cover"] .ml-title{font-size:clamp(44px,4vw,56px);line-height:1.04;letter-spacing:-1.8px;color:#fff4d9;font-weight:550;text-wrap:balance;text-shadow:0 3px 25px #103d5066}
+#cover-start{position:absolute;pointer-events:auto;left:7%;top:55%;font-size:20px;min-height:58px}
+@media(max-width:800px){main[data-stage="cover"] .ml-header{left:24px;right:24px;top:7%;width:auto}main[data-stage="cover"] .ml-title{font-size:clamp(32px,8.5vw,48px);letter-spacing:-1px;max-width:520px}main[data-stage="cover"] #cover{background:linear-gradient(180deg,#103d50bb 0%,#103d5000 40%,#103d5000 75%,#103d50bb 100%)}#cover-start{left:50%;top:auto;bottom:35px;transform:translateX(-50%);white-space:nowrap;font-size:18px}}
+@media(max-height:650px) and (min-width:801px){main[data-stage="cover"] .ml-header{top:19%}main[data-stage="cover"] .ml-title{font-size:44px}#cover-start{top:60%}}
+
+main[data-web="true"] #tools{width:440px;max-width:440px}
+#organism-star svg{fill:#e4a060;stroke:#66442e}#organism-mussel svg{fill:#8295ba;stroke:#23334f}
+@media(max-width:800px){main[data-web="true"] #tools{width:auto;max-width:none;gap:5px;bottom:170px}main[data-web="true"] .organism-token{width:calc((100vw - 64px)/5);max-width:68px}main[data-web="true"] .organism-token span{font-size:12px}main[data-web="true"] .organism-token svg{width:34px;height:34px}}
+
+</style></head>
+<body class="marble-learning" data-ml-theme="dark"><main class="ml-stage" data-stage="cover">
+<section id="cover" aria-label="Welcome"><button id="cover-start" class="ml-control ml-control--primary" type="button"></button></section>
+<div id="world" role="img" aria-description="Pinch to zoom and drag to rotate. With the scene focused, use arrow keys to rotate, plus or minus to zoom, and R to reset the view." aria-label="A living kelp forest with otters, sea urchins and sheltering fish."></div>
+<div class="sunlight"></div><div class="vignette"></div>
+<header class="ml-header"><h1 class="ml-title">What roles do otters and urchins play in a kelp forest?</h1></header>
+<div id="lesson-panel"><aside class="ml-explanation"><p class="ml-instruction" id="instruction" role="status" aria-live="polite"></p></aside><div id="menu-options"></div><section id="goal-panel" hidden aria-label="Challenge requirements"><ul id="goal-list"></ul><div id="goal-timer" hidden role="progressbar" aria-label="Goal stability timer" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span aria-hidden="true">◷</span><div class="goal-timer-track"><div id="goal-timer-fill"></div></div></div></section></div>
+<div id="toolbar"><button class="ml-control ml-control--quiet ml-control--icon-only" id="help" aria-label="Show a hint"></button><button class="ml-control" id="menu-button" aria-label="Open the forest menu"></button></div>
+<div id="meters" aria-hidden="true"></div>
+<div id="food-chain"></div><div id="tools"></div><div id="choices"></div><div id="drag-ghost" hidden aria-hidden="true"></div>
+<div id="timeline" hidden></div><div id="controls"></div><div id="run-progress"></div>
+</main><script>__APP__</script></body></html>

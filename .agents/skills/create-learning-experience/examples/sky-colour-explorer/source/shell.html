@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sky Colour Explorer</title>
+<style>
+@font-face{font-family:"Baloo 2";src:url(data:font/ttf;base64,__FONT__) format("truetype");font-weight:400 800;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#07101f;color:#141414;font-family:"Baloo 2",sans-serif}body{position:fixed;inset:0;overflow:clip}
+#world{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+header{position:absolute;z-index:2;top:24px;left:32px;max-width:calc(100% - 110px);pointer-events:none}
+#experienceTitle{font-size:14px;font-weight:450;opacity:.65;margin-bottom:6px}
+h1{font-size:21px;font-weight:500;letter-spacing:-.3px;margin:0;line-height:1.2}
+#explanation{position:absolute;z-index:2;top:24%;left:40px;width:min(28vw,390px);padding:18px 20px;border-left:4px solid #8bc8fa;background:linear-gradient(90deg,#fdfcfaed,#fdfcfa00);pointer-events:none}
+#explanation[data-side=right]{left:auto;right:40px}
+#instruction{font-size:clamp(27px,2.45vw,36px);font-weight:550;letter-spacing:-.5px;line-height:1.2;margin:0;text-wrap:pretty}
+:is(.space-view,.dark-view) #explanation{background:linear-gradient(90deg,#07101fe8,#07101f00);text-shadow:0 2px 10px #030812}
+:is(.space-view,.dark-view) #explanation[data-side=right]{background:linear-gradient(270deg,#07101fe8,#07101f00)}
+button{font:500 18px "Baloo 2",sans-serif;color:#141414;border:2px solid #242722;border-radius:22px;background:#fdfcfa;box-shadow:0 4px 0 #242722;min-height:50px;padding:10px 18px;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;touch-action:manipulation;transition:transform .12s,box-shadow .12s}
+button svg{width:23px;height:23px;flex:none;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+button:hover{background:#fff6d4;transform:translateY(-2px)}button:active{transform:translateY(3px);box-shadow:0 1px 0 #242722}
+button:focus-visible{outline:4px solid #774dc7;outline-offset:5px}
+button[aria-pressed=true]{background:#ffda72;box-shadow:0 4px 0 #242722,inset 0 0 0 3px #fff}
+button:disabled{opacity:.45;cursor:default;transform:none}button[hidden],[hidden]{display:none!important}
+.primary{background:#f42324;color:white;border-color:#8b0023;box-shadow:0 4px 0 #8b0023}.primary:hover{background:#d61922}
+#actions{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);display:flex;gap:12px;justify-content:center;align-items:center;max-width:94%;z-index:4}
+#choices{position:absolute;left:50%;bottom:110px;transform:translateX(-50%);display:flex;justify-content:center;gap:18px;z-index:4}
+#choices.in-scene{inset:0;width:100%;height:100%;transform:none;display:block;pointer-events:none}
+#choices.in-scene button{position:absolute;transform:translate(-50%,0);pointer-events:auto}
+.swatch{width:26px;height:26px;border:2px solid currentColor;border-radius:50%;display:inline-grid;place-items:center;color:#fff;font-size:18px;text-shadow:0 1px 2px #111}
+.blue{background:#217bdb}.orange{background:#e77525}
+#sunHandle{position:absolute;z-index:3;width:86px;height:86px;padding:0;border:2px dashed #735024;border-radius:50%;background:transparent;box-shadow:none;transform:translate(-50%,-50%);color:#62411b;font-size:0;touch-action:none}
+#sunHandle svg{width:25px;height:25px;position:absolute;bottom:-23px;background:#fff4cf;border:1.5px solid #735024;border-radius:50%;padding:3px}
+#sunHandle:hover{background:#fff7d52b}
+#sunHandle:focus-visible{outline-offset:8px}
+#sunHandle.guide{animation:breathe 2.2s ease-in-out infinite}
+#progress{position:absolute;top:94px;left:32px;display:flex;gap:7px;z-index:3}
+#progress i{width:9px;height:9px;background:#14141422;border-radius:50%;border:1px solid #14141433}
+#progress i.on{background:#141414}
+#reset{position:absolute;right:24px;top:22px;min-height:44px;width:44px;padding:8px;border:0;box-shadow:none;background:#ffffff80;z-index:4}
+#worldChoices{position:absolute;bottom:104px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:4}
+#worldChoices button{font-size:16px;padding:9px 14px;min-height:48px}
+.dark-view #progress i{background:#fff5df33;border-color:#fff5df66}.dark-view #progress i.on{background:#fff5df}
+.space-view header{text-shadow:0 2px 16px #030812}
+.space-view #sunHandle{border:1px solid #ffe1a52b;color:#fee3a5}
+.space-view #sunHandle svg{background:#152238;border-color:#e4ba73}
+.space-view #reset{color:#fff5df;background:#ffffff14}
+.space-view #sunHandle.guide{animation:none}
+.space-view #sunHandle:hover{border-color:#ffe1a5aa;background:transparent}
+#waveControls{position:absolute;bottom:102px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:4;max-width:96%}#waveControls button{min-height:44px;font-size:14px;padding:8px 10px;white-space:nowrap}
+@keyframes breathe{50%{outline:7px solid #fff4ce66}}
+@media(max-width:800px){
+ header{top:20px;left:20px;max-width:calc(100% - 80px)}#experienceTitle{font-size:12px;margin-bottom:4px}h1{font-size:17px}
+ #explanation,#explanation[data-side=right]{top:105px;left:20px;right:auto;width:calc(100% - 40px);padding:0 0 0 14px;border-left-width:3px;background:transparent}
+ :is(.space-view,.dark-view) #explanation,:is(.space-view,.dark-view) #explanation[data-side=right]{background:transparent}
+ #instruction{font-size:clamp(22px,5.9vw,28px);line-height:1.17;letter-spacing:-.3px}
+ #progress{top:79px;left:20px}#reset{right:12px;top:14px}#actions{bottom:22px;gap:8px;width:96%}button{font-size:16px;padding:10px 13px;border-radius:18px;gap:6px}
+ #choices{bottom:96px;gap:12px;width:94%}#worldChoices{bottom:94px;display:grid;grid-template-columns:repeat(2,1fr);width:90%}#worldChoices button{font-size:15px}#sunHandle{width:70px;height:70px}#sunHandle svg{bottom:-19px}
+}
+@media(max-height:570px) and (min-width:801px){header{top:12px}#experienceTitle{font-size:12px}h1{font-size:17px}#explanation{top:24%;padding:10px 14px}#instruction{font-size:23px}#actions{bottom:14px}#choices,#worldChoices{bottom:79px}#progress{top:68px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<canvas id="world" aria-label="A model of sunlight travelling through air to a little explorer"></canvas>
+<header><div id="experienceTitle">Sky Colour Explorer</div><h1 id="title">Blue at noon</h1></header>
+<aside id="explanation" data-side="left"><p id="instruction" aria-live="polite"></p></aside>
+<div id="progress" aria-label="Learning progress"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<button id="reset" aria-label="Start again"></button>
+<button id="sunHandle" aria-label="Move the Sun: tap to switch high and low, drag, or use arrow keys." class="guide"></button>
+<div id="choices" hidden></div>
+<div id="worldChoices" hidden></div>
+<div id="waveControls" hidden><button id="wavePause"></button><button id="waveReplay"></button></div>
+<div id="actions"></div>
+<script>__APP__</script>
+</body>
+</html>

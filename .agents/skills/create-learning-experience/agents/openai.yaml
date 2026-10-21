@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create a learning experience"
+  short_description: "Design and build learning experiences for children"
+  default_prompt: "Use $create-learning-experience to help me design and build a standalone HTML learning experience for my child."

@@ -217,6 +217,44 @@ node scripts/validate.mjs
 node --test scripts/teaching-research.test.mjs
 ```
 
+## Create a learning experience
+
+The [`create-learning-experience` agent skill](.agents/skills/create-learning-experience/SKILL.md)
+helps turn a child's age and a user-confirmed goal into a standalone HTML
+learning experience that works offline by default. It uses topic prerequisites
+and available teaching research,
+develops a targeted research brief when needed, and agrees a concept with you
+before building. Experiences use visual interactions, scaffolding, UI-assessed
+transfer tasks and optional extensions. Spatial topics use Three.js with direct
+scene manipulation and a crafted cel-shaded look with flat colors and black
+outlines. Visual simulations must meet a beauty, craft and polish bar as well as
+work correctly. The public skill includes Marble-derived UI tokens, tactile
+controls refined in Moon Visit and Sky Colour Explorer, and the openly licensed
+Baloo 2 font, with one title and one instruction
+visible at a time: a small top-left title and a large, prominent instruction or
+explanation, plus concise button labels paired with icons. [Water Lab](https://withmarble.com/water-lab) is the visual quality
+reference. The agent renders, inspects and iterates
+in the browser rather than stopping at the first working HTML file.
+
+The skill includes [five runnable examples with readable source, key-state
+screenshots and design notes](.agents/skills/create-learning-experience/references/examples.md):
+Moon Visit, Sky Colour Explorer, Hidden Cubes, Bee Builder and Otter Forest. The notes explain
+what to borrow and where each prototype has limits or exceptions.
+
+Optional connected LLM mode requires explicit author approval and a learning goal
+whose open-ended reasoning or text production cannot be adequately supported
+locally. That mode requires internet and a separate account connection; ChatGPT
+plan usage is a preview option for eligible local/open-source integrations.
+
+In Codex, open this repository and invoke `$create-learning-experience`, for example:
+
+> Use $create-learning-experience to help my 8-year-old understand why equivalent
+> fractions represent the same quantity.
+
+Other agents can follow the linked `SKILL.md` directly. No Marble account or
+hosting is required. New reusable teaching research can optionally be proposed
+as a separate PR, with no child-specific information included.
+
 ## License
 
 This dataset is **multi-licensed** — read this before you use or redistribute it.
@@ -225,6 +263,7 @@ This dataset is **multi-licensed** — read this before you use or redistribute 
 |---|---|
 | **The database** — the collection, structure, IDs, topic↔topic and topic↔standard relationships | [**ODbL 1.0**](LICENSE) — free for research **and** commercial use, **attribution** required, **share-alike** (derivative *databases* must stay open under ODbL). |
 | **The textual content Marble authored** — topic `description`/`name`/`evidence`/`assessmentPrompt`, dependency `reason`s, cluster `summary`s, original teaching-research prose | [**CC BY-SA 4.0**](LICENSE-CONTENT) — same spirit: attribution + share-alike. |
+| **Marble-authored learning examples** — application source, original artwork, captures and design notes | [**CC BY-SA 4.0**](LICENSE-CONTENT). Bundled Three.js and Baloo 2 retain their separate MIT and OFL licenses and notices. |
 | **`curriculum-standards.json`** — extracted from third-party frameworks | **Not** Marble's to relicense. Each source is under **its own upstream license** — see [**PROVENANCE.md**](PROVENANCE.md). |
 
 **Why share-alike + still commercial-friendly:** ODbL distinguishes a *derivative database* (extend/modify the taxonomy → must stay open) from a *produced work* (use it inside a product, model, or app → stays yours). So you can build a commercial product on this without open-sourcing your product; you only owe back improvements to the *taxonomy itself*.
