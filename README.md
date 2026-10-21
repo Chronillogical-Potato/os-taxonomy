@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,783 · **Prerequisite edges:** 3,722 · **Subjects:** 8
+> **Version:** `v1` · **Topics:** 1,837 · **Prerequisite edges:** 3,853 · **Subjects:** 9
 
 ## See it
 
@@ -15,10 +15,10 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,783 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,722 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,837 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,853 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 734 topics have no research in this release.
+- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 788 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
@@ -26,11 +26,12 @@ Most curriculum data is either a flat list of standards or locked inside a produ
 | Subject | Topics |
 |---|---:|
 | Science | 571 |
-| Mathematics | 590 |
+| Mathematics | 587 |
 | English | 368 |
-| History | 90 |
-| Personal & Social Development | 88 |
-| Life Skills | 37 |
+| History | 112 |
+| Geography | 21 |
+| Personal & Social Development | 101 |
+| Life Skills | 38 |
 | Computing | 21 |
 | Learning to Learn | 18 |
 
@@ -73,11 +74,12 @@ Australian Science has 245 topic alignments across 131 topics. All
 and review of practical investigations, measurements, data, scientific
 communication and Australian contexts. This batch adds 24 Science topics.
 
-Australian HASS (Humanities and Social Sciences) has 147 topic alignments across
-68 topics: 39 of its 89 standards are fully covered, 23 partly covered,
-and 27 missing. Its
-[coverage report](reports/acara-v9-hass-coverage.md) lists every standard,
-matched topic and remaining gap.
+Australian HASS (Humanities and Social Sciences) has 210 topic alignments across
+124 topics. All 89 Foundation–Year 6 content descriptions are fully covered
+in the [coverage report](reports/acara-v9-hass-coverage.md). HASS is a curriculum
+grouping mapped onto the shared History, Geography, Personal & Social Development
+and Life Skills subjects. The [authoring review](reports/acara-v9-hass-authoring-review.md)
+records the reuse, topic splits and subject/domain decisions.
 
 Selected Australian Health content has 84 topic alignments across 52 existing
 topics. Of the 32 Personal, social and community health standards, 11 are fully
@@ -97,6 +99,22 @@ and 0 missing. The
 [coverage report](reports/acara-v9-design-technologies-coverage.md) lists every
 standard, linked topic and remaining gap.
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
+
+### Adding curricula
+
+Curricula map onto one shared taxonomy. Keep subjects and domains consistent
+across countries; a curriculum's learning-area labels do not create separate
+subject trees.
+
+- Reuse a topic when it teaches the same concept or skill, and extend it where
+  needed to cover another curriculum's requirements.
+- Reuse existing domains before adding a distinct new domain. Keep names
+  consistent and avoid parallel country-specific domain trees.
+- Keep each topic focused on a teachable concept or skill. A standard can link
+  to several topics; its bundled requirements need not become one topic.
+- Add country-specific topics where the knowledge genuinely differs, such as a
+  country's history or constitutional arrangements. Use shared topics for common
+  concepts and skills, with local examples where useful.
 
 ### A topic
 
@@ -138,7 +156,7 @@ See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It covers **547 Science**
 and **502 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
-make the **734 topics without research** explicit; absence is not a judgement
+make the **788 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
 [`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.
