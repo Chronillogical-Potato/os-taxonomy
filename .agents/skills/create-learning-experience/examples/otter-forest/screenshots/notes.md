@@ -13,6 +13,7 @@ not physical-device or child-use evidence.
 | [lesson-entry.png](lesson-entry.png) | Recover the forest challenge, paused before intervention, reached through the investigation menu; not the initial discovery scene. |
 | [narrow-lesson.png](narrow-lesson.png) | Same paused rescue challenge on mobile, reached through the menu. |
 | [interaction.png](interaction.png) | Share a rocky coast challenge running after an actual mussel-token intervention; five organism types and goal requirements are visible. |
+| [camera-gesture.png](camera-gesture.png) | Rescue challenge after a real scene drag, wheel zoom, keyboard reset and subsequent arrow rotation; organism edits remain unchanged by these camera gestures. |
 | [assessment.png](assessment.png) | First rescue reflection question, before any response, with the goal flag arranged as described below. |
 | [feedback.png](feedback.png) | Explanatory feedback after an actual incorrect, unassisted response to that question. |
 | [vocabulary.png](vocabulary.png) | Otter definition opened from the rescue challenge's organism-token word; edits remain unchanged. |
@@ -20,16 +21,27 @@ not physical-device or child-use evidence.
 
 ## Bounded validation
 
-The exact snapshot and the independently rebuilt portable page both passed
-sampled real-control checks: start, otter/urchin discovery scenes, investigation
-menu, pause/resume, organism addition, matched-time comparison, replay, rocky
-coast and meadow trays, vocabulary gesture isolation, and reflection evidence.
-The comparison branches reported equal elapsed model time. Replay returned a
-fresh start. A wrong response remained incorrect and unassisted; a later
-correct response after explicit Help remained assisted. Definitions did not
-submit responses or change edits. Embedded Baloo 2 loaded; no browser console
-or runtime errors, remote requests, unresolved build placeholders or external
-script/module imports were observed in these checks.
+The current camera update passed 40 bounded assertions against the exact
+snapshot and independently rebuilt portable page. Real input checked desktop
+drag rotation, wheel zoom, keyboard arrows and plus/minus zoom, and R reset.
+Dragging back to the starting point did not become a delete tap. On an emulated
+mobile viewport, a two-finger pinch changed scene zoom without changing page
+scale or organism edits. Lifting one finger, moving the surviving finger away
+and back, then lifting it also caused no deletion. An ordinary organism tap
+still removed one organism, and a tray icon still added one.
+
+The same pass sampled cover/discovery/menu controls, vocabulary gesture
+isolation, equal elapsed times in comparison branches, replay to a fresh
+start, and a wrong unassisted reflection response after the disclosed setup.
+The refreshed interaction capture uses an actual rocky-coast mussel addition.
+Earlier canonical-import checks additionally covered the meadow tray and a
+correct response after Help remaining assisted; these were not exhaustively
+repeated for the camera-only change.
+
+All nine original captures were refreshed from the current snapshot, and the
+camera-gesture image was added. Embedded Baloo 2 loaded, and the current pass
+observed no browser console/runtime errors or remote requests. This is a
+browser-input smoke check, not testing on physical touch hardware.
 
 ## Arranged reflection state
 

@@ -186,6 +186,10 @@ export function createView(host){
  const bubbleMat=new T.MeshBasicMaterial({color:0xbbe4cb,transparent:true,opacity:.4,wireframe:true});
  for(let i=0;i<15;i++)mesh(new T.SphereGeometry(.04+(i%3)*.02,6,4),bubbleMat,bubbles,[0,0,0],[1,1,1],false);
  let width=0,height=0,lastWorld=null,focus=null,targetFocus=null;
+ const orbit={zoom:1,yaw:0,tilt:0};
+ const zoomBy=factor=>{targetFocus=null;orbit.zoom=Math.max(.65,Math.min(3.5,orbit.zoom*factor));};
+ const rotateBy=(dx,dy)=>{targetFocus=null;orbit.yaw-=dx*.008;orbit.tilt=Math.max(-.4,Math.min(.55,orbit.tilt+dy*.005));};
+ const resetView=()=>{targetFocus=null;orbit.zoom=1;orbit.yaw=orbit.tilt=0;};
  function defaultPose(){return width<800?{pos:new T.Vector3(35,37,53),look:new T.Vector3(0,2.6,0)}:{pos:new T.Vector3(21,17.5,32),look:new T.Vector3(-4.2,2.3,0)};}
  const raycaster=new T.Raycaster(),pointer=new T.Vector2();
  function resize(){
@@ -207,7 +211,13 @@ export function createView(host){
    camera.position.lerp(new T.Vector3(targetFocus.x+(grazer?4:mobile?9:6),y+(grazer?3.2:7),targetFocus.z+(grazer?7:mobile?16:11)),reduced?1:.14);
    const look=new T.Vector3(targetFocus.x-(mobile?0:grazer?1.4:2.5),y+.35,targetFocus.z);focus=focus?focus.lerp(look,reduced?1:.14):look;
   }else{
-   const {pos,look}=defaultPose();camera.position.lerp(pos,reduced?1:.14);
+   const {pos,look}=defaultPose();
+   // Orbit the reef itself; retain the desktop composition offset at the default view.
+   const pivot=new T.Vector3(0,2.6,0),offset=pos.clone().sub(pivot),spherical=new T.Spherical().setFromVector3(offset);
+   spherical.radius/=orbit.zoom;spherical.theta+=orbit.yaw;spherical.phi=Math.max(.3,Math.min(1.35,spherical.phi+orbit.tilt));
+   pos.copy(pivot).add(new T.Vector3().setFromSpherical(spherical));
+   look.lerp(pivot,Math.min(1,Math.max(0,(orbit.zoom-1)/.5)));
+   camera.position.lerp(pos,reduced?1:.2);
    focus=focus?focus.lerp(look,reduced?1:.14):look;
   }
   camera.lookAt(focus);camera.updateMatrixWorld();
@@ -289,5 +299,5 @@ export function createView(host){
  function highlight(x,z){ring.position.set(x,.25,z);ring.visible=true;}
  function project(x,y,z){const p=new T.Vector3(x,y,z).project(camera);return {x:(p.x*.5+.5)*width,y:(-.5*p.y+.5)*height};}
  resize();camera.position.set(22,21,34);window.addEventListener('resize',resize);
- return {renderer,scene,camera,resize,sync,pick,highlight,clearHighlight:()=>ring.visible=false,inspect:p=>{targetFocus=p;},project,stats:()=>renderer.info.render,canvas:renderer.domElement};
+ return {renderer,scene,camera,resize,sync,pick,highlight,zoomBy,rotateBy,resetView,viewState:()=>({...orbit}),clearHighlight:()=>ring.visible=false,inspect:p=>{targetFocus=p;},project,stats:()=>renderer.info.render,canvas:renderer.domElement};
 }

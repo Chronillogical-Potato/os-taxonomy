@@ -112,12 +112,12 @@
     },
     "otter-forest": {
       "originalHtml": "otter-forest.html",
-      "htmlSha256": "2836fc166bc21496b459efec939d7a0529b6fea930324f671e5c6d8a95a92849",
+      "htmlSha256": "165076f7f7c535049c3ce9d7508907c2b41195d3a65baed13c3424aab57be88a",
       "sourceFolder": "kelp-development",
       "files": {
         "app.js": {
-          "originalSha256": "917b74fd25753e8629bdb9569deaf14d9699bd8ec74c60ab4da554b3fe115794",
-          "portableSha256": "917b74fd25753e8629bdb9569deaf14d9699bd8ec74c60ab4da554b3fe115794"
+          "originalSha256": "14072db22885239f2f1a07db769ca789badff112efa4dda309bd0a42d9cd9eb7",
+          "portableSha256": "14072db22885239f2f1a07db769ca789badff112efa4dda309bd0a42d9cd9eb7"
         },
         "model.mjs": {
           "originalSha256": "5cb094af81f8ae85e0080c209773a8ae28863a0537e0d12b7f9a0eea11807a10",
@@ -128,8 +128,8 @@
           "portableSha256": "165ab38382a5627f864add5c0b17caf088c7e93763f8bb473974093b8d951cd4"
         },
         "visuals.js": {
-          "originalSha256": "0e65d3b311e17b29a1507895240c860a59c8b7906779486100e9824e0622e51d",
-          "portableSha256": "af9658ff5cf1b44da5f45f88bfc84ec1d66da2adc815f432e6d51fcca24b48d0"
+          "originalSha256": "45cfaa22c58629d078c546a89ba45ac0150de615649d3f430fc993fbae609fbf",
+          "portableSha256": "2003c7d62c3143aa7d0371c9b1f373ca5d707d74b130b762e9f7e11e63ff267a"
         },
         "otter-animation.mjs": {
           "originalSha256": "e73b558f2c7a17a195402199164937561c34716730d2edc02db21cd0993818c5",
@@ -140,8 +140,8 @@
           "portableSha256": "7f5e94ac54cf89ab605ab5170c4f31e5ed7f4f9c06f3113cc37c96ab35d461fe"
         },
         "shell.html": {
-          "originalSha256": "865dd81c847aa74d3f68767884e9389204b0ecc965d105d7ace6459ffd928c33",
-          "portableSha256": "865dd81c847aa74d3f68767884e9389204b0ecc965d105d7ace6459ffd928c33"
+          "originalSha256": "6071c5d9d9cc07ff9cd6a7fa64e2da6bd5a631e65c7a2bb13bc83eab3ca66574",
+          "portableSha256": "6071c5d9d9cc07ff9cd6a7fa64e2da6bd5a631e65c7a2bb13bc83eab3ca66574"
         }
       }
     }

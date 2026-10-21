@@ -41,6 +41,10 @@ exploration also offers all three ecosystems without assessment.
 
 Drag or tap tray organisms to add them, and tap life in the water to remove it.
 Keyboard alternatives support adding and removing without precise dragging.
+Drag the water to orbit the reef; pinch or use the mouse wheel to zoom. With
+the scene focused, arrow keys rotate, plus/minus zoom, and R resets the view.
+Once a drag or pinch begins, releasing a finger does not become a removal tap.
+Starting discovery restores the default view.
 Pause and speed controls make slow changes inspectable. Explicit goal
 requirements and an observation timer show what must persist together. Editing
 resets the held-goal interval. An achieved goal records a past observation; it
@@ -84,7 +88,8 @@ update without rebuilding their labels, preserving an open definition.
 - [Application](source/app.js): discovery, intervention controls, session state,
   matched-time comparison, replay and separate reflection evidence.
 - [Visuals](source/visuals.js) and [animation](source/otter-animation.mjs):
-  procedural underwater artwork, animal poses and scene picking.
+  procedural underwater artwork, animal poses, scene picking and bounded
+  orbit/zoom controls.
 - [Shell](source/shell.html): responsive layout and topic-specific goal UI.
 
 ## Limits and exceptions
