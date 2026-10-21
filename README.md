@@ -67,6 +67,12 @@ clusters.
 Australian Science has 208 topic alignments across 103 existing topics: 43 of
 its 77 standards are fully covered, 33 partly covered, and 1 missing. Its
 [coverage report](reports/acara-v9-science-coverage.md) lists every standard,
+matched topic and remaining gap.
+
+Australian HASS (Humanities and Social Sciences) has 144 topic alignments across
+66 existing topics: 39 of its 89 standards are fully covered, 23 partly covered,
+and 27 missing. Its
+[coverage report](reports/acara-v9-hass-coverage.md) lists every standard,
 matched topic and remaining gap. Other Australian subjects currently have source
 standards only.
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
