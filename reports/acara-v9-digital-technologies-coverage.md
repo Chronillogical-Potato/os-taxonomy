@@ -1,16 +1,16 @@
 # Australian Curriculum v9: Digital Technologies coverage
 
-Reviewed 21 October 2026 against all 38 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 50 alignments across 33 topics.
+Reviewed 21 October 2026 against all 38 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 53 alignments across 36 topics.
 
-**5 standards are fully covered, 21 partly covered, and 12 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
+**6 standards are fully covered, 20 partly covered, and 12 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
 
 | Year band | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
 | Foundation | 1 | 2 | 0 | 3 |
-| Years 1–2 | 1 | 6 | 2 | 9 |
+| Years 1–2 | 2 | 5 | 2 | 9 |
 | Years 3–4 | 2 | 7 | 3 | 12 |
 | Years 5–6 | 1 | 6 | 7 | 14 |
-| **Total** | **5** | **21** | **12** | **38** |
+| **Total** | **6** | **20** | **12** | **38** |
 
 ## Foundation
 
@@ -29,7 +29,7 @@ Reviewed 21 October 2026 against all 38 ACARA v9 Foundation–Year 6 content des
 | `AC9TDI2P01` | Missing | — | No topic has children investigate simple problems for known users that could be solved with digital systems (the existing design-problem topics are pitched at Years 3-6 and are not digital). |
 | `AC9TDI2P02` | Partial | Step-by-Step Instructions (`mt__p5n8z5soJ`) | Following and describing a sequence of steps and predicting what goes wrong if a step is missing (_p5n8z5soJ) is covered; branching (decisions) and iteration (repetition) are not. |
 | `AC9TDI2P03` | Partial | AI in Daily Life (`mt_AzTrT5ySCx`); Voice Assistants and How They Work (`mt_u6SYiVx7FX`) | Describing how everyday digital technologies help people and where they fall short (AzTrT5ySCx, u6SYiVx7FX) is covered; discussing how an existing system satisfies the identified needs of specific known users is not. |
-| `AC9TDI2P04` | Partial | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`) | Creating and communicating content by typing and publishing on a computer or tablet (nYU6x2E2T8) is covered; locating content with digital tools (opening/finding files, simple searching) is not. |
+| `AC9TDI2P04` | Full | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Menus and links on websites (`mt_YrDlg_J4kQ`); Making new versions of stories (`mt_cB_j7towTD`) | — |
 | `AC9TDI2P05` | Partial | Everyday Safety Awareness (`mt_q3vRl4dddK`); Basic digital citizenship (`mt_zIzJGkaj0Q`) | Agreed online behaviours and turning to trusted adults (q3vRl4dddK, zIzJGkaj0Q) are covered; using digital tools to share content, plan tasks and collaborate (shared documents, online workspaces, digital planning tools) is not taught; group-work topics are non-digital. |
 | `AC9TDI2P06` | Missing | — | No topic covers logging in to a school account with a recorded username and password. |
 | `AC9TDI2P07` | Partial | Recommendation Systems and Filter Bubbles (`mt_EedcpioR0v`) | That websites and apps track and store what users click to make recommendations (EedcpioR0v) is covered; that apps store personal data such as names, photos and locations online is not explicit at Years 1-2 level (mt_HopZomN12L covers personal data collection but is pitched at the Years 3-6 level and linked there). |
@@ -46,7 +46,7 @@ Reviewed 21 October 2026 against all 38 ACARA v9 Foundation–Year 6 content des
 | `AC9TDI4P03` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Modelling with Sketches (`mt_hi8cVycbwn`) | Transferable design skills - generating and comparing possible solutions against criteria (HveO1bOXpJ) and communicating a design as a sketch or model (hi8cVycbwn) - are covered; designing a digital solution (e.g. storyboarding or sketching the screens, inputs, outputs and steps of a game, app or program) is not assessed - the linked design topics concern physical products, general solutions or business ideas. |
 | `AC9TDI4P04` | Missing | — | No topic has children implement algorithms as visual (block-based) programs with control structures and user input. |
 | `AC9TDI4P05` | Partial | Comparing Possible Solutions (`mt_HveO1bOXpJ`); Fair testing (age 8+) (`mt_eoPcc4nrBE`) | Judging how general/physical solutions meet design criteria through comparison and prototype testing (HveO1bOXpJ, eoPcc4nrBE) is covered; discussing how existing digital systems and students' own digital solutions satisfy design criteria is not, and no topic covers user stories (writing or co-creating "As a ..., I want ..., so that ..." statements to describe user needs). |
-| `AC9TDI4P06` | Partial | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Short Research Projects (`mt_FW9_8F52bw`) | Creating and publishing content on a computer or tablet (nYU6x2E2T8) and locating information in digital sources (FW9_8F52bw) are covered; using core features of common digital tools (formatting text, inserting images, saving, naming and organising files) and following agreed conventions are not assessed at Years 3-4 level. mt_AHAFw-atka was removed after review: it is pitched at Years 5-6 and its evidence does not require digital formatting. |
+| `AC9TDI4P06` | Partial | Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Short Research Projects (`mt_FW9_8F52bw`); Making multimodal texts (`mt_AHXePdicRf`) | Creating and publishing content on a computer or tablet (nYU6x2E2T8), locating information in digital sources (FW9_8F52bw), and formatting text and inserting images in a digital tool to suit purpose (AHXePdicRf, English multimodal texts) are covered; saving, naming and organising files and following agreed conventions for digital work are not assessed at Years 3-4 level. |
 | `AC9TDI4P07` | Partial | Basic digital citizenship (`mt_zIzJGkaj0Q`) | Agreed online behaviours and what to do if something online is uncomfortable (zIzJGkaj0Q) are covered; using digital tools to share content, plan tasks and collaborate (shared documents, online workspaces, digital planning tools) is not taught; group-work topics are non-digital. |
 | `AC9TDI4P08` | Missing | — | No topic covers logging in with a memorised password or explaining why a password should be easy to remember but hard to guess. |
 | `AC9TDI4P09` | Partial | AI Data Collection and Privacy (`mt_HopZomN12L`); Basic digital citizenship (`mt_zIzJGkaj0Q`); Scams & Online Safety (`mt_W5euSyU2sO`) | General knowledge of what personal data online services collect and why (HopZomN12L), protecting personal information (zIzJGkaj0Q) and online risks such as scams (W5euSyU2sO) are covered; identifying what personal data is stored and shared in the child's own online accounts (e.g. profile details, photos, location, contacts in a school or game account) is not. |

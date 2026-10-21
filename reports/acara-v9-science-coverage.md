@@ -1,19 +1,19 @@
 # Australian Curriculum v9: Science coverage
 
-Reviewed 21 October 2026 against all 77 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 210 alignments across 105 topics.
+Reviewed 21 October 2026 against all 77 ACARA v9 Foundation–Year 6 content descriptions. The current mapping has 211 alignments across 106 topics.
 
-**45 standards are fully covered, 31 partly covered, and 1 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
+**46 standards are fully covered, 30 partly covered, and 1 missing.** Full means the linked topics collectively teach every required part at the expected level, including practical use of materials and digital tools where required. Individual links can cover only part of a standard.
 
 | Year | Full | Partial | Missing | Total |
 |---|---:|---:|---:|---:|
 | Foundation | 6 | 2 | 1 | 9 |
 | Year 1 | 5 | 5 | 0 | 10 |
 | Year 2 | 4 | 6 | 0 | 10 |
-| Year 3 | 6 | 6 | 0 | 12 |
+| Year 3 | 7 | 5 | 0 | 12 |
 | Year 4 | 9 | 3 | 0 | 12 |
 | Year 5 | 8 | 4 | 0 | 12 |
 | Year 6 | 7 | 5 | 0 | 12 |
-| **Total** | **45** | **31** | **1** | **77** |
+| **Total** | **46** | **30** | **1** | **77** |
 
 ## Foundation
 
@@ -70,7 +70,7 @@ Reviewed 21 October 2026 against all 77 ACARA v9 Foundation–Year 6 content des
 | `AC9S3I03` | Full | Measuring accurately (`mt_nUnowllzaN`); Recording Data (`mt_ZFwPZaDJ0_`) | — |
 | `AC9S3I04` | Full | Gathering, recording, classifying and presenting data (`mt_7IFpDVNsmt`); Using evidence to answer questions (`mt_CVywzrjT_c`); Drawing Life Cycle Diagrams (`mt_7EqhgErJyU`) | — |
 | `AC9S3I05` | Partial | Drawing conclusions from evidence (`mt_7VrR1GzhrN`); Fair testing (`mt_qgb76wHN2X`); Using evidence to answer questions (`mt_CVywzrjT_c`) | Drawing conclusions, judging fairness and suggesting further tests are covered; comparing one's own observations/findings/methods with those of others is not taught. |
-| `AC9S3I06` | Partial | Drawing conclusions from evidence (`mt_7VrR1GzhrN`); Choosing Form and Tone for Your Audience (`mt_v5DyOEpbbr`); Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`) | Reporting findings, choosing form/tone for an audience and purpose (English), and publishing with digital tools (English) are covered; using scientific vocabulary when communicating findings is not assessed at Year 3 level. |
+| `AC9S3I06` | Full | Drawing conclusions from evidence (`mt_7VrR1GzhrN`); Choosing Form and Tone for Your Audience (`mt_v5DyOEpbbr`); Sharing and Publishing Your Writing (`mt_nYU6x2E2T8`); Precise words in presentations (`mt_gBK8uXQlQW`) | — |
 | `AC9S3U01` | Full | Living, Dead & Never Alive (`mt_Sa48W7KXB5`); Living Things Vocabulary (`mt_zexbopQjG0`); Life Cycles of Organisms (`mt_4IVWRAZoNC`); Drawing Life Cycle Diagrams (`mt_7EqhgErJyU`) | — |
 | `AC9S3U02` | Partial | Properties of materials (`mt_R6YoRXkRxS`); Rocks and soil (`mt_yhhprm7dZK`) | Comparing properties of rocks and of soils is covered; properties of minerals and why soils, rocks and minerals are important Earth resources are not. |
 | `AC9S3U03` | Partial | How energy travels around (`mt_X_aDUBh-HF`); Measuring accurately (`mt_nUnowllzaN`) | Heat as energy moving from a source to a destination (e.g. a radiator warming a room, X_aDUBh-HF) and measuring temperature with a thermometer (nUnowllzaN) are covered; identifying a range of heat sources (sun, fire, heaters, friction, bodies) and examining how the temperatures of both objects change as heat moves from the hotter to the cooler one are not. |
