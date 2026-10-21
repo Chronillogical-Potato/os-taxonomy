@@ -24,10 +24,25 @@ button.control svg{width:24px;height:24px;flex-shrink:0}button.control:hover{bac
 @media(max-width:800px){header{left:20px;top:20px;max-width:calc(100% - 80px)}#experienceTitle{font-size:12px;margin-bottom:4px}h1{font-size:17px}.progress{top:79px;left:20px}#restart{right:12px;top:14px}#explanation{top:105px;left:20px;width:calc(100% - 40px);padding:0 0 0 14px;border-left-width:3px;background:transparent}#instruction{font-size:clamp(22px,5.9vw,28px);line-height:1.17;letter-spacing:-.3px}#world{inset:180px -30px 176px}#scene{width:min(100%,1050px)}#controls{bottom:22px;left:14px;right:14px;gap:8px}button.control{font-size:16px;padding:10px 13px;min-height:50px;border-radius:18px;gap:6px}button.control svg{width:23px;height:23px}#controls .primary{flex-basis:auto}main{min-height:650px}}
 @media(max-height:700px) and (min-width:801px){header{top:14px}#experienceTitle{font-size:12px}h1{font-size:17px}.progress{top:75px}#explanation{top:24%;padding:10px 14px}#instruction{font-size:27px}#world{top:90px;bottom:105px}#controls{bottom:25px}main{min-height:560px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Opening cover is a question-led illustrated composition, before the lesson UI. */
+#cover{position:absolute;inset:0;z-index:10;overflow:hidden;background:#f8f5eb}
+#cover[hidden]{display:none}main[data-screen="cover"]{min-height:0}main[data-screen="cover"]>:not(#cover){display:none!important}
+.cover-copy{position:absolute;z-index:2;left:7%;top:29%;width:43%;pointer-events:none}
+#coverQuestion{font-size:clamp(52px,5.8vw,84px);font-weight:550;line-height:1.02;letter-spacing:-1.8px;text-wrap:balance;color:#253e38;margin:0;max-width:620px}
+#coverStart{margin-top:32px;min-height:58px;padding:13px 23px;font-size:20px;pointer-events:auto}
+#coverArt{position:absolute;right:-5%;top:0;width:65%;height:100%;overflow:visible;pointer-events:none}
+@media(max-width:800px){.cover-copy{left:24px;right:24px;top:9%;width:auto}#coverQuestion{font-size:clamp(39px,10.8vw,60px);max-width:550px;line-height:1.04;letter-spacing:-1px}#coverArt{top:27%;right:-9%;width:118%;height:59%}#coverStart{position:fixed;bottom:44px;left:50%;transform:translateX(-50%);margin:0;white-space:nowrap;font-size:18px}#coverStart:hover{transform:translate(-50%,-2px)}#coverStart:active{transform:translate(-50%,4px)}}
+@media(max-height:650px) and (min-width:801px){.cover-copy{top:23%}#coverQuestion{font-size:56px}#coverStart{margin-top:24px}}
 </style>
 </head>
 <body>
-<main aria-label="Bee builder activity">
+<main aria-label="Bee builder activity" data-screen="cover">
+<section id="cover" aria-labelledby="coverQuestion">
+  <svg id="coverArt" viewBox="0 0 800 760" aria-hidden="true"></svg>
+  <div class="cover-copy"><h1 id="coverQuestion">Why do bees use hexagons?</h1>
+  <button id="coverStart" class="control primary" type="button"></button></div>
+</section>
 <header><div id="experienceTitle">Bee builder</div><h1 id="stageTitle">Rooms without gaps</h1></header>
 <div class="progress" role="img" aria-label="Explore shapes, compare wax, make predictions, finish"><i></i><i></i><i></i><i></i></div>
 <button id="restart" aria-label="Start again">↻</button>

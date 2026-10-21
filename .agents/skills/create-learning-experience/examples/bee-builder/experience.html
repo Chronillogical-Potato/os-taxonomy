@@ -24,6 +24,16 @@ button.control svg{width:24px;height:24px;flex-shrink:0}button.control:hover{bac
 @media(max-width:800px){header{left:20px;top:20px;max-width:calc(100% - 80px)}#experienceTitle{font-size:12px;margin-bottom:4px}h1{font-size:17px}.progress{top:79px;left:20px}#restart{right:12px;top:14px}#explanation{top:105px;left:20px;width:calc(100% - 40px);padding:0 0 0 14px;border-left-width:3px;background:transparent}#instruction{font-size:clamp(22px,5.9vw,28px);line-height:1.17;letter-spacing:-.3px}#world{inset:180px -30px 176px}#scene{width:min(100%,1050px)}#controls{bottom:22px;left:14px;right:14px;gap:8px}button.control{font-size:16px;padding:10px 13px;min-height:50px;border-radius:18px;gap:6px}button.control svg{width:23px;height:23px}#controls .primary{flex-basis:auto}main{min-height:650px}}
 @media(max-height:700px) and (min-width:801px){header{top:14px}#experienceTitle{font-size:12px}h1{font-size:17px}.progress{top:75px}#explanation{top:24%;padding:10px 14px}#instruction{font-size:27px}#world{top:90px;bottom:105px}#controls{bottom:25px}main{min-height:560px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Opening cover is a question-led illustrated composition, before the lesson UI. */
+#cover{position:absolute;inset:0;z-index:10;overflow:hidden;background:#f8f5eb}
+#cover[hidden]{display:none}main[data-screen="cover"]{min-height:0}main[data-screen="cover"]>:not(#cover){display:none!important}
+.cover-copy{position:absolute;z-index:2;left:7%;top:29%;width:43%;pointer-events:none}
+#coverQuestion{font-size:clamp(52px,5.8vw,84px);font-weight:550;line-height:1.02;letter-spacing:-1.8px;text-wrap:balance;color:#253e38;margin:0;max-width:620px}
+#coverStart{margin-top:32px;min-height:58px;padding:13px 23px;font-size:20px;pointer-events:auto}
+#coverArt{position:absolute;right:-5%;top:0;width:65%;height:100%;overflow:visible;pointer-events:none}
+@media(max-width:800px){.cover-copy{left:24px;right:24px;top:9%;width:auto}#coverQuestion{font-size:clamp(39px,10.8vw,60px);max-width:550px;line-height:1.04;letter-spacing:-1px}#coverArt{top:27%;right:-9%;width:118%;height:59%}#coverStart{position:fixed;bottom:44px;left:50%;transform:translateX(-50%);margin:0;white-space:nowrap;font-size:18px}#coverStart:hover{transform:translate(-50%,-2px)}#coverStart:active{transform:translate(-50%,4px)}}
+@media(max-height:650px) and (min-width:801px){.cover-copy{top:23%}#coverQuestion{font-size:56px}#coverStart{margin-top:24px}}
 </style>
 <script type="text/plain" id="font-license">﻿Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)
 
@@ -363,7 +373,12 @@ Copyright 2026 Alex Greenshpun
    limitations under the License.
 </script></head>
 <body>
-<main aria-label="Bee builder activity">
+<main aria-label="Bee builder activity" data-screen="cover">
+<section id="cover" aria-labelledby="coverQuestion">
+  <svg id="coverArt" viewBox="0 0 800 760" aria-hidden="true"></svg>
+  <div class="cover-copy"><h1 id="coverQuestion">Why do bees use hexagons?</h1>
+  <button id="coverStart" class="control primary" type="button"></button></div>
+</section>
 <header><div id="experienceTitle">Bee builder</div><h1 id="stageTitle">Rooms without gaps</h1></header>
 <div class="progress" role="img" aria-label="Explore shapes, compare wax, make predictions, finish"><i></i><i></i><i></i><i></i></div>
 <button id="restart" aria-label="Start again">↻</button>
@@ -554,10 +569,40 @@ function showFinish(){clear();const correct=state.responses.length===2&&state.re
  button('practice','Explore again','again',()=>{state.stage='pack';state.shape='circle';state.packMessage=null;showPack();});
  button('triangles','Try triangles','triangle',startTriangles,{primary:true});
 }
-function restart(){state={stage:'pack',shape:'circle',seen:new Set(['circle']),packMessage:null,unwrapped:false,animating:false,responses:[],choice:null,revealed:false,hint:false,assisted:false,round:0};showPack();}
+function coverIllustration(){
+ const art=document.getElementById('coverArt');
+ // A cut-away honeycomb with a deliberate irregular edge, botanical framing and one original bee.
+ let comb='';
+ const radius=66,area=3*Math.sqrt(3)/2*radius*radius;
+ for(let row=-2;row<=2;row++)for(let col=-2;col<=2;col++){
+  if(Math.abs(row)+Math.abs(col)>3||(row===-2&&col===1)||(row===2&&col===-1))continue;
+  const x=442+col*Math.sqrt(3)*radius+((row%2)?Math.sqrt(3)*radius/2:0),y=361+row*radius*1.5;
+  comb+=cell('hex',x,y,area,{thin:true});
+ }
+ art.innerHTML=`<path d="M175 198C231 86 483 58 635 144C794 234 826 464 687 604C580 713 356 711 215 600C77 491 91 359 175 198Z" fill="#eddfb9"/>
+ <path d="M174 606C122 557 103 478 128 409M162 572C99 573 66 544 68 510C117 507 150 532 162 572ZM137 515C83 493 70 452 89 425C131 441 148 473 137 515ZM128 462C90 420 99 376 124 362C152 394 149 433 128 462Z" fill="#9cac8d" stroke="#526c58" stroke-width="2.4" stroke-linejoin="round"/>
+ <path d="M654 540C709 516 747 470 748 408M704 502C704 454 724 429 759 434C763 470 740 493 704 502ZM737 453C712 417 719 382 748 371C773 400 765 428 737 453Z" fill="#b8c4a4" stroke="#637b60" stroke-width="2.4" stroke-linejoin="round"/>
+ <g transform="rotate(-9 442 361)">${comb}</g>
+ <path d="M236 634Q431 688 663 620Q581 702 347 690Z" fill="#d8cfb7" opacity=".45"/>
+ ${flower(200,602,1.5,-28)}${flower(689,161,1.1,22)}${flower(713,574,.85,17)}
+ ${bee(293,235,2.35)}`;
+}
+function showCover(){
+ cancelAnimationFrame(raf);serial++;controls.replaceChildren();scene.replaceChildren();
+ document.querySelector('main').dataset.screen='cover';document.getElementById('cover').hidden=false;
+ document.getElementById('coverStart').innerHTML=icon('arrow')+'<span>Let’s find out</span>';
+ coverIllustration();
+}
+function enterExperience(){
+ if(state.stage!=='cover')return;
+ state.stage='pack';document.getElementById('cover').hidden=true;document.getElementById('coverArt').replaceChildren();document.querySelector('main').dataset.screen='lesson';showPack();
+ document.getElementById('shape-circle').focus({preventScroll:true});
+}
+function restart(){state={stage:'cover',shape:'circle',seen:new Set(['circle']),packMessage:null,unwrapped:false,animating:false,responses:[],choice:null,revealed:false,hint:false,assisted:false,round:0};showCover();}
 document.getElementById('restart').innerHTML=icon('again');
-document.getElementById('restart').onclick=restart;
-addEventListener('resize',fit);
+document.getElementById('restart').onclick=()=>{restart();document.getElementById('coverStart').focus({preventScroll:true});};
+document.getElementById('coverStart').onclick=enterExperience;
+addEventListener('resize',()=>{if(state.stage!=='cover')fit();});
 window.beeBuilder={snapshot:()=>({...state,seen:[...state.seen],responses:state.responses.map(x=>({...x}))}),perimeter,vertices,sharedWalls};
 restart();
 })();

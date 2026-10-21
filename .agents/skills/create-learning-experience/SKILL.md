@@ -78,8 +78,8 @@ or force its sequence onto a different goal. Before building the full HTML,
 present a compact, concrete proposal containing:
 
 - The observable learning goal and selected topic(s).
-- The central visual/interactive activity, with an example interaction or short
-  screen sequence. Explain the representation choice, viewpoint and controls;
+- The central question and richly illustrated opening, followed by the central
+  visual/interactive activity, with an example interaction or short screen sequence. Explain the representation choice, viewpoint and controls;
   check that they preserve the relationships the child needs to understand.
 - How the activity teaches the idea, including the important research basis and
   any significant uncertainty.
@@ -148,15 +148,27 @@ Respect explicit user constraints.
 
 Design a coherent learning sequence rather than a collection of screens:
 
+- Begin every experience with a **richly illustrated title screen that poses the
+  central question** in child-friendly language. Make the question the large,
+  primary heading and compose it with crafted artwork specific to the experience.
+  Show one clear icon-plus-label start action, such as “Let’s find out”. No
+  introductory paragraphs, objectives list or lesson controls. The large question
+  is an intentional opening-screen exception to the small-title lesson baseline;
+  use the selected Baloo 2, sentence case and established button styling.
+  After entry, switch to the lesson's small title and single prominent instruction.
+  Keep the cover outside assessment: opening it, waiting or starting earns no
+  credit, and its imagery must not reveal a fresh independent task's answer.
+  Restart returns to the opening with fresh response/support evidence. See
+  [visual-design.md](references/visual-design.md) for composition and behavior.
 - Start with an approachable task and a clear purpose. Teach the idea through
   meaningful actions or representations, not decoration around a quiz.
 - Let the child learn through looking, acting, predicting and seeing consequences.
-  Keep the title small, sentence case and anchored at the top left; keep instructions
+  During the lesson, keep the title small, sentence case and anchored at the top left; keep instructions
   and button labels in sentence case.
   Make the current instruction
   or short explanation large, prominent and part of the experience's composition;
   it is the main text, not a caption beneath a dominant heading.
-  The child-facing experience may show only **one title and one short instruction
+  During the lesson, show only **one title and one short instruction
   at a time**. Use that same instruction slot for feedback; replace it rather than
   appending explanation. No subtitles, legends, visible object labels, status
   paragraphs or textual tabs. Buttons should combine an icon with a concise

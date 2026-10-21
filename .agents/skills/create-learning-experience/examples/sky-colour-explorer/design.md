@@ -4,6 +4,7 @@
 
 ![Opening composition](screenshots/entry.png)
 
+[First lesson screen](screenshots/lesson-entry.png) ·
 [Central interaction](screenshots/interaction.png) ·
 [Independent task before reveal](screenshots/assessment.png) ·
 [Feedback](screenshots/feedback.png) · [Narrow layout](screenshots/narrow.png)
@@ -19,6 +20,19 @@ The latter's full older-age curriculum is not a prerequisite or claimed outcome.
 A curved atmospheric cutaway and observer view connect an invisible mechanism
 to a familiar appearance. Draggable Sun placement changes path geometry. Colours,
 paths, pacing, particle effects and the explorer's eyes direct attention together.
+
+## Illustrated opening
+
+The opening asks **“Why does the sky change colour?”**, composed with a warm observer landscape using the existing 3D scenery and an independent sky material.
+One icon-plus-label “Let’s find out” action enters fresh practice; lesson controls
+remain hidden and inert until then. Restart returns to the opening and clears
+session evidence. The cover introduces the investigation without awarding credit
+or revealing an independent answer. Its large question is the approved exception
+to the lesson's small-title typography.
+
+The [shared opening UI](../opening.mjs) supplies the accessible start and focus
+behavior; the application stages its own 3D illustration. Cover objects and poses
+are illustrative, not an assessed task or additional physical model.
 
 ## Learning sequence and evidence
 

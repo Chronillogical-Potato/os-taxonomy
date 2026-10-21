@@ -1,3 +1,4 @@
+import {createOpening} from '../../opening.mjs';
 import * as THREE from 'three';
 import {airPath,tasks,evidence,clamp} from './model.mjs';
 import {GEOMETRY} from './geometry.mjs';
@@ -364,7 +365,7 @@ function renderPlanets(){
   state.planetStep=1-state.planetStep;setAngle(state.planetStep?1:65);renderUI();
  }],['back','Back to Earth','globe',()=>{state.planet='earth';state.sky=false;stage('done');}]]);
 }
-function reset(){singleEvening=false;singleColour=0;singleStart=time;wavePaused=reduced;updateWaveControls();state={stage:'light',angle:90,low:false,high:false,sky:false,round:0,task:0,responses:[],assisted:false,choice:null,reveal:false,planet:'earth',planetStep:0};scene.background.set('#07101f');setAngle(90);renderUI();}
+function resetLesson(){singleEvening=false;singleColour=0;singleStart=time;wavePaused=reduced;updateWaveControls();state={stage:'light',angle:90,low:false,high:false,sky:false,round:0,task:0,responses:[],assisted:false,choice:null,reveal:false,planet:'earth',planetStep:0};scene.background.set('#07101f');setAngle(90);renderUI();}
 $('reset').innerHTML=svg('restart');$('reset').onclick=reset;
 $('sunHandle').innerHTML=svg('move');let dragging=false,dragStart=null,dragDistance=0;
 $('sunHandle').addEventListener('pointerdown',e=>{dragging=true;queueWave();dragStart={x:e.clientX,y:e.clientY};dragDistance=0;$('sunHandle').setPointerCapture(e.pointerId);});
@@ -457,7 +458,20 @@ function queueWave(){
  setWaveSkyColour(0);
  clearGroup(rays);clearGroup(closeAir);singleMotion=null;waveElapsed=0;wavePending=true;rays.visible=false;closeAir.visible=false;
 }
+
+const openingScene=skyScene.clone(true),openingCamera=new THREE.PerspectiveCamera(65,1,.1,300);
+const openingSky=skyMaterial.clone();openingSky.uniforms.low.value=.88;openingSky.uniforms.colourAmount.value=1;openingSky.uniforms.planet.value=0;openingSky.uniforms.sunDirection.value.set(.28,.16,-1).normalize();
+openingScene.traverse(o=>{if(o.material===skyMaterial)o.material=openingSky;});
+openingScene.children[skyScene.children.indexOf(airlessSky.stars)].visible=false;
+const openingSun=openingScene.children[skyScene.children.indexOf(skySun)];openingSun.position.set(25,15,-90);openingSun.scale.setScalar(2.8);
+// Continue the existing winding path through the near foreground rather than ending it in mid-frame.
+const openingPath=new THREE.BufferGeometry();openingPath.setAttribute('position',new THREE.Float32BufferAttribute([-2.8,-.25,-2,.8,-.25,-2,-6,-.25,12,4,-.25,12],3));openingPath.setIndex([0,2,1,1,2,3]);openingPath.computeVertexNormals();
+openingScene.add(new THREE.Mesh(openingPath,new THREE.MeshBasicMaterial({color:'#d9c699',side:THREE.DoubleSide})));
+const opening=createOpening({question:'Why does the sky change colour?',onStart:resetLesson,focusTarget:'#meetAir'});
+function renderOpening(){openingCamera.aspect=layout.w/layout.h;openingCamera.position.set(0,2,6);openingCamera.lookAt(0,6,-45);openingCamera.updateProjectionMatrix();renderer.render(openingScene,openingCamera);}
+function reset(){resetLesson();opening.show(true);}
 function animate(ms){
+ if(opening.isOpen){renderOpening();frames++;lastFrame=ms;requestAnimationFrame(animate);return;}
  const wallDt=Math.min(.25,Math.max(0,(ms-lastFrame)/1000)),dt=Math.min(.05,wallDt);lastFrame=ms;time=ms/1000;
  if(wavePending&&state.stage==='journey'&&!dragging&&time>=angleSettledAt)buildTeachingWave();
  solar.tick(reduced?0:time);animateTeachingWave(wallDt);
@@ -466,5 +480,5 @@ function animate(ms){
  requestAnimationFrame(animate);
 }
 // Read-only diagnostics used by local validation; no storage or transmission.
-window.skyExplorer={snapshot:()=>JSON.parse(JSON.stringify({...state,worldScale:world.scale,path:airPath(state.angle),singleColour,singleEvening,wavePaused,waveElapsed,wavePending,dragging,skyColourAmount,airTint:airMaterial.uniforms.tint.value.getHexString(),airlessStars:airlessSky.stars.visible,starCount:airlessSky.stars.geometry.attributes.position.count,firstSkyArrival:singleMotion?.firstSkyArrival,visiblePhotons:singleMotion?.paths.filter(p=>p.marker.visible).length??0,visibleMolecules:closeAir.visible?closeAir.children.length:0,waveDuration:singleMotion?.duration,teachingPaths:singleMotion?.paths.map(p=>({c:p.c,scattered:p.scattered,reachesEye:p.reachesEye,source:p.source,site:p.site,end:p.end,marker:p.marker.position,incomingTime:p.incomingTime,arrival:p.arrival,speed:p.speed})),evidence:evidence(state.responses),frames})),rayAlignment:()=>{world.updateMatrixWorld(true);const eye=world.worldToLocal(scout.eyeAnchor.getWorldPosition(new THREE.Vector3()));return {targets:rayTargets.length,maxEyeError:Math.max(0,...rayTargets.map(p=>p.distanceTo(eye))),sites:[]};},graphicsReady:()=>!renderer.getContext().isContextLost()&&frames>2,sunScreen:()=>{const q=sun.getWorldPosition(new THREE.Vector3()).project(camera);return{x:(q.x+1)*layout.w/2,y:(1-q.y)*layout.h/2};}};
+window.skyExplorer={snapshot:()=>JSON.parse(JSON.stringify({...state,coverOpen:opening.isOpen,worldScale:world.scale,path:airPath(state.angle),singleColour,singleEvening,wavePaused,waveElapsed,wavePending,dragging,skyColourAmount,airTint:airMaterial.uniforms.tint.value.getHexString(),airlessStars:airlessSky.stars.visible,starCount:airlessSky.stars.geometry.attributes.position.count,firstSkyArrival:singleMotion?.firstSkyArrival,visiblePhotons:singleMotion?.paths.filter(p=>p.marker.visible).length??0,visibleMolecules:closeAir.visible?closeAir.children.length:0,waveDuration:singleMotion?.duration,teachingPaths:singleMotion?.paths.map(p=>({c:p.c,scattered:p.scattered,reachesEye:p.reachesEye,source:p.source,site:p.site,end:p.end,marker:p.marker.position,incomingTime:p.incomingTime,arrival:p.arrival,speed:p.speed})),evidence:evidence(state.responses),frames})),rayAlignment:()=>{world.updateMatrixWorld(true);const eye=world.worldToLocal(scout.eyeAnchor.getWorldPosition(new THREE.Vector3()));return {targets:rayTargets.length,maxEyeError:Math.max(0,...rayTargets.map(p=>p.distanceTo(eye))),sites:[]};},graphicsReady:()=>!renderer.getContext().isContextLost()&&frames>2,sunScreen:()=>{const q=sun.getWorldPosition(new THREE.Vector3()).project(camera);return{x:(q.x+1)*layout.w/2,y:(1-q.y)*layout.h/2};}};
 resize();reset();renderer.render(scene,camera);requestAnimationFrame(animate);

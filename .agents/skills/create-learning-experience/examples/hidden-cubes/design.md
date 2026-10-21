@@ -4,6 +4,7 @@
 
 ![Opening composition](screenshots/entry.png)
 
+[First lesson screen](screenshots/lesson-entry.png) ·
 [Central interaction](screenshots/interaction.png) ·
 [Independent task before reveal](screenshots/assessment.png) ·
 [Feedback](screenshots/feedback.png) · [Narrow layout](screenshots/narrow.png)
@@ -18,6 +19,19 @@ and prerequisites rather than copying older volume/capacity mappings.
 A manipulable Three.js block can be filled, rotated and opened into layers.
 Colour and black edges make individual units and layer structure legible. The
 learner can count or add layer totals; multiplication fluency is not assumed.
+
+## Illustrated opening
+
+The opening asks **“How can we count cubes we can’t see?”**, composed with the actual layered cube model, staged as a partly separated stack.
+One icon-plus-label “Let’s find out” action enters fresh practice; lesson controls
+remain hidden and inert until then. Restart returns to the opening and clears
+session evidence. The cover introduces the investigation without awarding credit
+or revealing an independent answer. Its large question is the approved exception
+to the lesson's small-title typography.
+
+The [shared opening UI](../opening.mjs) supplies the accessible start and focus
+behavior; the application stages its own 3D illustration. Cover objects and poses
+are illustrative, not an assessed task or additional physical model.
 
 ## Learning sequence and evidence
 

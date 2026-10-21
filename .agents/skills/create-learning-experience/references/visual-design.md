@@ -21,7 +21,7 @@ style. New 3D experiences use the cel-shaded direction below.
 
 Use its rendered experience as a composition and interaction reference, not its
 entire text content as a template. The required text budget here is stricter:
-**one title and one instruction visible at a time**, plus concise functional
+During the lesson, **one title and one instruction visible at a time**, plus concise functional
 button labels. These labels identify actions, not extra teaching prose.
 The adult brief and asset credits are separate. Accessible names remain required.
 If the live site cannot be viewed, use these criteria and report that limitation;
@@ -38,6 +38,34 @@ A polished result is not a webpage of rounded cards with a simulation inserted.
 Avoid large stacked headings, subtitles, step tabs, legends, full-width status
 banners and a separate “next/previous” control bar. Keep the main experience within
 the intended viewport. No scrolling to find the main action or see the feedback.
+
+## Question-led illustrated opening
+
+Every experience starts with a cover that makes its central question inviting
+and clear. The approved [Bee Builder example](../examples/bee-builder/design.md)
+shows the approach: a large “Why do bees use hexagons?” beside a crafted close-up
+honeycomb, botanical framing and the original bumblebee, with one “Let’s find out”
+button. Use artwork and a question specific to the new topic rather than copying
+that motif or adding a generic welcome page.
+
+The cover is a composed illustration, not an empty splash screen with a title
+floating over the normal lesson UI. Reuse the experience's actual visual assets
+or a deliberately staged 3D view when appropriate. Keep the focal objects clear
+of the question and start action; deliberate decorative cropping is acceptable.
+On a wide screen, question and artwork can sit side by side; on a phone, recompose
+rather than shrink the desktop layout. Check short viewports as well as phones.
+One large question heading and one icon-plus-label start button are enough:
+no subtitle, explanatory paragraph, navigation tabs, progress or lesson controls.
+The cover may use a large 550-weight heading; this is a scoped exception to the
+small-title lesson styling, not a replacement for it.
+
+The start action enters a fresh lesson and moves keyboard focus to its first
+useful control. While the cover is open, underlying controls must be invisible,
+untabbable and unavailable to touch; hide/inert the real elements rather than
+only covering them with artwork. Preview motion respects reduced motion.
+The cover is not practice or assessment and cannot change response evidence.
+Restart clears responses, assistance and reveals, and returns to this opening.
+Never use the actual independent task's answer as decorative cover artwork.
 
 ## Public Marble visual primitives
 
@@ -166,14 +194,16 @@ hidden until the response is committed.
 
 Inspect actual screenshots at the agreed device size and at a narrow layout:
 
-- The scene dominates, with a deliberate focal point and an intelligible first
+- The opening has a large central question, topic-specific crafted artwork and
+  one start action; lesson controls stay hidden and untabbable until entry.
+- During the lesson, the scene dominates, with a deliberate focal point and an intelligible first
   action. The composition is not two boxed diagrams surrounded by explanatory UI.
-- Only the single title, current instruction and concise functional button labels
+- During the lesson, only the single title, current instruction and concise functional button labels
   are visible. Feedback replaces the instruction; no text accumulates across
   stages. Buttons have icons and labels unless an icon-only exception is justified.
   No additional visible text is hidden
   in canvas labels or tooltips to evade the budget.
-- Typography has loaded and whitespace is intentional. The title is small at the
+- Typography has loaded and whitespace is intentional. The lesson title is small at the
   top left in sentence-case Baloo 2 at weight 500; explanations use 550 and
   button labels use 500. The current instruction/explanation is conspicuously larger and
   prominent within the experience. Controls have consistent depth, hit areas and

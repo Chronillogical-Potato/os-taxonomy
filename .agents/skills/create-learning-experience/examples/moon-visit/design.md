@@ -4,6 +4,7 @@
 
 ![Opening composition](screenshots/entry.png)
 
+[First lesson screen](screenshots/lesson-entry.png) ·
 [Central interaction](screenshots/interaction.png) ·
 [Independent task before reveal](screenshots/assessment.png) ·
 [Feedback](screenshots/feedback.png) · [Narrow layout](screenshots/narrow.png)
@@ -18,6 +19,19 @@ mastery of either topic. Identifying Earth, Moon and Sun is the starting point.
 The learner turns Earth, then changes from a space overview to an observer's
 local sky. Those views share model state. Looking around changes the camera,
 not the positions used to decide whether the Moon is above the horizon.
+
+## Illustrated opening
+
+The opening asks **“Why can we see the Moon in daytime?”**, composed with a separate composition of the existing Earth, Moon and explorer models, with the shared matte lighting.
+One icon-plus-label “Let’s find out” action enters fresh practice; lesson controls
+remain hidden and inert until then. Restart returns to the opening and clears
+session evidence. The cover introduces the investigation without awarding credit
+or revealing an independent answer. Its large question is the approved exception
+to the lesson's small-title typography.
+
+The [shared opening UI](../opening.mjs) supplies the accessible start and focus
+behavior; the application stages its own 3D illustration. Cover objects and poses
+are illustrative, not an assessed task or additional physical model.
 
 ## Learning sequence and evidence
 

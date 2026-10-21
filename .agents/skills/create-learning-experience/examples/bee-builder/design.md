@@ -4,6 +4,7 @@
 
 ![Opening composition](screenshots/entry.png)
 
+[First lesson screen](screenshots/lesson-entry.png) ·
 [Central interaction](screenshots/interaction.png) ·
 [Independent task before reveal](screenshots/assessment.png) ·
 [Feedback](screenshots/feedback.png) · [Narrow layout](screenshots/narrow.png)
@@ -19,6 +20,15 @@ informal application, not mastery of all those topics or perimeter formulas.
 Use this as the **2D counterexample to unnecessary 3D**. The target reasoning is
 planar packing, equal area and boundary length. SVG gives exact geometry,
 large scene targets and a crafted illustrated bee without camera complexity.
+
+## Illustrated opening
+
+The opening asks **“Why do bees use hexagons?”**, composed with the approved close-up honeycomb, botanical framing and bumblebee illustration.
+One icon-plus-label “Let’s find out” action enters fresh practice; lesson controls
+remain hidden and inert until then. Restart returns to the opening and clears
+session evidence. The cover introduces the investigation without awarding credit
+or revealing an independent answer. Its large question is the approved exception
+to the lesson's small-title typography.
 
 ## Learning sequence and evidence
 

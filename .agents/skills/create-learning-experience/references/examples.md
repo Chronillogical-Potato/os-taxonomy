@@ -38,6 +38,13 @@ instead of republishing stale validation claims.
 
 ## Opening, source and rebuilding
 
+Each example now starts with its central question on a richly illustrated cover,
+then enters the lesson with the smaller title/instruction treatment.
+`screenshots/entry.png` and `narrow.png` show that cover; `lesson-entry.png` and
+`narrow-lesson.png` preserve the first practice view for comparison. The Moon,
+Sky and Cubes sources share [opening.mjs](../examples/opening.mjs) for entry/focus
+behavior, while each stages its own artwork; Bee uses its native SVG composition.
+
 Each example has `experience.html` (double-click to run offline), `source/`
 (readable application and shell), `design.md`, `screenshots/` and dependency
 notices. The WebGL examples require a capable browser; Bee Builder uses SVG.
@@ -58,7 +65,7 @@ The build embeds the skill's font/CSS and writes `dist/<example>.html`, leaving
 reviewed snapshots untouched. Open that output and validate it after editing;
 a successful build alone is not a UX review. Source imports were normalized
 from local scratch paths to npm package imports. `snapshot.json` records source
-and HTML hashes for the imported revision. Generated `dist/` and dependencies
+and HTML hashes for the imported revision, including the shared opening module. Generated `dist/` and dependencies
 are excluded from version control.
 
 Marble-authored example material is shared under the repository's

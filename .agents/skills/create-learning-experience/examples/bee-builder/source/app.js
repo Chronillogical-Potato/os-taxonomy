@@ -181,10 +181,40 @@ function showFinish(){clear();const correct=state.responses.length===2&&state.re
  button('practice','Explore again','again',()=>{state.stage='pack';state.shape='circle';state.packMessage=null;showPack();});
  button('triangles','Try triangles','triangle',startTriangles,{primary:true});
 }
-function restart(){state={stage:'pack',shape:'circle',seen:new Set(['circle']),packMessage:null,unwrapped:false,animating:false,responses:[],choice:null,revealed:false,hint:false,assisted:false,round:0};showPack();}
+function coverIllustration(){
+ const art=document.getElementById('coverArt');
+ // A cut-away honeycomb with a deliberate irregular edge, botanical framing and one original bee.
+ let comb='';
+ const radius=66,area=3*Math.sqrt(3)/2*radius*radius;
+ for(let row=-2;row<=2;row++)for(let col=-2;col<=2;col++){
+  if(Math.abs(row)+Math.abs(col)>3||(row===-2&&col===1)||(row===2&&col===-1))continue;
+  const x=442+col*Math.sqrt(3)*radius+((row%2)?Math.sqrt(3)*radius/2:0),y=361+row*radius*1.5;
+  comb+=cell('hex',x,y,area,{thin:true});
+ }
+ art.innerHTML=`<path d="M175 198C231 86 483 58 635 144C794 234 826 464 687 604C580 713 356 711 215 600C77 491 91 359 175 198Z" fill="#eddfb9"/>
+ <path d="M174 606C122 557 103 478 128 409M162 572C99 573 66 544 68 510C117 507 150 532 162 572ZM137 515C83 493 70 452 89 425C131 441 148 473 137 515ZM128 462C90 420 99 376 124 362C152 394 149 433 128 462Z" fill="#9cac8d" stroke="#526c58" stroke-width="2.4" stroke-linejoin="round"/>
+ <path d="M654 540C709 516 747 470 748 408M704 502C704 454 724 429 759 434C763 470 740 493 704 502ZM737 453C712 417 719 382 748 371C773 400 765 428 737 453Z" fill="#b8c4a4" stroke="#637b60" stroke-width="2.4" stroke-linejoin="round"/>
+ <g transform="rotate(-9 442 361)">${comb}</g>
+ <path d="M236 634Q431 688 663 620Q581 702 347 690Z" fill="#d8cfb7" opacity=".45"/>
+ ${flower(200,602,1.5,-28)}${flower(689,161,1.1,22)}${flower(713,574,.85,17)}
+ ${bee(293,235,2.35)}`;
+}
+function showCover(){
+ cancelAnimationFrame(raf);serial++;controls.replaceChildren();scene.replaceChildren();
+ document.querySelector('main').dataset.screen='cover';document.getElementById('cover').hidden=false;
+ document.getElementById('coverStart').innerHTML=icon('arrow')+'<span>Let’s find out</span>';
+ coverIllustration();
+}
+function enterExperience(){
+ if(state.stage!=='cover')return;
+ state.stage='pack';document.getElementById('cover').hidden=true;document.getElementById('coverArt').replaceChildren();document.querySelector('main').dataset.screen='lesson';showPack();
+ document.getElementById('shape-circle').focus({preventScroll:true});
+}
+function restart(){state={stage:'cover',shape:'circle',seen:new Set(['circle']),packMessage:null,unwrapped:false,animating:false,responses:[],choice:null,revealed:false,hint:false,assisted:false,round:0};showCover();}
 document.getElementById('restart').innerHTML=icon('again');
-document.getElementById('restart').onclick=restart;
-addEventListener('resize',fit);
+document.getElementById('restart').onclick=()=>{restart();document.getElementById('coverStart').focus({preventScroll:true});};
+document.getElementById('coverStart').onclick=enterExperience;
+addEventListener('resize',()=>{if(state.stage!=='cover')fit();});
 window.beeBuilder={snapshot:()=>({...state,seen:[...state.seen],responses:state.responses.map(x=>({...x}))}),perimeter,vertices,sharedWalls};
 restart();
 })();

@@ -30,12 +30,19 @@ Render early, inspect, revise and render again. Start with the risky interaction
 then check the integrated experience. Use available browser automation or manual
 browser tools; inspecting source or the DOM alone does not validate presentation.
 
-1. Open the saved HTML directly in a browser. Inspect an actual screenshot at the
+1. Open the saved HTML directly in a browser. Inspect the illustrated question
+   cover at desktop, phone and a short viewport. Check visual craft, loaded font,
+   question readability and a clear icon-plus-label start action. Keyboard focus
+   and touch must not reach underlying lesson controls. Start with keyboard and
+   touch, confirm clean entry/focus, then restart after a response: it must return
+   to the cover and clear previous responses, hints and reveals. Cover motion
+   respects reduced motion and the artwork does not reveal independent answers.
+   Inspect an actual lesson screenshot at the
    intended viewport. Is the main learning action clear, the representation
    intelligible and the next manipulation obvious? Enforce the single-title,
    single-instruction budget, allowing concise functional button labels. Verify
    buttons combine icons and labels unless an icon-only exception is justified.
-   Check the hierarchy: small top-left title, large prominent current instruction
+   Check the lesson hierarchy: small top-left title, large prominent current instruction
    or explanation. Verify embedded Baloo 2 with the user-refined roles: 500
    sentence-case titles, 550 explanations and 500 button labels. Compare the
    accent-rule explanation, label chips and outlined button states with

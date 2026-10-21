@@ -1,3 +1,4 @@
+import {createOpening} from '../../opening.mjs';
 import {shapeKey,practiceShapes,chooseTask,scorePlan,advances} from './tasks.js';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js';
@@ -38,7 +39,7 @@ function baseUi(i){const focused=controls.contains(document.activeElement)||acti
 function numberEntry(id,fn){const input=document.createElement('input');input.id='number';input.type='number';input.min='0';input.max='999';input.step='1';input.inputMode='numeric';input.autocomplete='off';input.setAttribute('aria-label',id);controls.append(input);const b=btn(controls,'commit','Commit','check',()=>{if(input.value!==''&&Number.isInteger(+input.value)&&+input.value>=0&&+input.value<=999)fn(+input.value);},true);b.disabled=true;input.oninput=()=>b.disabled=!(input.value!==''&&Number.isInteger(+input.value)&&+input.value>=0&&+input.value<=999);input.onkeydown=e=>{if(e.key==='Enter'&&!b.disabled)b.click();};}
 function sceneButtons(peel=false){btn(actions,'turn','Turn','turn',()=>targetAngle+=Math.PI/2);if(peel)btn(actions,'peel',targetSpread?'Close layers':'Open layers','layer',()=>{targetSpread=targetSpread?0:1;sceneButtonsRefresh();});}
 function sceneButtonsRefresh(){actions.replaceChildren();sceneButtons(true);}
-function start(){state={mode:'fill',dims:[3,2,1],filled:new Set(),layers:1,responses:[],stage:0,completed:[],usedShapes:[...practiceShapes]};angle=targetAngle=0;spread=targetSpread=0;baseUi(0);say('Fill this layer. Each unit cube fills one cubic unit.');btn(controls,'add','Place cube','fill',fillNext,true);rebuild();}
+function startLesson(){state={mode:'fill',dims:[3,2,1],filled:new Set(),layers:1,responses:[],stage:0,completed:[],usedShapes:[...practiceShapes]};angle=targetAngle=0;spread=targetSpread=0;baseUi(0);say('Fill this layer. Each unit cube fills one cubic unit.');btn(controls,'add','Place cube','fill',fillNext,true);rebuild();}
 function fillNext(){for(let z=0;z<2;z++)for(let x=0;x<3;x++)if(!state.filled.has(`${x},${z}`)){fillAt(x,z);return;}}
 function fillAt(x,z){if(state.mode!=='fill')return;state.filled.add(`${x},${z}`);rebuild();if(state.filled.size===6){baseUi(0);say('One full layer holds 6 cubes. Stack another matching layer.');btn(controls,'stack','Stack layer','layer',stack,true);}}
 function stack(){state.mode='stack';state.layers++;state.dims=[3,2,state.layers];rebuild();baseUi(1);if(state.layers<3){say('Two full layers hold 12 cubes. Add one more layer.');btn(controls,'stack','Stack layer','layer',stack,true);}else{say('All 18 cubes touch the outside. Add a back row to each layer.');btn(controls,'discover','Add back rows','fill',()=>discover(true),true);sceneButtons(true);}}
@@ -115,12 +116,15 @@ function hit(e){const r=renderer.domElement.getBoundingClientRect();mouse.set((e
 world.addEventListener('pointerdown',e=>{const g=hit(e);drag={x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY,g};world.setPointerCapture(e.pointerId);});
 world.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(state.mode==='fill')return;if(Math.abs(e.clientY-drag.startY)>18&&['unpack','centre','explain','support','reveal','finish','extensionReveal'].includes(state.mode)){targetSpread=THREE.MathUtils.clamp(targetSpread-dy/110,0,1);}else targetAngle+=dx*.008;drag.x=e.clientX;drag.y=e.clientY;});
 world.addEventListener('pointerup',e=>{if(!drag)return;const g=drag.g,short=Math.hypot(e.clientX-drag.startX,e.clientY-drag.startY)<12;if(short&&g){if(state.mode==='fill')fillAt(g.userData.x,g.userData.z);if(state.mode==='centre'&&g.userData.x===1&&g.userData.y===1&&g.userData.z===1)centreCount();}drag=null;});world.addEventListener('pointercancel',()=>drag=null);
+
+const opening=createOpening({question:'How can we count cubes we can’t see?',onStart:startLesson,focusTarget:'#add'});
+function start(){state={mode:'cover',dims:[3,3,3],filled:new Set(),layers:3,responses:[],stage:0,completed:[],usedShapes:[...practiceShapes]};angle=targetAngle=-.25;spread=targetSpread=.22;controls.replaceChildren();actions.replaceChildren();opening.show(true);rebuild();}
 function frameScene(){
  const w=innerWidth,h=innerHeight,narrow=w<=800;
  if(narrow){actions.style.bottom=(controls.getBoundingClientRect().height+54)+'px';}else actions.style.bottom='';
  const c=controls.getBoundingClientRect(),a=actions.getBoundingClientRect(),text=$('instruction').getBoundingClientRect();
- const top=narrow?text.bottom+24:78,bottom=Math.max(top+100,(actions.children.length?a.top:c.top)-22);
- const left=narrow?16:Math.max(w*.38,controls.classList.contains('has-equation')?c.right+26:0),right=w-(narrow?16:36);
+ const top=opening.isOpen?(narrow?h*.32:60):(narrow?text.bottom+24:78),bottom=opening.isOpen?h*.82:Math.max(top+100,(actions.children.length?a.top:c.top)-22);
+ const left=opening.isOpen?(narrow?16:w*.47):(narrow?16:Math.max(w*.38,controls.classList.contains('has-equation')?c.right+26:0)),right=w-(narrow?16:36);
  camera.clearViewOffset();camera.top=6.25;camera.bottom=-6.25;camera.right=6.25*w/h;camera.left=-camera.right;camera.updateProjectionMatrix();camera.updateMatrixWorld();
  root.scale.setScalar(1);root.updateMatrixWorld(true);
  const [bw,bd,bh]=state.dims,r=Math.max(bw,bd)*.65+.55,points=[];
@@ -133,5 +137,5 @@ function frameScene(){
 function resize(){renderer.setSize(innerWidth,innerHeight);if(state){frameScene();renderer.render(scene,camera);}}
 addEventListener('resize',resize);$('restart').onclick=start;
 function animate(){requestAnimationFrame(animate);const t=reduce?1:.13;if(state.growBackRow<1)state.growBackRow=Math.min(1,state.growBackRow+(reduce?1:.075));angle+=(targetAngle-angle)*t;spread+=(targetSpread-spread)*t;root.rotation.y=angle;root.position.y=-spread*(state.dims[2]-1)*1.0;for(const g of parts){const {y,x,z}=g.userData;g.position.y=y+.5+y*spread*2.0;const centre=(state.mode==='centre'&&x===1&&y===1&&z===1)||(['reveal','support'].includes(state.mode)&&x>0&&x<state.dims[0]-1&&z>0&&z<state.dims[1]-1&&y>0&&y<state.dims[2]-1);g.children[0].material=centre?materials[2]:(g.userData.ghost?ghostMat:materials[y%materials.length]);if(centre){const pulse=reduce?1:1+Math.sin(performance.now()/280)*.035;g.scale.setScalar(pulse);}else g.scale.setScalar(state.growBackRow<1&&z===2?Math.max(.01,state.growBackRow):1);}if(state.mode==='reveal'&&spread>.98&&$('continue'))$('continue').disabled=false;frameScene();renderer.render(scene,camera);}
-window.volumeLab={debug:()=>({root:root.position.toArray(),scale:root.scale.toArray(),cam:camera.position.toArray(),projection:camera.projectionMatrix.elements,info:renderer.info.render,cubes:parts.length}),snapshot:()=>({...state,filled:[...state.filled],spread,targetSpread,angle}),project:(x,y,z)=>{const v=new THREE.Vector3(x,y,z);root.localToWorld(v);v.project(camera);return {x:(v.x+1)*innerWidth/2,y:(1-v.y)*innerHeight/2};}};
+window.volumeLab={debug:()=>({root:root.position.toArray(),scale:root.scale.toArray(),cam:camera.position.toArray(),projection:camera.projectionMatrix.elements,info:renderer.info.render,cubes:parts.length}),snapshot:()=>({...state,coverOpen:opening.isOpen,filled:[...state.filled],spread,targetSpread,angle}),project:(x,y,z)=>{const v=new THREE.Vector3(x,y,z);root.localToWorld(v);v.project(camera);return {x:(v.x+1)*innerWidth/2,y:(1-v.y)*innerHeight/2};}};
 start();animate();addEventListener('load',resize);document.fonts.ready.then(resize);

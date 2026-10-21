@@ -8,7 +8,10 @@ Keep the meaningful representation prominent and controls close to what they
 change. Show one clear next action; introduce controls and complexity gradually.
 A long explanation followed by a quiz is not a substitute for this design work.
 
-Show only one title and one short instruction in the child view. Feedback replaces
+Begin with a richly illustrated cover posing the central question and one start
+action. The cover introduces the investigation; it earns no assessment credit.
+Starting enters fresh practice and restart returns to the cover with cleared
+evidence. During the lesson, show only one title and one short instruction. Feedback replaces
 that instruction. Teach through the scene, motion and consequences, not appended
 copy. Buttons use both an icon and a short action label by default; their labels
 are allowed alongside the title and instruction. Use icon-only controls when a

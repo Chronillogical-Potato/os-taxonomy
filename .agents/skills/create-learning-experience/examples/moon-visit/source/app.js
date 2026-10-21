@@ -1,3 +1,4 @@
+import {createOpening} from '../../opening.mjs';
 import * as THREE from 'three';
 import {createSunVisual,createSpaceBackground} from './space-visuals.mjs';
 import {createEarthVisual,createExplorerVisual} from './world-visuals.mjs';
@@ -102,7 +103,7 @@ function syncPresentation(){
 }
 function progress(index){[...$('progress').children].forEach((el,i)=>{el.classList.toggle('done',i<index);el.classList.toggle('active',i===index);});}
 function controlsOff(){moonLocatorActive=false;show('moonLocator',false);for(const id of ['choices','next','hint','extra','feedbackToast'])show(id,false);clearTimeout(instructionTimer);clearTimeout(feedbackTimer);clearRays();}
-function reset(){
+function resetLesson(){
  clearTimeout(instructionTimer);inSky=false;transition=null;
  state={stage:'turn',theta:3.72,originTheta:3.72,phi:1.55,moved:false,lightStep:0,responses:[],path:[],pathCorrect:null,assisted:false,revealed:false,tasks:[],taskIndex:0};
  controlsOff();icon($('eye'),'eye');$('eye').setAttribute('aria-label','See the sky through the explorer’s eyes');say('Turn Earth until our explorer can see the Sun and Moon.');progress(0);updateWorld();
@@ -175,8 +176,26 @@ function positionButton(id,p,radius){const q=project(p),el=$(id);el.style.left=q
 function layout(){updateMoonLocator();positionButton('earth',new THREE.Vector3(),R+.35);positionButton('sun',sun.position,1);positionButton('moon',moonGroup.position,.7);positionButton('observer',observerGroup.position.clone().addScaledVector(normal(),.26),.3);
  if(inSky||dims.w<=600){$('eye').style.left='5vw';$('eye').style.top='auto';$('eye').style.bottom='4vh';$('eye').style.transform='none';if(inSky)show('eye',['turn','explore','reveal'].includes(state.stage));}else if(!transition){$('eye').style.bottom='auto';$('eye').style.transform='translate(-50%,-50%)';const p=observerGroup.position.clone().addScaledVector(normal(),1.40);const q=project(p);$('eye').style.left=Math.max(100,Math.min(dims.w-100,q.x))+'px';$('eye').style.top=Math.max(dims.h*.29,Math.min(dims.h-110,q.y))+'px';}
 }
+
+const openingScene=new THREE.Scene();openingScene.background=new THREE.Color('#07101f');
+openingScene.add(stars.clone(true),new THREE.AmbientLight(0x8cabcb,.09));
+const openingLight=sunlight.clone();openingScene.add(openingLight);
+const openingEarth=earthGroup.clone(true);openingEarth.rotation.z=.45;openingScene.add(openingEarth);
+const openingMoon=moonGroup.clone(true);openingMoon.position.set(.107,5.149,0);openingScene.add(openingMoon);
+const openingExplorer=observerGroup.clone(true);openingExplorer.position.set(-1.068,1.081,.02);openingExplorer.rotation.z=2.35-Math.PI/2;openingScene.add(openingExplorer);
+const openingArt=new THREE.Group();openingArt.add(openingEarth,openingMoon,openingExplorer);openingScene.add(openingArt);
+const openingCamera=new THREE.OrthographicCamera();
+const opening=createOpening({question:'Why can we see the Moon in daytime?',dark:true,onStart:resetLesson,focusTarget:'#earth'});
+function renderOpening(){
+ const aspect=dims.w/dims.h,narrow=dims.w<=800,width=narrow?7.8:Math.max(14,8.6*aspect),height=width/aspect;
+ openingArt.scale.setScalar(narrow?1.55:1);openingMoon.position.y=narrow?3.7:5.149;
+ openingCamera.left=-width/2;openingCamera.right=width/2;openingCamera.top=height/2;openingCamera.bottom=-height/2;openingCamera.near=.1;openingCamera.far=150;
+ openingCamera.position.set(narrow?-.3:-3.1,1.8,24);openingCamera.lookAt(narrow?-.3:-3.1,1.8,0);openingCamera.updateProjectionMatrix();
+ renderer.render(openingScene,openingCamera);
+}
+function reset(){resetLesson();opening.show(true);}
 let last=0;
-function frame(t){requestAnimationFrame(frame);if(t-last<1000/45)return;last=t;
+function frame(t){requestAnimationFrame(frame);if(t-last<1000/45)return;last=t;if(opening.isOpen){renderOpening();return;}
  if(transition){const u=Math.min(1,(t-transition.start)/transition.duration); // A smooth dolly, then the local camera takes over.
   if(u===1){inSky=true;transition=null;syncPresentation();canvas.focus?.({preventScroll:true});}
  }
@@ -189,4 +208,4 @@ function frame(t){requestAnimationFrame(frame);if(t-last<1000/45)return;last=t;
 }
 window.addEventListener('resize',resize);resize();reset();requestAnimationFrame(frame);
 // Read-only diagnostics for development checks, no persistence or network.
-window.moonVisit = { snapshot:()=>JSON.parse(JSON.stringify({stage:state.stage,theta:state.theta,phi:state.phi,facts:state.facts,inSky,responses:state.responses,path:state.path,pathCorrect:state.pathCorrect,success:state.success})), ground:()=>ground.snapshot(),rendererVersion:THREE.REVISION };
+window.moonVisit = { snapshot:()=>JSON.parse(JSON.stringify({coverOpen:opening.isOpen,stage:state.stage,theta:state.theta,phi:state.phi,facts:state.facts,inSky,responses:state.responses,path:state.path,pathCorrect:state.pathCorrect,success:state.success})), ground:()=>ground.snapshot(),rendererVersion:THREE.REVISION };

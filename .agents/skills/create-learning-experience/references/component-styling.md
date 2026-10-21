@@ -10,6 +10,17 @@ These references govern typography and component styling; the skill's separate
 cel-shaded 3D, instructional and assessment requirements still apply. The skill
 does not require access to the private prototype checkout.
 
+## Opening-screen exception
+
+Before the lesson, use a richly illustrated title screen with the central
+question as its large primary heading. Baloo 2 at 550, sentence case and a
+comfortable line height gives the question prominence; the approved Bee cover
+uses roughly 52–84px on desktop and 39–60px on phones. These are reference
+measurements, not a requirement to shrink long questions into unreadable type.
+Recompose the artwork and question for the viewport. Keep one icon-plus-label
+start button in the established red style. No subtitle or explanation block is
+needed. The small-title roles below govern the lesson after entry.
+
 ## Shared roles
 
 All text uses the bundled Baloo 2. Keep sentence case for titles, explanations
