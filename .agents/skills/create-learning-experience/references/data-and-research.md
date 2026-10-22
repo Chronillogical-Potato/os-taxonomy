@@ -2,13 +2,27 @@
 
 ## Locate and read the relevant data
 
-Find the os-taxonomy root by locating `data/topics.json` and `schema/` rather than
-assuming the agent's current directory is the repository. In this checkout the
-root is three directories above the skill folder. If the skill was installed
-separately, use an available os-taxonomy checkout or obtain its public data;
-resolve all files from the same revision. Do not silently treat missing files as
-missing teaching research. Read `README.md` for current coverage and licensing,
-and `PROVENANCE.md` when using upstream curriculum material.
+Locate os-taxonomy data in this order; never infer its location from a fixed
+number of parent directories above an installed skill:
+
+1. Use `OS_TAXONOMY_DIR` when set. Verify it contains `data/topics.json`,
+   `data/manifest.json` and `schema/`. If invalid, report the configured path's
+   failure before trying another source.
+2. Check the enclosing repository of the skill and the current working directory
+   for those files. An unrelated repository is not a taxonomy checkout.
+3. If neither supplies the data, ask for a checkout location or use the public
+   data from `withmarbleapp/os-taxonomy` at an explicit release or commit SHA.
+   Record that revision and obtain all required files from it; never mix files
+   from a moving branch or different releases.
+
+If no checkout or pinned public data is available, state that taxonomy grounding
+could not be checked. Continue with a clearly provisional teaching brief and
+available research when that can support a sound design; do not invent topic IDs,
+claim taxonomy alignment, or treat inaccessible files as missing teaching research.
+Ask for the data only when its absence prevents a sound design.
+
+Resolve all files from the same revision. Read `README.md` for coverage and
+licensing, and `PROVENANCE.md` when using upstream curriculum material.
 
 Load/search files programmatically instead of dumping the large research file
 into context. Read the small candidate set needed for the goal:
