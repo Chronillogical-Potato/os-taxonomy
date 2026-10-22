@@ -1,8 +1,7 @@
-# User-refined component styling
+# Marble component styling
 
-This is the shared UI baseline extracted from the user's **Moon Visit** and
-**Sky Colour Explorer** iterations (`moon-visit.html` and
-`sky-colour-explorer.html`, October 2026). Use the reusable
+This is the Marble house-style baseline illustrated by **Moon Visit** and
+**Sky Colour Explorer** (`moon-visit.html` and `sky-colour-explorer.html`). Use the reusable
 [marble-ui.css](../assets/marble-ui.css) rather than rebuilding similar controls.
 Inspect the [Moon UI capture](visual/moon-visit-ui.png) and
 [Sky UI capture](visual/sky-colour-ui.png) when image inspection is available.
@@ -24,7 +23,7 @@ needed. The small-title roles below govern the lesson after entry.
 ## Shared roles
 
 All text uses the bundled Baloo 2. Keep sentence case for titles, explanations
-and button labels. These user-refined roles replace the earlier heavy/all-caps
+and button labels. These house-style roles replace the earlier heavy/all-caps
 title and white-rimmed red-button defaults.
 
 | Role | Desktop baseline | Narrow baseline (≤800px) |

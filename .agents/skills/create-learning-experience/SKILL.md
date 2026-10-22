@@ -149,12 +149,12 @@ connection service, parent authentication and network access. Do not call that
 mode offline or promise that HTML alone supplies the connection. Keep any
 research/design companion outside the child-facing flow. Use local interactions
 and no tracking or transmission of child responses by default.
-Use the bundled **Baloo 2** throughout with the user-refined Moon Visit / Sky
-Colour baseline: small sentence-case titles at 500, prominent explanations at
+Use the bundled **Baloo 2** throughout with the Marble component
+baseline: small sentence-case titles at 500, prominent explanations at
 550, and icon-plus-label buttons at 500. Read the exact roles and usage in
 [component-styling.md](references/component-styling.md). Embed the actual font
-bytes; do not substitute another family or rely on a fallback without the user's
-agreement. Keep instructions and button labels in sentence case.
+bytes; font substitutions or fallbacks require an explicit project-level
+exception to the house style. Keep instructions and button labels in sentence case.
 Use Three.js for spatial experiences involving viewpoint, illumination, depth,
 occlusion or moving physical objects, including the daytime-Moon example. Build
 one coherent, polished 3D scene with direct manipulation: drag the Earth, place an

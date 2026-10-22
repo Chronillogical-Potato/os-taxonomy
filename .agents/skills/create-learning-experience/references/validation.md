@@ -77,7 +77,7 @@ exception below when explicitly approved.
    single-instruction budget, allowing concise functional button labels. Verify
    buttons combine icons and labels unless an icon-only exception is justified.
    Check the lesson hierarchy: small top-left title, large prominent current instruction
-   or explanation. Verify embedded Baloo 2 with the user-refined roles: 500
+   or explanation. Verify embedded Baloo 2 with the house-style roles: 500
    sentence-case titles, 550 explanations and 500 button labels. Compare the
    accent-rule explanation, label chips and outlined button states with
    [component-styling.md](component-styling.md) during feedback and narrow layouts

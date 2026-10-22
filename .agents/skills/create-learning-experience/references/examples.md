@@ -22,7 +22,7 @@ Forest adds a qualitative agent simulation, not a calibrated ecological forecast
 ## What has authority
 
 The current skill and component styling govern new work. Examples are snapshots
-of user iterations, with documented exceptions and remaining weaknesses. They
+of design iterations, with documented exceptions and remaining weaknesses. They
 are not universal templates or evidence of effectiveness with a child. In
 particular, a two-level header, duplicate feedback toast or realistic effect in
 a snapshot does not relax the current one-title/one-instruction budget or
