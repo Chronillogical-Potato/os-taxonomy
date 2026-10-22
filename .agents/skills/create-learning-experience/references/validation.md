@@ -24,6 +24,13 @@ single HTML file.
   Avoid describing a short session result as long-term retention or transfer
   beyond what the child actually demonstrated.
 
+- Check the child's language across the cover, instructions, feedback, buttons,
+  accessible labels and definitions, including dynamic states and helper defaults.
+  Check the adult note uses the same language unless another was requested,
+  `<html lang>` is correct, and casing and typography follow the chosen locale.
+  At narrow widths, French punctuation must stay attached with the appropriate
+  no-break spaces rather than wrapping alone.
+
 ## Browser iteration
 
 Render early, inspect, revise and render again. Start with the risky interaction,

@@ -29,6 +29,19 @@ assumptions and disclose the consequential ones in the concept. Do not infer
 mastery or reading ability from age alone. A brief entry task can help calibrate
 prerequisites when the adult does not know the child's starting point.
 
+## Language and locale
+
+Use the child's language for all child-facing copy: the cover question,
+instructions, feedback, buttons, accessible names and vocabulary definitions.
+Use it for the adult note too, unless another language is explicitly requested.
+Set `<html lang>` to the appropriate language tag. Apply that locale's casing
+and typography while preserving the sentence-case house style. For French,
+keep punctuation attached with non-breaking spaces: a narrow no-break space
+(U+202F) before `; ? !`, and a no-break space before `:` (narrow where the chosen
+locale/style calls for it). Check wrapping at narrow widths; punctuation must
+not wrap alone. Configure the shared helpers as shown in
+[examples.md](references/examples.md#localising-the-shared-helpers).
+
 ## Ground the design
 
 Read [data-and-research.md](references/data-and-research.md) to locate this
