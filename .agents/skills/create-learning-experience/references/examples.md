@@ -88,3 +88,29 @@ Bee Builder also retains the anidoodle Marker Comic style reference and its
 Apache 2.0 license/NOTICE; its original SVG art does not bundle the anidoodle engine.
 External research links support the teaching rationale; they are not licenses
 to copy those sources' text or artwork.
+
+## Localising the shared helpers
+
+Before loading `examples/vocabulary.js`, set `window.learningVocabularyOptions`
+to supply a replacement lexicon and translated accessible labels. Omitted fields
+retain their English defaults; an empty `entries` array disables annotation.
+Aliases match case-insensitively with Unicode letter/mark boundaries, canonical
+accent forms and either straight or curly apostrophes. The visible text is preserved.
+
+```js
+window.learningVocabularyOptions = {
+  entries: [
+    ['gravity', ['gravité'], 'Une attraction entre les objets qui ont une masse.'],
+    ['air-resistance', ["résistance de l’air"], 'Une force de l’air qui freine un objet en mouvement.']
+  ],
+  strings: {
+    regionLabel: 'Définition',
+    explain: word => `Expliquer « ${word} »`,
+    closeLabel: 'Fermer la définition'
+  }
+};
+```
+
+Pass `startLabel` to `createOpening` for the translated start action, for example
+`startLabel: 'Découvrons-le'`. Its default remains “Let’s find out”. Supply strings
+as plain text; `explain` is a function so each language can place the term naturally.
