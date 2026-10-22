@@ -12,6 +12,9 @@ single HTML file.
 - Try a plausible misconception. Does feedback explain the issue and offer a
   helpful next move? Can a child reach “mastered” by guessing, exhausting retries,
   revealing hints or clicking through without demonstrating the goal?
+- Read each instruction and prompt alongside its answer options. Remove wording
+  that primes an answer, such as “dropped together” when “Together” is a choice;
+  describe the setup neutrally without revealing the assessed relationship.
 - Check scaffolds can help a struggling learner and that the final independent
   evidence does not depend on revealed answers. Assisted success should remain
   distinct from independent success. Fresh tasks must stay within taught scope.
@@ -87,6 +90,9 @@ exception below when explicitly approved.
    color, stepped light/shadow and clean black object outlines; inspect outline
    quality during object/camera movement, not just a still. Judge beauty, craft
    and polish separately from whether the simulation functions.
+   Choose the explanation side for each camera view, including transitions and
+   alternate apparatus. Check that scenery or a second apparatus never passes
+   behind the instruction text; reserve clear space as the camera and objects move.
 2. Exercise the interaction and capture consequential states: supported practice,
    a wrong prediction and its feedback, and an independent transfer task before
    and after reveal. Inspect viewpoints, overlaps, motion, text budget and whether the
