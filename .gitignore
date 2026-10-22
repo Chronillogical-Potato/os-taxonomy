@@ -4,4 +4,4 @@ node_modules/
 .env
 .env.*
 
-.agents/skills/create-learning-experience/examples/dist/
+.agents/skills/marble-builder/examples/dist/

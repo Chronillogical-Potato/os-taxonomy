@@ -1,28 +1,33 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-19T16:08:02.198Z",
-  "topicFileSha256": "1e646adf8dac597a008390c9ed07952090ad0fc3a966144c5f19d090e4399412",
-  "recordCount": 1051,
+  "exportedAt": "2026-10-21T21:30:26.046Z",
+  "topicFileSha256": "e5b037a5309ed12bbecd4ead88655231ff55a6fe49d98383e00f79bcfeb07bab",
+  "recordCount": 1049,
   "coverage": {
-    "topicCount": 1591,
-    "withResearch": 1051,
-    "withoutResearch": 540,
+    "topicCount": 1930,
+    "withResearch": 1049,
+    "withoutResearch": 881,
     "bySubject": {
       "Computing": {
-        "topics": 21,
+        "topics": 59,
         "withResearch": 0,
-        "withoutResearch": 21
+        "withoutResearch": 59
       },
       "English": {
-        "topics": 286,
+        "topics": 368,
         "withResearch": 0,
-        "withoutResearch": 286
+        "withoutResearch": 368
+      },
+      "Geography": {
+        "topics": 25,
+        "withResearch": 0,
+        "withoutResearch": 25
       },
       "History": {
-        "topics": 90,
+        "topics": 112,
         "withResearch": 0,
-        "withoutResearch": 90
+        "withoutResearch": 112
       },
       "Learning to Learn": {
         "topics": 18,
@@ -30,45 +35,60 @@
         "withoutResearch": 18
       },
       "Life Skills": {
-        "topics": 37,
+        "topics": 42,
         "withResearch": 0,
-        "withoutResearch": 37
+        "withoutResearch": 42
       },
       "Mathematics": {
-        "topics": 504,
-        "withResearch": 504,
-        "withoutResearch": 0
+        "topics": 587,
+        "withResearch": 502,
+        "withoutResearch": 85
       },
       "Personal & Social Development": {
-        "topics": 88,
+        "topics": 124,
         "withResearch": 0,
-        "withoutResearch": 88
+        "withoutResearch": 124
       },
       "Science": {
-        "topics": 547,
+        "topics": 595,
         "withResearch": 547,
-        "withoutResearch": 0
+        "withoutResearch": 48
       }
     },
     "missingTopicIds": [
       "mt_-1okUh0Jdv",
       "mt_-DuXzMVVXQ",
+      "mt_-Sk53QkyS0",
+      "mt_-WhvVTsKV-",
+      "mt_-beOa1AO6W",
       "mt_-mw3JeIjhU",
+      "mt_-nj-DnW4uU",
       "mt_-tcJeAhK5k",
       "mt_02DH7sGXCi",
+      "mt_085iC6v-Oa",
       "mt_0FYFiLTqx4",
+      "mt_0MI9ybM3j_",
       "mt_0MfpLj0Uhb",
+      "mt_0O4mXv3asF",
       "mt_0QJoKWABdC",
       "mt_0Rx1ISxXFE",
       "mt_0VOZSVjo6c",
+      "mt_0XHRJ49akv",
+      "mt_0ZDouU664X",
       "mt_0ewYhTSHtP",
+      "mt_0sR1xhrn7W",
       "mt_0wUwxyBs5y",
       "mt_14F_x1Xwwp",
       "mt_14OR-MhGJ9",
       "mt_18qkgxr_-T",
+      "mt_196Gb4q6a5",
       "mt_19qy2uuaKp",
+      "mt_1GDEHyEZYH",
       "mt_1GF5MeNZPA",
       "mt_1KCwbGvm1F",
+      "mt_1ZwxvIqIxf",
+      "mt_1kdEZRLyaZ",
+      "mt_1m4J4KOjPy",
       "mt_1ro8W1cZYn",
       "mt_1z-gJBJFlM",
       "mt_26OJ9MetR9",
@@ -77,47 +97,81 @@
       "mt_2NKzPeLzIm",
       "mt_2NfIKEYdbm",
       "mt_2X9Cd38eSJ",
+      "mt_2_fB4LuVwc",
+      "mt_2eVg4Tt5r0",
+      "mt_2jksKpNzeF",
       "mt_2l06snztdP",
       "mt_2oswCNuapH",
+      "mt_2qc_Kq63Le",
       "mt_2uHYdoxD0H",
       "mt_32B7xjUPwF",
       "mt_33zncDHC3N",
       "mt_35-DhMh_Yr",
       "mt_37QCuGOxFe",
+      "mt_39Yyr1KG7F",
+      "mt_3itytx4K1v",
+      "mt_3l9OJkjksw",
+      "mt_3m0pA-aeat",
       "mt_3tQXH9GwIa",
       "mt_4-vfMgmCVB",
       "mt_4A4RpX-Go9",
       "mt_4A7FYmvVhA",
       "mt_4GiE83rJF_",
+      "mt_4GyMkXpZRW",
       "mt_4IxR66uGLc",
       "mt_4PA9IrxtCQ",
+      "mt_4bc3EAxhlY",
+      "mt_4fK8Bb8Tr_",
+      "mt_4zgPzc6yu5",
+      "mt_5CcwPYEafI",
       "mt_5FREdVoS8s",
+      "mt_5J2quSTspi",
       "mt_5OxKnrGEMP",
+      "mt_5UtPmgdoQ9",
       "mt_5XLhiqmocP",
+      "mt_5bmrA-0pBi",
       "mt_5n-O41lUgn",
       "mt_5qNMVZi3dQ",
+      "mt_5zPXTvZTcX",
+      "mt_5zTlbDWkDI",
       "mt_6-MYToNZ39",
+      "mt_61Nhj8W78f",
+      "mt_61Pa4Eksva",
       "mt_69hFD2NgGe",
+      "mt_69w5GVudJl",
       "mt_6W5zzDIGZH",
+      "mt_6XbAmdmjDb",
       "mt_6XnezHOcM3",
       "mt_6eTZUwKQZr",
+      "mt_6gpryAnpoZ",
       "mt_6lHBTwQPrS",
       "mt_6nqVnVdexe",
       "mt_6xj94tmpi-",
+      "mt_7-N8TmQUsB",
       "mt_70Ys4i1AB1",
+      "mt_78-pnKfzmv",
       "mt_7D-vlii8F-",
+      "mt_7DEMuNxUTh",
       "mt_7SfQuXgNtd",
       "mt_7SsduPB2tP",
+      "mt_7b8EHUBoxd",
       "mt_7oZ2YenzhX",
+      "mt_7xt5pXdVvl",
       "mt_8-POYyg7GJ",
       "mt_82KKv0Fca3",
       "mt_86DyHo9zO3",
+      "mt_89qLyvE70d",
+      "mt_8DT3LXwwH-",
       "mt_8FwtdJzeDh",
+      "mt_8IsaoMPvod",
+      "mt_8NYqAhHCa-",
       "mt_8ShghTx0jd",
       "mt_8StiXnYq1u",
       "mt_8UL1opbJEt",
+      "mt_8VjmxR1yfw",
       "mt_8ad4U6msea",
       "mt_8bIXVKTdtK",
+      "mt_8cs4YPkp23",
       "mt_8dstvf-KKb",
       "mt_8oAzr0WxRb",
       "mt_8qQ2IosZZw",
@@ -125,59 +179,96 @@
       "mt_91f1XFvGZq",
       "mt_95zxYqpP7m",
       "mt_99G6Msdzw-",
+      "mt_9L5qyBYmg-",
       "mt_9NQEiYLQA3",
       "mt_9P9o6d0Qm3",
       "mt_9REmUc8r4D",
+      "mt_9V8Z386RDx",
       "mt_9Y5-GjF2B0",
+      "mt_9fyI5B1U_V",
       "mt_9gpUHWVKMR",
       "mt_9hBs430cU4",
       "mt_9k1qcpvVi_",
       "mt_9lN0SpKlEH",
+      "mt_9qF97kGhvq",
+      "mt_9wfokahWw6",
       "mt_9yFAtUkoYr",
       "mt_A0htaNaK7b",
+      "mt_A2hKhHXgL5",
       "mt_A4YUbzUFan",
       "mt_AHAFw-atka",
+      "mt_AHXePdicRf",
       "mt_AbnwmKD8oe",
       "mt_AfIzLRvMgW",
       "mt_Ag9NSWJu-X",
       "mt_AhfyJoTQtY",
+      "mt_AigeWFgWIo",
+      "mt_Am6mmH2X0s",
+      "mt_Amojd_oviu",
       "mt_Amw5ikSSQI",
       "mt_AvJMWQbDsr",
       "mt_AzTrT5ySCx",
       "mt_B1ATUEVNPz",
       "mt_B1LdSGMP66",
       "mt_B8JOz79O6t",
+      "mt_BGMS9We5w9",
+      "mt_BK5xwkrD5C",
       "mt_BLzNxSSdWu",
+      "mt_BYl4sds1SM",
       "mt_BhYJZUsErp",
+      "mt_Bt-iORUzdO",
       "mt_BtMbZibZUj",
       "mt_C3eNLQJlgt",
       "mt_C7abt7pRr6",
+      "mt_CBXBu5e4Iv",
       "mt_CSGqz245rV",
+      "mt_CUJr8L5_Wn",
       "mt_Cc-QHVo747",
+      "mt_CdB3nZHkEA",
       "mt_CqzsM0BDFP",
       "mt_CrGnpVjnk8",
       "mt_DMvKfP4uGC",
+      "mt_DRNXFr0ds6",
       "mt_DVSHx3YMkN",
+      "mt_DcSMuVWgKU",
+      "mt_Dg5lQZFpav",
       "mt_DkzsZdyaL2",
+      "mt_DnvWzDjoD8",
+      "mt_DxSbKzl-C-",
+      "mt_E-E8z9ZZOz",
+      "mt_E2iv1E6klO",
       "mt_E5KC4AnRLW",
       "mt_E5YbLvMgLL",
       "mt_E5ju6kQSu3",
       "mt_E7avIa-tcE",
+      "mt_E8IfrMksV0",
       "mt_EHiM4_qg1R",
+      "mt_EWiY8-opdd",
       "mt_E_OryWIYkn",
       "mt_EbiGRVK8uR",
       "mt_EedcpioR0v",
       "mt_Eehl12cSnN",
+      "mt_EfF81YvgXV",
       "mt_EqXlZfB4jp",
+      "mt_Eqk6oSbySH",
+      "mt_F62VTeHB4-",
       "mt_F978c32kDr",
       "mt_FDKd7I79JZ",
       "mt_FGCFUCqJBB",
       "mt_FIkqA0qhnj",
       "mt_FNSeo9_T2Z",
+      "mt_FSLJbKkryb",
+      "mt_FVVSQR9vGg",
       "mt_FW9_8F52bw",
       "mt_FYK8m6eHQm",
+      "mt_F_zEAJ8VIo",
+      "mt_FtCLISvSGw",
       "mt_FwI7q7DSIx",
+      "mt_G7jhJrOD2P",
+      "mt_GKL5Usnd11",
       "mt_GLY3R3YSlf",
+      "mt_GbisjfWodT",
+      "mt_GtL2PVfRYP",
       "mt_GugVunb2lI",
       "mt_H0ajATAlus",
       "mt_H1pAi4F_Oh",
@@ -187,39 +278,62 @@
       "mt_H8dEMH_wik",
       "mt_HBcvu0UxYe",
       "mt_HCweOHWSiu",
+      "mt_HF1t82HCJu",
       "mt_HFN1pGASpZ",
       "mt_HPf-dVtA3p",
       "mt_HWYAspz-LK",
       "mt_HZyUwycFvf",
+      "mt_HczwO1sr-y",
       "mt_HdI1y5KsBl",
+      "mt_Hft-0nxZvB",
       "mt_HoJGVsMO7H",
       "mt_HopZomN12L",
       "mt_Hqz5y_tWz2",
       "mt_HrgDjxcWvf",
       "mt_I65kFjWwnF",
+      "mt_I9cDkW4Qz-",
       "mt_I9iSzpGRn5",
       "mt_II6iw4BmJI",
       "mt_IR8kIjZn_V",
       "mt_IX37F4rNed",
       "mt_IdFxLz-UW9",
+      "mt_IiWjd0377Z",
       "mt_Ik-WC2ARPf",
+      "mt_IlDaxVr60U",
       "mt_IlyE-Sm8k5",
       "mt_IntmJBg4VQ",
       "mt_IoGOSAQ8bz",
       "mt_Iwg2diBSyW",
       "mt_J5cx6S_eT9",
+      "mt_JI0Iv01hCT",
+      "mt_JNzgBlNkx0",
+      "mt_JRzXQl9M7c",
       "mt_JVVKT-_AD9",
+      "mt_JWjSZNk1Qy",
+      "mt_JcLwbDGGvJ",
       "mt_Jd2aWEUJ9G",
       "mt_JdAnBKIDnw",
       "mt_JiZ3H90Xg8",
       "mt_JivEBTD_KV",
       "mt_Jq0MjURrRC",
+      "mt_JumBNYAiA_",
+      "mt_Juxx4n-8mu",
+      "mt_Jz9UuT8BXW",
+      "mt_K1jLX9FXdl",
+      "mt_K5Zqgu7rzp",
       "mt_K6qtan847r",
       "mt_K8_RYIvrTV",
       "mt_KA5j5OeGvw",
+      "mt_KCS9GbZgU_",
+      "mt_KDIuiKzYTt",
       "mt_KIG5FQI5fC",
+      "mt_KQRxnwElNc",
       "mt_KbCCmLmxYN",
       "mt_KmPZ5diLEP",
+      "mt_KpBg1_T_84",
+      "mt_L8y31QOR6s",
+      "mt_LADBSIowuS",
+      "mt_LBT-9jz7kR",
       "mt_LCJNRaRXtW",
       "mt_LE7nFEwS12",
       "mt_LH714Riydn",
@@ -230,10 +344,18 @@
       "mt_LhkP_KKIRS",
       "mt_Lu4H4mbsqO",
       "mt_LuwHnQItF_",
+      "mt_M-S5oQhxYa",
       "mt_M2Gou3O6qT",
+      "mt_MIA4wfENUm",
       "mt_MOY_2Cqalz",
+      "mt_MRCnuYwnFQ",
+      "mt_MRQcEvyPJv",
+      "mt_MVlTa0XKgo",
+      "mt_MXxVMCr7_4",
       "mt_M_xcaRcvSo",
       "mt_Mb1JUJmnbX",
+      "mt_MgsDabdnr1",
+      "mt_Mk_Bup-vsr",
       "mt_MlD0gwLSw9",
       "mt_MlmIrLb_7x",
       "mt_My0OL6fhGL",
@@ -243,133 +365,214 @@
       "mt_N8CpN1EJrP",
       "mt_N9zffZxuu5",
       "mt_NCrbQe0LdB",
+      "mt_NM5I3yN-Q6",
       "mt_NP101Zl-4g",
       "mt_NS5t-Jzlh8",
+      "mt_NSC3LT_-ch",
+      "mt_NTAc_EMeHZ",
+      "mt_NbkUKcOlEX",
       "mt_Nj32xtOhno",
+      "mt_NmvuwVUFRS",
       "mt_NnlnxCx1DO",
+      "mt_O-U263ukg1",
+      "mt_O12GEyNwSi",
       "mt_O2dS6gvClw",
       "mt_OJVkWvIaM_",
+      "mt_OKCmMGWczX",
       "mt_OLwNsTI6C7",
+      "mt_ORlMNVV4FL",
+      "mt_OTFABm2xdf",
+      "mt_OTrQJVRRJ6",
       "mt_Of-WsrRQ8B",
       "mt_OgJPbGkrYk",
       "mt_OiDHqtLoln",
       "mt_OlhMP7ShFT",
       "mt_OltpfaX7l6",
+      "mt_OqDYMyw39G",
+      "mt_OwYms2tB1L",
       "mt_OyOYHlZ2_T",
+      "mt_OzdI2-ZoXX",
       "mt_P0HBNfp46z",
+      "mt_P2nm-qVnvd",
       "mt_PCX1jZZnf9",
+      "mt_PJZf6WGfzl",
       "mt_PJyCGJz5Hv",
       "mt_PPNDO7BUrY",
       "mt_PThM5P7Umd",
       "mt_PdYlsA33jB",
       "mt_PetJM-AYz9",
       "mt_PhIZNl2230",
+      "mt_Pp_pizml7n",
+      "mt_PsQdUQBw0D",
       "mt_PvU3eoikev",
       "mt_Q2Eud_PPz6",
+      "mt_Q2Zj3L8u9C",
+      "mt_Q57cnsiKsB",
       "mt_QB4qIGJIIj",
       "mt_QCWWmDMYZR",
       "mt_QEr24lqzvH",
+      "mt_QHT16CrFO-",
       "mt_QR3vxbN1o4",
+      "mt_QVUW4olzHP",
+      "mt_QayfDN4rTB",
       "mt_Qcsl1Z1x0l",
       "mt_QdMMLRYWhn",
+      "mt_Qe2PsFmSAH",
+      "mt_QeKWt4BZn3",
       "mt_QepALf3bin",
+      "mt_QguIGVMB1o",
+      "mt_QpJydot2Kh",
+      "mt_QpK9BpUO__",
       "mt_QpmVikVaqY",
+      "mt_QwCjG9Pexc",
       "mt_QxsoqVUt6u",
       "mt_Qxyikkkzam",
       "mt_Qzbh-_v0Gq",
       "mt_R1xLS1c2Pg",
+      "mt_R2_rZ4F6r4",
       "mt_RNRymbz5SO",
+      "mt_RNYNrRMqKL",
       "mt_RNeEF1JU4J",
       "mt_RTwmvr9R7V",
+      "mt_RdIBKLbgyp",
+      "mt_RdfzwInyAj",
+      "mt_Re97rQJx_e",
       "mt_RgQxPddV8v",
+      "mt_RhlY8jeu7Q",
       "mt_RhntJz7p_6",
       "mt_RioBUxHz1X",
       "mt_S0hzjAeLSK",
+      "mt_S2dCRbxdvM",
       "mt_S2fP8rUwrl",
       "mt_S3XMQOYt_D",
       "mt_S4G6GLKr1-",
       "mt_S7CnyZCnxg",
       "mt_S7UTAhptLi",
+      "mt_SHVyE1CLUa",
+      "mt_SK7WntVZ6y",
+      "mt_SOM6Imm2sO",
       "mt_SUOhjmRqv9",
+      "mt_SZrMv3YAky",
       "mt_SbEaQnMQoD",
       "mt_SeNxOZTHCN",
+      "mt_Sg-jC5f9L6",
+      "mt_Sij9ByyHq6",
+      "mt_So_5wBv8fI",
       "mt_SsS7GptD_o",
+      "mt_T0jF7ylSvV",
       "mt_T6nrrf2K43",
       "mt_T9IXrlxfx2",
       "mt_TDUpy57QVM",
+      "mt_TTH2ouwyTW",
       "mt_TTzJTF-OkG",
       "mt_TU3BcLOgiV",
       "mt_TfOiog-ALs",
+      "mt_TffvIu6VgG",
+      "mt_TiFjjvBMaY",
+      "mt_TrISKhznZt",
       "mt_UEe3MC5RZc",
       "mt_UGf6jICEhs",
       "mt_UHQfb-n-w3",
       "mt_UMOjbmLcbM",
       "mt_U_8iVFZuHH",
       "mt_U_HQXCnAaG",
+      "mt_UcmVDMgFGX",
+      "mt_Udv6pH1nRh",
       "mt_UvNrOXny1i",
       "mt_V-ldQp56bF",
       "mt_V6456X6pJE",
       "mt_VA126P6Wp5",
       "mt_VEwM7ClYYE",
+      "mt_VIUF5Vspbg",
+      "mt_VJEQ32O0Ae",
+      "mt_VLBf624ElK",
       "mt_VLu59hpQ4T",
       "mt_VMS3kDQ8sA",
       "mt_VP9yZJ1xeP",
+      "mt_VRZawp3oFZ",
       "mt_VVx0hPPSKi",
       "mt_VXcua6-txq",
       "mt_VY3rBq8RyP",
       "mt_V_kAitNbLN",
+      "mt_VitRPAsDik",
       "mt_VjxyJLtIbT",
       "mt_VtqvUORa8K",
+      "mt_W3VOAuFwVw",
       "mt_W5euSyU2sO",
       "mt_WBfj79OqXz",
       "mt_WKxX-b86Vr",
+      "mt_WQiVj8gIRs",
       "mt_WRRv1ABECC",
       "mt_WRlJ0-hAOG",
       "mt_WZnwITSWr8",
       "mt_W_CNRTBgYR",
       "mt_Wc6cOTQ1bA",
+      "mt_WoBE0CZWGg",
       "mt_WtO50EZQkf",
       "mt_WzOyJFKDIu",
       "mt_X1L9DoUwjF",
+      "mt_X53txVXOcG",
       "mt_X5fdB4haHf",
       "mt_X7Tu94-a2m",
       "mt_XK7NYt61cO",
       "mt_XMz_ohNjYO",
       "mt_XbGfVhfiUz",
       "mt_XeMZdf2Y9W",
+      "mt_XeT37rd69f",
       "mt_XnRhhEqJLJ",
+      "mt_Y6JmLjnfRP",
       "mt_Y6P9y1Rz-u",
+      "mt_Y6_cq3UMyy",
       "mt_YKkCM63fSC",
       "mt_YNe6siFTFq",
       "mt_YQ64pzcLDl",
       "mt_YXVQaufkKO",
+      "mt_YZOjP8KHsM",
       "mt_YbX3LD0Eca",
+      "mt_YfbfIdljWd",
+      "mt_YrDlg_J4kQ",
       "mt_Yrjn8jAt1c",
       "mt_Ytd8XC3eQr",
       "mt_Z3G_97fnha",
       "mt_ZBMcX2oRor",
       "mt_ZO2iP89cld",
+      "mt_ZY38c705Ce",
       "mt_ZanQuV90qi",
+      "mt_ZfpeI1CFyP",
       "mt_ZhUuT__i2H",
       "mt_ZhvwM6LMBL",
+      "mt_ZjIFGc6zPW",
       "mt_ZpCcTU8j_o",
       "mt_ZxdfRbwkKM",
       "mt_Zy-CKUkq34",
+      "mt__25ZZdiEZd",
+      "mt__3hJj0H4HF",
       "mt__AWSThGJ0d",
       "mt__BbOjiY5A5",
+      "mt__CFtXgDaEL",
       "mt__CMXZiPfTV",
+      "mt__F_i67waLN",
       "mt__J2BO4V95l",
       "mt__KHQttMde3",
       "mt__LiAEHt9nk",
       "mt__MDiDU9Vck",
+      "mt__PcuXj7_I1",
       "mt__ab4knIaSL",
+      "mt__evtvKA25j",
       "mt__o3TCmfomv",
       "mt__p5n8z5soJ",
+      "mt__q8ln4Lvf7",
       "mt__qlBYNP62H",
+      "mt__sYpBrdzcp",
+      "mt__yvsKKp3TS",
+      "mt_a0_W_oIEQg",
+      "mt_a0yi2vpoUn",
       "mt_a6AYrbb7x4",
       "mt_a6m7PqTuJN",
       "mt_aClzPBiS9k",
+      "mt_aCwj2PCoRV",
       "mt_aFvsj35QzC",
+      "mt_aGuP78tRMo",
       "mt_aS-Gdh-MHx",
       "mt_aVZJhPbc_1",
       "mt_aWOK1npO5s",
@@ -378,139 +581,242 @@
       "mt_asRwlPZXC3",
       "mt_av-uRBrhwT",
       "mt_aw0PldeT_L",
+      "mt_axrs4Gfdm9",
       "mt_ay0qkGj0jg",
       "mt_b0sXYFblDL",
       "mt_bAYy0ytbfC",
       "mt_bAy4dmP1-A",
       "mt_bEvMBUv4eG",
+      "mt_bFK6owxsmi",
+      "mt_bJyOTtP0b6",
       "mt_bKV2JYNwf7",
       "mt_bPFToj0OhZ",
+      "mt_bZC-wqWX7Y",
       "mt_bhEuF-CCuY",
+      "mt_biGHAbkoV2",
       "mt_bjlY5TE1y-",
       "mt_bkMDDstwwG",
       "mt_bkvB7QYKwg",
+      "mt_blzW9Z8J7-",
       "mt_bn5ggh84qD",
+      "mt_bnwHo5wfCD",
       "mt_bvxkT1nepy",
       "mt_c-F__Qe23X",
       "mt_cB7hV8sw7X",
+      "mt_cB_j7towTD",
       "mt_cEQqskOaoo",
+      "mt_cGzd5z56FB",
+      "mt_cIxLOPS1Hc",
       "mt_cJ8CeyRKKs",
       "mt_cJjnPjuvCU",
+      "mt_cOJhDeLkPo",
       "mt_cOknxrYhwL",
       "mt_cSz7XTxVAx",
       "mt_cU3LcEVkBQ",
       "mt_cUMUYkDqZp",
+      "mt_cUpJvBD1YA",
       "mt_cVp_nop-5L",
       "mt_cq711F7ruL",
       "mt_curkA82CmO",
+      "mt_d6BsiDtFjP",
+      "mt_dALEWRHXnZ",
+      "mt_dJOKkYMsCv",
       "mt_dRLP8g0SAg",
+      "mt_dXP_wBLIwU",
+      "mt_dgheXIYAD-",
       "mt_dknMcCqvoY",
+      "mt_dlg6i-Lw0I",
       "mt_dlm3NspUyy",
       "mt_dmFnJzxKwz",
       "mt_doVAdMqfJg",
       "mt_ds2TOtP8I1",
+      "mt_e0I0OSxNFc",
       "mt_e1Yr6rhRNW",
+      "mt_e7tLi9SCIE",
+      "mt_eFj9uWaPMI",
+      "mt_eNJ99tRb3p",
+      "mt_ebQURBOsM5",
+      "mt_ejht12jhm2",
+      "mt_el7qeUK-Cd",
       "mt_enj1sMcfOT",
       "mt_eosO26KE-Z",
       "mt_f4O__f3OU4",
+      "mt_f62To2mA0B",
+      "mt_f7RadQGOnQ",
       "mt_f8n4txtLej",
+      "mt_fKAq8aOfhD",
       "mt_fL1Xz8ostr",
       "mt_fMd7v87IiI",
+      "mt_fQ9Rw10fss",
+      "mt_fQHBicp1Rf",
       "mt_fT4G0QloX5",
+      "mt_fXE9t2ETGx",
       "mt_f_dMmvzxwo",
       "mt_frDIaXzWbx",
+      "mt_fruAJ2RaRT",
       "mt_furAIwoO9t",
+      "mt_g8gJIsDxmj",
+      "mt_gBK8uXQlQW",
+      "mt_gC-6JXAG5S",
       "mt_gMSFymQlrW",
+      "mt_gNDkyx19tk",
       "mt_gR5_n99Ntt",
       "mt_gZIo5oiBMt",
       "mt_gbTyzvnWzr",
       "mt_gf4RUcACLg",
       "mt_ggcamLzXAy",
       "mt_h-z88yf9Pn",
+      "mt_h02-C8PRrj",
       "mt_h3vmvQW5Wa",
+      "mt_h7zVgCDVmx",
+      "mt_hE05udHee7",
+      "mt_hHcaPPtPzS",
       "mt_hJW7hVflm3",
+      "mt_h_XQsdIavD",
       "mt_h_shhH-6DC",
       "mt_haNr13NIuN",
       "mt_hbe_kdE_7C",
       "mt_hjtbA3g-Nn",
+      "mt_hkIbGmuH7D",
+      "mt_hoc__Jx3sa",
       "mt_hp2qJ-QRBn",
+      "mt_hvmqr1qcTU",
       "mt_hzkNpp2PdV",
       "mt_i1kk9HDctI",
+      "mt_i2-QaXbyzB",
+      "mt_i8AGTuk4fJ",
       "mt_iFkd0CTwlA",
       "mt_iWGnyUyN2j",
+      "mt_ic4dmtTZlw",
+      "mt_ij20XUbMHg",
       "mt_iodbOOmEQs",
+      "mt_iqmt8wL26h",
+      "mt_ish_uH8vZe",
       "mt_iv-BJS9W60",
+      "mt_ix4nIsZzS3",
+      "mt_iykH2P5oFq",
       "mt_j2idD_jq73",
       "mt_j32D5DZX7x",
       "mt_j351evNNnB",
       "mt_j6ENpc8--_",
+      "mt_j89i4u2fKr",
       "mt_j8Pv3s7TZR",
+      "mt_jIUuqbJJRb",
       "mt_jIcgbCmziD",
       "mt_jIszRCO2ij",
       "mt_jO0gHMk7Ti",
       "mt_jvJ35MmCvK",
       "mt_k-V37x3zsF",
+      "mt_k0-aLFge4X",
+      "mt_k6_dUr_oH6",
       "mt_k7VtbWdfDO",
       "mt_kH1DzOPsXG",
       "mt_kJ4xXKL_nO",
+      "mt_kV441n9SLg",
       "mt_kVzAFMuFc4",
       "mt_kgTN6yk4oE",
       "mt_klyw-tdlhP",
+      "mt_km4V6d5IAh",
+      "mt_kt3K54xUPu",
       "mt_kvrvpQris4",
+      "mt_kxeuXm6EyC",
+      "mt_l-3JUgI80b",
       "mt_lAvS72LOUO",
+      "mt_lC0gkyimcr",
       "mt_lIs10UMkPG",
       "mt_lSFwVU7V9g",
       "mt_lp3qyEujIv",
       "mt_lsO9O-_eZH",
+      "mt_lyxrFwNUqE",
       "mt_lzCcQzPJZi",
       "mt_m3-eXac3aP",
       "mt_mB7DVai-Uf",
       "mt_mDp-1vlL3R",
       "mt_mKAZTqItRG",
       "mt_mLPEMpYb_R",
+      "mt_mMDpLugX2X",
       "mt_mMMXD4v9Sh",
+      "mt_mN4Ye_vtR7",
+      "mt_mRU4H9-fgb",
+      "mt_mSpJK-rKW_",
+      "mt_mYujFoIsVG",
       "mt_miGrca8zaS",
       "mt_mkDqmejLMw",
       "mt_mmudyxf7bT",
+      "mt_mn765HbXi1",
       "mt_mpktt3wj1M",
+      "mt_mpzmwTktqF",
+      "mt_mqMPlNMIEN",
       "mt_mvXufozy2s",
       "mt_mydcMoa8gN",
+      "mt_n3ojDXoaqC",
+      "mt_n51zr0RFt4",
       "mt_n6GhzDPllD",
       "mt_nDAcXoPa0c",
       "mt_nFBLNoChD0",
+      "mt_nHvYYrhoM7",
       "mt_nIl1kKZHsk",
       "mt_nKS_vCYrg3",
       "mt_nNDX_jZ-cb",
       "mt_nYU6x2E2T8",
+      "mt_nZaqNZaN0V",
+      "mt_nePS3LNvBy",
+      "mt_nfGAtwqSvP",
       "mt_npRaYRhU2V",
       "mt_nqM2OW0Qlm",
+      "mt_nrXT7pDpG6",
       "mt_ntqNLHsj5n",
+      "mt_nx4a3kH-59",
+      "mt_nzdtOLXWWa",
+      "mt_o0vTMl8vj5",
       "mt_o8ciHks8t2",
       "mt_oAK9GXSfqV",
       "mt_oL9s_bufDp",
+      "mt_oMkQQ2O-ML",
       "mt_oN7fI4d_kU",
+      "mt_oVnNR1lVv6",
       "mt_oVwNnjYPUY",
+      "mt_oX753JF2Ub",
       "mt_oajUvqAiBJ",
+      "mt_oderfUBZPw",
       "mt_of2GggtxFl",
       "mt_ofOGCQ7FWj",
       "mt_on7FHCDmi-",
+      "mt_oqrqjd9jm9",
       "mt_oqvJJKCJXw",
+      "mt_oxfxzbat3k",
       "mt_p-8Hlf6_9k",
       "mt_p1imGSFgJT",
       "mt_p3tZiUaWAa",
       "mt_pAuo9Op89t",
+      "mt_pBvABgZo5O",
+      "mt_pK6QkcKxZT",
       "mt_pOstrrS763",
       "mt_pTz6u49fQt",
+      "mt_pWaBywSX9V",
       "mt_p_jxNLdus4",
       "mt_phpn6KhCAv",
       "mt_pis4novXWQ",
       "mt_pitjUcaAdy",
+      "mt_pxIoWWZy8L",
+      "mt_q2MKwlPl_u",
+      "mt_q2jwCeUZ9s",
       "mt_q3vRl4dddK",
       "mt_q7zxOloj_L",
+      "mt_qKHfQjgNMk",
+      "mt_qOv8OP8z2G",
+      "mt_qUKddG0UYv",
+      "mt_qUjW0N1cYO",
+      "mt_qdd0t4Sj6A",
       "mt_qw6mhOl-Qy",
       "mt_qzwQAOfurw",
+      "mt_r-BgS-lqTe",
       "mt_r1hw-KenpK",
+      "mt_r5rwyP8zRU",
+      "mt_rKwE6w2V6G",
       "mt_rQ2YJJi4uh",
+      "mt_rSjwQLqLXH",
+      "mt_r_ja_V9Q70",
       "mt_rf23aL6KwH",
       "mt_rkrG2w7WXI",
       "mt_roAgL1rQRF",
@@ -519,8 +825,11 @@
       "mt_rxJ2O_9Lkr",
       "mt_rymBfJmvFl",
       "mt_s6-6FYb5UQ",
+      "mt_sHMpam8zcd",
       "mt_sJyZW4qYUG",
       "mt_sMAcZW6vWM",
+      "mt_sPV503BQnI",
+      "mt_sQYvGbYD1I",
       "mt_sSQlLOnAow",
       "mt_sUVOS2jH3J",
       "mt_sXRHr7tfS5",
@@ -528,15 +837,25 @@
       "mt_saW7PxtPxw",
       "mt_scBgiMKhG_",
       "mt_sdmm_m60qX",
+      "mt_sh1Mq-mshx",
+      "mt_svBtqePrBP",
+      "mt_sxcE47yOvd",
       "mt_szw1Ln490b",
       "mt_t06dHX2ZYw",
       "mt_t1JXeNgKcu",
+      "mt_t9BICauBSI",
+      "mt_tF6XuKIq8_",
       "mt_tHtjfjjFrl",
       "mt_tIi6L1n7kF",
+      "mt_tVvZVWO5d6",
       "mt_tX0R4-4WXy",
+      "mt_tegkuJA5gM",
       "mt_thsY1ZesaU",
+      "mt_tlfSqLFm_Y",
       "mt_tn1rY9GbEZ",
       "mt_tqgZH11cP5",
+      "mt_tuEnyrp5Ia",
+      "mt_ty63-JSHTC",
       "mt_tzMr83pS8v",
       "mt_u1-UfD0rTH",
       "mt_u3OuIXqmAo",
@@ -544,50 +863,77 @@
       "mt_u7Jxjjatkh",
       "mt_uM6q_KBWKy",
       "mt_uP9faJlnRq",
+      "mt_uQI6mhU6hW",
       "mt_uSUqTjOl8m",
       "mt_uTKgmWqSoI",
       "mt_udgPy5oAvR",
       "mt_ujwtRoYJ34",
       "mt_ukLvUD8DFA",
       "mt_uorNrPTh6U",
+      "mt_urxvHF8Vds",
       "mt_uuB3owTqNY",
       "mt_uvILgZq9HN",
       "mt_uycuqPaiJ1",
       "mt_uzk7qs4KxE",
       "mt_v33BwiyRnd",
       "mt_v5DyOEpbbr",
+      "mt_v5pOal_23d",
       "mt_v5yDTWEiyQ",
+      "mt_v9qTyarbgE",
+      "mt_vC-_ESyMut",
       "mt_vFYFvgrPgD",
+      "mt_vLLyGZQ2AM",
+      "mt_vPmPulZtJG",
       "mt_vauULTecMH",
+      "mt_vbbxnY7ZDT",
       "mt_vpMDMbx4pc",
+      "mt_w4cUnN_SsQ",
       "mt_w4nSIDhIgC",
       "mt_w4wKFP3jud",
+      "mt_w5sIW_-T_J",
       "mt_wGxq92Na5g",
+      "mt_wH4t4TH0Yw",
       "mt_wRlf0g2MbB",
       "mt_wUyAZJikAA",
       "mt_wWlZoLQBR6",
+      "mt_wlhg-ivMh6",
       "mt_wq-1OJ_8s5",
+      "mt_wtbCz5hBdw",
+      "mt_wudskBtVQc",
       "mt_wvcFlwOrDl",
       "mt_wwdRhPyz6s",
       "mt_wzUzVEBqJb",
+      "mt_x08z0N0HX8",
       "mt_x2sWtfTeYT",
+      "mt_x3DJWIEHBq",
+      "mt_x7V1qrkiqH",
       "mt_xAG0aMeAIN",
       "mt_xYjD_kA70s",
       "mt_x_Lg4RASVU",
       "mt_xjl6AEhnjk",
       "mt_xsk3iuNVVI",
+      "mt_xvHpeB03k5",
+      "mt_xvKvxDXdJj",
+      "mt_y8-x0P5P9R",
       "mt_y8sicbhMci",
       "mt_yBJyCfhtem",
       "mt_yCmYV9ruQu",
+      "mt_yDQmYTrrzP",
       "mt_yHQacItlhf",
+      "mt_yIk_4o0MOa",
       "mt_yNGrY9xJ8Y",
       "mt_ylFTYS80d1",
       "mt_yrMniCJu_S",
+      "mt_yrvYKSwSRZ",
       "mt_z07UNAIsNc",
       "mt_z98J_Zg2L3",
       "mt_zBUcAPDRPM",
       "mt_zCUIJLdK_s",
+      "mt_zIcYzrrO0Z",
       "mt_zIzJGkaj0Q",
+      "mt_zQfWqImxva",
+      "mt_zYX3606Dgd",
+      "mt_zbEcwd40uv",
       "mt_zh_RyesCgZ",
       "mt_zlSoIKPyId",
       "mt_zrCyqhngYm"
@@ -598,7 +944,8 @@
     "Original pedagogy and assessment were retained during the initial learning-guidance rewrite; later taxonomy-alignment repairs are recorded in individual review notes. Unrepaired fields may need separate review.",
     "Source verified flags and confidence are historical authoring metadata, not fresh verification or independent evidence ratings. Sources were not re-fetched for this release.",
     "Curriculum passages matching eight or more consecutive words of codes-only frameworks are omitted and marked inline. This conservative mechanical pass is not comprehensive rights clearance; third-party works retain their upstream terms. Publication notes list transformed paths.",
-    "Activity sourceClaims match sources[].claim exactly after the same publication transformation. A curriculum reference establishes alignment, not evidence that an activity was tested."
+    "Activity sourceClaims match sources[].claim exactly after the same publication transformation. A curriculum reference establishes alignment, not evidence that an activity was tested.",
+    "Historical records for merged/refocused topics are preserved in archived-teaching-research.json. The retired nearest-minute prerequisite reference in active assessment guidance was redirected to its surviving topic; all other active record content and authoring provenance are unchanged."
   ],
   "records": [
     {
@@ -23812,235 +24159,6 @@
       }
     },
     {
-      "topicId": "mt_3XJkeIn6J6",
-      "pedagogy": {
-        "summary": "Children read an analogue clock to the exact minute AND develop a felt sense of how long seconds, minutes and hours are — estimating durations and comparing them, recording time in each unit. The estimation and comparison strands carry the documented difficulties: children count seconds far too fast, so estimates are wildly short, and they compare bare numbers ignoring units ('30 seconds is longer than 20 minutes because 30 > 20'). Choosing a sensible unit for an event is also hard.",
-        "bestPractices": [
-          "Pair precise reading (count on from the last five) with hands-on estimation ('put your hand up when you think a minute has passed') checked against a real stopwatch",
-          "Calibrate seconds vs minutes physically so the child FEELS the difference in scale",
-          "Always compare durations in a COMMON unit; make the units explicit before comparing sizes",
-          "Match events to sensible units (a blink = seconds, a lesson = minutes/an hour)",
-          "Use a stopwatch to connect estimate -> measured value -> comparison"
-        ],
-        "keyRepresentations": [
-          "Analogue clock with a minute scale (reading on)",
-          "Stopwatch / timer for estimating and measuring",
-          "A bar or number line to compare durations in a common unit",
-          "Everyday events sorted by their natural unit"
-        ],
-        "commonMisconceptions": [
-          "Counts seconds in the head too quickly, so estimates are badly short",
-          "Compares numbers without reference to units (30 seconds > 20 minutes because 30 > 20)",
-          "Chooses the wrong unit for an event (seconds for a lesson, hours for a blink)",
-          "Thinks a later finish time means a longer duration (carried from earlier duration confusion)",
-          "Reads to the nearest minute by counting single minutes from the 12"
-        ]
-      },
-      "learn": {
-        "summary": "Year 3 children (age 7–8) learn to read an analogue clock to the nearest minute AND build a felt sense of how long seconds, minutes and hours actually are — estimating real durations, comparing them, and choosing sensible units for events. The hard parts are: estimating (children tend to count seconds in their head far too fast, so estimates come out wildly short), comparing (they compare bare numbers while ignoring units, e.g. '30 seconds is longer than 20 minutes because 30 > 20'), and selecting an appropriate unit for an event. Precise reading should be paired with hands-on calibration against a real timer and with comparisons laid out in a common unit.",
-        "activities": [
-          {
-            "title": "Tap when you think the time has passed — then reveal the real elapsed time",
-            "feedback": [
-              "If the child tapped at ~10 seconds for 30 seconds: 'Had a whole 30 seconds really gone? Let's check the stopwatch — you tapped early. Try counting one-Mississippi, two-Mississippi.'",
-              "When the estimate lands in a sensible range (not at ~10 seconds): 'That's much closer to a real 30 seconds.'",
-              "Frame this as rehearsing a steady pace, not a concept to re-explain."
-            ],
-            "rationale": "The too-fast internal counter is a felt performance skill; a live estimate-then-reveal loop against a real measured value makes the error visible and gives immediate calibration feedback. White Rose documents the 'put your hand up when you think a minute/40 seconds has passed' activity checked against a stopwatch. A stopwatch is one way to supply the measured value; an adult timing by hand serves the same purpose.",
-            "sourceClaims": [
-              "White Rose Y3 Time (Steps 10-12) documents that when estimating children often count seconds in their head too quickly, and when comparing they compare numbers without reference to units ('30 seconds is longer than 20 minutes because 30 > 20') and find it hard to choose the correct unit for an event; the recommended activity is 'put your hand up when you think a minute/40 seconds has passed' checked against a stopwatch.",
-              "Year 3 pupils should 'estimate and read time with increasing accuracy to the nearest minute; record and compare time in terms of seconds, minutes and hours'."
-            ],
-            "learnerActions": [
-              "Close your eyes (or watch a blank screen) and tap/raise a hand when you think 30 seconds has passed.",
-              "Compare the moment you tapped with the real elapsed time measured on a stopwatch or timer.",
-              "Notice the gap between your tap and the real time — many children tap early for a 30-second estimate because they count too fast in their head, so check whether that happened for you.",
-              "Try again, practising a steady 'one-Mississippi' counting pace, and re-estimate to see if your tap gets closer.",
-              "Repeat for a minute and for 40 seconds."
-            ],
-            "intendedInsight": "My internal counting can run faster than real seconds; estimating duration is a felt skill I can calibrate against a real timer by checking my tap against the measured time."
-          },
-          {
-            "title": "Compare two durations on one common-unit scale",
-            "feedback": [
-              "If the child picks 30 seconds: 'How many seconds are in 20 minutes? Convert both to seconds, then compare — 20 minutes is 1200 seconds, so 20 minutes is longer.'",
-              "For 90s vs 2 minutes: 'Is 90 seconds longer or shorter than 2 minutes? 90 is bigger than 2, but is a second bigger than a minute? Convert: 2 minutes = 120 seconds, so 2 minutes is longer.'",
-              "Reinforce: don't compare numbers without their units; make the units explicit before comparing sizes."
-            ],
-            "rationale": "Children apply whole-number reasoning to time and treat quantities as bare counting numbers; laying both durations on a single common-unit scale makes the unit explicit and visible so size can be compared fairly. The dragging-onto-a-shared-line interaction is an optional mechanism; a drawn bar or number line on paper serves the same purpose.",
-            "sourceClaims": [
-              "Children apply discrete whole-number reasoning to time and struggle to coordinate its non-standard groupings, so they treat time quantities like ordinary counting numbers rather than reasoning about the units — consistent with comparing 30 and 20 without regard to seconds vs minutes.",
-              "White Rose Y3 Time (Steps 10-12) documents that when estimating children often count seconds in their head too quickly, and when comparing they compare numbers without reference to units ('30 seconds is longer than 20 minutes because 30 > 20') and find it hard to choose the correct unit for an event; the recommended activity is 'put your hand up when you think a minute/40 seconds has passed' checked against a stopwatch."
-            ],
-            "learnerActions": [
-              "Take two durations, '30 seconds' and '20 minutes', and place them as bars onto ONE shared number line marked in a common unit (e.g. seconds).",
-              "See that 20 minutes = 1200 seconds towers over the 30-second sliver.",
-              "State which is longer and say WHY: a minute is 60 seconds, so 20 minutes is 1200 seconds, which is longer than 30 seconds even though 20 is less than 30.",
-              "Try more pairs, including a tricky one: 90 seconds vs 2 minutes (90 > 2, but 90s < 120s, so 2 minutes is longer)."
-            ],
-            "intendedInsight": "Durations can only be compared fairly when expressed in the same unit; the bare number alone does not tell you which is longer."
-          },
-          {
-            "title": "Read an analogue clock to the exact minute by counting on from the last five",
-            "feedback": [
-              "If the child taps round the dial one minute at a time from the 12: 'Which five has the hand just passed? Start there and count on.'",
-              "When they count on from 35: 'Good — 35 plus 3 more is 38.'",
-              "Rehearse with the fives marked so the anchor is easy to find."
-            ],
-            "rationale": "Counting single minutes from the 12 is slow and error-prone; anchoring on the last five-minute mark the hand has passed and counting on supports accurate reading to the nearest minute, a statutory Year 3 expectation. The counting-on method is drawn from the scheme-of-learning pedagogy rather than quoted verbatim from a source claim.",
-            "sourceClaims": [
-              "Year 3 pupils should 'estimate and read time with increasing accuracy to the nearest minute; record and compare time in terms of seconds, minutes and hours'."
-            ],
-            "learnerActions": [
-              "Look at a clock showing 2:38.",
-              "Find which five the minute hand has just passed (the 35).",
-              "Count on from there to the exact minute (+3 to reach 38).",
-              "Read the time to the nearest minute and explain the counting-on method.",
-              "Rehearse with the five-minute marks shown on the clock face."
-            ],
-            "intendedInsight": "Reading to the exact minute is efficient when I anchor on the last five and count on, rather than counting single minutes from the 12."
-          },
-          {
-            "title": "Match events to sensible units using benchmarks",
-            "feedback": [
-              "If the child says lunch takes '30 seconds' or '5 hours': 'Think of your benchmark — a minute is about a short song. Is lunch closer to a clap, a song, or a whole lesson?'",
-              "When a sensible unit is chosen (e.g. minutes for lunch): 'Yes — lunch is many minutes, not seconds.'",
-              "A sorting activity can check and build this classification but does not itself produce the felt sense of a duration — pair it with the timed estimation work."
-            ],
-            "rationale": "Choosing the correct unit is documented as hard; building concrete referents gives children something to compare each event against instead of guessing.",
-            "sourceClaims": [
-              "White Rose Y3 Time (Steps 10-12) documents that when estimating children often count seconds in their head too quickly, and when comparing they compare numbers without reference to units ('30 seconds is longer than 20 minutes because 30 > 20') and find it hard to choose the correct unit for an event; the recommended activity is 'put your hand up when you think a minute/40 seconds has passed' checked against a stopwatch.",
-              "Year 3 pupils should 'estimate and read time with increasing accuracy to the nearest minute; record and compare time in terms of seconds, minutes and hours'."
-            ],
-            "learnerActions": [
-              "Anchor each unit to a familiar benchmark: a second ≈ one clap, a minute ≈ a short song, an hour ≈ a lesson.",
-              "Sort everyday events against these benchmarks (a blink, brushing teeth, eating lunch, sleeping overnight).",
-              "Choose whether each event is best measured in seconds, minutes or hours, and justify by comparing to the benchmark.",
-              "Catch mismatches such as 'lunch takes 30 seconds' or 'a blink takes hours'."
-            ],
-            "intendedInsight": "Each unit has a felt size; I pick the unit for an event by comparing it to a benchmark I know."
-          },
-          {
-            "title": "Sequence and compare durations",
-            "feedback": [
-              "If a sequence is ordered by bare number (placing 90 seconds as the longest, above 2 minutes and even 1 hour): 'Convert to the same unit first — 90 seconds vs 120 seconds for 2 minutes, and 3600 seconds for an hour.'",
-              "For the comparison item, ask the child to say WHY, not just pick an answer.",
-              "Accept converting to a common unit, or unit-size reasoning only when the number of larger units is at least as big as the number of smaller units (e.g. 20 minutes vs 30 seconds); for pairs like 90 seconds vs 1 minute, require conversion."
-            ],
-            "rationale": "Ordering and 'which is longer' items with mixed units are discriminating checks that reveal whether a child reasons about units or just the numbers. A recognition/selection or ordering format can be used for checking, but should follow the hands-on estimation and common-unit comparison work rather than replace it, since selecting a correct answer does not by itself elicit the felt calibration of estimating against a timer.",
-            "sourceClaims": [
-              "Year 3 pupils should 'estimate and read time with increasing accuracy to the nearest minute; record and compare time in terms of seconds, minutes and hours'."
-            ],
-            "learnerActions": [
-              "Put a set of durations in order from shortest to longest: 90 seconds, 1 minute, 1 hour, 2 minutes (correct order: 1 minute, 90 seconds, 2 minutes, 1 hour).",
-              "Answer 'which is longer, 30 seconds or 20 minutes?' and explain the reasoning in units.",
-              "Match a list of events to their natural unit.",
-              "Estimate how long brushing teeth takes using a slider or spoken estimate, then check against a timer."
-            ],
-            "intendedInsight": "I can order and compare durations reliably by converting to a common unit and reasoning about unit size."
-          }
-        ],
-        "constraints": [
-          "Reading, estimating and comparing are distinct strands — cover all three; precise reading alone does not address the estimation and comparison difficulties that carry the misconceptions.",
-          "A static 'how long does X take' poster can list useful benchmarks but cannot run the estimate-then-check calibration loop; use it as a reference, not as the estimation activity.",
-          "A character or spoken prompt can ask the child to estimate and compare, but needs a real timer alongside it for the too-fast-counter feedback to be felt.",
-          "The estimation error is a felt performance skill to rehearse against a real timer, not a concept to reteach by explanation.",
-          "Always make units explicit before comparing durations; never present a comparison item that rewards comparing bare numbers without their units, and never list the unit-blind answer (30 seconds longer than 20 minutes) as a correct option.",
-          "Recognition/selection and ordering items check whether a child reasons in units but do not by themselves elicit the felt calibration of estimating against a timer; pair them with hands-on estimation.",
-          "The dragging/common-unit-line and tap-to-reveal interactions are illustrative mechanisms; equivalent work with a stopwatch and a drawn number line on paper achieves the same objective."
-        ],
-        "reviewNotes": [
-          "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were not re-fetched. Activities are research-informed proposals, not validated interventions.",
-          "The legacy row claims '3D adds nothing' and that the errors are 'correctable only by a live feedback loop'; these are catalog-fit judgements, not established necessity claims. They have been softened to affordance-based statements (a real timer makes the estimation error felt; a static poster cannot run the loop; a sort checks classification but does not elicit the felt duration).",
-          "Self-audit of arithmetic/examples: 2:38 read as count-on from 35 (+3) is correct; 20 minutes = 1200 seconds is correct; 90 seconds vs 2 minutes = 120 seconds is correct (90s < 120s, so 2 minutes is longer); 1 hour = 3600 seconds; sequence order 1 minute (60s) < 90 seconds < 2 minutes (120s) < 1 hour (3600s) — all retained as learner-facing examples.",
-          "The 'count on from the last five' reading method and the 'discriminating check' framing come from the row pedagogy/White Rose scheme, not from a verbatim sources[].claim; the retained National Curriculum claim supports the objective of reading/comparing to the nearest minute, not the specific technique.",
-          "The 'later finish time means longer duration' misconception is noted in the original pedagogy as carried from earlier duration work; it is not directly targeted by these activities and may need a separate duration-difference activity if observed."
-        ],
-        "schemaVersion": 2
-      },
-      "assess": {
-        "method": "performance_task",
-        "poeTask": null,
-        "probeDeeper": [
-          "'You said 30 seconds is longer — how many seconds are in 20 minutes? Now which is longer?' (forces a common unit)",
-          "'When you put your hand up, had a whole minute really gone? Let's check on the stopwatch.'",
-          "'Would you measure how long you sleep in seconds, minutes or hours? Why?'",
-          "'Is 90 seconds longer or shorter than 2 minutes?' (90 > 2 but 90s < 120s — counterexample)"
-        ],
-        "correctAnswer": "Reads 2:38 by counting on from 35 (+3); estimates 30 seconds within a sensible range (not tapping at around 10 seconds); says 20 minutes is longer than 30 seconds BECAUSE minutes are bigger units (converting or reasoning about unit size); picks minutes for lunch.",
-        "errorPatterns": [
-          {
-            "kind": "misconception",
-            "pattern": "Compares durations by the bare number, ignoring units ('30 seconds is longer than 20 minutes because 30 > 20')",
-            "nextMove": "Make the units explicit before comparing — convert both to the same unit or lay them on one number line so the child sees 20 minutes = 1200 seconds; never compare numbers without their units.",
-            "distractor": null,
-            "revealedBy": "On the comparison item picks 30 seconds; compares magnitudes without converting to a common unit",
-            "reteachPrerequisiteId": "mt_6XCURuNwPw"
-          },
-          {
-            "kind": "performance",
-            "pattern": "Counts seconds far too quickly, so time estimates are wildly short",
-            "nextMove": "Scaffold: calibrate against a real stopwatch, practising a steady 'one-Mississippi' pace and re-estimating; this is a felt skill to rehearse, not a concept to reteach.",
-            "distractor": null,
-            "revealedBy": "Puts a hand up at around 10 seconds for a 30-second estimate",
-            "reteachPrerequisiteId": null
-          },
-          {
-            "kind": "misconception",
-            "pattern": "Chooses an inappropriate unit for an event (seconds for a lesson, hours for a blink)",
-            "nextMove": "Build referents — anchor each unit to a familiar benchmark (a second = one clap, a minute = a short song, an hour = a lesson) and sort events against them.",
-            "distractor": null,
-            "revealedBy": "Says lunch takes '30 seconds' or '5 hours'",
-            "reteachPrerequisiteId": null
-          },
-          {
-            "kind": "performance",
-            "pattern": "Reads to the nearest minute by counting single minutes from the 12 rather than counting on from the last five",
-            "nextMove": "Scaffold 'which five has the hand just passed? count on'; rehearse with the fives marked on the clock.",
-            "distractor": null,
-            "revealedBy": "Taps round the dial one minute at a time on the reading item",
-            "reteachPrerequisiteId": "mt_4m8BimI4G5"
-          }
-        ],
-        "responseLevels": {
-          "gap": "Reads by counting single minutes; estimates wildly (counts too fast); compares durations by the bare number, ignoring units.",
-          "full": "Reads to the exact minute, estimates short durations sensibly against a benchmark, and compares durations by converting to a common unit / reasoning about unit size, choosing appropriate units for events.",
-          "partial": "Reads to the nearest minute and estimates roughly, but is caught comparing across units (30s vs 20min) or picking a sensible unit for unfamiliar events."
-        },
-        "diagnosticPrompt": "Set estimating, reading and comparing tasks and WATCH: (1) Analogue clock at 2:38: 'Read this to the nearest minute and show me how.' (2) 'Close your eyes and put your hand up when you think 30 seconds has gone' — time it. (3) 'Which is longer — 30 seconds or 20 minutes? How do you know?' and 'About how long does it take to eat lunch — seconds, minutes or hours?' Watch the reading method, how far off the estimate is, and whether they reason about UNITS rather than just the numbers.",
-        "whatMakesItDiscriminate": "The '30 seconds vs 20 minutes' item is the classic unit-blind comparison probe: a child comparing bare numbers picks 30 seconds, a child reasoning about units picks 20 minutes. The eyes-closed estimate exposes the too-fast internal counter directly rather than by self-report."
-      },
-      "sources": [
-        {
-          "claim": "Year 3 pupils should 'estimate and read time with increasing accuracy to the nearest minute; record and compare time in terms of seconds, minutes and hours'.",
-          "source": "National Curriculum in England: Mathematics, Year 3 Measurement (statutory), gov.uk",
-          "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-mathematics-programmes-of-study/national-curriculum-in-england-mathematics-programmes-of-study",
-          "verified": true
-        },
-        {
-          "claim": "White Rose Y3 Time (Steps 10-12) documents that when estimating children often count seconds in their head too quickly, and when comparing they compare numbers without reference to units ('30 seconds is longer than 20 minutes because 30 > 20') and find it hard to choose the correct unit for an event; the recommended activity is 'put your hand up when you think a minute/40 seconds has passed' checked against a stopwatch.",
-          "source": "White Rose Education, Year 3 Summer Block 3: Time (scheme of learning), Steps 10-12",
-          "url": "https://assets.whiteroseeducation.com/new-schemes/Y3%20Summer%20Block%203%20SOL%20Time.pdf",
-          "verified": true
-        },
-        {
-          "claim": "Children apply discrete whole-number reasoning to time and struggle to coordinate its non-standard groupings, so they treat time quantities like ordinary counting numbers rather than reasoning about the units — consistent with comparing 30 and 20 without regard to seconds vs minutes.",
-          "source": "Earnest, Gonzales & Plant (2018), 'Time as a measure: elementary students positioning the hands of an analog clock', Journal of Numerical Cognition 4(1)",
-          "url": "https://jnc.psychopen.eu/index.php/jnc/article/view/5793",
-          "verified": true
-        }
-      ],
-      "confidence": "high",
-      "provenance": {
-        "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
-        "createdAt": "2026-07-27T22:04:31.373Z",
-        "updatedAt": "2026-10-19T15:20:10.193Z"
-      },
-      "publicationNotes": {
-        "omittedCurriculumText": []
-      }
-    },
-    {
       "topicId": "mt_3y7xKP9MjU",
       "pedagogy": {
         "summary": "Finding a non-unit fraction of a quantity is a two-step operator procedure: divide the whole by the denominator to find one equal part (the unit fraction), then multiply that part by the numerator. The teaching goal at age 8-9 is fluency and reliable structure — children already know unit fractions of sets, so the new work is coordinating the divide-then-multiply sequence and interpreting worded problems (\"3/8 of 24 sweets\") into that structure. Best taught by making the two steps explicit and visible before compressing them, and by grounding the procedure in the meaning of the denominator (how many equal shares) and numerator (how many shares we take).",
@@ -25147,7 +25265,7 @@
             "nextMove": "Calculate BOTH durations first (count on for each), then compare the lengths; show a short activity that ends late versus a long one that ends early.",
             "distractor": null,
             "revealedBy": "On the comparison item picks the activity that ends later without calculating each duration",
-            "reteachPrerequisiteId": "mt_3XJkeIn6J6"
+            "reteachPrerequisiteId": "mt_UNzojLkNdm"
           },
           {
             "kind": "performance",
@@ -67220,54 +67338,56 @@
     {
       "topicId": "mt_E1wR8IfCV6",
       "pedagogy": {
-        "summary": "- **Age:** 7–8 years\n\n- **Topic:** Animal Nutrition\n\n- **Standards — UK (DfE Y3 'Animals, including humans'):** \"identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat\".\n\n- **Standards — US (no direct NGSS PE):** No US elementary PE names food groups; the closest idea, that animals get materials and energy from food, sits within 5-PS3-1 / LS1.C ('[curriculum wording omitted; reference 5-PS3-1]... and the energy'). Treat as UK-led.\n\n- **Operational details:** The organising contrast is heterotroph vs autotroph in child terms: plants MAKE their own food (using light); animals CANNOT and must EAT it. From there children learn that food provides different things the body needs — the main food groups (carbohydrates, proteins, fats, vitamins, minerals, fibre, water) — and that the body needs the RIGHT TYPES and the RIGHT AMOUNTS (not just 'more is better'). Consequences of imbalance make it concrete (too little calcium → weak bones; too little of a vitamin → illness). Keep it at the level of grouping foods and matching each group to what it does; detailed nutrient chemistry is KS3.\n\n- **Checkpoint:** Tier A (concrete/observational). A Y3 child can name the food groups, sort foods into them, and state that animals must eat while plants make their own food; the conceptual stretch is 'right types AND amounts' — that a balanced variety, not a single favourite food, keeps the body healthy.",
+        "summary": "- **Age:** 7–8 years\n\n- **Topic:** Animal Nutrition\n\n- **Standards — UK (DfE Y3 'Animals, including humans'):** \"identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat\".\n\n- **Standards — US (no direct NGSS PE):** No US elementary PE names food groups; the closest idea, that animals get materials and energy from food, sits within 5-PS3-1 / LS1.C ('[curriculum wording omitted; reference 5-PS3-1]... and the energy'). Treat as UK-led.\n\n- **Operational details:** The organising contrast is heterotroph vs autotroph in child terms: plants MAKE their own food (using light); animals CANNOT and must EAT it. From there children learn two separate things: foods are sorted into the FOOD GROUPS of a local healthy-eating guide (in the UK, the Eatwell Guide's five groups: fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads), and foods supply NUTRIENTS the body needs (carbohydrates, proteins, fats, vitamins, minerals and fibre, plus water), most foods supplying several. The body needs the RIGHT TYPES and the RIGHT AMOUNTS (not just 'more is better') — a variety of foods from each food group in roughly the guide's proportions, balanced over a day or week. Consequences of imbalance make it concrete (too little calcium → weak bones; too little of a vitamin → illness). Keep it at the level of sorting foods into the guide's food groups and naming the main nutrients and their jobs; never call nutrients 'food groups'. Detailed nutrient chemistry is KS3.\n\n- **Checkpoint:** Tier A (concrete/observational). A Y3 child can sort foods into the Eatwell Guide's food groups, name the main nutrients and what they do, and state that animals must eat while plants make their own food; the conceptual stretch is 'right types AND amounts' — that a balanced variety, not a single favourite food, keeps the body healthy.",
         "bestPractices": [
           "Lead with the plant-vs-animal contrast (plants make their own food from light; animals cannot and must eat) because it is the load-bearing idea that distinguishes animal nutrition and sets up food chains.",
-          "Teach food groups by FUNCTION not just name (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre to keep the gut working, water for everything) so grouping is meaningful.",
+          "Teach nutrients by FUNCTION not just name (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre to keep the gut working, water for everything), separately from food groups, so children learn that food groups are groups of foods on a healthy-eating guide while nutrients are what those foods supply.",
           "Make 'right types AND amounts' concrete with consequences (too little calcium → weak bones; too little vitamin C → illness; too much sugar → unhealthy) rather than an abstract 'balance'.",
-          "Use real or pictured foods children eat and have them sort and build meals, connecting to their own diet.",
-          "Distinguish 'food' from 'nutrients': a single food (e.g. an egg) contains several nutrients — avoid one-food-one-group oversimplification where possible.",
+          "Use real or pictured foods children eat: sort them into the Eatwell Guide's food groups and build meals in roughly the guide's proportions (fruit and vegetables and starchy foods the biggest parts, oils and spreads small), balanced over a day, connecting to their own diet.",
+          "Distinguish food groups from nutrients: a single food (e.g. an egg or a glass of milk) sits in one food group but supplies several nutrients, and mixed dishes such as pizza combine several food groups — avoid matching each food to one nutrient.",
           "Link forward to digestion (how the body gets the nutrients out of food) and to food chains (why animals must eat other organisms)."
         ],
         "keyRepresentations": [
-          "A 'balanced plate' / Eatwell-style divided plate showing proportions of each food group",
-          "Food-group sorting cards (foods → carbohydrate/protein/fat/vitamins&minerals/fibre/water)",
+          "An Eatwell Guide plate showing the proportions of the five food groups (fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads), with foods high in fat, salt and sugar outside the main groups",
+          "Food-group sorting cards (foods → the five Eatwell food groups), with a 'mixed foods' pile for dishes such as pizza or sandwiches",
           "A plant-vs-animal contrast panel: plant with sun → 'makes its own food'; animal with mouth → 'must eat food'",
-          "A function strip pairing each food group with what it does for the body",
+          "A nutrient function strip pairing each nutrient (carbohydrates, proteins, fats, vitamins, minerals, fibre, plus water) with what it does for the body",
           "Consequence cards linking a missing nutrient to a health effect (calcium→bones, vitamin C→scurvy)"
         ],
         "commonMisconceptions": [
           "Thinking animals (or humans) can make their own food or 'get energy from the sun' like plants — the core misconception this topic must correct.",
           "Believing 'more food is always better' or that one favourite food can be a whole diet, missing 'right amounts' and variety.",
-          "Assuming each food belongs to exactly one group, rather than most foods containing several nutrients.",
+          "Assuming each food supplies just one nutrient, rather than most foods supplying several (e.g. milk supplies protein, fat and calcium).",
+          "Calling nutrients (carbohydrates, proteins, fats, vitamins) 'food groups' — food groups are groups of foods on a healthy-eating guide such as the Eatwell Guide, and each food supplies several nutrients.",
           "Confusing 'healthy = expensive/special food' rather than balance across ordinary foods.",
           "Thinking only 'unhealthy' people need to worry about nutrition, rather than everyone needing the right types and amounts."
         ]
       },
       "learn": {
-        "summary": "Animal nutrition for 7–8 year-olds (UK DfE Y3 'Animals, including humans'). The load-bearing idea is that plants MAKE their own food using light while animals CANNOT and must EAT to get energy and nutrients. From there children group foods, match each group to what it does for the body (energy, growth/repair, warmth, health, gut function, hydration), and grasp that the body needs the RIGHT TYPES and RIGHT AMOUNTS — a balanced variety, not a single favourite or simply 'more'. Consequences of imbalance (weak bones without calcium, illness without vitamin C) make this concrete. The core proposed activity is a build-a-balanced-plate task with a responsive balance meter, complemented by a real classroom food-sort and a plant-vs-animal contrast that also links to food chains; alternatives (reveal poster, sorting consolidation, nutritionist dialogue) are kept for their distinct purposes.",
+        "summary": "Animal nutrition for 7–8 year-olds (UK DfE Y3 'Animals, including humans'). The load-bearing idea is that plants MAKE their own food using light while animals CANNOT and must EAT to get energy and nutrients. From there children sort foods into the food groups of a local healthy-eating guide (in the UK, the Eatwell Guide's five groups), learn separately which nutrients foods supply and what each does for the body (energy, growth/repair, warmth, health, gut function; water for hydration), recognising that most foods supply several nutrients, and grasp that the body needs the RIGHT TYPES and RIGHT AMOUNTS — a variety of foods from each food group in roughly the guide's proportions over a day or week, not a single favourite or simply 'more'. Consequences of imbalance (weak bones without calcium, illness without vitamin C) make this concrete. The core proposed activity is a build-a-balanced-plate task with a responsive balance meter, complemented by a real classroom food-sort and a plant-vs-animal contrast that also links to food chains; alternatives (reveal poster, sorting consolidation, nutritionist dialogue) are kept for their distinct purposes.",
         "activities": [
           {
             "title": "Build a balanced plate with a live balance meter",
             "feedback": [
-              "If the plate is piled with only sweets or cakes: 'Lots of energy from sugar, but very little for growth or health — your body needs other groups too.' If it is piled with only one non-sugary food, name what that food gives and which groups are still missing.",
+              "If the plate is piled with only sweets or cakes: 'Lots of energy from sugar, but very little for growth or health — these foods sit outside the main food groups; your body needs foods from the main groups too.' If it is piled with only one non-sugary food, name which food group it comes from, what nutrients it gives and which food groups are still missing.",
               "If variety and proportions are good: meter settles green and the cartoon body perks up — 'Right types and right amounts.'",
-              "When a deficiency pop-up appears (e.g. too little calcium over time → weak bones), explain that calcium is a mineral (in the vitamins & minerals group) found in foods such as milk, cheese and yoghurt, and let the child add one of those foods.",
+              "When a deficiency pop-up appears (e.g. too little calcium over time → weak bones), explain that calcium is a mineral (a nutrient) found in foods from the dairy and alternatives group such as milk, cheese and yoghurt, and let the child add one of those foods.",
               "If two equal-sized plates score differently, draw attention to WHY: 'Same amount of food, but one has a healthy variety.'"
             ],
-            "rationale": "The objective is grouping foods and balancing amounts, which is a sortable, buildable task. A live balance meter is intended to make 'right types AND amounts' something the child notices through the recompute rather than a stated rule. The parallel real-food sort connects to the child's own diet as recommended in best practice.",
+            "rationale": "The objective is sorting foods into the guide's food groups and balancing amounts, which is a sortable, buildable task. A live balance meter is intended to make 'right types AND amounts' something the child notices through the recompute rather than a stated rule. The parallel real-food sort connects to the child's own diet as recommended in best practice.",
             "sourceClaims": [
               "DfE Y3 statutory requirement: 'identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat'.",
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients."
             ],
             "learnerActions": [
-              "Drag on-screen food cards onto a plate while a health/balance meter responds to what you add (in the classroom, do a parallel hands-on sort using real packets and pictures of your own meals).",
+              "Drag on-screen food cards onto an Eatwell-style plate divided into the five food groups while a health/balance meter responds to what you add (in the classroom, do a parallel hands-on sort using real packets and pictures of your own meals).",
               "Pile the plate with only cakes and sweets and read the meter: it swings to 'too much sugar — not enough for growth', with a cartoon body looking sluggish.",
-              "Now swap in some protein, vegetables, a carbohydrate and water; watch the meter settle into the green as the body perks up.",
+              "Now swap in foods from the main food groups — fruit and vegetables, a starchy food such as bread or rice, a protein food such as beans, eggs or fish, and a dairy food such as yoghurt — with water to drink; watch the meter settle into the green as the body perks up.",
               "Compare two plates with the SAME total amount of food but different variety, and say which scores healthier and why.",
               "When a nutrient is missing, read the consequence pop-up (e.g. too little calcium over a long time → weak bones; too little vitamin C over a long time → illness) and add a food that fixes it."
             ],
-            "intendedInsight": "It is the right TYPES and AMOUNTS together — a balanced variety — that keep the body healthy, not quantity alone; the same total food scores differently depending on its variety."
+            "intendedInsight": "It is the right TYPES and AMOUNTS together — a variety of foods from each food group in roughly the guide's proportions — that keep the body healthy, not quantity alone; the same total food scores differently depending on its variety."
           },
           {
             "title": "Plant makes food vs animal must eat",
@@ -67292,41 +67412,44 @@
             "intendedInsight": "Animals cannot make their own food and must eat (plants or other animals) to get energy and nutrients; plants make their own food using light, and in food chains like these the energy animals eat traces back to plants."
           },
           {
-            "title": "Reveal-the-job food-group poster (scaffold)",
+            "title": "Reveal-the-job nutrients and food-groups poster (scaffold)",
             "feedback": [
-              "When a section is revealed, restate the function in child terms and ask for one more food in that group.",
+              "When a nutrient flap is revealed, restate its job in child terms and ask for a food that supplies it, then ask which food group that food belongs to.",
               "On the myth-buster flap: reinforce that animals must eat; plants make their own food using light, but animals cannot.",
-              "If a child assigns a food to exactly one group, note that many foods (e.g. an egg) contain several nutrients."
+              "If a child matches a food to just one nutrient, note that many foods (e.g. an egg) supply several nutrients; if a child calls a nutrient a 'food group', point back to the Eatwell plate."
             ],
-            "rationale": "A reveal poster names groups and their functions and includes the plant-vs-animal myth-buster. It is a naming/revealing scaffold: it does not itself let the child actively balance amounts or experience the consequence of imbalance, so it supports but does not replace the build-a-plate task.",
+            "rationale": "A reveal poster names nutrients and their jobs, shows the Eatwell food groups as a separate panel, and includes the plant-vs-animal myth-buster. It is a naming/revealing scaffold: it does not itself let the child actively balance amounts or experience the consequence of imbalance, so it supports but does not replace the build-a-plate task.",
             "sourceClaims": [
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients.",
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week."
             ],
             "learnerActions": [
-              "Tap or lift each section of a balanced-plate / food-group poster to reveal the group name and its job (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre for the gut, water for everything).",
+              "Tap or lift each flap of a nutrients poster to reveal the nutrient and its job (carbohydrates for energy, protein for growth/repair, fats for energy/warmth, vitamins & minerals for health, fibre for the gut, water for everything).",
+              "Tap each section of an Eatwell plate panel to reveal the food group's name and two example foods.",
               "Open a myth-buster flap: 'Can animals make their own food like plants?' and read the answer.",
-              "Name a food you ate recently and say which group(s) it belongs to."
+              "Name a food you ate recently, say which food group it belongs to and which nutrients it supplies."
             ],
-            "intendedInsight": "Each food group has a job in the body, and grouping foods is meaningful when tied to function."
+            "intendedInsight": "Each nutrient has a job in the body; food groups sort foods on a healthy-eating guide, and each food supplies several nutrients."
           },
           {
             "title": "Sort-and-match consolidation",
             "feedback": [
-              "For a mis-sort, point back to the food's main nutrient and the group's job.",
+              "For a mis-sort, point back to what kind of food it is and where the Eatwell Guide places it (e.g. beans go with proteins, cheese with dairy and alternatives, potatoes with starchy foods).",
               "For 'why can't a cat make its own food?': reinforce that animals must eat; plants make food using light, but animals cannot.",
               "If the child accepts 'humans make food from sunlight', re-run the plant-vs-animal contrast."
             ],
             "rationale": "Sorting, matching and single-answer questions check the objectives and rehearse the reasoning. On their own they do not build the quantitative balancing intuition, so they follow the active build task rather than replace it.",
             "sourceClaims": [
-              "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each."
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+              "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients."
             ],
             "learnerActions": [
-              "Sort a set of food cards into groups by their main nutrient (carbohydrate / protein / fat / vitamins & minerals / fibre / water), noting foods such as eggs that could go in more than one group.",
-              "Match each group to its function.",
+              "Sort a set of food cards into the Eatwell Guide's five food groups, using a 'mixed foods' pile for dishes such as pizza that combine several groups.",
+              "Match each nutrient (carbohydrates, proteins, fats, vitamins, minerals, fibre, plus water) to its function, and name a food that supplies several of them (e.g. milk or an egg).",
               "Answer 'why can't a cat make its own food?' and explain in a sentence.",
               "Spot and reject a wrong claim such as 'humans make food from sunlight'."
             ],
-            "intendedInsight": "Consolidate naming food groups, linking them to function, and the reason animals cannot make their own food."
+            "intendedInsight": "Consolidate sorting foods into food groups, linking nutrients to their functions, and the reason animals cannot make their own food."
           },
           {
             "title": "Ask-a-nutritionist curiosity dialogue",
@@ -67346,21 +67469,23 @@
           }
         ],
         "constraints": [
-          "Keep at the level of grouping foods and matching each group to its job; detailed nutrient chemistry is KS3 and out of scope.",
+          "Keep at the level of sorting foods into a local guide's food groups and naming the main nutrients and their jobs; detailed nutrient chemistry is KS3 and out of scope.",
           "The reveal poster is a naming/revealing scaffold: it does not let a child actively balance amounts or experience the consequence of imbalance, so pair it with the active build task.",
           "Sort/match/single-answer questions consolidate and check recall and reasoning but do not by themselves build the quantitative balancing intuition.",
-          "Avoid one-food-one-group oversimplification: note that most foods (e.g. an egg) contain several nutrients.",
+          "Keep food groups and nutrients distinct: food groups are groups of foods on a healthy-eating guide; nutrients are what foods supply, and most foods (e.g. an egg) supply several.",
+          "Plate proportions follow the food groups of a local guide (Eatwell: fruit and vegetables and starchy foods the largest parts, oils and spreads small), balanced over a day or week — never equal shares of nutrients.",
           "Keep 'right types AND amounts' concrete via consequences (calcium→bones, vitamin C→illness, too much sugar→unhealthy) rather than an abstract 'balance'.",
-          "Use real or pictured foods the children actually eat so grouping connects to their own diet; keep the physical sort distinct from the on-screen responsive meter.",
+          "Use real or pictured foods the children actually eat so sorting connects to their own diet; keep the physical sort distinct from the on-screen responsive meter.",
           "A balance meter is an illustrative teaching device, not a clinical nutrition assessment; thresholds are simplified for learning."
         ],
         "reviewNotes": [
           "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were NOT re-fetched. Activities are research-informed proposals, not validated interventions.",
-          "The British Nutrition Foundation / Eatwell claim is marked verified:false in the source row; treat food-group role statements as standard KS2 guidance pending check.",
+          "The British Nutrition Foundation claim is marked verified:false and now states only nutrient roles; food-group statements cite the NHS Eatwell Guide, which was fetched and checked during the October 2026 nutrition review.",
           "Self-audit: 'plants get no nutrition' is a listed misconception — guidance clarifies plants DO get nutrition by making their own food, so no learner-facing action asserts plants are nutrition-free.",
           "Self-audit: the balance-meter thresholds and 'green/sluggish' outcomes are pedagogical simplifications, not measured nutritional facts; framed as a teaching device in constraints.",
           "The source assessment's probeDeeper food-chain and energy-origin questions have been incorporated into the plant-vs-animal activity to preserve the forward link to food chains.",
-          "The original 3D 'poor-fit' entry asserted a 3D scene 'adds cost without insight'; this reflects an internal catalog ranking rather than an established pedagogical law and was dropped rather than propagated as a universal claim."
+          "The original 3D 'poor-fit' entry asserted a 3D scene 'adds cost without insight'; this reflects an internal catalog ranking rather than an established pedagogical law and was dropped rather than propagated as a universal claim.",
+          "Nutrition review (October 2026): corrected the teaching text, sorting cards, activities, constraints and assessment so that carbohydrates, proteins, fats, vitamins, minerals and fibre are taught as nutrients, not 'food groups'. Foods are classified with the Eatwell Guide's five food groups, nutrients and their functions are taught separately (most foods supply several), and plate proportions follow the guide's food groups over a day or week. Learning aims, the plant-vs-animal activity and the dialogue are unchanged."
         ],
         "schemaVersion": 2
       },
@@ -67394,9 +67519,9 @@
           {
             "kind": "misconception",
             "pattern": "all foods are the same, or one food provides everything",
-            "nextMove": "introduce the main food groups and that the body needs a range of them",
+            "nextMove": "introduce the main food groups and that eating a variety of foods from each provides the range of nutrients the body needs",
             "distractor": null,
-            "revealedBy": "on the probe cannot name different food groups or their roles",
+            "revealedBy": "on the probe cannot name different food groups or what the nutrients in them do",
             "reteachPrerequisiteId": null
           },
           {
@@ -67410,7 +67535,7 @@
         ],
         "responseLevels": {
           "gap": "Says animals can make their own food, or that food gives no energy; cannot name food groups.",
-          "full": "Explains that animals cannot make their own food and must eat to get energy and nutrients (unlike plants), names the main food groups, and describes consequences of too much or too little of one.",
+          "full": "Explains that animals cannot make their own food and must eat to get energy and nutrients (unlike plants), names the main food groups and the main nutrients they supply, and describes consequences of too much or too little of a nutrient.",
           "partial": "Names food groups and knows animals eat, but as separate facts — cannot clearly contrast animals (must eat) with plants (make their own food), or link food to energy and the effect of imbalance."
         },
         "diagnosticPrompt": "A plant can sit in the sunshine and make its own food. Can a dog do the same — just sit in the sun and make its own food? Explain why or why not, and where a dog's energy actually comes from.",
@@ -67424,10 +67549,16 @@
           "verified": true
         },
         {
-          "claim": "Main food groups and their roles for KS2 (carbohydrates for energy, protein for growth/repair, fats, vitamins and minerals for health, fibre, water); a balanced diet uses the right amounts from each.",
-          "source": "British Nutrition Foundation / Eatwell Guide (KS2 guidance)",
+          "claim": "Foods provide a range of nutrients with different roles in the body — carbohydrates (energy), protein (growth and repair), fats, and vitamins and minerals (health) — alongside fibre and water; most foods provide several nutrients.",
+          "source": "British Nutrition Foundation (KS2 nutrient guidance)",
           "url": "https://www.nutrition.org.uk/putting-it-into-practice/balancing-the-diet/",
           "verified": false
+        },
+        {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
         },
         {
           "claim": "NGSS frames the idea that food provides animals with the materials and energy they need within 5-PS3-1 / LS1.C, rather than a food-groups PE.",
@@ -67440,7 +67571,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T18:09:38.236Z",
-        "updatedAt": "2026-10-19T15:20:21.949Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": [
@@ -134346,228 +134477,6 @@
       }
     },
     {
-      "topicId": "mt_NSC3LT_-ch",
-      "pedagogy": {
-        "summary": "Volume is the amount of three-dimensional space inside a solid, measured by packing it with unit cubes (each 1 cm³ = one cubic unit) with no gaps or overlaps and counting them. Children estimate and find the volume of a cuboid by building it from 1 cm³ blocks and seeing its LAYER structure — a layer holds rows×columns of cubes and the height tells how many layers — and connect packing with cubes to filling with liquid (a box holding 24 cm³ holds 24 ml of water). Packing volume is harder than area tiling because it demands 3-D spatial structuring.",
-        "bestPractices": [
-          "Build cuboids from 1 cm³ cubes and watch the layers form; count as number-in-a-layer × number-of-layers.",
-          "Make hidden cubes explicit — the bottom layers you can't see still count; account for the whole 3-D array, not just the visible faces.",
-          "Estimate before packing (predict how many cubes fill the box), then check by building.",
-          "Connect packing to filling: pack a box with cm³ cubes and also fill it from a cylinder marked in ml, so 1 cm³ = 1 ml becomes real.",
-          "Use benchmark comparisons for capacity (compare a jug to a known 1-litre measure); state volume in cubic units."
-        ],
-        "keyRepresentations": [
-          "A cuboid built from 1 cm³ cubes, decomposed into layers (rows × columns × layers)",
-          "The net of a box, used to predict the number of cubes to fill it",
-          "A box packed with cm³ cubes beside a graduated cylinder (1 cm³ = 1 ml)",
-          "A jug compared against a 1-litre benchmark for capacity estimation"
-        ],
-        "commonMisconceptions": [
-          "Counts only the visible cubes/faces and forgets the hidden lower layers — undercounting the 3-D array.",
-          "Adds the three dimensions (4+3+2) instead of building the layered array.",
-          "Treats the packed cubes as discrete objects, not as units of volume — doesn't see '24 cubes' as an amount of space.",
-          "Doesn't connect packing with filling — can't say how much water (ml) fills a box packed with 24 cm³ cubes."
-        ]
-      },
-      "learn": {
-        "summary": "Volume is the amount of 3-D space inside a solid, found by packing it with unit cubes (1 cm³ each) with no gaps or overlaps and counting them. Learners build a cuboid from 1 cm³ cubes, see its layer structure (a layer holds rows×columns of cubes; the height tells how many layers, so count = cubes-per-layer × layers), account for the hidden lower layers that cannot be seen, and connect packing with cubes to filling with liquid (a box packed with 24 cm³ holds 24 ml of water). Packing volume is harder than iterating length or tiling area because it demands extending spatial structuring from two to three dimensions.",
-        "activities": [
-          {
-            "title": "Pack a box layer by layer and reveal the hidden cubes",
-            "feedback": [
-              "If a learner answers 12 ('the top is 4 by 3'), they have counted only the visible top layer. Have them physically lift the top layer to reveal the one beneath, then count number-in-a-layer × number-of-layers.",
-              "If a learner answers 9 ('4 + 3 + 2'), they are adding the three edges. Show that adding edges gives a length, not the space filled; pack the cubes to see it is layers of an array, so the dimensions multiply.",
-              "If a learner says just '24' meaning 24 loose blocks, name the unit: each block is 1 cubic centimetre, so the box holds 24 cm³ of space — the count measures volume, not a pile of objects.",
-              "If the box were twice as tall (4 layers instead of 2), ask how many cubes then and why — this checks whether the layer structure is secure (4 × 12 = 48)."
-            ],
-            "rationale": "Decomposing a right rectangular prism into layers, each a rows-and-columns array, and recomposing multiplicatively (length×width cubes per layer, height = number of layers) is the targeted spatial structuring; predicting before packing surfaces undercounts based on the visible top or outer faces. Packing cubes physically lets learners rotate and open the solid to make the hidden interior cubes explicit.",
-            "sourceClaims": [
-              "A unit cube (side length 1) has one cubic unit of volume; a solid figure packed without gaps or overlaps using n unit cubes has a volume of n cubic units (5.MD.3), and volume is measured by counting unit cubes in cubic cm/in/ft (5.MD.4). Packing volume is harder than iterating length or tiling area and demands extending spatial structuring from two to three dimensions.",
-              "Students decompose a right rectangular prism into layers, each a rows-and-columns array, and recompose multiplicatively — length×width gives the number of cubes in a layer and the height gives the number of layers; they may predict the number of cubes to fill a box from its net. Volume is additive."
-            ],
-            "learnerActions": [
-              "Take an empty open box whose inside measures 4 cm by 3 cm by 2 cm and a pile of 1 cm³ cubes.",
-              "Before packing, predict how many cubes will fill the box completely and say WHY.",
-              "Lay the first layer as a 4-by-3 array and count it (12 cubes).",
-              "Stack the second layer on top and track the running count until it reads 24.",
-              "Rotate the box and open or lift the top layer to expose the bottom layer you could not see, confirming those hidden cubes still count.",
-              "State the count as cubes-per-layer × number-of-layers: 4×3 = 12 in a layer, 2 layers, 12×2 = 24.",
-              "State the result in cubic centimetres: 24 cm³."
-            ],
-            "intendedInsight": "Volume is a layered 3-D array: each layer holds rows×columns of cubes and the height gives the number of layers, so you multiply (or count layer by layer) and the hidden lower cubes count too. The answer is an amount of space measured in cubic units, not a heap of objects."
-          },
-          {
-            "title": "Connect packing with cubes to filling with water",
-            "feedback": [
-              "If a learner can count the cubes but cannot say how much water fills the box, move between filling and packing on the same container until 1 cm³ = 1 ml becomes visible.",
-              "If a learner treats '24 cubes' as discrete objects, re-ask what the unit of volume is, so '24' is read as 24 cm³ (= 24 ml) of space."
-            ],
-            "rationale": "A documented key difficulty is that learners who say a box holds 24 cubes often treat the 24 as individual objects, not units of volume, and cannot say how much liquid would fill it. Moving between filling and packing on the same container, with the 1 cm³ = 1 ml equivalence, targets exactly this disconnect.",
-            "sourceClaims": [
-              "A key difficulty is the connection between 'packing' (cubes) and 'filling' (liquid): students who say a box holds 24 cubes often think of the 24 as individual discrete objects, not units of volume, and cannot confidently say how much liquid (from a cylinder marked in cc/ml) would fill the box. Instruction moves between filling and packing on the same container; 1 cm³ of water = 1 ml."
-            ],
-            "learnerActions": [
-              "Pack the same box completely with 1 cm³ cubes and agree on the count (24).",
-              "Empty it, then fill it with water poured from a cylinder marked in millilitres (the box must be watertight, or use a watertight container with the same inside measurements), and read how much water was poured in.",
-              "Compare the two results: the cubes show the box holds 24 cm³, and the water reading should be about 24 ml (small differences come from measuring and filling errors).",
-              "State the equivalence in your own words: 1 cm³ of water = 1 ml, so 24 cm³ = 24 ml.",
-              "Answer: 'If I filled this box with water instead of cubes, about how much water would it hold? How does that relate to the cubes?'"
-            ],
-            "intendedInsight": "Packing (cubes) and filling (liquid) describe the same amount of space: because 1 cm³ = 1 ml, a box whose inside is exactly filled by 24 one-centimetre cubes (24 cm³) holds 24 ml of water, and a real pour should give about 24 ml. The cube count is a measure of volume, not a tally of separate objects."
-          },
-          {
-            "title": "Predict the cube count from a net",
-            "feedback": [
-              "If the prediction ignores depth/layers, point to which dimension on the net gives the number of layers and rebuild to check.",
-              "If the prediction adds dimensions rather than multiplying, contrast an edge length with the filled space by packing one layer and stacking."
-            ],
-            "rationale": "The Progressions note that learners may predict the number of cubes to fill a box from its net; pairing a prediction with a physical build gives a discriminating check of layer structuring before the cubes are visible.",
-            "sourceClaims": [
-              "Students decompose a right rectangular prism into layers, each a rows-and-columns array, and recompose multiplicatively — length×width gives the number of cubes in a layer and the height gives the number of layers; they may predict the number of cubes to fill a box from its net. Volume is additive."
-            ],
-            "learnerActions": [
-              "Look at the flat net of a box before it is folded or packed.",
-              "Predict how many 1 cm³ cubes will fill the assembled box, explaining your reasoning in terms of a layer and the number of layers.",
-              "Fold/assemble (or build) the box and pack it to check your prediction.",
-              "Reconcile any difference between prediction and result, naming where the reasoning went wrong."
-            ],
-            "intendedInsight": "The layer structure can be read off a box's net before packing: identify the cubes in one layer (length×width) and how many layers (height), then multiply — and verify by building."
-          },
-          {
-            "title": "Estimate a container's capacity against a benchmark",
-            "feedback": [
-              "If an estimate is far off, re-anchor to the 1-litre benchmark and ask 'more than, less than, or about the same?' before pouring.",
-              "Encourage stating the result with a unit (ml or l) rather than a bare number."
-            ],
-            "rationale": "Benchmark comparison to a known 1-litre measure supports capacity estimation and extends the packing–filling link into everyday containers.",
-            "sourceClaims": [],
-            "learnerActions": [
-              "Pick a jug or container and estimate its capacity before measuring.",
-              "Compare it to a known 1-litre measure to judge whether it holds more or less, and roughly how much.",
-              "Pour to check against a graduated measure and state the capacity in millilitres or litres.",
-              "Relate capacity back to volume: discuss how a packed box's cm³ count would translate to ml."
-            ],
-            "intendedInsight": "Capacity can be estimated by comparison to a familiar benchmark (a 1-litre measure), and it connects to volume through the 1 cm³ = 1 ml relationship."
-          },
-          {
-            "title": "Reference cutaway: the cubes you cannot see",
-            "feedback": [
-              "If a learner still counts only visible faces, point to the cutaway's exposed lower layer and ask them to add those cubes to the total."
-            ],
-            "rationale": "A static cutaway makes explicit that hidden cubes count. This is a supporting scaffold: it clarifies hidden depth but does not let the learner pack, rotate, or fill, so it should accompany, not replace, hands-on packing.",
-            "sourceClaims": [],
-            "learnerActions": [
-              "Study a cutaway picture of a packed cuboid that shows the interior cubes, including the bottom layer.",
-              "Mark or count the hidden cubes that would be invisible from the outside.",
-              "Explain why the outside view alone undercounts the volume."
-            ],
-            "intendedInsight": "Unseen interior and bottom-layer cubes are part of the volume; relying on visible faces undercounts the 3-D array."
-          }
-        ],
-        "constraints": [
-          "Learners must account for the whole 3-D array including hidden bottom layers, not just visible faces; make hidden cubes explicit by lifting/rotating or using a cutaway.",
-          "Estimate before packing or pouring, then check by building/measuring; prediction surfaces undercounts.",
-          "State volume in cubic units (cm³) and capacity in ml/l — a bare number is not enough; '24 cubes' should be read as 24 cm³ of space.",
-          "The static cutaway is a scaffold for the hidden-cubes idea only; it cannot support packing, rotating, or filling and should supplement hands-on work.",
-          "Hands-on paper/card models and cube sets have real thickness and can be picked up; treat the represented cuboid as an idealised mathematical solid and any zero-thickness on-screen diagram or flat picture as a model of that solid.",
-          "An on-screen layer builder with a live cube count and a pack-vs-fill-water toggle, or a grid layer × layer-count side view with a fill-with-water overlay, can make number-in-a-layer × layers and the cm³ = ml link concrete; these are optional illustrative mechanisms, not required ones. A flat side view does not directly display the hidden interior/bottom-layer cubes that packing real cubes or a cutaway reveals.",
-          "Recognition-only responses (e.g. choosing the right number) do not by themselves elicit independent construction of the layered count; have learners build, predict, and explain."
-        ],
-        "reviewNotes": [
-          "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were not re-fetched. Activities are research-informed proposals, not validated interventions.",
-          "The 4×3×2 = 24 arithmetic, the single-layer distractor (12), and the add-the-edges distractor (9 = 4+3+2) were checked and are internally consistent; 48 for a doubled height (4 layers) also checks out.",
-          "The legacy 'conversation' entry was rated a poor fit with the claim that volume structuring is built by packing/filling 'not by in-role dialogue'. That comparative/necessity claim is not established by the sources; dialogue could still support reasoning. It has been omitted rather than restated as a universal law.",
-          "Capacity/benchmark estimation (jug vs 1-litre) is supported by the topic's stated evidence but has no directly supporting source claim, so its sourceClaims is [].",
-          "The cutaway activity's principle — that hidden/interior cubes count and visible faces undercount — is drawn from the stated common misconceptions, not from any sources[].claim, so its sourceClaims is []; the related 3-D structuring and layer-additivity claims are used in the packing activities instead.",
-          "The 1 cm³ = 1 ml equivalence and 'ml' content draw on the Grade 4 portion of the cited Progressions mirror as noted in the source.",
-          "An invented 'live recolouring' mechanism was removed from the constraints; only source-grounded optional mechanisms are retained.",
-          "A residual comparative 'less vividly' phrasing in the optional-mechanism constraint was replaced with an observable affordance (a flat view cannot directly display the hidden interior/bottom cubes)."
-        ],
-        "schemaVersion": 2
-      },
-      "assess": {
-        "method": "two_tier",
-        "poeTask": "Before packing, show the child the empty 4×3×2 box and the pile of 1 cm³ cubes and ask them to predict how many cubes will fill it completely and to say WHY. Then have them pack it, building layer by layer. The total of 24 confronts an under-prediction based on the visible top or the outside faces; the target explanation, given after packing, is that each layer holds 4×3 = 12 cubes and there are 2 layers.",
-        "probeDeeper": [
-          "You can see the top of the box — how many cubes are underneath, in the layer you can't see? How do you know?",
-          "If the box were twice as tall — 4 layers instead of 2 — how many cubes then? Why?",
-          "If I filled this box with water instead of cubes, about how much water would it hold? How does that relate to the cubes?",
-          "Is your answer 24 cubes, or 24 of something else — what is the unit for volume?"
-        ],
-        "correctAnswer": "24 cubic centimetres. Each layer is a 4-by-3 array of 12 cubes and the box is 2 layers deep, so 12 × 2 = 24 (equivalently 4 × 3 × 2), counting the hidden lower layer as well as the top.",
-        "errorPatterns": [
-          {
-            "kind": "misconception",
-            "pattern": "Counts one layer / visible cubes only: sees the top and forgets the box is layers deep, giving the single-layer count.",
-            "nextMove": "Extend the 2-D array to 3-D — build the box in layers, physically lift the top layer to reveal the one beneath; count number-in-a-layer × number-of-layers.",
-            "distractor": "12 — the top of the box is 4 by 3, so 12 blocks.",
-            "revealedBy": "Answers 12 with 'the top has 4×3 = 12 blocks'; doesn't account for the second, lower layer.",
-            "reteachPrerequisiteId": "mt_y1n0Zwhoca"
-          },
-          {
-            "kind": "interference",
-            "pattern": "Adds the three dimensions instead of building the layered array (interference from length/perimeter thinking).",
-            "nextMove": "Show that adding the edges gives a length, not the space filled; pack cubes to see it is layers of an array, so the dimensions multiply.",
-            "distractor": "9 — I added the three side lengths, 4 + 3 + 2.",
-            "revealedBy": "Answers 9 with '4 + 3 + 2'; treats volume like a sum of lengths.",
-            "reteachPrerequisiteId": null
-          },
-          {
-            "kind": "misconception",
-            "pattern": "Packing–filling disconnect: can count the cubes but cannot say how much water would fill the box — hasn't connected packing (cubes) with filling (liquid).",
-            "nextMove": "Pack the box with cm³ cubes and also fill it from a cylinder marked in ml on the same box, so 1 cm³ = 1 ml becomes visible.",
-            "distractor": null,
-            "revealedBy": "Gives the cube count but, asked how many ml of water fill the box, cannot connect it to the cubes (that it is 24 ml).",
-            "reteachPrerequisiteId": null
-          },
-          {
-            "kind": "misconception",
-            "pattern": "Cubes as discrete objects, not units of volume: treats the answer as '24 blocks' with no cubic unit and no sense of it as an amount of space.",
-            "nextMove": "Name the unit — each block is 1 cubic centimetre, so the box holds 24 cm³ of space; the count measures volume, not a heap of objects.",
-            "distractor": null,
-            "revealedBy": "Says '24' meaning 24 loose blocks; omits the cubic unit and doesn't treat it as a volume.",
-            "reteachPrerequisiteId": null
-          }
-        ],
-        "responseLevels": {
-          "gap": "Counts only the visible top/faces or adds the dimensions; under- or mis-counts and shows no layer structure.",
-          "full": "Finds volume as number-in-a-layer × number-of-layers (including hidden cubes), states it in cubic units, and connects packing with cubes to filling with liquid (24 cm³ = 24 ml).",
-          "partial": "Finds the cube count for a built cuboid (by counting or multiplying) but the structure is fragile — forgets hidden layers on a harder case, or cannot connect the cube count to how much water the box holds."
-        },
-        "diagnosticPrompt": "Show a box that is 4 cm by 3 cm by 2 cm (or its net) and a pile of 1 cm³ blocks. Ask: 'How many 1 cm³ blocks are needed to fill this box completely — and how did you work it out?'",
-        "whatMakesItDiscriminate": "The number alone can be reached different ways, so the reason tier carries it: a child with 3-D structure counts by layers (or multiplies) and accounts for hidden cubes; a child without it counts only the visible top/faces (undercounting) or adds the dimensions. A '24' justified by 'I counted the ones I can see' is caught."
-      },
-      "sources": [
-        {
-          "claim": "A unit cube (side length 1) has one cubic unit of volume; a solid figure packed without gaps or overlaps using n unit cubes has a volume of n cubic units (5.MD.3), and volume is measured by counting unit cubes in cubic cm/in/ft (5.MD.4). Packing volume is harder than iterating length or tiling area and demands extending spatial structuring from two to three dimensions.",
-          "source": "Common Core Progressions — K–5 Geometric Measurement (2012), Grade 5 (5.MD.3–4) (ISBE mirror)",
-          "url": "https://www.isbe.net/Documents/geometric-measurement-k-5.pdf",
-          "verified": true
-        },
-        {
-          "claim": "Students decompose a right rectangular prism into layers, each a rows-and-columns array, and recompose multiplicatively — length×width gives the number of cubes in a layer and the height gives the number of layers; they may predict the number of cubes to fill a box from its net. Volume is additive.",
-          "source": "Common Core Progressions — K–5 Geometric Measurement (2012), Grade 5 (5.MD.5) (ISBE mirror)",
-          "url": "https://www.isbe.net/Documents/geometric-measurement-k-5.pdf",
-          "verified": true
-        },
-        {
-          "claim": "A key difficulty is the connection between 'packing' (cubes) and 'filling' (liquid): students who say a box holds 24 cubes often think of the 24 as individual discrete objects, not units of volume, and cannot confidently say how much liquid (from a cylinder marked in cc/ml) would fill the box. Instruction moves between filling and packing on the same container; 1 cm³ of water = 1 ml.",
-          "source": "Common Core Progressions — K–5 Geometric Measurement (2012), Grade 5 (packing vs filling) & Grade 4 (ml) (ISBE mirror)",
-          "url": "https://www.isbe.net/Documents/geometric-measurement-k-5.pdf",
-          "verified": true
-        }
-      ],
-      "confidence": "high",
-      "provenance": {
-        "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
-        "createdAt": "2026-07-27T20:42:47.996Z",
-        "updatedAt": "2026-10-19T15:21:07.442Z"
-      },
-      "publicationNotes": {
-        "omittedCurriculumText": []
-      }
-    },
-    {
       "topicId": "mt_NtJYlJdUe9",
       "pedagogy": {
         "summary": "Before a child can measure anything they must first SEE the attribute — length, height, weight, capacity — as something separable from an undifferentiated sense of 'big'. Young children typically call one object 'bigger' whether it is longer, taller, heavier, or holds more (CCSS Progression). The teaching work is to help the attribute 'stand out': to name several measurable attributes of a SINGLE object (a bottle has height AND weight AND capacity), to treat each as a different question, and to move from absolute labels ('I'm tall') to comparative relations ('taller than'). This differentiation is the conceptual root of the whole Measurement domain.",
@@ -152165,25 +152074,26 @@
     {
       "topicId": "mt_QhLAeAlHI0",
       "pedagogy": {
-        "summary": "Two distinct ideas sit inside this topic and should be taught in order: (1) foods can be grouped by the NUTRIENT they mainly provide and each nutrient has a job — carbohydrates for energy, proteins for growth and repair, fats for energy/warmth and storage, and vitamins, minerals, fibre and water for keeping the body working and protected; and (2) a BALANCED diet means the right AMOUNTS from each group, not just having them all. Children readily learn the nutrient-jobs but the balance/proportion idea is the harder, more important one — it is why 'eat lots of everything' or 'fat is bad' are wrong. Bridge the science framing (nutrient groups) with the everyday UK Eatwell model (food-on-the-plate proportions: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Teach with real/pictured foods the child eats, classify them, then BUILD a balanced plate so proportion is something they construct, not a rule they recite. Note many foods (pizza, sandwich) are mixtures — a subtlety worth surfacing.",
+        "summary": "Two distinct ideas sit inside this topic and should be taught in order: (1) foods are sorted into the FOOD GROUPS of an appropriate local healthy-eating guide — in the UK the Eatwell Guide (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads), in Australia the Australian Guide to Healthy Eating (vegetables and legumes/beans; fruit; grain (cereal) foods; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives) — while NUTRIENTS are what foods supply, taught separately, each with a job: carbohydrates for energy, proteins for growth and repair, fats for energy/warmth and storage, and vitamins, minerals and fibre (with water) for keeping the body working and protected; most foods supply several nutrients; and (2) a BALANCED diet means a variety of foods from each food group in the right AMOUNTS shown by the guide, not just having them all. Children readily learn the nutrient jobs but the balance/proportion idea is the harder, more important one — it is why 'eat lots of everything' or 'fat is bad' are wrong. Never call nutrients 'food groups', and never imagine a balanced plate as equal shares of seven nutrients: proportions belong to food groups (Eatwell: fruit/veg and starchy foods biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Teach with real/pictured foods the child eats, classify them with the guide, then BUILD a balanced plate so proportion is something they construct, not a rule they recite. Note that mixed dishes (pizza, sandwich) combine several food groups — a subtlety worth surfacing.",
         "bestPractices": [
-          "Teach nutrient→job first with familiar example foods (bread=energy, chicken=growth, etc.), then move to the harder idea of BALANCE — right amounts from each group.",
-          "Use the Eatwell 'build a plate' proportion model so balance is constructed and seen, not memorised: fruit/veg and starchy foods largest, protein and dairy smaller, oils/spreads small, treats outside and occasional.",
-          "Classify real or pictured everyday foods into groups, and explicitly handle MIXED foods (a sandwich, pizza) so children see foods aren't always one group.",
+          "Teach nutrients and their jobs with familiar foods (bread supplies carbohydrate for energy; chicken supplies protein for growth and repair), noting that each food supplies several nutrients; separately, classify foods into the food groups of a local guide; then move to the harder idea of BALANCE — the right amounts from each food group.",
+          "Use a local healthy-eating guide's plate (e.g. the UK Eatwell Guide or the Australian Guide to Healthy Eating) as a 'build a plate' proportion model so balance is constructed and seen, not memorised; with Eatwell, fruit/veg and starchy foods are largest, protein and dairy smaller, oils/spreads small, treats outside and occasional.",
+          "Classify real or pictured everyday foods into the guide's food groups, and explicitly handle MIXED dishes (a sandwich, pizza) so children see a dish can combine several food groups.",
           "Correct 'good food / bad food' thinking: no single food is banned; it's the overall balance and amount over a day or week that matters (per NHS guidance).",
           "Avoid over-precision — no calorie counting; keep to groups, jobs and rough proportions appropriate to age, and connect diet to energy for activity and materials for growth."
         ],
         "keyRepresentations": [
-          "Nutrient→job table with example foods (carbs=energy, protein=growth/repair, fats=energy/warmth, vitamins/minerals=protection, fibre=digestion, water=hydration)",
-          "Eatwell-style plate showing the five food-on-the-plate groups by proportion",
+          "Nutrient→job table with example foods (carbs=energy, protein=growth/repair, fats=energy/warmth, vitamins/minerals=protection, fibre=digestion, water=hydration), noting that each food supplies several nutrients",
+          "A local healthy-eating guide plate (e.g. the Eatwell Guide or the Australian Guide to Healthy Eating) showing its five food groups by proportion",
           "A 'build a balanced plate' sorting surface where portions fill each segment",
-          "Sorting bins for classifying everyday foods (and a 'mixed foods' bin for pizza/sandwiches)",
+          "Food-group sorting bins for classifying everyday foods with the guide (and a 'mixed foods' bin for pizza/sandwiches)",
           "Over-a-day/week framing rather than every-meal-perfect"
         ],
         "commonMisconceptions": [
+          "Calling nutrients (carbohydrates, proteins, fats, vitamins) 'food groups', or imagining a balanced plate as equal shares of seven nutrients — food groups are groups of foods in a healthy-eating guide, and proportions follow those groups.",
           "'Fat (or carbs, or sugar) is bad and should be avoided' — missing that fats/carbs are needed for energy; it's balance and amount that matter.",
           "'A balanced diet means eating a bit of everything equally' — missing that the PROPORTIONS differ (more fruit/veg and starchy food, less oil).",
-          "'Foods belong to exactly one group' — many everyday foods (pizza, sandwiches, milk) are mixtures.",
+          "'Each food supplies just one nutrient' or 'a mixed dish fits one food group' — pizza and sandwiches combine several food groups, and foods such as milk supply several nutrients.",
           "'Vitamins/minerals give you energy' — they protect and help the body work; energy comes mainly from carbohydrates and fats.",
           "'Healthy food = salad only / treats are forbidden' — rather than occasional treats fitting within an overall balance.",
           "'You must eat perfectly at every meal' — missing that balance is judged over a day or week.",
@@ -152191,29 +152101,30 @@
         ]
       },
       "learn": {
-        "summary": "Teach two ideas in order for ages 7–9: (1) foods can be grouped by the main nutrient they provide and each nutrient has a job (carbohydrates for energy; proteins for growth and repair; fats for energy, warmth and storage; vitamins, minerals, fibre and water for keeping the body working and protected); and (2) a balanced diet means the RIGHT AMOUNTS from each group, not just having a bit of everything. The nutrient→job layer is easier; the proportion/balance idea is the harder, more valuable one and explains why 'eat lots of everything' and 'fat is bad' are wrong. Bridge the science framing to the UK Eatwell Guide (which replaced the earlier Eatwell plate in 2016: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional), build balanced plates by hand rather than reciting rules, surface that many foods (pizza, sandwiches, milk) are mixtures, and frame balance over a day or week rather than per-meal perfection. Avoid calorie counting; keep to groups, jobs and rough proportions.",
+        "summary": "Teach two ideas in order for ages 7–9: (1) foods are sorted into the food groups of an appropriate local healthy-eating guide (the UK Eatwell Guide's five groups; in Australia, the five food groups of the Australian Guide to Healthy Eating), while nutrients are taught separately — what foods supply and the job each does (carbohydrates for energy; proteins for growth and repair; fats for energy, warmth and storage; vitamins, minerals and fibre, with water, for keeping the body working and protected), recognising that most foods supply several nutrients; and (2) a balanced diet means a variety of foods from each food group in the RIGHT AMOUNTS shown by the guide, not just having a bit of everything. The nutrient→job layer is easier; the proportion/balance idea is the harder, more valuable one and explains why 'eat lots of everything' and 'fat is bad' are wrong. Proportions belong to food groups, never to equal shares of nutrients (the UK Eatwell Guide, which replaced the earlier Eatwell plate in 2016: fruit/veg and starchy carbs biggest, protein and dairy smaller, oils/spreads tiny, sugary/fatty treats outside and occasional). Build balanced plates by hand rather than reciting rules, surface that mixed dishes (pizza, sandwiches) combine several food groups, and frame balance over a day or week rather than per-meal perfection. Avoid calorie counting; keep to food groups, nutrient jobs and rough proportions.",
         "activities": [
           {
             "title": "Build a balanced plate",
             "feedback": [
-              "If the plate is all one food, ask: which nutrient jobs are now missing — where is the energy, the growth material, the protection? Point back to the empty segments.",
-              "If portions are equal across all groups, prompt: the Eatwell Guide makes fruit/veg and starchy foods the biggest parts and oils/spreads tiny — adjust the amounts, not just which foods are present.",
+              "If the plate is all one food, ask: which food groups are missing, and which nutrient jobs (energy, growth material, protection) may now go short? Point back to the empty segments.",
+              "If portions are equal across all groups, prompt: the guide does not use equal shares — with the Eatwell Guide, fruit/veg and starchy foods are the biggest parts and oils/spreads tiny — adjust the amounts, not just which foods are present.",
               "If a treat is placed into a main group, note that high fat/sugar foods sit outside the main groups and are eaten less often.",
-              "Praise correct reasoning that names the nutrient's job, not just that a food 'is healthy'."
+              "Praise correct reasoning that names a food's food group and the nutrients it supplies, not just that a food 'is healthy'."
             ],
-            "rationale": "Constructing and adjusting proportions makes the abstract ratio of a balanced diet concrete and lets children discover, rather than memorise, that amounts differ by group. Building a plate matches the Eatwell proportion model and the curriculum requirement to reason about the right types AND amount of nutrition.",
+            "rationale": "Constructing and adjusting proportions makes the abstract ratio of a balanced diet concrete and lets children discover, rather than memorise, that amounts differ by group. Building a plate matches the food-group proportion model of a local guide (here the Eatwell Guide) and the curriculum requirement to reason about the right types AND amount of nutrition.",
             "sourceClaims": [
               "The Eatwell Guide divides foods into five main groups — fruit and vegetables and starchy carbohydrates (each just over a third of the plate), protein foods, dairy and alternatives, and oils/spreads (small amounts) — with high fat/salt/sugar foods outside the main groups, eaten less often; balance is judged over a day or week, not every meal.",
+              "The Australian Guide to Healthy Eating groups foods into five food groups — vegetables and legumes/beans; fruit; grain (cereal) foods, mostly wholegrain and/or high cereal fibre varieties; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives, mostly reduced fat — and recommends a wide variety of foods from these groups every day.",
               "Y3 pupils should identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat."
             ],
             "learnerActions": [
-              "Collect real or pictured everyday foods the child actually eats, then sort each by the main food/nutrient group it belongs to (starchy carbohydrates, protein, dairy/alternatives, fruit/veg, oils/fats, treats).",
-              "Arrange foods onto a plate divided into Eatwell proportions so fruit/veg and starchy foods fill the largest areas, protein and dairy fill smaller areas, oils/spreads fill a tiny area, and sugary/fatty treats sit off to the side as occasional.",
-              "Deliberately try an unbalanced plate — a mountain of chips only, or nothing but fruit — and describe what is missing and which nutrient jobs are not covered.",
-              "Say what each food's nutrient does (e.g. bread = energy, chicken = growth and repair) as it is placed.",
+              "Collect real or pictured everyday foods the child actually eats, then sort each into the food groups of a local healthy-eating guide (Eatwell: fruit and vegetables; starchy carbohydrates; proteins; dairy and alternatives; oils and spreads, with treats outside the main groups — or the Australian Guide to Healthy Eating's five food groups).",
+              "Arrange foods onto a plate divided into the guide's food-group proportions (with Eatwell, fruit/veg and starchy foods fill the largest areas, protein and dairy smaller areas, oils/spreads a tiny area, and sugary/fatty treats sit off to the side as occasional).",
+              "Deliberately try an unbalanced plate — a mountain of chips only, or nothing but fruit — and describe which food groups are missing and which nutrient jobs may not be covered.",
+              "As each food is placed, say its food group and one main nutrient it supplies and what that nutrient does (e.g. bread: starchy food, supplies carbohydrate for energy; chicken: protein food, supplies protein for growth and repair), noting that most foods supply several nutrients.",
               "Look across a whole day or week and check whether one wobbly meal is evened out by the others."
             ],
-            "intendedInsight": "Balance is not 'a bit of everything equally' — it is the right amounts, with fruit/veg and starchy foods making up most of the plate and treats only occasional; and balance is judged over a day or week, not at every single meal."
+            "intendedInsight": "Balance is not 'a bit of everything equally' — it is the right amounts of each food group, with (in the Eatwell Guide) fruit/veg and starchy foods making up most of the plate and treats only occasional; and balance is judged over a day or week, not at every single meal."
           },
           {
             "title": "Match each nutrient to its job",
@@ -152225,9 +152136,9 @@
             "rationale": "Establishing nutrient→job with familiar foods gives learners the vocabulary and functional reasoning they need before tackling proportion, and directly targets the common 'vitamins give energy' and 'protein = meat only' misconceptions. The specific nutrient functions are an age-appropriate framing not stated verbatim by the cited sources.",
             "sourceClaims": [],
             "learnerActions": [
-              "Reveal, one group at a time, what each nutrient group does for the body and list example foods: carbohydrates = energy; protein = growth and repair; fats = energy, warmth and storage; vitamins and minerals = protection and keeping the body working; fibre = digestion; water = hydration.",
-              "For each group, predict and then check what might happen if you ate too much or too little of it.",
-              "Name at least five groups with an example food for each, and explain the job of carbohydrates, proteins and fats in your own words."
+              "Reveal, one nutrient at a time, what each nutrient does for the body and list foods that supply it: carbohydrates = energy; protein = growth and repair; fats = energy, warmth and storage; vitamins and minerals = protection and keeping the body working; fibre = digestion; water = hydration.",
+              "For each nutrient, predict and then check what might happen if you had too much or too little of it.",
+              "Name at least five nutrients with a food that supplies each, say which food group each food belongs to, notice foods (such as milk) that supply several nutrients, and explain the job of carbohydrates, proteins and fats in your own words."
             ],
             "intendedInsight": "Each nutrient does a distinct job; vitamins and minerals protect and help the body work but do NOT supply energy — energy comes mainly from carbohydrates and fats."
           },
@@ -152235,16 +152146,18 @@
             "title": "Sort mixed foods",
             "feedback": [
               "If a sandwich is forced into a single group, ask what the bread, filling and spread each contribute.",
-              "Confirm when a learner correctly identifies milk as a mixture: it belongs to the dairy group and also supplies protein, fats and minerals such as calcium."
+              "Confirm when a learner explains that milk sits in one food group (dairy and alternatives) yet supplies several nutrients, such as protein, fat and calcium."
             ],
-            "rationale": "Explicitly handling mixed foods prevents the 'foods belong to exactly one group' misconception and makes real-world classification honest. This is a sound teaching proposal not directly evidenced by the cited sources.",
-            "sourceClaims": [],
+            "rationale": "Explicitly handling mixed dishes prevents the 'a dish fits one food group' misconception and makes real-world classification honest; the NHS Eatwell Guide treats pizzas, casseroles, pasta dishes and sandwiches as combinations of the food groups. Noting that single foods supply several nutrients keeps food groups and nutrients distinct.",
+            "sourceClaims": [
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week."
+            ],
             "learnerActions": [
-              "Classify everyday foods into nutrient-group bins, including a dedicated 'mixed foods' bin.",
-              "Break down mixed foods — a pizza, a sandwich, a glass of milk — into the groups they contain, naming each part.",
-              "Discuss why one food can belong to more than one group."
+              "Classify everyday foods into the guide's food-group bins, including a dedicated 'mixed foods' bin.",
+              "Break down mixed dishes — a pizza, a sandwich — into the food groups their ingredients come from, naming each part, and list the several nutrients a single food such as a glass of milk supplies.",
+              "Discuss why a mixed dish draws on several food groups, and why even a single food supplies several nutrients."
             ],
-            "intendedInsight": "Many real foods are mixtures of several groups, so classifying whole meals is not always one-to-one."
+            "intendedInsight": "Mixed dishes combine foods from several food groups, and most foods supply several nutrients, so neither classification is one-to-one."
           },
           {
             "title": "Myth-busting: is this food bad for me?",
@@ -152268,10 +152181,11 @@
           }
         ],
         "constraints": [
-          "Teach nutrient→job first with familiar foods, then move to the harder balance/proportion idea.",
-          "Do not introduce calorie counting; keep to groups, jobs and rough age-appropriate proportions.",
+          "Teach nutrients and their jobs with familiar foods, classify foods separately with a local guide's food groups, then move to the harder balance/proportion idea.",
+          "Classify foods with an appropriate local healthy-eating guide's food groups (e.g. the UK Eatwell Guide or the Australian Guide to Healthy Eating); never call nutrients 'food groups', and set plate proportions by the guide's food groups, never as equal shares of seven nutrients.",
+          "Do not introduce calorie counting; keep to food groups, nutrient jobs and rough age-appropriate proportions.",
           "Correct 'good food / bad food' thinking: no food or nutrient is banned, including fat; overall balance and amount over a day or week is what matters.",
-          "Classification tasks must explicitly include mixed foods (pizza, sandwich, milk) so learners do not assume one food = one group.",
+          "Food-group classification must explicitly include mixed dishes (pizza, sandwich), and nutrient tasks must note that one food (e.g. milk) supplies several nutrients.",
           "Recognition/matching tasks (categorising foods, picking the balanced plate) consolidate and assess but do not by themselves require learners to construct and adjust proportions — pair them with hands-on plate building.",
           "A tap-to-reveal or lift-the-flap plate teaches the nutrient→job layer well but does not let the learner construct and adjust proportions; treat it as a scaffold toward building a plate.",
           "Optional interaction examples that make the mechanism concrete: dragging foods into segments that fill up, a balance gauge that visibly tips when a tray is overloaded, instant group-classification feedback, and a day/week view showing a single wobbly meal evening out. These are illustrative, not mandatory."
@@ -152280,10 +152194,11 @@
           "This is an agent semantic rewrite of saved teaching research without fresh source verification; sources were not re-fetched. Activities are research-informed proposals, not validated interventions.",
           "The original source listed a 3D format as 'poor' with the claim '3D adds no conceptual value'; this universal comparative claim is not established by the cited sources and has been dropped rather than propagated as a pedagogical law.",
           "The original 'ideal' rationale asserted that building proportions is something 'no static image or quiz can do'; this comparative necessity claim is not supported by the cited sources. It has been softened to a narrowly scoped affordance (construction/adjustment) plus an objective limit (recognition tasks don't elicit independent construction).",
-          "sourceClaims were narrowed to [] on the 'Match each nutrient to its job' and 'Sort mixed foods' activities: the curriculum claim is a general necessity assertion that does not state nutrient functions, and no cited claim establishes the nutrient→job mapping or the mixed-foods principle. Those contents are retained as sound, age-appropriate proposals, not as source-evidenced findings. The build-a-plate activity retains the curriculum claim because it specifically references the right 'amount' of nutrition, which maps to the proportion/balance principle; this is a borderline rather than clear-cut support.",
+          "sourceClaims remain [] on the 'Match each nutrient to its job' activity: no cited claim states the nutrient→job mapping, so that content is a sound, age-appropriate proposal rather than a source-evidenced finding. The 'Sort mixed foods' activity now cites the NHS Eatwell Guide, which treats pizzas and sandwiches as combinations of food groups. The build-a-plate activity retains the curriculum claim because it references the right 'amount' of nutrition (borderline rather than clear-cut support) and now also cites the Australian food groups.",
           "The 'fat is always bad' probe question from the original assessment had been dropped from the candidate's learner-facing activities despite being a prominent misconception; it has been restored to the myth-busting activity with matching feedback.",
           "The diagnostic 'correctAnswer' states vitamins do not 'directly build muscle'; this is consistent with the age-appropriate framing (energy from carbohydrates/fats, growth from protein) and no error was found. Framing fats as 'warmth and storage' is simplified but acceptable for ages 7–9.",
-          "Source claims cite the Eatwell Guide and the national curriculum; they support the teaching principles of proportion and 'right types and amount of nutrition' but do not constitute evidence that any specific activity here was tested for effectiveness."
+          "Source claims cite the Eatwell Guide and the national curriculum; they support the teaching principles of proportion and 'right types and amount of nutrition' but do not constitute evidence that any specific activity here was tested for effectiveness.",
+          "Nutrition review (October 2026): the topic previously grouped foods 'by the nutrient they mainly provide' and called nutrients food groups. Corrected throughout: foods are classified with the food groups of a local healthy-eating guide (UK Eatwell Guide; Australian Guide to Healthy Eating for Australian examples); nutrients and their functions are taught separately, and most foods supply several; plate proportions follow food groups, not equal shares of nutrients. The NHS Eatwell page was fetched and checked; the Eat for Health page could not be fetched (timeout), so its claim is verified:false. Learning aims and activities are kept."
         ],
         "schemaVersion": 2
       },
@@ -152324,8 +152239,8 @@
         ],
         "responseLevels": {
           "gap": "Judges foods only as 'healthy' or 'unhealthy', or thinks vitamins give energy; can't match a nutrient to its job.",
-          "full": "Matches each nutrient to its function AND reasons about a real diet — why carbohydrates fuel the race, protein builds muscle, vitamins protect without giving energy — and can say what fails if a group is missing.",
-          "partial": "Names food groups with examples and can recite carbs=energy, protein=growth, but treats them as a list — can't reason about whether a particular diet meets a specific need, or slips on vitamins."
+          "full": "Matches each nutrient to its function AND reasons about a real diet — why carbohydrates fuel the race, protein builds muscle, vitamins protect without giving energy — and can say what fails if a nutrient is missing.",
+          "partial": "Sorts foods into food groups and names nutrients with examples, and can recite carbs=energy, protein=growth, but treats them as a list — can't reason about whether a particular diet meets a specific need, or slips on vitamins."
         },
         "diagnosticPrompt": "Sam is training for a swimming race and wants stronger muscles. He says 'I'll eat lots of oranges and take vitamin tablets, because vitamins give you energy and make you strong.' Do you agree with Sam's plan? What SHOULD he eat for energy and for building muscle — and why does each food help with its job?",
         "whatMakesItDiscriminate": "A child who thinks 'healthy = strong/energy' or 'vitamins give energy' endorses Sam. A child who understands nutrient function rejects the plan and correctly assigns carbohydrates to energy and protein to growth. Because the tier-two 'why' forces the nutrient-to-job link, you can't land it by guessing that oranges are healthy."
@@ -152338,17 +152253,29 @@
           "verified": true
         },
         {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
+        },
+        {
           "claim": "Y3 pupils should identify that animals, including humans, need the right types and amount of nutrition, and that they cannot make their own food; they get nutrition from what they eat.",
           "source": "DfE National Curriculum in England: Science programmes of study (KS2, Year 3, Animals including humans)",
           "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study",
           "verified": true
+        },
+        {
+          "claim": "The Australian Guide to Healthy Eating groups foods into five food groups — vegetables and legumes/beans; fruit; grain (cereal) foods, mostly wholegrain and/or high cereal fibre varieties; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives, mostly reduced fat — and recommends a wide variety of foods from these groups every day.",
+          "source": "Eat for Health — Australian Guide to Healthy Eating: the five food groups",
+          "url": "https://www.eatforhealth.gov.au/food-essentials/five-food-groups",
+          "verified": false
         }
       ],
       "confidence": "high",
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T23:25:13.989Z",
-        "updatedAt": "2026-10-19T15:21:13.062Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -163087,16 +163014,16 @@
     {
       "topicId": "mt_sDmrVCfzqt",
       "pedagogy": {
-        "summary": "- **Age:** 11–13 years\n\n- **Topic:** Nutrients in a Healthy Diet\n\n- **Standards — UK (DfE KS3 Biology, Nutrition & digestion):** \"the content of a healthy human diet: carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water, and why each is needed.\"\n\n- **Standards — US (NGSS):** No direct MS performance expectation on human dietary components; the nearest US content is 5-PS3-1 (energy in food came from the sun) and MS-LS1-7 (food rearranged to release energy / support growth). Diet composition is UK-led. (US/UK divergence.)\n\n- **Operational details:** Children name all seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and explain its role (carbohydrates and lipids for energy; protein for growth and repair; vitamins and minerals in small amounts for specific functions; fibre for gut movement; water as the medium for reactions and transport). A key discrimination is which components provide energy (carbohydrates, lipids, and protein in emergencies) and which do not (vitamins, minerals, fibre, water). The move that matters is from 'healthy vs junk food' folk categories to a functional account: each nutrient does a specific JOB, and 'balance' means the right proportions, not eliminating any group.\n\n- **Checkpoint:** Tier B. Extends KS2 'animals need the right nutrition and cannot make their own food'; feeds energy calculations, diet-imbalance/deficiency, and digestion. A child is secure when, given a nutrient, they can state a source, its body role, and whether it supplies energy.",
+        "summary": "- **Age:** 11–13 years\n\n- **Topic:** Nutrients in a Healthy Diet\n\n- **Standards — UK (DfE KS3 Biology, Nutrition & digestion):** \"the content of a healthy human diet: carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water, and why each is needed.\"\n\n- **Standards — US (NGSS):** No direct MS performance expectation on human dietary components; the nearest US content is 5-PS3-1 (energy in food came from the sun) and MS-LS1-7 (food rearranged to release energy / support growth). Diet composition is UK-led. (US/UK divergence.)\n\n- **Operational details:** Children name all seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and explain its role (carbohydrates and lipids for energy; protein for growth and repair; vitamins and minerals in small amounts for specific functions; fibre for gut movement; water as the medium for reactions and transport). A key discrimination is which components provide energy (carbohydrates, lipids, and protein in emergencies) and which do not (vitamins, minerals, fibre, water). The move that matters is from 'healthy vs junk food' folk categories to a functional account: each nutrient does a specific JOB, and 'balance' means eating a variety of foods from each food group of a local healthy-eating guide (in the UK, the Eatwell Guide's five food groups) in the right proportions, not eliminating any. Keep the seven nutrients distinct from food groups: an Eatwell-style plate shows food groups, not nutrients, and each food supplies several nutrients.\n\n- **Checkpoint:** Tier B. Extends KS2 'animals need the right nutrition and cannot make their own food'; feeds energy calculations, diet-imbalance/deficiency, and digestion. A child is secure when, given a nutrient, they can state a source, its body role, and whether it supplies energy.",
         "bestPractices": [
           "Teach each nutrient as a JOB with a food source rather than as a word, and immediately separate energy-providers from non-energy nutrients — the discrimination children most often miss.",
-          "Confront folk 'good food/bad food' categories directly: balance means proportion, and no group is simply 'bad'.",
-          "Use a real balanced-plate/Eatwell-style model so proportions are concrete and visual.",
+          "Confront folk 'good food/bad food' categories directly: balance means the right proportions of the food groups, and no food group or nutrient is simply 'bad'.",
+          "Use the Eatwell Guide (or another local healthy-eating guide) to show that proportions apply to food groups; then trace which nutrients each food group mainly supplies, noting that most foods supply several.",
           "Address the vitamin/mineral misconception explicitly — needed in small amounts, do specific jobs, carry no energy.",
-          "Bridge to the next topics by framing diet quantitatively (energy budget) and diagnostically (what happens if a group is missing)."
+          "Bridge to the next topics by framing diet quantitatively (energy budget) and diagnostically (what happens if a nutrient is missing)."
         ],
         "keyRepresentations": [
-          "Balanced-plate / Eatwell-guide illustration with the seven nutrient groups",
+          "Eatwell Guide illustration of the five food groups and their proportions, annotated with the main nutrients each group supplies",
           "Nutrient → source → role table, colour-coded for energy vs non-energy",
           "Icon key distinguishing energy-providing from non-energy nutrients",
           "Example meals annotated with which nutrients they supply"
@@ -163106,11 +163033,12 @@
           "Thinking all fat is unhealthy and should be eliminated, rather than being a needed energy store.",
           "Assuming protein is only for athletes/muscle-building rather than for all growth and repair.",
           "Treating fibre and water as unimportant because they carry no energy.",
-          "Equating 'healthy diet' with eating less, rather than eating the right balance."
+          "Equating 'healthy diet' with eating less, rather than eating the right balance.",
+          "Treating the seven nutrients as 'food groups', or expecting a balanced plate to give each nutrient an equal share."
         ]
       },
       "learn": {
-        "summary": "Learners (ages 11–13) name the seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and state its body role. The central discrimination is which components are the main energy providers (carbohydrates and lipids, with protein a secondary or backup energy source whose main job is growth and repair) versus which provide no or very little energy (vitamins, minerals, water, and fibre, which our own enzymes cannot digest). Activities move learners from 'healthy vs junk food' folk categories to a functional account where each nutrient does a specific job and 'balance' means right proportions, not eliminating any group.",
+        "summary": "Learners (ages 11–13) name the seven components of a healthy diet — carbohydrates, lipids (fats and oils), proteins, vitamins, minerals, dietary fibre and water — give a food source for each, and state its body role. The central discrimination is which components are the main energy providers (carbohydrates and lipids, with protein a secondary or backup energy source whose main job is growth and repair) versus which provide no or very little energy (vitamins, minerals, water, and fibre, which our own enzymes cannot digest). Activities move learners from 'healthy vs junk food' folk categories to a functional account where each nutrient does a specific job and 'balance' means the right proportions of the food groups in a local healthy-eating guide such as the Eatwell Guide, with every nutrient job filled, not eliminating any. Nutrients are kept distinct from food groups, and learners recognise that each food supplies several nutrients.",
         "activities": [
           {
             "title": "Nutrient job cards: source, role, and energy tag",
@@ -163129,27 +163057,29 @@
               "For each of the seven nutrients — carbohydrates, lipids, proteins, vitamins, minerals, fibre, water — write or state one food source, the job it does in the body, and whether it provides energy.",
               "Sort the seven nutrients into two groups: 'main energy providers' (carbohydrates, lipids; protein as a secondary or backup source whose main job is growth and repair) and 'no or very little energy' (vitamins, minerals, water, and fibre, which our own enzymes cannot digest).",
               "Answer two myth-busting prompts explicitly: 'Do vitamins give you energy?' and 'Is all fat bad?', explaining your reasoning in a sentence each.",
-              "Optionally use a balanced-plate illustration where tapping a food reveals its nutrient card (e.g. tap chicken → 'protein — building blocks for growth and repair'; tap oil → 'lipid — concentrated energy store and insulation'), with a colour/icon key tagging energy vs non-energy groups and a lift-the-flap reveal for the two myth questions."
+              "Optionally use an Eatwell-style plate where tapping a food reveals the nutrients it supplies (e.g. tap chicken → 'protein — building blocks for growth and repair'; tap oil → 'lipid — concentrated energy store and insulation'), with a colour/icon key tagging energy vs non-energy nutrients and a lift-the-flap reveal for the two myth questions."
             ],
-            "intendedInsight": "Each nutrient has a distinct job, and only some nutrients supply energy; a healthy diet fills all seven jobs in the right proportions rather than sorting foods into 'good' and 'bad'."
+            "intendedInsight": "Each nutrient has a distinct job, and only some nutrients supply energy; a healthy diet fills all seven nutrient jobs by eating foods from each food group in the guide's proportions, rather than sorting foods into 'good' and 'bad'."
           },
           {
             "title": "Build a balanced plate",
             "feedback": [
-              "If one nutrient group dominates: flag the imbalance and prompt the learner to add variety so each job is filled in proportion.",
-              "If a group is missing entirely: ask which body role is now unfilled and what food could supply it.",
-              "Reinforce that a balanced diet means the right proportions, so no whole group is simply 'bad' to include."
+              "If one food group dominates the plate: flag the imbalance and prompt the learner to adjust towards the guide's food-group proportions.",
+              "If a food group is missing: ask which nutrients that group mainly supplies and which body roles may now go short, and what food could fill the gap.",
+              "If a learner tries to give each of the seven nutrients an equal share: explain that proportions apply to food groups, and that foods supply several nutrients at once.",
+              "Reinforce that a balanced diet means the right proportions of the food groups, so no whole food group is simply 'bad' to include."
             ],
-            "rationale": "A constructive 'build a balanced plate' task makes proportion concrete and active rather than stated, and bridges toward later quantitative energy-budget work. The live nutrient bars are an optional feedback example that makes the balance mechanism visible; the same task works with a physical plate and a checklist. This goes slightly beyond the naming/role core into evaluation.",
+            "rationale": "A constructive 'build a balanced plate' task makes food-group proportions concrete and active rather than stated, then links them to the nutrients each group supplies, bridging toward later quantitative energy-budget work. Live food-group and nutrient feedback is an optional example that makes the balance visible; the same task works with a paper Eatwell plate and a checklist. This goes slightly beyond the naming/role core into evaluation.",
             "sourceClaims": [
+              "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
               "A balanced diet contains carbohydrates, proteins, lipids, vitamins, minerals, fibre and water, each with a distinct role; carbohydrates and lipids are the main energy sources while vitamins, minerals, fibre and water do not provide energy."
             ],
             "learnerActions": [
-              "Assemble a meal by choosing foods for a plate, aiming for the right proportions across the seven nutrient groups rather than maximising any single one.",
-              "Watch a live feedback panel (e.g. seven nutrient bars that fill as foods are added) and adjust the meal so no group is overloaded or missing.",
-              "Explain in one or two sentences why your finished plate counts as 'balanced' — which groups are present and roughly in what proportion."
+              "Assemble a day's meals using the Eatwell Guide (or another local healthy-eating guide), aiming for its food-group proportions — fruit and vegetables and starchy carbohydrates as the largest parts, smaller amounts of proteins and dairy and alternatives, and small amounts of oils and spreads.",
+              "Check the plate against the guide's food-group segments, then list which nutrients each food supplies and confirm that all seven nutrient jobs are covered (no equal shares of nutrients are expected).",
+              "Explain in one or two sentences why your finished plate counts as 'balanced' — which food groups are present, in roughly what proportion, and how they cover the seven nutrients."
             ],
-            "intendedInsight": "'Balance' is felt as proportion across all seven jobs, not as eliminating a food group or eating less overall."
+            "intendedInsight": "'Balance' means the right proportions of the food groups, which together cover all seven nutrient jobs — not equal shares of nutrients, eliminating a food group or eating less overall."
           },
           {
             "title": "Food-energy investigation (supervised)",
@@ -163191,10 +163121,11 @@
         ],
         "constraints": [
           "A learner is secure only when, given any nutrient, they can state a source, its body role, and whether it supplies energy — recognition/matching checks alone do not show they can construct this independently.",
-          "Treat the tap-to-reveal plate, colour/icon key, lift-the-flap, and live nutrient bars as optional interaction examples, not required mechanisms; the same content can be taught with a table, a paper plate, and sorting cards.",
+          "Treat the tap-to-reveal plate, colour/icon key, lift-the-flap, and live food-group and nutrient feedback as optional interaction examples, not required mechanisms; the same content can be taught with a table, a paper plate, and sorting cards.",
           "The matching/categorise check assesses the discrimination but does not by itself build it; pair it with the job-card and plate-building tasks.",
           "The food-burning investigation requires adult supervision and fire-safety precautions; measured temperature rises depend on setup and are a comparative demonstration, not a precise calorimetry value.",
-          "Address folk categories directly: 'balance' means proportion, protein is for all growth and repair (not only athletes), and no food is simply 'all bad' — it depends on how much.",
+          "Address folk categories directly: 'balance' means the right proportions of the food groups in a local guide, protein is for all growth and repair (not only athletes), and no food is simply 'all bad' — it depends on how much.",
+          "Keep the seven nutrients distinct from food groups: classify foods with a local healthy-eating guide's food groups (e.g. the Eatwell Guide), teach nutrients and their functions separately, recognise that foods supply several nutrients, and never set plate proportions as equal shares of nutrients.",
           "When categorising nutrients by energy, treat protein as a backup energy source (main job growth and repair) so this stays coherent with how it is framed elsewhere.",
           "An optional 'ask-a-dietitian' conversation wrap may be offered for curiosity questions about specific foods; it is a supplement to the defined-content job-card and plate tasks, not a required or superior medium.",
           "Diet composition here follows UK (DfE KS3) content; there is no direct US NGSS middle-school performance expectation on human dietary components, so framing may need adjustment for other curricula."
@@ -163204,7 +163135,8 @@
           "The original rated a 3D environment as adding 'nothing' and framed a static image as 'the most efficient, high-yield fit'; these categorical catalog-fit preferences have been removed. The neutral underlying observation is retained: nutrient roles are not inherently spatial, so a 3D/spatial environment offers little specific leverage here, though a fixed illustration, interactive, and physical formats each simply offer different experiences without one being universally necessary.",
           "One source (BBC Bitesize) is marked verified:false in the row; the energy/non-energy grouping it supports is widely taught but should be confirmed against the primary curriculum source before relying on it as authoritative.",
           "The claim that protein is used for energy 'only as a backup / in emergencies' is a standard simplification; it holds for typical diets but omits normal ongoing amino-acid turnover. Because the energy/non-energy categorisation is binary, protein is treated as a backup energy source there — flagged so the task does not appear to contradict protein's primary growth/repair role.",
-          "Food-burning temperature rises are setup-dependent and comparative only; absolute energy values are not established by this demonstration."
+          "Food-burning temperature rises are setup-dependent and comparative only; absolute energy values are not established by this demonstration.",
+          "Nutrition review (October 2026): the plate representation and the build-a-balanced-plate activity previously showed 'seven nutrient groups' on an Eatwell-style plate and asked for proportions across nutrients. Corrected: the plate shows the Eatwell Guide's five food groups and their proportions, nutrients are traced from the foods (most foods supply several), and the activity now cites the NHS Eatwell Guide (fetched and checked). The seven-component learning aim, job cards, food-energy investigation and checks are unchanged."
         ],
         "schemaVersion": 2
       },
@@ -163272,13 +163204,19 @@
           "source": "BBC Bitesize KS3 — Nutrition and digestion / balanced diet",
           "url": "https://www.bbc.co.uk/bitesize/topics/zf339j6",
           "verified": false
+        },
+        {
+          "claim": "The Eatwell Guide divides the foods and drinks we consume into five main food groups (fruit and vegetables; potatoes, bread, rice, pasta and other starchy carbohydrates; beans, pulses, fish, eggs, meat and other proteins; dairy and alternatives; oils and spreads) and shows how much of what we eat overall should come from each; choosing a variety of foods from each group helps provide the wide range of nutrients the body needs, combination foods such as pizzas and sandwiches contain several food groups, and balance can be achieved over a day or a week.",
+          "source": "NHS — The Eatwell Guide",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "verified": true
         }
       ],
       "confidence": "high",
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T18:31:26.834Z",
-        "updatedAt": "2026-10-19T15:21:22.309Z"
+        "updatedAt": "2026-10-21T21:30:01.030Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []

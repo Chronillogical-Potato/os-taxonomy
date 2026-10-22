@@ -33,3 +33,35 @@ test('chart research follows the pie/line split and the updated recovery routes'
  assert.equal(grouped.assess.errorPatterns.find(e => /Wrong representation/.test(e.pattern)).reteachPrerequisiteId, 'mt_ChjMU2GDJa');
  assert.equal(grouped.assess.errorPatterns.find(e => /Pie angle/.test(e.pattern)).reteachPrerequisiteId, 'mt_bESTSBB0wK');
 });
+test('date-time format requires RFC 3339 timestamps', () => {
+ const schema = { type: 'string', format: 'date-time' };
+ for (const ok of ['2026-07-01T12:00:00Z', '2026-07-01T12:00:00.123+09:00']) assert.deepEqual(checkSchema(ok, schema), []);
+ for (const bad of ['1', '2024', 'March 7 2024', '2026-02-30T00:00:00Z', '2026-07-01']) assert.ok(checkSchema(bad, schema).length > 0, bad);
+});
+test('date-time format follows Gregorian leap years and allows a leap second', () => {
+ const schema = { type: 'string', format: 'date-time' };
+ for (const ok of ['0000-02-29T00:00:00Z', '2000-02-29T00:00:00Z', '2024-02-29T00:00:00Z', '2016-12-31T23:59:60Z']) assert.deepEqual(checkSchema(ok, schema), [], ok);
+ for (const bad of ['1900-02-29T00:00:00Z', '2023-02-29T00:00:00Z', '2016-12-31T23:59:61Z']) assert.ok(checkSchema(bad, schema).length > 0, bad);
+});
+test('leap seconds must fall at the end of a UTC month after applying the offset', () => {
+ const schema = { type: 'string', format: 'date-time' };
+ for (const ok of [
+  '2016-12-31T23:59:60Z',
+  '2015-06-30t23:59:60.5z',
+  '2017-01-01T00:59:60+01:00',
+  '2016-12-31T15:59:60-08:00',
+  '2015-07-01T05:29:60+05:30',
+  '2015-06-30T20:29:60-03:30',
+  '0000-02-29T23:59:60Z',
+ ]) assert.deepEqual(checkSchema(ok, schema), [], ok);
+ for (const bad of [
+  '2026-07-01T12:00:60Z',
+  '2016-12-30T23:59:60Z',
+  '2016-12-31T22:59:60Z',
+  '2016-12-31T23:58:60Z',
+  '2016-12-31T23:59:60+01:00',
+  '2016-12-31T23:59:60-01:00',
+  '2017-01-02T00:59:60+01:00',
+  '0001-02-28T23:59:60+00:01',
+ ]) assert.ok(checkSchema(bad, schema).length > 0, bad);
+});
