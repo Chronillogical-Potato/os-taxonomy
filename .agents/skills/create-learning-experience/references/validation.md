@@ -37,7 +37,31 @@ Render early, inspect, revise and render again. Start with the risky interaction
 then check the integrated experience. Use available browser automation or manual
 browser tools; inspecting source or the DOM alone does not validate presentation.
 
-1. Open the saved HTML directly in a browser. Inspect the illustrated question
+The desktop app's built-in browser has been observed to throttle
+`requestAnimationFrame` while its pane is hidden: animations can appear frozen,
+screenshots can be stale, and scripts waiting for frames can time out. It also
+refuses `file://` URLs. Treat these as tool-specific limitations; check the
+current tool's behaviour rather than diagnosing a simulation bug from a timeout.
+Keep the pane visible during live animation checks and wait for a fresh render
+before capturing a screenshot.
+
+Serve the built HTML from a local static server for those checks, for example
+`python3 -m http.server 8000 --bind 127.0.0.1 --directory <build-directory>`.
+This is a validation aid, not a runtime dependency of the delivered experience.
+For dynamic simulations, separate `update(dt)` from rendering. When useful,
+expose a small development hook such as `window.__lesson = {state, advance(seconds)}`.
+Have `advance` run the same update logic in bounded simulation steps and render
+the resulting state; it must not bypass scoring, support tracking or transitions.
+Use it to check elapsed-time behaviour without waiting for animation frames, then
+also exercise real controls and motion. Static lessons do not need a test hook.
+
+Finish with one real `file://` open in a browser that supports it, with network
+disabled, to verify the standalone deliverable. A server-only pass does not
+establish offline operation. If no available browser supports this check, report
+it as untested rather than claiming success. Apply the existing connected-mode
+exception below when explicitly approved.
+
+1. Open the built HTML using the appropriate browser launch path above. Inspect the illustrated question
    cover at desktop, phone and a short viewport. Check visual craft, loaded font,
    question readability and a clear icon-plus-label start action. Keyboard focus
    and touch must not reach underlying lesson controls. Start with keyboard and
