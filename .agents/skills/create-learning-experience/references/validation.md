@@ -82,6 +82,9 @@ mutations; browser accessibility inspection alone is not a screen-reader test.
 
 Also exercise:
 
+- Hover and press every in-scene control; it must move only by the lift amount.
+  Check that its anchor is preserved on release and when disabled.
+
 - The core path from start to completion, correct and incorrect answers, repeated
   attempts, hints, recovery/reteaching, independent check, extension and restart.
 - For branching flows, enter investigations in different orders, leave one

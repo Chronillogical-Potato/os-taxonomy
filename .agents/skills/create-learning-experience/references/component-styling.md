@@ -79,8 +79,11 @@ burgundy `#8B0023` outline and lower edge. Secondary buttons remain white.
 - Disabled: opacity .45, default cursor and no hover/press movement.
 - Keyboard focus: 4px purple `#774DC7` outline, offset 5px.
 
-Use the separate CSS `translate` property for press/lift so a control's existing
-positioning transform is preserved. Keep these physical states consistent when
+Reserve the CSS `translate` property for press/lift. Anchor positioned controls
+with `transform`, never with `translate`, so hover and press cannot overwrite
+their placement. Use `class="ml-control ml-chip"` for an in-scene chip anchored
+above its projected `left`/`top` point: `.ml-chip` supplies `position: absolute`
+and `transform: translate(-50%, -100%)`. Keep these physical states consistent when
 controls move with the scene. Reduced-motion settings disable decorative motion.
 
 A compact action bar or familiar close/reset action can use
