@@ -29,6 +29,12 @@ assumptions and disclose the consequential ones in the concept. Do not infer
 mastery or reading ability from age alone. A brief entry task can help calibrate
 prerequisites when the adult does not know the child's starting point.
 
+When the request already implies an observable goal, propose that goal and the
+concrete concept in the same turn, ending with one confirmation question covering
+both. Ground this provisional goal as described below before presenting it; do
+not require a separate goal-approval round trip. If the goal is genuinely unclear,
+clarify it first. Full implementation still waits for concept confirmation.
+
 ## Language and locale
 
 Use the child's language for all child-facing copy: the cover question,
@@ -46,7 +52,8 @@ not wrap alone. Configure the shared helpers as shown in
 
 Read [data-and-research.md](references/data-and-research.md) to locate this
 repository's data, join topic research and interpret its limitations. Select a
-small scope matched to the confirmed goal, using topic evidence and prerequisite
+small scope matched to the confirmed goal (or the clearly implied goal being
+proposed alongside the concept), using topic evidence and prerequisite
 edges to identify the intended outcome and likely starting requirements. Age
 bands guide selection; they do not override known readiness.
 
