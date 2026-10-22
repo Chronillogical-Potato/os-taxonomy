@@ -100,16 +100,15 @@ The approved font is **Baloo 2**, used consistently across the experience. The
 skill bundles the unmodified variable font, weights 400–800, under SIL OFL:
 [font](../assets/fonts/Baloo2-variable.ttf),
 [license](../assets/fonts/OFL.txt), [pinned source](../assets/fonts/SOURCE.md).
-Use the [user-refined component styling](component-styling.md): **500 / sentence
+Use the [Marble component styling](component-styling.md): **500 / sentence
 case for the small title**, **550 / sentence case for the prominent instruction
-or explanation**, and **500 / sentence case for button labels**. These latest
-prototype refinements govern typography and controls, including the title casing.
+or explanation**, and **500 / sentence case for button labels**. These house-style roles govern typography and controls, including the title casing.
 Do not introduce another family or use system typography as the finished result.
 Verify the embedded Baloo 2 actually loads; a CSS declaration alone is insufficient.
 
 Marble's commercial Round faces informed the comparison but are not bundled or
-required. Any future replacement or mixing of families requires the
-user's agreement rather than an autonomous stylistic choice.
+required. Replacing or mixing font families requires an explicit project-level
+exception to the house style.
 
 Use the measurements, explanation accent rule, scene-aware placement and
 responsive behavior in [component-styling.md](component-styling.md). Keep the

@@ -1,4 +1,4 @@
-/* Shared styling extracted from the user-refined Moon Visit and Sky Colour
+/* Marble house styling illustrated by the Moon Visit and Sky Colour
    Explorer, October 2026. Scoped primitives, not a complete experience layout.
    Embed the development font URL as bytes in standalone HTML; retain OFL.txt. */
 @font-face {
@@ -164,6 +164,11 @@
   line-height: 1.15;
   white-space: nowrap;
   pointer-events: none;
+}
+/* Anchor scene chips with transform; translate is reserved for control lift. */
+.marble-learning .ml-chip {
+  position: absolute;
+  transform: translate(-50%, -100%);
 }
 .marble-learning .ml-object-control {
   position: absolute;

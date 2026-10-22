@@ -29,11 +29,31 @@ assumptions and disclose the consequential ones in the concept. Do not infer
 mastery or reading ability from age alone. A brief entry task can help calibrate
 prerequisites when the adult does not know the child's starting point.
 
+When the request already implies an observable goal, propose that goal and the
+concrete concept in the same turn, ending with one confirmation question covering
+both. Ground this provisional goal as described below before presenting it; do
+not require a separate goal-approval round trip. If the goal is genuinely unclear,
+clarify it first. Full implementation still waits for concept confirmation.
+
+## Language and locale
+
+Use the child's language for all child-facing copy: the cover question,
+instructions, feedback, buttons, accessible names and vocabulary definitions.
+Use it for the adult note too, unless another language is explicitly requested.
+Set `<html lang>` to the appropriate language tag. Apply that locale's casing
+and typography while preserving the sentence-case house style. For French,
+keep punctuation attached with non-breaking spaces: a narrow no-break space
+(U+202F) before `; ? !`, and a no-break space before `:` (narrow where the chosen
+locale/style calls for it). Check wrapping at narrow widths; punctuation must
+not wrap alone. Configure the shared helpers as shown in
+[examples.md](references/examples.md#localising-the-shared-helpers).
+
 ## Ground the design
 
 Read [data-and-research.md](references/data-and-research.md) to locate this
 repository's data, join topic research and interpret its limitations. Select a
-small scope matched to the confirmed goal, using topic evidence and prerequisite
+small scope matched to the confirmed goal (or the clearly implied goal being
+proposed alongside the concept), using topic evidence and prerequisite
 edges to identify the intended outcome and likely starting requirements. Age
 bands guide selection; they do not override known readiness.
 
@@ -129,12 +149,12 @@ connection service, parent authentication and network access. Do not call that
 mode offline or promise that HTML alone supplies the connection. Keep any
 research/design companion outside the child-facing flow. Use local interactions
 and no tracking or transmission of child responses by default.
-Use the bundled **Baloo 2** throughout with the user-refined Moon Visit / Sky
-Colour baseline: small sentence-case titles at 500, prominent explanations at
+Use the bundled **Baloo 2** throughout with the Marble component
+baseline: small sentence-case titles at 500, prominent explanations at
 550, and icon-plus-label buttons at 500. Read the exact roles and usage in
 [component-styling.md](references/component-styling.md). Embed the actual font
-bytes; do not substitute another family or rely on a fallback without the user's
-agreement. Keep instructions and button labels in sentence case.
+bytes; font substitutions or fallbacks require an explicit project-level
+exception to the house style. Keep instructions and button labels in sentence case.
 Use Three.js for spatial experiences involving viewpoint, illumination, depth,
 occlusion or moving physical objects, including the daytime-Moon example. Build
 one coherent, polished 3D scene with direct manipulation: drag the Earth, place an

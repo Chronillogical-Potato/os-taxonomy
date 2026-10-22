@@ -1,5 +1,5 @@
 // Shared question-led opening UI. Each experience supplies its own illustrated scene.
-export function createOpening({question,dark=false,onStart,focusTarget}){
+export function createOpening({question,dark=false,onStart,focusTarget,startLabel='Let’s find out'}){
  const style=document.createElement('style');style.textContent=`
  body.question-cover-open :is(header,aside:not(#vocab-popover),#progress,#dots,#controls,#scene-actions,#restart,#reset,#choices,#actions,#worldChoices,#waveControls,#sunHandle,#earth,#sun,#moon,#observer,#eye,#lookTools,#next,#hint,#extra,#feedbackToast,#moonLocator){visibility:hidden!important;pointer-events:none!important}
  #opening-screen{position:fixed;inset:0;z-index:30;overflow:hidden;font-family:'Baloo 2',sans-serif;color:#253e38;background:linear-gradient(90deg,#f8f5eb 0%,#f8f5ebf2 27%,#f8f5eb00 61%)}
@@ -14,8 +14,8 @@ export function createOpening({question,dark=false,onStart,focusTarget}){
  @media(prefers-reduced-motion:reduce){#opening-start{transition:none!important}}
  `;document.head.append(style);
  const root=document.createElement('section');root.id='opening-screen';root.hidden=true;root.className=dark?'dark':'';root.setAttribute('aria-labelledby','opening-question');
- root.innerHTML='<div id="opening-copy"><h1 id="opening-question"></h1><button id="opening-start" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span>Let’s find out</span></button></div>';
- root.querySelector('h1').textContent=question;document.body.append(root);
+ root.innerHTML='<div id="opening-copy"><h1 id="opening-question"></h1><button id="opening-start" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span></span></button></div>';
+ root.querySelector('h1').textContent=question;root.querySelector('#opening-start span').textContent=startLabel;document.body.append(root);
  let muted=[],hasShown=false;
  function show(focus=false){
   if(root.hidden){muted=[...document.querySelectorAll('header,aside:not(#vocab-popover),#world,#progress,#dots,#controls,#scene-actions,#restart,#reset,#choices,#actions,#worldChoices,#waveControls,#sunHandle,#earth,#sun,#moon,#observer,#eye,#lookTools,#next,#hint,#extra,#feedbackToast,#moonLocator')].map(el=>({el,inert:el.inert}));for(const {el}of muted)el.inert=true;}

@@ -2,7 +2,10 @@
 (()=>{
 'use strict';
 if(window.learningVocabulary)return;
-const entries=[
+// Set before loading this script; omitted fields retain the English defaults.
+const options=window.learningVocabularyOptions||{};
+const strings={regionLabel:'Word meaning',explain:word=>'Explain '+word,closeLabel:'Close definition',...options.strings};
+const entries=options.entries??[
  ['photon',['photon','photons'],'A tiny packet of light energy. The moving lights in this model stand for these packets.'],
  ['molecule',['molecule','molecules'],'A tiny group of atoms joined together. Atoms are the tiny building pieces that make up things.'],
  ['atom',['atom','atoms'],'One of the tiny building pieces that make up materials such as water, air and rocks.'],
@@ -33,9 +36,17 @@ const entries=[
  ['perimeter',['perimeter','perimeters'],'The distance all the way around the outside edge of a flat shape.'],
  ['tessellation',['tessellation','tessellations','tiling'],'A pattern of flat shapes that fit together without gaps or overlaps.']
 ];
-const aliases=new Map(),definitions=new Map();for(const [key,words,text]of entries){definitions.set(key,text);for(const word of words)aliases.set(word,key);}
+const normalize=s=>s.normalize('NFC').replace(/’/g,"'").toLowerCase();
+const aliases=new Map(),definitions=new Map();for(const [key,words,text]of entries){definitions.set(key,text);for(const word of words){const alias=normalize(word);if(alias)aliases.set(alias,key);}}
 const escape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-const pattern=new RegExp('\\b('+[...aliases.keys()].sort((a,b)=>b.length-a.length).map(escape).join('|')+')\\b','gi');
+// Choose composed/decomposed spelling per character, not per whole alias:
+// a pasted word can mix both forms while its original visible text stays intact.
+const spelling=word=>[...word].map(char=>{
+ const decomposed=char.normalize('NFD');
+ return char==="'"?"['’]":char===decomposed?escape(char):'(?:'+escape(char)+'|'+escape(decomposed)+')';
+}).join('');
+const alternatives=[...aliases.keys()].sort((a,b)=>b.length-a.length).map(spelling).join('|');
+const pattern=new RegExp('(?<![\\p{L}\\p{M}])('+(alternatives||'(?!)')+')(?![\\p{L}\\p{M}])','giu');
 const style=document.createElement('style');style.textContent=`
  body .vocab-term{display:inline!important;font:inherit!important;color:inherit!important;line-height:inherit!important;letter-spacing:inherit!important;border:0!important;border-radius:2px!important;padding:0!important;margin:0!important;background:none!important;box-shadow:none!important;text-decoration-line:underline;text-decoration-style:dashed;text-decoration-thickness:1.5px;text-underline-offset:.16em;cursor:help;pointer-events:auto!important;white-space:normal;transform:none!important;translate:none!important;min-height:0!important}
  body .vocab-term:hover,body .vocab-term:active{background:none!important;box-shadow:none!important;color:inherit!important;transform:none!important;translate:none!important}
@@ -46,8 +57,8 @@ const style=document.createElement('style');style.textContent=`
  #vocab-close:hover{background:#efe7ce}#vocab-close svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}#vocab-close:focus-visible{outline:3px solid #774dc7;outline-offset:-3px}
  @media(max-width:600px){#vocab-definition{font-size:19px}#vocab-popover{max-width:calc(100vw - 32px)}}
  `;document.head.append(style);
-const popup=document.createElement('aside');popup.id='vocab-popover';popup.hidden=true;popup.setAttribute('role','region');popup.setAttribute('aria-label','Word meaning');popup.dataset.vocabSkip='';
-popup.innerHTML='<strong id="vocab-word"></strong><p id="vocab-definition"></p><button id="vocab-close" type="button" aria-label="Close definition"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>';document.body.append(popup);
+const popup=document.createElement('aside');popup.id='vocab-popover';popup.hidden=true;popup.setAttribute('role','region');popup.setAttribute('aria-label',strings.regionLabel);popup.dataset.vocabSkip='';
+popup.innerHTML='<strong id="vocab-word"></strong><p id="vocab-definition"></p><button id="vocab-close" type="button" ><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>';popup.querySelector('button').setAttribute('aria-label',strings.closeLabel);document.body.append(popup);
 let descriptionTarget=null,savedDescription=null;
 let anchor=null,pinned=false,leaveTimer=0,scheduled=false,restoringFocus=false;
 function visible(el){return el?.isConnected&&el.getClientRects().length>0&&getComputedStyle(el).visibility!=='hidden'&&!el.closest('[inert]');}
@@ -87,7 +98,7 @@ function annotate(){
   pattern.lastIndex=0;return pattern.test(n.data)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
  }});while(walker.nextNode())nodes.push(walker.currentNode);
  for(const n of nodes){if(!n.isConnected)continue;const label=n.parentElement.closest('label');if(label?.control&&!label.control.hasAttribute('aria-label'))label.control.setAttribute('aria-label',label.textContent.trim());pattern.lastIndex=0;const matches=[...n.data.matchAll(pattern)],frag=document.createDocumentFragment();let end=0;
-  for(const m of matches){frag.append(document.createTextNode(n.data.slice(end,m.index)));const term=document.createElement('span');term.className='vocab-term';term.dataset.vocabKey=aliases.get(m[0].toLowerCase());term.textContent=m[0];const control=n.parentElement.closest('button,a');if(!control){term.tabIndex=0;term.setAttribute('role','button');term.setAttribute('aria-label','Explain '+m[0]);}if(!control){term.setAttribute('aria-controls','vocab-popover');term.setAttribute('aria-expanded','false');}frag.append(term);end=m.index+m[0].length;}
+  for(const m of matches){frag.append(document.createTextNode(n.data.slice(end,m.index)));const term=document.createElement('span');term.className='vocab-term';term.dataset.vocabKey=aliases.get(normalize(m[0]));term.textContent=m[0];const control=n.parentElement.closest('button,a');if(!control){term.tabIndex=0;term.setAttribute('role','button');term.setAttribute('aria-label',strings.explain(m[0]));}if(!control){term.setAttribute('aria-controls','vocab-popover');term.setAttribute('aria-expanded','false');}frag.append(term);end=m.index+m[0].length;}
   frag.append(document.createTextNode(n.data.slice(end)));n.replaceWith(frag);
  }
  syncAnnouncements();

@@ -1,8 +1,7 @@
-# User-refined component styling
+# Marble component styling
 
-This is the shared UI baseline extracted from the user's **Moon Visit** and
-**Sky Colour Explorer** iterations (`moon-visit.html` and
-`sky-colour-explorer.html`, October 2026). Use the reusable
+This is the Marble house-style baseline illustrated by **Moon Visit** and
+**Sky Colour Explorer** (`moon-visit.html` and `sky-colour-explorer.html`). Use the reusable
 [marble-ui.css](../assets/marble-ui.css) rather than rebuilding similar controls.
 Inspect the [Moon UI capture](visual/moon-visit-ui.png) and
 [Sky UI capture](visual/sky-colour-ui.png) when image inspection is available.
@@ -24,7 +23,7 @@ needed. The small-title roles below govern the lesson after entry.
 ## Shared roles
 
 All text uses the bundled Baloo 2. Keep sentence case for titles, explanations
-and button labels. These user-refined roles replace the earlier heavy/all-caps
+and button labels. These house-style roles replace the earlier heavy/all-caps
 title and white-rimmed red-button defaults.
 
 | Role | Desktop baseline | Narrow baseline (≤800px) |
@@ -79,8 +78,11 @@ burgundy `#8B0023` outline and lower edge. Secondary buttons remain white.
 - Disabled: opacity .45, default cursor and no hover/press movement.
 - Keyboard focus: 4px purple `#774DC7` outline, offset 5px.
 
-Use the separate CSS `translate` property for press/lift so a control's existing
-positioning transform is preserved. Keep these physical states consistent when
+Reserve the CSS `translate` property for press/lift. Anchor positioned controls
+with `transform`, never with `translate`, so hover and press cannot overwrite
+their placement. Use `class="ml-control ml-chip"` for an in-scene chip anchored
+above its projected `left`/`top` point: `.ml-chip` supplies `position: absolute`
+and `transform: translate(-50%, -100%)`. Keep these physical states consistent when
 controls move with the scene. Reduced-motion settings disable decorative motion.
 
 A compact action bar or familiar close/reset action can use

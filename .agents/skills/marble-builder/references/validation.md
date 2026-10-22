@@ -12,6 +12,9 @@ single HTML file.
 - Try a plausible misconception. Does feedback explain the issue and offer a
   helpful next move? Can a child reach “mastered” by guessing, exhausting retries,
   revealing hints or clicking through without demonstrating the goal?
+- Read each instruction and prompt alongside its answer options. Remove wording
+  that primes an answer, such as “dropped together” when “Together” is a choice;
+  describe the setup neutrally without revealing the assessed relationship.
 - Check scaffolds can help a struggling learner and that the final independent
   evidence does not depend on revealed answers. Assisted success should remain
   distinct from independent success. Fresh tasks must stay within taught scope.
@@ -24,13 +27,44 @@ single HTML file.
   Avoid describing a short session result as long-term retention or transfer
   beyond what the child actually demonstrated.
 
+- Check the child's language across the cover, instructions, feedback, buttons,
+  accessible labels and definitions, including dynamic states and helper defaults.
+  Check the adult note uses the same language unless another was requested,
+  `<html lang>` is correct, and casing and typography follow the chosen locale.
+  At narrow widths, French punctuation must stay attached with the appropriate
+  no-break spaces rather than wrapping alone.
+
 ## Browser iteration
 
 Render early, inspect, revise and render again. Start with the risky interaction,
 then check the integrated experience. Use available browser automation or manual
 browser tools; inspecting source or the DOM alone does not validate presentation.
 
-1. Open the saved HTML directly in a browser. Inspect the illustrated question
+The desktop app's built-in browser has been observed to throttle
+`requestAnimationFrame` while its pane is hidden: animations can appear frozen,
+screenshots can be stale, and scripts waiting for frames can time out. It also
+refuses `file://` URLs. Treat these as tool-specific limitations; check the
+current tool's behaviour rather than diagnosing a simulation bug from a timeout.
+Keep the pane visible during live animation checks and wait for a fresh render
+before capturing a screenshot.
+
+Serve the built HTML from a local static server for those checks, for example
+`python3 -m http.server 8000 --bind 127.0.0.1 --directory <build-directory>`.
+This is a validation aid, not a runtime dependency of the delivered experience.
+For dynamic simulations, separate `update(dt)` from rendering. When useful,
+expose a small development hook such as `window.__lesson = {state, advance(seconds)}`.
+Have `advance` run the same update logic in bounded simulation steps and render
+the resulting state; it must not bypass scoring, support tracking or transitions.
+Use it to check elapsed-time behaviour without waiting for animation frames, then
+also exercise real controls and motion. Static lessons do not need a test hook.
+
+Finish with one real `file://` open in a browser that supports it, with network
+disabled, to verify the standalone deliverable. A server-only pass does not
+establish offline operation. If no available browser supports this check, report
+it as untested rather than claiming success. Apply the existing connected-mode
+exception below when explicitly approved.
+
+1. Open the built HTML using the appropriate browser launch path above. Inspect the illustrated question
    cover at desktop, phone and a short viewport. Check visual craft, loaded font,
    question readability and a clear icon-plus-label start action. Keyboard focus
    and touch must not reach underlying lesson controls. Start with keyboard and
@@ -43,7 +77,7 @@ browser tools; inspecting source or the DOM alone does not validate presentation
    single-instruction budget, allowing concise functional button labels. Verify
    buttons combine icons and labels unless an icon-only exception is justified.
    Check the lesson hierarchy: small top-left title, large prominent current instruction
-   or explanation. Verify embedded Baloo 2 with the user-refined roles: 500
+   or explanation. Verify embedded Baloo 2 with the house-style roles: 500
    sentence-case titles, 550 explanations and 500 button labels. Compare the
    accent-rule explanation, label chips and outlined button states with
    [component-styling.md](component-styling.md) during feedback and narrow layouts
@@ -56,6 +90,9 @@ browser tools; inspecting source or the DOM alone does not validate presentation
    color, stepped light/shadow and clean black object outlines; inspect outline
    quality during object/camera movement, not just a still. Judge beauty, craft
    and polish separately from whether the simulation functions.
+   Choose the explanation side for each camera view, including transitions and
+   alternate apparatus. Check that scenery or a second apparatus never passes
+   behind the instruction text; reserve clear space as the camera and objects move.
 2. Exercise the interaction and capture consequential states: supported practice,
    a wrong prediction and its feedback, and an independent transfer task before
    and after reveal. Inspect viewpoints, overlaps, motion, text budget and whether the
@@ -81,6 +118,9 @@ produce one plain-text live announcement rather than repeated term-wrapping
 mutations; browser accessibility inspection alone is not a screen-reader test.
 
 Also exercise:
+
+- Hover and press every in-scene control; it must move only by the lift amount.
+  Check that its anchor is preserved on release and when disabled.
 
 - The core path from start to completion, correct and incorrect answers, repeated
   attempts, hints, recovery/reteaching, independent check, extension and restart.
