@@ -39,8 +39,13 @@ const entries=options.entries??[
 const normalize=s=>s.normalize('NFC').replace(/’/g,"'").toLowerCase();
 const aliases=new Map(),definitions=new Map();for(const [key,words,text]of entries){definitions.set(key,text);for(const word of words){const alias=normalize(word);if(alias)aliases.set(alias,key);}}
 const escape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-const forms=[...new Set([...aliases.keys()].flatMap(word=>[word,word.normalize('NFD')]))];
-const alternatives=forms.sort((a,b)=>b.length-a.length).map(word=>escape(word).replace(/'/g,"['’]")).join('|');
+// Choose composed/decomposed spelling per character, not per whole alias:
+// a pasted word can mix both forms while its original visible text stays intact.
+const spelling=word=>[...word].map(char=>{
+ const decomposed=char.normalize('NFD');
+ return char==="'"?"['’]":char===decomposed?escape(char):'(?:'+escape(char)+'|'+escape(decomposed)+')';
+}).join('');
+const alternatives=[...aliases.keys()].sort((a,b)=>b.length-a.length).map(spelling).join('|');
 const pattern=new RegExp('(?<![\\p{L}\\p{M}])('+(alternatives||'(?!)')+')(?![\\p{L}\\p{M}])','giu');
 const style=document.createElement('style');style.textContent=`
  body .vocab-term{display:inline!important;font:inherit!important;color:inherit!important;line-height:inherit!important;letter-spacing:inherit!important;border:0!important;border-radius:2px!important;padding:0!important;margin:0!important;background:none!important;box-shadow:none!important;text-decoration-line:underline;text-decoration-style:dashed;text-decoration-thickness:1.5px;text-underline-offset:.16em;cursor:help;pointer-events:auto!important;white-space:normal;transform:none!important;translate:none!important;min-height:0!important}
