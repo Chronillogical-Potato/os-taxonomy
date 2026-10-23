@@ -125,7 +125,7 @@ with the reference captures, not just whether the page runs.
 
 ## Inline word meanings
 
-Technical terms keep the surrounding Baloo 2 size, weight, line height and color,
+In non-interactive text, technical terms keep the surrounding Baloo 2 size, weight, line height and color,
 with a visible dashed underline and a little underline offset. The underline is
 the affordance; do not turn each word into a pill or add icons inside prose.
 Use a readable warm-white, dark-outlined popover with the established restrained
@@ -133,3 +133,5 @@ control depth and one compact, accessible close action. Keep explanations short
 and within the viewport at phone widths. Focus remains visible; both desktop
 hover and touch activation must work. This temporary word-help region is the
 approved text-budget exception, including on the otherwise minimal cover.
+Buttons and other action controls and their labels never carry vocabulary
+underlines or definition triggers; explain their terms in surrounding lesson text.

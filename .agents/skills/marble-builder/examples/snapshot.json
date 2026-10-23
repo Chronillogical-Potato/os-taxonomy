@@ -157,5 +157,20 @@
       "originalSha256": "e02a800d1bb2312feec40301c42505728d6cd6efb533e7a0575a083d3a607e59",
       "portableSha256": "e02a800d1bb2312feec40301c42505728d6cd6efb533e7a0575a083d3a607e59"
     }
-  }
+  },
+  "revisions": [
+    {
+      "date": "2026-10-23",
+      "change": "Exclude action controls and their labels from vocabulary annotation in both helpers and all five standalone HTML files. Original import hashes above are retained as provenance.",
+      "sha256": {
+        "vocabulary.js": "c9079545c51d334d2ab6540c9cabdc0e4a63dcbdcbd8de2014217b1cb48adf4a",
+        "otter-forest/source/vocabulary.js": "b54d73d5fda48f99a584b0e3bd6ca3c94ab98f79f3891d1dfe2c1b8a4adfe599",
+        "bee-builder/experience.html": "a1d6a0b5d9b7bfaa49b593be90ba992794a64fa5c6f0854d98709519a95d789e",
+        "hidden-cubes/experience.html": "b51ed9376c420388ca25411c5fbaa082d54f9e7a3096d7ee75cc4fdc5058056a",
+        "moon-visit/experience.html": "233012924d474f5385479b4686e86fbe9c8756fcfa7c4c496c1341af4064e244",
+        "otter-forest/experience.html": "6a90643061ebc7c53983fe2fa82d0cd117b890d302f1b7b16e1f1c274d7b7132",
+        "sky-colour-explorer/experience.html": "6191b57ede42f23ab91e8f0981cd3cb87534b02ef5e334fb42da3a5ac55374b3"
+      }
+    }
+  ]
 }

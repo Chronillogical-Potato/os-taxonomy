@@ -79,8 +79,8 @@ New activities should design fresh transfer evidence for their own goals.
 
 The [local ecology lexicon](source/vocabulary.js) supplies dashed inline word
 help with hover, tap and keyboard access. Definitions explain language rather
-than the current answer. Its event handling prevents a word-help gesture on an
-organism token from also adding or dragging that organism. Live goal values
+than the current answer. Organism tokens are action buttons: their words add or
+drag the organism without opening definitions. Word help remains in non-interactive lesson text. Live goal values
 update without rebuilding their labels, preserving an open definition.
 
 [Desktop word help](screenshots/vocabulary.png) ·

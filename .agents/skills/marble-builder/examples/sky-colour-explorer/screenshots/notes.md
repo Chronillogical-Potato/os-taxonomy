@@ -51,3 +51,22 @@ while underlying lesson controls are inert.
 The dedicated vocabulary captures and the Bee/Cubes cover refresh show the latest
 word-help affordances. Other lesson screenshots retain the preceding visual
 revision and may omit dashed terms; open the current HTML for the live UI.
+
+
+## Button vocabulary fix · 2026-10-23
+
+The current standalone HTML excludes buttons and other action controls and their
+labels from vocabulary annotation. Earlier captures on this page are historical
+where they show word help on controls, including organism tokens.
+
+Chrome checks passed with network disabled on `file://` at 1280 × 900 and
+390 × 900 with touch emulation. Clicking/tapping “Meet the air” advanced to the next scene.
+Word help still opened from non-interactive lesson text and closed with Escape.
+Both readable helpers also passed native/ARIA button, nested-label, disabled and
+dynamically created control checks, with mouse/touch actions and native-button
+Enter/Space activation. No page script errors occurred.
+Screenshots were inspected for the phone Bee Builder and desktop Hidden Cubes
+layouts. The check script and all ten fresh captures are retained locally in
+`/tmp/marble-browser-checks/check-button-vocabulary.mjs` and
+`/tmp/marble-button-vocabulary/`. This was a focused control regression check,
+not a full reassessment of learning outcomes.

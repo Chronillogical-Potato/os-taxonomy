@@ -53,10 +53,13 @@ Otter stages its own underwater 3D cover and entry flow.
 The original four examples share [vocabulary.js](../examples/vocabulary.js): a scoped
 lexicon, dashed inline affordances and one hover/tap/keyboard word-help region.
 Otter uses a [scoped ecology version](../examples/otter-forest/source/vocabulary.js)
-that also isolates word-help gestures from organism dragging.
+with the same exclusion for action controls, including organism tray buttons.
 Each design note links its actual desktop/phone vocabulary captures. Review and
 adapt the definitions for a new topic and learner; the helper is a reference,
-not a universal dictionary or a task-specific hint system.
+not a universal dictionary or a task-specific hint system. Both helpers exclude
+buttons and other action controls and their labels. Historical vocabulary captures
+may show underlined control labels; those affordances have been removed from the
+current HTML and sources.
 
 Each example has `experience.html` (double-click to run offline), `source/`
 (readable application and shell), `design.md`, `screenshots/` and dependency

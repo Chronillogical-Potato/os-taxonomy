@@ -94,7 +94,7 @@ function annotate(){
  prepareAnnouncements();
  if(anchor&&!visible(anchor))close();
  const nodes=[],walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>{
-  const p=n.parentElement;if(!p||!n.data.trim()||p.closest('script,style,svg,canvas,textarea,input,option,.vocab-term,#vocab-popover,[data-vocab-skip]'))return NodeFilter.FILTER_REJECT;
+  const p=n.parentElement;if(!p||!n.data.trim()||p.closest('script,style,svg,canvas,textarea,input,option,button,[role=button],a,label,summary,.vocab-term,#vocab-popover,[data-vocab-skip]'))return NodeFilter.FILTER_REJECT;
   pattern.lastIndex=0;return pattern.test(n.data)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
  }});while(walker.nextNode())nodes.push(walker.currentNode);
  for(const n of nodes){if(!n.isConnected)continue;const label=n.parentElement.closest('label');if(label?.control&&!label.control.hasAttribute('aria-label'))label.control.setAttribute('aria-label',label.textContent.trim());pattern.lastIndex=0;const matches=[...n.data.matchAll(pattern)],frag=document.createDocumentFragment();let end=0;
