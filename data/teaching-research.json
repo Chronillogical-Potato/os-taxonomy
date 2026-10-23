@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-21T21:30:26.046Z",
-  "topicFileSha256": "e5b037a5309ed12bbecd4ead88655231ff55a6fe49d98383e00f79bcfeb07bab",
+  "exportedAt": "2026-10-23T15:07:48.635Z",
+  "topicFileSha256": "15806a0b74445c52651e84c882104f630eb96ea9195c0befe8469587a0180fc0",
   "recordCount": 1049,
   "coverage": {
-    "topicCount": 1930,
+    "topicCount": 1833,
     "withResearch": 1049,
-    "withoutResearch": 881,
+    "withoutResearch": 784,
     "bySubject": {
       "Computing": {
-        "topics": 59,
+        "topics": 50,
         "withResearch": 0,
-        "withoutResearch": 59
+        "withoutResearch": 50
       },
       "English": {
-        "topics": 368,
+        "topics": 331,
         "withResearch": 0,
-        "withoutResearch": 368
+        "withoutResearch": 331
       },
       "Geography": {
-        "topics": 25,
+        "topics": 22,
         "withResearch": 0,
-        "withoutResearch": 25
+        "withoutResearch": 22
       },
       "History": {
-        "topics": 112,
+        "topics": 109,
         "withResearch": 0,
-        "withoutResearch": 112
+        "withoutResearch": 109
       },
       "Learning to Learn": {
         "topics": 18,
@@ -35,31 +35,29 @@
         "withoutResearch": 18
       },
       "Life Skills": {
-        "topics": 42,
+        "topics": 43,
         "withResearch": 0,
-        "withoutResearch": 42
+        "withoutResearch": 43
       },
       "Mathematics": {
-        "topics": 587,
+        "topics": 567,
         "withResearch": 502,
-        "withoutResearch": 85
+        "withoutResearch": 65
       },
       "Personal & Social Development": {
-        "topics": 124,
+        "topics": 117,
         "withResearch": 0,
-        "withoutResearch": 124
+        "withoutResearch": 117
       },
       "Science": {
-        "topics": 595,
+        "topics": 576,
         "withResearch": 547,
-        "withoutResearch": 48
+        "withoutResearch": 29
       }
     },
     "missingTopicIds": [
       "mt_-1okUh0Jdv",
       "mt_-DuXzMVVXQ",
-      "mt_-Sk53QkyS0",
-      "mt_-WhvVTsKV-",
       "mt_-beOa1AO6W",
       "mt_-mw3JeIjhU",
       "mt_-nj-DnW4uU",
@@ -67,7 +65,6 @@
       "mt_02DH7sGXCi",
       "mt_085iC6v-Oa",
       "mt_0FYFiLTqx4",
-      "mt_0MI9ybM3j_",
       "mt_0MfpLj0Uhb",
       "mt_0O4mXv3asF",
       "mt_0QJoKWABdC",
@@ -81,14 +78,12 @@
       "mt_14F_x1Xwwp",
       "mt_14OR-MhGJ9",
       "mt_18qkgxr_-T",
-      "mt_196Gb4q6a5",
       "mt_19qy2uuaKp",
-      "mt_1GDEHyEZYH",
       "mt_1GF5MeNZPA",
       "mt_1KCwbGvm1F",
+      "mt_1MqcYKS1Es",
       "mt_1ZwxvIqIxf",
       "mt_1kdEZRLyaZ",
-      "mt_1m4J4KOjPy",
       "mt_1ro8W1cZYn",
       "mt_1z-gJBJFlM",
       "mt_26OJ9MetR9",
@@ -99,7 +94,6 @@
       "mt_2X9Cd38eSJ",
       "mt_2_fB4LuVwc",
       "mt_2eVg4Tt5r0",
-      "mt_2jksKpNzeF",
       "mt_2l06snztdP",
       "mt_2oswCNuapH",
       "mt_2qc_Kq63Le",
@@ -109,8 +103,6 @@
       "mt_35-DhMh_Yr",
       "mt_37QCuGOxFe",
       "mt_39Yyr1KG7F",
-      "mt_3itytx4K1v",
-      "mt_3l9OJkjksw",
       "mt_3m0pA-aeat",
       "mt_3tQXH9GwIa",
       "mt_4-vfMgmCVB",
@@ -129,11 +121,9 @@
       "mt_5OxKnrGEMP",
       "mt_5UtPmgdoQ9",
       "mt_5XLhiqmocP",
-      "mt_5bmrA-0pBi",
       "mt_5n-O41lUgn",
       "mt_5qNMVZi3dQ",
       "mt_5zPXTvZTcX",
-      "mt_5zTlbDWkDI",
       "mt_6-MYToNZ39",
       "mt_61Nhj8W78f",
       "mt_61Pa4Eksva",
@@ -147,31 +137,25 @@
       "mt_6lHBTwQPrS",
       "mt_6nqVnVdexe",
       "mt_6xj94tmpi-",
-      "mt_7-N8TmQUsB",
       "mt_70Ys4i1AB1",
-      "mt_78-pnKfzmv",
       "mt_7D-vlii8F-",
       "mt_7DEMuNxUTh",
       "mt_7SfQuXgNtd",
       "mt_7SsduPB2tP",
-      "mt_7b8EHUBoxd",
       "mt_7oZ2YenzhX",
       "mt_7xt5pXdVvl",
       "mt_8-POYyg7GJ",
       "mt_82KKv0Fca3",
       "mt_86DyHo9zO3",
-      "mt_89qLyvE70d",
-      "mt_8DT3LXwwH-",
+      "mt_8FUXG_39-C",
       "mt_8FwtdJzeDh",
       "mt_8IsaoMPvod",
-      "mt_8NYqAhHCa-",
       "mt_8ShghTx0jd",
       "mt_8StiXnYq1u",
       "mt_8UL1opbJEt",
       "mt_8VjmxR1yfw",
       "mt_8ad4U6msea",
       "mt_8bIXVKTdtK",
-      "mt_8cs4YPkp23",
       "mt_8dstvf-KKb",
       "mt_8oAzr0WxRb",
       "mt_8qQ2IosZZw",
@@ -179,13 +163,11 @@
       "mt_91f1XFvGZq",
       "mt_95zxYqpP7m",
       "mt_99G6Msdzw-",
-      "mt_9L5qyBYmg-",
       "mt_9NQEiYLQA3",
       "mt_9P9o6d0Qm3",
       "mt_9REmUc8r4D",
       "mt_9V8Z386RDx",
       "mt_9Y5-GjF2B0",
-      "mt_9fyI5B1U_V",
       "mt_9gpUHWVKMR",
       "mt_9hBs430cU4",
       "mt_9k1qcpvVi_",
@@ -211,7 +193,6 @@
       "mt_B1ATUEVNPz",
       "mt_B1LdSGMP66",
       "mt_B8JOz79O6t",
-      "mt_BGMS9We5w9",
       "mt_BK5xwkrD5C",
       "mt_BLzNxSSdWu",
       "mt_BYl4sds1SM",
@@ -221,6 +202,7 @@
       "mt_C3eNLQJlgt",
       "mt_C7abt7pRr6",
       "mt_CBXBu5e4Iv",
+      "mt_CCJpSSS3l8",
       "mt_CSGqz245rV",
       "mt_CUJr8L5_Wn",
       "mt_Cc-QHVo747",
@@ -233,10 +215,6 @@
       "mt_DcSMuVWgKU",
       "mt_Dg5lQZFpav",
       "mt_DkzsZdyaL2",
-      "mt_DnvWzDjoD8",
-      "mt_DxSbKzl-C-",
-      "mt_E-E8z9ZZOz",
-      "mt_E2iv1E6klO",
       "mt_E5KC4AnRLW",
       "mt_E5YbLvMgLL",
       "mt_E5ju6kQSu3",
@@ -248,7 +226,7 @@
       "mt_EbiGRVK8uR",
       "mt_EedcpioR0v",
       "mt_Eehl12cSnN",
-      "mt_EfF81YvgXV",
+      "mt_EiI2PPWPHJ",
       "mt_EqXlZfB4jp",
       "mt_Eqk6oSbySH",
       "mt_F62VTeHB4-",
@@ -257,17 +235,15 @@
       "mt_FGCFUCqJBB",
       "mt_FIkqA0qhnj",
       "mt_FNSeo9_T2Z",
-      "mt_FSLJbKkryb",
-      "mt_FVVSQR9vGg",
       "mt_FW9_8F52bw",
       "mt_FYK8m6eHQm",
       "mt_F_zEAJ8VIo",
+      "mt_FfMBoU1jt7",
       "mt_FtCLISvSGw",
       "mt_FwI7q7DSIx",
       "mt_G7jhJrOD2P",
       "mt_GKL5Usnd11",
       "mt_GLY3R3YSlf",
-      "mt_GbisjfWodT",
       "mt_GtL2PVfRYP",
       "mt_GugVunb2lI",
       "mt_H0ajATAlus",
@@ -283,7 +259,6 @@
       "mt_HPf-dVtA3p",
       "mt_HWYAspz-LK",
       "mt_HZyUwycFvf",
-      "mt_HczwO1sr-y",
       "mt_HdI1y5KsBl",
       "mt_Hft-0nxZvB",
       "mt_HoJGVsMO7H",
@@ -309,18 +284,13 @@
       "mt_JNzgBlNkx0",
       "mt_JRzXQl9M7c",
       "mt_JVVKT-_AD9",
-      "mt_JWjSZNk1Qy",
       "mt_JcLwbDGGvJ",
       "mt_Jd2aWEUJ9G",
       "mt_JdAnBKIDnw",
       "mt_JiZ3H90Xg8",
       "mt_JivEBTD_KV",
       "mt_Jq0MjURrRC",
-      "mt_JumBNYAiA_",
       "mt_Juxx4n-8mu",
-      "mt_Jz9UuT8BXW",
-      "mt_K1jLX9FXdl",
-      "mt_K5Zqgu7rzp",
       "mt_K6qtan847r",
       "mt_K8_RYIvrTV",
       "mt_KA5j5OeGvw",
@@ -330,8 +300,6 @@
       "mt_KQRxnwElNc",
       "mt_KbCCmLmxYN",
       "mt_KmPZ5diLEP",
-      "mt_KpBg1_T_84",
-      "mt_L8y31QOR6s",
       "mt_LADBSIowuS",
       "mt_LBT-9jz7kR",
       "mt_LCJNRaRXtW",
@@ -346,7 +314,6 @@
       "mt_LuwHnQItF_",
       "mt_M-S5oQhxYa",
       "mt_M2Gou3O6qT",
-      "mt_MIA4wfENUm",
       "mt_MOY_2Cqalz",
       "mt_MRCnuYwnFQ",
       "mt_MRQcEvyPJv",
@@ -372,13 +339,9 @@
       "mt_NTAc_EMeHZ",
       "mt_NbkUKcOlEX",
       "mt_Nj32xtOhno",
-      "mt_NmvuwVUFRS",
       "mt_NnlnxCx1DO",
-      "mt_O-U263ukg1",
-      "mt_O12GEyNwSi",
       "mt_O2dS6gvClw",
       "mt_OJVkWvIaM_",
-      "mt_OKCmMGWczX",
       "mt_OLwNsTI6C7",
       "mt_ORlMNVV4FL",
       "mt_OTFABm2xdf",
@@ -393,7 +356,6 @@
       "mt_OyOYHlZ2_T",
       "mt_OzdI2-ZoXX",
       "mt_P0HBNfp46z",
-      "mt_P2nm-qVnvd",
       "mt_PCX1jZZnf9",
       "mt_PJZf6WGfzl",
       "mt_PJyCGJz5Hv",
@@ -402,7 +364,6 @@
       "mt_PdYlsA33jB",
       "mt_PetJM-AYz9",
       "mt_PhIZNl2230",
-      "mt_Pp_pizml7n",
       "mt_PsQdUQBw0D",
       "mt_PvU3eoikev",
       "mt_Q2Eud_PPz6",
@@ -418,11 +379,8 @@
       "mt_Qcsl1Z1x0l",
       "mt_QdMMLRYWhn",
       "mt_Qe2PsFmSAH",
-      "mt_QeKWt4BZn3",
       "mt_QepALf3bin",
-      "mt_QguIGVMB1o",
       "mt_QpJydot2Kh",
-      "mt_QpK9BpUO__",
       "mt_QpmVikVaqY",
       "mt_QwCjG9Pexc",
       "mt_QxsoqVUt6u",
@@ -434,9 +392,6 @@
       "mt_RNYNrRMqKL",
       "mt_RNeEF1JU4J",
       "mt_RTwmvr9R7V",
-      "mt_RdIBKLbgyp",
-      "mt_RdfzwInyAj",
-      "mt_Re97rQJx_e",
       "mt_RgQxPddV8v",
       "mt_RhlY8jeu7Q",
       "mt_RhntJz7p_6",
@@ -455,7 +410,6 @@
       "mt_SZrMv3YAky",
       "mt_SbEaQnMQoD",
       "mt_SeNxOZTHCN",
-      "mt_Sg-jC5f9L6",
       "mt_Sij9ByyHq6",
       "mt_So_5wBv8fI",
       "mt_SsS7GptD_o",
@@ -469,7 +423,6 @@
       "mt_TfOiog-ALs",
       "mt_TffvIu6VgG",
       "mt_TiFjjvBMaY",
-      "mt_TrISKhznZt",
       "mt_UEe3MC5RZc",
       "mt_UGf6jICEhs",
       "mt_UHQfb-n-w3",
@@ -481,20 +434,18 @@
       "mt_UvNrOXny1i",
       "mt_V-ldQp56bF",
       "mt_V6456X6pJE",
+      "mt_V6SzjffDoE",
       "mt_VA126P6Wp5",
       "mt_VEwM7ClYYE",
       "mt_VIUF5Vspbg",
-      "mt_VJEQ32O0Ae",
       "mt_VLBf624ElK",
       "mt_VLu59hpQ4T",
       "mt_VMS3kDQ8sA",
       "mt_VP9yZJ1xeP",
-      "mt_VRZawp3oFZ",
       "mt_VVx0hPPSKi",
       "mt_VXcua6-txq",
       "mt_VY3rBq8RyP",
       "mt_V_kAitNbLN",
-      "mt_VitRPAsDik",
       "mt_VjxyJLtIbT",
       "mt_VtqvUORa8K",
       "mt_W3VOAuFwVw",
@@ -511,7 +462,6 @@
       "mt_WtO50EZQkf",
       "mt_WzOyJFKDIu",
       "mt_X1L9DoUwjF",
-      "mt_X53txVXOcG",
       "mt_X5fdB4haHf",
       "mt_X7Tu94-a2m",
       "mt_XK7NYt61cO",
@@ -520,16 +470,13 @@
       "mt_XeMZdf2Y9W",
       "mt_XeT37rd69f",
       "mt_XnRhhEqJLJ",
-      "mt_Y6JmLjnfRP",
       "mt_Y6P9y1Rz-u",
-      "mt_Y6_cq3UMyy",
       "mt_YKkCM63fSC",
       "mt_YNe6siFTFq",
       "mt_YQ64pzcLDl",
       "mt_YXVQaufkKO",
       "mt_YZOjP8KHsM",
       "mt_YbX3LD0Eca",
-      "mt_YfbfIdljWd",
       "mt_YrDlg_J4kQ",
       "mt_Yrjn8jAt1c",
       "mt_Ytd8XC3eQr",
@@ -549,30 +496,23 @@
       "mt__3hJj0H4HF",
       "mt__AWSThGJ0d",
       "mt__BbOjiY5A5",
-      "mt__CFtXgDaEL",
       "mt__CMXZiPfTV",
       "mt__F_i67waLN",
       "mt__J2BO4V95l",
       "mt__KHQttMde3",
       "mt__LiAEHt9nk",
       "mt__MDiDU9Vck",
-      "mt__PcuXj7_I1",
       "mt__ab4knIaSL",
       "mt__evtvKA25j",
       "mt__o3TCmfomv",
       "mt__p5n8z5soJ",
-      "mt__q8ln4Lvf7",
       "mt__qlBYNP62H",
-      "mt__sYpBrdzcp",
-      "mt__yvsKKp3TS",
-      "mt_a0_W_oIEQg",
       "mt_a0yi2vpoUn",
       "mt_a6AYrbb7x4",
       "mt_a6m7PqTuJN",
       "mt_aClzPBiS9k",
       "mt_aCwj2PCoRV",
       "mt_aFvsj35QzC",
-      "mt_aGuP78tRMo",
       "mt_aS-Gdh-MHx",
       "mt_aVZJhPbc_1",
       "mt_aWOK1npO5s",
@@ -581,19 +521,16 @@
       "mt_asRwlPZXC3",
       "mt_av-uRBrhwT",
       "mt_aw0PldeT_L",
-      "mt_axrs4Gfdm9",
       "mt_ay0qkGj0jg",
       "mt_b0sXYFblDL",
       "mt_bAYy0ytbfC",
       "mt_bAy4dmP1-A",
       "mt_bEvMBUv4eG",
       "mt_bFK6owxsmi",
-      "mt_bJyOTtP0b6",
       "mt_bKV2JYNwf7",
       "mt_bPFToj0OhZ",
       "mt_bZC-wqWX7Y",
       "mt_bhEuF-CCuY",
-      "mt_biGHAbkoV2",
       "mt_bjlY5TE1y-",
       "mt_bkMDDstwwG",
       "mt_bkvB7QYKwg",
@@ -603,9 +540,7 @@
       "mt_bvxkT1nepy",
       "mt_c-F__Qe23X",
       "mt_cB7hV8sw7X",
-      "mt_cB_j7towTD",
       "mt_cEQqskOaoo",
-      "mt_cGzd5z56FB",
       "mt_cIxLOPS1Hc",
       "mt_cJ8CeyRKKs",
       "mt_cJjnPjuvCU",
@@ -618,12 +553,11 @@
       "mt_cVp_nop-5L",
       "mt_cq711F7ruL",
       "mt_curkA82CmO",
-      "mt_d6BsiDtFjP",
+      "mt_d4reBzaIRl",
       "mt_dALEWRHXnZ",
       "mt_dJOKkYMsCv",
       "mt_dRLP8g0SAg",
       "mt_dXP_wBLIwU",
-      "mt_dgheXIYAD-",
       "mt_dknMcCqvoY",
       "mt_dlg6i-Lw0I",
       "mt_dlm3NspUyy",
@@ -633,8 +567,6 @@
       "mt_e0I0OSxNFc",
       "mt_e1Yr6rhRNW",
       "mt_e7tLi9SCIE",
-      "mt_eFj9uWaPMI",
-      "mt_eNJ99tRb3p",
       "mt_ebQURBOsM5",
       "mt_ejht12jhm2",
       "mt_el7qeUK-Cd",
@@ -642,18 +574,14 @@
       "mt_eosO26KE-Z",
       "mt_f4O__f3OU4",
       "mt_f62To2mA0B",
-      "mt_f7RadQGOnQ",
       "mt_f8n4txtLej",
-      "mt_fKAq8aOfhD",
       "mt_fL1Xz8ostr",
       "mt_fMd7v87IiI",
       "mt_fQ9Rw10fss",
       "mt_fQHBicp1Rf",
       "mt_fT4G0QloX5",
-      "mt_fXE9t2ETGx",
       "mt_f_dMmvzxwo",
       "mt_frDIaXzWbx",
-      "mt_fruAJ2RaRT",
       "mt_furAIwoO9t",
       "mt_g8gJIsDxmj",
       "mt_gBK8uXQlQW",
@@ -661,6 +589,7 @@
       "mt_gMSFymQlrW",
       "mt_gNDkyx19tk",
       "mt_gR5_n99Ntt",
+      "mt_gTI7MuS-y8",
       "mt_gZIo5oiBMt",
       "mt_gbTyzvnWzr",
       "mt_gf4RUcACLg",
@@ -669,7 +598,6 @@
       "mt_h02-C8PRrj",
       "mt_h3vmvQW5Wa",
       "mt_h7zVgCDVmx",
-      "mt_hE05udHee7",
       "mt_hHcaPPtPzS",
       "mt_hJW7hVflm3",
       "mt_h_XQsdIavD",
@@ -701,7 +629,6 @@
       "mt_j6ENpc8--_",
       "mt_j89i4u2fKr",
       "mt_j8Pv3s7TZR",
-      "mt_jIUuqbJJRb",
       "mt_jIcgbCmziD",
       "mt_jIszRCO2ij",
       "mt_jO0gHMk7Ti",
@@ -712,7 +639,6 @@
       "mt_k7VtbWdfDO",
       "mt_kH1DzOPsXG",
       "mt_kJ4xXKL_nO",
-      "mt_kV441n9SLg",
       "mt_kVzAFMuFc4",
       "mt_kgTN6yk4oE",
       "mt_klyw-tdlhP",
@@ -734,19 +660,15 @@
       "mt_mDp-1vlL3R",
       "mt_mKAZTqItRG",
       "mt_mLPEMpYb_R",
-      "mt_mMDpLugX2X",
       "mt_mMMXD4v9Sh",
       "mt_mN4Ye_vtR7",
       "mt_mRU4H9-fgb",
       "mt_mSpJK-rKW_",
-      "mt_mYujFoIsVG",
       "mt_miGrca8zaS",
       "mt_mkDqmejLMw",
       "mt_mmudyxf7bT",
       "mt_mn765HbXi1",
       "mt_mpktt3wj1M",
-      "mt_mpzmwTktqF",
-      "mt_mqMPlNMIEN",
       "mt_mvXufozy2s",
       "mt_mydcMoa8gN",
       "mt_n3ojDXoaqC",
@@ -759,12 +681,9 @@
       "mt_nKS_vCYrg3",
       "mt_nNDX_jZ-cb",
       "mt_nYU6x2E2T8",
-      "mt_nZaqNZaN0V",
-      "mt_nePS3LNvBy",
       "mt_nfGAtwqSvP",
       "mt_npRaYRhU2V",
       "mt_nqM2OW0Qlm",
-      "mt_nrXT7pDpG6",
       "mt_ntqNLHsj5n",
       "mt_nx4a3kH-59",
       "mt_nzdtOLXWWa",
@@ -789,7 +708,6 @@
       "mt_p1imGSFgJT",
       "mt_p3tZiUaWAa",
       "mt_pAuo9Op89t",
-      "mt_pBvABgZo5O",
       "mt_pK6QkcKxZT",
       "mt_pOstrrS763",
       "mt_pTz6u49fQt",
@@ -798,15 +716,10 @@
       "mt_phpn6KhCAv",
       "mt_pis4novXWQ",
       "mt_pitjUcaAdy",
-      "mt_pxIoWWZy8L",
       "mt_q2MKwlPl_u",
-      "mt_q2jwCeUZ9s",
       "mt_q3vRl4dddK",
       "mt_q7zxOloj_L",
-      "mt_qKHfQjgNMk",
       "mt_qOv8OP8z2G",
-      "mt_qUKddG0UYv",
-      "mt_qUjW0N1cYO",
       "mt_qdd0t4Sj6A",
       "mt_qw6mhOl-Qy",
       "mt_qzwQAOfurw",
@@ -829,7 +742,6 @@
       "mt_sJyZW4qYUG",
       "mt_sMAcZW6vWM",
       "mt_sPV503BQnI",
-      "mt_sQYvGbYD1I",
       "mt_sSQlLOnAow",
       "mt_sUVOS2jH3J",
       "mt_sXRHr7tfS5",
@@ -855,7 +767,6 @@
       "mt_tn1rY9GbEZ",
       "mt_tqgZH11cP5",
       "mt_tuEnyrp5Ia",
-      "mt_ty63-JSHTC",
       "mt_tzMr83pS8v",
       "mt_u1-UfD0rTH",
       "mt_u3OuIXqmAo",
@@ -866,6 +777,7 @@
       "mt_uQI6mhU6hW",
       "mt_uSUqTjOl8m",
       "mt_uTKgmWqSoI",
+      "mt_uUMLgRTrhn",
       "mt_udgPy5oAvR",
       "mt_ujwtRoYJ34",
       "mt_ukLvUD8DFA",
@@ -879,10 +791,7 @@
       "mt_v5DyOEpbbr",
       "mt_v5pOal_23d",
       "mt_v5yDTWEiyQ",
-      "mt_v9qTyarbgE",
-      "mt_vC-_ESyMut",
       "mt_vFYFvgrPgD",
-      "mt_vLLyGZQ2AM",
       "mt_vPmPulZtJG",
       "mt_vauULTecMH",
       "mt_vbbxnY7ZDT",
@@ -890,7 +799,6 @@
       "mt_w4cUnN_SsQ",
       "mt_w4nSIDhIgC",
       "mt_w4wKFP3jud",
-      "mt_w5sIW_-T_J",
       "mt_wGxq92Na5g",
       "mt_wH4t4TH0Yw",
       "mt_wRlf0g2MbB",
@@ -899,7 +807,6 @@
       "mt_wlhg-ivMh6",
       "mt_wq-1OJ_8s5",
       "mt_wtbCz5hBdw",
-      "mt_wudskBtVQc",
       "mt_wvcFlwOrDl",
       "mt_wwdRhPyz6s",
       "mt_wzUzVEBqJb",
@@ -912,7 +819,6 @@
       "mt_x_Lg4RASVU",
       "mt_xjl6AEhnjk",
       "mt_xsk3iuNVVI",
-      "mt_xvHpeB03k5",
       "mt_xvKvxDXdJj",
       "mt_y8-x0P5P9R",
       "mt_y8sicbhMci",
@@ -924,15 +830,12 @@
       "mt_yNGrY9xJ8Y",
       "mt_ylFTYS80d1",
       "mt_yrMniCJu_S",
-      "mt_yrvYKSwSRZ",
       "mt_z07UNAIsNc",
       "mt_z98J_Zg2L3",
       "mt_zBUcAPDRPM",
       "mt_zCUIJLdK_s",
-      "mt_zIcYzrrO0Z",
       "mt_zIzJGkaj0Q",
       "mt_zQfWqImxva",
-      "mt_zYX3606Dgd",
       "mt_zbEcwd40uv",
       "mt_zh_RyesCgZ",
       "mt_zlSoIKPyId",
@@ -945,7 +848,7 @@
     "Source verified flags and confidence are historical authoring metadata, not fresh verification or independent evidence ratings. Sources were not re-fetched for this release.",
     "Curriculum passages matching eight or more consecutive words of codes-only frameworks are omitted and marked inline. This conservative mechanical pass is not comprehensive rights clearance; third-party works retain their upstream terms. Publication notes list transformed paths.",
     "Activity sourceClaims match sources[].claim exactly after the same publication transformation. A curriculum reference establishes alignment, not evidence that an activity was tested.",
-    "Historical records for merged/refocused topics are preserved in archived-teaching-research.json. The retired nearest-minute prerequisite reference in active assessment guidance was redirected to its surviving topic; all other active record content and authoring provenance are unchanged."
+    "Historical exclusions and assessment-reference redirects follow archived-teaching-research.json. Original source research and provenance are unchanged; excluded guidance is listed as missing from active coverage."
   ],
   "records": [
     {
@@ -40501,7 +40404,7 @@
         ]
       },
       "learn": {
-        "summary": "For ages 6–8: children identify, represent and estimate whole numbers across several linked representations — sets of objects, base-ten blocks, drawings, place-value charts, expanded form, numerals and especially the number line — and translate flexibly between them. The number line anchors magnitude and order, supporting benchmark-based estimation ('about where does 47 go?', 'about how many in this pile?') rather than exact counting alone. Progression runs from placing a two-digit number on a 0–100 line (Tier A, age 6), to representing one number as blocks, a line point and a drawing and matching a base-ten picture to its numeral (Tier B, age 7), to estimating a three-digit number on a 0–1000 line and 'about how many' in a set without counting (Tier C, 7–8).",
+        "summary": "For ages 6–8: children identify, represent and estimate whole numbers across several linked representations — sets of objects, base-ten blocks, drawings, place-value charts, expanded form, numerals and especially the number line — and translate flexibly between them. The number line anchors magnitude and order, supporting benchmark-based estimation ('about where does 47 go?', 'about how many in this pile?') rather than exact counting alone. Progression runs from placing a two-digit number on a 0–100 line (Tier A, age 6), to representing one number as blocks, a line point and a drawing and matching a base-ten picture to its numeral (Tier B, age 7), to estimating a three-digit number on a 0–1000 line and 'about how many' in a set without counting (Tier C, 7–8). The current topic extends through 120: include representations across 100, such as 112 = 100 + 10 + 2, and connect the hundred to ten tens. The assessment must sample that requirement as well as the existing number-line benchmarks.",
         "activities": [
           {
             "title": "Many faces of the same number",
@@ -40582,7 +40485,8 @@
           "The CCSS 2.MD.6 'equally spaced points' claim supports numbers being represented as points/lengths on a line but not the benchmark-without-counting emphasis; NCETM is the primary support for the proportional-estimation principle.",
           "The source labelled some artefact formats 'poor fit' (open dialogue, 3D) with claims such as '3D adds nothing' and that dialogue 'adds little'; these comparative/necessity claims are not established by the evidence and have been dropped rather than propagated. Spoken estimation talk and discussion are retained as useful feedback.",
           "The original claim that an act-and-see-it-update loop 'builds exactly what a static chart cannot' is a catalog preference, not an established efficacy finding; interactive cross-updating is offered here as an optional affordance, not a necessity.",
-          "The examples are arithmetically correct: 247 = 200 + 40 + 7 (2 flats, 4 rods, 7 cubes), 247 + 10 = 257, 34 = 30 + 4, and 40 sitting a little below the 50 benchmark. No arithmetic errors found in the source or rewritten examples."
+          "The examples are arithmetically correct: 247 = 200 + 40 + 7 (2 flats, 4 rods, 7 cubes), 247 + 10 = 257, 34 = 30 + 4, and 40 sitting a little below the 50 benchmark. No arithmetic errors found in the source or rewritten examples.",
+          "Editorial taxonomy-cleanup alignment on 23 October 2026: added explicit assessment of the agreed numerical scope through 120. Existing two-digit tasks remain useful examples within the one mastery claim. Original source claims, verification flags, author/model and creation provenance are preserved; this numerical-task adaptation is not a new empirical efficacy claim."
         ],
         "schemaVersion": 2
       },
@@ -40590,12 +40494,12 @@
         "method": "interpret_translate",
         "poeTask": null,
         "probeDeeper": [
-          "Where would 50 go? How do you know that's the middle?",
-          "You placed 40 there — is it nearer 0 or nearer 100?",
+          "Where would 50 go? How do you know that's the middle? You placed 40 there — is it nearer 0 or nearer 100?",
           "Show me 40 with base-ten blocks, then point to it on the line — do they agree?",
-          "If the line went 0 to 1000 instead of 0 to 100, would 40 sit in the same place? Why not?"
+          "If the line went 0 to 1000 instead of 0 to 100, would 40 sit in the same place? Why not?",
+          "Show 112 as a hundred, a ten and two ones. Can you also make it using only bundles of ten and single ones? Why do both show the same amount?"
         ],
-        "correctAnswer": "Reads the mark as about 70 by proportion (past the middle, most of the way to 100) and places 40 a little below the halfway point, using 0, 50 and 100 as benchmarks.",
+        "correctAnswer": "Reads the mark as about 70 by proportion (past the middle, most of the way to 100) and places 40 a little below the halfway point, using 0, 50 and 100 as benchmarks. For 112: one hundred, one ten and two ones (or eleven tens and two ones); its position is just past 110, nearer 110 than 120.",
         "errorPatterns": [
           {
             "kind": "developmental",
@@ -40616,11 +40520,11 @@
         ],
         "responseLevels": {
           "gap": "Reads/places numbers by counting ticks or bunching, with no proportional sense of magnitude.",
-          "full": "Reads and places numbers using 0/50/100 benchmarks and proportion, and translates the same number across number line, base-ten blocks, and numeral.",
-          "partial": "Uses the endpoints to place roughly but without anchoring on the midpoint (50), so estimates are unreliable."
+          "full": "Reads and places numbers using 0/50/100 benchmarks and proportion, and translates the same number across number line, base-ten blocks, and numeral. Also represents 112 consistently with base-ten materials and on the 0–120 line, explaining the hundred, tens and ones.",
+          "partial": "Uses the endpoints to place roughly but without anchoring on the midpoint (50), so estimates are unreliable. This also applies when representations through 100 are secure but representing numbers across 100 is not yet secure."
         },
-        "diagnosticPrompt": "Show a 0–100 number line with a single mark placed at about 70 (only 0 and 100 labelled). Ask: 'What number does this mark show, and how did you decide?' Then give a blank 0–100 line and say: 'Now mark where 40 would go.'",
-        "whatMakesItDiscriminate": "Reading a mark AND then producing one, on an unlabelled line, shows whether the child treats the line as proportional magnitude (anchoring on the midpoint) or as ordinal steps to be counted. Translating the same number to base-ten blocks checks the representation is connected to quantity, not just position."
+        "diagnosticPrompt": "Show a 0–100 number line with a single mark placed at about 70 (only 0 and 100 labelled). Ask: 'What number does this mark show, and how did you decide?' Then give a blank 0–100 line and say: 'Now mark where 40 would go.' Then show a 0–120 number line marked in tens. Ask the child to place 112, show 112 with a hundred, a ten and two ones (or eleven bundles of ten and two ones), and explain how the representations agree.",
+        "whatMakesItDiscriminate": "Reading a mark AND then producing one, on an unlabelled line, shows whether the child treats the line as proportional magnitude (anchoring on the midpoint) or as ordinal steps to be counted. Translating the same number to base-ten blocks checks the representation is connected to quantity, not just position. The 112 task checks representation across 100 rather than inferring it from a successful two-digit example."
       },
       "sources": [
         {
@@ -40646,7 +40550,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-09T13:13:16.785Z",
-        "updatedAt": "2026-10-19T15:19:54.131Z"
+        "updatedAt": "2026-10-23T14:27:16.915Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -53615,7 +53519,7 @@
     {
       "topicId": "mt_bj1YCgNWUx",
       "pedagogy": {
-        "summary": "Children learn to name and use the days of the week and months of the year in order, and to grasp their NESTED, CYCLIC structure — 7 days in a week, weeks and 12 months in a year, all of which repeat. The main risk is rote recitation (the 'days song') without functional understanding: knowing the chant but unable to say what comes after Thursday or to read a calendar.",
+        "summary": "Children learn to name and use the [curriculum wording omitted; reference ON-FSL-2013-G5-CORE-D3.2] in order, and to grasp their NESTED, CYCLIC structure — 7 days in a week, weeks and 12 months in a year, all of which repeat. The main risk is rote recitation (the 'days song') without functional understanding: knowing the chant but unable to say what comes after Thursday or to read a calendar.",
         "bestPractices": [
           "Run a daily calendar routine ('today is…, yesterday was…, tomorrow will be…')",
           "Connect days/months to real cyclic events — the weekend, birthdays, seasons",
@@ -53637,7 +53541,7 @@
         ]
       },
       "learn": {
-        "summary": "Children learn to name and use the days of the week and months of the year in order, and to grasp their nested, cyclic structure — 7 days in a week, about four weeks plus a few days in a month, and 12 months in a year, all of which repeat. The main risk is rote recitation (the 'days song') without functional understanding: knowing the chant but unable to say what comes after Thursday or to read a calendar. Guidance targets functional use (random access in both directions), the cycle (the week/year comes round again), and the nesting (days inside weeks and inside months, months inside a year; weeks do not fit into months exactly, so a week can run across two months).",
+        "summary": "Children learn to name and use the [curriculum wording omitted; reference ON-FSL-2013-G5-CORE-D3.2] in order, and to grasp their nested, cyclic structure — 7 days in a week, about four weeks plus a few days in a month, and 12 months in a year, all of which repeat. The main risk is rote recitation (the 'days song') without functional understanding: knowing the chant but unable to say what comes after Thursday or to read a calendar. Guidance targets functional use (random access in both directions), the cycle (the week/year comes round again), and the nesting (days inside weeks and inside months, months inside a year; weeks do not fit into months exactly, so a week can run across two months).",
         "activities": [
           {
             "title": "The looping days wheel: jump in anywhere, go both ways",
@@ -53823,7 +53727,20 @@
         "updatedAt": "2026-10-19T15:19:57.215Z"
       },
       "publicationNotes": {
-        "omittedCurriculumText": []
+        "omittedCurriculumText": [
+          {
+            "path": "learn.summary",
+            "codes": [
+              "ON-FSL-2013-G5-CORE-D3.2"
+            ]
+          },
+          {
+            "path": "pedagogy.summary",
+            "codes": [
+              "ON-FSL-2013-G5-CORE-D3.2"
+            ]
+          }
+        ]
       }
     },
     {
@@ -131989,7 +131906,7 @@
     {
       "topicId": "mt_NckKLZ3uCE",
       "pedagogy": {
-        "summary": "- **Age:** 12–14 years\n\n- **Topic:** The Rock Cycle\n\n- **Standards — UK (DfE KS3 Chemistry, Earth and atmosphere):** pupils are taught \"the rock cycle and the formation of igneous, sedimentary and metamorphic rocks,\" building on KS2 rock properties and linking to plate tectonics.\n\n- **Standards — US (NGSS MS-ESS2-1 / MS-ESS2-2):** [curriculum wording omitted; reference MS-ESS2-1, MS-ESS2-4, MS-LS2-3] driven by energy from the Sun and Earth's interior, and construct explanations [curriculum wording omitted; reference MS-ESS2-2].\n\n- **Operational details:** Teach the rock cycle as a CYCLE with no fixed start, driven by two energy sources: the Sun (weathering, erosion, transport, deposition at the surface) and Earth's internal heat (melting, uplift, metamorphism). Fix how each rock class forms: igneous from cooled magma/lava (granite — slow, deep, large crystals; basalt — fast, surface, small crystals); sedimentary from weathered fragments compacted and cemented in layers, often with fossils (limestone, sandstone); metamorphic from existing rock changed by heat and pressure without melting (limestone → marble, mudstone → slate). The key move is TRACING a pathway: any rock can become any other — e.g. granite weathers to sediment → sandstone → buried and heated to metamorphic → melted to magma → igneous again. Anchor geological time: these changes take thousands to millions of years, far beyond a human lifetime, which is why we rarely see them happen.\n\n- **Checkpoint:** Tier C (formal). The child describes how each rock type forms with an example, traces a valid multi-step path through the cycle, and explains that transformations occur over geological time driven by surface and internal processes.",
+        "summary": "- **Age:** 12–14 years\n\n- **Topic:** The Rock Cycle\n\n- **Standards — UK (DfE KS3 Chemistry, Earth and atmosphere):** pupils are taught \"the rock cycle and [curriculum wording omitted; reference ON-SCI-2022-G4-E2.1],\" building on KS2 rock properties and linking to plate tectonics.\n\n- **Standards — US (NGSS MS-ESS2-1 / MS-ESS2-2):** [curriculum wording omitted; reference MS-ESS2-1, MS-ESS2-4, MS-LS2-3] driven by energy from the Sun and Earth's interior, and construct explanations [curriculum wording omitted; reference MS-ESS2-2].\n\n- **Operational details:** Teach the rock cycle as a CYCLE with no fixed start, driven by two energy sources: the Sun (weathering, erosion, transport, deposition at the surface) and Earth's internal heat (melting, uplift, metamorphism). Fix how each rock class forms: igneous from cooled magma/lava (granite — slow, deep, large crystals; basalt — fast, surface, small crystals); sedimentary from weathered fragments compacted and cemented in layers, often with fossils (limestone, sandstone); metamorphic from existing rock changed by heat and pressure without melting (limestone → marble, mudstone → slate). The key move is TRACING a pathway: any rock can become any other — e.g. granite weathers to sediment → sandstone → buried and heated to metamorphic → melted to magma → igneous again. Anchor geological time: these changes take thousands to millions of years, far beyond a human lifetime, which is why we rarely see them happen.\n\n- **Checkpoint:** Tier C (formal). The child describes how each rock type forms with an example, traces a valid multi-step path through the cycle, and explains that transformations occur over geological time driven by surface and internal processes.",
         "bestPractices": [
           "Teach it as a genuine cycle with no start or end — emphasise that any rock type can transform into any other given the right conditions, rather than a fixed one-way sequence.",
           "Tie each rock class to its forming process and a concrete example (granite/basalt from cooling magma, limestone/sandstone from compacted sediment, marble/slate from heat and pressure).",
@@ -132026,7 +131943,7 @@
             ],
             "rationale": "Tracing a valid pathway is the key assessed skill, and the insight that any rock can become any other is best supported by letting learners apply processes and watch the transformation and the loop close. An interactive representation with a live texture redraw and a running geological-time counter makes both the pathway logic and deep time concrete, and sorting steps by energy source links the cycle to the Sun and Earth's internal heat. These interaction examples (process buttons, renaming, texture redraw, time counter, pathway challenge) are illustrative ways to make the mechanism visible, not mandatory features, and this is a proposed activity rather than a validated intervention.",
             "sourceClaims": [
-              "KS3 pupils are taught the rock cycle and the formation of igneous, sedimentary and metamorphic rocks.",
+              "KS3 pupils are taught the rock cycle and [curriculum wording omitted; reference ON-SCI-2022-G4-E2.1].",
               "Students [curriculum wording omitted; reference MS-ESS2-1, MS-ESS2-4, MS-LS2-3] driven by energy from the Sun and Earth's interior."
             ],
             "learnerActions": [
@@ -132048,7 +131965,7 @@
             ],
             "rationale": "Classification, matching and sequencing target the assessable sub-skills of identifying rock types, their formation and ordering a valid path. These recognition tasks build and check vocabulary and categories but do not by themselves require the learner to construct and test their own pathway, so they complement rather than replace the transform-and-trace work.",
             "sourceClaims": [
-              "KS3 pupils are taught the rock cycle and the formation of igneous, sedimentary and metamorphic rocks."
+              "KS3 pupils are taught the rock cycle and [curriculum wording omitted; reference ON-SCI-2022-G4-E2.1]."
             ],
             "learnerActions": [
               "Sort granite, basalt, limestone, sandstone, marble and slate into the three classes: igneous, sedimentary, metamorphic.",
@@ -132154,7 +132071,7 @@
       },
       "sources": [
         {
-          "claim": "KS3 pupils are taught the rock cycle and the formation of igneous, sedimentary and metamorphic rocks.",
+          "claim": "KS3 pupils are taught the rock cycle and [curriculum wording omitted; reference ON-SCI-2022-G4-E2.1].",
           "source": "DfE National Curriculum in England: Science programmes of study (KS3, Chemistry — Earth and atmosphere)",
           "url": "https://assets.publishing.service.gov.uk/media/5a7d563de5274a2af0ae2ffa/SECONDARY_national_curriculum_-_Science_220714.pdf",
           "verified": true
@@ -132175,11 +132092,23 @@
       "publicationNotes": {
         "omittedCurriculumText": [
           {
+            "path": "sources[0].claim",
+            "codes": [
+              "ON-SCI-2022-G4-E2.1"
+            ]
+          },
+          {
             "path": "sources[1].claim",
             "codes": [
               "MS-ESS2-1",
               "MS-ESS2-4",
               "MS-LS2-3"
+            ]
+          },
+          {
+            "path": "learn.activities[0].sourceClaims[0]",
+            "codes": [
+              "ON-SCI-2022-G4-E2.1"
             ]
           },
           {
@@ -132191,12 +132120,19 @@
             ]
           },
           {
+            "path": "learn.activities[1].sourceClaims[0]",
+            "codes": [
+              "ON-SCI-2022-G4-E2.1"
+            ]
+          },
+          {
             "path": "pedagogy.summary",
             "codes": [
               "MS-ESS2-1",
               "MS-ESS2-2",
               "MS-ESS2-4",
-              "MS-LS2-3"
+              "MS-LS2-3",
+              "ON-SCI-2022-G4-E2.1"
             ]
           }
         ]
@@ -152084,7 +152020,7 @@
         ],
         "keyRepresentations": [
           "Nutrient→job table with example foods (carbs=energy, protein=growth/repair, fats=energy/warmth, vitamins/minerals=protection, fibre=digestion, water=hydration), noting that each food supplies several nutrients",
-          "A local healthy-eating guide plate (e.g. the Eatwell Guide or the Australian Guide to Healthy Eating) showing its five food groups by proportion",
+          "A local healthy-eating guide plate showing its food groups and recommended proportions (for example, the five groups of the Australian Guide to Healthy Eating); use the groupings of the selected local guide rather than assuming every guide has five groups",
           "A 'build a balanced plate' sorting surface where portions fill each segment",
           "Food-group sorting bins for classifying everyday foods with the guide (and a 'mixed foods' bin for pizza/sandwiches)",
           "Over-a-day/week framing rather than every-meal-perfect"
@@ -152268,14 +152204,14 @@
           "claim": "The Australian Guide to Healthy Eating groups foods into five food groups — vegetables and legumes/beans; fruit; grain (cereal) foods, mostly wholegrain and/or high cereal fibre varieties; lean meats and poultry, fish, eggs, tofu, nuts and seeds, and legumes/beans; milk, yoghurt, cheese and/or alternatives, mostly reduced fat — and recommends a wide variety of foods from these groups every day.",
           "source": "Eat for Health — Australian Guide to Healthy Eating: the five food groups",
           "url": "https://www.eatforhealth.gov.au/food-essentials/five-food-groups",
-          "verified": false
+          "verified": true
         }
       ],
       "confidence": "high",
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-01T23:25:13.989Z",
-        "updatedAt": "2026-10-21T21:30:01.030Z"
+        "updatedAt": "2026-10-23T11:32:09.604Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -153991,7 +153927,7 @@
     {
       "topicId": "mt_QtIAWOcoQT",
       "pedagogy": {
-        "summary": "- **Age:** 7–9 years\n\n- **Topic:** Inside a Volcano — magma is hot melted rock underground, lava is the SAME material once it reaches the surface, and a volcano has a magma chamber, vent and crater.\n\n- **Standards — UK (KS2, mixed placement):** In England, volcanoes are taught in KS2 **Geography** (physical geography: \"describe and understand key aspects of physical geography, including… volcanoes and earthquakes\"), NOT in KS2 science. The nearest KS2 science hook is Y3 **Rocks** (igneous rock forms when lava/magma cools). Earth's internal structure and rock formation are formally DfE **KS3 Chemistry — Earth and atmosphere** (\"the structure of the Earth\"; \"the rock cycle and the formation of igneous, sedimentary and metamorphic rocks\"). So this topic runs ahead of the UK science sequence and should be framed via Geography + Y3 Rocks.\n\n- **Standards — US (NGSS):** No dedicated elementary PE for volcano anatomy. Volcanoes appear in **4-ESS2-2** (\"[curriculum wording omitted; reference 4-ESS2-2]\"; clarification names volcanoes) and **2-ESS1-1** (Earth events, some quick like eruptions). Molten-rock/interior mechanism is not assessed until MS-ESS2. State-standard tier: DEFERRED.\n\n- **Operational details:** Build on 'What Is a Volcano' (5–7) and 'Earth's Layers'. Anchor on ONE cutaway cross-section labelled magma chamber → vent → crater, and trace the path molten rock takes upward. The load-bearing idea is a NAMING-by-LOCATION rule: identical molten rock is called *magma* below ground and *lava* above it. Keep it concrete — a hidden interior made visible by a model.\n\n- **Checkpoint:** Tier A (concrete/observational, model-based). Children reason about an unseeable interior through a cutaway model; expect them to conflate magma and lava as different substances, and to picture the vent as bottomless. Success = correctly label the three parts and state that magma and lava are the same rock named by where it is.",
+        "summary": "- **Age:** 7–9 years\n\n- **Topic:** Inside a Volcano — magma is hot melted rock underground, lava is the SAME material once it reaches the surface, and a volcano has a magma chamber, vent and crater.\n\n- **Standards — UK (KS2, mixed placement):** In England, volcanoes are taught in KS2 **Geography** (physical geography: \"describe and understand key aspects of physical geography, including… volcanoes and earthquakes\"), NOT in KS2 science. The nearest KS2 science hook is Y3 **Rocks** (igneous rock forms when lava/magma cools). Earth's internal structure and rock formation are formally DfE **KS3 Chemistry — Earth and atmosphere** (\"the structure of the Earth\"; \"the rock cycle and [curriculum wording omitted; reference ON-SCI-2022-G4-E2.1]\"). So this topic runs ahead of the UK science sequence and should be framed via Geography + Y3 Rocks.\n\n- **Standards — US (NGSS):** No dedicated elementary PE for volcano anatomy. Volcanoes appear in **4-ESS2-2** (\"[curriculum wording omitted; reference 4-ESS2-2]\"; clarification names volcanoes) and **2-ESS1-1** (Earth events, some quick like eruptions). Molten-rock/interior mechanism is not assessed until MS-ESS2. State-standard tier: DEFERRED.\n\n- **Operational details:** Build on 'What Is a Volcano' (5–7) and 'Earth's Layers'. Anchor on ONE cutaway cross-section labelled magma chamber → vent → crater, and trace the path molten rock takes upward. The load-bearing idea is a NAMING-by-LOCATION rule: identical molten rock is called *magma* below ground and *lava* above it. Keep it concrete — a hidden interior made visible by a model.\n\n- **Checkpoint:** Tier A (concrete/observational, model-based). Children reason about an unseeable interior through a cutaway model; expect them to conflate magma and lava as different substances, and to picture the vent as bottomless. Success = correctly label the three parts and state that magma and lava are the same rock named by where it is.",
         "bestPractices": [
           "Anchor everything on a single labelled CUTAWAY cross-section so the hidden interior becomes concrete and visible; introduce magma chamber, vent and crater on that one image before adding motion.",
           "Teach the magma/lava distinction as a location rule, not two materials: 'same hot melted rock — magma underground, lava once it's out'. Say the sentence, then show one blob crossing the surface and being re-labelled.",
@@ -154191,7 +154127,8 @@
           {
             "path": "pedagogy.summary",
             "codes": [
-              "4-ESS2-2"
+              "4-ESS2-2",
+              "ON-SCI-2022-G4-E2.1"
             ]
           }
         ]
@@ -173356,31 +173293,31 @@
     {
       "topicId": "mt_U0waNfD8PB",
       "pedagogy": {
-        "summary": "• Age/Topic — Ages 6-7 (Y2). Compare and order two-digit numbers using >, =, < based on PLACE VALUE: compare the tens first, and only if the tens are equal compare the ones. A procedural skill built directly on tens-and-ones understanding.\n• Standards — UK (DfE NC Mathematics, Y2): 'compare and order numbers from 0 up to 100; use <, > and = signs'.\n• Standards — US (CCSS-M): 1.NBT.3 'compare two two-digit numbers based on meanings of the tens and ones digits, recording the results with the symbols >, =, and <'.\n• Operational details — Establish the meaning of each symbol before speed ('the open mouth eats the bigger number' is a crutch; ground it in 'greater than/less than' with quantities). Teach the leading-digit rule explicitly: compare tens, decide; if tens tie, compare ones. Use base-ten blocks or a number line so 'bigger' is a seen quantity/position, not a guess. Progress from comparing pairs to ordering a set (smallest→largest and largest→smallest).\n• Checkpoint — Tier A (age 6): place > or < between two numbers with clearly different tens (34, 52) and justify by the tens. Tier B (age 6-7): compare a same-tens pair (34, 38) by the ones and place the correct symbol. Tier C (age 7): order a mixed set of five two-digit numbers and explain the tens-then-ones rule, including a same-tens tie.",
+        "summary": "Current scope: compare and order numbers through 120 using the highest relevant place value first: hundreds, then tens and ones as needed. Use a zero in a missing hundreds column when comparing 98 with 104. The original two-digit standards and examples below remain useful, but their tens-first rule applies only to two-digit numbers.\n\n• Age/Topic — Ages 6-7 (Y2). Compare and order two-digit numbers using >, =, < based on PLACE VALUE: for two-digit numbers, compare tens first and then ones if needed. A procedural skill built directly on tens-and-ones understanding.\n• Standards — UK (DfE NC Mathematics, Y2): 'compare and order numbers from 0 up to 100; use <, > and = signs'.\n• Standards — US (CCSS-M): 1.NBT.3 'compare two two-digit numbers based on meanings of the tens and ones digits, recording the results with the symbols >, =, and <'.\n• Operational details — Establish the meaning of each symbol before speed ('the open mouth eats the bigger number' is a crutch; ground it in 'greater than/less than' with quantities). Teach the highest-place rule explicitly: compare hundreds first across 100, then tens and ones if needed; for two-digit pairs begin with tens. Use base-ten blocks or a number line so 'bigger' is a seen quantity/position, not a guess. Progress from comparing pairs to ordering a set (smallest→largest and largest→smallest).\n• Checkpoint — Tier A (age 6): place > or < between two numbers with clearly different tens (34, 52) and justify by the tens. Tier B (age 6-7): compare a same-tens pair (34, 38) by the ones and place the correct symbol. Tier C (age 7): order a mixed set including 98, 104, 111 and 120 and explain the highest-place rule; include a same-tens tie among two-digit numbers.",
         "bestPractices": [
           "Compare quantities and positions FIRST (blocks side by side, points on a 0-100 line) so 'greater' means visibly more, then attach the symbol — symbol before meaning breeds the crocodile-mouth-without-understanding error.",
-          "Teach the leading-digit strategy explicitly: look at the tens; the number with more tens is greater; only if the tens are equal do you compare the ones.",
+          "Teach the highest relevant place-value strategy explicitly: compare hundreds when numbers cross 100, then tens and ones only if higher places tie. For two-digit pairs, start with tens. Show 98 as zero hundreds and 104 as one hundred so the zero tens digit does not mislead.",
           "Read the statement both ways — 34 < 43 as 'thirty-four is less than forty-three' AND 43 > 34 — so the child sees the relation is the same fact stated from either end.",
-          "Use same-tens pairs (34 vs 38) deliberately to force attention onto the ones once tens are equal, defeating 'just compare the first digit'.",
+          "For two-digit numbers, use same-tens pairs (34 vs 38) deliberately to force attention onto the ones once tens are equal, defeating 'just compare the first digit'.",
           "Move from pairwise comparison to ordering a set, recording with symbols, so comparison becomes a tool for organising numbers, not an isolated trick."
         ],
         "keyRepresentations": [
-          "Two sets of base-ten blocks placed side by side (more tens = taller/greater)",
+          "Two sets of base-ten blocks side by side, including a hundred flat versus tens rods when comparing numbers across 100",
           "0-100 number line where the number further right is greater",
-          "Tens|ones place-value chart aligning two numbers column by column",
+          "Hundreds|tens|ones place-value chart aligning both numbers column by column, with 0 in a missing hundreds place",
           "The <, >, = symbols with the 'points to the smaller / opens to the larger' orientation, grounded in quantity",
           "Ordered track or 'washing line' for pegging a set of numbers smallest to largest"
         ],
         "commonMisconceptions": [
           "Using the crocodile/Pac-Man mouth as a rote trick with no sense of which number is actually bigger, so the symbol is placed by guess.",
-          "Comparing by digit count of the numeral or by the ONES first (34 vs 38: choosing by 4 vs 8 alone is fine here, but 52 vs 48 wrongly judged by 2 vs 8) — ignoring the leading (tens) digit.",
+          "Compares the ones first, or treats the tens digit as the leading place across 100 (e.g. putting 98 above 104 because 9 is greater than 0), instead of checking hundreds before tens and ones.",
           "Reversing the symbol — knowing which is bigger but writing > where < belongs.",
           "Thinking = can only sit between identical-looking expressions, not that it asserts equal value.",
-          "For same-tens pairs, defaulting to 'they're the same' because the tens match, instead of moving to the ones."
+          "For two-digit same-tens pairs, for same-tens pairs, defaulting to 'they're the same' because the tens match, instead of moving to the ones."
         ]
       },
       "learn": {
-        "summary": "Ages 6-7 (Y2) compare and order two-digit numbers using >, =, < grounded in place value: compare the tens first, and only if the tens are equal compare the ones. Establish quantity/position meaning of 'greater' and 'less' with base-ten blocks and a 0-100 number line before attaching symbols, deliberately use same-tens pairs to force attention onto the ones, and progress from comparing pairs to ordering a set in both directions.",
+        "summary": "Compare and order numbers through 120 using >, = and < grounded in place value: start with the highest relevant place, checking hundreds first across 100, then tens and ones when higher places tie. Establish quantity and number-line meaning before symbols. Use two-digit pairs, same-tens ties, and sets such as 98, 104, 111 and 120. Tens-first is valid for the two-digit examples only; a zero tens digit in 104 does not make it smaller than 98.",
         "activities": [
           {
             "title": "Comparison bench: build, see, and place the symbol",
@@ -173399,7 +173336,7 @@
               "Decide which is greater by looking at the quantity/position first (more tens rods and more blocks in total, further right on the line), then say it aloud: e.g. 'forty-three is greater than thirty-four'.",
               "Place the correct symbol (<, >, or =) into the gap between the two numbers.",
               "Read the completed statement both ways: 34 < 43 ('thirty-four is less than forty-three') and 43 > 34 ('forty-three is greater than thirty-four').",
-              "State the rule used: compare the tens first; the number with more tens is greater, and if the tens are equal, compare the ones."
+              "For these two-digit pairs, state the rule: compare tens first and compare ones only if tens are equal. Explain that across 100 the hundreds place must be checked before tens."
             ],
             "intendedInsight": "'Greater' and 'less' name a real difference in quantity/position, and the symbol records that relation — the same fact can be read from either end."
           },
@@ -173422,25 +173359,25 @@
               "Try a 'crossed-decade' pair such as 52 and 48, and check: 52 has more tens, so it is greater even though its ones digit (2) is smaller than 8.",
               "Also handle an equal pair such as 60 and 60, choosing = and explaining that both show the same value."
             ],
-            "intendedInsight": "Comparing only the first digit you see is not enough: compare the tens first, and only when the tens are equal does the ones digit decide. = asserts equal value, not merely identical-looking symbols."
+            "intendedInsight": "For two-digit numbers, compare tens first and let ones decide only when tens tie. For numbers across 100, check hundreds before either of those places. The equals sign asserts equal value, not merely similar-looking symbols."
           },
           {
             "title": "Order a scrambled set onto a washing line",
             "feedback": [
-              "If a number with a large ones digit is placed too high (e.g. 19 above 51), rebuild both with blocks so 51's five tens stand against 19's single ten, then re-place.",
+              "If a number with a large ones digit is placed too high (e.g. 19 above 51), rebuild both with blocks so 51's five tens stand against 19's single ten, then re-place. If 104 is placed below 98, show one hundred flat against nine tens and eight ones before comparing the lower places.",
               "If ordering is correct one way but shaky the other, have the child read the finished line aloud in both directions to confirm it is the same facts reversed.",
               "Confirm a correct order by checking each neighbouring pair with a symbol."
             ],
-            "rationale": "Moving from pairwise comparison to ordering a set, recording with symbols, makes comparison a practical tool and surfaces whether tens genuinely govern the child's decisions. An ordering mode where numbers are dragged onto a washing line and checked left-to-right is one concrete way to do this; pegged cards on a string work equally well.",
+            "rationale": "Ordering applies pairwise comparison repeatedly. Two-digit sets test tens and ones; a set spanning 100 checks that the highest relevant place governs the decision. Pegged cards on a string or a number line can support either set.",
             "sourceClaims": [],
             "learnerActions": [
-              "Take a mixed set of two-digit numbers, e.g. 19, 27, 51, 72, and arrange them smallest to largest.",
+              "Order a two-digit set such as 19, 27, 51 and 72, then order a set spanning 100 such as 98, 104, 111 and 120, from smallest to largest.",
               "Repeat, ordering the same set largest to smallest.",
               "Include a set containing a same-tens tie so ordering requires the ones to break it.",
               "Check the finished order left to right and record the relations with symbols where appropriate.",
-              "Explain how you decided the order: tens first across the set, ones to break ties."
+              "Explain the order using the highest relevant place first: hundreds across 100, then tens and ones as needed."
             ],
-            "intendedInsight": "Comparison is a tool for organising numbers: ordering a set applies the tens-then-ones rule repeatedly, not as an isolated trick."
+            "intendedInsight": "Ordering a set applies the highest-place-value comparison rule repeatedly: hundreds before tens before ones, using only the places needed for each pair."
           },
           {
             "title": "Talk it through: 'how do you know?'",
@@ -173457,28 +173394,28 @@
               "Answer: '34 and 43 use the same two digits — how can one be bigger?' by referring to place value.",
               "Decide and justify the symbol for an equal pair like 60 and 60."
             ],
-            "intendedInsight": "Justifying a comparison out loud reveals and corrects the reasoning (tens first, ones to break a tie) behind the written symbol."
+            "intendedInsight": "Justifying comparisons reveals the place-value reasoning behind the symbol: tens first for two-digit pairs, and hundreds first when crossing 100."
           },
           {
             "title": "Consolidation and check: choose, order, fill the gap",
             "feedback": [
               "For a wrong symbol, ask the child to identify which is greater first, then fix the orientation separately.",
-              "For a mis-ordered set, direct attention to the tens across the whole set before the ones."
+              "For a mis-ordered set, align hundreds, tens and ones in a place-value chart and start with the highest relevant place."
             ],
             "rationale": "Comparison and ordering map cleanly onto choose-the-symbol, order-the-set, and fill-the-gap tasks, making this a natural consolidation and check surface. These tasks drill and check the skill; on their own they do not build the underlying quantity sense, so they should follow the block/line and tens-tie work rather than replace it.",
             "sourceClaims": [],
             "learnerActions": [
-              "Choose the correct symbol between two numbers, including a same-tens item and an item designed to tempt symbol reversal.",
+              "Choose the correct symbol between varied pairs, including a two-digit same-tens pair, a symbol-reversal lure, and a pair crossing 100 such as 98 and 104.",
               "Order a scrambled set smallest to largest.",
               "Fill in the missing symbol in a statement and read it back aloud."
             ],
-            "intendedInsight": "The tens-then-ones comparison and correct symbol use can be applied quickly and reliably across varied pairs and sets."
+            "intendedInsight": "The highest-place-value comparison rule and correct symbol use apply across two-digit pairs and numbers through 120."
           }
         ],
         "constraints": [
           "Establish the meaning of each symbol with quantities/positions before pushing for speed; 'the open mouth eats the bigger number' is only a memory crutch and must be grounded in 'greater than / less than' with real quantities.",
           "Treat recognition and drill tasks (choosing or filling a symbol) as consolidation/check; they verify the skill but do not by themselves build quantity sense or independent reasoning.",
-          "A single fixed illustration can anchor the tens-then-ones rule with one worked pair, but on its own it cannot let the child compare varied pairs or order a set, which is where the skill is practised; use it as an anchor, not the main activity.",
+          "A fixed illustration can anchor the highest-place comparison rule with one worked pair, but cannot by itself establish comparison across varied pairs or ordering a set. Use two-digit and cross-100 examples in active practice.",
           "Keep symbol orientation (open side to the larger number) as a separate check from the greater/less reasoning, so a correct comparison written with a reversed symbol is diagnosed accurately.",
           "Base-ten blocks and the drawn number line are physical representations with slight thickness; they stand for the abstract numerical values being compared, not the values themselves."
         ],
@@ -173488,7 +173425,9 @@
           "The source's error-pattern note '34 vs 38: choosing by 4 vs 8 alone is fine here, but 52 vs 48 wrongly judged by 2 vs 8' is accurate: when tens are equal the ones decide, but when tens differ the ones must not. Activities make this distinction explicit (crossed-decade pairs) so learners do not over-generalise 'compare the first/last digit'.",
           "The original claimed a static picture 'can only show one fixed pair', that 3D 'adds no comparative information', and that the judgement is 'better trained by manipulating symbols than by talking'; these comparative/necessity claims are not established by the sources, so they were softened to scoped statements about what fixed images, drill tasks and dialogue do and do not do here.",
           "The UK NC claim and CCSS 1.NBT.3 establish the topic/standard; the UK NC claim was not attached to any activity's sourceClaims because it supports the curriculum requirement (preserved in summary/constraints) rather than a specific pedagogical principle in a rationale.",
-          "Two of three cited sources were marked verified:false in the source row; their claims were retained only where they directly support a stated teaching principle, and claims that only establish the topic/standard were not used to justify specific pedagogical moves."
+          "Two of three cited sources were marked verified:false in the source row; their claims were retained only where they directly support a stated teaching principle, and claims that only establish the topic/standard were not used to justify specific pedagogical moves.",
+          "Editorial taxonomy-cleanup alignment on 23 October 2026: added explicit assessment of the agreed numerical scope through 120. Existing two-digit tasks remain useful examples within the one mastery claim. Original source claims, verification flags, author/model and creation provenance are preserved; this numerical-task adaptation is not a new empirical efficacy claim.",
+          "PR-review correction on 23 October 2026: made the highest-relevant-place rule explicit throughout authored guidance and evidence. Tens-first is scoped to two-digit examples; cross-100 tasks begin with hundreds. Original two-digit source claims and verification flags remain unchanged; this is a numerical-task adaptation, not a new empirical efficacy claim."
         ],
         "schemaVersion": 2
       },
@@ -173496,16 +173435,17 @@
         "method": "performance_task",
         "poeTask": null,
         "probeDeeper": [
-          "Which digit did you look at first — tens or ones? Why the tens?",
+          "Which place did you check first, and why? For 34 and 43 that is tens; which place decides 98 and 104?",
           "34 and 43 use the same two digits — how can one be bigger?",
-          "Put a symbol between 60 and 60 — which one, and why?"
+          "Put a symbol between 60 and 60 — which one, and why?",
+          "Why is 104 greater than 98 even though 104 has zero tens? Show the hundred, tens and ones that justify your answer."
         ],
-        "correctAnswer": "34 < 43; order 19, 27, 51, 72; and they compare the tens digit first, ones only to break a tie.",
+        "correctAnswer": "34 < 43; order 19, 27, 51, 72; and for these two-digit comparisons they check tens first, with ones breaking a tie. Across 100: 98 < 104 < 111 < 120; 98 < 104, 104 < 111, and 104 = 104. Compare the highest relevant place first: hundreds, then tens, then ones.",
         "errorPatterns": [
           {
             "kind": "misconception",
             "pattern": "Compares by a single digit's size regardless of place: thinks 19 > 51 because 9 > 1",
-            "nextMove": "Build both with tens and ones; establish that tens are worth more, so compare tens first. Re-order with the models in view.",
+            "nextMove": "Align base-ten representations by hundreds, tens and ones. Compare the highest relevant place first: hundreds across 100, then tens and ones if higher places tie. Re-order with the models in view.",
             "distractor": null,
             "revealedBy": "Ordering puts numbers with a big ones digit too high; 34/43 judged by the shared digits.",
             "reteachPrerequisiteId": "mt_THl9GLxwoL"
@@ -173521,11 +173461,11 @@
         ],
         "responseLevels": {
           "gap": "Orders by a single digit ignoring place, or the symbol is reversed with no place reasoning.",
-          "full": "Compares and orders two-digit numbers by tens-then-ones, writes >, <, = correctly, and justifies by place value.",
-          "partial": "Compares correctly for clearly different numbers but stumbles on same-digit pairs, or reasons right yet writes the symbol backwards."
+          "full": "Compares and orders two-digit numbers and numbers across 100 through 120 by place value, writes >, < and = correctly, and justifies the comparisons using the highest relevant place first.",
+          "partial": "Compares correctly for clearly different numbers but stumbles on same-digit pairs, or reasons right yet writes the symbol backwards. This includes correct two-digit comparisons with uncertainty when crossing 100 or comparing a zero in the tens place."
         },
-        "diagnosticPrompt": "Watch them compare and order. 'Put the right symbol between 34 and 43. Now order these smallest to largest: 27, 72, 19, 51. Tell me how you decided.' The 34/43 pair (same digits) is the key — watch whether they weigh the tens first.",
-        "whatMakesItDiscriminate": "34 vs 43 uses identical digits so a child comparing digit-by-digit without place weighting cannot fake it; ordering a mixed set reveals whether tens govern the comparison. The '<'/'>' choice also exposes pure symbol reversal separately from the reasoning."
+        "diagnosticPrompt": "Watch them compare and order. 'Put the right symbol between 34 and 43. Now order these smallest to largest: 27, 72, 19, 51. Tell me how you decided.' The 34/43 pair (same digits) is the key — watch whether they weigh the tens first. Then order 98, 104, 111 and 120. Put comparison symbols between 98 and 104, 104 and 111, and 104 and 104, and explain which place decides each comparison.",
+        "whatMakesItDiscriminate": "34 vs 43 uses identical digits so a child comparing digit-by-digit without place weighting cannot fake it; ordering a mixed set reveals whether the highest relevant place governs each comparison. The '<'/'>' choice also exposes pure symbol reversal separately from the reasoning. The 98/104 comparison additionally checks that a zero in the tens place does not obscure the value of a hundred."
       },
       "sources": [
         {
@@ -173551,7 +173491,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-09T13:22:43.121Z",
-        "updatedAt": "2026-10-19T15:21:32.577Z"
+        "updatedAt": "2026-10-23T15:05:58.157Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []
@@ -197013,7 +196953,7 @@
         ]
       },
       "learn": {
-        "summary": "Pupils (age 10–11) learn to name and identify the radius, diameter and circumference of a circle by their DEFINING PROPERTIES — the radius runs from the centre to the edge, the diameter is a straight line from edge to edge through the centre (the longest line across), and the circumference is the distance all the way around — and to apply d = 2r in both directions. The core work is drawing and measuring many circles, tabulating radius against diameter so the invariant d = 2r is discovered rather than told, and practising conversion both ways to guard against the pervasive radius/diameter swap. Several complementary media (dynamic manipulation, paper-and-string measurement, a labelled reference, and a short conversion check) each support a different part of this objective.",
+        "summary": "Pupils (age 10–11) learn to name and identify [curriculum wording omitted; reference ON-MATH-2020-G7-E2.3] by their DEFINING PROPERTIES — the radius runs from the centre to the edge, the diameter is a straight line from edge to edge through the centre (the longest line across), and the circumference is the distance all the way around — and to apply d = 2r in both directions. The core work is drawing and measuring many circles, tabulating radius against diameter so the invariant d = 2r is discovered rather than told, and practising conversion both ways to guard against the pervasive radius/diameter swap. Several complementary media (dynamic manipulation, paper-and-string measurement, a labelled reference, and a short conversion check) each support a different part of this objective.",
         "activities": [
           {
             "title": "Measure many circles and discover d = 2r",
@@ -197218,7 +197158,14 @@
         "updatedAt": "2026-10-19T15:21:57.578Z"
       },
       "publicationNotes": {
-        "omittedCurriculumText": []
+        "omittedCurriculumText": [
+          {
+            "path": "learn.summary",
+            "codes": [
+              "ON-MATH-2020-G7-E2.3"
+            ]
+          }
+        ]
       }
     },
     {
@@ -208628,7 +208575,7 @@
     {
       "topicId": "mt_z7AJZapsJj",
       "pedagogy": {
-        "summary": "- **Age:** 9–11 years\n\n- **Topic:** The Rock Cycle — rocks slowly change from one type to another over millions of years: igneous weathers into sediment, sediment compacts into sedimentary rock, heat and pressure make metamorphic rock, and melting starts the cycle again — a continuous process with no beginning or end.\n\n- **Standards — UK (KS2→KS3 bridge):** In England the rock cycle and 'the formation of igneous, sedimentary and metamorphic rocks' are DfE **KS3 Chemistry — Earth and atmosphere**. At KS2 the statutory groundwork is Y3 **Rocks** (compare/group rocks, fossils, soils) and Y4 weathering/erosion contexts. So this topic teaches KS3 content and should be framed as building on Y3 Rocks — note the placement honestly.\n\n- **Standards — US (NGSS):** The full rock cycle is **MS-ESS2-1** ('[curriculum wording omitted; reference MS-ESS2-1, MS-ESS2-4, MS-LS2-3]…'). The nearest elementary anchor is **4-ESS1-1** (evidence from rock layers/fossils for landscape change over time) and 4-ESS2 (weathering/erosion). This topic bridges into MS. State-standard tier: DEFERRED.\n\n- **Operational details:** Prerequisites 'Types of Rock' and 'Earth's Layers'. The three types are already known; the NEW idea is that they INTERCONVERT via processes (weathering/erosion → deposition/compaction → heat & pressure → melting & cooling) and that the cycle is continuous — no start, no end, and NOT a fixed one-way sequence. The load-bearing insight is that a single rock can take many different PATHS around (and across) the cycle over deep time.\n\n- **Checkpoint:** Tier B (early-formal, cyclic-systems + deep-time reasoning). Children can trace a loop but tend to memorise one fixed order and struggle with 'millions of years' and shortcut paths. Success = trace at least one complete path, name the process at each step, and state the cycle is continuous over vast time.",
+        "summary": "- **Age:** 9–11 years\n\n- **Topic:** The Rock Cycle — rocks slowly change from one type to another over millions of years: igneous weathers into sediment, sediment compacts into sedimentary rock, heat and pressure make metamorphic rock, and melting starts the cycle again — a continuous process with no beginning or end.\n\n- **Standards — UK (KS2→KS3 bridge):** In England the rock cycle and '[curriculum wording omitted; reference ON-SCI-2022-G4-E2.1]' are DfE **KS3 Chemistry — Earth and atmosphere**. At KS2 the statutory groundwork is Y3 **Rocks** (compare/group rocks, fossils, soils) and Y4 weathering/erosion contexts. So this topic teaches KS3 content and should be framed as building on Y3 Rocks — note the placement honestly.\n\n- **Standards — US (NGSS):** The full rock cycle is **MS-ESS2-1** ('[curriculum wording omitted; reference MS-ESS2-1, MS-ESS2-4, MS-LS2-3]…'). The nearest elementary anchor is **4-ESS1-1** (evidence from rock layers/fossils for landscape change over time) and 4-ESS2 (weathering/erosion). This topic bridges into MS. State-standard tier: DEFERRED.\n\n- **Operational details:** Prerequisites 'Types of Rock' and 'Earth's Layers'. The three types are already known; the NEW idea is that they INTERCONVERT via processes (weathering/erosion → deposition/compaction → heat & pressure → melting & cooling) and that the cycle is continuous — no start, no end, and NOT a fixed one-way sequence. The load-bearing insight is that a single rock can take many different PATHS around (and across) the cycle over deep time.\n\n- **Checkpoint:** Tier B (early-formal, cyclic-systems + deep-time reasoning). Children can trace a loop but tend to memorise one fixed order and struggle with 'millions of years' and shortcut paths. Success = trace at least one complete path, name the process at each step, and state the cycle is continuous over vast time.",
         "bestPractices": [
           "Teach it as PROCESSES connecting the three known types, not a new list — each arrow is an event (weathering, compaction, heat/pressure, melting, cooling).",
           "Break the 'one fixed order' misconception by having children trace MULTIPLE valid paths, including shortcuts (e.g. any rock can be melted, or uplifted and weathered) so the cycle isn't a single loop.",
@@ -208815,7 +208762,8 @@
             "codes": [
               "MS-ESS2-1",
               "MS-ESS2-4",
-              "MS-LS2-3"
+              "MS-LS2-3",
+              "ON-SCI-2022-G4-E2.1"
             ]
           }
         ]

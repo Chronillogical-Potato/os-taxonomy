@@ -1,5 +1,7 @@
 # Australian selected Health authoring review
 
+> Historical authoring snapshot. Its counts and Full labels describe the original contribution, not the current release. See the [23 October cleanup](acara-v9-cleanup-2026-10-23.md) and [current mapping summary](acara-v9-scope-coverage.md).
+
 Reviewed 21 October 2026. All 32 Foundation–Year 6 Personal, social and community
 health standards are Full in the [coverage report](acara-v9-health-coverage.md),
 with 117 links across 79 topics: 54 existing and 25 new. The 27 PE standards are

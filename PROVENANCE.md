@@ -25,6 +25,26 @@ For encumbered sources we ship only the **standard code** (e.g. `1-ESS1-1`) and 
 
 **ACARA attribution notice:** © Australian Curriculum, Assessment and Reporting Authority (ACARA) 2009 to present, unless otherwise indicated. This material was downloaded from the ACARA website (https://www.australiancurriculum.edu.au/) (accessed 20 October 2026) and was modified only to normalize whitespace and render equation fractions as text. The material is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). ACARA does not endorse any product that uses ACARA material or make any representations as to the quality of such products. Any product that uses material published on this website should not be taken to be affiliated with ACARA or have the sponsorship or approval of ACARA. It is up to each person to make their own assessment of the product.
 
+### Ontario elementary documents — codes and source links only
+
+- **Publisher:** Ontario Ministry of Education / King’s Printer for Ontario. Official English-language elementary source documents, Kindergarten through Grade 8.
+- **Source snapshot:** 22 October 2026; nine documents, 77 courses, 3,862 expectations (805 overall and 3,057 specific). Source API responses, hashes and the normalizer are retained with the private import tooling. The staging catalogue preserves official wording and source metadata.
+- **What this export includes:** expectation identifiers, topic–expectation associations and links to the official documents. Verbatim expectation payloads are omitted under this export’s conservative publication policy. This omission is not a claim that all Ontario material is legally prohibited from redistribution, or that Marble grants rights to the official text; consult the applicable upstream terms.
+- **Identifiers:** codes include document, edition, grade and program where needed. Native Languages has unnumbered expectations; its identifiers are generated source-position references, not invented official expectation codes.
+- **Coverage:** catalogue ingestion does not establish taxonomy coverage. The focused authoring pass covers Grade 1 Mathematics; the rest of the Ontario catalogue is available for subsequent mapping.
+
+| Export source | Official document | Edition | Expectations |
+|---|---|---:|---:|
+| `the-ontario-curriculum-french-as-a-second-langua` | [The Ontario Curriculum: French as a Second Language, 2013](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-fsl) | 2013 | 892 |
+| `the-ontario-curriculum-health-and-physical-educa` | [The Ontario Curriculum: Health and Physical Education, 2019](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-health-and-physical-education) | 2019 | 355 |
+| `the-ontario-curriculum-kindergarten-2026` | [The Ontario Curriculum: Kindergarten, 2026](https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten) | 2026 | 127 |
+| `the-ontario-curriculum-language-2023` | [The Ontario Curriculum: Language, 2023](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-language) | 2023 | 576 |
+| `the-ontario-curriculum-mathematics-2020` | [The Ontario Curriculum: Mathematics, 2020](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics) | 2020 | 465 |
+| `the-ontario-curriculum-native-languages-2001` | [The Ontario Curriculum: Native Languages, 2001](https://www.dcp.edu.gov.on.ca/en/curriculum/ele-indigenous-languages) | 2001 | 181 |
+| `the-ontario-curriculum-science-and-technology-20` | [The Ontario Curriculum: Science and Technology, 2022](https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology) | 2022 | 449 |
+| `the-ontario-curriculum-social-studies-history-an` | [The Ontario Curriculum: Social Studies, History, and Geography, 2026](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-sshg) | 2026 | 417 |
+| `the-ontario-curriculum-the-arts-2009` | [The Ontario Curriculum: The Arts, 2009](https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-arts) | 2009 | 400 |
+
 ### 🟡 `ccss-ela`, `ccss-math` — Common Core State Standards — **full text**
 - **Publisher / rights:** © 2010 National Governors Association Center for Best Practices (NGA Center) and Council of Chief State School Officers (CCSSO).
 - **License:** the CCSS Public License grants *"a limited, non-exclusive, royalty-free license to copy, publish, distribute, and display the Common Core State Standards **for purposes that support the Common Core State Standards Initiative**."* This is **purpose-limited**, and it does **not** clearly grant derivative-work or sublicensing rights — so the CCSS-derived records remain under the CCSS Public License, **not** ODbL.

@@ -1,0 +1,199 @@
+{
+ "issues": [
+  {
+   "code": "AC9TDE2K04",
+   "official": "explore how food can be selected and prepared for healthy eating",
+   "wholeCandidate": null,
+   "components": {
+    "mt_QhLAeAlHI0": "food selection using the local healthy-eating guide groups (universal five-count removed; AU five as localized example)",
+    "mt_F62VTeHB4-": "preparing simple healthy foods",
+    "mt_EWiY8-opdd": "food safety in preparation",
+    "mt_cxJRc15osy": "basic body needs (context)"
+   },
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [],
+   "note": "QhLA scope fix applied in Health turn; root research record untouched",
+   "currentHolders": [
+    "mt_cxJRc15osy",
+    "mt_QhLAeAlHI0",
+    "mt_EWiY8-opdd",
+    "mt_F62VTeHB4-"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9E1LA04",
+   "official": "explore how repetition, rhyme and rhythm create cohesion in simple poems, chants and songs",
+   "wholeCandidate": "mt_TffvIu6VgG",
+   "components": {
+    "mt_4GiE83rJF_": "rhyme component"
+   },
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [
+    {
+     "topic": "mt_fL1Xz8ostr",
+     "reason": "recurring/sensory language recognition does not assess repetition/rhyme/rhythm creating cohesion"
+    }
+   ],
+   "note": "",
+   "currentHolders": [
+    "mt_4GiE83rJF_",
+    "mt_TffvIu6VgG"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9E5LA07",
+   "official": "explain how the sequence of images in print, digital and film texts has an effect on meaning",
+   "wholeCandidate": "mt_ORlMNVV4FL",
+   "components": {},
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [
+    {
+     "topic": "mt_t06dHX2ZYw",
+     "reason": "no image-sequence clause"
+    },
+    {
+     "topic": "mt_xsk3iuNVVI",
+     "reason": "multimedia meaning but no image-sequence clause"
+    }
+   ],
+   "note": "",
+   "currentHolders": [
+    "mt_ORlMNVV4FL"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9HS4K08",
+   "official": "the roles of local government and how members of the community use and contribute to local services",
+   "wholeCandidate": "mt_blzW9Z8J7-",
+   "components": {},
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [
+    {
+     "topic": "mt_cSz7XTxVAx",
+     "reason": "tax funding alone is not role-of-local-government knowledge"
+    }
+   ],
+   "note": "",
+   "currentHolders": [
+    "mt_blzW9Z8J7-"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9HS5K07",
+   "official": "how citizens (members of communities) with shared beliefs and values work together to achieve a civic goal",
+   "wholeCandidate": "mt_g8gJIsDxmj",
+   "components": {},
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [
+    {
+     "topic": "mt_7e-lG7YOWa",
+     "reason": "science/environment protection does not assess civic collective action"
+    },
+    {
+     "topic": "mt_QepALf3bin",
+     "reason": "social enterprise does not assess civic collective action"
+    }
+   ],
+   "note": "",
+   "currentHolders": [
+    "mt_g8gJIsDxmj"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9HP6P05",
+   "official": "describe and implement strategies to value diversity in their communities",
+   "wholeCandidate": null,
+   "components": {
+    "mt_HFN1pGASpZ": "describe strategies to value diversity (conceptual)",
+    "mt_1MqcYKS1Es": "implement: plan, carry out, reflect on an inclusion action (NEW procedural created BEFORE HFN1 restore)"
+   },
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [],
+   "note": "other pre-existing holders (2osw, Dkzs, cOkn) retained, not re-reviewed",
+   "currentHolders": [
+    "mt_2oswCNuapH",
+    "mt_HFN1pGASpZ",
+    "mt_DkzsZdyaL2",
+    "mt_cOknxrYhwL",
+    "mt_1MqcYKS1Es"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9M1N05",
+   "official": "use mathematical modelling to solve practical problems involving additive situations, including simple money transactions; represent the situations with diagrams, physical and virtual materials, and use calculation strategies to solve the problem",
+   "wholeCandidate": null,
+   "components": {
+    "mt_aWOK1npO5s": "simple money transactions: totals/change",
+    "mt_RNRymbz5SO": "affordability in simple purchases"
+   },
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [],
+   "note": "not FIkq; other pre-existing holders unchanged",
+   "currentHolders": [
+    "mt_VAWV_l7J0D",
+    "mt_f67qGDhyfi",
+    "mt_RNRymbz5SO",
+    "mt_aWOK1npO5s",
+    "mt_Eqk6oSbySH"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9M4N02",
+   "official": "explain and use the properties of odd and even numbers",
+   "wholeCandidate": "mt_oxfxzbat3k",
+   "components": {},
+   "prerequisitesNotCoverage": [
+    "mt_0u4KLbvBa1",
+    "mt_hniI4E-OCE"
+   ],
+   "removedWeakPairs": [
+    {
+     "topic": "mt_0u4KLbvBa1",
+     "reason": "recognition-only prerequisite, not properties"
+    },
+    {
+     "topic": "mt_hniI4E-OCE",
+     "reason": "odd/even group determination prerequisite, not properties"
+    }
+   ],
+   "note": "no new parity node; mt_0u4KLbvBa1 keeps an AU readiness-context alignment with empty nctIds (not coverage) because it is the hard prerequisite of mt_oxfxzbat3k; mt_hniI4E-OCE is a prerequisite with no AU coverage",
+   "currentHolders": [
+    "mt_oxfxzbat3k"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  },
+  {
+   "code": "AC9M5SP03",
+   "official": "describe and perform translations, reflections and rotations of shapes, using dynamic geometric software where appropriate; recognise what changes and what remains the same, and identify any symmetries",
+   "wholeCandidate": null,
+   "components": {
+    "mt_SH7QgFl8-v": "translations/reflections/rotations; what changes and stays",
+    "mt_NM5I3yN-Q6": "rotational symmetry",
+    "mt_hRZyKvz1KN": "line symmetry"
+   },
+   "prerequisitesNotCoverage": [],
+   "removedWeakPairs": [],
+   "note": "Rdfz retired after components linked; efOe pre-existing holder unchanged",
+   "currentHolders": [
+    "mt_hRZyKvz1KN",
+    "mt_efOeaGFyGM",
+    "mt_SH7QgFl8-v",
+    "mt_NM5I3yN-Q6"
+   ],
+   "certification": "NOT certified Full; whole candidates are not a fresh whole-curriculum review"
+  }
+ ],
+ "global": {
+  "selectedAUcodes": "593 linked",
+  "sourceCatalogue": "620 unchanged; 27 PE excluded",
+  "legacyUnresolved": "41 raw pairs unchanged (not re-verified this turn)",
+  "priorFullClaims": "572 remain not independently recertified"
+ }
+}

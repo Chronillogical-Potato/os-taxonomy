@@ -1,0 +1,3194 @@
+{
+ "aliases": {
+  "mt_VJEQ32O0Ae": "legacy chain VJEQ->JWjS->jIcg flattened: destinations point directly at mt_jIcgbCmziD / mt_OltpfaX7l6",
+  "mt_JWjSZNk1Qy": "audience-ID amendment: retired into OLD mt_jIcgbCmziD (reused canonical)"
+ },
+ "retirements": [
+  {
+   "retiredId": "mt_-Sk53QkyS0",
+   "title": "Trialling joins and components",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_nNYo5A-7Bl",
+     "clause": "test two joins/components/processes and compare results to choose (AC9TDE4P01 COMPONENT)"
+    },
+    {
+     "topicId": "mt_Z5-fSCOBep",
+     "clause": "explore needs or opportunities (AC9TDE4P01 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE4P01",
+     "currentHolders": [
+      "mt_zHnOGwHIEz",
+      "mt_e3-_toGuWf",
+      "mt_nNYo5A-7Bl",
+      "mt_Z5-fSCOBep"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_0MI9ybM3j_",
+   "title": "Evaluating the design process",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_v5yDTWEiyQ",
+     "clause": "process (not product) reflection on planning/making/testing/teamwork (AC9TDE6P04 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE6P04",
+     "currentHolders": [
+      "mt_Z5-fSCOBep",
+      "mt_HveO1bOXpJ",
+      "mt_iWGnyUyN2j",
+      "mt_v5yDTWEiyQ",
+      "mt_AigeWFgWIo",
+      "mt_VLBf624ElK"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_3l9OJkjksw",
+   "title": "Choosing materials that reduce waste",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_AigeWFgWIo",
+     "clause": "judge own design by personal preference incl. sustainability (AC9TDE2P03 COMPONENT)"
+    },
+    {
+     "topicId": "mt_deexfCHU9m",
+     "clause": "reuse/recycle/use less to reduce waste (AC9TDE2K01 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE2K01",
+     "currentHolders": [
+      "mt_rTn43s8RNX",
+      "mt_deexfCHU9m",
+      "mt_RgQxPddV8v",
+      "mt_Q2Zj3L8u9C"
+     ]
+    },
+    {
+     "code": "AC9TDE2P03",
+     "currentHolders": [
+      "mt_S0hzjAeLSK",
+      "mt_RlILL2sccX",
+      "mt_nNYo5A-7Bl",
+      "mt_AigeWFgWIo"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_DnvWzDjoD8",
+   "title": "Balancing competing design factors",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_cOJhDeLkPo",
+     "clause": "ranking competing factors / trade-offs (AC9TDE6K01 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE6K01",
+     "currentHolders": [
+      "mt_cpDpjJaE5u",
+      "mt_iiUdDUEEGY",
+      "mt_b0sXYFblDL",
+      "mt_cOJhDeLkPo"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_DxSbKzl-C-",
+   "title": "Growing plants we use",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_VIUF5Vspbg",
+     "clause": "plants->products and farmers' production steps (AC9TDE2K03 COMPONENT)"
+    },
+    {
+     "topicId": "mt_0B64gfJf7j",
+     "clause": "growing/observing a plant from seed (evidence condition; no code)"
+    },
+    {
+     "topicId": "mt_3v0VNkwquK",
+     "clause": "growing conditions water/light"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE2K03",
+     "currentHolders": [
+      "mt_muxjw0fxxN",
+      "mt_BYl4sds1SM",
+      "mt_VIUF5Vspbg"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_K1jLX9FXdl",
+   "title": "Planning making steps together",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_QR3vxbN1o4",
+     "clause": "order making steps (AC9TDE2P04 COMPONENT)"
+    },
+    {
+     "topicId": "mt_QxsoqVUt6u",
+     "clause": "agree who does each step"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE2P04",
+     "currentHolders": [
+      "mt_QxsoqVUt6u",
+      "mt_QR3vxbN1o4",
+      "mt__p5n8z5soJ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_P2nm-qVnvd",
+   "title": "Drawing design ideas digitally",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_hi8cVycbwn",
+     "clause": "drawing/photographing designs digitally = medium example (AC9TDE2P01 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE2P01",
+     "currentHolders": [
+      "mt_hi8cVycbwn"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Re97rQJx_e",
+   "title": "Choosing tools and techniques",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_rSjwQLqLXH",
+     "clause": "tool/technique choice reasoning (AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_8FUXG_39-C",
+     "clause": "measure, mark, secure and cut with a junior hacksaw and bench hook (sawing method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_uUMLgRTrhn",
+     "clause": "drilling with a hand drill (method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_EiI2PPWPHJ",
+     "clause": "adhesive joining incl. low-temperature glue gun (method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_FfMBoU1jt7",
+     "clause": "running-stitch sewing (method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_FtCLISvSGw",
+     "clause": "card corners/simple joins (example)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE4P03",
+     "currentHolders": [
+      "mt_rTn43s8RNX",
+      "mt_e3-_toGuWf",
+      "mt_DA7-JYRvtP",
+      "mt_eoPcc4nrBE",
+      "mt_rSjwQLqLXH",
+      "mt_8FUXG_39-C",
+      "mt_FfMBoU1jt7",
+      "mt_uUMLgRTrhn",
+      "mt_EiI2PPWPHJ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_TrISKhznZt",
+   "title": "Investigating components and processes",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_Z5-fSCOBep",
+     "clause": "investigate needs (AC9TDE6P01 already)"
+    },
+    {
+     "topicId": "mt_nNYo5A-7Bl",
+     "clause": "test two production processes/components comparing time, quality, safety (AC9TDE6P01 COMPONENT)"
+    },
+    {
+     "topicId": "mt_Q2k3fSwyzQ",
+     "clause": "mechanism (cam/gear/pulley) knowledge"
+    },
+    {
+     "topicId": "mt_4fK8Bb8Tr_",
+     "clause": "list components/tools/processes needed in the plan"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE6P01",
+     "currentHolders": [
+      "mt_Ge4Wtg6QMM",
+      "mt_e3-_toGuWf",
+      "mt_nNYo5A-7Bl",
+      "mt_Z5-fSCOBep"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_aGuP78tRMo",
+   "title": "Making with suitable tools safely",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_rSjwQLqLXH",
+     "clause": "justify selections of materials and tools (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_8FUXG_39-C",
+     "clause": "sawing hazard controls and finishing/checking cut parts against the design drawing (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_uUMLgRTrhn",
+     "clause": "drilling hazard controls (clamping, safety glasses) and checking hole position (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_EiI2PPWPHJ",
+     "clause": "adhesive/glue-gun hazard controls and checking joints hold (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_FfMBoU1jt7",
+     "clause": "sewn product, e.g. a sewn bag (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_v5pOal_23d",
+     "clause": "risk planning (existing)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE6P03",
+     "currentHolders": [
+      "mt_Ge4Wtg6QMM",
+      "mt_K1-HopEJAB",
+      "mt_eoPcc4nrBE",
+      "mt_rSjwQLqLXH",
+      "mt_8FUXG_39-C",
+      "mt_FfMBoU1jt7",
+      "mt_uUMLgRTrhn",
+      "mt_EiI2PPWPHJ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_eFj9uWaPMI",
+   "title": "Designed for our community",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_Q2Zj3L8u9C",
+     "clause": "products/services/environments designed for personal/community needs (AC9TDE2K01 COMPONENT)"
+    },
+    {
+     "topicId": "mt_VIUF5Vspbg",
+     "clause": "production steps and who does each"
+    },
+    {
+     "topicId": "mt_deexfCHU9m",
+     "clause": "sustainability aspect (AC9TDE2K01 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE2K01",
+     "currentHolders": [
+      "mt_rTn43s8RNX",
+      "mt_deexfCHU9m",
+      "mt_RgQxPddV8v",
+      "mt_Q2Zj3L8u9C"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_hE05udHee7",
+   "title": "Sequencing production steps",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_QR3vxbN1o4",
+     "clause": "numbered production order (AC9TDE4P05 COMPONENT)"
+    },
+    {
+     "topicId": "mt_QxsoqVUt6u",
+     "clause": "roles"
+    },
+    {
+     "topicId": "mt_4fK8Bb8Tr_",
+     "clause": "checkpoints/progress checks"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE4P05",
+     "currentHolders": [
+      "mt_miGrca8zaS",
+      "mt_QxsoqVUt6u",
+      "mt_w4nSIDhIgC",
+      "mt_QR3vxbN1o4"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_qKHfQjgNMk",
+   "title": "Design and technology jobs",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_asRwlPZXC3",
+     "clause": "design occupations as job examples (AC9TDE4K01 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDE4K01",
+     "currentHolders": [
+      "mt_JmMtZCifJB",
+      "mt_YB0qF5KX9C",
+      "mt_asRwlPZXC3",
+      "mt_cOJhDeLkPo"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_xvHpeB03k5",
+   "title": "Making safely with simple tools",
+   "originalBatch": "design",
+   "destinations": [
+    {
+     "topicId": "mt_FtCLISvSGw",
+     "clause": "child-safe scissors, glue/tape joins, carrying scissors safely (AC9TDEFP01 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDEFP01",
+     "currentHolders": [
+      "mt_RlILL2sccX",
+      "mt_hi8cVycbwn",
+      "mt_2agkUcdah9",
+      "mt__p5n8z5soJ",
+      "mt_FtCLISvSGw"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_9fyI5B1U_V",
+   "title": "Improving digital designs",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_9qF97kGhvq",
+     "clause": "storyboard/communicate + revise after feedback (AC9TDI6P04 COMPONENT)"
+    },
+    {
+     "topicId": "mt_WoBE0CZWGg",
+     "clause": "wireframes"
+    },
+    {
+     "topicId": "mt_nx4a3kH-59",
+     "clause": "algorithm flowchart"
+    },
+    {
+     "topicId": "mt_Q57cnsiKsB",
+     "clause": "evaluate new version against criteria"
+    },
+    {
+     "topicId": "mt_HveO1bOXpJ",
+     "clause": "generate/compare designs (AC9TDI6P04 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI6P04",
+     "currentHolders": [
+      "mt_HveO1bOXpJ",
+      "mt_eoPcc4nrBE",
+      "mt_bAYy0ytbfC",
+      "mt_9qF97kGhvq"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_EfF81YvgXV",
+   "title": "User stories and design criteria",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_5CcwPYEafI",
+     "clause": "user stories for different users (AC9TDI6P01 COMPONENT)"
+    },
+    {
+     "topicId": "mt_Z5-fSCOBep",
+     "clause": "measurable criteria derived from needs + how checked; interviewing/surveying users (AC9TDI6P01 already)"
+    },
+    {
+     "topicId": "mt_Q57cnsiKsB",
+     "clause": "checking against criteria/user stories (AC9TDI6P06 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI6P01",
+     "currentHolders": [
+      "mt_Z5-fSCOBep",
+      "mt_5CcwPYEafI"
+     ]
+    },
+    {
+     "code": "AC9TDI6P06",
+     "currentHolders": [
+      "mt_HveO1bOXpJ",
+      "mt_eoPcc4nrBE",
+      "mt_1z-gJBJFlM",
+      "mt_Q57cnsiKsB",
+      "mt_MXxVMCr7_4"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_OKCmMGWczX",
+   "title": "Problems digital systems solve",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_Z5-fSCOBep",
+     "clause": "investigate a known user's problem (AC9TDI2P01 COMPONENT)"
+    },
+    {
+     "topicId": "mt_HveO1bOXpJ",
+     "clause": "suggest a digital solution and how it helps"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI2P01",
+     "currentHolders": [
+      "mt_Z5-fSCOBep"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_QpK9BpUO__",
+   "title": "How apps meet users' needs",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_Z5-fSCOBep",
+     "clause": "identify known users' needs"
+    },
+    {
+     "topicId": "mt_Q57cnsiKsB",
+     "clause": "feature-to-need matching, unmet need, improvement (AC9TDI2P03 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI2P03",
+     "currentHolders": [
+      "mt_u6SYiVx7FX",
+      "mt_AzTrT5ySCx",
+      "mt_Q57cnsiKsB"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_YfbfIdljWd",
+   "title": "Sending data between devices",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_Hft-0nxZvB",
+     "clause": "transmitting text/photo/video wired/wireless; size vs time (AC9TDI4K02 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI4K02",
+     "currentHolders": [
+      "mt_n5_Jt4ExUd",
+      "mt_Hft-0nxZvB"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_d6BsiDtFjP",
+   "title": "Planning digital group projects",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_JI0Iv01hCT",
+     "clause": "task board/owners/deadlines, co-edit, comments/version history, share safely (AC9TDI6P08 COMPONENT)"
+    },
+    {
+     "topicId": "mt_r5rwyP8zRU",
+     "clause": "choose and justify tools"
+    },
+    {
+     "topicId": "mt_QR3vxbN1o4",
+     "clause": "general task planning"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI6P08",
+     "currentHolders": [
+      "mt_h-z88yf9Pn",
+      "mt_JI0Iv01hCT"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_eNJ99tRb3p",
+   "title": "Building and testing programs",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_sPV503BQnI",
+     "clause": "sequence"
+    },
+    {
+     "topicId": "mt_nfGAtwqSvP",
+     "clause": "branches + input"
+    },
+    {
+     "topicId": "mt_YZOjP8KHsM",
+     "clause": "variables"
+    },
+    {
+     "topicId": "mt_6XbAmdmjDb",
+     "clause": "repeat-until (AC9TDI6P05 COMPONENT)"
+    },
+    {
+     "topicId": "mt_5UtPmgdoQ9",
+     "clause": "planned test cases incl. unusual inputs; refine (AC9TDI6P05 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [
+    {
+     "note": "(assessment task)",
+     "clause": "integrated project"
+    }
+   ],
+   "movedStandards": [
+    {
+     "code": "AC9TDI6P05",
+     "currentHolders": [
+      "mt_6XbAmdmjDb",
+      "mt_5UtPmgdoQ9",
+      "mt_YZOjP8KHsM"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_kV441n9SLg",
+   "title": "Peripherals for different purposes",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_o0vTMl8vj5",
+     "clause": "peripherals input/output/storage; choose for purpose (AC9TDI4K01 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI4K01",
+     "currentHolders": [
+      "mt_o0vTMl8vj5"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_mqMPlNMIEN",
+   "title": "Sharing and working together digitally",
+   "originalBatch": "digital",
+   "destinations": [
+    {
+     "topicId": "mt_JI0Iv01hCT",
+     "clause": "add own page to shared class book, kind comments (AC9TDI2P05 COMPONENT)"
+    },
+    {
+     "topicId": "mt_zIzJGkaj0Q",
+     "clause": "agreed online behaviours (existing)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9TDI2P05",
+     "currentHolders": [
+      "mt_q3vRl4dddK",
+      "mt_zIzJGkaj0Q",
+      "mt_JI0Iv01hCT"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_1m4J4KOjPy",
+   "title": "Talks with clear structure",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_4A7FYmvVhA",
+     "clause": "organised spoken talk (AC9E1LY07 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LY07",
+     "currentHolders": [
+      "mt_4A7FYmvVhA",
+      "mt_S0hzjAeLSK"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_2jksKpNzeF",
+   "title": "Visualising to understand and judge",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_RNYNrRMqKL",
+     "clause": "visualising (AC9E4LY05 component)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LY05",
+     "currentHolders": [
+      "mt_sMAcZW6vWM",
+      "mt_ukLvUD8DFA",
+      "mt_QCWWmDMYZR",
+      "mt_k-V37x3zsF",
+      "mt_8FwtdJzeDh",
+      "mt_RNYNrRMqKL"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_5zTlbDWkDI",
+   "title": "Stages of texts across subjects",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_yIk_4o0MOa",
+     "clause": "text stages (AC9E4LA03)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LA03",
+     "currentHolders": [
+      "mt_lIs10UMkPG",
+      "mt_aVZJhPbc_1",
+      "mt_oVwNnjYPUY",
+      "mt_yIk_4o0MOa"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_7-N8TmQUsB",
+   "title": "Reading for history and culture",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_UcmVDMgFGX",
+     "clause": "represented historical/cultural context (AC9E5LE01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LE01",
+     "currentHolders": [
+      "mt_H0ajATAlus",
+      "mt_tX0R4-4WXy",
+      "mt_UcmVDMgFGX"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_78-pnKfzmv",
+   "title": "Creating digital multimodal texts",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_AHXePdicRf",
+     "clause": "multimodal composition; digital operations optional examples (batch 01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LY06",
+     "currentHolders": [
+      "mt_nYU6x2E2T8",
+      "mt_9P9o6d0Qm3",
+      "mt_-mw3JeIjhU",
+      "mt_vauULTecMH",
+      "mt_WKxX-b86Vr",
+      "mt_hp2qJ-QRBn",
+      "mt_pis4novXWQ",
+      "mt_EbiGRVK8uR",
+      "mt_uvILgZq9HN",
+      "mt_WzOyJFKDIu",
+      "mt_AHAFw-atka",
+      "mt_AHXePdicRf"
+     ]
+    },
+    {
+     "code": "AC9E6LY06",
+     "currentHolders": [
+      "mt_nYU6x2E2T8",
+      "mt_9P9o6d0Qm3",
+      "mt_AvJMWQbDsr",
+      "mt_vauULTecMH",
+      "mt_WKxX-b86Vr",
+      "mt_hp2qJ-QRBn",
+      "mt_pis4novXWQ",
+      "mt_LMX-nZETLM",
+      "mt_AHAFw-atka",
+      "mt_mpktt3wj1M",
+      "mt_ZO2iP89cld",
+      "mt_AHXePdicRf"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_BGMS9We5w9",
+   "title": "Similar storylines across cultures",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_tX0R4-4WXy",
+     "clause": "similar storylines across cultures (code already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LE01",
+     "currentHolders": [
+      "mt_GLY3R3YSlf",
+      "mt_yHQacItlhf",
+      "mt_tX0R4-4WXy"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_E2iv1E6klO",
+   "title": "Visualising complex texts",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_RNYNrRMqKL",
+     "clause": "visualising (AC9E5/6LY05 components)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LY05",
+     "currentHolders": [
+      "mt_ukLvUD8DFA",
+      "mt_k-V37x3zsF",
+      "mt_XnRhhEqJLJ",
+      "mt_S3XMQOYt_D",
+      "mt_RNYNrRMqKL"
+     ]
+    },
+    {
+     "code": "AC9E6LY05",
+     "currentHolders": [
+      "mt_8FwtdJzeDh",
+      "mt_JVVKT-_AD9",
+      "mt_kJ4xXKL_nO",
+      "mt_RNYNrRMqKL"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_GbisjfWodT",
+   "title": "Picturing and summing up stories",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_RNYNrRMqKL",
+     "clause": "visualising (AC9EFLY05)"
+    },
+    {
+     "topicId": "mt_E5KC4AnRLW",
+     "clause": "what a text is mostly about (AC9EFLY05 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLY05",
+     "currentHolders": [
+      "mt_mLPEMpYb_R",
+      "mt_5n-O41lUgn",
+      "mt_E5KC4AnRLW",
+      "mt_8-POYyg7GJ",
+      "mt_RNYNrRMqKL"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_JWjSZNk1Qy",
+   "title": "Who is this text for?",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_jIcgbCmziD",
+     "clause": "audience identification from textual/visual clues; AC9E2LY03, AC9E3LY03 COMPONENT links"
+    },
+    {
+     "topicId": "mt_OltpfaX7l6",
+     "clause": "purpose identification; AC9E2LY03/3LY03 already"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E2LY03",
+     "currentHolders": [
+      "mt_gZIo5oiBMt",
+      "mt_OltpfaX7l6",
+      "mt_jIcgbCmziD"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_KpBg1_T_84",
+   "title": "Inventing rhymes and alliteration",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_YNe6siFTFq",
+     "clause": "inventing rhyme/alliteration lines (AC9E1LE04)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LE04",
+     "currentHolders": [
+      "mt_4GiE83rJF_",
+      "mt_mLPEMpYb_R",
+      "mt_YNe6siFTFq"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_MIA4wfENUm",
+   "title": "Hyperbole and emotive language",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_furAIwoO9t",
+     "clause": "figurative/emotive devices (AC9E6LA08 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E6LA08",
+     "currentHolders": [
+      "mt_hJW7hVflm3",
+      "mt_IoGOSAQ8bz",
+      "mt_furAIwoO9t"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Pp_pizml7n",
+   "title": "Australian stories: words and pictures",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_OlhMP7ShFT",
+     "clause": "words and pictures create characters (code already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LE01",
+     "currentHolders": [
+      "mt_sSQlLOnAow",
+      "mt_OlhMP7ShFT",
+      "mt_fL1Xz8ostr"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Sg-jC5f9L6",
+   "title": "Stages of speeches and videos",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_yIk_4o0MOa",
+     "clause": "stages incl. spoken texts (AC9E5LA03)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LA03",
+     "currentHolders": [
+      "mt_aVZJhPbc_1",
+      "mt_4IxR66uGLc",
+      "mt_oVwNnjYPUY",
+      "mt_yIk_4o0MOa"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_VJEQ32O0Ae",
+   "title": "Clues to audience and purpose",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_jIcgbCmziD",
+     "clause": "audience clues (legacy chain VJEQ->JWjS flattened directly to jIcg)"
+    },
+    {
+     "topicId": "mt_OltpfaX7l6",
+     "clause": "purpose clues"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E3LY03",
+     "currentHolders": [
+      "mt_OltpfaX7l6",
+      "mt_jIcgbCmziD"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_VRZawp3oFZ",
+   "title": "Fast, legible joined writing",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_So_5wBv8fI",
+     "clause": "handwriting fluency (AC9E4LY08)"
+    },
+    {
+     "topicId": "mt_02DH7sGXCi",
+     "clause": "joining letters (already AC9E4LY08)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LY08",
+     "currentHolders": [
+      "mt_02DH7sGXCi",
+      "mt_So_5wBv8fI"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_VitRPAsDik",
+   "title": "Media texts and their context",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_rKwE6w2V6G",
+     "clause": "context of creation incl. media (AC9E6LY01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E6LY01",
+     "currentHolders": [
+      "mt_j32D5DZX7x",
+      "mt_5FREdVoS8s",
+      "mt_rKwE6w2V6G"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt__CFtXgDaEL",
+   "title": "Headlines, menus and links online",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_YrDlg_J4kQ",
+     "clause": "online navigation"
+    },
+    {
+     "topicId": "mt_aVZJhPbc_1",
+     "clause": "layout/readability (AC9E4LA05 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LA05",
+     "currentHolders": [
+      "mt_aVZJhPbc_1"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt__PcuXj7_I1",
+   "title": "Layout and navigation words online",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_YrDlg_J4kQ",
+     "clause": "navigation words"
+    },
+    {
+     "topicId": "mt_aVZJhPbc_1",
+     "clause": "layout purposes (AC9E3LA05 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E3LA05",
+     "currentHolders": [
+      "mt_ZhUuT__i2H",
+      "mt_aVZJhPbc_1"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt__q8ln4Lvf7",
+   "title": "Technical words in presentations",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_gBK8uXQlQW",
+     "clause": "technical vocabulary (AC9E5LY07)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LY07",
+     "currentHolders": [
+      "mt_sXRHr7tfS5",
+      "mt_ds2TOtP8I1",
+      "mt_VtqvUORa8K",
+      "mt_gBK8uXQlQW"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt__sYpBrdzcp",
+   "title": "Sharing ideas about Australian stories",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_5n-O41lUgn",
+     "clause": "connecting stories to own experience (code already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLE01",
+     "currentHolders": [
+      "mt_5n-O41lUgn",
+      "mt_thsY1ZesaU"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_bJyOTtP0b6",
+   "title": "Language, roles and social distance",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_86DyHo9zO3",
+     "clause": "formality and social distance (AC9E6LA01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LA01",
+     "currentHolders": [
+      "mt_86DyHo9zO3",
+      "mt_bkvB7QYKwg"
+     ]
+    },
+    {
+     "code": "AC9E6LA01",
+     "currentHolders": [
+      "mt_86DyHo9zO3",
+      "mt_k7VtbWdfDO",
+      "mt_h3vmvQW5Wa",
+      "mt_bkvB7QYKwg"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_cB_j7towTD",
+   "title": "Making new versions of stories",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_NTAc_EMeHZ",
+     "clause": "patterned-story innovation (AC9E2LE05)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E2LE05",
+     "currentHolders": [
+      "mt_nDAcXoPa0c",
+      "mt_YNe6siFTFq",
+      "mt_I65kFjWwnF",
+      "mt_NTAc_EMeHZ"
+     ]
+    },
+    {
+     "code": "AC9TDI2P04",
+     "currentHolders": [
+      "mt_nYU6x2E2T8",
+      "mt_YrDlg_J4kQ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_cGzd5z56FB",
+   "title": "Retelling and adapting stories",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_9V8Z386RDx",
+     "clause": "adapt"
+    },
+    {
+     "topicId": "mt_zlSoIKPyId",
+     "clause": "retell"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LE05",
+     "currentHolders": [
+      "mt_sSQlLOnAow",
+      "mt_zlSoIKPyId"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_dgheXIYAD-",
+   "title": "Three-letter consonant clusters",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_-nj-DnW4uU",
+     "clause": "three-letter clusters (AC9E2LY10)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E2LY10",
+     "currentHolders": [
+      "mt_BtMbZibZUj",
+      "mt_a6m7PqTuJN",
+      "mt_fMd7v87IiI",
+      "mt_roAgL1rQRF",
+      "mt_70Ys4i1AB1",
+      "mt_OgJPbGkrYk",
+      "mt_kVzAFMuFc4",
+      "mt_p_jxNLdus4",
+      "mt_-nj-DnW4uU"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_f7RadQGOnQ",
+   "title": "Personification and sound devices",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_furAIwoO9t",
+     "clause": "imagery effects (AC9E5LE04 already)"
+    },
+    {
+     "topicId": "mt_mSpJK-rKW_",
+     "clause": "sound-device effects (AC9E5LE04)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E5LE04",
+     "currentHolders": [
+      "mt_hJW7hVflm3",
+      "mt_furAIwoO9t",
+      "mt_mSpJK-rKW_"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_fruAJ2RaRT",
+   "title": "Old and new texts compared",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_rKwE6w2V6G",
+     "clause": "old vs new texts (AC9E4LY01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E4LY01",
+     "currentHolders": [
+      "mt_j32D5DZX7x",
+      "mt_5FREdVoS8s",
+      "mt_rKwE6w2V6G"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_mpzmwTktqF",
+   "title": "Home talk and school talk",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_2_fB4LuVwc",
+     "clause": "home vs school talk (AC9EFLA01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLA01",
+     "currentHolders": [
+      "mt_2_fB4LuVwc"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_nePS3LNvBy",
+   "title": "Stories, facts and persuading",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_HF1t82HCJu",
+     "clause": "text purposes incl. persuasive (AC9E1LY03)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LY03",
+     "currentHolders": [
+      "mt_gZIo5oiBMt",
+      "mt_HF1t82HCJu"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_nrXT7pDpG6",
+   "title": "Writing and fixing together",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_9P9o6d0Qm3",
+     "clause": "oral sentence planning"
+    },
+    {
+     "topicId": "mt_I65kFjWwnF",
+     "clause": "editing capitals/full stops"
+    },
+    {
+     "topicId": "mt_BhYJZUsErp",
+     "clause": "CVC spelling (AC9EFLY06 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLY06",
+     "currentHolders": [
+      "mt_BhYJZUsErp",
+      "mt_QEr24lqzvH",
+      "mt_nDAcXoPa0c",
+      "mt__MDiDU9Vck",
+      "mt_OyOYHlZ2_T"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_pxIoWWZy8L",
+   "title": "Reading on a screen",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_YrDlg_J4kQ",
+     "clause": "screen conventions (AC9EFLA04)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLA04",
+     "currentHolders": [
+      "mt_1KCwbGvm1F",
+      "mt_XeMZdf2Y9W",
+      "mt_YrDlg_J4kQ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_q2jwCeUZ9s",
+   "title": "How recounts and reports work",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_yIk_4o0MOa",
+     "clause": "recount/report stages (AC9E1LA03)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LA03",
+     "currentHolders": [
+      "mt_91f1XFvGZq",
+      "mt_ZhUuT__i2H",
+      "mt_zlSoIKPyId",
+      "mt_yIk_4o0MOa"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_qUKddG0UYv",
+   "title": "Pictures in different books",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_OlhMP7ShFT",
+     "clause": "images add meaning (codes already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LA08",
+     "currentHolders": [
+      "mt_OlhMP7ShFT"
+     ]
+    },
+    {
+     "code": "AC9EFLA07",
+     "currentHolders": [
+      "mt_OlhMP7ShFT"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_sQYvGbYD1I",
+   "title": "Texts are everywhere",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_gZIo5oiBMt",
+     "clause": "forms of texts (AC9EFLA03 already)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9EFLA03",
+     "currentHolders": [
+      "mt_gZIo5oiBMt"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_ty63-JSHTC",
+   "title": "Rhythm and sound words",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_mSpJK-rKW_",
+     "clause": "rhythm/onomatopoeia effects (AC9E3LE04)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E3LE04",
+     "currentHolders": [
+      "mt_fL1Xz8ostr",
+      "mt_gR5_n99Ntt",
+      "mt_mSpJK-rKW_"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_v9qTyarbgE",
+   "title": "Sound games with clusters",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_oVnNR1lVv6",
+     "clause": "cluster/digraph-sound manipulation (AC9E2LY09)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E2LY09",
+     "currentHolders": [
+      "mt_PvU3eoikev",
+      "mt__KHQttMde3",
+      "mt_BhYJZUsErp",
+      "mt_oVnNR1lVv6"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_vC-_ESyMut",
+   "title": "Understanding and judging films",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_E5KC4AnRLW",
+     "clause": "literal/inferred meaning of viewed texts (AC9E3LY05 already)"
+    },
+    {
+     "topicId": "mt_IX37F4rNed",
+     "clause": "evaluating texts"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E3LY05",
+     "currentHolders": [
+      "mt_mLPEMpYb_R",
+      "mt_E5KC4AnRLW",
+      "mt_ukLvUD8DFA"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_w5sIW_-T_J",
+   "title": "Navigating digital texts",
+   "originalBatch": "english",
+   "destinations": [
+    {
+     "topicId": "mt_YrDlg_J4kQ",
+     "clause": "screen navigation (AC9E1LA05)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9E1LA05",
+     "currentHolders": [
+      "mt_XeMZdf2Y9W",
+      "mt_ZhUuT__i2H",
+      "mt_YrDlg_J4kQ"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_196Gb4q6a5",
+   "title": "Telling stories of the past",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt_zlSoIKPyId",
+     "clause": "oral narrative about the past; AC9HS1S06/2S06 COMPONENT"
+    },
+    {
+     "topicId": "mt_nDAcXoPa0c",
+     "clause": "written sequenced narrative (example)"
+    },
+    {
+     "topicId": "mt_9REmUc8r4D",
+     "clause": "sources as evidence"
+    },
+    {
+     "topicId": "mt_VXcua6-txq",
+     "clause": "historical terms; AC9HS1S06/2S06 COMPONENT"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HS1S06",
+     "currentHolders": [
+      "mt_zlSoIKPyId",
+      "mt_vJO5Bxk4z-",
+      "mt_VXcua6-txq"
+     ]
+    },
+    {
+     "code": "AC9HS2S06",
+     "currentHolders": [
+      "mt_zlSoIKPyId",
+      "mt_ds2TOtP8I1",
+      "mt_vJO5Bxk4z-",
+      "mt_VXcua6-txq"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_3itytx4K1v",
+   "title": "Picture timelines",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt_69w5GVudJl",
+     "clause": "picture timelines = same unscaled ordering claim; AC9HSFS02 COMPONENT link"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HSFS02",
+     "currentHolders": [
+      "mt_-vvVxpOHG2",
+      "mt_xppl18avyY",
+      "mt_qeZYF6HZ4o",
+      "mt_61Pa4Eksva",
+      "mt_69w5GVudJl"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_JumBNYAiA_",
+   "title": "Proposing action on local issues",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt_RhntJz7p_6",
+     "clause": "options/consequences/choose in civic context (example); AC9HS4S06 COMPONENT link"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HS3S06",
+     "currentHolders": [
+      "mt_HveO1bOXpJ",
+      "mt_RhntJz7p_6"
+     ]
+    },
+    {
+     "code": "AC9HS4S06",
+     "currentHolders": [
+      "mt_cpDpjJaE5u",
+      "mt_HveO1bOXpJ",
+      "mt_RhntJz7p_6"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_axrs4Gfdm9",
+   "title": "Connections to Country across Australia",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt_pK6QkcKxZT",
+     "clause": "connections to Country incl. comparison with another Nation's environment and regional seasonal calendar; AC9HS3K04 COMPONENT link"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HS3K04",
+     "currentHolders": [
+      "mt_pK6QkcKxZT"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_fXE9t2ETGx",
+   "title": "Picture maps of familiar places",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt_61Pa4Eksva",
+     "clause": "locate on pictorial map/block model = medium example; AC9HSFS02 COMPONENT link"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HSFS02",
+     "currentHolders": [
+      "mt_-vvVxpOHG2",
+      "mt_xppl18avyY",
+      "mt_qeZYF6HZ4o",
+      "mt_61Pa4Eksva",
+      "mt_69w5GVudJl"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_pBvABgZo5O",
+   "title": "Family roles then and now",
+   "originalBatch": "hass",
+   "destinations": [
+    {
+     "topicId": "mt__F_i67waLN",
+     "clause": "family roles/size then and now (continuity and change); AC9HS1K01 COMPONENT link"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HS1K01",
+     "currentHolders": [
+      "mt_OJVkWvIaM_",
+      "mt__F_i67waLN"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_-WhvVTsKV-",
+   "title": "Rehearsing permission skills",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_sh1Mq-mshx",
+     "clause": "seeking permission + reflect/refine (AC9HP4P07 COMPONENT)"
+    },
+    {
+     "topicId": "mt_rqLMfiw61L",
+     "clause": "giving/denying permission assertively (AC9HP4P07 already)"
+    },
+    {
+     "topicId": "mt_R2_rZ4F6r4",
+     "clause": "what to do if 'no' is not respected"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP4P07",
+     "currentHolders": [
+      "mt_rqLMfiw61L",
+      "mt_h-z88yf9Pn",
+      "mt_sh1Mq-mshx",
+      "mt_hkIbGmuH7D"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_7b8EHUBoxd",
+   "title": "Telling and getting help",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_PdYlsA33jB",
+     "clause": "approach helpers / trusted-adult network (help services as local example)"
+    },
+    {
+     "topicId": "mt_R2_rZ4F6r4",
+     "clause": "keep telling; never their fault"
+    },
+    {
+     "topicId": "mt_Udv6pH1nRh",
+     "clause": "online reporting tool with a trusted adult (AC9HP6P08 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP4P08",
+     "currentHolders": [
+      "mt_I9iSzpGRn5",
+      "mt_yCmYV9ruQu",
+      "mt_zIzJGkaj0Q",
+      "mt_JivEBTD_KV",
+      "mt_Udv6pH1nRh"
+     ]
+    },
+    {
+     "code": "AC9HP6P08",
+     "currentHolders": [
+      "mt_rqLMfiw61L",
+      "mt_JivEBTD_KV",
+      "mt_W5euSyU2sO",
+      "mt_HopZomN12L",
+      "mt_Udv6pH1nRh",
+      "mt_085iC6v-Oa"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_L8y31QOR6s",
+   "title": "Saying yes or no respectfully",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_rqLMfiw61L",
+     "clause": "give/deny permission with clear words and body language (AC9HPFP04, AC9HP2P04 COMPONENT); example-only edit item 3"
+    },
+    {
+     "topicId": "mt_I9cDkW4Qz-",
+     "clause": "my body and space belong to me"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP2P04",
+     "currentHolders": [
+      "mt_rqLMfiw61L",
+      "mt_sh1Mq-mshx"
+     ]
+    },
+    {
+     "code": "AC9HPFP04",
+     "currentHolders": [
+      "mt_rqLMfiw61L",
+      "mt_sh1Mq-mshx"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_O12GEyNwSi",
+   "title": "Gender stereotypes in media",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_2oswCNuapH",
+     "clause": "identify stereotypes in media portrayals (AC9HP6P03 already) - context example, no edit"
+    },
+    {
+     "topicId": "mt_urxvHF8Vds",
+     "clause": "how repeated portrayals shape expectations (AC9HP6P03 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP6P03",
+     "currentHolders": [
+      "mt_2oswCNuapH",
+      "mt_urxvHF8Vds"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_a0_W_oIEQg",
+   "title": "Experiences that shape me",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_Amw5ikSSQI",
+     "clause": "resilience grows through setbacks (AC9HP4P01 already) - no edit"
+    },
+    {
+     "topicId": "mt_ij20XUbMHg",
+     "clause": "experiences shape how I see myself (AC9HP4P01 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP4P01",
+     "currentHolders": [
+      "mt_pAuo9Op89t",
+      "mt_Amw5ikSSQI",
+      "mt_dknMcCqvoY",
+      "mt_ij20XUbMHg"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_wudskBtVQc",
+   "title": "Health messages around us",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_DRNXFr0ds6",
+     "clause": "health symbols/signs"
+    },
+    {
+     "topicId": "mt_OTrQJVRRJ6",
+     "clause": "purposes of community health messages and practices (AC9HP2P06 COMPONENT)"
+    }
+   ],
+   "omittedEvidence": [
+    {
+     "note": "(none)",
+     "clause": "poster-making is an evidence task; not in official AC9HP2P06 text"
+    }
+   ],
+   "movedStandards": [
+    {
+     "code": "AC9HP2P06",
+     "currentHolders": [
+      "mt_cxJRc15osy",
+      "mt_Dj2xr8CoI0",
+      "mt_vbbxnY7ZDT",
+      "mt_OTrQJVRRJ6"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_zYX3606Dgd",
+   "title": "Support for changes and puberty",
+   "originalBatch": "health",
+   "destinations": [
+    {
+     "topicId": "mt_-beOa1AO6W",
+     "clause": "transition plan (AC9HP6P02 COMPONENT)"
+    },
+    {
+     "topicId": "mt_PdYlsA33jB",
+     "clause": "people/services who help"
+    },
+    {
+     "topicId": "mt_Amojd_oviu",
+     "clause": "evaluate information sources"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9HP6P02",
+     "currentHolders": [
+      "mt_pu2mmK27UA",
+      "mt_Jd2aWEUJ9G",
+      "mt_-beOa1AO6W"
+     ]
+    }
+   ],
+   "reason": null,
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_1GDEHyEZYH",
+   "title": "Sharing and grouping on screen",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_LpSuPgL31x",
+     "clause": "same claim; mt_LpSuPgL31x"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9MFN06",
+     "currentHolders": [
+      "mt_PZ909yPrEC",
+      "mt_LpSuPgL31x"
+     ]
+    }
+   ],
+   "reason": "mt_LpSuPgL31x",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_5bmrA-0pBi",
+   "title": "Estimating money totals",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_QaYfeVL-0C",
+     "clause": "money calculations"
+    },
+    {
+     "topicId": "mt_aWOK1npO5s",
+     "clause": "AU 5c cash-rounding example"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M4N07",
+     "currentHolders": [
+      "mt_QaYfeVL-0C",
+      "mt_NLSfvB9vUl"
+     ]
+    },
+    {
+     "code": "AC9M4N08",
+     "currentHolders": [
+      "mt_CDa5AVakLE",
+      "mt_AR-K72OIIO",
+      "mt_p-nbe0w_lf",
+      "mt_8xVHooT4aI",
+      "mt_ish_uH8vZe"
+     ]
+    }
+   ],
+   "reason": "mt_QaYfeVL-0C (AU 5c cash rounding example on aWOK)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_8DT3LXwwH-",
+   "title": "Simulating chance with digital tools",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_-bMnJcPJy8",
+     "clause": "same claim; mt_-bMnJcPJy8"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M6P02",
+     "currentHolders": [
+      "mt_-bMnJcPJy8"
+     ]
+    }
+   ],
+   "reason": "mt_-bMnJcPJy8",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_8cs4YPkp23",
+   "title": "Money transactions in dollars",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_aWOK1npO5s",
+     "clause": "same claim; mt_aWOK1npO5s (AC9M2N06 held by Working with money/wh3U)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M2N06",
+     "currentHolders": [
+      "mt_wh3UqnWsa7",
+      "mt_yTWxkzzoOZ",
+      "mt_iQYPw8bMfN"
+     ]
+    }
+   ],
+   "reason": "mt_aWOK1npO5s (AC9M2N06 held by Working with money/wh3U)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_9L5qyBYmg-",
+   "title": "Dollars and cents",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_pbuhUQJjtt",
+     "clause": "money notation and units (currency-neutral)"
+    },
+    {
+     "topicId": "mt_aWOK1npO5s",
+     "clause": "giving change"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M3M06",
+     "currentHolders": [
+      "mt_pbuhUQJjtt",
+      "mt_AF2BeFQwfX"
+     ]
+    },
+    {
+     "code": "AC9M3N06",
+     "currentHolders": [
+      "mt_EmR5n58jZt",
+      "mt_anAe11HAEH",
+      "mt_K3R0yaHVcx",
+      "mt_ish_uH8vZe"
+     ]
+    }
+   ],
+   "reason": "mt_pbuhUQJjtt (currency-neutral notation; change -> aWOK)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_FSLJbKkryb",
+   "title": "Australian coins and simple purchases",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_FIkqA0qhnj",
+     "clause": "coin/note recognition (AUD denominations corrected: $5 note)"
+    },
+    {
+     "topicId": "mt_RNRymbz5SO",
+     "clause": "deciding affordability of simple purchases (AC9M1N05 component)"
+    },
+    {
+     "topicId": "mt_aWOK1npO5s",
+     "clause": "totals and change in simple transactions (AC9M1N05 component)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M1N05",
+     "currentHolders": [
+      "mt_VAWV_l7J0D",
+      "mt_f67qGDhyfi",
+      "mt_RNRymbz5SO",
+      "mt_aWOK1npO5s",
+      "mt_Eqk6oSbySH"
+     ]
+    }
+   ],
+   "reason": "mt_FIkqA0qhnj (recognition) + mt_RNRymbz5SO (affordability) + mt_aWOK1npO5s (totals)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_FVVSQR9vGg",
+   "title": "Calculator checks for money",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_ish_uH8vZe",
+     "clause": "same claim; mt_ish_uH8vZe (AC9M3N06; ish_ re-gated)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M3N06",
+     "currentHolders": [
+      "mt_EmR5n58jZt",
+      "mt_anAe11HAEH",
+      "mt_K3R0yaHVcx",
+      "mt_ish_uH8vZe"
+     ]
+    }
+   ],
+   "reason": "mt_ish_uH8vZe (AC9M3N06; ish_ re-gated)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_HczwO1sr-y",
+   "title": "Numbers to 1000 on screen",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_F_zEAJ8VIo",
+     "clause": "representing three-digit numbers with place value (batch 01)"
+    },
+    {
+     "topicId": "mt_AQcVRBddko",
+     "clause": "ordering three-digit numbers (batch 01)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M2N01",
+     "currentHolders": [
+      "mt_aPBzD28_mT",
+      "mt_VFsuftfvYM",
+      "mt_AQcVRBddko",
+      "mt_F_zEAJ8VIo"
+     ]
+    }
+   ],
+   "reason": "mt_F_zEAJ8VIo (ordering: mt_AQcVRBddko) [batch 01]",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Jz9UuT8BXW",
+   "title": "Fractions of time and events",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_gC-6JXAG5S",
+     "clause": "fractions (halves, quarters, eighths) of events/quantities"
+    },
+    {
+     "topicId": "mt_MgsDabdnr1",
+     "clause": "reading quarter-hour clock times"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M2M02",
+     "currentHolders": [
+      "mt_-hTTat0mBR",
+      "mt_g3W0mdADVu",
+      "mt_xACS3rWWDp",
+      "mt_gC-6JXAG5S"
+     ]
+    }
+   ],
+   "reason": "mt_gC-6JXAG5S (fractions of events) + mt_MgsDabdnr1 (quarter hour)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_NmvuwVUFRS",
+   "title": "Calculators for multiplying and dividing",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_ish_uH8vZe",
+     "clause": "calculator use with estimation check (AC9M5N06)"
+    },
+    {
+     "topicId": "mt_p-nbe0w_lf",
+     "clause": "estimating to check reasonableness"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M5N06",
+     "currentHolders": [
+      "mt_G3sVFQNCme",
+      "mt_q9EaJc2FP8",
+      "mt_XLP1IM3Qbb",
+      "mt_ish_uH8vZe"
+     ]
+    },
+    {
+     "code": "AC9M5N07",
+     "currentHolders": [
+      "mt_p-nbe0w_lf",
+      "mt_MCu_SNg_OW",
+      "mt_WsM4EmdOLe",
+      "mt_4Km38F4L-6"
+     ]
+    }
+   ],
+   "reason": "mt_ish_uH8vZe + mt_p-nbe0w_lf",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_O-U263ukg1",
+   "title": "Refining a statistical investigation",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_SHVyE1CLUa",
+     "clause": "same claim; mt_SHVyE1CLUa"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M6ST03",
+     "currentHolders": [
+      "mt_iykH2P5oFq",
+      "mt_tuEnyrp5Ia",
+      "mt_SHVyE1CLUa"
+     ]
+    }
+   ],
+   "reason": "mt_SHVyE1CLUa",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_QeKWt4BZn3",
+   "title": "Algorithms that generate number sets",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_zQfWqImxva",
+     "clause": "same claim; mt_zQfWqImxva"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M4N09",
+     "currentHolders": [
+      "mt_A-FyLLLLzy",
+      "mt_zQfWqImxva"
+     ]
+    }
+   ],
+   "reason": "mt_zQfWqImxva",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_QguIGVMB1o",
+   "title": "Numbers to 120 everywhere",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_XV0B4kWwqL",
+     "clause": "reading and writing numerals to 120"
+    },
+    {
+     "topicId": "mt_9L3NQqgqRd",
+     "clause": "representing numbers to 120 (incl. 112)"
+    },
+    {
+     "topicId": "mt_U0waNfD8PB",
+     "clause": "comparing/ordering numbers to 120"
+    },
+    {
+     "topicId": "mt_8gy7uxRlF6",
+     "clause": "partitioning/hundred-structure component (AC9M1N01 component)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M1N01",
+     "currentHolders": [
+      "mt_x8TshvbbQT",
+      "mt_XV0B4kWwqL",
+      "mt_U0waNfD8PB",
+      "mt_9L3NQqgqRd",
+      "mt_8gy7uxRlF6"
+     ]
+    }
+   ],
+   "reason": "mt_XV0B4kWwqL + mt_9L3NQqgqRd + mt_U0waNfD8PB (+ mt_8gy7uxRlF6 component)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_RdfzwInyAj",
+   "title": "Transformations with geometry software",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_SH7QgFl8-v",
+     "clause": "translations, reflections, rotations; what changes/stays (AC9M5SP03 component)"
+    },
+    {
+     "topicId": "mt_NM5I3yN-Q6",
+     "clause": "rotational symmetry (AC9M5SP03 component)"
+    },
+    {
+     "topicId": "mt_hRZyKvz1KN",
+     "clause": "line symmetry (AC9M5SP03 component)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M5SP03",
+     "currentHolders": [
+      "mt_hRZyKvz1KN",
+      "mt_efOeaGFyGM",
+      "mt_SH7QgFl8-v",
+      "mt_NM5I3yN-Q6"
+     ]
+    }
+   ],
+   "reason": "mt_SH7QgFl8-v (transformations, congruence) + mt_NM5I3yN-Q6 (rotational symmetry) + mt_hRZyKvz1KN (line symmetry)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_X53txVXOcG",
+   "title": "Data with digital tools",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_ebQURBOsM5",
+     "clause": "same claim; mt_ebQURBOsM5 (CA D1.2/D1.5 moved)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M1ST01",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_ylXdiVRAYv",
+      "mt_u5HkSxZECM"
+     ]
+    },
+    {
+     "code": "AC9M1ST02",
+     "currentHolders": [
+      "mt_ylXdiVRAYv",
+      "mt_1VSfm9yiLn"
+     ]
+    },
+    {
+     "code": "AC9M2ST01",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_ylXdiVRAYv",
+      "mt_1VSfm9yiLn"
+     ]
+    },
+    {
+     "code": "AC9M2ST02",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_VhBH8wrFC6",
+      "mt_QpJydot2Kh"
+     ]
+    },
+    {
+     "code": "AC9S1I03",
+     "currentHolders": [
+      "mt_KaF0SQvaiu",
+      "mt_vJO5Bxk4z-",
+      "mt_ZFwPZaDJ0_"
+     ]
+    },
+    {
+     "code": "ON-MATH-2020-G1-D1.2",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_ZFwPZaDJ0_",
+      "mt_ebQURBOsM5"
+     ]
+    },
+    {
+     "code": "ON-MATH-2020-G1-D1.5",
+     "currentHolders": [
+      "mt_1VSfm9yiLn",
+      "mt_kxeuXm6EyC"
+     ]
+    }
+   ],
+   "reason": "mt_ebQURBOsM5 (CA D1.2/D1.5 moved)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Y6JmLjnfRP",
+   "title": "Conducting a statistical investigation",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_kxeuXm6EyC",
+     "clause": "same claim; mt_kxeuXm6EyC"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M4ST03",
+     "currentHolders": [
+      "mt_kxeuXm6EyC"
+     ]
+    }
+   ],
+   "reason": "mt_kxeuXm6EyC",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_Y6_cq3UMyy",
+   "title": "Number stories on screen",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_PgsHGYJMH-",
+     "clause": "same claim; mt_PgsHGYJMH-"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9MFN05",
+     "currentHolders": [
+      "mt_PgsHGYJMH-",
+      "mt_yJmvUCCym7",
+      "mt_OvyoRo47K-",
+      "mt_zuKAX6lcYR"
+     ]
+    }
+   ],
+   "reason": "mt_PgsHGYJMH-",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt__yvsKKp3TS",
+   "title": "Comparing two data displays",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_QpJydot2Kh",
+     "clause": "same claim; mt_QpJydot2Kh (repaired: AC9M2ST02 linked; hard gate VhBH)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M2ST02",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_VhBH8wrFC6",
+      "mt_QpJydot2Kh"
+     ]
+    }
+   ],
+   "reason": "mt_QpJydot2Kh (repaired: AC9M2ST02 linked; hard gate VhBH)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_biGHAbkoV2",
+   "title": "Adding and subtracting on screen",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_m1W6nTQJ2b",
+     "clause": "same claim; mt_m1W6nTQJ2b (CA B1.2 moved)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M1N02",
+     "currentHolders": [
+      "mt_xmmgAzxe5j",
+      "mt_7XcCG43ZZW",
+      "mt_r0VXbfAmsH",
+      "mt_THl9GLxwoL",
+      "mt_Bt-iORUzdO"
+     ]
+    },
+    {
+     "code": "AC9M1N04",
+     "currentHolders": [
+      "mt_7XcCG43ZZW",
+      "mt_mr_Vk7FGzK",
+      "mt_PpWSHA-0kv",
+      "mt_m1W6nTQJ2b"
+     ]
+    },
+    {
+     "code": "ON-MATH-2020-G1-B1.2",
+     "currentHolders": [
+      "mt_xmmgAzxe5j",
+      "mt_7XcCG43ZZW",
+      "mt_r0VXbfAmsH",
+      "mt_THl9GLxwoL",
+      "mt_m1W6nTQJ2b",
+      "mt_Bt-iORUzdO"
+     ]
+    }
+   ],
+   "reason": "mt_m1W6nTQJ2b (CA B1.2 moved)",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_mMDpLugX2X",
+   "title": "Spreadsheets for money problems",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_oMkQQ2O-ML",
+     "clause": "discounts and GST (percentage of amounts)"
+    },
+    {
+     "topicId": "mt_1KkvzwYxbR",
+     "clause": "remaining balance after discount (per Maths SUMMARY)"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M6N04",
+     "currentHolders": [
+      "mt_Ii1hV4V5ql",
+      "mt_sA2OvTiech",
+      "mt_JH_6RpNWjr",
+      "mt_M1tnXqmYbn",
+      "mt_ilPrU0cbtT"
+     ]
+    },
+    {
+     "code": "AC9M6N07",
+     "currentHolders": [
+      "mt_3y7xKP9MjU",
+      "mt_AabJisinfi",
+      "mt_PNSyfH56eQ",
+      "mt_oMkQQ2O-ML"
+     ]
+    },
+    {
+     "code": "AC9M6N09",
+     "currentHolders": [
+      "mt_M1tnXqmYbn",
+      "mt_RXnyhCRYXA",
+      "mt_lvaSGHwvQ5",
+      "mt_PNSyfH56eQ",
+      "mt_yqZiX6vS7D",
+      "mt_oMkQQ2O-ML"
+     ]
+    }
+   ],
+   "reason": "mt_oMkQQ2O-ML",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_qUjW0N1cYO",
+   "title": "Sharing and grouping problems",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_LpSuPgL31x",
+     "clause": "same claim; mt_LpSuPgL31x"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M1N06",
+     "currentHolders": [
+      "mt_PZ909yPrEC",
+      "mt_LpSuPgL31x",
+      "mt_wh3UqnWsa7"
+     ]
+    }
+   ],
+   "reason": "mt_LpSuPgL31x",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_yrvYKSwSRZ",
+   "title": "Collecting data with digital tools",
+   "originalBatch": "maths",
+   "destinations": [
+    {
+     "topicId": "mt_ebQURBOsM5",
+     "clause": "same claim; mt_ebQURBOsM5"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9M4ST01",
+     "currentHolders": [
+      "mt_r8XnXwRA6g",
+      "mt_ChjMU2GDJa",
+      "mt_ebQURBOsM5"
+     ]
+    }
+   ],
+   "reason": "mt_ebQURBOsM5",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_89qLyvE70d",
+   "title": "Using equipment safely in tests",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_TTH2ouwyTW",
+     "clause": "hazards + safety step in plan; AC9S3I02, AC9S4I02 COMPONENT links added"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S3I02",
+     "currentHolders": [
+      "mt_qgb76wHN2X",
+      "mt_TTH2ouwyTW"
+     ]
+    },
+    {
+     "code": "AC9S4I02",
+     "currentHolders": [
+      "mt_qgb76wHN2X",
+      "mt_ArVBEpMAPk",
+      "mt_eoPcc4nrBE",
+      "mt_TTH2ouwyTW"
+     ]
+    }
+   ],
+   "reason": "same safety procedure",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_8NYqAhHCa-",
+   "title": "Fast and slow land changes",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_vAP_A986IQ",
+     "clause": "weathering, erosion, transport, deposition (deposition example within 4-ESS2-1 scope); AC9S5U02 already"
+    },
+    {
+     "topicId": "mt_ZJu8s-Q1xa",
+     "clause": "slow vs rapid surface change; AC9S5U02 COMPONENT link added"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S5U02",
+     "currentHolders": [
+      "mt_vAP_A986IQ",
+      "mt_ZJu8s-Q1xa",
+      "mt_bqL8DD1SbV"
+     ]
+    }
+   ],
+   "reason": "clauses held by vAP_ and ZJu8",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_E-E8z9ZZOz",
+   "title": "Ordering data and simple models",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_7IFpDVNsmt",
+     "clause": "sort/order/present data; AC9S1I04 COMPONENT link added"
+    },
+    {
+     "topicId": "mt_CVywzrjT_c",
+     "clause": "identify pattern"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S1I04",
+     "currentHolders": [
+      "mt_SwaNNdm_Ks",
+      "mt_HZvTriQWTh",
+      "mt_ZFwPZaDJ0_",
+      "mt_7IFpDVNsmt"
+     ]
+    },
+    {
+     "code": "AC9S2I04",
+     "currentHolders": [
+      "mt_7IFpDVNsmt",
+      "mt_CVywzrjT_c",
+      "mt_7EqhgErJyU"
+     ]
+    }
+   ],
+   "reason": "same claim",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_K5Zqgu7rzp",
+   "title": "Exploring safely with senses",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_TTH2ouwyTW",
+     "clause": "sensory-exploration safety rules; AC9SFI02 COMPONENT link added"
+    },
+    {
+     "topicId": "mt_Wa44s-f8Ws",
+     "clause": "observe with senses; AC9SFI02 already"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9SFI02",
+     "currentHolders": [
+      "mt_vJO5Bxk4z-",
+      "mt_Wa44s-f8Ws",
+      "mt_nwSWPTENmv",
+      "mt_TTH2ouwyTW"
+     ]
+    }
+   ],
+   "reason": "full split",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_RdIBKLbgyp",
+   "title": "Investigating melting and freezing",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_Pl-nsjYGZ3",
+     "clause": "melting/freezing by heating/cooling; AC9S3U04 already"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S3U04",
+     "currentHolders": [
+      "mt_YQkUdIHO8L",
+      "mt_Pl-nsjYGZ3"
+     ]
+    }
+   ],
+   "reason": "practical framing of same concept",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_fKAq8aOfhD",
+   "title": "Telling others what we found",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_7VrR1GzhrN",
+     "clause": "report findings orally/in writing; AC9S1I06 COMPONENT link added"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S1I06",
+     "currentHolders": [
+      "mt_vJO5Bxk4z-",
+      "mt_ZFwPZaDJ0_",
+      "mt_7VrR1GzhrN"
+     ]
+    }
+   ],
+   "reason": "scaffolded stage of same claim",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_jIUuqbJJRb",
+   "title": "Checking predictions with others",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_MRQcEvyPJv",
+     "clause": "compare observation with prediction; AC9S1I05, AC9S2I05 COMPONENT links"
+    },
+    {
+     "topicId": "mt_LADBSIowuS",
+     "clause": "compare with others, suggest reason; AC9S1I05, AC9S2I05 COMPONENT links"
+    },
+    {
+     "topicId": "mt_XirhnAB6Ye",
+     "clause": "ask further questions; AC9S1I05 already"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S1I05",
+     "currentHolders": [
+      "mt_XirhnAB6Ye",
+      "mt_Wa44s-f8Ws",
+      "mt_MRQcEvyPJv",
+      "mt_LADBSIowuS"
+     ]
+    },
+    {
+     "code": "AC9S2I05",
+     "currentHolders": [
+      "mt_qgb76wHN2X",
+      "mt_7VrR1GzhrN",
+      "mt_MRQcEvyPJv",
+      "mt_LADBSIowuS"
+     ]
+    },
+    {
+     "code": "ON-MATH-2020-G1-D2.2",
+     "currentHolders": [
+      "mt_c29FaCTNsx",
+      "mt_gTI7MuS-y8"
+     ]
+    }
+   ],
+   "reason": "full split; ON-MATH-2020-G1-D2.2 pair REMOVED as weak (no population-frequency clause assessed); D2.2 whole on gTI7MuS-y8",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_mYujFoIsVG",
+   "title": "Breaking materials into pieces",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_wf-SJhZ1kC",
+     "clause": "breaking actions as same-material shape change; AC9S2U03 already whole on wf-S"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S2U03",
+     "currentHolders": [
+      "mt_wf-SJhZ1kC"
+     ]
+    }
+   ],
+   "reason": "medium/action variant of same claim",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_nZaqNZaN0V",
+   "title": "Modelling seasons and day length",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_lFiDFPkVmH",
+     "clause": "tilt + revolution -> seasons/day length; AC9S6U02 COMPONENT link added"
+    },
+    {
+     "topicId": "mt_q15w--Fb5H",
+     "clause": "rotation/day-night; AC9S6U02 already"
+    },
+    {
+     "topicId": "mt_5l7iGkf1Tp",
+     "clause": "planets move around sun"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S6U02",
+     "currentHolders": [
+      "mt_5l7iGkf1Tp",
+      "mt_q15w--Fb5H",
+      "mt_lFiDFPkVmH",
+      "mt_LQt4vnKeB4"
+     ]
+    }
+   ],
+   "reason": "model/medium variant",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_vLLyGZQ2AM",
+   "title": "Comparing methods and findings",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_LADBSIowuS",
+     "clause": "method differences explain findings; AC9S5I05, AC9S6I05 COMPONENT links"
+    },
+    {
+     "topicId": "mt_nyPMkeHlVJ",
+     "clause": "error/confidence; AC9S5I05/6I05 already"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S5I05",
+     "currentHolders": [
+      "mt_Psun-u_lPf",
+      "mt_5PgQB0QkWi",
+      "mt_nyPMkeHlVJ",
+      "mt_AstzvYDU2m",
+      "mt_LADBSIowuS"
+     ]
+    },
+    {
+     "code": "AC9S6I05",
+     "currentHolders": [
+      "mt_Psun-u_lPf",
+      "mt_5PgQB0QkWi",
+      "mt_nyPMkeHlVJ",
+      "mt_AstzvYDU2m",
+      "mt_LADBSIowuS"
+     ]
+    }
+   ],
+   "reason": "full split",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  },
+  {
+   "retiredId": "mt_zIcYzrrO0Z",
+   "title": "Different ways to make sounds",
+   "originalBatch": "science",
+   "destinations": [
+    {
+     "topicId": "mt_VBl1T1sFCM",
+     "clause": "sounds made by vibrations, varied actions; AC9S2U02 already"
+    },
+    {
+     "topicId": "mt__00ZSLnB7p",
+     "clause": "force vs loudness"
+    }
+   ],
+   "omittedEvidence": [],
+   "movedStandards": [
+    {
+     "code": "AC9S2U02",
+     "currentHolders": [
+      "mt_VBl1T1sFCM",
+      "mt_KTSoXcO7OL",
+      "mt__00ZSLnB7p",
+      "mt_YPSx5pbpVl"
+     ]
+    }
+   ],
+   "reason": "same concept; no outbound gates inherited",
+   "beliefPolicy": "retired age_prior rows archived privately by root; no Beta addition/averaging into destinations"
+  }
+ ]
+}
