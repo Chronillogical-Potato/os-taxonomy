@@ -22274,26 +22274,6 @@
       ]
     },
     {
-      "id": "mt_U4cIBXVug4",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Multiplicative Comparison",
-      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.0355276907001045,
-      "evidence": [
-        "Explain that '4 times as many' means multiply by 4",
-        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
-        "Distinguish multiplicative comparison from additive comparison in word problems"
-      ],
-      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
-      "standards": [
-        "ccss-math:4.OA.1"
-      ]
-    },
-    {
       "id": "mt_6-j1NO2ZUH",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -22311,6 +22291,26 @@
       "assessmentPrompt": "If you say 'Maya has 4 times as many stickers as Tom, and Tom has 6 — how many does Maya have?', can {{name}} recognise this as a multiplication problem and solve it?",
       "standards": [
         "ccss-math:4.OA.2"
+      ]
+    },
+    {
+      "id": "mt_U4cIBXVug4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Multiplicative Comparison",
+      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "centrality": 0.0355276907001045,
+      "evidence": [
+        "Explain that '4 times as many' means multiply by 4",
+        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
+        "Distinguish multiplicative comparison from additive comparison in word problems"
+      ],
+      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
+      "standards": [
+        "ccss-math:4.OA.1"
       ]
     },
     {
@@ -23051,7 +23051,7 @@
       "evidence": [
         "Correctly place > or < between 34 and 43",
         "Order a set of numbers from smallest to largest, including numbers either side of 100 (e.g. 98, 104, 111, 120)",
-        "Explain a comparison by referring to the tens digit first, then ones"
+        "Explain a comparison by referring to the highest place value first — hundreds when comparing across 100 (e.g. 98 < 104 because 104 has 1 hundred), then tens and ones when needed"
       ],
       "assessmentPrompt": "If you show {{name}} cards with 104, 98, 120 and 111, can they put them in order from smallest to largest — and use > or < correctly, such as 98 < 104?",
       "standards": [

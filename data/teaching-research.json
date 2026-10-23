@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-23T14:34:11.595Z",
-  "topicFileSha256": "c05b03989c1d367cceacb2a6df715ce6c9433e6b5bf252761a201e9269956d62",
+  "exportedAt": "2026-10-23T15:07:48.635Z",
+  "topicFileSha256": "15806a0b74445c52651e84c882104f630eb96ea9195c0befe8469587a0180fc0",
   "recordCount": 1049,
   "coverage": {
     "topicCount": 1833,
@@ -173293,31 +173293,31 @@
     {
       "topicId": "mt_U0waNfD8PB",
       "pedagogy": {
-        "summary": "• Age/Topic — Ages 6-7 (Y2). Compare and order two-digit numbers using >, =, < based on PLACE VALUE: compare the tens first, and only if the tens are equal compare the ones. A procedural skill built directly on tens-and-ones understanding.\n• Standards — UK (DfE NC Mathematics, Y2): 'compare and order numbers from 0 up to 100; use <, > and = signs'.\n• Standards — US (CCSS-M): 1.NBT.3 'compare two two-digit numbers based on meanings of the tens and ones digits, recording the results with the symbols >, =, and <'.\n• Operational details — Establish the meaning of each symbol before speed ('the open mouth eats the bigger number' is a crutch; ground it in 'greater than/less than' with quantities). Teach the leading-digit rule explicitly: compare tens, decide; if tens tie, compare ones. Use base-ten blocks or a number line so 'bigger' is a seen quantity/position, not a guess. Progress from comparing pairs to ordering a set (smallest→largest and largest→smallest).\n• Checkpoint — Tier A (age 6): place > or < between two numbers with clearly different tens (34, 52) and justify by the tens. Tier B (age 6-7): compare a same-tens pair (34, 38) by the ones and place the correct symbol. Tier C (age 7): order a mixed set of five two-digit numbers and explain the tens-then-ones rule, including a same-tens tie.",
+        "summary": "Current scope: compare and order numbers through 120 using the highest relevant place value first: hundreds, then tens and ones as needed. Use a zero in a missing hundreds column when comparing 98 with 104. The original two-digit standards and examples below remain useful, but their tens-first rule applies only to two-digit numbers.\n\n• Age/Topic — Ages 6-7 (Y2). Compare and order two-digit numbers using >, =, < based on PLACE VALUE: for two-digit numbers, compare tens first and then ones if needed. A procedural skill built directly on tens-and-ones understanding.\n• Standards — UK (DfE NC Mathematics, Y2): 'compare and order numbers from 0 up to 100; use <, > and = signs'.\n• Standards — US (CCSS-M): 1.NBT.3 'compare two two-digit numbers based on meanings of the tens and ones digits, recording the results with the symbols >, =, and <'.\n• Operational details — Establish the meaning of each symbol before speed ('the open mouth eats the bigger number' is a crutch; ground it in 'greater than/less than' with quantities). Teach the highest-place rule explicitly: compare hundreds first across 100, then tens and ones if needed; for two-digit pairs begin with tens. Use base-ten blocks or a number line so 'bigger' is a seen quantity/position, not a guess. Progress from comparing pairs to ordering a set (smallest→largest and largest→smallest).\n• Checkpoint — Tier A (age 6): place > or < between two numbers with clearly different tens (34, 52) and justify by the tens. Tier B (age 6-7): compare a same-tens pair (34, 38) by the ones and place the correct symbol. Tier C (age 7): order a mixed set including 98, 104, 111 and 120 and explain the highest-place rule; include a same-tens tie among two-digit numbers.",
         "bestPractices": [
           "Compare quantities and positions FIRST (blocks side by side, points on a 0-100 line) so 'greater' means visibly more, then attach the symbol — symbol before meaning breeds the crocodile-mouth-without-understanding error.",
-          "Teach the leading-digit strategy explicitly: look at the tens; the number with more tens is greater; only if the tens are equal do you compare the ones.",
+          "Teach the highest relevant place-value strategy explicitly: compare hundreds when numbers cross 100, then tens and ones only if higher places tie. For two-digit pairs, start with tens. Show 98 as zero hundreds and 104 as one hundred so the zero tens digit does not mislead.",
           "Read the statement both ways — 34 < 43 as 'thirty-four is less than forty-three' AND 43 > 34 — so the child sees the relation is the same fact stated from either end.",
-          "Use same-tens pairs (34 vs 38) deliberately to force attention onto the ones once tens are equal, defeating 'just compare the first digit'.",
+          "For two-digit numbers, use same-tens pairs (34 vs 38) deliberately to force attention onto the ones once tens are equal, defeating 'just compare the first digit'.",
           "Move from pairwise comparison to ordering a set, recording with symbols, so comparison becomes a tool for organising numbers, not an isolated trick."
         ],
         "keyRepresentations": [
-          "Two sets of base-ten blocks placed side by side (more tens = taller/greater)",
+          "Two sets of base-ten blocks side by side, including a hundred flat versus tens rods when comparing numbers across 100",
           "0-100 number line where the number further right is greater",
-          "Tens|ones place-value chart aligning two numbers column by column",
+          "Hundreds|tens|ones place-value chart aligning both numbers column by column, with 0 in a missing hundreds place",
           "The <, >, = symbols with the 'points to the smaller / opens to the larger' orientation, grounded in quantity",
           "Ordered track or 'washing line' for pegging a set of numbers smallest to largest"
         ],
         "commonMisconceptions": [
           "Using the crocodile/Pac-Man mouth as a rote trick with no sense of which number is actually bigger, so the symbol is placed by guess.",
-          "Comparing by digit count of the numeral or by the ONES first (34 vs 38: choosing by 4 vs 8 alone is fine here, but 52 vs 48 wrongly judged by 2 vs 8) — ignoring the leading (tens) digit.",
+          "Compares the ones first, or treats the tens digit as the leading place across 100 (e.g. putting 98 above 104 because 9 is greater than 0), instead of checking hundreds before tens and ones.",
           "Reversing the symbol — knowing which is bigger but writing > where < belongs.",
           "Thinking = can only sit between identical-looking expressions, not that it asserts equal value.",
-          "For same-tens pairs, defaulting to 'they're the same' because the tens match, instead of moving to the ones."
+          "For two-digit same-tens pairs, for same-tens pairs, defaulting to 'they're the same' because the tens match, instead of moving to the ones."
         ]
       },
       "learn": {
-        "summary": "Ages 6-7 (Y2) compare and order two-digit numbers using >, =, < grounded in place value: compare the tens first, and only if the tens are equal compare the ones. Establish quantity/position meaning of 'greater' and 'less' with base-ten blocks and a 0-100 number line before attaching symbols, deliberately use same-tens pairs to force attention onto the ones, and progress from comparing pairs to ordering a set in both directions. The current topic also includes ordering across 100 through 120. Include examples such as 98, 104, 111 and 120 and reason from the highest relevant place rather than applying a tens-only rule to all numbers.",
+        "summary": "Compare and order numbers through 120 using >, = and < grounded in place value: start with the highest relevant place, checking hundreds first across 100, then tens and ones when higher places tie. Establish quantity and number-line meaning before symbols. Use two-digit pairs, same-tens ties, and sets such as 98, 104, 111 and 120. Tens-first is valid for the two-digit examples only; a zero tens digit in 104 does not make it smaller than 98.",
         "activities": [
           {
             "title": "Comparison bench: build, see, and place the symbol",
@@ -173336,7 +173336,7 @@
               "Decide which is greater by looking at the quantity/position first (more tens rods and more blocks in total, further right on the line), then say it aloud: e.g. 'forty-three is greater than thirty-four'.",
               "Place the correct symbol (<, >, or =) into the gap between the two numbers.",
               "Read the completed statement both ways: 34 < 43 ('thirty-four is less than forty-three') and 43 > 34 ('forty-three is greater than thirty-four').",
-              "State the rule used: compare the tens first; the number with more tens is greater, and if the tens are equal, compare the ones."
+              "For these two-digit pairs, state the rule: compare tens first and compare ones only if tens are equal. Explain that across 100 the hundreds place must be checked before tens."
             ],
             "intendedInsight": "'Greater' and 'less' name a real difference in quantity/position, and the symbol records that relation — the same fact can be read from either end."
           },
@@ -173359,25 +173359,25 @@
               "Try a 'crossed-decade' pair such as 52 and 48, and check: 52 has more tens, so it is greater even though its ones digit (2) is smaller than 8.",
               "Also handle an equal pair such as 60 and 60, choosing = and explaining that both show the same value."
             ],
-            "intendedInsight": "Comparing only the first digit you see is not enough: compare the tens first, and only when the tens are equal does the ones digit decide. = asserts equal value, not merely identical-looking symbols."
+            "intendedInsight": "For two-digit numbers, compare tens first and let ones decide only when tens tie. For numbers across 100, check hundreds before either of those places. The equals sign asserts equal value, not merely similar-looking symbols."
           },
           {
             "title": "Order a scrambled set onto a washing line",
             "feedback": [
-              "If a number with a large ones digit is placed too high (e.g. 19 above 51), rebuild both with blocks so 51's five tens stand against 19's single ten, then re-place.",
+              "If a number with a large ones digit is placed too high (e.g. 19 above 51), rebuild both with blocks so 51's five tens stand against 19's single ten, then re-place. If 104 is placed below 98, show one hundred flat against nine tens and eight ones before comparing the lower places.",
               "If ordering is correct one way but shaky the other, have the child read the finished line aloud in both directions to confirm it is the same facts reversed.",
               "Confirm a correct order by checking each neighbouring pair with a symbol."
             ],
-            "rationale": "Moving from pairwise comparison to ordering a set, recording with symbols, makes comparison a practical tool and surfaces whether tens genuinely govern the child's decisions. An ordering mode where numbers are dragged onto a washing line and checked left-to-right is one concrete way to do this; pegged cards on a string work equally well.",
+            "rationale": "Ordering applies pairwise comparison repeatedly. Two-digit sets test tens and ones; a set spanning 100 checks that the highest relevant place governs the decision. Pegged cards on a string or a number line can support either set.",
             "sourceClaims": [],
             "learnerActions": [
-              "Take a mixed set of two-digit numbers, e.g. 19, 27, 51, 72, and arrange them smallest to largest.",
+              "Order a two-digit set such as 19, 27, 51 and 72, then order a set spanning 100 such as 98, 104, 111 and 120, from smallest to largest.",
               "Repeat, ordering the same set largest to smallest.",
               "Include a set containing a same-tens tie so ordering requires the ones to break it.",
               "Check the finished order left to right and record the relations with symbols where appropriate.",
-              "Explain how you decided the order: tens first across the set, ones to break ties."
+              "Explain the order using the highest relevant place first: hundreds across 100, then tens and ones as needed."
             ],
-            "intendedInsight": "Comparison is a tool for organising numbers: ordering a set applies the tens-then-ones rule repeatedly, not as an isolated trick."
+            "intendedInsight": "Ordering a set applies the highest-place-value comparison rule repeatedly: hundreds before tens before ones, using only the places needed for each pair."
           },
           {
             "title": "Talk it through: 'how do you know?'",
@@ -173394,28 +173394,28 @@
               "Answer: '34 and 43 use the same two digits — how can one be bigger?' by referring to place value.",
               "Decide and justify the symbol for an equal pair like 60 and 60."
             ],
-            "intendedInsight": "Justifying a comparison out loud reveals and corrects the reasoning (tens first, ones to break a tie) behind the written symbol."
+            "intendedInsight": "Justifying comparisons reveals the place-value reasoning behind the symbol: tens first for two-digit pairs, and hundreds first when crossing 100."
           },
           {
             "title": "Consolidation and check: choose, order, fill the gap",
             "feedback": [
               "For a wrong symbol, ask the child to identify which is greater first, then fix the orientation separately.",
-              "For a mis-ordered set, direct attention to the tens across the whole set before the ones."
+              "For a mis-ordered set, align hundreds, tens and ones in a place-value chart and start with the highest relevant place."
             ],
             "rationale": "Comparison and ordering map cleanly onto choose-the-symbol, order-the-set, and fill-the-gap tasks, making this a natural consolidation and check surface. These tasks drill and check the skill; on their own they do not build the underlying quantity sense, so they should follow the block/line and tens-tie work rather than replace it.",
             "sourceClaims": [],
             "learnerActions": [
-              "Choose the correct symbol between two numbers, including a same-tens item and an item designed to tempt symbol reversal.",
+              "Choose the correct symbol between varied pairs, including a two-digit same-tens pair, a symbol-reversal lure, and a pair crossing 100 such as 98 and 104.",
               "Order a scrambled set smallest to largest.",
               "Fill in the missing symbol in a statement and read it back aloud."
             ],
-            "intendedInsight": "The tens-then-ones comparison and correct symbol use can be applied quickly and reliably across varied pairs and sets."
+            "intendedInsight": "The highest-place-value comparison rule and correct symbol use apply across two-digit pairs and numbers through 120."
           }
         ],
         "constraints": [
           "Establish the meaning of each symbol with quantities/positions before pushing for speed; 'the open mouth eats the bigger number' is only a memory crutch and must be grounded in 'greater than / less than' with real quantities.",
           "Treat recognition and drill tasks (choosing or filling a symbol) as consolidation/check; they verify the skill but do not by themselves build quantity sense or independent reasoning.",
-          "A single fixed illustration can anchor the tens-then-ones rule with one worked pair, but on its own it cannot let the child compare varied pairs or order a set, which is where the skill is practised; use it as an anchor, not the main activity.",
+          "A fixed illustration can anchor the highest-place comparison rule with one worked pair, but cannot by itself establish comparison across varied pairs or ordering a set. Use two-digit and cross-100 examples in active practice.",
           "Keep symbol orientation (open side to the larger number) as a separate check from the greater/less reasoning, so a correct comparison written with a reversed symbol is diagnosed accurately.",
           "Base-ten blocks and the drawn number line are physical representations with slight thickness; they stand for the abstract numerical values being compared, not the values themselves."
         ],
@@ -173426,7 +173426,8 @@
           "The original claimed a static picture 'can only show one fixed pair', that 3D 'adds no comparative information', and that the judgement is 'better trained by manipulating symbols than by talking'; these comparative/necessity claims are not established by the sources, so they were softened to scoped statements about what fixed images, drill tasks and dialogue do and do not do here.",
           "The UK NC claim and CCSS 1.NBT.3 establish the topic/standard; the UK NC claim was not attached to any activity's sourceClaims because it supports the curriculum requirement (preserved in summary/constraints) rather than a specific pedagogical principle in a rationale.",
           "Two of three cited sources were marked verified:false in the source row; their claims were retained only where they directly support a stated teaching principle, and claims that only establish the topic/standard were not used to justify specific pedagogical moves.",
-          "Editorial taxonomy-cleanup alignment on 23 October 2026: added explicit assessment of the agreed numerical scope through 120. Existing two-digit tasks remain useful examples within the one mastery claim. Original source claims, verification flags, author/model and creation provenance are preserved; this numerical-task adaptation is not a new empirical efficacy claim."
+          "Editorial taxonomy-cleanup alignment on 23 October 2026: added explicit assessment of the agreed numerical scope through 120. Existing two-digit tasks remain useful examples within the one mastery claim. Original source claims, verification flags, author/model and creation provenance are preserved; this numerical-task adaptation is not a new empirical efficacy claim.",
+          "PR-review correction on 23 October 2026: made the highest-relevant-place rule explicit throughout authored guidance and evidence. Tens-first is scoped to two-digit examples; cross-100 tasks begin with hundreds. Original two-digit source claims and verification flags remain unchanged; this is a numerical-task adaptation, not a new empirical efficacy claim."
         ],
         "schemaVersion": 2
       },
@@ -173434,17 +173435,17 @@
         "method": "performance_task",
         "poeTask": null,
         "probeDeeper": [
-          "Which digit did you look at first — tens or ones? Why the tens?",
+          "Which place did you check first, and why? For 34 and 43 that is tens; which place decides 98 and 104?",
           "34 and 43 use the same two digits — how can one be bigger?",
           "Put a symbol between 60 and 60 — which one, and why?",
           "Why is 104 greater than 98 even though 104 has zero tens? Show the hundred, tens and ones that justify your answer."
         ],
-        "correctAnswer": "34 < 43; order 19, 27, 51, 72; and they compare the tens digit first, ones only to break a tie. Across 100: 98 < 104 < 111 < 120; 98 < 104, 104 < 111, and 104 = 104. Compare the highest relevant place first: hundreds, then tens, then ones.",
+        "correctAnswer": "34 < 43; order 19, 27, 51, 72; and for these two-digit comparisons they check tens first, with ones breaking a tie. Across 100: 98 < 104 < 111 < 120; 98 < 104, 104 < 111, and 104 = 104. Compare the highest relevant place first: hundreds, then tens, then ones.",
         "errorPatterns": [
           {
             "kind": "misconception",
             "pattern": "Compares by a single digit's size regardless of place: thinks 19 > 51 because 9 > 1",
-            "nextMove": "Build both with tens and ones; establish that tens are worth more, so compare tens first. Re-order with the models in view.",
+            "nextMove": "Align base-ten representations by hundreds, tens and ones. Compare the highest relevant place first: hundreds across 100, then tens and ones if higher places tie. Re-order with the models in view.",
             "distractor": null,
             "revealedBy": "Ordering puts numbers with a big ones digit too high; 34/43 judged by the shared digits.",
             "reteachPrerequisiteId": "mt_THl9GLxwoL"
@@ -173464,7 +173465,7 @@
           "partial": "Compares correctly for clearly different numbers but stumbles on same-digit pairs, or reasons right yet writes the symbol backwards. This includes correct two-digit comparisons with uncertainty when crossing 100 or comparing a zero in the tens place."
         },
         "diagnosticPrompt": "Watch them compare and order. 'Put the right symbol between 34 and 43. Now order these smallest to largest: 27, 72, 19, 51. Tell me how you decided.' The 34/43 pair (same digits) is the key — watch whether they weigh the tens first. Then order 98, 104, 111 and 120. Put comparison symbols between 98 and 104, 104 and 111, and 104 and 104, and explain which place decides each comparison.",
-        "whatMakesItDiscriminate": "34 vs 43 uses identical digits so a child comparing digit-by-digit without place weighting cannot fake it; ordering a mixed set reveals whether tens govern the comparison. The '<'/'>' choice also exposes pure symbol reversal separately from the reasoning. The 98/104 comparison additionally checks that a zero in the tens place does not obscure the value of a hundred."
+        "whatMakesItDiscriminate": "34 vs 43 uses identical digits so a child comparing digit-by-digit without place weighting cannot fake it; ordering a mixed set reveals whether the highest relevant place governs each comparison. The '<'/'>' choice also exposes pure symbol reversal separately from the reasoning. The 98/104 comparison additionally checks that a zero in the tens place does not obscure the value of a hundred."
       },
       "sources": [
         {
@@ -173490,7 +173491,7 @@
       "provenance": {
         "originalResearchGeneratedBy": "claude-opus-4-8 (teaching-research plugin)",
         "createdAt": "2026-07-09T13:22:43.121Z",
-        "updatedAt": "2026-10-23T12:03:18.188Z"
+        "updatedAt": "2026-10-23T15:05:58.157Z"
       },
       "publicationNotes": {
         "omittedCurriculumText": []

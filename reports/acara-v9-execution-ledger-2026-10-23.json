@@ -306,15 +306,23 @@
    "destinations": [
     {
      "topicId": "mt_rSjwQLqLXH",
-     "clause": "tool/technique choice reasoning (AC9TDE4P03 COMPONENT)"
+     "clause": "tool/technique choice reasoning (AC9TDE4P03 component)"
     },
     {
      "topicId": "mt_8FUXG_39-C",
-     "clause": "measure/mark/secure and cut with junior hacksaw + bench hook, hand drill, low-temp glue gun (AC9TDE4P03 COMPONENT)"
+     "clause": "measure, mark, secure and cut with a junior hacksaw and bench hook (sawing method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_uUMLgRTrhn",
+     "clause": "drilling with a hand drill (method; AC9TDE4P03 component)"
+    },
+    {
+     "topicId": "mt_EiI2PPWPHJ",
+     "clause": "adhesive joining incl. low-temperature glue gun (method; AC9TDE4P03 component)"
     },
     {
      "topicId": "mt_FfMBoU1jt7",
-     "clause": "running stitch joining fabric (AC9TDE4P03 COMPONENT)"
+     "clause": "running-stitch sewing (method; AC9TDE4P03 component)"
     },
     {
      "topicId": "mt_FtCLISvSGw",
@@ -388,15 +396,23 @@
    "destinations": [
     {
      "topicId": "mt_rSjwQLqLXH",
-     "clause": "justify selections (AC9TDE6P03 COMPONENT)"
+     "clause": "justify selections of materials and tools (AC9TDE6P03 component)"
     },
     {
      "topicId": "mt_8FUXG_39-C",
-     "clause": "hazard identification + controls, finish to planned quality checked against drawing (AC9TDE6P03 COMPONENT)"
+     "clause": "sawing hazard controls and finishing/checking cut parts against the design drawing (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_uUMLgRTrhn",
+     "clause": "drilling hazard controls (clamping, safety glasses) and checking hole position (AC9TDE6P03 component)"
+    },
+    {
+     "topicId": "mt_EiI2PPWPHJ",
+     "clause": "adhesive/glue-gun hazard controls and checking joints hold (AC9TDE6P03 component)"
     },
     {
      "topicId": "mt_FfMBoU1jt7",
-     "clause": "sewn product (AC9TDE6P03 COMPONENT)"
+     "clause": "sewn product, e.g. a sewn bag (AC9TDE6P03 component)"
     },
     {
      "topicId": "mt_v5pOal_23d",
