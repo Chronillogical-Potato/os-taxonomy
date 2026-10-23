@@ -16566,6 +16566,28 @@
       ]
     },
     {
+      "id": "mt_09sySPqM9Z",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Fractions",
+      "name": "Fractions as sums of unit fractions",
+      "description": "Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.1023784901758014,
+      "evidence": [
+        "Express 5/8 as a sum of five copies of 1/8",
+        "Show on a number line how 4/3 is built by iterating 1/3 four times",
+        "Explain why 7/4 = 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4"
+      ],
+      "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
+      "standards": [
+        "acara-v9:AC9M4N04",
+        "ccss-math:4.NF.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.8"
+      ]
+    },
+    {
       "id": "mt_3y7xKP9MjU",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -16675,28 +16697,6 @@
       "standards": [
         "acara-v9:AC9M4N01",
         "uk-nc-2013:Ma/KS2/Y4/F/2"
-      ]
-    },
-    {
-      "id": "mt_09sySPqM9Z",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Fractions",
-      "name": "Understanding fractions (age 9+)",
-      "description": "Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 10,
-      "centrality": 0.1023784901758014,
-      "evidence": [
-        "Express 5/8 as a sum of five copies of 1/8",
-        "Show on a number line how 4/3 is built by iterating 1/3 four times",
-        "Explain why 7/4 = 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4"
-      ],
-      "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
-      "standards": [
-        "acara-v9:AC9M4N04",
-        "ccss-math:4.NF.3",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.8"
       ]
     },
     {
@@ -21317,7 +21317,7 @@
       "type": "PROCEDURAL",
       "subject": "Mathematics",
       "domain": "Measurement",
-      "name": "Converting measurement units (age 9+)",
+      "name": "Converting measurement units",
       "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
