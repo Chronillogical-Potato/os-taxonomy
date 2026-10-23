@@ -76,7 +76,19 @@ npm run build
 npm run build -- hidden-cubes
 ```
 
-The pinned development dependencies are Three.js 0.180.0 and esbuild 0.27.7.
+The pinned development dependencies are Three.js 0.180.0, esbuild 0.27.7 and
+Playwright 1.64.1. Run `npm test` for vocabulary matching and the repeatable
+control/definition regression checks with:
+
+```sh
+npx playwright install chromium
+npm run test:browser
+```
+
+The browser checks exercise both vocabulary helpers with mouse and touch,
+nested and dynamic controls, button actions and lesson-text definitions.
+To use an existing Chromium installation, set
+`PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its executable path.
 The build embeds the skill's font/CSS and writes `dist/<example>.html`, leaving
 reviewed snapshots untouched. Open that output and validate it after editing;
 a successful build alone is not a UX review. Source imports were normalized
