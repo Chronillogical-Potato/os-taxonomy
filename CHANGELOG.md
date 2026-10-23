@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Map Ontario Grade 2 Mathematics after a reuse-first audit of 39 specific and 12 overall expectations. Add four focused elementary claims extracted from broader topics and one concurrent-code skill; clarify three existing evidence items and repair unnecessary prerequisite gates. Preserve all existing curriculum pairs, learner records and research. Refresh the verified staging export (1,838 topics / 3,878 edges); publish the [code-by-code report](reports/ontario-grade2-mathematics-2026-10-23.md).
+
 - Complete the Australian retrospective cleanup: retire 106 of 314 additions, retain 208 with focused claims, and add seven missing focused skills/procedures (net 99 fewer topics than the audited 1,932-topic staging baseline). Redistribute clauses before retiring IDs; publish flattened destinations, all 314 + 14 decisions and nine source-issue closures. Correct weak associations and replace blanket Full claims with current mappings and explicit review limits. Preserve observed learner data and history; reconcile only the 52 explicitly approved inherited estimates. Refresh the verified staging projection (1,833 topics / 3,846 edges), derived centrality, research binding and checksums.
 - Include the previously ingested Ontario elementary catalogue: nine official documents / 3,862 expectations, bringing the catalogue to 17 sources / 7,743 expectations. Ontario exports codes and official links only. Grade 1 Mathematics authoring remains a focused pass; catalogue availability is not a whole-curriculum coverage claim.
 

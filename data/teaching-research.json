@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-23T15:07:48.635Z",
-  "topicFileSha256": "15806a0b74445c52651e84c882104f630eb96ea9195c0befe8469587a0180fc0",
+  "exportedAt": "2026-10-23T17:12:36.455Z",
+  "topicFileSha256": "5a3598f92d92350c0358c735441195aa4d4fcb3f967d56cb7c2bf46010963267",
   "recordCount": 1049,
   "coverage": {
-    "topicCount": 1833,
+    "topicCount": 1838,
     "withResearch": 1049,
-    "withoutResearch": 784,
+    "withoutResearch": 789,
     "bySubject": {
       "Computing": {
-        "topics": 50,
+        "topics": 51,
         "withResearch": 0,
-        "withoutResearch": 50
+        "withoutResearch": 51
       },
       "English": {
         "topics": 331,
@@ -40,9 +40,9 @@
         "withoutResearch": 43
       },
       "Mathematics": {
-        "topics": 567,
+        "topics": 571,
         "withResearch": 502,
-        "withoutResearch": 65
+        "withoutResearch": 69
       },
       "Personal & Social Development": {
         "topics": 117,
@@ -192,6 +192,7 @@
       "mt_AzTrT5ySCx",
       "mt_B1ATUEVNPz",
       "mt_B1LdSGMP66",
+      "mt_B1lPmwJz0h",
       "mt_B8JOz79O6t",
       "mt_BK5xwkrD5C",
       "mt_BLzNxSSdWu",
@@ -248,6 +249,7 @@
       "mt_GugVunb2lI",
       "mt_H0ajATAlus",
       "mt_H1pAi4F_Oh",
+      "mt_H4BfdHIdhD",
       "mt_H4YZ1rSKP3",
       "mt_H4bLNkDrGJ",
       "mt_H7DquwQi_F",
@@ -280,6 +282,7 @@
       "mt_IoGOSAQ8bz",
       "mt_Iwg2diBSyW",
       "mt_J5cx6S_eT9",
+      "mt_JEtvvsAQjQ",
       "mt_JI0Iv01hCT",
       "mt_JNzgBlNkx0",
       "mt_JRzXQl9M7c",
@@ -466,6 +469,7 @@
       "mt_X7Tu94-a2m",
       "mt_XK7NYt61cO",
       "mt_XMz_ohNjYO",
+      "mt_XXpEz9tyu6",
       "mt_XbGfVhfiUz",
       "mt_XeMZdf2Y9W",
       "mt_XeT37rd69f",
@@ -737,6 +741,7 @@
       "mt_rqLMfiw61L",
       "mt_rxJ2O_9Lkr",
       "mt_rymBfJmvFl",
+      "mt_ryyJWULiP5",
       "mt_s6-6FYb5UQ",
       "mt_sHMpam8zcd",
       "mt_sJyZW4qYUG",

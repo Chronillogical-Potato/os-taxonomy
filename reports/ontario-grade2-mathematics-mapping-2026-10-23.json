@@ -1,0 +1,631 @@
+{
+  "scope": "Ontario Mathematics 2020 Grade 2; 39 specific and 12 overall expectations. Semantic authoring judgments, not learner certification. Source text remains in staging; this public report contains codes and official links only.",
+  "newlyExtractedCanonicalCount": 4,
+  "genuinelyAbsentSkillCount": 1,
+  "rows": [
+    {
+      "externalId": "ON-MATH-2020-G2-A1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_WkKkb7W9Qd",
+        "mt_kJ5wYzO8qC",
+        "mt_8dstvf-KKb",
+        "mt_EBYGhd8X3x",
+        "mt_TMoHjMhRS2",
+        "mt_20WfHhnL39",
+        "mt_IM1G_7QzTa",
+        "mt_f67qGDhyfi",
+        "mt_LhkP_KKIRS",
+        "mt_Iwg2diBSyW",
+        "mt_j8Pv3s7TZR",
+        "mt_S4G6GLKr1-",
+        "mt_UGf6jICEhs",
+        "mt_pAuo9Op89t",
+        "mt_35-DhMh_Yr",
+        "mt_QxsoqVUt6u",
+        "mt_YbX3LD0Eca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_9L3NQqgqRd",
+        "mt_F_zEAJ8VIo",
+        "mt_aPBzD28_mT",
+        "mt_Bt-iORUzdO",
+        "mt_8gy7uxRlF6",
+        "mt_x8TshvbbQT"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AQcVRBddko",
+        "mt_U0waNfD8PB"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_9L3NQqgqRd",
+        "mt_0ZDouU664X"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_M2v1A9OEuM",
+        "mt_IzQvs7k_sE",
+        "mt_W3VOAuFwVw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_0u4KLbvBa1",
+        "mt_hniI4E-OCE"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_LpSuPgL31x",
+        "mt_IfEgu0X449",
+        "mt_Xp-rj46S2w"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B1.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_FbDKeLfBCo"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_QCgbiVrwnp",
+        "mt_T76hKqXf0z",
+        "mt_ehGS_uVSJv",
+        "mt_PZ909yPrEC",
+        "mt_LpSuPgL31x"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt__t4afSyZRm",
+        "mt_s2mfRBoTal",
+        "mt_m1W6nTQJ2b"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AKAtWEwpcj",
+        "mt_I5j1ZWo2cn",
+        "mt_PpWSHA-0kv",
+        "mt_QaYfeVL-0C",
+        "mt_kJ5wYzO8qC"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_glPPG-kTQY",
+        "mt_UQnAFPs83F",
+        "mt_cChv2j_-Da",
+        "mt_yTWxkzzoOZ",
+        "mt_PgsHGYJMH-"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_PZ909yPrEC",
+        "mt_GRWwTDZ3wD",
+        "mt_xACS3rWWDp"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-B2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_LpSuPgL31x"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ZjIFGc6zPW",
+        "mt_WXW0hjNhph",
+        "mt_uG2mjHFOlO"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ZjIFGc6zPW"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_fZTn0W_iZR"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_kw7xmp68rU",
+        "mt_RFeVlw0QvX"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_H4BfdHIdhD"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_oIzycTBeE4",
+        "mt_3JgrHY221M"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Bt-iORUzdO",
+        "mt_m1W6nTQJ2b",
+        "mt_oIzycTBeE4"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C3",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C3.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_XXpEz9tyu6",
+        "mt_sPV503BQnI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C3.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_XXpEz9tyu6",
+        "mt_5UtPmgdoQ9",
+        "mt_sPV503BQnI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-C4",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_WkKkb7W9Qd",
+        "mt_fLOkq-HfPB",
+        "mt_IM1G_7QzTa",
+        "mt_f67qGDhyfi",
+        "mt_iQYPw8bMfN"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JEtvvsAQjQ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ebQURBOsM5",
+        "mt_c29FaCTNsx",
+        "mt_JEtvvsAQjQ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_c29FaCTNsx",
+        "mt_VhBH8wrFC6",
+        "mt_mayItsxMUu"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1VSfm9yiLn",
+        "mt_kxeuXm6EyC",
+        "mt_VhBH8wrFC6",
+        "mt_mayItsxMUu",
+        "mt_JEtvvsAQjQ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_iFFKZd-Vgv"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-D2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_gTI7MuS-y8",
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_fEuoBYw6bU",
+        "mt_zuOGOGFAKb",
+        "mt_sBcRdUfAzV",
+        "mt_hRZyKvz1KN"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_MqqR7VUoz1",
+        "mt_6xNmQLzuqm"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_B1lPmwJz0h"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_61Pa4Eksva",
+        "mt_w4cUnN_SsQ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_TdV9YGJEoY",
+        "mt_Y9XKzLrUAZ",
+        "mt_61Pa4Eksva"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_cqSf213hSa",
+        "mt_e7tLi9SCIE",
+        "mt_jHv4BgRK8B"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_OzRZ89GrQW",
+        "mt_e4x3l2JeLI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_e4x3l2JeLI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-E2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt__N55B7u7HD",
+        "mt_TcG90kS8nu",
+        "mt_2XDGT5tei1"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-F1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G2-F1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G2-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AF2BeFQwfX",
+        "mt_FIkqA0qhnj",
+        "mt_pbuhUQJjtt"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3846,
+  "edgeCount": 3878,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -455,6 +455,12 @@
     },
     {
       "topicId": "mt_167X6Ax8P7",
+      "prerequisiteId": "mt_B1lPmwJz0h",
+      "strength": "soft",
+      "reason": "formal triangle congruence criteria build on matching corresponding sides and angles"
+    },
+    {
+      "topicId": "mt_167X6Ax8P7",
       "prerequisiteId": "mt_Jf8xcX4UTq",
       "strength": "hard",
       "reason": "Determining congruence requires constructing triangles from given conditions"
@@ -788,6 +794,12 @@
       "prerequisiteId": "mt_h4abSktujo",
       "strength": "hard",
       "reason": "Analysing data about inherited traits requires 'inherited characteristic', 'variation', and 'offspring' vocabulary"
+    },
+    {
+      "topicId": "mt_1YwOCMMwD8",
+      "prerequisiteId": "mt_JEtvvsAQjQ",
+      "strength": "soft",
+      "reason": "probability enumeration with Venn/two-way tables and set notation builds on two-attribute sorting; enumeration/notation stay in 1YwO"
     },
     {
       "topicId": "mt_1YwOCMMwD8",
@@ -1430,6 +1442,12 @@
       "prerequisiteId": "mt_ehGS_uVSJv",
       "strength": "soft",
       "reason": "Solving missing-number problems benefits from knowing the inverse relationship"
+    },
+    {
+      "topicId": "mt_3JgrHY221M",
+      "prerequisiteId": "mt_H4BfdHIdhD",
+      "strength": "soft",
+      "reason": "solving for an unknown builds on knowing what the symbol stands for"
     },
     {
       "topicId": "mt_3JgrHY221M",
@@ -4295,6 +4313,12 @@
     },
     {
       "topicId": "mt_anAe11HAEH",
+      "prerequisiteId": "mt_H4BfdHIdhD",
+      "strength": "soft",
+      "reason": "letters for unknowns build on symbol meaning"
+    },
+    {
+      "topicId": "mt_anAe11HAEH",
       "prerequisiteId": "mt_HFRYjTb-Z5",
       "strength": "soft",
       "reason": "Fluent within-1000 computation supports solving mixed-operation problems"
@@ -4778,6 +4802,18 @@
       "prerequisiteId": "mt_yNGrY9xJ8Y",
       "strength": "hard",
       "reason": "Modern Egyptology ethics builds on understanding artefacts as historical evidence"
+    },
+    {
+      "topicId": "mt_B1lPmwJz0h",
+      "prerequisiteId": "mt_8OAGVdeTJ_",
+      "strength": "hard",
+      "reason": "recognising angles at the corners of shapes is needed to compare angles"
+    },
+    {
+      "topicId": "mt_B1lPmwJz0h",
+      "prerequisiteId": "mt_sBcRdUfAzV",
+      "strength": "hard",
+      "reason": "describing 2-D shape properties (sides) is needed to compare them"
     },
     {
       "topicId": "mt_B1zj1RwQ3a",
@@ -6062,6 +6098,12 @@
       "prerequisiteId": "mt_2yas4Unc8o",
       "strength": "soft",
       "reason": "Time conversion supports interpreting timetables"
+    },
+    {
+      "topicId": "mt_Cqm8iy48UI",
+      "prerequisiteId": "mt_JEtvvsAQjQ",
+      "strength": "soft",
+      "reason": "completing/reading two-way tables (alongside timetables) builds on two-attribute organisation; timetable and journey-time calculation stay in Cqm8"
     },
     {
       "topicId": "mt_Cqm8iy48UI",
@@ -7697,6 +7739,12 @@
     },
     {
       "topicId": "mt_FbDKeLfBCo",
+      "prerequisiteId": "mt_g3W0mdADVu",
+      "strength": "hard",
+      "reason": "the simplest equivalence (two quarters equal one half, seen in drawings) is the real readiness for small-denominator equivalence"
+    },
+    {
+      "topicId": "mt_FbDKeLfBCo",
       "prerequisiteId": "mt_Kr3IyA6m-O",
       "strength": "soft",
       "reason": "Number line supports seeing equivalent fractions as the same point"
@@ -7704,8 +7752,8 @@
     {
       "topicId": "mt_FbDKeLfBCo",
       "prerequisiteId": "mt_MyGblah2yY",
-      "strength": "hard",
-      "reason": "Extends equivalence of 2/4 and 1/2 to broader equivalent fractions"
+      "strength": "soft",
+      "reason": "Showing equivalent fractions with diagrams does not require writing fraction-of-amount calculations (1/2 of 10 = 5); MyGb remains useful background. Real readiness is FbDK -> g3W0 (two quarters equal one half)"
     },
     {
       "topicId": "mt_FbDKeLfBCo",
@@ -7988,6 +8036,12 @@
       "prerequisiteId": "mt_BtMbZibZUj",
       "strength": "soft",
       "reason": "Related vowel knowledge supports diphthongs"
+    },
+    {
+      "topicId": "mt_fmm-P17Vka",
+      "prerequisiteId": "mt_ryyJWULiP5",
+      "strength": "soft",
+      "reason": "statistics vocabulary builds on the mode concept"
     },
     {
       "topicId": "mt_FNSeo9_T2Z",
@@ -9112,6 +9166,24 @@
       "reason": "Ohm's Law relates voltage (V), current (I) and resistance (R) — requires prior understanding of what each quantity means"
     },
     {
+      "topicId": "mt_H4BfdHIdhD",
+      "prerequisiteId": "mt_8RmpkDxT9L",
+      "strength": "hard",
+      "reason": "reading +, − and = in number sentences is needed to tell symbols for numbers from operation signs"
+    },
+    {
+      "topicId": "mt_H4BfdHIdhD",
+      "prerequisiteId": "mt_d4reBzaIRl",
+      "strength": "soft",
+      "reason": "quantities that change vs stay the same support the 'can change' use of a symbol"
+    },
+    {
+      "topicId": "mt_H4BfdHIdhD",
+      "prerequisiteId": "mt_oIzycTBeE4",
+      "strength": "soft",
+      "reason": "equal-sign meaning supports interpreting an unknown"
+    },
+    {
       "topicId": "mt_H4bLNkDrGJ",
       "prerequisiteId": "mt_vFYFvgrPgD",
       "strength": "hard",
@@ -9738,8 +9810,8 @@
     {
       "topicId": "mt_hRZyKvz1KN",
       "prerequisiteId": "mt_SH7QgFl8-v",
-      "strength": "hard",
-      "reason": "Identifying lines of symmetry requires the ability to draw and interpret reflection on a grid"
+      "strength": "soft",
+      "reason": "Finding lines of symmetry in 2-D shapes does not require carrying out grid transformations; reflection experience is helpful background. hRZy keeps its hard prerequisite sBcR (2-D shape properties)"
     },
     {
       "topicId": "mt_h_shhH-6DC",
@@ -10100,6 +10172,12 @@
       "prerequisiteId": "mt_4WaKWECpcv",
       "strength": "hard",
       "reason": "Writing algebraic expressions extends writing/interpreting numerical expressions"
+    },
+    {
+      "topicId": "mt_i9rJbuFO3p",
+      "prerequisiteId": "mt_H4BfdHIdhD",
+      "strength": "soft",
+      "reason": "algebraic letters for unknowns build on symbol meaning"
     },
     {
       "topicId": "mt_i9rJbuFO3p",
@@ -11110,6 +11188,24 @@
       "reason": "Must know some dinosaurs before distinguishing them from non-dinosaurs"
     },
     {
+      "topicId": "mt_JEtvvsAQjQ",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "soft",
+      "reason": "tally charts support two-way tally tables"
+    },
+    {
+      "topicId": "mt_JEtvvsAQjQ",
+      "prerequisiteId": "mt_fEuoBYw6bU",
+      "strength": "soft",
+      "reason": "sorting shapes by properties provides attributes to sort by"
+    },
+    {
+      "topicId": "mt_JEtvvsAQjQ",
+      "prerequisiteId": "mt_ylXdiVRAYv",
+      "strength": "hard",
+      "reason": "sorting by one attribute and counting categories precedes sorting by two"
+    },
+    {
       "topicId": "mt_Jf8xcX4UTq",
       "prerequisiteId": "mt_4MFUAsbx_6",
       "strength": "hard",
@@ -11308,6 +11404,12 @@
       "reason": "A dot plot is the same display as a line plot: one mark per observation above a number-line scale, with repeated values stacked; Grade 2 line plots first teach this construction"
     },
     {
+      "topicId": "mt_JRzXQl9M7c",
+      "prerequisiteId": "mt_ryyJWULiP5",
+      "strength": "soft",
+      "reason": "reading the most common value from a dot plot builds on the mode concept"
+    },
+    {
       "topicId": "mt_JSUGQ5Repv",
       "prerequisiteId": "mt_URTJbS3hhs",
       "strength": "soft",
@@ -11474,6 +11576,12 @@
       "prerequisiteId": "mt_go5i87u2b9",
       "strength": "soft",
       "reason": "Seasonal changes observation supports daylight pattern recognition"
+    },
+    {
+      "topicId": "mt_K0Y15w48SY",
+      "prerequisiteId": "mt_B1lPmwJz0h",
+      "strength": "soft",
+      "reason": "understanding transformations preserve congruence builds on the concept"
     },
     {
       "topicId": "mt_K0Y15w48SY",
@@ -13316,6 +13424,12 @@
       "prerequisiteId": "mt_QHT16CrFO-",
       "strength": "hard",
       "reason": "Comparing data sets builds on representing and describing categorical data"
+    },
+    {
+      "topicId": "mt_mn765HbXi1",
+      "prerequisiteId": "mt_ryyJWULiP5",
+      "strength": "soft",
+      "reason": "comparing groups by mode in digital displays builds on finding the mode"
     },
     {
       "topicId": "mt_mn765HbXi1",
@@ -16337,6 +16451,12 @@
     },
     {
       "topicId": "mt_QHT16CrFO-",
+      "prerequisiteId": "mt_ryyJWULiP5",
+      "strength": "soft",
+      "reason": "reporting categorical distributions by mode builds on finding the mode"
+    },
+    {
+      "topicId": "mt_QHT16CrFO-",
       "prerequisiteId": "mt_TiFjjvBMaY",
       "strength": "hard",
       "reason": "Reporting distribution shape builds on describing distributions"
@@ -17410,6 +17530,30 @@
       "reason": "Emotion intensity builds on knowing basic emotion categories"
     },
     {
+      "topicId": "mt_ryyJWULiP5",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "soft",
+      "reason": "reading tallies/pictographs is representational support, not required to identify the most common category in concrete data"
+    },
+    {
+      "topicId": "mt_ryyJWULiP5",
+      "prerequisiteId": "mt_mayItsxMUu",
+      "strength": "soft",
+      "reason": "line plots as a display to read the mode from"
+    },
+    {
+      "topicId": "mt_ryyJWULiP5",
+      "prerequisiteId": "mt_VhBH8wrFC6",
+      "strength": "soft",
+      "reason": "bar graphs as a display to read the mode from"
+    },
+    {
+      "topicId": "mt_ryyJWULiP5",
+      "prerequisiteId": "mt_ylXdiVRAYv",
+      "strength": "hard",
+      "reason": "ordering categories from most to fewest is needed to find the most common one"
+    },
+    {
       "topicId": "mt_s08-QxASd2",
       "prerequisiteId": "mt_FZ_ixwU1p1",
       "strength": "hard",
@@ -17654,6 +17798,12 @@
       "prerequisiteId": "mt_YbX3LD0Eca",
       "strength": "soft",
       "reason": "'Listening to Others' supports 'Asking permission'"
+    },
+    {
+      "topicId": "mt_SH7QgFl8-v",
+      "prerequisiteId": "mt_B1lPmwJz0h",
+      "strength": "soft",
+      "reason": "checking an image is congruent builds on the congruence concept; grid transformations stay in SH7Q"
     },
     {
       "topicId": "mt_ShAptVcQR3",
@@ -21496,6 +21646,18 @@
       "reason": "Describing distributions using mean, median, mode, and range requires all these statistical terms"
     },
     {
+      "topicId": "mt_XSXnTQoQ4l",
+      "prerequisiteId": "mt_ryyJWULiP5",
+      "strength": "soft",
+      "reason": "choosing among mean/median/mode builds on finding the mode; integrated use stays"
+    },
+    {
+      "topicId": "mt_Xt1cRqaBOW",
+      "prerequisiteId": "mt_JEtvvsAQjQ",
+      "strength": "soft",
+      "reason": "Venn sorting of quadrilateral classes builds on two-attribute sorting; shape hierarchy stays in Xt1c"
+    },
+    {
       "topicId": "mt_Xt1cRqaBOW",
       "prerequisiteId": "mt_sBcRdUfAzV",
       "strength": "hard",
@@ -21602,6 +21764,30 @@
       "prerequisiteId": "mt_xVW5U41tbp",
       "strength": "hard",
       "reason": "Must know rainforest animals before learning how they are adapted"
+    },
+    {
+      "topicId": "mt_XXpEz9tyu6",
+      "prerequisiteId": "mt_5UtPmgdoQ9",
+      "strength": "soft",
+      "reason": "testing/debugging supports checking combined behaviour"
+    },
+    {
+      "topicId": "mt_XXpEz9tyu6",
+      "prerequisiteId": "mt_6XbAmdmjDb",
+      "strength": "soft",
+      "reason": "loops often appear inside concurrent scripts"
+    },
+    {
+      "topicId": "mt_XXpEz9tyu6",
+      "prerequisiteId": "mt_iqmt8wL26h",
+      "strength": "soft",
+      "reason": "sequence/repeat concepts support contrasting concurrent with sequential"
+    },
+    {
+      "topicId": "mt_XXpEz9tyu6",
+      "prerequisiteId": "mt_sPV503BQnI",
+      "strength": "hard",
+      "reason": "writing and running a single sequential script from a start event comes first"
     },
     {
       "topicId": "mt_xYjD_kA70s",
@@ -22238,6 +22424,12 @@
       "prerequisiteId": "mt_cChv2j_-Da",
       "strength": "hard",
       "reason": "Solving word problems within 100 requires fluent computation within 100"
+    },
+    {
+      "topicId": "mt_yTWxkzzoOZ",
+      "prerequisiteId": "mt_H4BfdHIdhD",
+      "strength": "soft",
+      "reason": "writing an equation with a symbol for the unknown builds on its meaning"
     },
     {
       "topicId": "mt_yTWxkzzoOZ",
