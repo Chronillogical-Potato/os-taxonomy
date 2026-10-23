@@ -14,6 +14,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { checkTeachingResearch } from './check-teaching-research.mjs';
+import { findDependencyCycle } from './check-dependency-cycles.mjs';
 
 const DATA = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'data');
 const load = (name) => JSON.parse(readFileSync(resolve(DATA, name), 'utf8'));
@@ -71,6 +72,10 @@ for (const d of deps.dependencies) {
   check(d.topicId !== d.prerequisiteId, `self-dependency on ${d.topicId}`);
   check(d.strength === 'hard' || d.strength === 'soft', `bad strength ${d.strength}`);
 }
+
+// --- prerequisite graph must be acyclic (hard and soft edges) ---------------
+const cycle = findDependencyCycle(deps.dependencies);
+check(cycle === null, `dependency cycle: ${cycle?.join(' -> ')}`);
 
 // --- referential integrity: topic → standard -------------------------------
 let danglingRefs = 0;
