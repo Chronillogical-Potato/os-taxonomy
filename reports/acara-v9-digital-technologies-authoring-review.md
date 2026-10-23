@@ -1,5 +1,7 @@
 # Australian Digital Technologies authoring review
 
+> Historical authoring snapshot. Its counts and Full labels describe the original contribution, not the current release. See the [23 October cleanup](acara-v9-cleanup-2026-10-23.md) and [current mapping summary](acara-v9-scope-coverage.md).
+
 Reviewed 21 October 2026. All 38 Foundation–Year 6 standards are Full in the
 [coverage report](acara-v9-digital-technologies-coverage.md), with 93 links
 across 74 topics. This batch adds 38 Computing topics and extends no

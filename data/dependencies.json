@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 4102,
+  "edgeCount": 3846,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -35,6 +35,12 @@
     },
     {
       "topicId": "mt_085iC6v-Oa",
+      "prerequisiteId": "mt_hHcaPPtPzS",
+      "strength": "hard",
+      "reason": "Analysing risky situations builds on recognising unsafe situations, warning signs and unsafe secrets"
+    },
+    {
+      "topicId": "mt_085iC6v-Oa",
       "prerequisiteId": "mt_JivEBTD_KV",
       "strength": "soft",
       "reason": "'Peer Pressure and Resisting It' supports 'Analysing risky situations'"
@@ -42,8 +48,8 @@
     {
       "topicId": "mt_085iC6v-Oa",
       "prerequisiteId": "mt_Udv6pH1nRh",
-      "strength": "hard",
-      "reason": "'Analysing risky situations' builds on 'Staying safe online and offline'"
+      "strength": "soft",
+      "reason": "Knowing protective online actions is related, but analysing risk does not require performing them"
     },
     {
       "topicId": "mt_085iC6v-Oa",
@@ -158,24 +164,6 @@
       "prerequisiteId": "mt_yHQacItlhf",
       "strength": "hard",
       "reason": "Recommending books requires ability to identify themes and conventions across genres to articulate what makes a book worth reading"
-    },
-    {
-      "topicId": "mt_0MI9ybM3j_",
-      "prerequisiteId": "mt_eoPcc4nrBE",
-      "strength": "soft",
-      "reason": "'Fair testing (age 8+)' supports 'Evaluating the design process'"
-    },
-    {
-      "topicId": "mt_0MI9ybM3j_",
-      "prerequisiteId": "mt_hE05udHee7",
-      "strength": "hard",
-      "reason": "'Evaluating the design process' builds on 'Sequencing production steps'"
-    },
-    {
-      "topicId": "mt_0MI9ybM3j_",
-      "prerequisiteId": "mt_v5yDTWEiyQ",
-      "strength": "soft",
-      "reason": "'Reflecting After Learning' supports 'Evaluating the design process'"
     },
     {
       "topicId": "mt_0NlbulkB5P",
@@ -496,18 +484,6 @@
       "reason": "Need noun concept before plural forms"
     },
     {
-      "topicId": "mt_196Gb4q6a5",
-      "prerequisiteId": "mt_x08z0N0HX8",
-      "strength": "soft",
-      "reason": "'Questions about the past' supports 'Telling stories of the past'"
-    },
-    {
-      "topicId": "mt_196Gb4q6a5",
-      "prerequisiteId": "mt_zlSoIKPyId",
-      "strength": "hard",
-      "reason": "'Telling stories of the past' builds on 'Retelling Stories with Structure'"
-    },
-    {
       "topicId": "mt_19j_5AuuQI",
       "prerequisiteId": "mt_9L3NQqgqRd",
       "strength": "soft",
@@ -584,18 +560,6 @@
       "prerequisiteId": "mt_DJh2JPwTf6",
       "strength": "soft",
       "reason": "Understanding herbivore/carnivore classification helps interpret coprolite contents"
-    },
-    {
-      "topicId": "mt_1GDEHyEZYH",
-      "prerequisiteId": "mt_LpSuPgL31x",
-      "strength": "hard",
-      "reason": "Sharing on screen builds on equal sharing with real objects"
-    },
-    {
-      "topicId": "mt_1GDEHyEZYH",
-      "prerequisiteId": "mt_PZ909yPrEC",
-      "strength": "soft",
-      "reason": "Seeing equal groups as repeated addition supports grouping tasks"
     },
     {
       "topicId": "mt_1GF5MeNZPA",
@@ -688,18 +652,6 @@
       "reason": "Must know rainforest animals before constructing food chains with them"
     },
     {
-      "topicId": "mt_1m4J4KOjPy",
-      "prerequisiteId": "mt_4A7FYmvVhA",
-      "strength": "hard",
-      "reason": "'Talks with a beginning and end' builds on 'Describing Aloud'"
-    },
-    {
-      "topicId": "mt_1m4J4KOjPy",
-      "prerequisiteId": "mt_ZBMcX2oRor",
-      "strength": "soft",
-      "reason": "'Reciting Poetry' supports 'Talks with a beginning and end'"
-    },
-    {
       "topicId": "mt_1m5ItPiwUK",
       "prerequisiteId": "mt_dRCnJEIwk4",
       "strength": "hard",
@@ -718,6 +670,24 @@
       "reason": "Must relate speed to energy before predicting energy changes in collisions"
     },
     {
+      "topicId": "mt_1MqcYKS1Es",
+      "prerequisiteId": "mt_HFN1pGASpZ",
+      "strength": "hard",
+      "reason": "Planning an inclusion action requires understanding prejudice, discrimination and strategies that value diversity"
+    },
+    {
+      "topicId": "mt_1MqcYKS1Es",
+      "prerequisiteId": "mt_lAvS72LOUO",
+      "strength": "soft",
+      "reason": "Everyday kindness supports carrying out inclusion actions"
+    },
+    {
+      "topicId": "mt_1MqcYKS1Es",
+      "prerequisiteId": "mt_yCmYV9ruQu",
+      "strength": "soft",
+      "reason": "Understanding upstander actions supports inclusion actions"
+    },
+    {
       "topicId": "mt_1nl396BaVa",
       "prerequisiteId": "mt_oLjz18CxDg",
       "strength": "soft",
@@ -731,15 +701,15 @@
     },
     {
       "topicId": "mt_-1okUh0Jdv",
-      "prerequisiteId": "mt_5zTlbDWkDI",
-      "strength": "soft",
-      "reason": "'Stages of texts across subjects' supports 'Comparing Structure in Information Texts'"
-    },
-    {
-      "topicId": "mt_-1okUh0Jdv",
       "prerequisiteId": "mt_oVwNnjYPUY",
       "strength": "hard",
       "reason": "Comparing structures builds on describing text structure"
+    },
+    {
+      "topicId": "mt_-1okUh0Jdv",
+      "prerequisiteId": "mt_yIk_4o0MOa",
+      "strength": "soft",
+      "reason": "Comparing information-text structures is supported by knowing text stages across subjects (re-pointed from retired Stages of texts across subjects)"
     },
     {
       "topicId": "mt_1PAWhRhpdg",
@@ -845,9 +815,9 @@
     },
     {
       "topicId": "mt_1ZwxvIqIxf",
-      "prerequisiteId": "mt_-WhvVTsKV-",
-      "strength": "hard",
-      "reason": "'Communicating consent clearly' builds on 'Rehearsing permission skills'"
+      "prerequisiteId": "mt_sh1Mq-mshx",
+      "strength": "soft",
+      "reason": "Asking permission respectfully supports consent communication"
     },
     {
       "topicId": "mt_20WfHhnL39",
@@ -978,20 +948,14 @@
     {
       "topicId": "mt_2eVg4Tt5r0",
       "prerequisiteId": "mt_QhLAeAlHI0",
-      "strength": "hard",
-      "reason": "'Putting healthy habits into practice' builds on 'Balanced Diet & Food Groups'"
+      "strength": "soft",
+      "reason": "Healthy-eating knowledge helps when the chosen routine is about food, but planning and tracking a routine does not require it (meal planning stays on QhLA)"
     },
     {
       "topicId": "mt_2eVg4Tt5r0",
       "prerequisiteId": "mt_vbbxnY7ZDT",
       "strength": "hard",
       "reason": "'Putting healthy habits into practice' builds on 'Keeping clean and healthy'"
-    },
-    {
-      "topicId": "mt_2eVg4Tt5r0",
-      "prerequisiteId": "mt_wudskBtVQc",
-      "strength": "soft",
-      "reason": "'Health messages around us' supports 'Putting healthy habits into practice'"
     },
     {
       "topicId": "mt_2_fB4LuVwc",
@@ -1002,14 +966,8 @@
     {
       "topicId": "mt_2_fB4LuVwc",
       "prerequisiteId": "mt_dALEWRHXnZ",
-      "strength": "hard",
-      "reason": "'Language for different roles' builds on 'Asking, offering and requesting'"
-    },
-    {
-      "topicId": "mt_2_fB4LuVwc",
-      "prerequisiteId": "mt_mpzmwTktqF",
-      "strength": "hard",
-      "reason": "'Language for different roles' builds on 'Home talk and school talk'"
+      "strength": "soft",
+      "reason": "Speech functions (asking, offering) support but do not gate adjusting language to role and relationship"
     },
     {
       "topicId": "mt_2GDBmKCJxs",
@@ -1058,18 +1016,6 @@
       "prerequisiteId": "mt_wQ89AEXhz3",
       "strength": "soft",
       "reason": "Multiplication table patterns exercise repeated reasoning"
-    },
-    {
-      "topicId": "mt_2jksKpNzeF",
-      "prerequisiteId": "mt_lp3qyEujIv",
-      "strength": "soft",
-      "reason": "'Inference vs Explicit Meaning' supports 'Visualising to understand and judge'"
-    },
-    {
-      "topicId": "mt_2jksKpNzeF",
-      "prerequisiteId": "mt_RNYNrRMqKL",
-      "strength": "hard",
-      "reason": "'Visualising to understand and judge' builds on 'Making pictures in your head'"
     },
     {
       "topicId": "mt_2l06snztdP",
@@ -1362,8 +1308,8 @@
     {
       "topicId": "mt_35-DhMh_Yr",
       "prerequisiteId": "mt_i1kk9HDctI",
-      "strength": "hard",
-      "reason": "Positive self-talk practice requires knowing the term 'self-talk' and distinguishing it from intrusive negative thoughts"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Rephrasing unhelpful thoughts does not need the metavocabulary topic; Simple Calming Strategies stays hard."
     },
     {
       "topicId": "mt_35-DhMh_Yr",
@@ -1480,18 +1426,6 @@
       "reason": "Must know plant growth requirements before arguing that most material comes from air and water"
     },
     {
-      "topicId": "mt_3itytx4K1v",
-      "prerequisiteId": "mt_-vvVxpOHG2",
-      "strength": "hard",
-      "reason": "'Picture timelines and maps' builds on 'Ordering Events in Time'"
-    },
-    {
-      "topicId": "mt_3itytx4K1v",
-      "prerequisiteId": "mt_xppl18avyY",
-      "strength": "soft",
-      "reason": "'Sorting into categories' supports 'Picture timelines and maps'"
-    },
-    {
       "topicId": "mt_3JgrHY221M",
       "prerequisiteId": "mt_ehGS_uVSJv",
       "strength": "soft",
@@ -1538,24 +1472,6 @@
       "prerequisiteId": "mt_ZxdfRbwkKM",
       "strength": "soft",
       "reason": "Drawing conclusions that address a hypothesis with reference to evidence mirrors the English skill of drawing evidence from informational texts to support analysis"
-    },
-    {
-      "topicId": "mt_3l9OJkjksw",
-      "prerequisiteId": "mt_deexfCHU9m",
-      "strength": "soft",
-      "reason": "'Reducing Human Impact' supports 'Choosing materials that reduce waste'"
-    },
-    {
-      "topicId": "mt_3l9OJkjksw",
-      "prerequisiteId": "mt_RlILL2sccX",
-      "strength": "soft",
-      "reason": "'Testing Push & Pull Designs' supports 'Choosing materials that reduce waste'"
-    },
-    {
-      "topicId": "mt_3l9OJkjksw",
-      "prerequisiteId": "mt_S0hzjAeLSK",
-      "strength": "soft",
-      "reason": "'Expressing & Justifying Opinions' supports 'Choosing materials that reduce waste'"
     },
     {
       "topicId": "mt_3m0pA-aeat",
@@ -1841,12 +1757,6 @@
     },
     {
       "topicId": "mt_4fK8Bb8Tr_",
-      "prerequisiteId": "mt_hE05udHee7",
-      "strength": "hard",
-      "reason": "'Project plans for making' builds on 'Sequencing production steps'"
-    },
-    {
-      "topicId": "mt_4fK8Bb8Tr_",
       "prerequisiteId": "mt_HoJGVsMO7H",
       "strength": "soft",
       "reason": "'Time and Attention Management' supports 'Project plans for making'"
@@ -1862,6 +1772,12 @@
       "prerequisiteId": "mt_Qe2PsFmSAH",
       "strength": "soft",
       "reason": "'Budgets and best buys' supports 'Project plans for making'"
+    },
+    {
+      "topicId": "mt_4fK8Bb8Tr_",
+      "prerequisiteId": "mt_QR3vxbN1o4",
+      "strength": "hard",
+      "reason": "Project plans for making build on ordering task steps (re-pointed from retired Sequencing production steps)"
     },
     {
       "topicId": "mt_4GyMkXpZRW",
@@ -2116,28 +2032,10 @@
       "reason": "KS3 magnetic field lines and Earth's magnetism extends KS2 magnetic poles, attraction and repulsion"
     },
     {
-      "topicId": "mt_5bmrA-0pBi",
-      "prerequisiteId": "mt_9L5qyBYmg-",
-      "strength": "hard",
-      "reason": "Estimating money totals requires reading and calculating in dollars and cents"
-    },
-    {
-      "topicId": "mt_5bmrA-0pBi",
-      "prerequisiteId": "mt_QaYfeVL-0C",
-      "strength": "hard",
-      "reason": "Checking money calculations uses estimation by rounding"
-    },
-    {
-      "topicId": "mt_5CcwPYEafI",
-      "prerequisiteId": "mt_QpK9BpUO__",
-      "strength": "hard",
-      "reason": "'Co-creating user stories' builds on 'How apps meet users' needs'"
-    },
-    {
       "topicId": "mt_5CcwPYEafI",
       "prerequisiteId": "mt_Z5-fSCOBep",
-      "strength": "hard",
-      "reason": "'Co-creating user stories' builds on 'Simple Design Problems'"
+      "strength": "soft",
+      "reason": "Defining the design problem gives context, but writing a user story that names a user, need and purpose does not require full problem definition with criteria and constraints"
     },
     {
       "topicId": "mt_5FREdVoS8s",
@@ -2404,28 +2302,10 @@
       "reason": "Understanding ecosystem roles helps explain why so many species evolved"
     },
     {
-      "topicId": "mt_5zTlbDWkDI",
-      "prerequisiteId": "mt_oVwNnjYPUY",
-      "strength": "hard",
-      "reason": "'Stages of texts across subjects' builds on 'Structure of information texts'"
-    },
-    {
-      "topicId": "mt_5zTlbDWkDI",
-      "prerequisiteId": "mt_yIk_4o0MOa",
-      "strength": "hard",
-      "reason": "'Stages of texts across subjects' builds on 'How texts in subjects differ'"
-    },
-    {
       "topicId": "mt_61Nhj8W78f",
       "prerequisiteId": "mt_NM5I3yN-Q6",
       "strength": "soft",
       "reason": "Symmetry supports designing geometric patterns"
-    },
-    {
-      "topicId": "mt_61Nhj8W78f",
-      "prerequisiteId": "mt_RdfzwInyAj",
-      "strength": "soft",
-      "reason": "Combining transformations into tessellations builds on performing them in geometry software"
     },
     {
       "topicId": "mt_61Nhj8W78f",
@@ -2435,21 +2315,15 @@
     },
     {
       "topicId": "mt_61Pa4Eksva",
-      "prerequisiteId": "mt_fXE9t2ETGx",
-      "strength": "soft",
-      "reason": "Picture maps of familiar places come before reading plans"
-    },
-    {
-      "topicId": "mt_61Pa4Eksva",
       "prerequisiteId": "mt_qeZYF6HZ4o",
-      "strength": "soft",
-      "reason": "Positional language supports describing locations on a plan"
+      "strength": "hard",
+      "reason": "Locating places on a map or plan requires basic positional language (next to, behind, in front of)"
     },
     {
       "topicId": "mt_61Pa4Eksva",
       "prerequisiteId": "mt_TdV9YGJEoY",
-      "strength": "hard",
-      "reason": "Locating positions on a plan uses position and direction vocabulary"
+      "strength": "soft",
+      "reason": "Turn and direction vocabulary helps follow routes, but locating places on a familiar pictorial map or plan does not require quarter/half-turn language"
     },
     {
       "topicId": "mt_68pIoiiG4g",
@@ -2474,12 +2348,6 @@
       "prerequisiteId": "mt_klyw-tdlhP",
       "strength": "soft",
       "reason": "Naming what you are feeling is emotional comprehension monitoring — the universal habit of noticing what's happening inside applied to emotional experience"
-    },
-    {
-      "topicId": "mt_69w5GVudJl",
-      "prerequisiteId": "mt_3itytx4K1v",
-      "strength": "hard",
-      "reason": "'Timelines of past events' builds on 'Picture timelines and maps'"
     },
     {
       "topicId": "mt_69w5GVudJl",
@@ -2794,36 +2662,6 @@
       "reason": "Writing number words to 100 requires reading the corresponding numerals"
     },
     {
-      "topicId": "mt_78-pnKfzmv",
-      "prerequisiteId": "mt_AHAFw-atka",
-      "strength": "soft",
-      "reason": "'Layout and Formatting in Informational Writing' supports 'Creating digital multimodal texts'"
-    },
-    {
-      "topicId": "mt_78-pnKfzmv",
-      "prerequisiteId": "mt_AHXePdicRf",
-      "strength": "hard",
-      "reason": "'Creating digital multimodal texts' builds on 'Making multimodal texts'"
-    },
-    {
-      "topicId": "mt_7b8EHUBoxd",
-      "prerequisiteId": "mt_I9iSzpGRn5",
-      "strength": "soft",
-      "reason": "'Understanding Bullying' supports 'Telling and getting help'"
-    },
-    {
-      "topicId": "mt_7b8EHUBoxd",
-      "prerequisiteId": "mt_PdYlsA33jB",
-      "strength": "hard",
-      "reason": "'Telling and getting help' builds on 'Asking for Help'"
-    },
-    {
-      "topicId": "mt_7b8EHUBoxd",
-      "prerequisiteId": "mt_R2_rZ4F6r4",
-      "strength": "hard",
-      "reason": "'Telling and getting help' builds on 'No, go, tell'"
-    },
-    {
       "topicId": "mt__7BVYUN180",
       "prerequisiteId": "mt_2qkn8Lhc8e",
       "strength": "hard",
@@ -2916,26 +2754,14 @@
     {
       "topicId": "mt_7IFpDVNsmt",
       "prerequisiteId": "mt_nUnowllzaN",
-      "strength": "hard",
-      "reason": "Must take accurate measurements before presenting complex data"
+      "strength": "soft",
+      "reason": "Accurate standard-unit measurement helps when recording quantitative data, but presenting data in drawings, tables or qualitative sorts does not require it"
     },
     {
       "topicId": "mt_7IFpDVNsmt",
       "prerequisiteId": "mt_ZFwPZaDJ0_",
       "strength": "hard",
       "reason": "Must gather data simply before presenting in charts and diagrams"
-    },
-    {
-      "topicId": "mt_7-N8TmQUsB",
-      "prerequisiteId": "mt_BGMS9We5w9",
-      "strength": "hard",
-      "reason": "'Reading for history and culture' builds on 'Similar storylines across cultures'"
-    },
-    {
-      "topicId": "mt_7-N8TmQUsB",
-      "prerequisiteId": "mt_tX0R4-4WXy",
-      "strength": "soft",
-      "reason": "'Themes Across Cultures and Traditions' supports 'Reading for history and culture'"
     },
     {
       "topicId": "mt_7nduoLvoB1",
@@ -3066,8 +2892,8 @@
     {
       "topicId": "mt_7VrR1GzhrN",
       "prerequisiteId": "mt_qgb76wHN2X",
-      "strength": "hard",
-      "reason": "Must conduct fair tests before reporting on findings from enquiries"
+      "strength": "soft",
+      "reason": "Fair testing strengthens conclusions from controlled tests, but communicating findings from observational enquiries does not require a fair test"
     },
     {
       "topicId": "mt_7XcCG43ZZW",
@@ -3107,6 +2933,12 @@
     },
     {
       "topicId": "mt_83KkBCtVyR",
+      "prerequisiteId": "mt_CCJpSSS3l8",
+      "strength": "soft",
+      "reason": "Reading nutrition labels supports dietary energy calculation (no reverse gate: label reading never depends on energy calculation)"
+    },
+    {
+      "topicId": "mt_83KkBCtVyR",
       "prerequisiteId": "mt_sDmrVCfzqt",
       "strength": "hard",
       "reason": "Calculating energy requirements requires knowing which dietary components provide energy"
@@ -3122,24 +2954,6 @@
       "prerequisiteId": "mt_NP101Zl-4g",
       "strength": "soft",
       "reason": "Using acquired vocabulary supports recognising register differences"
-    },
-    {
-      "topicId": "mt_89qLyvE70d",
-      "prerequisiteId": "mt_nUnowllzaN",
-      "strength": "soft",
-      "reason": "'Measuring accurately' supports 'Safe equipment use in fair tests'"
-    },
-    {
-      "topicId": "mt_89qLyvE70d",
-      "prerequisiteId": "mt_qgb76wHN2X",
-      "strength": "hard",
-      "reason": "'Safe equipment use in fair tests' builds on 'Fair testing'"
-    },
-    {
-      "topicId": "mt_89qLyvE70d",
-      "prerequisiteId": "mt_TTH2ouwyTW",
-      "strength": "hard",
-      "reason": "'Safe equipment use in fair tests' builds on 'Safe steps in science tests'"
     },
     {
       "topicId": "mt_89riIKwGYp",
@@ -3220,28 +3034,28 @@
       "reason": "Phylogenetic and cladistic analysis depends on understanding geological time and stratigraphy"
     },
     {
-      "topicId": "mt_8cs4YPkp23",
-      "prerequisiteId": "mt_FSLJbKkryb",
+      "topicId": "mt_8FUXG_39-C",
+      "prerequisiteId": "mt_FtCLISvSGw",
       "strength": "hard",
-      "reason": "Money transactions require recognising Australian coins and notes"
+      "reason": "Workshop tool use builds on basic measuring, cutting and joining safely"
     },
     {
-      "topicId": "mt_8cs4YPkp23",
-      "prerequisiteId": "mt_glPPG-kTQY",
+      "topicId": "mt_8FUXG_39-C",
+      "prerequisiteId": "mt_rSjwQLqLXH",
       "strength": "soft",
-      "reason": "Totals and change use adding within 100"
+      "reason": "Knowing how tool features suit a job supports choosing and using workshop tools"
     },
     {
-      "topicId": "mt_8cs4YPkp23",
-      "prerequisiteId": "mt_wh3UqnWsa7",
+      "topicId": "mt_8FUXG_39-C",
+      "prerequisiteId": "mt_skYly2Qm01",
       "strength": "soft",
-      "reason": "Costs of several identical items use repeated addition"
+      "reason": "Measuring length supports measuring and marking materials"
     },
     {
-      "topicId": "mt_8DT3LXwwH-",
-      "prerequisiteId": "mt_-bMnJcPJy8",
-      "strength": "hard",
-      "reason": "Simulations extend comparing experimental and theoretical results"
+      "topicId": "mt_8FUXG_39-C",
+      "prerequisiteId": "mt_v5pOal_23d",
+      "strength": "soft",
+      "reason": "Risk planning supports applying hazard controls"
     },
     {
       "topicId": "mt_8FwtdJzeDh",
@@ -3296,18 +3110,6 @@
       "prerequisiteId": "mt_XLP1IM3Qbb",
       "strength": "soft",
       "reason": "Evaluating expressions requires fluent multiplication"
-    },
-    {
-      "topicId": "mt_8NYqAhHCa-",
-      "prerequisiteId": "mt_m6UaSmrQVG",
-      "strength": "soft",
-      "reason": "'Preventing Erosion' supports 'Fast and slow changes to land'"
-    },
-    {
-      "topicId": "mt_8NYqAhHCa-",
-      "prerequisiteId": "mt_vAP_A986IQ",
-      "strength": "hard",
-      "reason": "'Fast and slow changes to land' builds on 'Erosion and weathering'"
     },
     {
       "topicId": "mt_8OAGVdeTJ_",
@@ -3544,24 +3346,6 @@
       "reason": "Adaptations concept requires knowing the variety of ocean animals"
     },
     {
-      "topicId": "mt_9fyI5B1U_V",
-      "prerequisiteId": "mt_33zncDHC3N",
-      "strength": "soft",
-      "reason": "'Giving and Receiving Feedback' supports 'Improving digital designs'"
-    },
-    {
-      "topicId": "mt_9fyI5B1U_V",
-      "prerequisiteId": "mt_9qF97kGhvq",
-      "strength": "hard",
-      "reason": "'Improving digital designs' builds on 'Designing a digital solution'"
-    },
-    {
-      "topicId": "mt_9fyI5B1U_V",
-      "prerequisiteId": "mt_WoBE0CZWGg",
-      "strength": "soft",
-      "reason": "'Designing a user interface' supports 'Improving digital designs'"
-    },
-    {
       "topicId": "mt_9gpUHWVKMR",
       "prerequisiteId": "mt_aWOK1npO5s",
       "strength": "soft",
@@ -3635,6 +3419,12 @@
     },
     {
       "topicId": "mt_9L3NQqgqRd",
+      "prerequisiteId": "mt_8gy7uxRlF6",
+      "strength": "soft",
+      "reason": "Representing numbers past 100 relies on knowing that ten tens make a hundred (soft: GB/CA alignments of this topic stop at 100)"
+    },
+    {
+      "topicId": "mt_9L3NQqgqRd",
       "prerequisiteId": "mt_pAcaehday5",
       "strength": "hard",
       "reason": "Representing and estimating numbers on a number line builds on Y1 number representations"
@@ -3644,18 +3434,6 @@
       "prerequisiteId": "mt_THl9GLxwoL",
       "strength": "hard",
       "reason": "Representing a two-digit number as tens and ones with blocks or drawings, and placing it between two tens on a number line, requires two-digit place value"
-    },
-    {
-      "topicId": "mt_9L5qyBYmg-",
-      "prerequisiteId": "mt_8cs4YPkp23",
-      "strength": "hard",
-      "reason": "Dollars-and-cents notation and change build on whole-dollar and cents transactions"
-    },
-    {
-      "topicId": "mt_9L5qyBYmg-",
-      "prerequisiteId": "mt_ewmuMMPAzP",
-      "strength": "soft",
-      "reason": "Calculating change uses addition and subtraction with regrouping"
     },
     {
       "topicId": "mt_9lN0SpKlEH",
@@ -3878,24 +3656,6 @@
       "prerequisiteId": "mt_sMAcZW6vWM",
       "strength": "soft",
       "reason": "Summarising literary texts draws on the summarisation skills developed with informational texts at LKS2 level"
-    },
-    {
-      "topicId": "mt_a0_W_oIEQg",
-      "prerequisiteId": "mt_Amw5ikSSQI",
-      "strength": "hard",
-      "reason": "'How experiences shape who I am' builds on 'Resilience and Bouncing Back'"
-    },
-    {
-      "topicId": "mt_a0_W_oIEQg",
-      "prerequisiteId": "mt_ij20XUbMHg",
-      "strength": "hard",
-      "reason": "'How experiences shape who I am' builds on 'Qualities that shape who I am'"
-    },
-    {
-      "topicId": "mt_a0_W_oIEQg",
-      "prerequisiteId": "mt_pAuo9Op89t",
-      "strength": "soft",
-      "reason": "'Growth Mindset' supports 'How experiences shape who I am'"
     },
     {
       "topicId": "mt_a0yi2vpoUn",
@@ -4258,24 +4018,6 @@
       "reason": "Forecasting builds on curriculum purpose of weather forecasting topic"
     },
     {
-      "topicId": "mt_aGuP78tRMo",
-      "prerequisiteId": "mt_Re97rQJx_e",
-      "strength": "hard",
-      "reason": "'Making with suitable tools safely' builds on 'Choosing tools and techniques'"
-    },
-    {
-      "topicId": "mt_aGuP78tRMo",
-      "prerequisiteId": "mt_rSjwQLqLXH",
-      "strength": "hard",
-      "reason": "'Making with suitable tools safely' builds on 'How tools suit their job'"
-    },
-    {
-      "topicId": "mt_aGuP78tRMo",
-      "prerequisiteId": "mt_v5pOal_23d",
-      "strength": "soft",
-      "reason": "'Risks and safety plans' supports 'Making with suitable tools safely'"
-    },
-    {
       "topicId": "mt_AHAFw-atka",
       "prerequisiteId": "mt_82KKv0Fca3",
       "strength": "soft",
@@ -4361,15 +4103,9 @@
     },
     {
       "topicId": "mt_AHXePdicRf",
-      "prerequisiteId": "mt_qUKddG0UYv",
+      "prerequisiteId": "mt_OlhMP7ShFT",
       "strength": "soft",
-      "reason": "'Pictures in stories and fact books' supports 'Making multimodal texts'"
-    },
-    {
-      "topicId": "mt_AigeWFgWIo",
-      "prerequisiteId": "mt_3l9OJkjksw",
-      "strength": "hard",
-      "reason": "'Sustainability as a design criterion' builds on 'Choosing materials that reduce waste'"
+      "reason": "Composing multimodal texts draws on knowing how images add meaning (re-pointed)"
     },
     {
       "topicId": "mt_AigeWFgWIo",
@@ -4631,12 +4367,6 @@
     },
     {
       "topicId": "mt_ArVBEpMAPk",
-      "prerequisiteId": "mt_89qLyvE70d",
-      "strength": "soft",
-      "reason": "'Safe equipment use in fair tests' supports 'Controlling variables'"
-    },
-    {
-      "topicId": "mt_ArVBEpMAPk",
       "prerequisiteId": "mt_CVywzrjT_c",
       "strength": "soft",
       "reason": "Pattern identification supports planning targeted enquiries"
@@ -4664,6 +4394,12 @@
       "prerequisiteId": "mt_QR3vxbN1o4",
       "strength": "soft",
       "reason": "Planning a scientific enquiry is the domain-specific application of the universal task-planning habit"
+    },
+    {
+      "topicId": "mt_ArVBEpMAPk",
+      "prerequisiteId": "mt_TTH2ouwyTW",
+      "strength": "soft",
+      "reason": "Controlling variables is supported by planning safe test steps (re-pointed from retired Using equipment safely in tests)"
     },
     {
       "topicId": "mt_aS-Gdh-MHx",
@@ -4910,18 +4646,6 @@
       "prerequisiteId": "mt_PhIZNl2230",
       "strength": "hard",
       "reason": "Trojan War is the most famous Greek myth — must know Greek myths first"
-    },
-    {
-      "topicId": "mt_axrs4Gfdm9",
-      "prerequisiteId": "mt_kt3K54xUPu",
-      "strength": "soft",
-      "reason": "The national indicative map shows Countries in different parts of Australia"
-    },
-    {
-      "topicId": "mt_axrs4Gfdm9",
-      "prerequisiteId": "mt_pK6QkcKxZT",
-      "strength": "hard",
-      "reason": "'Connections to Country across Australia' builds on 'First Nations links to local Country'"
     },
     {
       "topicId": "mt_ay0qkGj0jg",
@@ -5308,18 +5032,6 @@
       "reason": "'Places here and nearby' supports 'Why Australian environments matter'"
     },
     {
-      "topicId": "mt_BGMS9We5w9",
-      "prerequisiteId": "mt_tX0R4-4WXy",
-      "strength": "hard",
-      "reason": "'Similar storylines across cultures' builds on 'Themes Across Cultures and Traditions'"
-    },
-    {
-      "topicId": "mt_BGMS9We5w9",
-      "prerequisiteId": "mt_UcmVDMgFGX",
-      "strength": "hard",
-      "reason": "'Similar storylines across cultures' builds on 'Stories from different places and times'"
-    },
-    {
       "topicId": "mt_bHbpLW1HUg",
       "prerequisiteId": "mt_EGIlsfHxb6",
       "strength": "hard",
@@ -5416,24 +5128,6 @@
       "reason": "Handwriting needed for spelling practice"
     },
     {
-      "topicId": "mt_biGHAbkoV2",
-      "prerequisiteId": "mt_BK5xwkrD5C",
-      "strength": "soft",
-      "reason": "Naming parts within 10 supports partitioning on a ten frame"
-    },
-    {
-      "topicId": "mt_biGHAbkoV2",
-      "prerequisiteId": "mt_m1W6nTQJ2b",
-      "strength": "hard",
-      "reason": "On-screen addition and subtraction within 20 uses the same make-ten strategies"
-    },
-    {
-      "topicId": "mt_biGHAbkoV2",
-      "prerequisiteId": "mt_Y6_cq3UMyy",
-      "strength": "soft",
-      "reason": "Builds on using on-screen counters and ten frames in Foundation"
-    },
-    {
       "topicId": "mt_bj1YCgNWUx",
       "prerequisiteId": "mt_-vvVxpOHG2",
       "strength": "hard",
@@ -5462,24 +5156,6 @@
       "prerequisiteId": "mt_PThM5P7Umd",
       "strength": "hard",
       "reason": "Must understand peasant life before grasping serfdom in the feudal system"
-    },
-    {
-      "topicId": "mt_bJyOTtP0b6",
-      "prerequisiteId": "mt_86DyHo9zO3",
-      "strength": "hard",
-      "reason": "'Language, roles and social distance' builds on 'Formal and Informal English'"
-    },
-    {
-      "topicId": "mt_bJyOTtP0b6",
-      "prerequisiteId": "mt_bkvB7QYKwg",
-      "strength": "soft",
-      "reason": "'Adapting Speech to Context' supports 'Language, roles and social distance'"
-    },
-    {
-      "topicId": "mt_bJyOTtP0b6",
-      "prerequisiteId": "mt_k0-aLFge4X",
-      "strength": "hard",
-      "reason": "'Language, roles and social distance' builds on 'Language that builds relationships'"
     },
     {
       "topicId": "mt_BK5xwkrD5C",
@@ -5519,9 +5195,9 @@
     },
     {
       "topicId": "mt_bkMDDstwwG",
-      "prerequisiteId": "mt_a0_W_oIEQg",
+      "prerequisiteId": "mt_Amw5ikSSQI",
       "strength": "soft",
-      "reason": "'How experiences shape who I am' supports 'Personal Growth Over Time'"
+      "reason": "re-pointed from retired Experiences that shape me"
     },
     {
       "topicId": "mt_bkMDDstwwG",
@@ -5789,9 +5465,9 @@
     },
     {
       "topicId": "mt_bZC-wqWX7Y",
-      "prerequisiteId": "mt_QeKWt4BZn3",
+      "prerequisiteId": "mt_zQfWqImxva",
       "strength": "hard",
-      "reason": "Creating factor algorithms builds on creating number-generating algorithms"
+      "reason": "Factor/divisibility algorithms build on following and creating number algorithms with decisions and repetition (re-pointed from retired Algorithms that generate number sets)"
     },
     {
       "topicId": "mt_Bztatrv-_v",
@@ -5825,21 +5501,9 @@
     },
     {
       "topicId": "mt_C3eNLQJlgt",
-      "prerequisiteId": "mt_2yas4Unc8o",
-      "strength": "soft",
-      "reason": "Reading and constructing historical timelines requires understanding time unit conversions (decades, centuries, millennia)"
-    },
-    {
-      "topicId": "mt_C3eNLQJlgt",
       "prerequisiteId": "mt_jBQS-CicNn",
       "strength": "soft",
       "reason": "Reading a timeline with a scale and reading coordinates on a grid share the same positional-notation skills"
-    },
-    {
-      "topicId": "mt_C3eNLQJlgt",
-      "prerequisiteId": "mt_mRU4H9-fgb",
-      "strength": "soft",
-      "reason": "Egyptian timelines apply dated, scaled timeline skills"
     },
     {
       "topicId": "mt_C3eNLQJlgt",
@@ -5938,28 +5602,10 @@
       "reason": "Add/sub within one whole is prerequisite to extending beyond one whole"
     },
     {
-      "topicId": "mt_cB_j7towTD",
-      "prerequisiteId": "mt_cGzd5z56FB",
-      "strength": "hard",
-      "reason": "'Making new versions of stories' builds on 'Retelling and adapting stories'"
-    },
-    {
-      "topicId": "mt_cB_j7towTD",
-      "prerequisiteId": "mt_I65kFjWwnF",
-      "strength": "soft",
-      "reason": "'Revising and editing' supports 'Making new versions of stories'"
-    },
-    {
-      "topicId": "mt_cB_j7towTD",
-      "prerequisiteId": "mt_YNe6siFTFq",
-      "strength": "soft",
-      "reason": "'Writing Poetry' supports 'Making new versions of stories'"
-    },
-    {
       "topicId": "mt_CBXBu5e4Iv",
-      "prerequisiteId": "mt_9fyI5B1U_V",
+      "prerequisiteId": "mt_9qF97kGhvq",
       "strength": "soft",
-      "reason": "'Improving digital designs' supports 'Communicating design processes'"
+      "reason": "Communicating designs draws on storyboarding and revising a design (re-pointed from retired Improving digital designs)"
     },
     {
       "topicId": "mt_CBXBu5e4Iv",
@@ -6008,6 +5654,12 @@
       "prerequisiteId": "mt__t4afSyZRm",
       "strength": "hard",
       "reason": "Fluency within 100 requires fluent single-digit facts"
+    },
+    {
+      "topicId": "mt_CCJpSSS3l8",
+      "prerequisiteId": "mt_QhLAeAlHI0",
+      "strength": "soft",
+      "reason": "Knowing food groups and nutrients helps interpret label values"
     },
     {
       "topicId": "mt_Cc-QHVo747",
@@ -6154,12 +5806,6 @@
       "reason": "Understanding Roman society structure needed for examining enslaved people in Rome"
     },
     {
-      "topicId": "mt__CFtXgDaEL",
-      "prerequisiteId": "mt__PcuXj7_I1",
-      "strength": "hard",
-      "reason": "'Headlines, menus and links online' builds on 'Layout and navigation words online'"
-    },
-    {
       "topicId": "mt_Cg8VPguS_V",
       "prerequisiteId": "mt_fmm-P17Vka",
       "strength": "hard",
@@ -6178,24 +5824,6 @@
       "reason": "Calculating mean requires division giving decimal answers"
     },
     {
-      "topicId": "mt_cGzd5z56FB",
-      "prerequisiteId": "mt_9V8Z386RDx",
-      "strength": "hard",
-      "reason": "'Retelling and adapting stories' builds on 'Changing a familiar story'"
-    },
-    {
-      "topicId": "mt_cGzd5z56FB",
-      "prerequisiteId": "mt_VEwM7ClYYE",
-      "strength": "soft",
-      "reason": "'Story Sequence and Central Message' supports 'Retelling and adapting stories'"
-    },
-    {
-      "topicId": "mt_cGzd5z56FB",
-      "prerequisiteId": "mt_zlSoIKPyId",
-      "strength": "hard",
-      "reason": "'Retelling and adapting stories' builds on 'Retelling Stories with Structure'"
-    },
-    {
       "topicId": "mt_ChjMU2GDJa",
       "prerequisiteId": "mt_r8XnXwRA6g",
       "strength": "hard",
@@ -6209,15 +5837,15 @@
     },
     {
       "topicId": "mt_cIxLOPS1Hc",
-      "prerequisiteId": "mt_PsQdUQBw0D",
+      "prerequisiteId": "mt_gBK8uXQlQW",
       "strength": "hard",
-      "reason": "'Presentations that build a theme' builds on 'Presenting an argument'"
+      "reason": "Theme-building presentations build on precise and technical vocabulary in presentations (re-pointed from retired Technical words in presentations)"
     },
     {
       "topicId": "mt_cIxLOPS1Hc",
-      "prerequisiteId": "mt__q8ln4Lvf7",
+      "prerequisiteId": "mt_PsQdUQBw0D",
       "strength": "hard",
-      "reason": "'Presentations that build a theme' builds on 'Technical words in presentations'"
+      "reason": "'Presentations that build a theme' builds on 'Presenting an argument'"
     },
     {
       "topicId": "mt_cIxLOPS1Hc",
@@ -6359,21 +5987,15 @@
     },
     {
       "topicId": "mt_cOJhDeLkPo",
-      "prerequisiteId": "mt_3l9OJkjksw",
-      "strength": "soft",
-      "reason": "'Choosing materials that reduce waste' supports 'Factors that shape designs'"
-    },
-    {
-      "topicId": "mt_cOJhDeLkPo",
-      "prerequisiteId": "mt_eFj9uWaPMI",
-      "strength": "hard",
-      "reason": "'Factors that shape designs' builds on 'Designed for our community'"
-    },
-    {
-      "topicId": "mt_cOJhDeLkPo",
       "prerequisiteId": "mt_JmMtZCifJB",
       "strength": "soft",
       "reason": "'Designing for Weather Hazards' supports 'Factors that shape designs'"
+    },
+    {
+      "topicId": "mt_cOJhDeLkPo",
+      "prerequisiteId": "mt_Q2Zj3L8u9C",
+      "strength": "hard",
+      "reason": "Examining design factors builds on knowing products, services and environments are designed by people for needs (re-pointed from retired Designed for our community)"
     },
     {
       "topicId": "mt_cOJhDeLkPo",
@@ -6414,8 +6036,8 @@
     {
       "topicId": "mt_cpDpjJaE5u",
       "prerequisiteId": "mt_ZJu8s-Q1xa",
-      "strength": "hard",
-      "reason": "Must understand fast/slow Earth events before designing solutions to reduce their impacts"
+      "strength": "soft",
+      "reason": "Knowing fast vs slow Earth changes is helpful context, but designing hazard mitigations does not require comparing Earth-process rates"
     },
     {
       "topicId": "mt_cPZwlUk8Nd",
@@ -6450,14 +6072,20 @@
     {
       "topicId": "mt_cqSf213hSa",
       "prerequisiteId": "mt_KaF0SQvaiu",
-      "strength": "hard",
-      "reason": "Measuring with iterated units extends Y1 beginning to measure length"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Laying same-size units end to end needs direct length comparison and counting, not the ruler/centimetre start in the GB/AU topic."
     },
     {
       "topicId": "mt_cqSf213hSa",
       "prerequisiteId": "mt_skYly2Qm01",
       "strength": "soft",
       "reason": "Measuring with units benefits from ability to order and compare lengths"
+    },
+    {
+      "topicId": "mt_cqSf213hSa",
+      "prerequisiteId": "mt_uhuxX8sg9f",
+      "strength": "hard",
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Direct length comparison is the real prerequisite."
     },
     {
       "topicId": "mt_CqzsM0BDFP",
@@ -6724,22 +6352,16 @@
       "reason": "Polar animals builds on knowing animals live everywhere including cold places"
     },
     {
-      "topicId": "mt_d6BsiDtFjP",
-      "prerequisiteId": "mt_h-z88yf9Pn",
+      "topicId": "mt_d4reBzaIRl",
+      "prerequisiteId": "mt__h7hvT4tEb",
       "strength": "soft",
-      "reason": "'Vocabulary: ethics and citizenship' supports 'Planning digital group projects'"
+      "reason": "'Comparing groups: more or fewer' supports 'Changing and fixed amounts' (noticing an amount got bigger, smaller or stayed equal)"
     },
     {
-      "topicId": "mt_d6BsiDtFjP",
-      "prerequisiteId": "mt_JI0Iv01hCT",
-      "strength": "hard",
-      "reason": "'Planning digital group projects' builds on 'Collaborating in shared documents'"
-    },
-    {
-      "topicId": "mt_d6BsiDtFjP",
-      "prerequisiteId": "mt_QR3vxbN1o4",
+      "topicId": "mt_d4reBzaIRl",
+      "prerequisiteId": "mt_yqAL6O5i_v",
       "strength": "soft",
-      "reason": "'Planning a Task' supports 'Planning digital group projects'"
+      "reason": "'Counting objects to 20' supports 'Changing and fixed amounts' (counting the quantities being compared)"
     },
     {
       "topicId": "mt_d7XktBQPxm",
@@ -6770,12 +6392,6 @@
       "prerequisiteId": "mt_f8n4txtLej",
       "strength": "soft",
       "reason": "'Asking Questions' supports 'Asking, offering and requesting'"
-    },
-    {
-      "topicId": "mt_dALEWRHXnZ",
-      "prerequisiteId": "mt_mpzmwTktqF",
-      "strength": "soft",
-      "reason": "'Home talk and school talk' supports 'Asking, offering and requesting'"
     },
     {
       "topicId": "mt_dALEWRHXnZ",
@@ -6902,18 +6518,6 @@
       "prerequisiteId": "mt_B3W5EfimJw",
       "strength": "hard",
       "reason": "'Shape and material change movement' builds on 'Pushes & Pulls'"
-    },
-    {
-      "topicId": "mt_dgheXIYAD-",
-      "prerequisiteId": "mt_70Ys4i1AB1",
-      "strength": "soft",
-      "reason": "'Compound Words' supports 'Three-letter consonant clusters'"
-    },
-    {
-      "topicId": "mt_dgheXIYAD-",
-      "prerequisiteId": "mt_-nj-DnW4uU",
-      "strength": "hard",
-      "reason": "'Three-letter consonant clusters' builds on 'Reading and spelling consonant blends'"
     },
     {
       "topicId": "mt_DI1cyAyGyN",
@@ -7054,30 +6658,6 @@
       "reason": "Need to form letters before grouping into families"
     },
     {
-      "topicId": "mt_DnvWzDjoD8",
-      "prerequisiteId": "mt_b0sXYFblDL",
-      "strength": "soft",
-      "reason": "'Ethics in Business' supports 'Balancing competing design factors'"
-    },
-    {
-      "topicId": "mt_DnvWzDjoD8",
-      "prerequisiteId": "mt_cOJhDeLkPo",
-      "strength": "hard",
-      "reason": "'Balancing competing design factors' builds on 'Factors that shape designs'"
-    },
-    {
-      "topicId": "mt_DnvWzDjoD8",
-      "prerequisiteId": "mt_iiUdDUEEGY",
-      "strength": "soft",
-      "reason": "'Weather-Resistant Engineering' supports 'Balancing competing design factors'"
-    },
-    {
-      "topicId": "mt_DnvWzDjoD8",
-      "prerequisiteId": "mt_qKHfQjgNMk",
-      "strength": "hard",
-      "reason": "'Balancing competing design factors' builds on 'Design and technology jobs'"
-    },
-    {
       "topicId": "mt_DNYQLahbfa",
       "prerequisiteId": "mt_liIW336odh",
       "strength": "hard",
@@ -7181,15 +6761,15 @@
     },
     {
       "topicId": "mt_DRNXFr0ds6",
-      "prerequisiteId": "mt_q3vRl4dddK",
-      "strength": "soft",
-      "reason": "'Everyday Safety Awareness' supports 'Health and safety signs'"
+      "prerequisiteId": "mt_gZIo5oiBMt",
+      "strength": "hard",
+      "reason": "Reading health and safety signs builds on knowing texts take many forms (re-pointed from retired Texts are everywhere)"
     },
     {
       "topicId": "mt_DRNXFr0ds6",
-      "prerequisiteId": "mt_sQYvGbYD1I",
-      "strength": "hard",
-      "reason": "'Health and safety signs' builds on 'Texts are everywhere'"
+      "prerequisiteId": "mt_q3vRl4dddK",
+      "strength": "soft",
+      "reason": "'Everyday Safety Awareness' supports 'Health and safety signs'"
     },
     {
       "topicId": "mt_ds2TOtP8I1",
@@ -7283,9 +6863,9 @@
     },
     {
       "topicId": "mt_dXP_wBLIwU",
-      "prerequisiteId": "mt_a0_W_oIEQg",
+      "prerequisiteId": "mt_ij20XUbMHg",
       "strength": "hard",
-      "reason": "'How people and places shape identity' builds on 'How experiences shape who I am'"
+      "reason": "Explaining how people and places shape identity builds on explaining how one's own qualities and experiences shape identity (re-pointed from retired Experiences that shape me)"
     },
     {
       "topicId": "mt_dXP_wBLIwU",
@@ -7310,18 +6890,6 @@
       "prerequisiteId": "mt_Kr3IyA6m-O",
       "strength": "soft",
       "reason": "Placing fractions on number lines exercises connecting representations"
-    },
-    {
-      "topicId": "mt_DxSbKzl-C-",
-      "prerequisiteId": "mt_3v0VNkwquK",
-      "strength": "soft",
-      "reason": "'What Plants Need to Grow' supports 'Growing plants we use'"
-    },
-    {
-      "topicId": "mt_DxSbKzl-C-",
-      "prerequisiteId": "mt_cUpJvBD1YA",
-      "strength": "soft",
-      "reason": "'Natural, managed and built features' supports 'Growing plants we use'"
     },
     {
       "topicId": "mt_DyGBW3ZHh3",
@@ -7370,18 +6938,6 @@
       "prerequisiteId": "mt_MlD0gwLSw9",
       "strength": "hard",
       "reason": "Boudicca's revolt is a response to the Roman invasion of Britain"
-    },
-    {
-      "topicId": "mt_E2iv1E6klO",
-      "prerequisiteId": "mt_2jksKpNzeF",
-      "strength": "hard",
-      "reason": "'Visualising complex texts' builds on 'Visualising to understand and judge'"
-    },
-    {
-      "topicId": "mt_E2iv1E6klO",
-      "prerequisiteId": "mt_kJ4xXKL_nO",
-      "strength": "soft",
-      "reason": "'Synthesising across multiple texts' supports 'Visualising complex texts'"
     },
     {
       "topicId": "mt_e3-_toGuWf",
@@ -7552,12 +7108,6 @@
       "reason": "Frequency tables build on tally charts"
     },
     {
-      "topicId": "mt_ebQURBOsM5",
-      "prerequisiteId": "mt_X53txVXOcG",
-      "strength": "soft",
-      "reason": "Spreadsheet recording builds on early digital data tools"
-    },
-    {
       "topicId": "mt_EBYGhd8X3x",
       "prerequisiteId": "mt_8RmpkDxT9L",
       "strength": "soft",
@@ -7594,24 +7144,6 @@
       "reason": "×10 both directions extends Y5 ×10 relationship"
     },
     {
-      "topicId": "mt_E-E8z9ZZOz",
-      "prerequisiteId": "mt_dJOKkYMsCv",
-      "strength": "soft",
-      "reason": "'Ordering numbers to 20' supports 'Ordering data and simple models'"
-    },
-    {
-      "topicId": "mt_E-E8z9ZZOz",
-      "prerequisiteId": "mt_SwaNNdm_Ks",
-      "strength": "soft",
-      "reason": "'Grouping Materials' supports 'Ordering data and simple models'"
-    },
-    {
-      "topicId": "mt_E-E8z9ZZOz",
-      "prerequisiteId": "mt_ZFwPZaDJ0_",
-      "strength": "hard",
-      "reason": "'Ordering data and simple models' builds on 'Recording Data'"
-    },
-    {
       "topicId": "mt_EedcpioR0v",
       "prerequisiteId": "mt_kH1DzOPsXG",
       "strength": "hard",
@@ -7628,30 +7160,6 @@
       "prerequisiteId": "mt_KmPZ5diLEP",
       "strength": "hard",
       "reason": "Describing character/setting/event in depth builds on analysing character traits and motivations; the step up is from trait analysis to comprehensive in-depth description using multiple textual details"
-    },
-    {
-      "topicId": "mt_EfF81YvgXV",
-      "prerequisiteId": "mt_5CcwPYEafI",
-      "strength": "hard",
-      "reason": "'User stories and design criteria' builds on 'Co-creating user stories'"
-    },
-    {
-      "topicId": "mt_eFj9uWaPMI",
-      "prerequisiteId": "mt_cUpJvBD1YA",
-      "strength": "soft",
-      "reason": "'Natural, managed and built features' supports 'Designed for our community'"
-    },
-    {
-      "topicId": "mt_eFj9uWaPMI",
-      "prerequisiteId": "mt_deexfCHU9m",
-      "strength": "soft",
-      "reason": "'Reducing Human Impact' supports 'Designed for our community'"
-    },
-    {
-      "topicId": "mt_eFj9uWaPMI",
-      "prerequisiteId": "mt_Q2Zj3L8u9C",
-      "strength": "hard",
-      "reason": "'Designed for our community' builds on 'Things people design'"
     },
     {
       "topicId": "mt_efOeaGFyGM",
@@ -7762,6 +7270,24 @@
       "reason": "Mars/SETI/Fermi paradox analysis depends on understanding the scale of the universe"
     },
     {
+      "topicId": "mt_EiI2PPWPHJ",
+      "prerequisiteId": "mt_e3-_toGuWf",
+      "strength": "soft",
+      "reason": "Testing materials supports choosing an adhesive that suits them"
+    },
+    {
+      "topicId": "mt_EiI2PPWPHJ",
+      "prerequisiteId": "mt_FtCLISvSGw",
+      "strength": "hard",
+      "reason": "Adhesive joining builds on basic joining of materials (tape, glue) safely"
+    },
+    {
+      "topicId": "mt_EiI2PPWPHJ",
+      "prerequisiteId": "mt_rSjwQLqLXH",
+      "strength": "soft",
+      "reason": "Knowing tool and equipment characteristics supports choosing a glue gun or adhesive"
+    },
+    {
       "topicId": "mt_ejht12jhm2",
       "prerequisiteId": "mt_w4cUnN_SsQ",
       "strength": "hard",
@@ -7858,30 +7384,6 @@
       "reason": "Must identify verbs before applying tense"
     },
     {
-      "topicId": "mt_eNJ99tRb3p",
-      "prerequisiteId": "mt_5UtPmgdoQ9",
-      "strength": "hard",
-      "reason": "'Building and testing programs' builds on 'Testing and debugging programs'"
-    },
-    {
-      "topicId": "mt_eNJ99tRb3p",
-      "prerequisiteId": "mt_6XbAmdmjDb",
-      "strength": "hard",
-      "reason": "'Building and testing programs' builds on 'Loops in programs'"
-    },
-    {
-      "topicId": "mt_eNJ99tRb3p",
-      "prerequisiteId": "mt_nx4a3kH-59",
-      "strength": "soft",
-      "reason": "'Designing number algorithms' supports 'Building and testing programs'"
-    },
-    {
-      "topicId": "mt_eNJ99tRb3p",
-      "prerequisiteId": "mt_YZOjP8KHsM",
-      "strength": "hard",
-      "reason": "'Building and testing programs' builds on 'Variables in programs'"
-    },
-    {
       "topicId": "mt_eoPcc4nrBE",
       "prerequisiteId": "mt_HveO1bOXpJ",
       "strength": "hard",
@@ -7973,9 +7475,9 @@
     },
     {
       "topicId": "mt__evtvKA25j",
-      "prerequisiteId": "mt_Sg-jC5f9L6",
+      "prerequisiteId": "mt_yIk_4o0MOa",
       "strength": "hard",
-      "reason": "'Blended and adapted text types' builds on 'Stages of speeches and videos'"
+      "reason": "Blended/adapted text types build on knowing characteristic stages of text types (re-pointed from retired Stages of speeches and videos)"
     },
     {
       "topicId": "mt_EWiY8-opdd",
@@ -8116,12 +7618,6 @@
       "reason": "'Preparing simple healthy snacks' builds on 'Balanced Diet & Food Groups'"
     },
     {
-      "topicId": "mt_F62VTeHB4-",
-      "prerequisiteId": "mt_xvHpeB03k5",
-      "strength": "soft",
-      "reason": "'Making safely with simple tools' supports 'Preparing simple healthy snacks'"
-    },
-    {
       "topicId": "mt_f67qGDhyfi",
       "prerequisiteId": "mt_1VSfm9yiLn",
       "strength": "soft",
@@ -8138,24 +7634,6 @@
       "prerequisiteId": "mt_fLOkq-HfPB",
       "strength": "hard",
       "reason": "Age 6-7 modelling with bar models/diagrams builds on age 5-6 modelling with objects and pictures"
-    },
-    {
-      "topicId": "mt_f7RadQGOnQ",
-      "prerequisiteId": "mt_hJW7hVflm3",
-      "strength": "hard",
-      "reason": "'Personification and sound devices' builds on 'Similes & Metaphors'"
-    },
-    {
-      "topicId": "mt_f7RadQGOnQ",
-      "prerequisiteId": "mt_j89i4u2fKr",
-      "strength": "soft",
-      "reason": "'Spotting and making alliteration' supports 'Personification and sound devices'"
-    },
-    {
-      "topicId": "mt_f7RadQGOnQ",
-      "prerequisiteId": "mt_ty63-JSHTC",
-      "strength": "hard",
-      "reason": "'Personification and sound devices' builds on 'Rhythm and sound words'"
     },
     {
       "topicId": "mt_f8n4txtLej",
@@ -8280,14 +7758,32 @@
     {
       "topicId": "mt_fEuoBYw6bU",
       "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Sorting by flat/curved faces or number of faces needs shape recognition, not counting edges and vertices."
+    },
+    {
+      "topicId": "mt_fEuoBYw6bU",
+      "prerequisiteId": "mt_Qcp2d_kuta",
       "strength": "hard",
-      "reason": "Sorting shapes requires knowing their 3-D properties"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Recognising and naming 3-D shapes is the real prerequisite for sorting them."
     },
     {
       "topicId": "mt_fEuoBYw6bU",
       "prerequisiteId": "mt_sBcRdUfAzV",
       "strength": "hard",
       "reason": "Sorting shapes requires knowing their 2-D properties"
+    },
+    {
+      "topicId": "mt_fEuoBYw6bU",
+      "prerequisiteId": "mt_yGv8doDAmp",
+      "strength": "soft",
+      "reason": "Describing faces and corners supports sorting by properties."
+    },
+    {
+      "topicId": "mt_FfMBoU1jt7",
+      "prerequisiteId": "mt_FtCLISvSGw",
+      "strength": "soft",
+      "reason": "Cutting fabric and simple joining support hand sewing"
     },
     {
       "topicId": "mt_FGCFUCqJBB",
@@ -8356,12 +7852,6 @@
       "reason": "'Childhood then and now' builds on 'My family and our places'"
     },
     {
-      "topicId": "mt__F_i67waLN",
-      "prerequisiteId": "mt_pBvABgZo5O",
-      "strength": "soft",
-      "reason": "'Family roles then and now' supports 'Childhood then and now'"
-    },
-    {
       "topicId": "mt_fI-8iqf_Id",
       "prerequisiteId": "mt_go5i87u2b9",
       "strength": "soft",
@@ -8420,24 +7910,6 @@
       "prerequisiteId": "mt_K0mZxY2AM8",
       "strength": "hard",
       "reason": "Must observe sun/moon/star patterns before relating daylight to time of year"
-    },
-    {
-      "topicId": "mt_fKAq8aOfhD",
-      "prerequisiteId": "mt_1m4J4KOjPy",
-      "strength": "soft",
-      "reason": "'Talks with clear structure' supports 'Telling others what we found'"
-    },
-    {
-      "topicId": "mt_fKAq8aOfhD",
-      "prerequisiteId": "mt_vJO5Bxk4z-",
-      "strength": "hard",
-      "reason": "'Telling others what we found' builds on 'Observing with simple equipment'"
-    },
-    {
-      "topicId": "mt_fKAq8aOfhD",
-      "prerequisiteId": "mt_ZFwPZaDJ0_",
-      "strength": "hard",
-      "reason": "'Telling others what we found' builds on 'Recording Data'"
     },
     {
       "topicId": "mt_fkcxpeYP85",
@@ -8615,15 +8087,15 @@
     },
     {
       "topicId": "mt_fQHBicp1Rf",
-      "prerequisiteId": "mt_loYPGHJ8lm",
-      "strength": "soft",
-      "reason": "'Reading and drawing circuit diagrams' supports 'Annotated design drawings'"
+      "prerequisiteId": "mt_hi8cVycbwn",
+      "strength": "hard",
+      "reason": "Annotated design drawings build on sketching and modelling design ideas (re-pointed from retired Drawing design ideas digitally)"
     },
     {
       "topicId": "mt_fQHBicp1Rf",
-      "prerequisiteId": "mt_P2nm-qVnvd",
-      "strength": "hard",
-      "reason": "'Annotated design drawings' builds on 'Drawing design ideas digitally'"
+      "prerequisiteId": "mt_loYPGHJ8lm",
+      "strength": "soft",
+      "reason": "'Reading and drawing circuit diagrams' supports 'Annotated design drawings'"
     },
     {
       "topicId": "mt_Fqna9qHffr",
@@ -8668,30 +8140,6 @@
       "reason": "Must understand print direction before letter identification matters"
     },
     {
-      "topicId": "mt_fruAJ2RaRT",
-      "prerequisiteId": "mt_5FREdVoS8s",
-      "strength": "hard",
-      "reason": "'Old and new texts compared' builds on 'Multiple Accounts of Events'"
-    },
-    {
-      "topicId": "mt_fruAJ2RaRT",
-      "prerequisiteId": "mt_M-S5oQhxYa",
-      "strength": "hard",
-      "reason": "'Old and new texts compared' builds on 'Same purpose, different audience'"
-    },
-    {
-      "topicId": "mt_FSLJbKkryb",
-      "prerequisiteId": "mt_FIkqA0qhnj",
-      "strength": "soft",
-      "reason": "General coin-and-note recognition supports learning Australian denominations"
-    },
-    {
-      "topicId": "mt_FSLJbKkryb",
-      "prerequisiteId": "mt_m1W6nTQJ2b",
-      "strength": "hard",
-      "reason": "Simple purchase problems require adding and subtracting within 20"
-    },
-    {
       "topicId": "mt_fT4G0QloX5",
       "prerequisiteId": "mt_ofOGCQ7FWj",
       "strength": "soft",
@@ -8714,12 +8162,6 @@
       "prerequisiteId": "mt_wf-SJhZ1kC",
       "strength": "soft",
       "reason": "'Changing Shapes of Solids' supports 'Cutting, joining and shaping safely'"
-    },
-    {
-      "topicId": "mt_FtCLISvSGw",
-      "prerequisiteId": "mt_xvHpeB03k5",
-      "strength": "hard",
-      "reason": "'Cutting, joining and shaping safely' builds on 'Making safely with simple tools'"
     },
     {
       "topicId": "mt_furAIwoO9t",
@@ -8794,18 +8236,6 @@
       "reason": "Ray diagrams for prisms and lenses connect to colour and dispersion concepts"
     },
     {
-      "topicId": "mt_FVVSQR9vGg",
-      "prerequisiteId": "mt_9L5qyBYmg-",
-      "strength": "hard",
-      "reason": "Reading a calculator display as money requires dollars-and-cents notation"
-    },
-    {
-      "topicId": "mt_FVVSQR9vGg",
-      "prerequisiteId": "mt_ewmuMMPAzP",
-      "strength": "soft",
-      "reason": "Estimating and checking totals uses addition and subtraction within 1000"
-    },
-    {
       "topicId": "mt_FW9_8F52bw",
       "prerequisiteId": "mt_4A4RpX-Go9",
       "strength": "hard",
@@ -8840,18 +8270,6 @@
       "prerequisiteId": "mt_nNNVrLqPW3",
       "strength": "hard",
       "reason": "Expanding brackets produces terms that then need collecting"
-    },
-    {
-      "topicId": "mt_fXE9t2ETGx",
-      "prerequisiteId": "mt_5zPXTvZTcX",
-      "strength": "soft",
-      "reason": "Familiar places provide the content of early picture maps"
-    },
-    {
-      "topicId": "mt_fXE9t2ETGx",
-      "prerequisiteId": "mt_qeZYF6HZ4o",
-      "strength": "hard",
-      "reason": "Placing things on a picture map uses positional language"
     },
     {
       "topicId": "mt_fxPtngwUfz",
@@ -9023,9 +8441,9 @@
     },
     {
       "topicId": "mt_g8gJIsDxmj",
-      "prerequisiteId": "mt_JumBNYAiA_",
+      "prerequisiteId": "mt_RhntJz7p_6",
       "strength": "hard",
-      "reason": "'Working together for a civic goal' builds on 'Proposing action on local issues'"
+      "reason": "Planning a civic campaign requires weighing options and consequences (re-pointed from retired Proposing action on local issues)"
     },
     {
       "topicId": "mt_g8gJIsDxmj",
@@ -9058,22 +8476,10 @@
       "reason": "Numbers to 10M extends Y5 numbers to 1M"
     },
     {
-      "topicId": "mt_GbisjfWodT",
-      "prerequisiteId": "mt_8-POYyg7GJ",
-      "strength": "soft",
-      "reason": "'Predicting what happens next' supports 'Picturing and summing up stories'"
-    },
-    {
-      "topicId": "mt_GbisjfWodT",
-      "prerequisiteId": "mt_mLPEMpYb_R",
-      "strength": "hard",
-      "reason": "'Picturing and summing up stories' builds on 'Listening to Texts Read Aloud'"
-    },
-    {
       "topicId": "mt_gBK8uXQlQW",
-      "prerequisiteId": "mt_1m4J4KOjPy",
+      "prerequisiteId": "mt_4A7FYmvVhA",
       "strength": "hard",
-      "reason": "'Precise words in presentations' builds on 'Talks with a beginning and end'"
+      "reason": "Presentations with precise vocabulary build on speaking with organised ideas (re-pointed from retired Talks with clear structure)"
     },
     {
       "topicId": "mt_gBK8uXQlQW",
@@ -9287,12 +8693,6 @@
     },
     {
       "topicId": "mt_GKL5Usnd11",
-      "prerequisiteId": "mt_kV441n9SLg",
-      "strength": "soft",
-      "reason": "'Peripherals for different purposes' is helpful background for 'Inside a computer' but not required to understand CPU, RAM and storage"
-    },
-    {
-      "topicId": "mt_GKL5Usnd11",
       "prerequisiteId": "mt_o0vTMl8vj5",
       "strength": "hard",
       "reason": "'Inside a computer' builds on 'Parts of a computer' (basic components and input/output before internal components)"
@@ -9390,8 +8790,14 @@
     {
       "topicId": "mt_gMSFymQlrW",
       "prerequisiteId": "mt_jIcgbCmziD",
-      "strength": "hard",
-      "reason": "Evaluating claims requires understanding purpose, audience, and context"
+      "strength": "soft",
+      "reason": "Knowing the intended audience helps evaluate an argument, but evaluation does not require audience identification"
+    },
+    {
+      "topicId": "mt_gMSFymQlrW",
+      "prerequisiteId": "mt_OltpfaX7l6",
+      "strength": "soft",
+      "reason": "Identifying author's purpose and point of view supports evaluating arguments (purpose clause moved from old jIcg)"
     },
     {
       "topicId": "mt_gMSFymQlrW",
@@ -9512,6 +8918,30 @@
       "prerequisiteId": "mt_lWqmKn5Jvr",
       "strength": "hard",
       "reason": "Recognising that living things have changed over time and fossils provide evidence requires evolution and fossil record vocabulary"
+    },
+    {
+      "topicId": "mt_gTI7MuS-y8",
+      "prerequisiteId": "mt_1VSfm9yiLn",
+      "strength": "soft",
+      "reason": "'Sorting into categories (age 6+)' (comparing category counts) supports 'Comparing results from two groups'"
+    },
+    {
+      "topicId": "mt_gTI7MuS-y8",
+      "prerequisiteId": "mt_c29FaCTNsx",
+      "strength": "hard",
+      "reason": "'Comparing results from two groups' builds on 'Pictograms and tally charts' (recording and reading category tallies)"
+    },
+    {
+      "topicId": "mt_gTI7MuS-y8",
+      "prerequisiteId": "mt_MRQcEvyPJv",
+      "strength": "soft",
+      "reason": "Checking a prediction against collected results supports predicting and checking group frequencies (re-pointed from retired Checking predictions with others)"
+    },
+    {
+      "topicId": "mt_gTI7MuS-y8",
+      "prerequisiteId": "mt_ylXdiVRAYv",
+      "strength": "soft",
+      "reason": "'Sorting Data into Categories' supports 'Comparing results from two groups'"
     },
     {
       "topicId": "mt_GtL2PVfRYP",
@@ -9834,14 +9264,32 @@
     {
       "topicId": "mt_hBZwbst0ow",
       "prerequisiteId": "mt_A-FyLLLLzy",
-      "strength": "hard",
-      "reason": "Linear sequences with negative/decimal steps extends Y5 pattern generation"
+      "strength": "soft",
+      "reason": "Generating patterns from a rule and noticing their features supports sequence work, but is not a necessary gate"
     },
     {
       "topicId": "mt_hBZwbst0ow",
       "prerequisiteId": "mt_RVK655t391",
       "strength": "soft",
       "reason": "Sequences crossing zero require negative number understanding"
+    },
+    {
+      "topicId": "mt_hBZwbst0ow",
+      "prerequisiteId": "mt_Vi4Vo5xs_g",
+      "strength": "hard",
+      "reason": "Decimal-step sequences require reading and writing decimal numbers (tenths and hundredths)"
+    },
+    {
+      "topicId": "mt_hBZwbst0ow",
+      "prerequisiteId": "mt_vXRzMbiPff",
+      "strength": "hard",
+      "reason": "Sequences that cross zero require counting backwards through zero into negative numbers"
+    },
+    {
+      "topicId": "mt_hBZwbst0ow",
+      "prerequisiteId": "mt_W3VOAuFwVw",
+      "strength": "hard",
+      "reason": "Constant-step sequences with negative or decimal steps extend the whole-number constant-step rule (find, state, continue)"
     },
     {
       "topicId": "mt_hCVPYlF-7Y",
@@ -9860,24 +9308,6 @@
       "prerequisiteId": "mt_IdFxLz-UW9",
       "strength": "hard",
       "reason": "Using terminology precisely requires understanding the grammatical concepts behind the terms"
-    },
-    {
-      "topicId": "mt_HczwO1sr-y",
-      "prerequisiteId": "mt_AQcVRBddko",
-      "strength": "hard",
-      "reason": "Ordering on an interactive number line requires ordering three-digit numbers"
-    },
-    {
-      "topicId": "mt_HczwO1sr-y",
-      "prerequisiteId": "mt_F_zEAJ8VIo",
-      "strength": "hard",
-      "reason": "On-screen representation to 1000 extends representing numbers to 1000"
-    },
-    {
-      "topicId": "mt_HczwO1sr-y",
-      "prerequisiteId": "mt_QguIGVMB1o",
-      "strength": "soft",
-      "reason": "Builds on representing numbers to 120 with physical and virtual materials"
     },
     {
       "topicId": "mt_HdI1y5KsBl",
@@ -9902,24 +9332,6 @@
       "prerequisiteId": "mt_8H2kO4k2B9",
       "strength": "soft",
       "reason": "Drawing regular/irregular polygons benefits from property knowledge"
-    },
-    {
-      "topicId": "mt_hE05udHee7",
-      "prerequisiteId": "mt_K1jLX9FXdl",
-      "strength": "hard",
-      "reason": "'Sequencing production steps' builds on 'Planning making steps together'"
-    },
-    {
-      "topicId": "mt_hE05udHee7",
-      "prerequisiteId": "mt_miGrca8zaS",
-      "strength": "soft",
-      "reason": "'Breaking Tasks into Steps' supports 'Sequencing production steps'"
-    },
-    {
-      "topicId": "mt_hE05udHee7",
-      "prerequisiteId": "mt_w4nSIDhIgC",
-      "strength": "soft",
-      "reason": "'Roles in a Group' supports 'Sequencing production steps'"
     },
     {
       "topicId": "mt_HF1t82HCJu",
@@ -9965,9 +9377,9 @@
     },
     {
       "topicId": "mt_Hft-0nxZvB",
-      "prerequisiteId": "mt_YfbfIdljWd",
+      "prerequisiteId": "mt_o0vTMl8vj5",
       "strength": "hard",
-      "reason": "'Computer networks' builds on 'Sending data between devices'"
+      "reason": "Describing data transmission between devices builds on knowing the components and peripherals of digital systems (from retired Sending data between devices)"
     },
     {
       "topicId": "mt_hHcaPPtPzS",
@@ -10284,14 +9696,20 @@
     {
       "topicId": "mt_hR2Y7NhMSY",
       "prerequisiteId": "mt_hRZyKvz1KN",
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Completing a figure about a given mirror line needs basic line symmetry, not all lines of symmetry in rotated or regular shapes."
+    },
+    {
+      "topicId": "mt_hR2Y7NhMSY",
+      "prerequisiteId": "mt_sBcRdUfAzV",
       "strength": "hard",
-      "reason": "Must identify lines of symmetry before completing symmetric figures"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Identifying a vertical line of symmetry is the real prerequisite."
     },
     {
       "topicId": "mt_hR2Y7NhMSY",
       "prerequisiteId": "mt_SH7QgFl8-v",
-      "strength": "hard",
-      "reason": "Completing a symmetric figure requires performing a reflection on a grid accurately"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Full grid transformations are not needed to complete a simple symmetric figure; checking is by folding."
     },
     {
       "topicId": "mt_HrgDjxcWvf",
@@ -10367,9 +9785,9 @@
     },
     {
       "topicId": "mt_hvmqr1qcTU",
-      "prerequisiteId": "mt_ty63-JSHTC",
+      "prerequisiteId": "mt_mSpJK-rKW_",
       "strength": "hard",
-      "reason": "'Puns and playing with words' builds on 'Rhythm and sound words'"
+      "reason": "Word play analysis builds on explaining sound devices' effects (re-pointed from retired Rhythm and sound words)"
     },
     {
       "topicId": "mt_hVpGOEz2kG",
@@ -10427,6 +9845,12 @@
     },
     {
       "topicId": "mt_h_XQsdIavD",
+      "prerequisiteId": "mt_ebQURBOsM5",
+      "strength": "soft",
+      "reason": "Privacy when collecting data applies to the data-collection skill (re-pointed from retired Collecting data with digital tools)"
+    },
+    {
+      "topicId": "mt_h_XQsdIavD",
       "prerequisiteId": "mt_hkIbGmuH7D",
       "strength": "soft",
       "reason": "'When permission is needed' supports 'Privacy when collecting data'"
@@ -10436,12 +9860,6 @@
       "prerequisiteId": "mt_qOv8OP8z2G",
       "strength": "hard",
       "reason": "'Privacy when collecting data' builds on 'What my accounts store'"
-    },
-    {
-      "topicId": "mt_h_XQsdIavD",
-      "prerequisiteId": "mt_yrvYKSwSRZ",
-      "strength": "soft",
-      "reason": "'Collecting data with digital tools' supports 'Privacy when collecting data'"
     },
     {
       "topicId": "mt_HY8Yycu_rz",
@@ -10631,12 +10049,6 @@
     },
     {
       "topicId": "mt_i8AGTuk4fJ",
-      "prerequisiteId": "mt_DxSbKzl-C-",
-      "strength": "soft",
-      "reason": "'Growing plants we use' supports 'Natural and made materials'"
-    },
-    {
-      "topicId": "mt_i8AGTuk4fJ",
       "prerequisiteId": "mt_e3-_toGuWf",
       "strength": "hard",
       "reason": "'Natural and made materials' builds on 'Testing Materials for Uses'"
@@ -10646,6 +10058,12 @@
       "prerequisiteId": "mt_rTn43s8RNX",
       "strength": "soft",
       "reason": "'Choosing the Right Material' supports 'Natural and made materials'"
+    },
+    {
+      "topicId": "mt_i8AGTuk4fJ",
+      "prerequisiteId": "mt_VIUF5Vspbg",
+      "strength": "soft",
+      "reason": "Knowing where plant and animal fibres come from supports classifying natural materials (re-pointed from retired Growing plants we use)"
     },
     {
       "topicId": "mt_I9cDkW4Qz-",
@@ -10769,6 +10187,12 @@
     },
     {
       "topicId": "mt_IfEgu0X449",
+      "prerequisiteId": "mt_g3W0mdADVu",
+      "strength": "hard",
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Halves and quarters of a whole (GB/AU-aligned) underpin comparing unit fractions."
+    },
+    {
+      "topicId": "mt_IfEgu0X449",
       "prerequisiteId": "mt_hyvHv2BCwb",
       "strength": "soft",
       "reason": "More shares = smaller helps understand why 1/5 < 1/3"
@@ -10776,8 +10200,8 @@
     {
       "topicId": "mt_IfEgu0X449",
       "prerequisiteId": "mt_Kr3IyA6m-O",
-      "strength": "hard",
-      "reason": "Comparing fractions requires understanding them as numbers on a line"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Ordering unit fractions does not need number-line placement."
     },
     {
       "topicId": "mt_iFkd0CTwlA",
@@ -11093,15 +10517,15 @@
     },
     {
       "topicId": "mt_ish_uH8vZe",
-      "prerequisiteId": "mt_FVVSQR9vGg",
-      "strength": "soft",
-      "reason": "Year 3 calculator checks for money precede efficient Year 4 calculator use"
+      "prerequisiteId": "mt_ewmuMMPAzP",
+      "strength": "hard",
+      "reason": "Using a calculator for multi-step problems and checking the result requires place-value understanding of addition and subtraction"
     },
     {
       "topicId": "mt_ish_uH8vZe",
       "prerequisiteId": "mt_mpS-JK_p_m",
-      "strength": "hard",
-      "reason": "Using a calculator well requires understanding the operations it performs"
+      "strength": "soft",
+      "reason": "Columnar written methods help when checking calculator results, but are not needed to operate a calculator"
     },
     {
       "topicId": "mt_ish_uH8vZe",
@@ -11273,15 +10697,15 @@
     },
     {
       "topicId": "mt_ix4nIsZzS3",
-      "prerequisiteId": "mt_7-N8TmQUsB",
-      "strength": "hard",
-      "reason": "'How context shapes responses' builds on 'Reading for history and culture'"
-    },
-    {
-      "topicId": "mt_ix4nIsZzS3",
       "prerequisiteId": "mt_LCJNRaRXtW",
       "strength": "soft",
       "reason": "'Different viewpoints in texts' supports 'How context shapes responses'"
+    },
+    {
+      "topicId": "mt_ix4nIsZzS3",
+      "prerequisiteId": "mt_UcmVDMgFGX",
+      "strength": "hard",
+      "reason": "Explaining how contexts shape responses builds on interpreting characters and events in their represented context (re-pointed from retired Reading for history and culture)"
     },
     {
       "topicId": "mt_IY3KwGLZgk",
@@ -11538,8 +10962,8 @@
     {
       "topicId": "mt_j8Pv3s7TZR",
       "prerequisiteId": "mt_i1kk9HDctI",
-      "strength": "hard",
-      "reason": "Distinguishing different coping strategies requires the vocabulary of regulation, triggers, and distress"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Choosing a coping strategy relies on knowing strategies (Simple Calming Strategies, hard), not definitions."
     },
     {
       "topicId": "mt_j8Pv3s7TZR",
@@ -11597,15 +11021,15 @@
     },
     {
       "topicId": "mt_JcLwbDGGvJ",
-      "prerequisiteId": "mt_nePS3LNvBy",
+      "prerequisiteId": "mt_HF1t82HCJu",
       "strength": "hard",
-      "reason": "'Same topic, different texts' builds on 'Stories, facts and persuading'"
+      "reason": "Comparing how text types present a topic builds on knowing text purposes (re-pointed from retired Stories, facts and persuading)"
     },
     {
       "topicId": "mt_JcLwbDGGvJ",
-      "prerequisiteId": "mt_qUKddG0UYv",
+      "prerequisiteId": "mt_OlhMP7ShFT",
       "strength": "hard",
-      "reason": "'Same topic, different texts' builds on 'Pictures in stories and fact books'"
+      "reason": "Comparing how text types present a topic builds on understanding what pictures add to texts (re-pointed from retired Pictures in different books)"
     },
     {
       "topicId": "mt_jCy07DyBNU",
@@ -11735,12 +11159,6 @@
     },
     {
       "topicId": "mt_JI0Iv01hCT",
-      "prerequisiteId": "mt_mqMPlNMIEN",
-      "strength": "hard",
-      "reason": "'Collaborating in shared documents' builds on 'Sharing and working together digitally'"
-    },
-    {
-      "topicId": "mt_JI0Iv01hCT",
       "prerequisiteId": "mt_QxsoqVUt6u",
       "strength": "soft",
       "reason": "'Working Well in a Group' supports 'Collaborating in shared documents'"
@@ -11754,14 +11172,20 @@
     {
       "topicId": "mt_jIcgbCmziD",
       "prerequisiteId": "mt_aVZJhPbc_1",
-      "strength": "hard",
-      "reason": "Understanding context requires recognising how language choices serve different purposes"
+      "strength": "soft",
+      "reason": "Understanding presentational features helps read layout clues, but audience identification can rest on topic and word clues alone"
+    },
+    {
+      "topicId": "mt_jIcgbCmziD",
+      "prerequisiteId": "mt_HF1t82HCJu",
+      "strength": "soft",
+      "reason": "Knowing text purposes supports reasoning about audience (from retired JWjS; soft because HF1t is AU-only and jIcg also serves GB)"
     },
     {
       "topicId": "mt_jIcgbCmziD",
       "prerequisiteId": "mt_V6456X6pJE",
-      "strength": "hard",
-      "reason": "Purpose and audience analysis extends KS2 distinguishing fact from opinion"
+      "strength": "soft",
+      "reason": "Telling fact from opinion helps spot persuasive texts aimed at an audience, but identifying the intended audience does not require it"
     },
     {
       "topicId": "mt_jIszRCO2ij",
@@ -11774,18 +11198,6 @@
       "prerequisiteId": "mt_QR3vxbN1o4",
       "strength": "hard",
       "reason": "The plan-do-review cycle is the mature form of the basic planning habit established at age 6-7"
-    },
-    {
-      "topicId": "mt_jIUuqbJJRb",
-      "prerequisiteId": "mt_MRQcEvyPJv",
-      "strength": "hard",
-      "reason": "'Checking predictions with others' builds on 'Did it happen as predicted?'"
-    },
-    {
-      "topicId": "mt_jIUuqbJJRb",
-      "prerequisiteId": "mt_Wa44s-f8Ws",
-      "strength": "hard",
-      "reason": "'Checking predictions with others' builds on 'Simple tests and experiments'"
     },
     {
       "topicId": "mt_JivEBTD_KV",
@@ -11908,24 +11320,6 @@
       "reason": "KS3 species distribution and climate change extends KS2 understanding that environmental change can threaten living things"
     },
     {
-      "topicId": "mt_JumBNYAiA_",
-      "prerequisiteId": "mt_2GDBmKCJxs",
-      "strength": "hard",
-      "reason": "'Proposing action on local issues' builds on 'Different views about places'"
-    },
-    {
-      "topicId": "mt_JumBNYAiA_",
-      "prerequisiteId": "mt_HveO1bOXpJ",
-      "strength": "soft",
-      "reason": "'Comparing Possible Solutions' supports 'Proposing action on local issues'"
-    },
-    {
-      "topicId": "mt_JumBNYAiA_",
-      "prerequisiteId": "mt_RhntJz7p_6",
-      "strength": "hard",
-      "reason": "'Proposing action on local issues' builds on 'Stop, Think, Then Choose'"
-    },
-    {
       "topicId": "mt_Juxx4n-8mu",
       "prerequisiteId": "mt_PJZf6WGfzl",
       "strength": "soft",
@@ -11987,15 +11381,15 @@
     },
     {
       "topicId": "mt_JVVKT-_AD9",
-      "prerequisiteId": "mt__CFtXgDaEL",
-      "strength": "soft",
-      "reason": "'Headlines, menus and links online' supports 'Using Multiple Sources'"
-    },
-    {
-      "topicId": "mt_JVVKT-_AD9",
       "prerequisiteId": "mt_Cqm8iy48UI",
       "strength": "soft",
       "reason": "Cross-subject: drawing on information from multiple print/digital sources benefits from the ability to read and interpret tables"
+    },
+    {
+      "topicId": "mt_JVVKT-_AD9",
+      "prerequisiteId": "mt_YrDlg_J4kQ",
+      "strength": "soft",
+      "reason": "Locating information across sources uses navigation of print and screen texts (re-pointed from retired Headlines, menus and links online)"
     },
     {
       "topicId": "mt_JVVKT-_AD9",
@@ -12014,18 +11408,6 @@
       "prerequisiteId": "mt_uUa6cgv8zV",
       "strength": "hard",
       "reason": "Earth's layers builds on knowing Earth is made of rock"
-    },
-    {
-      "topicId": "mt_JWjSZNk1Qy",
-      "prerequisiteId": "mt_HF1t82HCJu",
-      "strength": "hard",
-      "reason": "'Who is this text for?' builds on 'What is this text for?'"
-    },
-    {
-      "topicId": "mt_JWjSZNk1Qy",
-      "prerequisiteId": "mt_nePS3LNvBy",
-      "strength": "hard",
-      "reason": "'Who is this text for?' builds on 'Stories, facts and persuading'"
     },
     {
       "topicId": "mt_JwP9QFv6gQ",
@@ -12062,24 +11444,6 @@
       "prerequisiteId": "mt_PNSyfH56eQ",
       "strength": "soft",
       "reason": "Calculating energy efficiency as a percentage requires percentage calculation skills from Math"
-    },
-    {
-      "topicId": "mt_Jz9UuT8BXW",
-      "prerequisiteId": "mt_0XxyaQLRhn",
-      "strength": "soft",
-      "reason": "Half past on a clock connects to half an hour"
-    },
-    {
-      "topicId": "mt_Jz9UuT8BXW",
-      "prerequisiteId": "mt_gC-6JXAG5S",
-      "strength": "hard",
-      "reason": "Splitting an activity into eighths requires knowing eighths from repeated halving of shapes and objects"
-    },
-    {
-      "topicId": "mt_Jz9UuT8BXW",
-      "prerequisiteId": "mt_-hTTat0mBR",
-      "strength": "hard",
-      "reason": "Halves of events require understanding a half as one of two equal parts"
     },
     {
       "topicId": "mt_k0-aLFge4X",
@@ -12142,24 +11506,6 @@
       "reason": "KS3 variation within species builds on KS2 recognition that living things can be grouped by observable features"
     },
     {
-      "topicId": "mt_K1jLX9FXdl",
-      "prerequisiteId": "mt__p5n8z5soJ",
-      "strength": "hard",
-      "reason": "'Planning making steps together' builds on 'Step-by-Step Instructions'"
-    },
-    {
-      "topicId": "mt_K1jLX9FXdl",
-      "prerequisiteId": "mt_QxsoqVUt6u",
-      "strength": "soft",
-      "reason": "'Working Well in a Group' supports 'Planning making steps together'"
-    },
-    {
-      "topicId": "mt_K1jLX9FXdl",
-      "prerequisiteId": "mt_xvHpeB03k5",
-      "strength": "soft",
-      "reason": "'Making safely with simple tools' supports 'Planning making steps together'"
-    },
-    {
       "topicId": "mt_k2WE0-22-4",
       "prerequisiteId": "mt_cFltwUQi-d",
       "strength": "hard",
@@ -12206,18 +11552,6 @@
       "prerequisiteId": "mt_wQ89AEXhz3",
       "strength": "hard",
       "reason": "All tables to 12×12 extends knowledge of 3/4/8 tables"
-    },
-    {
-      "topicId": "mt_K5Zqgu7rzp",
-      "prerequisiteId": "mt_nwSWPTENmv",
-      "strength": "hard",
-      "reason": "'Exploring safely with senses' builds on 'The Five Senses'"
-    },
-    {
-      "topicId": "mt_K5Zqgu7rzp",
-      "prerequisiteId": "mt_q3vRl4dddK",
-      "strength": "soft",
-      "reason": "'Everyday Safety Awareness' supports 'Exploring safely with senses'"
     },
     {
       "topicId": "mt_k6_dUr_oH6",
@@ -12628,24 +11962,6 @@
       "reason": "Must understand tundra to compare terrestrial Arctic vs marine Antarctic"
     },
     {
-      "topicId": "mt_KpBg1_T_84",
-      "prerequisiteId": "mt_4GiE83rJF_",
-      "strength": "hard",
-      "reason": "'Inventing rhymes and alliteration' builds on 'Rhyming words'"
-    },
-    {
-      "topicId": "mt_KpBg1_T_84",
-      "prerequisiteId": "mt_j89i4u2fKr",
-      "strength": "hard",
-      "reason": "'Inventing rhymes and alliteration' builds on 'Spotting and making alliteration'"
-    },
-    {
-      "topicId": "mt_KpBg1_T_84",
-      "prerequisiteId": "mt_OTFABm2xdf",
-      "strength": "soft",
-      "reason": "'Rhythm in rhymes and songs' supports 'Inventing rhymes and alliteration'"
-    },
-    {
       "topicId": "mt_KQRxnwElNc",
       "prerequisiteId": "mt_m43jiOAOCt",
       "strength": "soft",
@@ -12701,9 +12017,9 @@
     },
     {
       "topicId": "mt_KsKLVW_ssY",
-      "prerequisiteId": "mt_fXE9t2ETGx",
+      "prerequisiteId": "mt_61Pa4Eksva",
       "strength": "soft",
-      "reason": "Picture maps and models prepare for representing landforms on a map or model"
+      "reason": "Locating places on maps supports describing landforms (re-pointed from retired Picture maps)"
     },
     {
       "topicId": "mt_KsKLVW_ssY",
@@ -12752,12 +12068,6 @@
       "prerequisiteId": "mt_OltpfaX7l6",
       "strength": "hard",
       "reason": "Evaluating author's use of reasons and evidence builds on identifying author's POV and purpose; the step up is from identifying purpose to evaluating the quality of reasoning"
-    },
-    {
-      "topicId": "mt_kV441n9SLg",
-      "prerequisiteId": "mt_o0vTMl8vj5",
-      "strength": "hard",
-      "reason": "'Peripherals for different purposes' builds on 'Parts of a computer'"
     },
     {
       "topicId": "mt_kvrvpQris4",
@@ -12815,15 +12125,21 @@
     },
     {
       "topicId": "mt_kxeuXm6EyC",
-      "prerequisiteId": "mt_ebQURBOsM5",
+      "prerequisiteId": "mt_c29FaCTNsx",
       "strength": "hard",
-      "reason": "An investigation requires collecting and recording data for a question"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Collecting, tallying and displaying data is the real prerequisite."
+    },
+    {
+      "topicId": "mt_kxeuXm6EyC",
+      "prerequisiteId": "mt_ebQURBOsM5",
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): The investigation collects its own data; the AU Y3 topic adds spreadsheet entry (a medium beyond the core). Basic collection and tallying (Pictograms and tally charts) becomes hard."
     },
     {
       "topicId": "mt_kxeuXm6EyC",
       "prerequisiteId": "mt_r8XnXwRA6g",
-      "strength": "hard",
-      "reason": "An investigation requires representing data in a scaled display"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): A guided investigation needs a suitable display, not a scaled one."
     },
     {
       "topicId": "mt_KYx0m4OyZv",
@@ -12857,15 +12173,15 @@
     },
     {
       "topicId": "mt_l-3JUgI80b",
-      "prerequisiteId": "mt_5zPXTvZTcX",
+      "prerequisiteId": "mt_5n-O41lUgn",
       "strength": "soft",
-      "reason": "'Special places I belong to' supports 'The Country our school is on'"
+      "reason": "Connecting stories to own experience supports learning about the school's Country (re-pointed)"
     },
     {
       "topicId": "mt_l-3JUgI80b",
-      "prerequisiteId": "mt__sYpBrdzcp",
+      "prerequisiteId": "mt_5zPXTvZTcX",
       "strength": "soft",
-      "reason": "'Sharing ideas about Australian stories' supports 'The Country our school is on'"
+      "reason": "'Special places I belong to' supports 'The Country our school is on'"
     },
     {
       "topicId": "mt_l6OpmOKMuT",
@@ -12880,28 +12196,10 @@
       "reason": "Food chains benefit from knowing the variety of animals that eat each other"
     },
     {
-      "topicId": "mt_L8y31QOR6s",
-      "prerequisiteId": "mt_kvrvpQris4",
-      "strength": "soft",
-      "reason": "'Expressing Feelings with Words' supports 'Saying yes or no respectfully'"
-    },
-    {
-      "topicId": "mt_L8y31QOR6s",
-      "prerequisiteId": "mt_sh1Mq-mshx",
-      "strength": "soft",
-      "reason": "'Asking permission' supports 'Saying yes or no respectfully'"
-    },
-    {
       "topicId": "mt_LADBSIowuS",
       "prerequisiteId": "mt_7VrR1GzhrN",
       "strength": "hard",
       "reason": "'Comparing findings with other groups' builds on 'Drawing conclusions from evidence'"
-    },
-    {
-      "topicId": "mt_LADBSIowuS",
-      "prerequisiteId": "mt_jIUuqbJJRb",
-      "strength": "hard",
-      "reason": "'Comparing findings with other groups' builds on 'Checking predictions with others'"
     },
     {
       "topicId": "mt_LADBSIowuS",
@@ -13835,9 +13133,9 @@
     },
     {
       "topicId": "mt_MgsDabdnr1",
-      "prerequisiteId": "mt_Jz9UuT8BXW",
+      "prerequisiteId": "mt_gC-6JXAG5S",
       "strength": "soft",
-      "reason": "A quarter of an hour connects fractions of time to the clock"
+      "reason": "Quarter past/to links to a quarter of an hour (re-pointed from retired Fractions of time and events)"
     },
     {
       "topicId": "mt_MgsDabdnr1",
@@ -13862,18 +13160,6 @@
       "prerequisiteId": "mt_lC_Q5mSL_I",
       "strength": "hard",
       "reason": "Ordering and comparing numbers over 1000 requires the full 10,000 representations toolkit"
-    },
-    {
-      "topicId": "mt_MIA4wfENUm",
-      "prerequisiteId": "mt_f7RadQGOnQ",
-      "strength": "hard",
-      "reason": "'Hyperbole and emotive language' builds on 'Personification and sound devices'"
-    },
-    {
-      "topicId": "mt_MIA4wfENUm",
-      "prerequisiteId": "mt_IoGOSAQ8bz",
-      "strength": "hard",
-      "reason": "'Hyperbole and emotive language' builds on 'Idioms & Proverbs'"
     },
     {
       "topicId": "mt_miGrca8zaS",
@@ -13996,30 +13282,6 @@
       "reason": "KS3 figurative language nuance extends KS2 evaluating how authors use figurative language"
     },
     {
-      "topicId": "mt_mMDpLugX2X",
-      "prerequisiteId": "mt_ilPrU0cbtT",
-      "strength": "soft",
-      "reason": "Estimation checks the spreadsheet results"
-    },
-    {
-      "topicId": "mt_mMDpLugX2X",
-      "prerequisiteId": "mt_NmvuwVUFRS",
-      "strength": "soft",
-      "reason": "Builds on choosing calculators and checking by estimation"
-    },
-    {
-      "topicId": "mt_mMDpLugX2X",
-      "prerequisiteId": "mt_oMkQQ2O-ML",
-      "strength": "hard",
-      "reason": "Spreadsheet discounts and GST apply the percentage and GST reasoning"
-    },
-    {
-      "topicId": "mt_mMDpLugX2X",
-      "prerequisiteId": "mt_Qe2PsFmSAH",
-      "strength": "hard",
-      "reason": "Builds on budgets with calculators or spreadsheets"
-    },
-    {
       "topicId": "mt_mMMXD4v9Sh",
       "prerequisiteId": "mt_8UL1opbJEt",
       "strength": "soft",
@@ -14122,12 +13384,6 @@
       "reason": "Four-digit columnar methods extend three-digit columnar methods"
     },
     {
-      "topicId": "mt_mpzmwTktqF",
-      "prerequisiteId": "mt_mB7DVai-Uf",
-      "strength": "soft",
-      "reason": "'Listening and responding' supports 'Home talk and school talk'"
-    },
-    {
       "topicId": "mt_mQcWGh02no",
       "prerequisiteId": "mt_e4x3l2JeLI",
       "strength": "soft",
@@ -14162,24 +13418,6 @@
       "prerequisiteId": "mt_YFS7JFk64p",
       "strength": "soft",
       "reason": "KS2 finding pairs satisfying an equation with two unknowns is a precursor to simultaneous equations"
-    },
-    {
-      "topicId": "mt_mqMPlNMIEN",
-      "prerequisiteId": "mt_0sR1xhrn7W",
-      "strength": "soft",
-      "reason": "'Logging in to my account' supports 'Sharing and working together digitally'"
-    },
-    {
-      "topicId": "mt_mqMPlNMIEN",
-      "prerequisiteId": "mt_FwI7q7DSIx",
-      "strength": "soft",
-      "reason": "'Taking Turns and Sharing' supports 'Sharing and working together digitally'"
-    },
-    {
-      "topicId": "mt_mqMPlNMIEN",
-      "prerequisiteId": "mt_zIzJGkaj0Q",
-      "strength": "soft",
-      "reason": "'Basic digital citizenship' supports 'Sharing and working together digitally'"
     },
     {
       "topicId": "mt_mqQ-DtH5m-",
@@ -14273,21 +13511,21 @@
     },
     {
       "topicId": "mt_M-S5oQhxYa",
-      "prerequisiteId": "mt_JWjSZNk1Qy",
+      "prerequisiteId": "mt_jIcgbCmziD",
       "strength": "hard",
-      "reason": "'Same purpose, different audience' builds on 'Who is this text for?'"
+      "reason": "Comparing how texts are adapted for different audiences requires identifying each text's intended audience (re-pointed from retired JWjS)"
     },
     {
       "topicId": "mt_mSpJK-rKW_",
       "prerequisiteId": "mt_4IxR66uGLc",
-      "strength": "hard",
-      "reason": "'How sound creates meaning in poems' builds on 'Poems, Drama & Prose'"
+      "strength": "soft",
+      "reason": "Knowing poem/drama/prose forms supports but does not gate explaining sound-device effects"
     },
     {
       "topicId": "mt_mSpJK-rKW_",
-      "prerequisiteId": "mt_f7RadQGOnQ",
+      "prerequisiteId": "mt_TffvIu6VgG",
       "strength": "hard",
-      "reason": "'How sound creates meaning in poems' builds on 'Personification and sound devices'"
+      "reason": "Explaining the effect of sound devices builds on noticing repetition, rhyme and rhythm in poems"
     },
     {
       "topicId": "mt_mTpV-0rtkO",
@@ -14387,15 +13625,9 @@
     },
     {
       "topicId": "mt_MXxVMCr7_4",
-      "prerequisiteId": "mt_EfF81YvgXV",
-      "strength": "hard",
-      "reason": "'Evaluating digital solutions' builds on 'User stories and design criteria'"
-    },
-    {
-      "topicId": "mt_MXxVMCr7_4",
       "prerequisiteId": "mt_Q57cnsiKsB",
-      "strength": "hard",
-      "reason": "'Evaluating digital solutions' builds on 'Checking solutions against criteria'"
+      "strength": "soft",
+      "reason": "Requirements checking is related, but analysing who benefits, who is excluded and privacy/environmental effects does not require a criteria checklist"
     },
     {
       "topicId": "mt_My0OL6fhGL",
@@ -14438,18 +13670,6 @@
       "prerequisiteId": "mt_vKcxX6iNOA",
       "strength": "hard",
       "reason": "Writing fractions and recognising equivalence requires 'equivalent fraction' vocabulary"
-    },
-    {
-      "topicId": "mt_mYujFoIsVG",
-      "prerequisiteId": "mt_5r47Pvstyn",
-      "strength": "soft",
-      "reason": "'Objects vs Materials' supports 'Breaking materials into pieces'"
-    },
-    {
-      "topicId": "mt_mYujFoIsVG",
-      "prerequisiteId": "mt_wf-SJhZ1kC",
-      "strength": "hard",
-      "reason": "'Breaking materials into pieces' builds on 'Changing Shapes of Solids'"
     },
     {
       "topicId": "mt_mywsN77hGZ",
@@ -14508,8 +13728,8 @@
     {
       "topicId": "mt_n3ojDXoaqC",
       "prerequisiteId": "mt_0Rx1ISxXFE",
-      "strength": "hard",
-      "reason": "'Australia's links with the world' builds on 'Global Trade'"
+      "strength": "soft",
+      "reason": "Trade knowledge is related context, but describing migration, aid, tourism or cultural interconnections does not require it"
     },
     {
       "topicId": "mt_n3ojDXoaqC",
@@ -14752,24 +13972,6 @@
       "reason": "Insects as pollinators/decomposers are key to understanding ecosystem services"
     },
     {
-      "topicId": "mt_nePS3LNvBy",
-      "prerequisiteId": "mt_91f1XFvGZq",
-      "strength": "soft",
-      "reason": "'Writing opinions' supports 'Stories, facts and persuading'"
-    },
-    {
-      "topicId": "mt_nePS3LNvBy",
-      "prerequisiteId": "mt_gZIo5oiBMt",
-      "strength": "hard",
-      "reason": "'Stories, facts and persuading' builds on 'Different Types of Texts'"
-    },
-    {
-      "topicId": "mt_nePS3LNvBy",
-      "prerequisiteId": "mt_HF1t82HCJu",
-      "strength": "hard",
-      "reason": "'Stories, facts and persuading' builds on 'What is this text for?'"
-    },
-    {
       "topicId": "mt_nFBLNoChD0",
       "prerequisiteId": "mt_18qkgxr_-T",
       "strength": "hard",
@@ -14894,30 +14096,6 @@
       "prerequisiteId": "mt_MFfYcnv6Tv",
       "strength": "hard",
       "reason": "Rotational symmetry requires understanding fractions of a turn"
-    },
-    {
-      "topicId": "mt_NmvuwVUFRS",
-      "prerequisiteId": "mt_G3sVFQNCme",
-      "strength": "soft",
-      "reason": "Checking calculator results uses rounding estimates"
-    },
-    {
-      "topicId": "mt_NmvuwVUFRS",
-      "prerequisiteId": "mt_ish_uH8vZe",
-      "strength": "hard",
-      "reason": "Builds on choosing and checking calculator use for whole-number operations"
-    },
-    {
-      "topicId": "mt_NmvuwVUFRS",
-      "prerequisiteId": "mt_MCu_SNg_OW",
-      "strength": "soft",
-      "reason": "Interpreting a decimal answer as a remainder builds on division with remainders"
-    },
-    {
-      "topicId": "mt_NmvuwVUFRS",
-      "prerequisiteId": "mt_q9EaJc2FP8",
-      "strength": "hard",
-      "reason": "Multiplying larger numbers on a calculator requires understanding multi-digit multiplication"
     },
     {
       "topicId": "mt_nNDX_jZ-cb",
@@ -15064,28 +14242,16 @@
       "reason": "KS3 3D shape properties extend KS2 identifying 3D shapes from 2D representations"
     },
     {
-      "topicId": "mt_nrXT7pDpG6",
-      "prerequisiteId": "mt_BhYJZUsErp",
+      "topicId": "mt_NSC3LT_-ch",
+      "prerequisiteId": "mt_4lp_b5Pzik",
       "strength": "soft",
-      "reason": "'Segmenting words into sounds' supports 'Writing and fixing together'"
-    },
-    {
-      "topicId": "mt_nrXT7pDpG6",
-      "prerequisiteId": "mt_OyOYHlZ2_T",
-      "strength": "soft",
-      "reason": "'Responding to Writing Feedback' supports 'Writing and fixing together'"
-    },
-    {
-      "topicId": "mt_nrXT7pDpG6",
-      "prerequisiteId": "mt_QEr24lqzvH",
-      "strength": "hard",
-      "reason": "'Writing and fixing together' builds on 'Starting and Ending Sentences'"
+      "reason": "Measuring capacity with informal units supports checking estimates."
     },
     {
       "topicId": "mt_NSC3LT_-ch",
       "prerequisiteId": "mt_6oxQPNLHNv",
-      "strength": "hard",
-      "reason": "Estimating capacity in litres and millilitres builds on measuring and calculating with these units"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Estimating against a known measure and checking by filling does not require adding/subtracting measurements."
     },
     {
       "topicId": "mt_NSC3LT_-ch",
@@ -15094,16 +14260,16 @@
       "reason": "Year 4 estimating and comparing measures gives practice in judging sensible amounts before measuring"
     },
     {
-      "topicId": "mt_NTAc_EMeHZ",
-      "prerequisiteId": "mt_cB_j7towTD",
+      "topicId": "mt_NSC3LT_-ch",
+      "prerequisiteId": "mt_zkFbMLpu3U",
       "strength": "hard",
-      "reason": "'Borrowing from books you've read' builds on 'Making new versions of stories'"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Comparing capacities (holds more/less) is the real prerequisite."
     },
     {
       "topicId": "mt_NTAc_EMeHZ",
       "prerequisiteId": "mt_vauULTecMH",
-      "strength": "hard",
-      "reason": "'Borrowing from books you've read' builds on 'Narrative Writing'"
+      "strength": "soft",
+      "reason": "Narrative-writing skill supports borrowing story structures, but new versions of patterned stories do not require full narrative writing"
     },
     {
       "topicId": "mt_nTL-owFJTF",
@@ -15286,30 +14452,6 @@
       "reason": "Reading fluency supports reading aloud own writing"
     },
     {
-      "topicId": "mt_nZaqNZaN0V",
-      "prerequisiteId": "mt_5l7iGkf1Tp",
-      "strength": "hard",
-      "reason": "'Modelling seasons and day length' builds on 'The solar system'"
-    },
-    {
-      "topicId": "mt_nZaqNZaN0V",
-      "prerequisiteId": "mt_LQt4vnKeB4",
-      "strength": "soft",
-      "reason": "'Earth & Space Vocabulary' supports 'Modelling seasons and day length'"
-    },
-    {
-      "topicId": "mt_nZaqNZaN0V",
-      "prerequisiteId": "mt_q15w--Fb5H",
-      "strength": "hard",
-      "reason": "'Modelling seasons and day length' builds on 'Earth's rotation and day/night'"
-    },
-    {
-      "topicId": "mt_nZaqNZaN0V",
-      "prerequisiteId": "mt_w2xiMNkyyX",
-      "strength": "soft",
-      "reason": "'Earth's Spin & Orbit' supports 'Modelling seasons and day length'"
-    },
-    {
       "topicId": "mt_nzdtOLXWWa",
       "prerequisiteId": "mt_aCwj2PCoRV",
       "strength": "hard",
@@ -15374,24 +14516,6 @@
       "prerequisiteId": "mt_SZrMv3YAky",
       "strength": "hard",
       "reason": "'Parts of a computer' builds on 'Hardware and software'"
-    },
-    {
-      "topicId": "mt_o0vTMl8vj5",
-      "prerequisiteId": "mt_w5sIW_-T_J",
-      "strength": "soft",
-      "reason": "'Navigating digital texts' supports 'Parts of a computer'"
-    },
-    {
-      "topicId": "mt_O12GEyNwSi",
-      "prerequisiteId": "mt_My0OL6fhGL",
-      "strength": "soft",
-      "reason": "'Advertising & Spending' supports 'Gender stereotypes in media'"
-    },
-    {
-      "topicId": "mt_O12GEyNwSi",
-      "prerequisiteId": "mt_urxvHF8Vds",
-      "strength": "hard",
-      "reason": "'Gender stereotypes in media' builds on 'How stereotypes shape choices'"
     },
     {
       "topicId": "mt_O2dS6gvClw",
@@ -15652,24 +14776,6 @@
       "reason": "Noticing similarities and differences among people draws on vocabulary of community, fair, and care"
     },
     {
-      "topicId": "mt_OKCmMGWczX",
-      "prerequisiteId": "mt_AzTrT5ySCx",
-      "strength": "soft",
-      "reason": "'AI in Daily Life' supports 'Problems digital systems solve'"
-    },
-    {
-      "topicId": "mt_OKCmMGWczX",
-      "prerequisiteId": "mt_XbGfVhfiUz",
-      "strength": "soft",
-      "reason": "'Computers in Everyday Life' supports 'Problems digital systems solve'"
-    },
-    {
-      "topicId": "mt_OKCmMGWczX",
-      "prerequisiteId": "mt_YbX3LD0Eca",
-      "strength": "soft",
-      "reason": "'Listening to Others' supports 'Problems digital systems solve'"
-    },
-    {
       "topicId": "mt_OkSJfrmFb_",
       "prerequisiteId": "mt_nvdpxAJTBG",
       "strength": "hard",
@@ -15726,8 +14832,8 @@
     {
       "topicId": "mt_OltpfaX7l6",
       "prerequisiteId": "mt_XeMZdf2Y9W",
-      "strength": "hard",
-      "reason": "Distinguishing own POV from author's extends identifying author's reasons/supporting points"
+      "strength": "soft",
+      "reason": "Recognising purpose/stance from a text's words does not require mastering book anatomy or every reason-finding clause, especially for messages without covers; helpful context only"
     },
     {
       "topicId": "mt_OLwNsTI6C7",
@@ -15833,15 +14939,15 @@
     },
     {
       "topicId": "mt_oqrqjd9jm9",
-      "prerequisiteId": "mt_axrs4Gfdm9",
-      "strength": "hard",
-      "reason": "'Diverse First Nations peoples' builds on 'Connections to Country across Australia'"
-    },
-    {
-      "topicId": "mt_oqrqjd9jm9",
       "prerequisiteId": "mt_kt3K54xUPu",
       "strength": "hard",
       "reason": "First Nations diversity builds on knowing Australia is made up of many Countries"
+    },
+    {
+      "topicId": "mt_oqrqjd9jm9",
+      "prerequisiteId": "mt_pK6QkcKxZT",
+      "strength": "hard",
+      "reason": "Describing First Nations diversity builds on understanding connections to Country across environments (re-pointed from retired Connections to Country across Australia)"
     },
     {
       "topicId": "mt_oqvJJKCJXw",
@@ -15953,15 +15059,15 @@
     },
     {
       "topicId": "mt_OTrQJVRRJ6",
-      "prerequisiteId": "mt_My0OL6fhGL",
-      "strength": "hard",
-      "reason": "'Reading health messages' builds on 'Advertising & Spending'"
+      "prerequisiteId": "mt_DRNXFr0ds6",
+      "strength": "soft",
+      "reason": "Recognising health signs supports interpreting health messages (re-pointed from retired Health messages around us)"
     },
     {
       "topicId": "mt_OTrQJVRRJ6",
-      "prerequisiteId": "mt_wudskBtVQc",
+      "prerequisiteId": "mt_My0OL6fhGL",
       "strength": "hard",
-      "reason": "'Reading health messages' builds on 'Health messages around us'"
+      "reason": "'Reading health messages' builds on 'Advertising & Spending'"
     },
     {
       "topicId": "mt_OtShuvs3x8",
@@ -15974,18 +15080,6 @@
       "prerequisiteId": "mt_xVW5U41tbp",
       "strength": "hard",
       "reason": "Must know rainforest animals before classifying them into groups"
-    },
-    {
-      "topicId": "mt_O-U263ukg1",
-      "prerequisiteId": "mt_iykH2P5oFq",
-      "strength": "soft",
-      "reason": "Posing statistical questions supports refining questions"
-    },
-    {
-      "topicId": "mt_O-U263ukg1",
-      "prerequisiteId": "mt_SHVyE1CLUa",
-      "strength": "hard",
-      "reason": "Refining and conducting a full investigation builds on planning investigations"
     },
     {
       "topicId": "mt_O_UOTiMvT_",
@@ -16096,12 +15190,6 @@
       "reason": "'How images are framed' builds on 'Pictures and Text Working Together'"
     },
     {
-      "topicId": "mt_oX753JF2Ub",
-      "prerequisiteId": "mt_qUKddG0UYv",
-      "strength": "hard",
-      "reason": "'How images are framed' builds on 'Pictures in stories and fact books'"
-    },
-    {
       "topicId": "mt_oxfxzbat3k",
       "prerequisiteId": "mt_0u4KLbvBa1",
       "strength": "hard",
@@ -16157,9 +15245,15 @@
     },
     {
       "topicId": "mt_OzRZ89GrQW",
-      "prerequisiteId": "mt_e4x3l2JeLI",
+      "prerequisiteId": "mt_cqSf213hSa",
       "strength": "hard",
-      "reason": "Estimating lengths requires experience with standard units from measuring"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Measuring length with same-size units is the real prerequisite."
+    },
+    {
+      "topicId": "mt_OzRZ89GrQW",
+      "prerequisiteId": "mt_e4x3l2JeLI",
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Core skill (estimate with a known unit, check by measuring) needs measuring with same-size units; the ruler/standard-tool branch stays explicitly supported in evidence and as a soft prerequisite."
     },
     {
       "topicId": "mt_P0HBNfp46z",
@@ -16184,18 +15278,6 @@
       "prerequisiteId": "mt_NtJYlJdUe9",
       "strength": "hard",
       "reason": "Comparing mass/weight requires first identifying mass as a measurable attribute"
-    },
-    {
-      "topicId": "mt_P2nm-qVnvd",
-      "prerequisiteId": "mt_hi8cVycbwn",
-      "strength": "hard",
-      "reason": "'Drawing design ideas digitally' builds on 'Modelling with Sketches'"
-    },
-    {
-      "topicId": "mt_P2nm-qVnvd",
-      "prerequisiteId": "mt_SZrMv3YAky",
-      "strength": "soft",
-      "reason": "'Hardware and software' supports 'Drawing design ideas digitally'"
     },
     {
       "topicId": "mt_p3tZiUaWAa",
@@ -16272,8 +15354,8 @@
     {
       "topicId": "mt_pAuo9Op89t",
       "prerequisiteId": "mt_i1kk9HDctI",
-      "strength": "hard",
-      "reason": "The growth mindset concept requires understanding the vocabulary pair 'growth mindset' vs 'fixed mindset'"
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Growth-mindset behaviours do not require the metavocabulary topic; Simple Calming Strategies and Learning from Mistakes stay hard."
     },
     {
       "topicId": "mt_pAuo9Op89t",
@@ -16290,32 +15372,14 @@
     {
       "topicId": "mt_pbuhUQJjtt",
       "prerequisiteId": "mt_cPZwlUk8Nd",
-      "strength": "hard",
-      "reason": "Using £ and p symbols extends Y1 recognition of coin values"
-    },
-    {
-      "topicId": "mt_pBvABgZo5O",
-      "prerequisiteId": "mt_0O4mXv3asF",
-      "strength": "hard",
-      "reason": "'Family roles then and now' builds on 'My family and our places'"
-    },
-    {
-      "topicId": "mt_pBvABgZo5O",
-      "prerequisiteId": "mt_OJVkWvIaM_",
       "strength": "soft",
-      "reason": "'Similarities & Differences' supports 'Family roles then and now'"
+      "reason": "UK coin-value knowledge supports pound/pence notation (GB-specific; hard gate is the country-neutral Coins & Notes)"
     },
     {
-      "topicId": "mt__PcuXj7_I1",
-      "prerequisiteId": "mt_aVZJhPbc_1",
-      "strength": "soft",
-      "reason": "'Text Features & Presentation' supports 'Layout and navigation words online'"
-    },
-    {
-      "topicId": "mt__PcuXj7_I1",
-      "prerequisiteId": "mt_YrDlg_J4kQ",
+      "topicId": "mt_pbuhUQJjtt",
+      "prerequisiteId": "mt_FIkqA0qhnj",
       "strength": "hard",
-      "reason": "'Layout and navigation words online' builds on 'Menus and links on websites'"
+      "reason": "Money notation requires knowing the coins and notes of the local currency and their values (country-neutral prerequisite)"
     },
     {
       "topicId": "mt_PCX1jZZnf9",
@@ -16678,24 +15742,6 @@
       "reason": "Advanced Egyptian state organisation and labour administration depends on pyramid building and engineering knowledge"
     },
     {
-      "topicId": "mt_Pp_pizml7n",
-      "prerequisiteId": "mt_OlhMP7ShFT",
-      "strength": "soft",
-      "reason": "'Pictures and Text Working Together' supports 'Words and pictures in Australian stories'"
-    },
-    {
-      "topicId": "mt_Pp_pizml7n",
-      "prerequisiteId": "mt_sSQlLOnAow",
-      "strength": "hard",
-      "reason": "'Words and pictures in Australian stories' builds on 'Characters, settings, and events'"
-    },
-    {
-      "topicId": "mt_Pp_pizml7n",
-      "prerequisiteId": "mt__sYpBrdzcp",
-      "strength": "hard",
-      "reason": "'Words and pictures in Australian stories' builds on 'Sharing ideas about Australian stories'"
-    },
-    {
       "topicId": "mt_PpWSHA-0kv",
       "prerequisiteId": "mt_OvyoRo47K-",
       "strength": "hard",
@@ -16764,14 +15810,20 @@
     {
       "topicId": "mt_pTz6u49fQt",
       "prerequisiteId": "mt_C3eNLQJlgt",
-      "strength": "hard",
-      "reason": "Placing ancient Egypt in chronological context requires timeline reading and construction skills"
+      "strength": "soft",
+      "reason": "Knowing Egypt's geography helps place its history, but placing Egyptian periods on a timeline does not require map interpretation"
     },
     {
       "topicId": "mt_pTz6u49fQt",
       "prerequisiteId": "mt_E7avIa-tcE",
       "strength": "hard",
       "reason": "3000-year timeline builds on knowing pharaohs like Tutankhamun as anchors"
+    },
+    {
+      "topicId": "mt_pTz6u49fQt",
+      "prerequisiteId": "mt_mRU4H9-fgb",
+      "strength": "soft",
+      "reason": "Dated timelines with intervals support comparing the length of ancient Egypt with other periods (interval clause moved from C3eN)"
     },
     {
       "topicId": "mt_pu2mmK27UA",
@@ -16850,18 +15902,6 @@
       "prerequisiteId": "mt_NDZYiLvApW",
       "strength": "soft",
       "reason": "Conservation aims to protect biodiversity"
-    },
-    {
-      "topicId": "mt_pxIoWWZy8L",
-      "prerequisiteId": "mt_1KCwbGvm1F",
-      "strength": "hard",
-      "reason": "'Reading on a screen' builds on 'Understanding print'"
-    },
-    {
-      "topicId": "mt_pxIoWWZy8L",
-      "prerequisiteId": "mt_XeMZdf2Y9W",
-      "strength": "soft",
-      "reason": "'Book Features and Author's Reasons' supports 'Reading on a screen'"
     },
     {
       "topicId": "mt_-p_xp4hMvh",
@@ -16972,24 +16012,6 @@
       "reason": "Title formatting relates to quotation mark use"
     },
     {
-      "topicId": "mt_q2jwCeUZ9s",
-      "prerequisiteId": "mt__MDiDU9Vck",
-      "strength": "soft",
-      "reason": "'Writing to inform' supports 'How recounts and reports are organised'"
-    },
-    {
-      "topicId": "mt_q2jwCeUZ9s",
-      "prerequisiteId": "mt_ZhUuT__i2H",
-      "strength": "hard",
-      "reason": "'How recounts and reports are organised' builds on 'Non-Fiction Text Features'"
-    },
-    {
-      "topicId": "mt_q2jwCeUZ9s",
-      "prerequisiteId": "mt_zlSoIKPyId",
-      "strength": "soft",
-      "reason": "'Retelling Stories with Structure' supports 'How recounts and reports are organised'"
-    },
-    {
       "topicId": "mt_Q2k3fSwyzQ",
       "prerequisiteId": "mt_3WMADSy0mA",
       "strength": "hard",
@@ -17040,8 +16062,8 @@
     {
       "topicId": "mt_Q57cnsiKsB",
       "prerequisiteId": "mt_5CcwPYEafI",
-      "strength": "hard",
-      "reason": "'Checking solutions against criteria' builds on 'Co-creating user stories'"
+      "strength": "soft",
+      "reason": "Written user stories help structure checks, but checking whether an app's features meet a known user's needs does not require writing formal user stories"
     },
     {
       "topicId": "mt_Q57cnsiKsB",
@@ -17078,24 +16100,6 @@
       "prerequisiteId": "mt_TDUpy57QVM",
       "strength": "hard",
       "reason": "Evaluating whether a strategy helped requires being able to analyse what went wrong when it didn't"
-    },
-    {
-      "topicId": "mt__q8ln4Lvf7",
-      "prerequisiteId": "mt_gBK8uXQlQW",
-      "strength": "hard",
-      "reason": "'Technical words in presentations' builds on 'Precise words in presentations'"
-    },
-    {
-      "topicId": "mt__q8ln4Lvf7",
-      "prerequisiteId": "mt_PsQdUQBw0D",
-      "strength": "hard",
-      "reason": "'Technical words in presentations' builds on 'Presenting an argument'"
-    },
-    {
-      "topicId": "mt__q8ln4Lvf7",
-      "prerequisiteId": "mt_VtqvUORa8K",
-      "strength": "soft",
-      "reason": "'Multimedia Presentations' supports 'Technical words in presentations'"
     },
     {
       "topicId": "mt_q9EaJc2FP8",
@@ -17153,6 +16157,12 @@
     },
     {
       "topicId": "mt_Qcsl1Z1x0l",
+      "prerequisiteId": "mt_Amojd_oviu",
+      "strength": "soft",
+      "reason": "Judging source reliability supports assessing credibility in research writing"
+    },
+    {
+      "topicId": "mt_Qcsl1Z1x0l",
       "prerequisiteId": "mt_curkA82CmO",
       "strength": "hard",
       "reason": "Research and source integration extends KS2 precis of longer passages"
@@ -17183,9 +16193,9 @@
     },
     {
       "topicId": "mt_qdd0t4Sj6A",
-      "prerequisiteId": "mt_Pp_pizml7n",
+      "prerequisiteId": "mt_OlhMP7ShFT",
       "strength": "hard",
-      "reason": "'How characters and places connect' builds on 'Words and pictures in Australian stories'"
+      "reason": "Connecting characters and places builds on how words and pictures create characters and settings (re-pointed from retired Australian stories: words and pictures)"
     },
     {
       "topicId": "mt_qdd0t4Sj6A",
@@ -17225,12 +16235,6 @@
     },
     {
       "topicId": "mt_Qe2PsFmSAH",
-      "prerequisiteId": "mt_5bmrA-0pBi",
-      "strength": "hard",
-      "reason": "Budgets and best buys build on estimating and checking money calculations"
-    },
-    {
-      "topicId": "mt_Qe2PsFmSAH",
       "prerequisiteId": "mt_ish_uH8vZe",
       "strength": "soft",
       "reason": "Budgets and best buys use a calculator with estimation checks"
@@ -17243,33 +16247,9 @@
     },
     {
       "topicId": "mt_Qe2PsFmSAH",
-      "prerequisiteId": "mt_NmvuwVUFRS",
-      "strength": "soft",
-      "reason": "Unit prices and budget totals use calculators for multiplication and division"
-    },
-    {
-      "topicId": "mt_Qe2PsFmSAH",
       "prerequisiteId": "mt_q9EaJc2FP8",
       "strength": "soft",
       "reason": "Costing multiple items uses multi-digit multiplication"
-    },
-    {
-      "topicId": "mt_QeKWt4BZn3",
-      "prerequisiteId": "mt_A-FyLLLLzy",
-      "strength": "soft",
-      "reason": "Describing patterns produced draws on pattern rules"
-    },
-    {
-      "topicId": "mt_QeKWt4BZn3",
-      "prerequisiteId": "mt_pjfmCMMPjO",
-      "strength": "soft",
-      "reason": "Mental multiplication supports carrying out doubling or multiplying steps"
-    },
-    {
-      "topicId": "mt_QeKWt4BZn3",
-      "prerequisiteId": "mt_zQfWqImxva",
-      "strength": "hard",
-      "reason": "Generating number sets with algorithms extends following and creating simple algorithms"
     },
     {
       "topicId": "mt_QepALf3bin",
@@ -17294,30 +16274,6 @@
       "prerequisiteId": "mt_Wa44s-f8Ws",
       "strength": "hard",
       "reason": "Must do simple tests before setting up formal fair tests with controlled variables"
-    },
-    {
-      "topicId": "mt_QguIGVMB1o",
-      "prerequisiteId": "mt_9L3NQqgqRd",
-      "strength": "soft",
-      "reason": "Representing numbers to 100 with tens and ones extends to 120"
-    },
-    {
-      "topicId": "mt_QguIGVMB1o",
-      "prerequisiteId": "mt_dJOKkYMsCv",
-      "strength": "soft",
-      "reason": "Ordering numbers to 20 on physical and virtual tracks comes first"
-    },
-    {
-      "topicId": "mt_QguIGVMB1o",
-      "prerequisiteId": "mt_U0waNfD8PB",
-      "strength": "hard",
-      "reason": "Ordering numbers past 100 extends comparing and ordering numbers"
-    },
-    {
-      "topicId": "mt_QguIGVMB1o",
-      "prerequisiteId": "mt_XV0B4kWwqL",
-      "strength": "hard",
-      "reason": "Representing numbers to 120 requires reading and writing them"
     },
     {
       "topicId": "mt_QhFEDyIwSO",
@@ -17408,24 +16364,6 @@
       "prerequisiteId": "mt_Pl-nsjYGZ3",
       "strength": "hard",
       "reason": "Must understand state changes before learning about evaporation/condensation in water cycle"
-    },
-    {
-      "topicId": "mt_qKHfQjgNMk",
-      "prerequisiteId": "mt_asRwlPZXC3",
-      "strength": "soft",
-      "reason": "'Jobs People Do' supports 'Design and technology jobs'"
-    },
-    {
-      "topicId": "mt_qKHfQjgNMk",
-      "prerequisiteId": "mt_eFj9uWaPMI",
-      "strength": "hard",
-      "reason": "'Design and technology jobs' builds on 'Designed for our community'"
-    },
-    {
-      "topicId": "mt_qKHfQjgNMk",
-      "prerequisiteId": "mt_urxvHF8Vds",
-      "strength": "soft",
-      "reason": "'How stereotypes shape choices' supports 'Design and technology jobs'"
     },
     {
       "topicId": "mt_Qkl46lyris",
@@ -17519,27 +16457,9 @@
     },
     {
       "topicId": "mt_QpJydot2Kh",
-      "prerequisiteId": "mt_r8XnXwRA6g",
+      "prerequisiteId": "mt_VhBH8wrFC6",
       "strength": "hard",
-      "reason": "Comparing scaled displays requires making scaled pictographs and bar graphs"
-    },
-    {
-      "topicId": "mt_QpJydot2Kh",
-      "prerequisiteId": "mt__yvsKKp3TS",
-      "strength": "hard",
-      "reason": "Choosing displays for a purpose builds on comparing displays of the same data"
-    },
-    {
-      "topicId": "mt_QpK9BpUO__",
-      "prerequisiteId": "mt_OKCmMGWczX",
-      "strength": "hard",
-      "reason": "'How apps meet users' needs' builds on 'Problems digital systems solve'"
-    },
-    {
-      "topicId": "mt_QpK9BpUO__",
-      "prerequisiteId": "mt_u6SYiVx7FX",
-      "strength": "soft",
-      "reason": "'Voice Assistants and How They Work' supports 'How apps meet users' needs'"
+      "reason": "Comparing displays of the same data requires reading and drawing basic picture and bar graphs; scaled construction is not necessary for the comparison"
     },
     {
       "topicId": "mt_QpmVikVaqY",
@@ -17612,42 +16532,6 @@
       "prerequisiteId": "mt_3S10OOGPqu",
       "strength": "hard",
       "reason": "Degree measurement system requires understanding what an angle is"
-    },
-    {
-      "topicId": "mt_qUjW0N1cYO",
-      "prerequisiteId": "mt_1GDEHyEZYH",
-      "strength": "hard",
-      "reason": "Year 1 sharing and grouping problems extend Foundation sharing with physical and virtual objects"
-    },
-    {
-      "topicId": "mt_qUjW0N1cYO",
-      "prerequisiteId": "mt_LpSuPgL31x",
-      "strength": "hard",
-      "reason": "Sharing problems require equal sharing"
-    },
-    {
-      "topicId": "mt_qUjW0N1cYO",
-      "prerequisiteId": "mt_nvdpxAJTBG",
-      "strength": "soft",
-      "reason": "Skip counting is used to count equal groups"
-    },
-    {
-      "topicId": "mt_qUjW0N1cYO",
-      "prerequisiteId": "mt_PZ909yPrEC",
-      "strength": "soft",
-      "reason": "Repeated addition is used to total equal groups"
-    },
-    {
-      "topicId": "mt_qUKddG0UYv",
-      "prerequisiteId": "mt_gZIo5oiBMt",
-      "strength": "soft",
-      "reason": "'Different Types of Texts' supports 'Pictures in stories and fact books'"
-    },
-    {
-      "topicId": "mt_qUKddG0UYv",
-      "prerequisiteId": "mt_OlhMP7ShFT",
-      "strength": "hard",
-      "reason": "'Pictures in stories and fact books' builds on 'Pictures and Text Working Together'"
     },
     {
       "topicId": "mt_QVUW4olzHP",
@@ -18106,42 +16990,6 @@
       "reason": "Word problems require unit-fraction ÷ whole number skill"
     },
     {
-      "topicId": "mt_RdfzwInyAj",
-      "prerequisiteId": "mt_efOeaGFyGM",
-      "strength": "soft",
-      "reason": "Describing where a transformed shape ends up supports describing changes and invariants"
-    },
-    {
-      "topicId": "mt_RdfzwInyAj",
-      "prerequisiteId": "mt_NM5I3yN-Q6",
-      "strength": "hard",
-      "reason": "Identifying symmetries in transformed figures requires line and rotational symmetry"
-    },
-    {
-      "topicId": "mt_RdfzwInyAj",
-      "prerequisiteId": "mt_SH7QgFl8-v",
-      "strength": "hard",
-      "reason": "Performing transformations in software builds on transformations on a grid"
-    },
-    {
-      "topicId": "mt_RdIBKLbgyp",
-      "prerequisiteId": "mt_nUnowllzaN",
-      "strength": "hard",
-      "reason": "'Investigating melting and freezing' builds on 'Measuring accurately'"
-    },
-    {
-      "topicId": "mt_RdIBKLbgyp",
-      "prerequisiteId": "mt_Pl-nsjYGZ3",
-      "strength": "hard",
-      "reason": "'Investigating melting and freezing' builds on 'Heating & Cooling Changes'"
-    },
-    {
-      "topicId": "mt_RdIBKLbgyp",
-      "prerequisiteId": "mt_YQkUdIHO8L",
-      "strength": "soft",
-      "reason": "'Solids, Liquids & Gases' supports 'Investigating melting and freezing'"
-    },
-    {
       "topicId": "mt_rDjtmDogJr",
       "prerequisiteId": "mt_7IFpDVNsmt",
       "strength": "hard",
@@ -18152,30 +17000,6 @@
       "prerequisiteId": "mt_ChjMU2GDJa",
       "strength": "soft",
       "reason": "Complex science graphs (scatter, line) build on maths discrete/continuous data graphing"
-    },
-    {
-      "topicId": "mt_Re97rQJx_e",
-      "prerequisiteId": "mt_89qLyvE70d",
-      "strength": "soft",
-      "reason": "'Using equipment safely in tests' supports 'Choosing tools and techniques'"
-    },
-    {
-      "topicId": "mt_Re97rQJx_e",
-      "prerequisiteId": "mt_FtCLISvSGw",
-      "strength": "hard",
-      "reason": "'Choosing tools and techniques' builds on 'Cutting, joining and shaping safely'"
-    },
-    {
-      "topicId": "mt_Re97rQJx_e",
-      "prerequisiteId": "mt_rTn43s8RNX",
-      "strength": "soft",
-      "reason": "'Choosing the Right Material' supports 'Choosing tools and techniques'"
-    },
-    {
-      "topicId": "mt_Re97rQJx_e",
-      "prerequisiteId": "mt_skYly2Qm01",
-      "strength": "soft",
-      "reason": "'Measuring length' supports 'Choosing tools and techniques'"
     },
     {
       "topicId": "mt_REwgr0d_ss",
@@ -18310,12 +17134,6 @@
       "reason": "Understanding rules benefits from knowing right/wrong"
     },
     {
-      "topicId": "mt_rKwE6w2V6G",
-      "prerequisiteId": "mt_fruAJ2RaRT",
-      "strength": "hard",
-      "reason": "'Texts as clues to their time' builds on 'Old and new texts compared'"
-    },
-    {
       "topicId": "mt_RlILL2sccX",
       "prerequisiteId": "mt_B3W5EfimJw",
       "strength": "hard",
@@ -18392,12 +17210,6 @@
       "prerequisiteId": "mt_E5KC4AnRLW",
       "strength": "soft",
       "reason": "'Reading between the lines' supports 'Making pictures in your head'"
-    },
-    {
-      "topicId": "mt_RNYNrRMqKL",
-      "prerequisiteId": "mt_GbisjfWodT",
-      "strength": "hard",
-      "reason": "'Making pictures in your head' builds on 'Picturing and summing up stories'"
     },
     {
       "topicId": "mt_roAgL1rQRF",
@@ -18498,32 +17310,20 @@
     {
       "topicId": "mt_rqLMfiw61L",
       "prerequisiteId": "mt_Ag9NSWJu-X",
-      "strength": "hard",
-      "reason": "Assertive communication requires understanding the trio: assertive vs passive vs aggressive"
+      "strength": "soft",
+      "reason": "Formal communication terminology (mediation, bystander, etc.) helps discuss assertiveness, but saying a clear respectful 'no thanks, no hug' does not require it"
     },
     {
       "topicId": "mt_rqLMfiw61L",
       "prerequisiteId": "mt_iWGnyUyN2j",
-      "strength": "hard",
-      "reason": "Assertive communication builds on basic conflict resolution"
-    },
-    {
-      "topicId": "mt_rqLMfiw61L",
-      "prerequisiteId": "mt_L8y31QOR6s",
       "strength": "soft",
-      "reason": "'Saying yes or no respectfully' supports 'Assertive Communication'"
+      "reason": "Negotiating a mutual compromise is a related skill, but stating a boundary or refusing respectfully does not require resolving a disagreement"
     },
     {
       "topicId": "mt_rSjwQLqLXH",
       "prerequisiteId": "mt_Q2k3fSwyzQ",
       "strength": "soft",
       "reason": "'Levers, Pulleys & Gears' supports 'How tools suit their job'"
-    },
-    {
-      "topicId": "mt_rSjwQLqLXH",
-      "prerequisiteId": "mt_Re97rQJx_e",
-      "strength": "hard",
-      "reason": "'How tools suit their job' builds on 'Choosing tools and techniques'"
     },
     {
       "topicId": "mt_rTn43s8RNX",
@@ -18844,18 +17644,6 @@
       "reason": "KS3 detailed diet components extend KS2 understanding that animals need the right nutrition"
     },
     {
-      "topicId": "mt_Sg-jC5f9L6",
-      "prerequisiteId": "mt_5zTlbDWkDI",
-      "strength": "hard",
-      "reason": "'Stages of speeches and videos' builds on 'Stages of texts across subjects'"
-    },
-    {
-      "topicId": "mt_Sg-jC5f9L6",
-      "prerequisiteId": "mt_xsk3iuNVVI",
-      "strength": "soft",
-      "reason": "'Multimedia elements in texts' supports 'Stages of speeches and videos'"
-    },
-    {
       "topicId": "mt_sh1Mq-mshx",
       "prerequisiteId": "mt_FwI7q7DSIx",
       "strength": "soft",
@@ -18905,15 +17693,15 @@
     },
     {
       "topicId": "mt_SHVyE1CLUa",
-      "prerequisiteId": "mt_QHT16CrFO-",
+      "prerequisiteId": "mt_kxeuXm6EyC",
       "strength": "hard",
-      "reason": "The investigation acquires, validates and represents data"
+      "reason": "Posing and planning an investigation builds on carrying out an investigation for a given question (re-pointed from retired Conducting a statistical investigation)"
     },
     {
       "topicId": "mt_SHVyE1CLUa",
-      "prerequisiteId": "mt_Y6JmLjnfRP",
+      "prerequisiteId": "mt_QHT16CrFO-",
       "strength": "hard",
-      "reason": "Planning an investigation builds on conducting one"
+      "reason": "The investigation acquires, validates and represents data"
     },
     {
       "topicId": "mt_Sij9ByyHq6",
@@ -18944,24 +17732,6 @@
       "prerequisiteId": "mt_O2dS6gvClw",
       "strength": "hard",
       "reason": "The Y5-6 statutory word list is the direct continuation of the Y3-4 word list"
-    },
-    {
-      "topicId": "mt_-Sk53QkyS0",
-      "prerequisiteId": "mt_e3-_toGuWf",
-      "strength": "soft",
-      "reason": "'Testing Materials for Uses' supports 'Trialling joins and components'"
-    },
-    {
-      "topicId": "mt_-Sk53QkyS0",
-      "prerequisiteId": "mt_FtCLISvSGw",
-      "strength": "hard",
-      "reason": "'Trialling joins and components' builds on 'Cutting, joining and shaping safely'"
-    },
-    {
-      "topicId": "mt_-Sk53QkyS0",
-      "prerequisiteId": "mt_zHnOGwHIEz",
-      "strength": "soft",
-      "reason": "'Classifying Materials' supports 'Trialling joins and components'"
     },
     {
       "topicId": "mt_SK7WntVZ6y",
@@ -19144,18 +17914,6 @@
       "reason": "Understanding zones requires knowing ocean has diverse life at different depths"
     },
     {
-      "topicId": "mt_sQYvGbYD1I",
-      "prerequisiteId": "mt_1KCwbGvm1F",
-      "strength": "soft",
-      "reason": "'Understanding print' supports 'Texts are everywhere'"
-    },
-    {
-      "topicId": "mt_sQYvGbYD1I",
-      "prerequisiteId": "mt_gZIo5oiBMt",
-      "strength": "hard",
-      "reason": "'Texts are everywhere' builds on 'Different Types of Texts'"
-    },
-    {
       "topicId": "mt_SrmHaJXKrX",
       "prerequisiteId": "mt_4uPnLieBPN",
       "strength": "hard",
@@ -19310,18 +18068,6 @@
       "prerequisiteId": "mt_ZBMcX2oRor",
       "strength": "soft",
       "reason": "Reciting/presenting skills support engaging an audience"
-    },
-    {
-      "topicId": "mt__sYpBrdzcp",
-      "prerequisiteId": "mt_5n-O41lUgn",
-      "strength": "soft",
-      "reason": "'Connecting reading to experience' supports 'Sharing ideas about Australian stories'"
-    },
-    {
-      "topicId": "mt__sYpBrdzcp",
-      "prerequisiteId": "mt_thsY1ZesaU",
-      "strength": "hard",
-      "reason": "'Sharing ideas about Australian stories' builds on 'Discussing Texts as a Group'"
     },
     {
       "topicId": "mt_sYpKWbq5ra",
@@ -19924,30 +18670,6 @@
       "reason": "The heart's role in the double circulatory system is only meaningful when gas exchange at the lungs is understood"
     },
     {
-      "topicId": "mt_TrISKhznZt",
-      "prerequisiteId": "mt_Ge4Wtg6QMM",
-      "strength": "soft",
-      "reason": "'Advanced Material Properties' supports 'Investigating components and processes'"
-    },
-    {
-      "topicId": "mt_TrISKhznZt",
-      "prerequisiteId": "mt_rSjwQLqLXH",
-      "strength": "soft",
-      "reason": "'How tools suit their job' supports 'Investigating components and processes'"
-    },
-    {
-      "topicId": "mt_TrISKhznZt",
-      "prerequisiteId": "mt_-Sk53QkyS0",
-      "strength": "hard",
-      "reason": "'Investigating components and processes' builds on 'Trialling joins and components'"
-    },
-    {
-      "topicId": "mt_TTH2ouwyTW",
-      "prerequisiteId": "mt_K5Zqgu7rzp",
-      "strength": "hard",
-      "reason": "'Safe steps in science tests' builds on 'Exploring safely with senses'"
-    },
-    {
       "topicId": "mt_TTH2ouwyTW",
       "prerequisiteId": "mt_Wa44s-f8Ws",
       "strength": "hard",
@@ -20066,24 +18788,6 @@
       "prerequisiteId": "mt_Y9k86G8BBT",
       "strength": "soft",
       "reason": "Newton's laws explain why friction and air resistance slow objects down — the KS2 observation of resistance now has a theoretical explanation"
-    },
-    {
-      "topicId": "mt_ty63-JSHTC",
-      "prerequisiteId": "mt_fL1Xz8ostr",
-      "strength": "soft",
-      "reason": "'Expressive and Sensory Language' supports 'Rhythm and sound words'"
-    },
-    {
-      "topicId": "mt_ty63-JSHTC",
-      "prerequisiteId": "mt_gR5_n99Ntt",
-      "strength": "soft",
-      "reason": "'Forms of Poetry and Performance' supports 'Rhythm and sound words'"
-    },
-    {
-      "topicId": "mt_ty63-JSHTC",
-      "prerequisiteId": "mt_TffvIu6VgG",
-      "strength": "hard",
-      "reason": "'Rhythm and sound words' builds on 'What holds a poem together'"
     },
     {
       "topicId": "mt_tzMr83pS8v",
@@ -20423,15 +19127,15 @@
     },
     {
       "topicId": "mt_UKmtuAsSLN",
-      "prerequisiteId": "mt_mYujFoIsVG",
-      "strength": "soft",
-      "reason": "'Breaking materials into pieces' supports 'Reversible Changes'"
-    },
-    {
-      "topicId": "mt_UKmtuAsSLN",
       "prerequisiteId": "mt_Pl-nsjYGZ3",
       "strength": "hard",
       "reason": "Must understand state changes before categorising them as reversible"
+    },
+    {
+      "topicId": "mt_UKmtuAsSLN",
+      "prerequisiteId": "mt_wf-SJhZ1kC",
+      "strength": "soft",
+      "reason": "Reversible changes builds on knowing shape changes keep the same material (re-pointed from retired Breaking materials into pieces)"
     },
     {
       "topicId": "mt_uM6q_KBWKy",
@@ -20674,6 +19378,30 @@
       "reason": "Church context needed for understanding nuns and abbesses"
     },
     {
+      "topicId": "mt_uUMLgRTrhn",
+      "prerequisiteId": "mt_FtCLISvSGw",
+      "strength": "hard",
+      "reason": "Drilling builds on basic safe making: marking, holding work and using tools carefully"
+    },
+    {
+      "topicId": "mt_uUMLgRTrhn",
+      "prerequisiteId": "mt_rSjwQLqLXH",
+      "strength": "soft",
+      "reason": "Knowing drill and bit characteristics supports choosing and using them"
+    },
+    {
+      "topicId": "mt_uUMLgRTrhn",
+      "prerequisiteId": "mt_skYly2Qm01",
+      "strength": "soft",
+      "reason": "Measuring supports marking hole positions"
+    },
+    {
+      "topicId": "mt_uUMLgRTrhn",
+      "prerequisiteId": "mt_v5pOal_23d",
+      "strength": "soft",
+      "reason": "Risk planning supports applying drilling safety controls"
+    },
+    {
       "topicId": "mt_uVaS12lN1i",
       "prerequisiteId": "mt_loYPGHJ8lm",
       "strength": "soft",
@@ -20777,15 +19505,15 @@
     },
     {
       "topicId": "mt_v5pOal_23d",
-      "prerequisiteId": "mt_89qLyvE70d",
-      "strength": "hard",
-      "reason": "'Risks and safety plans' builds on 'Safe equipment use in fair tests'"
-    },
-    {
-      "topicId": "mt_v5pOal_23d",
       "prerequisiteId": "mt_ArVBEpMAPk",
       "strength": "hard",
       "reason": "'Risks and safety plans' builds on 'Controlling variables'"
+    },
+    {
+      "topicId": "mt_v5pOal_23d",
+      "prerequisiteId": "mt_TTH2ouwyTW",
+      "strength": "hard",
+      "reason": "Formal risk assessment builds on identifying hazards and adding safety steps to a test plan (re-pointed from retired Using equipment safely in tests)"
     },
     {
       "topicId": "mt_v5yDTWEiyQ",
@@ -20802,8 +19530,8 @@
     {
       "topicId": "mt_V6456X6pJE",
       "prerequisiteId": "mt_OltpfaX7l6",
-      "strength": "hard",
-      "reason": "Fact vs opinion builds on identifying author's point of view"
+      "strength": "soft",
+      "reason": "Fact vs opinion can be judged by verifiability and opinion language without first mastering author purpose/stance; author-intent knowledge is helpful context"
     },
     {
       "topicId": "mt_v6CBCMuvz1",
@@ -20824,6 +19552,18 @@
       "reason": "Understanding world weather patterns helps understand tropical climate (Weather 7-9 -> Rainforests 7-9)"
     },
     {
+      "topicId": "mt_V6SzjffDoE",
+      "prerequisiteId": "mt_EWiY8-opdd",
+      "strength": "soft",
+      "reason": "Food hygiene and safe handling support kitchen knife work"
+    },
+    {
+      "topicId": "mt_V6SzjffDoE",
+      "prerequisiteId": "mt_F62VTeHB4-",
+      "strength": "hard",
+      "reason": "Bridge/claw cutting of firmer fruit and vegetables builds on cutting soft foods with a child-safe knife under supervision"
+    },
+    {
       "topicId": "mt_-V7EnqU7gG",
       "prerequisiteId": "mt_ebPelt-qAl",
       "strength": "hard",
@@ -20834,18 +19574,6 @@
       "prerequisiteId": "mt_VgOePicFYK",
       "strength": "hard",
       "reason": "Same-denom add/sub is prerequisite to related-denom add/sub"
-    },
-    {
-      "topicId": "mt_v9qTyarbgE",
-      "prerequisiteId": "mt_9-OHslmt1g",
-      "strength": "hard",
-      "reason": "'Sound games with clusters and digraphs' builds on 'Consonant Digraphs'"
-    },
-    {
-      "topicId": "mt_v9qTyarbgE",
-      "prerequisiteId": "mt_oVnNR1lVv6",
-      "strength": "hard",
-      "reason": "'Sound games with clusters and digraphs' builds on 'Adding, deleting and swapping sounds'"
     },
     {
       "topicId": "mt_V9SQS9gLFw",
@@ -20915,12 +19643,6 @@
     },
     {
       "topicId": "mt_vauULTecMH",
-      "prerequisiteId": "mt_cB_j7towTD",
-      "strength": "soft",
-      "reason": "'Making new versions of stories' supports 'Narrative Writing'"
-    },
-    {
-      "topicId": "mt_vauULTecMH",
       "prerequisiteId": "mt_nDAcXoPa0c",
       "strength": "hard",
       "reason": "Developed narrative with settings/characters/plot builds on simple sequential narrative writing"
@@ -20954,24 +19676,6 @@
       "prerequisiteId": "mt_ZL9qVVnpwN",
       "strength": "hard",
       "reason": "Must understand how sound works before designing a communication device using it"
-    },
-    {
-      "topicId": "mt_vC-_ESyMut",
-      "prerequisiteId": "mt_E5KC4AnRLW",
-      "strength": "hard",
-      "reason": "'Understanding and judging films' builds on 'Reading between the lines'"
-    },
-    {
-      "topicId": "mt_vC-_ESyMut",
-      "prerequisiteId": "mt_RNYNrRMqKL",
-      "strength": "hard",
-      "reason": "'Understanding and judging films' builds on 'Making pictures in your head'"
-    },
-    {
-      "topicId": "mt_vC-_ESyMut",
-      "prerequisiteId": "mt_ukLvUD8DFA",
-      "strength": "soft",
-      "reason": "'Inferring Characters' Feelings and Motives' supports 'Understanding and judging films'"
     },
     {
       "topicId": "mt_VEwM7ClYYE",
@@ -21106,18 +19810,6 @@
       "reason": "Describing how energy and fuels affect the environment requires 'renewable', 'non-renewable', and 'fossil fuel' vocabulary"
     },
     {
-      "topicId": "mt_VitRPAsDik",
-      "prerequisiteId": "mt_5FREdVoS8s",
-      "strength": "hard",
-      "reason": "'Media texts and their context' builds on 'Multiple Accounts of Events'"
-    },
-    {
-      "topicId": "mt_VitRPAsDik",
-      "prerequisiteId": "mt_rKwE6w2V6G",
-      "strength": "hard",
-      "reason": "'Media texts and their context' builds on 'Texts as clues to their time'"
-    },
-    {
       "topicId": "mt_VIUF5Vspbg",
       "prerequisiteId": "mt_BYl4sds1SM",
       "strength": "hard",
@@ -21125,27 +19817,9 @@
     },
     {
       "topicId": "mt_VIUF5Vspbg",
-      "prerequisiteId": "mt_DxSbKzl-C-",
-      "strength": "hard",
-      "reason": "'Food and fibre production' builds on 'Growing plants we use'"
-    },
-    {
-      "topicId": "mt_VIUF5Vspbg",
       "prerequisiteId": "mt_m43jiOAOCt",
       "strength": "soft",
       "reason": "'Indigenous Ecological Knowledge' supports 'Food and fibre production'"
-    },
-    {
-      "topicId": "mt_VJEQ32O0Ae",
-      "prerequisiteId": "mt_JWjSZNk1Qy",
-      "strength": "hard",
-      "reason": "'Clues to audience and purpose' builds on 'Who is this text for?'"
-    },
-    {
-      "topicId": "mt_VJEQ32O0Ae",
-      "prerequisiteId": "mt_OltpfaX7l6",
-      "strength": "soft",
-      "reason": "'Why the author wrote it' supports 'Clues to audience and purpose'"
     },
     {
       "topicId": "mt_vJO5Bxk4z-",
@@ -21250,24 +19924,6 @@
       "reason": "Expressive reading builds on basic reading fluency"
     },
     {
-      "topicId": "mt_vLLyGZQ2AM",
-      "prerequisiteId": "mt_LADBSIowuS",
-      "strength": "hard",
-      "reason": "'Comparing methods and findings' builds on 'Comparing findings with other groups'"
-    },
-    {
-      "topicId": "mt_vLLyGZQ2AM",
-      "prerequisiteId": "mt_nyPMkeHlVJ",
-      "strength": "soft",
-      "reason": "'Drawing conclusions from evidence (age 9+)' supports 'Comparing methods and findings'"
-    },
-    {
-      "topicId": "mt_vLLyGZQ2AM",
-      "prerequisiteId": "mt_Psun-u_lPf",
-      "strength": "hard",
-      "reason": "'Comparing methods and findings' builds on 'Accurate Measurement'"
-    },
-    {
       "topicId": "mt_VLu59hpQ4T",
       "prerequisiteId": "mt_oL9s_bufDp",
       "strength": "soft",
@@ -21364,18 +20020,6 @@
       "reason": "'Words that show characters and places' builds on 'Comparing Characters Across Stories'"
     },
     {
-      "topicId": "mt_VRZawp3oFZ",
-      "prerequisiteId": "mt_02DH7sGXCi",
-      "strength": "hard",
-      "reason": "'Fast, legible joined writing' builds on 'Joining Letters'"
-    },
-    {
-      "topicId": "mt_VRZawp3oFZ",
-      "prerequisiteId": "mt_So_5wBv8fI",
-      "strength": "hard",
-      "reason": "'Fast, legible joined writing' builds on 'Writing neatly at a steady pace'"
-    },
-    {
       "topicId": "mt_-vsLvsxp0L",
       "prerequisiteId": "mt_v3Vz_Pgjjv",
       "strength": "hard",
@@ -21461,12 +20105,6 @@
     },
     {
       "topicId": "mt_VXcua6-txq",
-      "prerequisiteId": "mt_196Gb4q6a5",
-      "strength": "soft",
-      "reason": "'Telling stories of the past' supports 'Vocabulary: historical thinking'"
-    },
-    {
-      "topicId": "mt_VXcua6-txq",
       "prerequisiteId": "mt_WzOyJFKDIu",
       "strength": "soft",
       "reason": "Acquiring the specialist vocabulary of historical thinking (source, bias, chronology, corroborate) builds on the academic vocabulary development taught in English"
@@ -21522,8 +20160,14 @@
     {
       "topicId": "mt_W3VOAuFwVw",
       "prerequisiteId": "mt_aHAM29nidj",
+      "strength": "soft",
+      "reason": "Softened (Ontario G1 readiness review): Growing patterns need skip counting by a constant (2s, 5s, 10s); counting specifically in 3s is one example."
+    },
+    {
+      "topicId": "mt_W3VOAuFwVw",
+      "prerequisiteId": "mt_nvdpxAJTBG",
       "strength": "hard",
-      "reason": "Describing additive patterns builds on counting forwards and backwards in steps"
+      "reason": "Basic prerequisite (Ontario G1 readiness review): Skip counting by 2s, 5s and 10s underpins additive patterns."
     },
     {
       "topicId": "mt_W3VOAuFwVw",
@@ -21632,18 +20276,6 @@
       "prerequisiteId": "mt_XSp-S0wter",
       "strength": "hard",
       "reason": "Analysing how different materials interact with different EM waves requires understanding the full EM spectrum"
-    },
-    {
-      "topicId": "mt_w5sIW_-T_J",
-      "prerequisiteId": "mt_pxIoWWZy8L",
-      "strength": "hard",
-      "reason": "'Finding your way in digital texts' builds on 'Reading on a screen'"
-    },
-    {
-      "topicId": "mt_w5sIW_-T_J",
-      "prerequisiteId": "mt_ZhUuT__i2H",
-      "strength": "soft",
-      "reason": "'Non-Fiction Text Features' supports 'Finding your way in digital texts'"
     },
     {
       "topicId": "mt_w6MxaaoMXZ",
@@ -21820,24 +20452,6 @@
       "reason": "Communication needs awareness of animal diversity"
     },
     {
-      "topicId": "mt_-WhvVTsKV-",
-      "prerequisiteId": "mt_hkIbGmuH7D",
-      "strength": "hard",
-      "reason": "'Rehearsing permission skills' builds on 'When permission is needed'"
-    },
-    {
-      "topicId": "mt_-WhvVTsKV-",
-      "prerequisiteId": "mt_L8y31QOR6s",
-      "strength": "hard",
-      "reason": "'Rehearsing permission skills' builds on 'Saying yes or no respectfully'"
-    },
-    {
-      "topicId": "mt_-WhvVTsKV-",
-      "prerequisiteId": "mt_rqLMfiw61L",
-      "strength": "soft",
-      "reason": "'Assertive Communication' supports 'Rehearsing permission skills'"
-    },
-    {
       "topicId": "mt_WkKkb7W9Qd",
       "prerequisiteId": "mt_8dstvf-KKb",
       "strength": "soft",
@@ -21911,15 +20525,9 @@
     },
     {
       "topicId": "mt_WoBE0CZWGg",
-      "prerequisiteId": "mt__CFtXgDaEL",
+      "prerequisiteId": "mt_aVZJhPbc_1",
       "strength": "soft",
-      "reason": "'Headlines, menus and links online' supports 'Designing a user interface'"
-    },
-    {
-      "topicId": "mt_WoBE0CZWGg",
-      "prerequisiteId": "mt__PcuXj7_I1",
-      "strength": "soft",
-      "reason": "'Layout and navigation words online' supports 'Designing a user interface'"
+      "reason": "Interface design draws on understanding layout and presentational features (re-pointed from retired Layout and navigation words online)"
     },
     {
       "topicId": "mt_wPgpMJ0-PA",
@@ -22070,18 +20678,6 @@
       "prerequisiteId": "mt_zIzJGkaj0Q",
       "strength": "hard",
       "reason": "Advanced ethical decision-making depends on earlier decision-making foundations"
-    },
-    {
-      "topicId": "mt_wudskBtVQc",
-      "prerequisiteId": "mt_cxJRc15osy",
-      "strength": "soft",
-      "reason": "'Basic Body Needs' supports 'Health messages around us'"
-    },
-    {
-      "topicId": "mt_wudskBtVQc",
-      "prerequisiteId": "mt_DRNXFr0ds6",
-      "strength": "hard",
-      "reason": "'Health messages around us' builds on 'Health and safety signs'"
     },
     {
       "topicId": "mt_Wu-ftkzoiE",
@@ -22378,18 +20974,6 @@
       "reason": "Must understand Arctic geography before learning about the tundra biome"
     },
     {
-      "topicId": "mt_X53txVXOcG",
-      "prerequisiteId": "mt_c29FaCTNsx",
-      "strength": "soft",
-      "reason": "Digital displays build on pictograms and tally charts"
-    },
-    {
-      "topicId": "mt_X53txVXOcG",
-      "prerequisiteId": "mt_ylXdiVRAYv",
-      "strength": "hard",
-      "reason": "Recording data digitally requires sorting data into categories"
-    },
-    {
       "topicId": "mt_X5cypSGoGU",
       "prerequisiteId": "mt_jHgRQ4hR0g",
       "strength": "hard",
@@ -22460,6 +21044,12 @@
       "prerequisiteId": "mt_-hTTat0mBR",
       "strength": "hard",
       "reason": "Partitioning shapes into halves extends from Y1 understanding of halves"
+    },
+    {
+      "topicId": "mt_xACS3rWWDp",
+      "prerequisiteId": "mt_PZ909yPrEC",
+      "strength": "soft",
+      "reason": "'Multiplication as repeated addition' (equal groups) supports the equal-groups-of-halves item in 'Halves & Quarters of Shapes'"
     },
     {
       "topicId": "mt_X_aDUBh-HF",
@@ -22948,18 +21538,6 @@
       "reason": "Counting and reading/writing to 120 extends from reading/writing numerals to 100"
     },
     {
-      "topicId": "mt_xvHpeB03k5",
-      "prerequisiteId": "mt_K5Zqgu7rzp",
-      "strength": "soft",
-      "reason": "'Exploring safely with senses' supports 'Making safely with simple tools'"
-    },
-    {
-      "topicId": "mt_xvHpeB03k5",
-      "prerequisiteId": "mt_q3vRl4dddK",
-      "strength": "soft",
-      "reason": "'Everyday Safety Awareness' supports 'Making safely with simple tools'"
-    },
-    {
       "topicId": "mt_xvKvxDXdJj",
       "prerequisiteId": "mt_of2GggtxFl",
       "strength": "soft",
@@ -23066,30 +21644,6 @@
       "prerequisiteId": "mt_w2xiMNkyyX",
       "strength": "hard",
       "reason": "Must understand Earth's orbit and rotation before understanding gravity as the force maintaining them"
-    },
-    {
-      "topicId": "mt_Y6_cq3UMyy",
-      "prerequisiteId": "mt_PgsHGYJMH-",
-      "strength": "hard",
-      "reason": "Showing number stories on screen builds on representing addition and subtraction with objects"
-    },
-    {
-      "topicId": "mt_Y6_cq3UMyy",
-      "prerequisiteId": "mt_t9BICauBSI",
-      "strength": "soft",
-      "reason": "Subitising small groups on a ten frame speeds up finding totals"
-    },
-    {
-      "topicId": "mt_Y6JmLjnfRP",
-      "prerequisiteId": "mt_kxeuXm6EyC",
-      "strength": "hard",
-      "reason": "An independent investigation builds on guided investigations"
-    },
-    {
-      "topicId": "mt_Y6JmLjnfRP",
-      "prerequisiteId": "mt_yrvYKSwSRZ",
-      "strength": "hard",
-      "reason": "The investigation records and displays data with digital tools"
     },
     {
       "topicId": "mt_Y6P9y1Rz-u",
@@ -23260,24 +21814,6 @@
       "reason": "Understanding joints, tendons and ligaments requires first knowing skeletal structure and function"
     },
     {
-      "topicId": "mt_YfbfIdljWd",
-      "prerequisiteId": "mt_kH1DzOPsXG",
-      "strength": "soft",
-      "reason": "'Data and Information for Computers' supports 'Sending data between devices'"
-    },
-    {
-      "topicId": "mt_YfbfIdljWd",
-      "prerequisiteId": "mt_n5_Jt4ExUd",
-      "strength": "soft",
-      "reason": "'Patterns & Codes for Information' supports 'Sending data between devices'"
-    },
-    {
-      "topicId": "mt_YfbfIdljWd",
-      "prerequisiteId": "mt_o0vTMl8vj5",
-      "strength": "hard",
-      "reason": "'Sending data between devices' builds on 'Parts of a computer'"
-    },
-    {
       "topicId": "mt_YFS7JFk64p",
       "prerequisiteId": "mt_i9rJbuFO3p",
       "strength": "hard",
@@ -23342,12 +21878,6 @@
       "prerequisiteId": "mt_aVZJhPbc_1",
       "strength": "soft",
       "reason": "'Text Features & Presentation' supports 'How texts in subjects differ'"
-    },
-    {
-      "topicId": "mt_yIk_4o0MOa",
-      "prerequisiteId": "mt_q2jwCeUZ9s",
-      "strength": "hard",
-      "reason": "'How texts in subjects differ' builds on 'How recounts and reports are organised'"
     },
     {
       "topicId": "mt_yIk_4o0MOa",
@@ -23462,12 +21992,6 @@
       "prerequisiteId": "mt_fL1Xz8ostr",
       "strength": "soft",
       "reason": "Recognising literary language supports writing poetry"
-    },
-    {
-      "topicId": "mt_YNe6siFTFq",
-      "prerequisiteId": "mt_KpBg1_T_84",
-      "strength": "soft",
-      "reason": "'Inventing rhymes and alliteration' supports 'Writing Poetry'"
     },
     {
       "topicId": "mt_YNe6siFTFq",
@@ -23621,15 +22145,15 @@
     },
     {
       "topicId": "mt_YrDlg_J4kQ",
-      "prerequisiteId": "mt_w5sIW_-T_J",
+      "prerequisiteId": "mt_1KCwbGvm1F",
       "strength": "hard",
-      "reason": "'Menus and links on websites' builds on 'Finding your way in digital texts'"
+      "reason": "Navigating print and screen texts builds on concepts of print (directionality, page by page)"
     },
     {
       "topicId": "mt_YrDlg_J4kQ",
       "prerequisiteId": "mt_ZhUuT__i2H",
-      "strength": "hard",
-      "reason": "'Menus and links on websites' builds on 'Non-Fiction Text Features'"
+      "strength": "soft",
+      "reason": "Knowing non-fiction features (contents, index) helps print navigation, but basic screen navigation does not require it"
     },
     {
       "topicId": "mt__YRJ23GuIK",
@@ -23672,18 +22196,6 @@
       "prerequisiteId": "mt_DJh2JPwTf6",
       "strength": "hard",
       "reason": "Must understand basic diet classification before advancing to anatomical classification"
-    },
-    {
-      "topicId": "mt_yrvYKSwSRZ",
-      "prerequisiteId": "mt_ebQURBOsM5",
-      "strength": "hard",
-      "reason": "Collecting data digitally builds on collecting data for a question"
-    },
-    {
-      "topicId": "mt_yrvYKSwSRZ",
-      "prerequisiteId": "mt_X53txVXOcG",
-      "strength": "soft",
-      "reason": "Builds on early digital data tools"
     },
     {
       "topicId": "mt_ySnOkVIu22",
@@ -23750,18 +22262,6 @@
       "prerequisiteId": "mt_URTJbS3hhs",
       "strength": "hard",
       "reason": "Bioaccumulation occurs through food chains and webs — the feeding relationships must be understood first"
-    },
-    {
-      "topicId": "mt__yvsKKp3TS",
-      "prerequisiteId": "mt_c29FaCTNsx",
-      "strength": "hard",
-      "reason": "Comparing displays requires making tally charts and pictograms"
-    },
-    {
-      "topicId": "mt__yvsKKp3TS",
-      "prerequisiteId": "mt_VhBH8wrFC6",
-      "strength": "hard",
-      "reason": "Comparing displays requires making picture and bar graphs"
     },
     {
       "topicId": "mt_Yw1_4Nfsql",
@@ -23898,8 +22398,8 @@
     {
       "topicId": "mt_Z5-fSCOBep",
       "prerequisiteId": "mt_nNYo5A-7Bl",
-      "strength": "hard",
-      "reason": "Must analyse simple design comparisons before formally defining design problems with criteria/constraints"
+      "strength": "soft",
+      "reason": "Comparing test data from two designs is useful background, but interviewing a user and stating a need, measurable success criteria and constraints does not require first testing two existing designs"
     },
     {
       "topicId": "mt_z5iwdZyeDr",
@@ -24152,24 +22652,6 @@
       "prerequisiteId": "mt_YKkCM63fSC",
       "strength": "hard",
       "reason": "Need sight word bank for fluency"
-    },
-    {
-      "topicId": "mt_zIcYzrrO0Z",
-      "prerequisiteId": "mt__00ZSLnB7p",
-      "strength": "soft",
-      "reason": "'Volume & Vibrations' supports 'Different ways to make sounds'"
-    },
-    {
-      "topicId": "mt_zIcYzrrO0Z",
-      "prerequisiteId": "mt_KTSoXcO7OL",
-      "strength": "soft",
-      "reason": "'Pitch of Sounds' supports 'Different ways to make sounds'"
-    },
-    {
-      "topicId": "mt_zIcYzrrO0Z",
-      "prerequisiteId": "mt_VBl1T1sFCM",
-      "strength": "hard",
-      "reason": "'Different ways to make sounds' builds on 'Vibrations & Sound'"
     },
     {
       "topicId": "mt_zir5yyAzUB",
@@ -24596,24 +23078,6 @@
       "prerequisiteId": "mt_M_xcaRcvSo",
       "strength": "soft",
       "reason": "Knight knowledge provides military context for the Crusades"
-    },
-    {
-      "topicId": "mt_zYX3606Dgd",
-      "prerequisiteId": "mt_-beOa1AO6W",
-      "strength": "hard",
-      "reason": "'Support for changes and puberty' builds on 'Planning for change'"
-    },
-    {
-      "topicId": "mt_zYX3606Dgd",
-      "prerequisiteId": "mt_Jd2aWEUJ9G",
-      "strength": "soft",
-      "reason": "'Personal Coping Toolkit' supports 'Support for changes and puberty'"
-    },
-    {
-      "topicId": "mt_zYX3606Dgd",
-      "prerequisiteId": "mt_pu2mmK27UA",
-      "strength": "hard",
-      "reason": "'Support for changes and puberty' builds on 'Growing Up & Puberty'"
     }
   ]
 }

@@ -6,6 +6,12 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Complete the Australian retrospective cleanup: retire 106 of 314 additions, retain 208 with focused claims, and add seven missing focused skills/procedures (net 99 fewer topics than the audited 1,932-topic staging baseline). Redistribute clauses before retiring IDs; publish flattened destinations, all 314 + 14 decisions and nine source-issue closures. Correct weak associations and replace blanket Full claims with current mappings and explicit review limits. Preserve observed learner data and history; reconcile only the 52 explicitly approved inherited estimates. Refresh the verified staging projection (1,833 topics / 3,846 edges), derived centrality, research binding and checksums.
+- Include the previously ingested Ontario elementary catalogue: nine official documents / 3,862 expectations, bringing the catalogue to 17 sources / 7,743 expectations. Ontario exports codes and official links only. Grade 1 Mathematics authoring remains a focused pass; catalogue availability is not a whole-curriculum coverage claim.
+
+Earlier entries below are historical authoring snapshots. Their Australian Full labels are superseded by the current mapping reports and the explicit review limits above.
+
+
 - Correct three existing nutrition teaching-research records to distinguish food groups from nutrients across teaching text, activities, representations and assessment; align balanced-plate activities with healthy-eating guides and keep citation links consistent. Update canonical source records and the public projection together, retaining identities and coverage counts.
 
 - Complete Australian Foundation–Year 6 Design and Technologies coverage: all 29 standards Full, with 111 alignments across 78 topics. Add 30 topics and 89 prerequisites within existing Science, Life Skills and Geography subjects, including shared Design & Technology and Food & Cooking domains. Correct food-group versus nutrient terminology in three existing nutrition topics, and qualify two overstated claims. All 593 content descriptions in the agreed seven-area scope are now Full; publish a verified scope summary. PE, Arts, Languages, elaborations and achievement standards remain excluded. Preserve existing IDs, curriculum links, prerequisites and teaching-research records; refresh centrality, coverage and checksums.

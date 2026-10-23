@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,930 · **Prerequisite edges:** 4,102 · **Subjects:** 9
+> **Version:** `v1` · **Topics:** 1,833 · **Prerequisite edges:** 3,846 · **Subjects:** 9
 
 ## See it
 
@@ -15,25 +15,25 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,930 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **4,102 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,833 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,846 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,049 records covering Science and Mathematics topics: teaching approaches, concrete learning activities, feedback, assessment guidance and linked sources. Coverage is partial; the other 881 topics have no research in this release.
+- **Teaching research** — 1,049 records. Coverage is partial; 784 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
 
 | Subject | Topics |
 |---|---:|
-| Science | 595 |
-| Mathematics | 587 |
-| English | 368 |
-| History | 112 |
-| Geography | 25 |
-| Personal & Social Development | 124 |
-| Life Skills | 42 |
-| Computing | 59 |
+| Computing | 50 |
+| English | 331 |
+| Geography | 22 |
+| History | 109 |
 | Learning to Learn | 18 |
+| Life Skills | 43 |
+| Mathematics | 567 |
+| Personal & Social Development | 117 |
+| Science | 576 |
 
 ## Files
 
@@ -49,63 +49,9 @@ All data lives in [`data/`](data/) as UTF-8 JSON. See [`schema/`](schema/) for J
 | [`data/archived-teaching-research.json`](data/archived-teaching-research.json) | Historical guidance for merged or refocused topics, with original records and current topic associations. |
 | [`data/manifest.json`](data/manifest.json) | Counts, per-subject breakdown, per-file checksums. |
 
-The standards catalogue includes **620 Australian Curriculum v9 Foundation–Year 6
-content descriptions** (`acara-v9`), bringing it to **8 sources / 3,881 standards**.
-The catalogue spans English, Mathematics, Science, HASS, Health and Physical
-Education, Digital Technologies, and Design and Technologies. All **593 content
-descriptions in the agreed scope are fully covered**, as recorded in the
-[scope coverage summary](reports/acara-v9-scope-coverage.md). Health coverage
-targets the Personal, social and community health strand; the 27 PE standards
-are excluded. Arts, Languages, elaborations and achievement standards are outside
-this contribution. This is coverage of the listed learning areas, not the entire
-Australian Curriculum.
+The catalogue contains **17 sources / 7,743 expectations**. It includes 620 Australian Curriculum v9 content descriptions and 3,862 Ontario expectations from nine elementary documents. Ontario is exported as codes and official source links only; ingestion of source expectations is separate from authoring topic coverage. Only Ontario Grade 1 Mathematics has received the focused taxonomy authoring pass so far.
 
-Australian Mathematics has 442 topic alignments across 325 topics. All 139
-Foundation–Year 6 content descriptions are fully covered in the
-[coverage report](reports/acara-v9-maths-coverage.md), following gap authoring and
-review of practical work, virtual materials, digital tools and Australian currency.
-
-Australian English has 630 topic alignments across 267 topics. All
-189 Foundation–Year 6 content descriptions are fully covered in the
-[coverage report](reports/acara-v9-english-coverage.md), following gap authoring
-and review of Australian literature, phonics, comprehension, digital texts,
-multimodal creation and spoken presentations. This batch adds 82 English topics.
-
-Australian Science has 245 topic alignments across 131 topics. All
-77 Foundation–Year 6 content descriptions are fully covered in the
-[coverage report](reports/acara-v9-science-coverage.md), following gap authoring
-and review of practical investigations, measurements, data, scientific
-communication and Australian contexts. This batch adds 24 Science topics.
-
-Australian HASS (Humanities and Social Sciences) has 210 topic alignments across
-124 topics. All 89 Foundation–Year 6 content descriptions are fully covered
-in the [coverage report](reports/acara-v9-hass-coverage.md). HASS is a curriculum
-grouping mapped onto the shared History, Geography, Personal & Social Development
-and Life Skills subjects. The [authoring review](reports/acara-v9-hass-authoring-review.md)
-records the reuse, topic splits and subject/domain decisions.
-
-Selected Australian Health content has 117 topic alignments across 79 topics.
-All 32 Foundation–Year 6 Personal, social and community health standards are fully
-covered in the [coverage report](reports/acara-v9-health-coverage.md).
-The [authoring review](reports/acara-v9-health-authoring-review.md) records reuse,
-practical evidence and review corrections. Health uses the existing Personal &
-Social Development and Science subjects. The 27 PE standards remain excluded;
-these figures do not represent full Health and Physical Education coverage.
-
-Australian Digital Technologies has 93 topic alignments across 74
-topics. All 38 Foundation–Year 6 content descriptions are fully covered in the
-[coverage report](reports/acara-v9-digital-technologies-coverage.md).
-The [authoring review](reports/acara-v9-digital-technologies-authoring-review.md)
-records reuse and domain decisions. Computing now includes shared domains for
-digital systems, data, programming, digital design, collaboration and privacy.
-
-Australian Design and Technologies has 111 topic alignments across 78
-topics. All 29 Foundation–Year 6 content descriptions are fully covered in the
-[coverage report](reports/acara-v9-design-technologies-coverage.md).
-The [authoring review](reports/acara-v9-design-technologies-authoring-review.md)
-records shared-subject placement, reuse and the final factual corrections.
-Physical making uses Science; food preparation uses Life Skills; food and fibre
-production uses Geography.
+The Australian cleanup reviewed all 314 additions and 14 later edited IDs, consolidated repeated skills and redistributed bundled requirements. All 593 selected expectation codes remain linked. Those links do not certify whole-standard coverage: 572 previous Full claims have not been independently recertified. The 27 PE/movement descriptions remain excluded. Read the [cleanup report](reports/acara-v9-cleanup-2026-10-23.md) and [current area-by-area mapping counts](reports/acara-v9-scope-coverage.md).
 
 See [PROVENANCE.md](PROVENANCE.md) for sources and attribution.
 
@@ -115,8 +61,13 @@ Curricula map onto one shared taxonomy. Keep subjects and domains consistent
 across countries; a curriculum's learning-area labels do not create separate
 subject trees.
 
-- Reuse a topic when it teaches the same concept or skill, and extend it where
-  needed to cover another curriculum's requirements.
+- Reuse a topic when it assesses the same concept or operation. Add local
+  examples without changing what mastery means.
+- Review affected assessment guidance and learner estimates before changing a
+  mastery claim. Assess independent procedures separately; topics do not track
+  multiple difficulty levels.
+- Record whole-expectation, component and prerequisite contributions explicitly.
+  A topic–code link alone does not establish Full coverage.
 - Reuse existing domains before adding a distinct new domain. Keep names
   consistent and avoid parallel country-specific domain trees.
 - Keep each topic focused on a teachable concept or skill. A standard can link
@@ -163,9 +114,8 @@ subject trees.
 ## Teaching research
 
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
-might be taught** to the graph of what children learn. It covers **547 Science**
-and **502 Mathematics** topics. `coverage.missingTopicIds` and per-subject counts
-make the **881 topics without research** explicit; absence is not a judgement
+might be taught** to the graph of what children learn. It contains **1,049 active topic records**. `coverage.missingTopicIds` and per-subject counts
+make the **784 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
 [`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.

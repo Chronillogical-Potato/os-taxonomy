@@ -1,0 +1,223 @@
+{
+ "total": 14,
+ "overlapWith314": 5,
+ "metadataOnly": 6,
+ "researchEdits": {
+  "preexistingNutritionPublishingFixes": [
+   "mt_sDmrVCfzqt",
+   "mt_E1wR8IfCV6",
+   "mt_QhLAeAlHI0 (original correction)"
+  ],
+  "rootResearchEdits": [
+   "QhLA TeachingResearch keyRepresentations + sources[3].verified (root)",
+   "two TeachingResearch assessment-guide scope alignments for mt_9L3NQqgqRd / mt_U0waNfD8PB (root)"
+  ]
+ },
+ "extraOldEvidenceRepairOutside14": [
+  "mt_v5yDTWEiyQ (citation-only -> observable process reflection; Kolb/Hattie labels unverified provenance)",
+  "mt_wWlZoLQBR6 (citation-only -> observable corroboration)"
+ ],
+ "entries": [
+  {
+   "id": "mt_FSLJbKkryb",
+   "titleAfter": "Australian coins and simple purchases",
+   "alsoAmong314": true,
+   "predatesAU": false,
+   "changedFieldsOriginal": [
+    "evidence"
+   ],
+   "rootVerdict": "preserve_correction",
+   "metadataOnly": false,
+   "inCurrentGraph": false,
+   "finalDisposition": "retired in Maths cleanup -> FIkq/RNRy/aWOK; $5-note correction carried in destination evidence scope"
+  },
+  {
+   "id": "mt_Jz9UuT8BXW",
+   "titleAfter": "Fractions of time and events",
+   "alsoAmong314": true,
+   "predatesAU": false,
+   "changedFieldsOriginal": [
+    "description",
+    "evidence",
+    "parentTitle",
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_extension_with_scope_review",
+   "metadataOnly": false,
+   "inCurrentGraph": false,
+   "finalDisposition": "retired in Maths cleanup -> gC-6 (incl. eighths clause) / MgsD"
+  },
+  {
+   "id": "mt_w4cUnN_SsQ",
+   "titleAfter": "Reading and drawing maps",
+   "alsoAmong314": true,
+   "predatesAU": false,
+   "changedFieldsOriginal": [
+    "subject",
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata-only subject/domain move preserved; retained"
+  },
+  {
+   "id": "mt_ejht12jhm2",
+   "titleAfter": "Grid references and directions",
+   "alsoAmong314": true,
+   "predatesAU": false,
+   "changedFieldsOriginal": [
+    "subject",
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata-only move preserved; retained"
+  },
+  {
+   "id": "mt_61Pa4Eksva",
+   "titleAfter": "Finding places on a plan",
+   "alsoAmong314": true,
+   "predatesAU": false,
+   "changedFieldsOriginal": [
+    "subject",
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata move preserved; HASS: pictorial-map/block-model medium example + AC9HSFS02 component; 61Pa->TdV9 softened, ->qeZY hard"
+  },
+  {
+   "id": "mt_2GDBmKCJxs",
+   "titleAfter": "Different perspectives and accounts",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "type",
+    "description",
+    "evidence",
+    "parentTitle",
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_assessability_repair_review_scope",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "HASS: CONCEPTUAL; observable perspective/account evidence; accounts-comparison procedure -> wWlZ; citation labels kept as unverified provenance"
+  },
+  {
+   "id": "mt_9REmUc8r4D",
+   "titleAfter": "Evidence from the Past",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "type",
+    "description",
+    "evidence",
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_assessability_repair_review_scope",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "HASS: CONCEPTUAL; surviving-evidence concept with observable evidence; old-vs-modern comparison -> MVlT"
+  },
+  {
+   "id": "mt_HFN1pGASpZ",
+   "titleAfter": "Standing up to discrimination",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "description",
+    "evidence",
+    "parentTitle",
+    "parentQuestion"
+   ],
+   "rootVerdict": "material_mastery_scope_change",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "Health: conceptual Prejudice and discrimination meaning restored; implement/reflect inclusion moved FIRST to NEW procedural mt_1MqcYKS1Es (AC9HP6P05 implement component)"
+  },
+  {
+   "id": "mt__p5n8z5soJ",
+   "titleAfter": "Step-by-Step Instructions",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata-only domain move preserved; retained"
+  },
+  {
+   "id": "mt_kH1DzOPsXG",
+   "titleAfter": "Data and Information for Computers",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata-only domain move preserved; retained"
+  },
+  {
+   "id": "mt_XbGfVhfiUz",
+   "titleAfter": "Computers in Everyday Life",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "domain"
+   ],
+   "rootVerdict": "preserve_metadata_change",
+   "metadataOnly": true,
+   "inCurrentGraph": true,
+   "finalDisposition": "metadata-only domain move preserved; retained"
+  },
+  {
+   "id": "mt_sDmrVCfzqt",
+   "titleAfter": "Nutrients in a Healthy Diet",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_factual_correction_review_research",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "pre-existing nutrition publishing fix (parent question nutrient vs food group) preserved; research already published (root notice); no change in cleanup"
+  },
+  {
+   "id": "mt_QhLAeAlHI0",
+   "titleAfter": "Balanced Diet & Food Groups",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "description",
+    "evidence",
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_correction_fix_localization_leak",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "pre-existing nutrition correction preserved; Health: universal five-group count removed (local guide groups, AU five as example); root TeachingResearch repair (keyRepresentations + eatforhealth verified) untouched"
+  },
+  {
+   "id": "mt_E1wR8IfCV6",
+   "titleAfter": "Animal Nutrition",
+   "alsoAmong314": false,
+   "predatesAU": true,
+   "changedFieldsOriginal": [
+    "evidence",
+    "parentQuestion"
+   ],
+   "rootVerdict": "preserve_factual_correction_review_research",
+   "metadataOnly": false,
+   "inCurrentGraph": true,
+   "finalDisposition": "pre-existing nutrition correction preserved; research already published; no change in cleanup"
+  }
+ ]
+}
