@@ -110,8 +110,11 @@ button and extension states. Check that the technical-word inventory is covered
 (including plurals and phrases), meanings are accurate and short, and a term's
 hover/tap/keyboard interaction shows one readable explanation. Exercise movement
 into the popup, Escape/close/outside dismissal, focus restoration, dynamic copy
-and narrow positioning. A definition tap inside an action button or label must
-not submit, advance or edit; the surrounding action must still work. Confirm
+and narrow positioning. Confirm no definition wrappers or dashed word-help
+underlines occur inside buttons (including ARIA buttons), links, disclosure
+controls or form labels, including dynamically created controls. Hover/focus
+must not open definitions there; clicking/tapping directly on the label and
+keyboard activation must perform the control's action. Confirm
 word help preserves evidence unless vocabulary recall is the assessed goal, and
 never reveals the current answer. Avoid duplicate wrappers after scene changes. Check that instruction updates
 produce one plain-text live announcement rather than repeated term-wrapping

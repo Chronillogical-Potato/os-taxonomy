@@ -70,7 +70,8 @@ make unrelated objects selectable.
 
 Inventory the technical vocabulary in all child-visible copy, including the
 cover, changing instructions and feedback, controls, mathematical labels and
-optional extension. Mark each occurrence with a dashed underline. Handle
+optional extension. Mark occurrences in non-interactive text with a dashed
+underline; exclude buttons and other action controls and their labels. Handle
 plurals/capitalization and meaningful phrases such as “cubic unit” together.
 Use the word itself as the trigger; an extra icon is unnecessary here. For a
 canvas/3D label, provide an equivalent underlined, keyboard-accessible overlay
@@ -84,11 +85,13 @@ the term disappears or its scene is hidden. Do not rely on native title tooltips
 hover alone or a remote dictionary. Definitions use plain language suited to the
 learner and context, explaining unfamiliar words without a chain of new jargon.
 
-A word in a button or form label still needs help. Avoid nested buttons: term
-activation must not choose a shape, submit a prediction or focus/edit a field.
-The surrounding action remains available, and its keyboard focus should expose
-word help without changing its action. Preserve accessible names, description
-associations, sensible focus order and the cover's isolation from lesson controls.
+Never put definition triggers or dashed vocabulary underlines inside native or
+ARIA buttons, links, disclosure controls or form labels. The entire control,
+including its words, must perform its action with click, tap, Enter or Space as
+appropriate; hovering or focusing it must not open word help. Explain unfamiliar
+control vocabulary in the current instruction or other non-interactive text.
+Preserve accessible names, sensible focus order and the cover's isolation from
+lesson controls.
 
 Looking up incidental language does not change response evidence. Definitions
 must not contain the current answer, numerical result, hint or a model-specific

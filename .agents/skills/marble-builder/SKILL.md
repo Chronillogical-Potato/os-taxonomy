@@ -211,14 +211,17 @@ Design the experience around these principles:
   rather than silently relaxing this rule.
 - Give every child-facing technical term a **dashed underline and an on-demand
   meaning**, including terms in the opening question, instructions, feedback,
-  labels, buttons and extensions. Examples include photon, nitrogen, molecule,
+  non-interactive labels and extensions. **Never add definition underlines or
+  triggers inside buttons or other action controls, including their labels.**
+  Keep the whole control available for its action on click, tap and keyboard
+  activation. Explain unfamiliar control vocabulary in the instruction or other
+  non-interactive lesson text instead. Examples include photon, nitrogen, molecule,
   horizon and volume. Hover on desktop or tap on mobile reveals a brief,
   age-appropriate explanation; keyboard focus/activation must also work.
   Keep definitions contextual and generic, without revealing the current answer.
   Show only one definition at a time, dismissible by close, Escape or tapping
   elsewhere. This requested word-help popover is a narrow exception to the text
-  budget, not another persistent explanation panel. Opening a definition must
-  not activate the surrounding action or submit a response. See
+  budget, not another persistent explanation panel. See
   [interaction-design.md](references/interaction-design.md) for behavior and
   assessment boundaries.
 - Make feedback visual first: reveal the relevant consequence or relationship,

@@ -48,12 +48,12 @@ Optional triangles transfer the comparison without altering the core result.
 
 ## Contextual vocabulary
 
-Technical terms have dashed underlines in child-visible copy, including controls
-and the opening question where relevant. Hover, tap or keyboard focus opens one
+Technical terms have dashed underlines in non-interactive child-visible copy,
+including the opening question where relevant. Action controls and their labels
+are excluded. Hover, tap or keyboard focus opens one
 brief meaning. These are generic language explanations, not task-specific hints;
 opening them does not submit a response or change this experience's evidence.
-Words inside action buttons are isolated from the surrounding action. Form labels
-retain their original accessible names.
+Button and form labels retain their original accessible names and actions.
 
 [Desktop word help](screenshots/vocabulary.png) ·
 [Phone word help](screenshots/vocabulary-narrow.png) ·
