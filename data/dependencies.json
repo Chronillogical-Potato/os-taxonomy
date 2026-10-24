@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3939,
+  "edgeCount": 3941,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -22187,6 +22187,12 @@
     },
     {
       "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_ndGqFPWyen",
+      "strength": "hard",
+      "reason": "Comparing the segments as shares of each group's whole requires understanding fractions as parts of a whole"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
       "prerequisiteId": "mt_r8XnXwRA6g",
       "strength": "hard",
       "reason": "a stacked bar is a scaled bar built from segments: drawing and reading scaled bar graphs is the real foundation"
@@ -22196,6 +22202,12 @@
       "prerequisiteId": "mt_RX7PZgjX9q",
       "strength": "soft",
       "reason": "grouped (side-by-side) multiple-bar graphs are a contrasting display for comparing groups"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_ZM9mhHsyYZ",
+      "strength": "hard",
+      "reason": "Reading a 100% stacked-bar scale requires understanding percentages as parts per hundred"
     },
     {
       "topicId": "mt_Y6P9y1Rz-u",
