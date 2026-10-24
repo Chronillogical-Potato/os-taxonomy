@@ -1,0 +1,911 @@
+{
+  "scope": "Ontario Mathematics 2020 Grade 5; 51 specific and 12 overall expectations. Contextual curriculum-composition judgments, not whole-topic learner certification. Public report contains codes and official links; full source text and detailed clauses remain in private evidence.",
+  "newTopicCount": 3,
+  "newTopics": [
+    {
+      "topicId": "mt_r8bOJtofM7",
+      "name": "Top, front and side views of objects",
+      "reason": "focused claim extracted from broader existing technical-drawing knowledge"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "name": "Stacked-bar graphs",
+      "reason": "missing mathematical representation"
+    },
+    {
+      "topicId": "mt_sDT1M0z7c3",
+      "name": "Types of taxes and who collects them",
+      "reason": "financial/civic concept with local examples"
+    }
+  ],
+  "counts": {
+    "grade5TopicCodePairs": 190,
+    "distinctTopics": 148,
+    "directlyLinkedCodes": 53,
+    "topics": 1845,
+    "dependencies": 3941
+  },
+  "rows": [
+    {
+      "externalId": "ON-MATH-2020-G5-A1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_20WfHhnL39",
+        "mt_35-DhMh_Yr",
+        "mt_8dstvf-KKb",
+        "mt_EBYGhd8X3x",
+        "mt_IM1G_7QzTa",
+        "mt_Iwg2diBSyW",
+        "mt_LhkP_KKIRS",
+        "mt_QxsoqVUt6u",
+        "mt_S4G6GLKr1-",
+        "mt_TMoHjMhRS2",
+        "mt_UGf6jICEhs",
+        "mt_WkKkb7W9Qd",
+        "mt_YbX3LD0Eca",
+        "mt_f67qGDhyfi",
+        "mt_j8Pv3s7TZR",
+        "mt_kJ5wYzO8qC",
+        "mt_pAuo9Op89t"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-B1.1",
+        "ON-MATH-2020-G5-B1.2",
+        "ON-MATH-2020-G5-B1.3",
+        "ON-MATH-2020-G5-B1.4",
+        "ON-MATH-2020-G5-B1.5",
+        "ON-MATH-2020-G5-B1.6",
+        "ON-MATH-2020-G5-B1.7"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JwP9QFv6gQ",
+        "mt_x8TshvbbQT"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JwP9QFv6gQ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AYzE1EAvI0",
+        "mt_Ep7TDFuYUa",
+        "mt_FP-mjXaq3B",
+        "mt_ebPelt-qAl",
+        "mt_o_p-3tCxiM"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_PL9VkDwXfh",
+        "mt_o_p-3tCxiM"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_933BohS9BH",
+        "mt_IegHBHERVa",
+        "mt_TqDq6jyOmL",
+        "mt_Vi4Vo5xs_g",
+        "mt_doX1BhmFgk"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Ii1hV4V5ql"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B1.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_NaqEP8xDhZ",
+        "mt_TqDq6jyOmL",
+        "mt_W17Kbwm0-u",
+        "mt_ZM9mhHsyYZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-B2.1",
+        "ON-MATH-2020-G5-B2.2",
+        "ON-MATH-2020-G5-B2.3",
+        "ON-MATH-2020-G5-B2.4",
+        "ON-MATH-2020-G5-B2.5",
+        "ON-MATH-2020-G5-B2.6",
+        "ON-MATH-2020-G5-B2.7",
+        "ON-MATH-2020-G5-B2.8",
+        "ON-MATH-2020-G5-B2.9"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AR-K72OIIO",
+        "mt_GDG9_SZmsO",
+        "mt_JH_6RpNWjr",
+        "mt_Lb2ZnMdkYR",
+        "mt_QCgbiVrwnp",
+        "mt_QaYfeVL-0C",
+        "mt_anAe11HAEH",
+        "mt_ehGS_uVSJv",
+        "mt_p-nbe0w_lf"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_K5jM7vlVhA",
+        "mt_gtTl3R5buH",
+        "mt_pjfmCMMPjO"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_EDgw64OmfA",
+        "mt_Ii1hV4V5ql",
+        "mt_LlMl2PbaZe",
+        "mt_kJ5wYzO8qC"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JH_6RpNWjr",
+        "mt_Yw1_4Nfsql",
+        "mt_yTWxkzzoOZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_CBHwluE6Lp",
+        "mt_a1FdAsRKOF"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_q9EaJc2FP8"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AQo4u7O4sM",
+        "mt_GDG9_SZmsO",
+        "mt_WsM4EmdOLe"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.8",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1PAWhRhpdg",
+        "mt_TgHxujL81r"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-B2.9",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_EmR5n58jZt",
+        "mt_ePXg_XyCKU",
+        "mt_h0gJcSuwdL"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-C1.1",
+        "ON-MATH-2020-G5-C1.2",
+        "ON-MATH-2020-G5-C1.3",
+        "ON-MATH-2020-G5-C1.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cqm8iy48UI",
+        "mt_W3VOAuFwVw",
+        "mt_c29FaCTNsx",
+        "mt_i5_HnoFOYw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_fZTn0W_iZR"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_TqDq6jyOmL",
+        "mt_W3VOAuFwVw",
+        "mt_YzM5goBctT",
+        "mt_doX1BhmFgk",
+        "mt_kDMKJ5Ztt6"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-C2.1",
+        "ON-MATH-2020-G5-C2.2",
+        "ON-MATH-2020-G5-C2.3",
+        "ON-MATH-2020-G5-C2.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4WaKWECpcv",
+        "mt_anAe11HAEH",
+        "mt_i9rJbuFO3p",
+        "mt_oIzycTBeE4"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_8jFSnXxqQD",
+        "mt_Jvg8X0N5u0",
+        "mt_jHgRQ4hR0g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_3JgrHY221M",
+        "mt_anAe11HAEH",
+        "mt_oIzycTBeE4",
+        "mt_xZvDCYA5Ae"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_MHaiUd2FLA",
+        "mt_i2F1nWxJjv"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C3",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-C3.1",
+        "ON-MATH-2020-G5-C3.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C3.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_6XbAmdmjDb",
+        "mt_JTuhd-cPiV",
+        "mt_XXpEz9tyu6",
+        "mt_nfGAtwqSvP",
+        "mt_sPV503BQnI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C3.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_5UtPmgdoQ9",
+        "mt_6XbAmdmjDb",
+        "mt_JTuhd-cPiV",
+        "mt_XXpEz9tyu6",
+        "mt_nfGAtwqSvP"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-C4",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_IM1G_7QzTa",
+        "mt_WkKkb7W9Qd",
+        "mt_f67qGDhyfi",
+        "mt_fLOkq-HfPB",
+        "mt_iQYPw8bMfN"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-D1.1",
+        "ON-MATH-2020-G5-D1.2",
+        "ON-MATH-2020-G5-D1.3",
+        "ON-MATH-2020-G5-D1.4",
+        "ON-MATH-2020-G5-D1.5",
+        "ON-MATH-2020-G5-D1.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4zgPzc6yu5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4zgPzc6yu5",
+        "mt_ZM9mhHsyYZ",
+        "mt_ebQURBOsM5",
+        "mt_sHJqh6UUya"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_QpJydot2Kh",
+        "mt_RX7PZgjX9q",
+        "mt_TiFjjvBMaY",
+        "mt_Y3ZnDGGmln",
+        "mt_c29FaCTNsx",
+        "mt_r8XnXwRA6g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_QpJydot2Kh",
+        "mt_Y3ZnDGGmln",
+        "mt_ebQURBOsM5",
+        "mt_kxeuXm6EyC",
+        "mt_sHJqh6UUya"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cg8VPguS_V",
+        "mt_qwFJvRRucu",
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1VSfm9yiLn",
+        "mt_8IsaoMPvod",
+        "mt_Y3ZnDGGmln",
+        "mt_gTI7MuS-y8",
+        "mt_kxeuXm6EyC",
+        "mt_r8XnXwRA6g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-D2.1",
+        "ON-MATH-2020-G5-D2.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-c4Ca_nBzX",
+        "mt_J4j7d3iAfg",
+        "mt_UcGn2hjhYU",
+        "mt_k2WE0-22-4",
+        "mt_t0g2SlP404"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-D2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-bMnJcPJy8",
+        "mt_Zt30Gxi-qp"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-E1.1",
+        "ON-MATH-2020-G5-E1.2",
+        "ON-MATH-2020-G5-E1.3",
+        "ON-MATH-2020-G5-E1.4",
+        "ON-MATH-2020-G5-E1.5"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_8H2kO4k2B9",
+        "mt_QysgF57dxh",
+        "mt_h0CVtqI2xo",
+        "mt_hdrMoiTgqu",
+        "mt_liIW336odh",
+        "mt_r8c43QB6wx"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_B1lPmwJz0h",
+        "mt_hdrMoiTgqu"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_r8bOJtofM7",
+        "mt_vJUa62bxeR",
+        "mt_wUSbRt3-qw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Uq5vYqboCR",
+        "mt_i5_HnoFOYw",
+        "mt_jBQS-CicNn",
+        "mt_oDlduFnemk",
+        "mt_snlqRCiA1R"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_SH7QgFl8-v",
+        "mt_Uq5vYqboCR",
+        "mt_efOeaGFyGM"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-E2.1",
+        "ON-MATH-2020-G5-E2.2",
+        "ON-MATH-2020-G5-E2.3",
+        "ON-MATH-2020-G5-E2.4",
+        "ON-MATH-2020-G5-E2.5",
+        "ON-MATH-2020-G5-E2.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-af65bxfdp",
+        "mt_DOe893F6gN",
+        "mt_NSC3LT_-ch",
+        "mt_OzRZ89GrQW",
+        "mt_eiB3-6pu6a",
+        "mt_y1n0Zwhoca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Zks8xyInSG",
+        "mt_d8al9JcajP"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_B1lPmwJz0h",
+        "mt_h0CVtqI2xo",
+        "mt_qUGMyMYn9m"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_3S10OOGPqu",
+        "mt_4MFUAsbx_6",
+        "mt_YUJ5pwalqL",
+        "mt_qUGMyMYn9m"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ML5t7n2-U8"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-E2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_MJZA90uc6H",
+        "mt_eiB3-6pu6a"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G5-F1.1",
+        "ON-MATH-2020-G5-F1.2",
+        "ON-MATH-2020-G5-F1.3",
+        "ON-MATH-2020-G5-F1.4",
+        "ON-MATH-2020-G5-F1.5",
+        "ON-MATH-2020-G5-F1.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_K8_RYIvrTV"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4ubP_RMg9o",
+        "mt_QaYfeVL-0C",
+        "mt_aWOK1npO5s",
+        "mt_cSz7XTxVAx"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Qzbh-_v0Gq",
+        "mt_r1hw-KenpK",
+        "mt_uP9faJlnRq"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_bAy4dmP1-A"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Qe2PsFmSAH"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G5-F1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G5-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_cSz7XTxVAx",
+        "mt_sDT1M0z7c3"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g5-math"
+    }
+  ]
+}
