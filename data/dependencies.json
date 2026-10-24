@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3878,
+  "edgeCount": 3887,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -4680,8 +4680,8 @@
     {
       "topicId": "mt_AylKwhbDWM",
       "prerequisiteId": "mt_1J5fwxNDxL",
-      "strength": "hard",
-      "reason": "Grouping living things requires the classification vocabulary — vertebrate, invertebrate, mammal, etc."
+      "strength": "soft",
+      "reason": "grouping by observable features (wings, lives in water) does not require formal vertebrate/invertebrate/life-cycle vocabulary (vocabulary overgate)"
     },
     {
       "topicId": "mt_AylKwhbDWM",
@@ -4704,8 +4704,8 @@
     {
       "topicId": "mt_AylKwhbDWM",
       "prerequisiteId": "mt_ppENoD8vf1",
-      "strength": "hard",
-      "reason": "Must identify organisms in habitats before grouping them by observable features"
+      "strength": "soft",
+      "reason": "grouping living things by observable features does not require first naming local habitat/microhabitat species (context overgate)"
     },
     {
       "topicId": "mt_AylKwhbDWM",
@@ -4808,6 +4808,18 @@
       "prerequisiteId": "mt_8OAGVdeTJ_",
       "strength": "hard",
       "reason": "recognising angles at the corners of shapes is needed to compare angles"
+    },
+    {
+      "topicId": "mt_B1lPmwJz0h",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "soft",
+      "reason": "formal face/edge/vertex vocabulary supports 3-D matching but is not required to fit faces together"
+    },
+    {
+      "topicId": "mt_B1lPmwJz0h",
+      "prerequisiteId": "mt_Qcp2d_kuta",
+      "strength": "hard",
+      "reason": "recognising common 3-D objects is needed to compare objects"
     },
     {
       "topicId": "mt_B1lPmwJz0h",
@@ -5400,8 +5412,8 @@
     {
       "topicId": "mt_brgde1Vx0P",
       "prerequisiteId": "mt_1J5fwxNDxL",
-      "strength": "hard",
-      "reason": "Using classification keys to name living things requires the classification group vocabulary"
+      "strength": "soft",
+      "reason": "using/creating keys for plants and animals by observable features does not require the formal animal taxonomy vocabulary; brgd->AylK stays hard"
     },
     {
       "topicId": "mt_brgde1Vx0P",
@@ -5844,20 +5856,32 @@
     {
       "topicId": "mt_Cg8VPguS_V",
       "prerequisiteId": "mt_fmm-P17Vka",
-      "strength": "hard",
-      "reason": "Calculating the mean requires 'mean' and 'average' vocabulary"
+      "strength": "soft",
+      "reason": "the mean needs its own meaning, not the whole statistics vocabulary"
     },
     {
       "topicId": "mt_Cg8VPguS_V",
       "prerequisiteId": "mt_JH_6RpNWjr",
+      "strength": "soft",
+      "reason": "decimal addition/subtraction is a written-decimal method, not needed to total whole-number data"
+    },
+    {
+      "topicId": "mt_Cg8VPguS_V",
+      "prerequisiteId": "mt_LpSuPgL31x",
       "strength": "hard",
-      "reason": "Calculating mean requires decimal addition"
+      "reason": "the mean is an equal share: division as equal sharing/grouping (single generic division foundation)"
     },
     {
       "topicId": "mt_Cg8VPguS_V",
       "prerequisiteId": "mt_lU-2aTRB9f",
+      "strength": "soft",
+      "reason": "a mean may be fractional, but the mean procedure does not need a particular written decimal-division method"
+    },
+    {
+      "topicId": "mt_Cg8VPguS_V",
+      "prerequisiteId": "mt_OvyoRo47K-",
       "strength": "hard",
-      "reason": "Calculating mean requires division giving decimal answers"
+      "reason": "totalling data values is additive combining (generic addition; no particular strategy)"
     },
     {
       "topicId": "mt_ChjMU2GDJa",
@@ -6414,14 +6438,26 @@
     {
       "topicId": "mt_d8al9JcajP",
       "prerequisiteId": "mt_6oxQPNLHNv",
-      "strength": "hard",
-      "reason": "Measuring in standard units is prerequisite to converting between units"
+      "strength": "soft",
+      "reason": "generic unit conversion (equivalent amount via the unit factor) does not require standard mass/capacity arithmetic"
     },
     {
       "topicId": "mt_d8al9JcajP",
       "prerequisiteId": "mt_EXlmTURK_o",
+      "strength": "soft",
+      "reason": "generic conversion does not require whole calendar facts (days in each month, leap years); time examples are optional families"
+    },
+    {
+      "topicId": "mt_d8al9JcajP",
+      "prerequisiteId": "mt_KaF0SQvaiu",
       "strength": "hard",
-      "reason": "Knowing seconds/minute, days/month etc. is prerequisite to unit conversion problems"
+      "reason": "measuring in uniform units is the foundation of relating unit sizes"
+    },
+    {
+      "topicId": "mt_d8al9JcajP",
+      "prerequisiteId": "mt_PZ909yPrEC",
+      "strength": "hard",
+      "reason": "converting 3 km to 3000 m is a multiplicative scale (3 groups of 1000): multiplication as equal groups"
     },
     {
       "topicId": "mt_DA7-JYRvtP",
@@ -19307,15 +19343,27 @@
     },
     {
       "topicId": "mt_UNzojLkNdm",
-      "prerequisiteId": "mt_4m8BimI4G5",
+      "prerequisiteId": "mt_0XxyaQLRhn",
       "strength": "hard",
-      "reason": "Tell time to 5 minutes is prerequisite to telling time to nearest minute"
+      "reason": "reading hours on analogue and digital clocks is the real foundation for nearest-minute reading"
+    },
+    {
+      "topicId": "mt_UNzojLkNdm",
+      "prerequisiteId": "mt_4m8BimI4G5",
+      "strength": "soft",
+      "reason": "mistargeted gate: its reason named five-minute telling; a.m./p.m. is illustrative 'such as' vocabulary"
     },
     {
       "topicId": "mt_UNzojLkNdm",
       "prerequisiteId": "mt_6XCURuNwPw",
       "strength": "soft",
       "reason": "GB route: Year 2 comparing and sequencing intervals of time is the groundwork for recording and comparing durations in seconds, minutes and hours; soft because this node is GB-only"
+    },
+    {
+      "topicId": "mt_UNzojLkNdm",
+      "prerequisiteId": "mt_HNOPGJYiRK",
+      "strength": "soft",
+      "reason": "five-minute reading (the original gate reason) is supportive but not required for every route"
     },
     {
       "topicId": "mt_UNzojLkNdm",
@@ -20526,8 +20574,14 @@
     {
       "topicId": "mt_wE7-Gs9ENL",
       "prerequisiteId": "mt_6oxQPNLHNv",
+      "strength": "soft",
+      "reason": "perimeter needs length measurement and addition, not standard mass/capacity calculation"
+    },
+    {
+      "topicId": "mt_wE7-Gs9ENL",
+      "prerequisiteId": "mt_KaF0SQvaiu",
       "strength": "hard",
-      "reason": "Measuring perimeter requires measuring lengths and adding them"
+      "reason": "measuring lengths in units is the real foundation for measuring perimeters"
     },
     {
       "topicId": "mt_wE7-Gs9ENL",

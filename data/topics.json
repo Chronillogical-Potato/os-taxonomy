@@ -69,7 +69,8 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C3.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C3.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.1"
       ]
     },
     {
@@ -92,7 +93,8 @@
         "acara-v9:AC9TDI4P04",
         "acara-v9:AC9TDI6P05",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C3.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.2"
       ]
     },
     {
@@ -103,7 +105,7 @@
       "name": "Concurrent events in code",
       "description": "Write, read, run and alter block-based code in which two or more scripts or characters run at the same time (concurrent events, e.g. started by the same event), predicting and testing the combined outcome and distinguishing it from steps that run one after another",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.04136504653567735,
       "evidence": [
         "Write two scripts that start on the same event so two characters move at the same time, run the program and check that both happen together",
@@ -113,7 +115,9 @@
       "assessmentPrompt": "In a coding app like ScratchJr, can {{name}} make two characters move at the same time, and explain what changes if one of them waits a bit longer?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C3.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.2"
       ]
     },
     {
@@ -154,7 +158,9 @@
       "assessmentPrompt": "In a coding app, can {{name}} use a 'repeat' block to make a character draw a square or dance — instead of dragging the same blocks over and over?",
       "standards": [
         "acara-v9:AC9TDI4P04",
-        "acara-v9:AC9TDI6P05"
+        "acara-v9:AC9TDI6P05",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C3.2"
       ]
     },
     {
@@ -9075,7 +9081,7 @@
       "name": "Finding places on a plan",
       "description": "Locate positions on a two-dimensional representation (simple map or plan) of a familiar space such as the classroom or playground, and move positions by following directions and pathways",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.171664943123061,
       "evidence": [
         "Point to or place picture markers for the teacher's desk and the door on a pictorial map, plan or block model of the classroom",
@@ -9088,7 +9094,8 @@
         "acara-v9:AC9M2SP02",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.5"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.4"
       ]
     },
     {
@@ -11554,7 +11561,7 @@
       "name": "Checking Your Own Work",
       "description": "After finishing a task, look back at what you did and ask yourself: does this seem right?",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1282316442605998,
       "evidence": [
         "After finishing a piece of work, re-read or review it without being asked to",
@@ -11564,7 +11571,8 @@
       "assessmentPrompt": "After {{name}} finishes a piece of work or activity, do they look it over themselves to check it seems right before saying they're done?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -11575,7 +11583,7 @@
       "name": "Persisting When It's Hard",
       "description": "Keep trying when something feels hard — making mistakes and trying again is how learning happens",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.234746639089969,
       "evidence": [
         "Keep working on a difficult task for a sustained period without giving up or asking someone else to do it",
@@ -11585,7 +11593,8 @@
       "assessmentPrompt": "If {{name}} finds a puzzle or activity really tricky, do they keep trying different ways rather than giving up straight away?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -12270,7 +12279,7 @@
       "description": "Prepare a simple recipe by reading the steps, gathering the correct ingredients, measuring them with appropriate cups, spoons or scales, following the steps in order and checking the result",
       "ageRangeStart": 8,
       "ageRangeEnd": 10,
-      "centrality": 0.1003102378490176,
+      "centrality": 0.1034126163391934,
       "evidence": [
         "Read a simple recipe (e.g. fruit smoothie, overnight oats or a no-cook dip) and gather the correct ingredients and equipment",
         "Measure ingredients accurately with measuring cups, spoons or kitchen scales as the recipe states",
@@ -12290,7 +12299,7 @@
       "description": "Explain how the characteristics of foods — nutritional (vitamins, fibre, fat), sensory (taste, texture, colour) and functional (eggs bind, yeast makes dough rise, cut apples brown) — influence how they are selected and prepared for healthy eating, and how a preparation method can change texture, colour and nutrient retention (effects depend on the food, the nutrient and the method)",
       "ageRangeStart": 10,
       "ageRangeEnd": 12,
-      "centrality": 0.1003102378490176,
+      "centrality": 0.1034126163391934,
       "evidence": [
         "Explain how a functional property affects preparation (e.g. eggs bind a burger mix; lemon juice stops cut apple browning)",
         "Compare two preparation methods for the same vegetable (e.g. steaming and boiling broccoli for the same time), record changes in colour, texture and taste, and use the comparison and a reliable source to explain how each method can affect nutrient retention, without assuming one method is always healthier",
@@ -12329,7 +12338,7 @@
       "name": "Coins & Notes",
       "description": "Recognise the common coins and notes of the local currency by their features (size, shape, colour, image, texture), know their values, understand that physical size alone does not rank monetary value and that different designs can share one value, and know that different combinations can make the same amount (in Canada, for example: nickel 5¢, dime 10¢, quarter 25¢, loonie $1, toonie $2, and $5, $10, $20 and $50 bills; a play-money penny can stand for 1¢)",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.07135470527404343,
       "evidence": [
         "Sort a handful of mixed local coins into groups by value and state the value of common coins and notes when shown them, recognising each by its features (in Canada, for example: nickel 5¢, dime 10¢, quarter 25¢, toonie $2; in Australia: 5c, 10c, 20c, 50c, $1 and $2 coins and $5 to $100 notes)",
@@ -12339,7 +12348,8 @@
       "assessmentPrompt": "If you tipped out a jar of coins, could {{name}} sort them, tell you how much each type is worth, and explain why the biggest coin isn't always the one worth the most?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-F1.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-F1.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-F1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-F1.1"
       ]
     },
     {
@@ -12453,7 +12463,8 @@
       ],
       "assessmentPrompt": "If {{name}} buys a comic for 2.75 (pounds or dollars) and pays with a 5 note, could they work out they should get 2.25 back?",
       "standards": [
-        "acara-v9:AC9M1N05"
+        "acara-v9:AC9M1N05",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-F1.1"
       ]
     },
     {
@@ -12716,7 +12727,7 @@
       "description": "Understand addition as combining or putting together two groups to find the total",
       "ageRangeStart": 4,
       "ageRangeEnd": 6,
-      "centrality": 0.4891416752843847,
+      "centrality": 0.4922440537745605,
       "evidence": [
         "Model 'putting together' with physical objects and say the total",
         "Act out an 'add to' situation (e.g. 3 children arrive, then 2 more join)",
@@ -12947,7 +12958,7 @@
       "name": "Adding and subtracting tens mentally",
       "description": "Add and subtract a two-digit number and tens mentally and using concrete/pictorial representations",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.0124095139607032,
       "evidence": [
         "Calculate 45 + 30 = 75 mentally",
@@ -12958,6 +12969,7 @@
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.3",
         "uk-nc-2013:Maths/Y2/AS/5"
       ]
     },
@@ -13086,7 +13098,7 @@
       "name": "Addition in any order",
       "description": "Understand and apply the commutative property of addition: addends can be added in any order",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1127197518097208,
       "evidence": [
         "Explain that 3 + 8 gives the same answer as 8 + 3",
@@ -13098,6 +13110,7 @@
         "ccss-math:1.OA.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
         "uk-nc-2013:Maths/Y2/AS/8"
       ]
     },
@@ -13122,6 +13135,8 @@
         "acara-v9:AC9M4N07",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.3",
         "uk-nc-2013:Ma/KS2/Y3/AS/3",
         "uk-nc-2013:Ma/KS2/Y4/AS/2"
       ]
@@ -13234,6 +13249,7 @@
         "ccss-math:1.OA.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
         "uk-nc-2013:Maths/Y2/AS/9"
       ]
     },
@@ -13245,7 +13261,7 @@
       "name": "Mental addition and subtraction (age 6+)",
       "description": "Add and subtract a two-digit number and ones mentally and using concrete/pictorial representations",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01758014477766287,
       "evidence": [
         "Calculate 36 + 7 = 43 using objects or mentally",
@@ -13256,6 +13272,7 @@
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.3",
         "uk-nc-2013:Maths/Y2/AS/4"
       ]
     },
@@ -13343,7 +13360,8 @@
         "acara-v9:AC9M3A01",
         "acara-v9:AC9M4A01",
         "ccss-math:1.OA.8",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.1"
       ]
     },
     {
@@ -13368,7 +13386,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C2.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C2.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.3"
       ]
     },
     {
@@ -13389,6 +13409,7 @@
       "assessmentPrompt": "Can {{name}} set out a sum like '347 + 265' or '512 − 278' in columns and work through it step by step, carrying or borrowing where needed?",
       "standards": [
         "acara-v9:AC9M3N03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.5",
         "uk-nc-2013:Ma/KS2/Y3/AS/2"
       ]
     },
@@ -13420,7 +13441,7 @@
       "name": "Addition and subtraction strategies (age 7+)",
       "description": "Explain why addition and subtraction strategies work, using place value and the properties of operations",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.04239917269906929,
       "evidence": [
         "Explain why adding tens and ones separately gives the correct total",
@@ -13429,7 +13450,8 @@
       ],
       "assessmentPrompt": "If {{name}} works out '67 + 24' by splitting it into '60 + 20' and '7 + 4', can they explain to you in words *why* that approach gives the right answer?",
       "standards": [
-        "ccss-math:2.NBT.9"
+        "ccss-math:2.NBT.9",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.4"
       ]
     },
     {
@@ -13451,7 +13473,9 @@
       "standards": [
         "acara-v9:AC9M2N02",
         "acara-v9:AC9M3N03",
-        "ccss-math:2.NBT.7"
+        "ccss-math:2.NBT.7",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.5"
       ]
     },
     {
@@ -13611,7 +13635,7 @@
       "name": "Two-Step Word Problems",
       "description": "Solve one- and two-step word problems within 100 using addition and subtraction, with unknowns in all positions",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.08169596690796277,
       "evidence": [
         "Solve a two-step word problem involving adding to and taking from",
@@ -13623,7 +13647,9 @@
         "acara-v9:AC9M2N04",
         "acara-v9:AC9M2N06",
         "ccss-math:2.OA.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.1"
       ]
     },
     {
@@ -13910,6 +13936,11 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.4",
         "uk-nc-2013:Ma6/2.5b"
       ]
     },
@@ -13921,7 +13952,7 @@
       "name": "Finding the repeating unit",
       "description": "Identify and describe the repeating unit (core) of a repeating pattern made with numbers, symbols, shapes or objects, and use it to continue, create, compare and translate patterns from one form (movements, sounds) into another (objects, shapes, letters or numbers)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01654601861427094,
       "evidence": [
         "Circle the part that repeats in red, blue, blue, red, blue, blue and describe it as an ABB pattern",
@@ -13936,7 +13967,10 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.3"
       ]
     },
     {
@@ -13947,7 +13981,7 @@
       "name": "What a symbol stands for",
       "description": "Recognise when a symbol (a box, shape, question mark or letter) is being used to stand for a number, and describe how it is being used: as an unknown number to be found, or as a quantity that can change",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1054808686659773,
       "evidence": [
         "In 7 + □ = 12, say that the box stands for a number we do not know yet",
@@ -13956,7 +13990,8 @@
       ],
       "assessmentPrompt": "If {{name}} sees a puzzle like 7 + □ = 12 on a homework sheet, can they explain that the box stands for a number we need to find?",
       "standards": [
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.1"
       ]
     },
     {
@@ -14695,7 +14730,7 @@
       "description": "Count in multiples of 2, 5, and 10 (skip counting)",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.3412616339193382,
+      "centrality": 0.3453981385729059,
       "evidence": [
         "Count 2, 4, 6, 8 … up to at least 20",
         "Count 5, 10, 15, 20 … up to at least 50",
@@ -14742,7 +14777,7 @@
       "description": "Rote count forwards and backwards from 0 to 100, beginning from 0, 1, or any given number, by ones",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.4146845915201655,
+      "centrality": 0.4188210961737332,
       "evidence": [
         "Recite the number sequence 1–100 without skipping or repeating",
         "Count backward from 20 to 0",
@@ -14869,7 +14904,7 @@
       "name": "Counting Within 1,000",
       "description": "Count within 1000, including skip-counting by 5s, 10s, and 100s",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05067218200620476,
       "evidence": [
         "Count forwards and backwards within 1000 from any starting number",
@@ -14880,7 +14915,8 @@
       "standards": [
         "acara-v9:AC9M2A01",
         "ccss-math:2.NBT.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.4"
       ]
     },
     {
@@ -14891,7 +14927,7 @@
       "name": "Skip Counting (4s, 8s, 50s, 100s)",
       "description": "Count from 0 in multiples of 4, 8, 50, and 100",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1747673216132368,
       "evidence": [
         "Recite the multiples of 4 from 0 to at least 48",
@@ -14901,6 +14937,7 @@
       "assessmentPrompt": "Can {{name}} count in fours all the way to 48, count in eights, or count up in hundreds from any starting point — for example 350, 450, 550?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.4",
         "uk-nc-2013:Ma/KS2/Y3/NPV/1"
       ]
     },
@@ -14955,6 +14992,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D2.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.3",
         "uk-nc-2013:Ma/KS2/Y3/S/1",
         "uk-nc-2013:Maths/Y2/S/1"
       ]
@@ -15005,7 +15045,8 @@
         "acara-v9:AC9M4ST03",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D1.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D1.5",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.5"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.5"
       ]
     },
     {
@@ -15028,7 +15069,9 @@
         "acara-v9:AC9M3ST01",
         "acara-v9:AC9M4ST01",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D1.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.5"
       ]
     },
     {
@@ -15039,7 +15082,7 @@
       "name": "Comparing results from two groups",
       "description": "Predict whether the category counts from one group (e.g. a class tally of favourite fruit) will be the same in a different group of the same size, collect or check the second group's counts, compare the two tallies or pictographs category by category, and explain why equal-size groups can still give different counts",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.02585315408479835,
       "evidence": [
         "Predict before collecting whether another class of the same size will choose favourite fruits in the same numbers as their own class, and give a reason",
@@ -15049,7 +15092,8 @@
       "assessmentPrompt": "If {{name}}'s class voted on favourite fruit, could they guess whether another class of the same size would vote the same way, check that class's votes, and explain why the numbers came out different?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D2.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.2"
       ]
     },
     {
@@ -15137,7 +15181,7 @@
       "name": "Sorting into categories (age 6+)",
       "description": "Interpret categorical data by asking and answering questions about totals, how many in each category, and how many more or less one category has than another",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05377456049638056,
       "evidence": [
         "Answer 'how many?' for each category in a data set",
@@ -15151,6 +15195,7 @@
         "ccss-math:1.MD.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D1.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.5",
         "uk-nc-2013:Ma/KS2/Y3/S/3",
         "uk-nc-2013:Maths/Y2/S/3"
       ]
@@ -15185,7 +15230,7 @@
       "name": "Finding the mode",
       "description": "Identify the mode of a data set shown in a tally, pictograph, concrete graph, bar graph, line plot or table: every value or category that occurs most often, so a data set can have one mode or several tied modes; use the convention that there is no mode when every value occurs exactly once; explain what the mode tells about the data; and compare the modes of two data sets",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05480868665977249,
       "evidence": [
         "Point to the mode on a pictograph or bar graph of favourite fruits and on a line plot of shoe sizes, and say it is the most common response",
@@ -15195,7 +15240,9 @@
       "assessmentPrompt": "After a family vote on pizza toppings, can {{name}} tell you which topping was chosen most often (the mode) and what it means if several toppings tie?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.2"
       ]
     },
     {
@@ -15206,7 +15253,7 @@
       "name": "Sorting data by two attributes",
       "description": "Sort and organise data about people or things according to two attributes at the same time using a Venn diagram (with an overlap), a Carroll diagram or two-way table, or a two-way tally table, and read and answer questions from these logic diagrams and tables",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.08583247156153051,
       "evidence": [
         "Sort a set of pictures or shapes into a Venn diagram for two attributes (e.g. 'has stripes' and 'has four legs'), placing items with both in the overlap and items with neither outside",
@@ -15217,7 +15264,8 @@
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.5"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.1"
       ]
     },
     {
@@ -15247,6 +15295,51 @@
       ]
     },
     {
+      "id": "mt_Cg8VPguS_V",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Calculating the Mean",
+      "description": "Calculate and interpret the mean as an average of a data set",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.1365046535677353,
+      "evidence": [
+        "Calculate the mean of five test scores: 72, 85, 90, 68, 95",
+        "Explain what the mean represents and how it differs from individual data values",
+        "Find a missing data value given the mean and all other values"
+      ],
+      "assessmentPrompt": "If the family scored 6, 8, 7, 5, and 9 on a board game over five rounds, can {{name}} work out the mean (average) score?",
+      "standards": [
+        "ccss-math:6.SP.5c",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.2",
+        "uk-nc-2013:Ma6/5.1b"
+      ]
+    },
+    {
+      "id": "mt_Cqm8iy48UI",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Data & Statistics",
+      "name": "Reading tables",
+      "description": "Complete, read, and interpret information in tables, including timetables",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.07445708376421924,
+      "evidence": [
+        "Read a bus timetable to find the departure time for a particular stop",
+        "Complete a two-way table from given data about favourite sports by gender",
+        "Calculate how long a train journey takes using a timetable"
+      ],
+      "assessmentPrompt": "Can {{name}} read a timetable — like a train or bus timetable — to find out when a journey leaves, arrives, and how long it takes?",
+      "standards": [
+        "acara-v9:AC9M6M03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.2",
+        "uk-nc-2013:Ma5/5.1b"
+      ]
+    },
+    {
       "id": "mt_r8XnXwRA6g",
       "type": "REPRESENTATIONAL",
       "subject": "Mathematics",
@@ -15272,6 +15365,8 @@
         "acara-v9:AC9M4ST01",
         "acara-v9:AC9TDI4K03",
         "ccss-math:3.MD.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.5",
         "uk-nc-2013:Ma/KS2/Y4/S/2"
       ]
     },
@@ -15317,27 +15412,6 @@
       ]
     },
     {
-      "id": "mt_Cqm8iy48UI",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Data & Statistics",
-      "name": "Reading tables",
-      "description": "Complete, read, and interpret information in tables, including timetables",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.07445708376421924,
-      "evidence": [
-        "Read a bus timetable to find the departure time for a particular stop",
-        "Complete a two-way table from given data about favourite sports by gender",
-        "Calculate how long a train journey takes using a timetable"
-      ],
-      "assessmentPrompt": "Can {{name}} read a timetable — like a train or bus timetable — to find out when a journey leaves, arrives, and how long it takes?",
-      "standards": [
-        "acara-v9:AC9M6M03",
-        "uk-nc-2013:Ma5/5.1b"
-      ]
-    },
-    {
       "id": "mt_fmm-P17Vka",
       "type": "LANGUAGE",
       "subject": "Mathematics",
@@ -15356,27 +15430,6 @@
       "standards": [
         "acara-v9:AC9M5ST01",
         "ccss-math:MP.6"
-      ]
-    },
-    {
-      "id": "mt_Cg8VPguS_V",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Data & Statistics",
-      "name": "Calculating the Mean",
-      "description": "Calculate and interpret the mean as an average of a data set",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 12,
-      "centrality": 0.1365046535677353,
-      "evidence": [
-        "Calculate the mean of five test scores: 72, 85, 90, 68, 95",
-        "Explain what the mean represents and how it differs from individual data values",
-        "Find a missing data value given the mean and all other values"
-      ],
-      "assessmentPrompt": "If the family scored 6, 8, 7, 5, and 9 on a board game over five rounds, can {{name}} work out the mean (average) score?",
-      "standards": [
-        "ccss-math:6.SP.5c",
-        "uk-nc-2013:Ma6/5.1b"
       ]
     },
     {
@@ -15965,7 +16018,7 @@
       "name": "Comparing fractions",
       "description": "Compare and order unit fractions, and fractions with the same denominator; at an early stage, compare and order the shares when one whole is shared among different numbers of people, using drawings and words",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05377456049638056,
       "evidence": [
         "Order 1/2, 1/3, 1/4, 1/5 from largest to smallest, or with drawings order the shares when one pizza is shared among 2, 3, 4 and up to 10 people",
@@ -15976,6 +16029,7 @@
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.8",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.6",
         "uk-nc-2013:Ma/KS2/Y3/F/6"
       ]
     },
@@ -16029,7 +16083,7 @@
       "name": "Fractions of amounts",
       "description": "Recognise, find, name, and write fractions 1/3, 1/4, 2/4, and 3/4 of a length, shape, set of objects, or quantity",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.2213029989658738,
       "evidence": [
         "Find 1/3 of 12 objects by sharing into 3 equal groups",
@@ -16038,6 +16092,7 @@
       ],
       "assessmentPrompt": "If you put 12 grapes on the table, can {{name}} count out a quarter of them — and then show you what three-quarters of the grapes looks like?",
       "standards": [
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.8",
         "uk-nc-2013:Maths/Y2/F/1"
       ]
     },
@@ -16049,7 +16104,7 @@
       "name": "Halves, quarters and eighths",
       "description": "Connect halves, quarters and eighths through repeated halving of shapes, objects, collections and events (such as half-time in a game or an activity split into equal time parts), and represent eighths",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05584281282316442,
       "evidence": [
         "Fold a paper strip in half, then half again, then half again, and label the halves, quarters and eighths",
@@ -16060,7 +16115,8 @@
       "standards": [
         "acara-v9:AC9M2M02",
         "acara-v9:AC9M2N03",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.7"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.7",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.7"
       ]
     },
     {
@@ -16071,7 +16127,7 @@
       "name": "Halves & Quarters of Shapes",
       "description": "Partition circles and rectangles into two and four equal shares and describe them using the words halves, fourths, and quarters, and use 'two halves make one whole' to solve equal-group problems where each share is a half",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2161323681489142,
       "evidence": [
         "Divide a circle into two equal halves and a rectangle into four equal quarters",
@@ -16086,7 +16142,8 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.7",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.5",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.5"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.7"
       ]
     },
     {
@@ -16137,7 +16194,7 @@
       "name": "Equivalent fractions",
       "description": "Recognise and show, using diagrams, equivalent fractions with small denominators",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1789038262668045,
       "evidence": [
         "Show that 1/2 = 2/4 using a diagram of equal parts",
@@ -16147,6 +16204,7 @@
       "assessmentPrompt": "If {{name}} sees a bar divided into 4 equal parts with 2 shaded, can they tell you that's the same as 1/2 — and draw a different bar showing the same amount another way?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.7",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.7",
         "uk-nc-2013:Ma/KS2/Y3/F/4"
       ]
     },
@@ -16199,7 +16257,7 @@
       "name": "Splitting shapes into equal parts (age 7+)",
       "description": "Partition circles and rectangles into two, three, or four equal shares; describe shares as halves, thirds, and fourths; recognise that equal shares of identical wholes need not have the same shape",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.188210961737332,
       "evidence": [
         "Partition a circle into 3 equal parts and label each 'a third'",
@@ -16209,7 +16267,9 @@
       "assessmentPrompt": "If you cut a rectangle into thirds in two different ways (three strips vs three squares), can {{name}} recognise that both give equal thirds — even though the pieces look different?",
       "standards": [
         "ccss-math:2.G.3",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.6"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.7"
       ]
     },
     {
@@ -16506,6 +16566,28 @@
       ]
     },
     {
+      "id": "mt_09sySPqM9Z",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Fractions",
+      "name": "Fractions as sums of unit fractions",
+      "description": "Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.1023784901758014,
+      "evidence": [
+        "Express 5/8 as a sum of five copies of 1/8",
+        "Show on a number line how 4/3 is built by iterating 1/3 four times",
+        "Explain why 7/4 = 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4"
+      ],
+      "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
+      "standards": [
+        "acara-v9:AC9M4N04",
+        "ccss-math:4.NF.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.8"
+      ]
+    },
+    {
       "id": "mt_3y7xKP9MjU",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -16544,7 +16626,8 @@
       "assessmentPrompt": "If you cut a pizza into 6 equal slices, can {{name}} explain what 1/6 means — and then work out what 4/6 of the pizza looks like?",
       "standards": [
         "acara-v9:AC9M3N02",
-        "ccss-math:3.NF.1"
+        "ccss-math:3.NF.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.8"
       ]
     },
     {
@@ -16957,27 +17040,6 @@
       "standards": [
         "acara-v9:AC9M5N01",
         "uk-nc-2013:Ma5/2.4g"
-      ]
-    },
-    {
-      "id": "mt_09sySPqM9Z",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Fractions",
-      "name": "Understanding fractions (age 9+)",
-      "description": "Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.1023784901758014,
-      "evidence": [
-        "Express 5/8 as a sum of five copies of 1/8",
-        "Show on a number line how 4/3 is built by iterating 1/3 four times",
-        "Explain why 7/4 = 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4 + 1/4"
-      ],
-      "assessmentPrompt": "If you ask {{name}} to show 4/5 as a sum of smaller equal fractions, can they write it out as 1/5 + 1/5 + 1/5 + 1/5?",
-      "standards": [
-        "acara-v9:AC9M4N04",
-        "ccss-math:4.NF.3"
       ]
     },
     {
@@ -17395,7 +17457,7 @@
       "name": "3-D shapes",
       "description": "Recognise and name common 3-D shapes (cubes, cuboids, pyramids, spheres, cylinders, cones)",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 9,
       "centrality": 0.2119958634953464,
       "evidence": [
         "Name a cube, sphere, cylinder, and cone when shown them",
@@ -17408,6 +17470,7 @@
         "ccss-math:K.G.1",
         "ccss-math:K.G.3",
         "the-ontario-curriculum-kindergarten-2026:ON-K-2026-K-A9.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.1",
         "uk-nc-2013:Maths/Y1/GPS/2"
       ]
     },
@@ -17556,7 +17619,7 @@
       "name": "Turns & Directions",
       "description": "Describe movement and direction, including whole, half, quarter, and three-quarter turns",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2730093071354705,
       "evidence": [
         "Follow instructions to move forward, backward, turn left/right",
@@ -17569,6 +17632,7 @@
         "acara-v9:AC9M2M05",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.4",
         "uk-nc-2013:Maths/Y1/GPD/1"
       ]
     },
@@ -17580,7 +17644,7 @@
       "name": "2-D faces on 3-D shapes",
       "description": "Identify 2-D shapes on the surface of 3-D shapes (e.g. a circle on a cylinder, a triangle on a pyramid)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.003102378490175801,
       "evidence": [
         "Point out a circular face on a cylinder or cone",
@@ -17590,6 +17654,7 @@
       "assessmentPrompt": "Can {{name}} look at a 3-D shape and name the 2-D shapes on its faces — for example, saying a cylinder has circles on the ends and a rectangle wrapped round the side?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.2",
         "uk-nc-2013:Maths/Y2/GPS/3"
       ]
     },
@@ -17638,7 +17703,9 @@
         "acara-v9:AC9M4SP01",
         "ccss-math:1.G.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.2"
       ]
     },
     {
@@ -17661,7 +17728,9 @@
         "acara-v9:AC9M1SP01",
         "acara-v9:AC9M4SP01",
         "ccss-math:1.G.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.7"
       ]
     },
     {
@@ -17695,7 +17764,7 @@
       "description": "Identify and describe properties of 3-D shapes including the number of edges, vertices, and faces",
       "ageRangeStart": 6,
       "ageRangeEnd": 9,
-      "centrality": 0.09720785935884178,
+      "centrality": 0.1044467425025853,
       "evidence": [
         "Count the edges, vertices, and faces of common 3-D shapes",
         "Use the terms edge, vertex (vertices), and face correctly",
@@ -17704,6 +17773,7 @@
       "assessmentPrompt": "Can {{name}} count the faces, edges, and vertices of a 3-D shape like a cube or triangular prism?",
       "standards": [
         "acara-v9:AC9M3SP01",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.1",
         "uk-nc-2013:Maths/Y2/GPS/2"
       ]
     },
@@ -17716,7 +17786,7 @@
       "description": "Complete a simple symmetric figure with respect to a specific line of symmetry",
       "ageRangeStart": 6,
       "ageRangeEnd": 10,
-      "centrality": 0.02378490175801448,
+      "centrality": 0.02481902792140641,
       "evidence": [
         "Given half a butterfly shape and a mirror line, complete the other half on a grid",
         "Complete a symmetric pattern on squared paper with a vertical line of symmetry",
@@ -17737,7 +17807,7 @@
       "name": "Position, direction, and movement",
       "description": "Use mathematical vocabulary to describe position, direction, and movement, including straight lines and distinguishing rotation as a turn in terms of right angles (quarter, half, three-quarter turns, clockwise and anti-clockwise)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2605997931747673,
       "evidence": [
         "Use terms such as clockwise, anti-clockwise, quarter turn, half turn, three-quarter turn",
@@ -17752,6 +17822,7 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.4",
         "uk-nc-2013:Maths/Y2/GPD/2"
       ]
     },
@@ -17778,6 +17849,7 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.1",
         "uk-nc-2013:Maths/Y2/GPS/4"
       ]
     },
@@ -17833,7 +17905,7 @@
       "description": "Identify lines of symmetry in 2-D shapes presented in different orientations; recognise line-symmetric figures and draw lines of symmetry",
       "ageRangeStart": 7,
       "ageRangeEnd": 11,
-      "centrality": 0.02378490175801448,
+      "centrality": 0.02481902792140641,
       "evidence": [
         "Find all lines of symmetry in a rectangle, a square, an equilateral triangle and a regular hexagon",
         "Decide whether shapes shown in different orientations are line-symmetric, identifying those with exactly one line of symmetry and those with none",
@@ -17853,19 +17925,20 @@
       "type": "CONCEPTUAL",
       "subject": "Mathematics",
       "domain": "Geometry",
-      "name": "Congruent shapes by matching",
-      "description": "Identify congruent side lengths and congruent angles in two-dimensional shapes by matching them physically (tracing, overlaying, folding, comparing with a strip) or mentally, and decide whether two shapes are congruent: the same size and the same shape, whatever their position or orientation",
+      "name": "Congruent shapes and objects by matching",
+      "description": "Identify congruent side lengths, angles and faces by matching them physically (tracing, overlaying, folding, comparing with a strip, fitting faces together) or mentally, within and between two-dimensional shapes and three-dimensional objects, and decide whether two shapes or two objects are congruent: the same size and the same shape, whatever their position or orientation (matching one face alone does not make two objects congruent)",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.04239917269906929,
+      "ageRangeEnd": 9,
+      "centrality": 0.04343329886246122,
       "evidence": [
-        "Trace one shape and lay the tracing on another to decide whether every side length and every angle matches, so the shapes are congruent",
-        "Find the sides of equal length and the matching angles within a shape (e.g. a rectangle's opposite sides and its four corners) by folding or comparing with a paper strip",
-        "Explain why two triangles that look different because one is turned are still congruent, and why two squares of different sizes are not"
+        "Find the sides of equal length and the matching angles within a shape (e.g. a rectangle's opposite sides and four corners), and trace one shape onto another to decide whether every side and angle matches, explaining why a turned copy is congruent but a larger one is not",
+        "Match the faces, edges and corner angles of two 3-D models (e.g. two boxes or two prisms) by tracing faces or fitting them together, and say which faces, edges and angles are congruent",
+        "Decide whether two 3-D objects are congruent by checking that all corresponding faces match and are arranged the same way, explaining why two boxes with the same front face but different depths are not congruent"
       ],
-      "assessmentPrompt": "If {{name}} cuts out two paper shapes, can they lay one on top of the other to check whether all the sides and corners match, and say whether the shapes are exactly the same size and shape?",
+      "assessmentPrompt": "If {{name}} has two boxes or two paper shapes, can they match the sides, corners and faces to check whether they are exactly the same size and shape — and notice when two boxes look the same from the front but are not?",
       "standards": [
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E1.3"
       ]
     },
     {
@@ -17984,7 +18057,7 @@
       "description": "Describe movements between positions as translations of a given unit to the left/right and up/down",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
-      "centrality": 0.02171664943123061,
+      "centrality": 0.02275077559462254,
       "evidence": [
         "Describe moving from (2,3) to (5,3) as 3 units to the right",
         "Translate a shape 4 units right and 2 units up and state the new coordinates",
@@ -18048,7 +18121,7 @@
       "description": "Represent and carry out geometric transformations on squared paper or a coordinate grid: reflections (in horizontal, vertical, and diagonal mirror lines, including the axes), translations (described as a vector or as left/right/up/down moves), and rotations (90° or 180° about a stated centre point); describe each transformation precisely using the correct language; identify which transformation maps one shape onto its image by comparing position, orientation, and size",
       "ageRangeStart": 8,
       "ageRangeEnd": 12,
-      "centrality": 0.04136504653567735,
+      "centrality": 0.04239917269906929,
       "evidence": [
         "Reflect a shape in a given mirror line on a grid and label the new coordinates",
         "Translate a shape by a given number of squares horizontally and vertically and describe the movement",
@@ -18340,7 +18413,7 @@
       "description": "Recognise rotational symmetry in shapes and designs, state how many times a shape matches itself in a full turn, and create patterns with line and rotational symmetry, including by rotating a motif in dynamic geometry software",
       "ageRangeStart": 9,
       "ageRangeEnd": 11,
-      "centrality": 0.02171664943123061,
+      "centrality": 0.02275077559462254,
       "evidence": [
         "Turn a square tracing and show it fits onto itself 4 times in a full turn",
         "Identify which of a pinwheel, a heart and an equilateral triangle have rotational symmetry",
@@ -18843,7 +18916,7 @@
       "description": "Recognise and use combinations of translations, reflections and rotations to create tessellations and other geometric patterns, using dynamic geometry software where appropriate",
       "ageRangeStart": 11,
       "ageRangeEnd": 12,
-      "centrality": 0.02171664943123061,
+      "centrality": 0.02275077559462254,
       "evidence": [
         "Explain why equilateral triangles, squares and regular hexagons tessellate but regular pentagons do not",
         "Create a tessellation from a modified tile by translating and rotating it, describing the transformations used",
@@ -19113,7 +19186,7 @@
       "name": "Finding efficient methods",
       "description": "Notice when a calculation or pattern repeats and use this to count more efficiently or predict results",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01034126163391934,
       "evidence": [
         "Notice that skip counting by 2s follows a repeating odd/even pattern",
@@ -19125,7 +19198,8 @@
         "ccss-math:MP.8",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.4"
       ]
     },
     {
@@ -19136,7 +19210,7 @@
       "name": "Hands-On Problem Solving",
       "description": "Select and use familiar tools (concrete objects, fingers, ten frames) to help solve a mathematical problem",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.008273009307135471,
       "evidence": [
         "Choose cubes, counters, or fingers to help solve an addition or subtraction problem",
@@ -19147,7 +19221,8 @@
       "standards": [
         "ccss-math:MP.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -19158,7 +19233,7 @@
       "name": "Making Sense of Problems",
       "description": "Make sense of a problem by identifying what is being asked, choosing concrete objects or pictures to represent the situation, and explaining a pathway to the solution",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.0641158221302999,
       "evidence": [
         "When given a word problem within 10, explain what the problem is asking before attempting to solve",
@@ -19171,7 +19246,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C4"
       ]
     },
     {
@@ -19182,7 +19259,7 @@
       "name": "Real-World to Maths Connections",
       "description": "Move between a real-world situation and a mathematical representation using concrete objects, drawings, diagrams, tables, number sentences, or bar models",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01137538779731127,
       "evidence": [
         "Given a story about combining groups, represent it with counters or cubes and find the total",
@@ -19195,7 +19272,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C4"
       ]
     },
     {
@@ -19206,7 +19285,7 @@
       "name": "Spotting mathematical patterns",
       "description": "Notice simple patterns and structures: spot that changing order doesn't change the total, and recognise how numbers relate to each other",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.0124095139607032,
       "evidence": [
         "Notice that 3 + 2 gives the same answer as 2 + 3 (early commutativity)",
@@ -19217,7 +19296,8 @@
       "standards": [
         "ccss-math:MP.7",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.1"
       ]
     },
     {
@@ -19228,7 +19308,7 @@
       "name": "Using objects to model real problems",
       "description": "Use objects, drawings, or simple number sentences to represent a real-world situation (early mathematical modelling)",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01654601861427094,
       "evidence": [
         "Draw a picture or use objects to represent a simple real-world situation involving counting or comparing",
@@ -19239,7 +19319,8 @@
       "standards": [
         "ccss-math:MP.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C4"
       ]
     },
     {
@@ -19250,7 +19331,7 @@
       "name": "Connecting maths to real life",
       "description": "Represent real-world problems with number sentences, bar models, or diagrams, and interpret the mathematical result back in context; use the model to make a prediction, check it against the real situation and revise the model if it does not fit (early modelling cycle)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03722854188210962,
       "evidence": [
         "Choose and write a number sentence, bar model or diagram for a measurement, money, two-step or comparison word problem",
@@ -19264,7 +19345,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C4"
       ]
     },
     {
@@ -19275,7 +19358,7 @@
       "name": "Connecting Representations",
       "description": "Move between real-world situations, drawings, and number sentences, explaining how each representation connects to the others (quantitative reasoning)",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01758014477766287,
       "evidence": [
         "Write a number sentence (e.g. 14 + 5 = 19) to match a word problem and explain the connection",
@@ -19286,7 +19369,8 @@
       "standards": [
         "ccss-math:MP.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -19297,7 +19381,7 @@
       "name": "Explaining Mathematical Reasoning",
       "description": "With teacher prompting, explain and justify mathematical reasoning using drawings, number sentences, or words",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1137538779731127,
       "evidence": [
         "Explain a solution strategy using a drawing or number sentence (e.g. 'I made ten first, then added the rest')",
@@ -19311,7 +19395,9 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.3"
       ]
     },
     {
@@ -19322,7 +19408,7 @@
       "name": "Generalising Patterns",
       "description": "Recognise and use repeated reasoning to generalise: spot calculation patterns, describe rules for sequences, and predict results using known mathematical facts",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.02688728024819028,
       "evidence": [
         "Use a known doubles fact to derive a near-doubles answer (e.g. 6 + 7 = 6 + 6 + 1 = 13)",
@@ -19334,7 +19420,8 @@
         "ccss-math:MP.8",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C1.4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C1.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.3"
       ]
     },
     {
@@ -19385,7 +19472,7 @@
       "name": "Precise Maths Communication",
       "description": "Communicate with mathematical precision: use correct vocabulary, specify units, and use symbols accurately",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.02585315408479835,
       "evidence": [
         "Use the = sign correctly to mean 'is the same as' rather than 'the answer is'",
@@ -19396,7 +19483,8 @@
       "standards": [
         "ccss-math:MP.6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -19427,7 +19515,7 @@
       "name": "Working with money",
       "description": "Model real-world problems involving measurement, money, and time by choosing appropriate representations and interpreting results in context",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.06514994829369183,
       "evidence": [
         "Choose whether to use a bar model, number line, or equation for a measurement problem",
@@ -19439,7 +19527,8 @@
         "acara-v9:AC9M2N06",
         "ccss-math:MP.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C4",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C4"
       ]
     },
     {
@@ -19671,7 +19760,7 @@
       "description": "Model real-world problems involving multiplication, area, fractions, and unit conversion by choosing appropriate representations and interpreting mathematical results in context",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
-      "centrality": 0.08066184074457083,
+      "centrality": 0.08376421923474664,
       "evidence": [
         "Model a tiling/area problem with an array and write the corresponding multiplication",
         "Represent a recipe-scaling problem as a fraction calculation and interpret the answer in grams",
@@ -20097,7 +20186,7 @@
       "name": "Comparing Capacity",
       "description": "Compare and describe capacity and volume using language such as full, empty, more than, less than, half full",
       "ageRangeStart": 4,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.2171664943123061,
       "evidence": [
         "Compare two containers and say which holds more/less",
@@ -20110,6 +20199,7 @@
         "acara-v9:AC9MFM01",
         "ccss-math:K.MD.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.3",
         "uk-nc-2013:Maths/Y1/M/3"
       ]
     },
@@ -20189,7 +20279,7 @@
       "name": "Measuring mass and weight (age 4+)",
       "description": "Compare two objects directly by mass or weight and describe the difference using language such as heavy, light, heavier than, lighter than",
       "ageRangeStart": 4,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.2171664943123061,
       "evidence": [
         "Heft two objects and say which is heavier/lighter",
@@ -20203,6 +20293,7 @@
         "ccss-math:K.MD.1",
         "ccss-math:K.MD.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.4",
         "uk-nc-2013:Maths/Y1/M/2"
       ]
     },
@@ -20241,7 +20332,7 @@
       "name": "Capacity and volume",
       "description": "Measure and begin to record capacity and volume using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2161323681489142,
       "evidence": [
         "Measure capacity by counting how many cups fill a container",
@@ -20252,6 +20343,7 @@
       "standards": [
         "acara-v9:AC9M2M01",
         "acara-v9:AC9S2I03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.3",
         "uk-nc-2013:Maths/Y1/M/7"
       ]
     },
@@ -20307,7 +20399,7 @@
       "name": "Hours, minutes and seconds",
       "description": "Measure and begin to record time in hours, minutes, and seconds",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.04963805584281282,
       "evidence": [
         "Use a sand timer or stopwatch to time an activity",
@@ -20317,6 +20409,7 @@
       "assessmentPrompt": "If {{name}} watches the second hand go all the way round a clock, can they count that as one minute — and estimate roughly how many minutes their favourite TV show lasts?",
       "standards": [
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.6",
         "uk-nc-2013:Maths/Y1/M/8"
       ]
     },
@@ -20328,7 +20421,7 @@
       "name": "Measuring length and height (age 5+)",
       "description": "Measure and begin to record lengths and heights using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.218200620475698,
       "evidence": [
         "Measure the length of a table using cubes and record the result",
@@ -20339,6 +20432,7 @@
       "standards": [
         "acara-v9:AC9M1M02",
         "acara-v9:AC9S1I03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.1",
         "uk-nc-2013:Maths/Y1/M/5"
       ]
     },
@@ -20350,7 +20444,7 @@
       "name": "Measuring mass and weight",
       "description": "Measure and begin to record mass/weight using non-standard and standard units",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2161323681489142,
       "evidence": [
         "Use a balance to compare masses of two objects",
@@ -20361,6 +20455,7 @@
       "standards": [
         "acara-v9:AC9M2M01",
         "acara-v9:AC9S2I03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.4",
         "uk-nc-2013:Maths/Y1/M/6"
       ]
     },
@@ -20372,7 +20467,7 @@
       "name": "Telling Time: Hours and Half Hours",
       "description": "Tell and write the time to the hour and half past the hour on analogue clocks and digital displays (e.g. 3 o'clock = 3:00, half past 7 = 7:30), and draw clock hands to show these times, placing the hour hand halfway between two numbers for half past",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03309203722854188,
       "evidence": [
         "Read an analogue clock showing 3 o'clock and one showing half past 7",
@@ -20383,6 +20478,7 @@
       "standards": [
         "acara-v9:AC9M2M04",
         "ccss-math:1.MD.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.6",
         "uk-nc-2013:Maths/Y1/M/12"
       ]
     },
@@ -20428,6 +20524,9 @@
         "acara-v9:AC9M4M02",
         "ccss-math:3.MD.6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.7",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.8",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.9",
         "uk-nc-2013:Ma/KS2/Y4/M/3"
       ]
     },
@@ -20524,7 +20623,7 @@
       "name": "Estimating Lengths",
       "description": "Estimate lengths by comparing with a known reference unit and check by measuring: informal units (e.g. paper clips, cubes, hand spans) at an early stage, and standard units (inches, feet, centimetres and metres, as in US Grade 2) when those units are known",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01137538779731127,
       "evidence": [
         "Estimate the length of a classroom object before measuring it, using a known unit (e.g. 'about 8 paper clips long', or in standard units 'about 30 cm')",
@@ -20535,7 +20634,8 @@
       "standards": [
         "ccss-math:2.MD.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.2"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2"
       ]
     },
     {
@@ -20568,7 +20668,7 @@
       "name": "Measuring length (age 6+)",
       "description": "Measure the length of an object using same-size length units laid end to end with no gaps or overlaps",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1799379524301965,
       "evidence": [
         "Measure a book by laying paper clips end to end and counting them",
@@ -20581,7 +20681,8 @@
         "acara-v9:AC9M2M01",
         "ccss-math:1.MD.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.3"
       ]
     },
     {
@@ -20623,6 +20724,7 @@
       "standards": [
         "acara-v9:AC9M3M06",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-F1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-F1.1",
         "uk-nc-2013:Maths/Y2/M/3"
       ]
     },
@@ -20713,6 +20815,8 @@
         "ccss-math:3.MD.5.b",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-E2.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.7",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.8",
         "uk-nc-2013:Ma/KS2/Y4/M/3"
       ]
     },
@@ -20869,7 +20973,7 @@
       "name": "Measuring length (age 7+)",
       "description": "Measure the length of an object by selecting and using appropriate tools such as rulers, yardsticks, metre sticks, and measuring tapes",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1809720785935884,
       "evidence": [
         "Choose the most appropriate tool for measuring a given object",
@@ -20880,7 +20984,9 @@
       "standards": [
         "ccss-math:2.MD.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2"
       ]
     },
     {
@@ -20901,6 +21007,7 @@
       "assessmentPrompt": "If {{name}} wants to put a decorative border around a rectangular picture frame 20 cm wide and 30 cm tall, can they work out the total length of border needed?",
       "standards": [
         "acara-v9:AC9M4M02",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.1",
         "uk-nc-2013:Ma/KS2/Y3/M/2"
       ]
     },
@@ -20934,7 +21041,7 @@
       "name": "Measuring with different units",
       "description": "Measure the length of an object using two different length units and describe how the measurements relate to the size of the unit chosen",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01137538779731127,
       "evidence": [
         "Measure a desk in both centimetres and inches and compare the two numbers",
@@ -20944,7 +21051,8 @@
       "assessmentPrompt": "If {{name}} measures the same book in centimetres and then in inches, can they explain why the numbers are different even though the book hasn't changed size?",
       "standards": [
         "ccss-math:2.MD.2",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.5"
       ]
     },
     {
@@ -21016,7 +21124,7 @@
       "name": "Smaller units for accuracy",
       "description": "Choose a smaller uniform informal unit when a measurement needs to be more accurate, recognising that a smaller unit gives a larger count, for length, mass and capacity",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01137538779731127,
       "evidence": [
         "Measure a book with pencils (about 2) and then with paperclips (about 9) and explain why the paperclip count is bigger",
@@ -21026,7 +21134,9 @@
       "assessmentPrompt": "If {{name}} measures a book with pencils and gets 'about 2', can they see that using smaller paperclips would give a more exact measurement — and a bigger number?",
       "standards": [
         "acara-v9:AC9M2M01",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-E2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.5"
       ]
     },
     {
@@ -21049,6 +21159,7 @@
         "acara-v9:AC9M3M03",
         "acara-v9:AC9M3M04",
         "ccss-math:3.MD.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.6",
         "uk-nc-2013:Ma/KS2/Y3/M/5"
       ]
     },
@@ -21187,7 +21298,7 @@
       "description": "Convert between different units of measure (e.g. kilometre to metre, hour to minute, minute to second, year to month, week to day)",
       "ageRangeStart": 8,
       "ageRangeEnd": 10,
-      "centrality": 0.05791106514994829,
+      "centrality": 0.06204756980351603,
       "evidence": [
         "Convert 3 km to 3000 m",
         "State 2 hours = 120 minutes",
@@ -21196,6 +21307,7 @@
       "assessmentPrompt": "If {{name}} is told a journey is 3.5 km, can they convert that to metres — and also turn 2 hours 15 minutes into just minutes?",
       "standards": [
         "acara-v9:AC9M4M03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2",
         "uk-nc-2013:Ma/KS2/Y4/M/1",
         "uk-nc-2013:Ma/KS2/Y4/M/6"
       ]
@@ -21306,7 +21418,32 @@
         "acara-v9:AC9M4M02",
         "acara-v9:AC9M5M02",
         "ccss-math:3.MD.8",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.1",
         "uk-nc-2013:Ma/KS2/Y4/M/2"
+      ]
+    },
+    {
+      "id": "mt_Zks8xyInSG",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Unit relationships and conversion tables",
+      "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.0641158221302999,
+      "evidence": [
+        "Convert 3.5 km to 3,500 m",
+        "Complete a conversion table for cm and mm: (1,10), (2,20), (3,30)...",
+        "Express 2 kg 350 g as 2,350 g"
+      ],
+      "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
+      "standards": [
+        "acara-v9:AC9M5M01",
+        "acara-v9:AC9M6M01",
+        "ccss-math:4.MD.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2",
+        "uk-nc-2013:Ma5/3.1a"
       ]
     },
     {
@@ -21331,29 +21468,6 @@
         "acara-v9:AC9M6M02",
         "ccss-math:4.MD.3",
         "uk-nc-2013:Ma5/3.1d"
-      ]
-    },
-    {
-      "id": "mt_Zks8xyInSG",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Measurement",
-      "name": "Converting measurement units (age 9+)",
-      "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.06204756980351603,
-      "evidence": [
-        "Convert 3.5 km to 3,500 m",
-        "Complete a conversion table for cm and mm: (1,10), (2,20), (3,30)...",
-        "Express 2 kg 350 g as 2,350 g"
-      ],
-      "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
-      "standards": [
-        "acara-v9:AC9M5M01",
-        "acara-v9:AC9M6M01",
-        "ccss-math:4.MD.1",
-        "uk-nc-2013:Ma5/3.1a"
       ]
     },
     {
@@ -21427,7 +21541,7 @@
       "description": "Understand and use approximate equivalences between metric units and common imperial units (inches, pounds, pints)",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
-      "centrality": 0.05067218200620476,
+      "centrality": 0.05274043433298863,
       "evidence": [
         "State that 1 inch ≈ 2.5 cm and use this to estimate length in inches",
         "Know that 1 kg ≈ 2.2 pounds and estimate a person's weight in pounds",
@@ -21783,7 +21897,7 @@
       "name": "Division as equal sharing",
       "description": "Understand division as sharing equally into groups or as grouping (how many groups of a given size can be made)",
       "ageRangeStart": 4,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.5056876938986556,
       "evidence": [
         "Share 10 counters (real or on-screen) equally between 2 plates",
@@ -21794,11 +21908,14 @@
       "standards": [
         "acara-v9:AC9M1N06",
         "acara-v9:AC9MFN06",
+        "ccss-math:3.OA.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -21810,7 +21927,7 @@
       "name": "Arrays for multiplication",
       "description": "Use arrays to represent multiplication and division situations",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.172699069286453,
       "evidence": [
         "Build an array of 3 rows of 4 objects to show 3 × 4",
@@ -21821,6 +21938,7 @@
       "standards": [
         "acara-v9:AC9M2N05",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.6",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -21832,8 +21950,8 @@
       "name": "Multiplication as repeated addition",
       "description": "Understand multiplication as repeated addition and grouping equal sets",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
-      "centrality": 0.2936918304033092,
+      "ageRangeEnd": 9,
+      "centrality": 0.2998965873836608,
       "evidence": [
         "Explain that 3 groups of 2 is the same as 2 + 2 + 2",
         "Use objects to make equal groups and count the total",
@@ -21847,6 +21965,8 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B2.5",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B2.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.7",
         "uk-nc-2013:Maths/Y1/MD/1"
       ]
     },
@@ -21858,7 +21978,7 @@
       "name": "Commutative Multiplication",
       "description": "Understand and apply the commutative property of multiplication and recognise that division is not commutative",
       "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeEnd": 9,
       "centrality": 0.1334022750775595,
       "evidence": [
         "Explain that 3 × 5 = 5 × 3 and show this with an array rotated",
@@ -21867,6 +21987,7 @@
       ],
       "assessmentPrompt": "Does {{name}} know that 4 × 7 gives the same answer as 7 × 4 — so they can choose whichever order is easier to remember from their times tables?",
       "standards": [
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
         "uk-nc-2013:Maths/Y2/MD/3"
       ]
     },
@@ -21954,6 +22075,9 @@
       "standards": [
         "acara-v9:AC9M2A03",
         "acara-v9:AC9M3A03",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.9",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.2",
         "uk-nc-2013:Maths/Y2/MD/1"
       ]
     },
@@ -21965,7 +22089,7 @@
       "name": "Arrays for multiplication (age 7+)",
       "description": "Use addition to find the total number of objects arranged in rectangular arrays with up to 5 rows and 5 columns; write an equation to express the total as a sum of equal addends",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1695966907962771,
       "evidence": [
         "Count objects in a 3×4 array and write 4 + 4 + 4 = 12",
@@ -21975,7 +22099,8 @@
       "assessmentPrompt": "If {{name}} sees 4 rows of 5 stickers on a sheet, can they use repeated addition — '5 + 5 + 5 + 5' — to find the total, and write it as an equation?",
       "standards": [
         "acara-v9:AC9M2N05",
-        "ccss-math:2.OA.4"
+        "ccss-math:2.OA.4",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.6"
       ]
     },
     {
@@ -22185,7 +22310,29 @@
       "assessmentPrompt": "If you tell {{name}} 'there are 7 boxes with 9 pencils in each — how many pencils?', can they recognise it as a multiplication problem and solve it correctly?",
       "standards": [
         "acara-v9:AC9M3N04",
-        "ccss-math:3.OA.3"
+        "ccss-math:3.OA.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.7"
+      ]
+    },
+    {
+      "id": "mt_U4cIBXVug4",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Multiplication & Division",
+      "name": "Multiplicative Comparison",
+      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.03516028955532575,
+      "evidence": [
+        "Explain that '4 times as many' means multiply by 4",
+        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
+        "Distinguish multiplicative comparison from additive comparison in word problems"
+      ],
+      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
+      "standards": [
+        "ccss-math:4.OA.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.9"
       ]
     },
     {
@@ -22269,7 +22416,9 @@
       ],
       "assessmentPrompt": "Can {{name}} use tricks like breaking up a number — working out '6 × 14' as '6 × 10 + 6 × 4 = 60 + 24 = 84' — to make multiplication easier?",
       "standards": [
-        "ccss-math:3.OA.5"
+        "ccss-math:3.OA.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.2"
       ]
     },
     {
@@ -22312,7 +22461,9 @@
       "assessmentPrompt": "Can {{name}} explain that '56 ÷ 8' could mean 'if 56 things are shared between 8 people, how many does each person get?' — not just recite the answer '7'?",
       "standards": [
         "acara-v9:AC9M3N04",
-        "ccss-math:3.OA.2"
+        "ccss-math:3.OA.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.6"
       ]
     },
     {
@@ -22333,7 +22484,9 @@
       "assessmentPrompt": "If {{name}} sees '5 × 7' written down, can they explain it means 5 groups with 7 in each group — not just recite the answer '35'?",
       "standards": [
         "acara-v9:AC9M3N04",
-        "ccss-math:3.OA.1"
+        "ccss-math:3.OA.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.6",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.9"
       ]
     },
     {
@@ -22470,26 +22623,6 @@
       "assessmentPrompt": "Can {{name}} work out things like '24 × 5' or '360 ÷ 8' in their head — using clever connections to known facts rather than needing to write anything down?",
       "standards": [
         "uk-nc-2013:Ma5/2.3e"
-      ]
-    },
-    {
-      "id": "mt_U4cIBXVug4",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Multiplication & Division",
-      "name": "Multiplicative Comparison",
-      "description": "Interpret a multiplication equation as a comparison (e.g. 35 = 5 × 7 means 35 is 5 times as many as 7); represent verbal statements of multiplicative comparisons as equations",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.03516028955532575,
-      "evidence": [
-        "Explain that '4 times as many' means multiply by 4",
-        "Write an equation for: Sarah has 3 times as many stickers as Tom, who has 8 stickers",
-        "Distinguish multiplicative comparison from additive comparison in word problems"
-      ],
-      "assessmentPrompt": "Can {{name}} look at '35 = 5 × 7' and explain it as '35 is five times as many as 7' — understanding it as a comparison, not just a multiplication fact?",
-      "standards": [
-        "ccss-math:4.OA.1"
       ]
     },
     {
@@ -23111,7 +23244,7 @@
       "name": "Reading and writing numbers to 100",
       "description": "Read and write numerals from 0 to 100, and describe the different ways numbers are used in everyday life (to count, measure, put things in order or label them)",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.009307135470527405,
       "evidence": [
         "Read two-digit numerals up to 100 correctly",
@@ -23123,6 +23256,7 @@
         "acara-v9:AC9M1N01",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.1",
         "uk-nc-2013:Maths/Y1/NPV/2"
       ]
     },
@@ -23202,7 +23336,7 @@
       "name": "A Hundred Is Ten Tens",
       "description": "Understand that 100 can be thought of as a bundle of ten tens — called a 'hundred'",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.281282316442606,
       "evidence": [
         "Explain that 10 groups of 10 ones make 100",
@@ -23214,7 +23348,8 @@
         "acara-v9:AC9M1N01",
         "acara-v9:AC9M2N02",
         "ccss-math:2.NBT.1.a",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.1"
       ]
     },
     {
@@ -23333,7 +23468,7 @@
       "name": "Renaming two-digit numbers",
       "description": "Partition and rename two-digit numbers in standard and non-standard ways (e.g. 34 = 3 tens 4 ones = 2 tens 14 ones) using physical and virtual base-ten materials, recognising that the total stays the same",
       "ageRangeStart": 6,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1230610134436401,
       "evidence": [
         "Show 34 with real base-ten blocks as 3 tens and 4 ones, then trade a ten to show 2 tens and 14 ones",
@@ -23346,7 +23481,8 @@
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-B1.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-C2.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.3"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-C2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.3"
       ]
     },
     {
@@ -23428,7 +23564,7 @@
       "name": "10 or 100 More or Less",
       "description": "Find 10 or 100 more or less than a given number up to 1000",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.01758014477766287,
       "evidence": [
         "Given a three-digit number, state what is 10 more and 10 less",
@@ -23438,6 +23574,8 @@
       "assessmentPrompt": "Can {{name}} quickly work out '10 more than 342' or '100 less than 875' in their head — knowing which digit changes and which stays the same?",
       "standards": [
         "ccss-math:2.NBT.8",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B2.3",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C1.4",
         "uk-nc-2013:Ma/KS2/Y3/NPV/1"
       ]
     },
@@ -23470,7 +23608,7 @@
       "name": "Ordering Numbers to 1000",
       "description": "Compare and order numbers up to 1000 using >, =, and < symbols, based on place-value understanding",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.05480868665977249,
       "evidence": [
         "Compare two three-digit numbers by examining hundreds first, then tens, then ones",
@@ -23482,6 +23620,7 @@
         "acara-v9:AC9M2N01",
         "ccss-math:2.NBT.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.2",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.2",
         "uk-nc-2013:Ma/KS2/Y3/NPV/3"
       ]
     },
@@ -23535,7 +23674,7 @@
       "name": "Representing numbers to 1000",
       "description": "Identify, represent and estimate three-digit numbers using different representations: place a number on a 0–1000 number line marked only in hundreds or unmarked, estimate the value of a marked point, and represent a number with base-ten blocks (hundreds, tens and ones), a place-value chart and a drawing, including numbers with a zero digit and non-standard partitions",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.04033092037228542,
       "evidence": [
         "Mark 346 in about the right place on a 0–1000 number line marked in hundreds (between 300 and 400, a little before halfway), and estimate that an unlabelled point three-quarters of the way along is about 750",
@@ -23547,6 +23686,9 @@
         "acara-v9:AC9M2N01",
         "acara-v9:AC9M2N02",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.5",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-C2.3",
         "uk-nc-2013:Ma/KS2/Y3/NPV/4"
       ]
     },
@@ -23578,7 +23720,7 @@
       "name": "The three digits of a three-digit number",
       "description": "Understand that the three digits of a three-digit number represent amounts of hundreds, tens, and ones",
       "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.2647362978283351,
       "evidence": [
         "State the value of each digit in a three-digit number (e.g. in 362, the 3 represents 3 hundreds)",
@@ -23591,6 +23733,8 @@
         "acara-v9:AC9M2N02",
         "ccss-math:2.NBT.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-B1.5",
         "uk-nc-2013:Ma/KS2/Y3/NPV/2"
       ]
     },
@@ -24261,7 +24405,8 @@
         "acara-v9:AC9M3P01",
         "acara-v9:AC9M4P01",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-D2.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-D2.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.1"
       ]
     },
     {
@@ -24295,7 +24440,7 @@
       "domain": "Probability",
       "name": "Equally Likely Outcomes",
       "description": "Understand that 'equally likely' means every outcome has exactly the same chance of occurring; identify whether a given situation has equally likely outcomes (a fair coin, a fair die, a spinner with equal sections) or unequally likely outcomes (a bag with more of one colour, a spinner with unequal sections)",
-      "ageRangeStart": 9,
+      "ageRangeStart": 8,
       "ageRangeEnd": 11,
       "centrality": 0.02068252326783868,
       "evidence": [
@@ -24305,7 +24450,29 @@
       ],
       "assessmentPrompt": "Can {{name}} tell the difference between a fair situation — like rolling a normal die where every number has the same chance — and an unfair one, like a bag with many more of one colour than another?",
       "standards": [
-        "acara-v9:AC9M5P01"
+        "acara-v9:AC9M5P01",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.1"
+      ]
+    },
+    {
+      "id": "mt_UcGn2hjhYU",
+      "type": "CONCEPTUAL",
+      "subject": "Mathematics",
+      "domain": "Probability",
+      "name": "Ordering Likelihoods",
+      "description": "Compare the likelihood of different events and order them from least to most likely — including situations with unequal outcomes such as a bag with more of one colour than another, or a spinner with sections of different sizes — and explain reasoning using informal language",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 10,
+      "centrality": 0.02171664943123061,
+      "evidence": [
+        "Order four or more events from least likely to most likely and justify each placement",
+        "Compare likelihoods when outcomes are not equally likely — e.g. 'Drawing red from a bag with 7 red and 3 blue is more likely than drawing blue'",
+        "Explain why some events are closer to 'even chance' and others are closer to 'certain' or 'impossible'"
+      ],
+      "assessmentPrompt": "If a bag has 8 red counters and 2 blue ones, does {{name}} understand that picking red is much more likely than picking blue — and can they put different events in order from least to most likely?",
+      "standards": [
+        "acara-v9:AC9M4P01",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D2.1"
       ]
     },
     {
@@ -24348,26 +24515,6 @@
         "Sort five described pairs of events into independent and dependent"
       ],
       "assessmentPrompt": "If {{name}} flips a coin and gets heads three times in a row, do they understand the next flip is still 50-50 — but that taking a lolly from a bag without putting it back does change what's left?",
-      "standards": [
-        "acara-v9:AC9M4P01"
-      ]
-    },
-    {
-      "id": "mt_UcGn2hjhYU",
-      "type": "CONCEPTUAL",
-      "subject": "Mathematics",
-      "domain": "Probability",
-      "name": "Ordering Likelihoods",
-      "description": "Compare the likelihood of different events and order them from least to most likely — including situations with unequal outcomes such as a bag with more of one colour than another, or a spinner with sections of different sizes — and explain reasoning using informal language",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
-      "centrality": 0.02171664943123061,
-      "evidence": [
-        "Order four or more events from least likely to most likely and justify each placement",
-        "Compare likelihoods when outcomes are not equally likely — e.g. 'Drawing red from a bag with 7 red and 3 blue is more likely than drawing blue'",
-        "Explain why some events are closer to 'even chance' and others are closer to 'certain' or 'impossible'"
-      ],
-      "assessmentPrompt": "If a bag has 8 red counters and 2 blue ones, does {{name}} understand that picking red is much more likely than picking blue — and can they put different events in order from least to most likely?",
       "standards": [
         "acara-v9:AC9M4P01"
       ]
@@ -25076,7 +25223,7 @@
       "name": "Naming Basic Emotions",
       "description": "Name and recognise basic emotions — happy, sad, angry, scared, excited, and surprised — in themselves and in others by looking at facial expressions and body language",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.1375387797311272,
       "evidence": [
         "Label at least five basic emotions from pictures or real situations",
@@ -25089,7 +25236,8 @@
         "ib-pyp-pspe:PSPE-ID-LO-P1-5",
         "ib-pyp-pspe:PSPE-ID-LO-P1-6",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -25819,7 +25967,7 @@
       "name": "Listening to Others",
       "description": "Listen to others when they are speaking — looking at the speaker, waiting until they finish, and showing they have heard by responding to what was said rather than just talking about their own ideas",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.03205791106514995,
       "evidence": [
         "Face the speaker and maintain attention while someone else is talking",
@@ -25832,7 +25980,8 @@
         "acara-v9:AC9HPFP02",
         "ib-pyp-pspe:PSPE.INT.P1.LO.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -25967,7 +26116,8 @@
         "ib-pyp-pspe:PSPE.INT.P2.CU.1",
         "ib-pyp-pspe:PSPE.INT.P2.LO.3",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -27042,7 +27192,7 @@
       "name": "Learning from Mistakes",
       "description": "Understand that making mistakes is a normal part of learning and that everyone — including adults — makes mistakes, and begin to see mistakes as opportunities to learn rather than reasons to give up",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.02378490175801448,
       "evidence": [
         "Describe a time they made a mistake and what they learned from it",
@@ -27054,7 +27204,8 @@
         "ib-pyp-pspe:PSPE-ID-CU-P1-2",
         "ib-pyp-pspe:PSPE-ID-LO-P1-9",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -27085,7 +27236,7 @@
       "name": "Simple Calming Strategies",
       "description": "Use simple calming strategies when feeling upset or overwhelmed — such as taking deep breaths, counting to ten, or going to a quiet space — and understand that these help the body and mind settle down",
       "ageRangeStart": 5,
-      "ageRangeEnd": 8,
+      "ageRangeEnd": 9,
       "centrality": 0.08479834539813857,
       "evidence": [
         "Demonstrate at least two calming strategies when prompted",
@@ -27096,7 +27247,8 @@
       "standards": [
         "ib-pyp-pspe:PSPE-ID-LO-P1-7",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -27138,7 +27290,8 @@
         "acara-v9:AC9HP4P06",
         "ib-pyp-pspe:PSPE-ID-CU-P2-7",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -27162,7 +27315,8 @@
         "ib-pyp-pspe:PSPE-ID-CU-P2-4",
         "ib-pyp-pspe:PSPE-ID-LO-P2-12",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -27187,7 +27341,8 @@
         "ib-pyp-pspe:PSPE-ID-LO-P2-11",
         "ib-pyp-pspe:PSPE-ID-LO-P3-10",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1"
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1"
       ]
     },
     {
@@ -28976,6 +29131,27 @@
       "standards": []
     },
     {
+      "id": "mt_AylKwhbDWM",
+      "type": "CONCEPTUAL",
+      "subject": "Science",
+      "domain": "Ecosystems & Habitats",
+      "name": "Grouping Living Things",
+      "description": "Recognise that living things can be grouped in a variety of ways based on observable features",
+      "ageRangeStart": 4,
+      "ageRangeEnd": 9,
+      "centrality": 0.04239917269906929,
+      "evidence": [
+        "Group a set of organisms using at least two different criteria (e.g. by habitat, by body covering, by diet)",
+        "Explain the reasoning behind each grouping choice",
+        "Recognise that the same organism can belong to different groups depending on the criteria used"
+      ],
+      "assessmentPrompt": "Can {{name}} sort a set of animals or plants into groups using their own criteria, like 'has wings' or 'lives in water'?",
+      "standards": [
+        "the-ontario-curriculum-kindergarten-2026:ON-K-2026-K-B13.2",
+        "uk-nc-2013:Y4.Sci.LTH.1"
+      ]
+    },
+    {
       "id": "mt_e6PP4ip39V",
       "type": "CONCEPTUAL",
       "subject": "Science",
@@ -29180,6 +29356,7 @@
       ],
       "assessmentPrompt": "Can {{name}} use a simple yes/no key chart to work out the name of an insect or plant they've found outside?",
       "standards": [
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-D1.1",
         "uk-nc-2013:Y4.Sci.LTH.2"
       ]
     },
@@ -29222,26 +29399,6 @@
       "standards": [
         "acara-v9:AC9S4U01",
         "uk-nc-2013:Y4.Sci.A.3"
-      ]
-    },
-    {
-      "id": "mt_AylKwhbDWM",
-      "type": "CONCEPTUAL",
-      "subject": "Science",
-      "domain": "Ecosystems & Habitats",
-      "name": "Grouping Living Things",
-      "description": "Recognise that living things can be grouped in a variety of ways based on observable features",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
-      "centrality": 0.04239917269906929,
-      "evidence": [
-        "Group a set of organisms using at least two different criteria (e.g. by habitat, by body covering, by diet)",
-        "Explain the reasoning behind each grouping choice",
-        "Recognise that the same organism can belong to different groups depending on the criteria used"
-      ],
-      "assessmentPrompt": "Can {{name}} sort a set of animals or plants into groups using their own criteria, like 'has wings' or 'lives in water'?",
-      "standards": [
-        "uk-nc-2013:Y4.Sci.LTH.1"
       ]
     },
     {

@@ -1,0 +1,811 @@
+{
+  "scope": "Ontario Mathematics 2020 Grade 3; 46 specific and 12 overall expectations. Semantic authoring judgments, not learner certification. Ontario source text remains in staging/private evidence; public report includes codes and official links.",
+  "newTopicCount": 0,
+  "scopeExtensions": [
+    {
+      "topicId": "mt_B1lPmwJz0h",
+      "name": "Congruent shapes and objects by matching",
+      "change": "Preserve existing two-dimensional matching and extend to matching corresponding lengths, angles, faces and whole three-dimensional objects."
+    }
+  ],
+  "counts": {
+    "grade3TopicCodePairs": 155,
+    "distinctTopics": 114,
+    "directlyLinkedCodes": 48,
+    "topics": 1838,
+    "dependencies": 3887
+  },
+  "rows": [
+    {
+      "externalId": "ON-MATH-2020-G3-A1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_20WfHhnL39",
+        "mt_35-DhMh_Yr",
+        "mt_8dstvf-KKb",
+        "mt_EBYGhd8X3x",
+        "mt_IM1G_7QzTa",
+        "mt_Iwg2diBSyW",
+        "mt_LhkP_KKIRS",
+        "mt_QxsoqVUt6u",
+        "mt_S4G6GLKr1-",
+        "mt_TMoHjMhRS2",
+        "mt_UGf6jICEhs",
+        "mt_WkKkb7W9Qd",
+        "mt_YbX3LD0Eca",
+        "mt_f67qGDhyfi",
+        "mt_j8Pv3s7TZR",
+        "mt_kJ5wYzO8qC",
+        "mt_pAuo9Op89t"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-B1.1",
+        "ON-MATH-2020-G3-B1.2",
+        "ON-MATH-2020-G3-B1.3",
+        "ON-MATH-2020-G3-B1.4",
+        "ON-MATH-2020-G3-B1.5",
+        "ON-MATH-2020-G3-B1.6",
+        "ON-MATH-2020-G3-B1.7"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_8gy7uxRlF6",
+        "mt_F_zEAJ8VIo",
+        "mt_aPBzD28_mT",
+        "mt_x8TshvbbQT"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AQcVRBddko"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_QaYfeVL-0C"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_IzQvs7k_sE",
+        "mt_M2v1A9OEuM",
+        "mt_W3VOAuFwVw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_F_zEAJ8VIo",
+        "mt_aPBzD28_mT"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_IfEgu0X449",
+        "mt_LpSuPgL31x",
+        "mt_Xp-rj46S2w"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B1.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_FbDKeLfBCo",
+        "mt_gC-6JXAG5S"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-B2.1",
+        "ON-MATH-2020-G3-B2.2",
+        "ON-MATH-2020-G3-B2.3",
+        "ON-MATH-2020-G3-B2.4",
+        "ON-MATH-2020-G3-B2.5",
+        "ON-MATH-2020-G3-B2.6",
+        "ON-MATH-2020-G3-B2.7",
+        "ON-MATH-2020-G3-B2.8",
+        "ON-MATH-2020-G3-B2.9"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_C9ZfT-4cgn",
+        "mt_Lb2ZnMdkYR",
+        "mt_LpSuPgL31x",
+        "mt_QCgbiVrwnp",
+        "mt_ehGS_uVSJv",
+        "mt_iNdrM2-oJf"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HhuSDxwDNM",
+        "mt_PZ909yPrEC"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AKAtWEwpcj",
+        "mt_I5j1ZWo2cn",
+        "mt_QaYfeVL-0C",
+        "mt_izien3ZX51",
+        "mt_kJ5wYzO8qC"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ewmuMMPAzP",
+        "mt_zxST3MarI9"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_SrrsLiJkr3",
+        "mt_ewmuMMPAzP",
+        "mt_yTWxkzzoOZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_B1zj1RwQ3a",
+        "mt_GRWwTDZ3wD",
+        "mt_gtTl3R5buH",
+        "mt_iNdrM2-oJf"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_PZ909yPrEC",
+        "mt_Xp-rj46S2w",
+        "mt_Zdv-b-iW5K",
+        "mt_xACS3rWWDp"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.8",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_09sySPqM9Z",
+        "mt_cFltwUQi-d",
+        "mt_ndGqFPWyen"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-B2.9",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HhuSDxwDNM",
+        "mt_U4cIBXVug4",
+        "mt_gtTl3R5buH"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-C1.1",
+        "ON-MATH-2020-G3-C1.2",
+        "ON-MATH-2020-G3-C1.3",
+        "ON-MATH-2020-G3-C1.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_uG2mjHFOlO"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cqm8iy48UI",
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_c29FaCTNsx"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_fZTn0W_iZR"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_RFeVlw0QvX",
+        "mt_W3VOAuFwVw",
+        "mt_izien3ZX51"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-C2.1",
+        "ON-MATH-2020-G3-C2.2",
+        "ON-MATH-2020-G3-C2.3"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_3JgrHY221M",
+        "mt_H4BfdHIdhD",
+        "mt_yTWxkzzoOZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HhuSDxwDNM",
+        "mt_Lb2ZnMdkYR",
+        "mt_oIzycTBeE4"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Bt-iORUzdO",
+        "mt_F_zEAJ8VIo",
+        "mt_oIzycTBeE4"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C3",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-C3.1",
+        "ON-MATH-2020-G3-C3.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C3.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_6XbAmdmjDb",
+        "mt_XXpEz9tyu6",
+        "mt_sPV503BQnI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C3.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_5UtPmgdoQ9",
+        "mt_6XbAmdmjDb",
+        "mt_XXpEz9tyu6"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-C4",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_IM1G_7QzTa",
+        "mt_WkKkb7W9Qd",
+        "mt_f67qGDhyfi",
+        "mt_fLOkq-HfPB",
+        "mt_iQYPw8bMfN"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-D1.1",
+        "ON-MATH-2020-G3-D1.2",
+        "ON-MATH-2020-G3-D1.3",
+        "ON-MATH-2020-G3-D1.4",
+        "ON-MATH-2020-G3-D1.5"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JEtvvsAQjQ",
+        "mt_brgde1Vx0P"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_c29FaCTNsx",
+        "mt_ebQURBOsM5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_c29FaCTNsx",
+        "mt_r8XnXwRA6g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cg8VPguS_V",
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1VSfm9yiLn",
+        "mt_ebQURBOsM5",
+        "mt_kxeuXm6EyC",
+        "mt_r8XnXwRA6g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-D2.1",
+        "ON-MATH-2020-G3-D2.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_UcGn2hjhYU",
+        "mt_iFFKZd-Vgv",
+        "mt_xSgAgg9Ej_"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-D2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cg8VPguS_V",
+        "mt_gTI7MuS-y8",
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-E1.1",
+        "ON-MATH-2020-G3-E1.2",
+        "ON-MATH-2020-G3-E1.3",
+        "ON-MATH-2020-G3-E1.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Mnodea7mG_",
+        "mt_QNxFnxikCN",
+        "mt_Qcp2d_kuta",
+        "mt_fEuoBYw6bU"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_MqqR7VUoz1",
+        "mt_QNxFnxikCN",
+        "mt_UooUHC_V7U"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_B1lPmwJz0h"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_61Pa4Eksva",
+        "mt_TdV9YGJEoY",
+        "mt_Y9XKzLrUAZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-E2.1",
+        "ON-MATH-2020-G3-E2.2",
+        "ON-MATH-2020-G3-E2.3",
+        "ON-MATH-2020-G3-E2.4",
+        "ON-MATH-2020-G3-E2.5",
+        "ON-MATH-2020-G3-E2.6",
+        "ON-MATH-2020-G3-E2.7",
+        "ON-MATH-2020-G3-E2.8",
+        "ON-MATH-2020-G3-E2.9"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_KaF0SQvaiu",
+        "mt_WtcFrxGOgw",
+        "mt_e4x3l2JeLI",
+        "mt_wE7-Gs9ENL"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_OzRZ89GrQW",
+        "mt_Zks8xyInSG",
+        "mt_d8al9JcajP",
+        "mt_e4x3l2JeLI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4lp_b5Pzik",
+        "mt_cqSf213hSa",
+        "mt_e7tLi9SCIE",
+        "mt_zkFbMLpu3U"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-P1kdZhHbL",
+        "mt_zd0YkB3xNj"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_e7tLi9SCIE",
+        "mt_jHv4BgRK8B"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_0XxyaQLRhn",
+        "mt_UNzojLkNdm",
+        "mt__N55B7u7HD"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_6xNmQLzuqm",
+        "mt_MqqR7VUoz1",
+        "mt_y1n0Zwhoca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.8",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_6xNmQLzuqm",
+        "mt_y1n0Zwhoca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-E2.9",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_y1n0Zwhoca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-F1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G3-F1.1"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G3-F1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G3-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_FIkqA0qhnj",
+        "mt_aWOK1npO5s",
+        "mt_pbuhUQJjtt"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math"
+    }
+  ]
+}
