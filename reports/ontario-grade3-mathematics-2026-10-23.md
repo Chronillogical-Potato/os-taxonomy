@@ -4,7 +4,7 @@ The Grade 3 pass maps the official 2020 curriculum onto the shared taxonomy afte
 
 **No topics were added.** The pass adds 155 Grade 3 topic-code pairs across 114 existing topics. Forty-eight codes are directly linked; ten overall expectations roll up their children. The resulting graph has **1,838 topics / 3,887 dependencies**. All old topic-code pairs, including 152 Grade 1 and 124 Grade 2 Mathematics pairs, remain intact.
 
-Review removed stale “age 9+” suffixes from the fraction-as-sums and unit-conversion titles. Country-specific ages remain in the source alignments; assessed descriptions and evidence are unchanged by these title edits.
+Review removed stale “age 9+” suffixes from the fraction-as-sums and unit-relationship titles. Country-specific ages remain in the source alignments; assessed descriptions and evidence are unchanged by these title edits. “Unit relationships and conversion tables” remains distinct from the existing “Converting measurement units” procedure.
 
 The existing congruence concept (`mt_B1lPmwJz0h`) now covers matching in two and three dimensions. Its former two-dimensional side/angle, overlay, rotation and size criteria are retained. New evidence covers matching faces, edges and corner angles, and deciding whole-object congruence. Two boxes with the same front face but different depths are a deliberate non-example. Volume formulas and formal congruence criteria are outside this claim. This topic had no learner estimates, evidence or teaching-research record before extension; no learner resets were needed.
 

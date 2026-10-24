@@ -21313,30 +21313,6 @@
       ]
     },
     {
-      "id": "mt_Zks8xyInSG",
-      "type": "PROCEDURAL",
-      "subject": "Mathematics",
-      "domain": "Measurement",
-      "name": "Converting measurement units",
-      "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 12,
-      "centrality": 0.0641158221302999,
-      "evidence": [
-        "Convert 3.5 km to 3,500 m",
-        "Complete a conversion table for cm and mm: (1,10), (2,20), (3,30)...",
-        "Express 2 kg 350 g as 2,350 g"
-      ],
-      "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
-      "standards": [
-        "acara-v9:AC9M5M01",
-        "acara-v9:AC9M6M01",
-        "ccss-math:4.MD.1",
-        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2",
-        "uk-nc-2013:Ma5/3.1a"
-      ]
-    },
-    {
       "id": "mt_IL86kadLSS",
       "type": "PROCEDURAL",
       "subject": "Mathematics",
@@ -21444,6 +21420,30 @@
         "ccss-math:3.MD.8",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.1",
         "uk-nc-2013:Ma/KS2/Y4/M/2"
+      ]
+    },
+    {
+      "id": "mt_Zks8xyInSG",
+      "type": "PROCEDURAL",
+      "subject": "Mathematics",
+      "domain": "Measurement",
+      "name": "Unit relationships and conversion tables",
+      "description": "Know relative sizes of measurement units within one system (km/m/cm/mm, kg/g, l/ml, hr/min/sec); convert between different metric units and express measurements in terms of a smaller unit; record equivalents in conversion tables",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 12,
+      "centrality": 0.0641158221302999,
+      "evidence": [
+        "Convert 3.5 km to 3,500 m",
+        "Complete a conversion table for cm and mm: (1,10), (2,20), (3,30)...",
+        "Express 2 kg 350 g as 2,350 g"
+      ],
+      "assessmentPrompt": "If {{name}} needs to convert 3.5 kg to grams, can they do it confidently — and also fill in a simple two-column table showing the same measurements in kg and g?",
+      "standards": [
+        "acara-v9:AC9M5M01",
+        "acara-v9:AC9M6M01",
+        "ccss-math:4.MD.1",
+        "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-E2.2",
+        "uk-nc-2013:Ma5/3.1a"
       ]
     },
     {
