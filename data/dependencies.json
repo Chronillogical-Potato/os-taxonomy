@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3919,
+  "edgeCount": 3939,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -732,14 +732,20 @@
     {
       "topicId": "mt_1PAWhRhpdg",
       "prerequisiteId": "mt_AabJisinfi",
-      "strength": "hard",
-      "reason": "Whole ÷ unit-fraction uses inverse relationship with fraction multiplication"
+      "strength": "soft",
+      "reason": "4 ÷ 1/5 = 20 is checked by 20 × 1/5 = 4 (whole × unit fraction); multiplying a fraction by a fraction and writing simplest form are not needed"
     },
     {
       "topicId": "mt_1PAWhRhpdg",
       "prerequisiteId": "mt_ifPDOYvUqm",
       "strength": "soft",
       "reason": "Understanding unit-fraction ÷ whole helps contrast with whole ÷ unit-fraction"
+    },
+    {
+      "topicId": "mt_1PAWhRhpdg",
+      "prerequisiteId": "mt_TgHxujL81r",
+      "strength": "hard",
+      "reason": "dividing a whole number by a unit fraction uses its inverse, multiplying a whole number by a unit fraction"
     },
     {
       "topicId": "mt_1ro8W1cZYn",
@@ -2022,8 +2028,8 @@
     {
       "topicId": "mt_4zgPzc6yu5",
       "prerequisiteId": "mt_iykH2P5oFq",
-      "strength": "hard",
-      "reason": "Distinguishing a sample from its population requires first identifying the population and attribute a statistical question is about"
+      "strength": "soft",
+      "reason": "4zgP itself identifies the population and the sample; classifying questions as statistical or not is a helpful step, not required to judge representativeness (4zgP→xSgA stays hard)"
     },
     {
       "topicId": "mt_4zgPzc6yu5",
@@ -3107,9 +3113,39 @@
     },
     {
       "topicId": "mt_8H2kO4k2B9",
-      "prerequisiteId": "mt_Xt1cRqaBOW",
+      "prerequisiteId": "mt_B1lPmwJz0h",
+      "strength": "soft",
+      "reason": "matching sides and angles within a shape supports judging equality (soft: B1lP has no GB context and is a supporting route)"
+    },
+    {
+      "topicId": "mt_8H2kO4k2B9",
+      "prerequisiteId": "mt_e4V6hvcuEJ",
+      "strength": "soft",
+      "reason": "tick and arc marks show equal sides and angles (soft: the notation bundle is not required as a whole)"
+    },
+    {
+      "topicId": "mt_8H2kO4k2B9",
+      "prerequisiteId": "mt_h0CVtqI2xo",
+      "strength": "soft",
+      "reason": "angle types help describe angles but are not angle equality"
+    },
+    {
+      "topicId": "mt_8H2kO4k2B9",
+      "prerequisiteId": "mt_KaF0SQvaiu",
+      "strength": "soft",
+      "reason": "measuring lengths is one optional way to check equal sides"
+    },
+    {
+      "topicId": "mt_8H2kO4k2B9",
+      "prerequisiteId": "mt_sBcRdUfAzV",
       "strength": "hard",
-      "reason": "Shape classification supports distinguishing regular from irregular"
+      "reason": "reasoning about a polygon's sides and angles needs identifying polygons and their sides; equality of sides/angles is judged from given marks or by matching as part of the goal itself"
+    },
+    {
+      "topicId": "mt_8H2kO4k2B9",
+      "prerequisiteId": "mt_Xt1cRqaBOW",
+      "strength": "soft",
+      "reason": "deciding regular/irregular needs comparing side lengths and angles, not the quadrilateral subclass hierarchy"
     },
     {
       "topicId": "mt_8H2kO4k2B9",
@@ -5580,8 +5616,14 @@
     {
       "topicId": "mt_-c4Ca_nBzX",
       "prerequisiteId": "mt_k2WE0-22-4",
+      "strength": "soft",
+      "reason": "writing a probability as favourable outcomes over total outcomes needs fraction meaning, not k2WE's fraction-of-a-quantity calculation (find 1/4 of 12); k2WE remains a D2.1 component for predictions"
+    },
+    {
+      "topicId": "mt_-c4Ca_nBzX",
+      "prerequisiteId": "mt_ndGqFPWyen",
       "strength": "hard",
-      "reason": "Expressing probabilities as unit fractions (1/6, 1/2, 1/3) requires prior knowledge of unit fractions from the Fractions domain"
+      "reason": "a probability of a/b means a of b equally likely parts: generic fraction meaning is the real basis"
     },
     {
       "topicId": "mt_-c4Ca_nBzX",
@@ -5684,6 +5726,12 @@
       "prerequisiteId": "mt_NzNLYDb9CZ",
       "strength": "soft",
       "reason": "'Drawing circuits with proper symbols' supports 'Communicating design processes'"
+    },
+    {
+      "topicId": "mt_CBXBu5e4Iv",
+      "prerequisiteId": "mt_r8bOJtofM7",
+      "strength": "soft",
+      "reason": "the technical design-drawing bundle uses front/side/top views (focused extraction; CBXB kept whole, soft back-reference only)"
     },
     {
       "topicId": "mt_CBxOcjh69x",
@@ -7266,8 +7314,8 @@
     {
       "topicId": "mt_efOeaGFyGM",
       "prerequisiteId": "mt_SH7QgFl8-v",
-      "strength": "hard",
-      "reason": "Describing and representing reflections and translations requires the grid-based transformation diagram"
+      "strength": "soft",
+      "reason": "describing reflections and translations and that the shape is unchanged does not need rotations first; efOe→Uq5v, efOe→hR2Y and efOe→i5_H stay hard"
     },
     {
       "topicId": "mt_efOeaGFyGM",
@@ -15864,8 +15912,8 @@
     {
       "topicId": "mt_PL9VkDwXfh",
       "prerequisiteId": "mt_b7T-CjOYUR",
-      "strength": "hard",
-      "reason": "Comparing fractions requires ability to find common denominators via simplification"
+      "strength": "soft",
+      "reason": "comparing by common denominators or benchmarks does not require simplifying fractions (PL9V→SXbZ stays hard)"
     },
     {
       "topicId": "mt_PL9VkDwXfh",
@@ -17200,6 +17248,36 @@
       "reason": "Insects diversity builds on knowing animal diversity globally"
     },
     {
+      "topicId": "mt_r8bOJtofM7",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "soft",
+      "reason": "faces, edges and vertices help describe what each view shows"
+    },
+    {
+      "topicId": "mt_r8bOJtofM7",
+      "prerequisiteId": "mt_Qcp2d_kuta",
+      "strength": "hard",
+      "reason": "recognising common 3-D objects is needed to describe their views"
+    },
+    {
+      "topicId": "mt_r8bOJtofM7",
+      "prerequisiteId": "mt_vJUa62bxeR",
+      "strength": "soft",
+      "reason": "recognising a 3-D shape from different angles helps; its model-making facet is not needed to draw views of a provided object"
+    },
+    {
+      "topicId": "mt_r8bOJtofM7",
+      "prerequisiteId": "mt_wUSbRt3-qw",
+      "strength": "soft",
+      "reason": "matching 3-D shapes to other 2-D representations (nets, isometric drawings) supports matching views"
+    },
+    {
+      "topicId": "mt_r8bOJtofM7",
+      "prerequisiteId": "mt_zuOGOGFAKb",
+      "strength": "hard",
+      "reason": "drawing 2-D shapes with given attributes is needed to draw each view"
+    },
+    {
       "topicId": "mt_r8c43QB6wx",
       "prerequisiteId": "mt_QysgF57dxh",
       "strength": "hard",
@@ -17208,8 +17286,8 @@
     {
       "topicId": "mt_r8c43QB6wx",
       "prerequisiteId": "mt_Xt1cRqaBOW",
-      "strength": "hard",
-      "reason": "Y4 quadrilateral classification supports classifying by lines/angles"
+      "strength": "soft",
+      "reason": "sorting figures by parallel/perpendicular lines or angle size and recognising right triangles needs line and angle properties (r8c4→Qysg stays hard), not the quadrilateral subclass hierarchy; teaching can introduce its own quadrilateral examples"
     },
     {
       "topicId": "mt_r8XnXwRA6g",
@@ -17968,6 +18046,18 @@
       "reason": "KS3 detailed diet components extend KS2 understanding that animals need the right nutrition"
     },
     {
+      "topicId": "mt_sDT1M0z7c3",
+      "prerequisiteId": "mt_cSz7XTxVAx",
+      "strength": "hard",
+      "reason": "what taxes are and that tax revenue pays for public services is the foundation for classifying taxes and their collectors"
+    },
+    {
+      "topicId": "mt_sDT1M0z7c3",
+      "prerequisiteId": "mt_uP9faJlnRq",
+      "strength": "soft",
+      "reason": "earning money gives a context for taxes on income"
+    },
+    {
       "topicId": "mt_sh1Mq-mshx",
       "prerequisiteId": "mt_FwI7q7DSIx",
       "strength": "soft",
@@ -17999,9 +18089,15 @@
     },
     {
       "topicId": "mt_sHJqh6UUya",
-      "prerequisiteId": "mt_vmQJAtAFuy",
+      "prerequisiteId": "mt_t0g2SlP404",
       "strength": "hard",
-      "reason": "Experimental probability requires understanding the 0–1 probability scale first"
+      "reason": "relative frequency estimates a probability placed on the 0–1 scale"
+    },
+    {
+      "topicId": "mt_sHJqh6UUya",
+      "prerequisiteId": "mt_vmQJAtAFuy",
+      "strength": "soft",
+      "reason": "vmQJ (KS3) and t0g2 state the same 0–1 probability scale; the gate moves to the universal canonical t0g2"
     },
     {
       "topicId": "mt_sHMpam8zcd",
@@ -19626,8 +19722,8 @@
     {
       "topicId": "mt_Uq5vYqboCR",
       "prerequisiteId": "mt_SH7QgFl8-v",
-      "strength": "hard",
-      "reason": "Describing translations on a grid requires the grid-based transformation diagram representation"
+      "strength": "soft",
+      "reason": "describing left/right/up/down translations of points and shapes does not need rotations or diagonal reflections; Uq5v→jBQS (coordinates) stays hard"
     },
     {
       "topicId": "mt_uQI6mhU6hW",
@@ -22076,6 +22172,30 @@
       "prerequisiteId": "mt_w2xiMNkyyX",
       "strength": "hard",
       "reason": "Must understand Earth's orbit and rotation before understanding gravity as the force maintaining them"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_bESTSBB0wK",
+      "strength": "soft",
+      "reason": "pie charts show parts of a whole for one group"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_ePXg_XyCKU",
+      "strength": "soft",
+      "reason": "segmented tape diagrams show part-to-part/part-to-whole structure"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_r8XnXwRA6g",
+      "strength": "hard",
+      "reason": "a stacked bar is a scaled bar built from segments: drawing and reading scaled bar graphs is the real foundation"
+    },
+    {
+      "topicId": "mt_Y3ZnDGGmln",
+      "prerequisiteId": "mt_RX7PZgjX9q",
+      "strength": "soft",
+      "reason": "grouped (side-by-side) multiple-bar graphs are a contrasting display for comparing groups"
     },
     {
       "topicId": "mt_Y6P9y1Rz-u",
