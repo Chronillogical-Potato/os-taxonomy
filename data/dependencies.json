@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3967,
+  "edgeCount": 3979,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -4409,9 +4409,15 @@
     },
     {
       "topicId": "mt_Amojd_oviu",
-      "prerequisiteId": "mt_OTrQJVRRJ6",
+      "prerequisiteId": "mt_My0OL6fhGL",
       "strength": "hard",
-      "reason": "'Finding reliable health information' builds on 'Reading health messages'"
+      "reason": "judging a source's purpose uses the idea that messages can inform, persuade or sell"
+    },
+    {
+      "topicId": "mt_Amojd_oviu",
+      "prerequisiteId": "mt_OTrQJVRRJ6",
+      "strength": "soft",
+      "reason": "reading health-message intention is a health-specific application, not the minimum for judging a source's reliability"
     },
     {
       "topicId": "mt_Amw5ikSSQI",
@@ -8814,8 +8820,8 @@
     {
       "topicId": "mt_GDtFU5fyUv",
       "prerequisiteId": "mt_1YwOCMMwD8",
-      "strength": "hard",
-      "reason": "Sample spaces for combined events require systematic enumeration skills"
+      "strength": "soft",
+      "reason": "tree diagrams and listed sample spaces for two events need favourable ÷ total over equally likely outcomes, not Venn/set notation (1YwO stays a soft support)"
     },
     {
       "topicId": "mt_GDtFU5fyUv",
@@ -8828,6 +8834,12 @@
       "prerequisiteId": "mt_sHJqh6UUya",
       "strength": "hard",
       "reason": "Theoretical probability builds on experience with experimental probability"
+    },
+    {
+      "topicId": "mt_GDtFU5fyUv",
+      "prerequisiteId": "mt_Zt30Gxi-qp",
+      "strength": "hard",
+      "reason": "combined-event probabilities are favourable ÷ total over equally likely outcomes"
     },
     {
       "topicId": "mt_Ge4Wtg6QMM",
@@ -16846,6 +16858,36 @@
       "reason": "Art conventions builds on understanding tomb paintings as evidence"
     },
     {
+      "topicId": "mt_qMu1oc7ZHd",
+      "prerequisiteId": "mt_hRZyKvz1KN",
+      "strength": "hard",
+      "reason": "a plane of symmetry extends the idea of a line of symmetry that splits a shape into mirror-image halves"
+    },
+    {
+      "topicId": "mt_qMu1oc7ZHd",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "hard",
+      "reason": "describing a solid's symmetry uses its faces, edges and vertices"
+    },
+    {
+      "topicId": "mt_qMu1oc7ZHd",
+      "prerequisiteId": "mt_NM5I3yN-Q6",
+      "strength": "hard",
+      "reason": "an axis of rotational symmetry and its order extend 2-D rotational symmetry and order"
+    },
+    {
+      "topicId": "mt_qMu1oc7ZHd",
+      "prerequisiteId": "mt_nRksLqt-iR",
+      "strength": "soft",
+      "reason": "cross-sections can help visualise a plane of symmetry, but the whole cross-section bundle is not required"
+    },
+    {
+      "topicId": "mt_qMu1oc7ZHd",
+      "prerequisiteId": "mt_REwgr0d_ss",
+      "strength": "soft",
+      "reason": "recognising and building 3-D shapes supports handling models"
+    },
+    {
       "topicId": "mt_QNxFnxikCN",
       "prerequisiteId": "mt_2VR963szuk",
       "strength": "soft",
@@ -18704,6 +18746,36 @@
       "prerequisiteId": "mt__KHQttMde3",
       "strength": "hard",
       "reason": "Need blending to read contractions"
+    },
+    {
+      "topicId": "mt_T3bTU2aet-",
+      "prerequisiteId": "mt_1badik7iKJ",
+      "strength": "soft",
+      "reason": "scale drawing skills support a stated scale"
+    },
+    {
+      "topicId": "mt_T3bTU2aet-",
+      "prerequisiteId": "mt_CBXBu5e4Iv",
+      "strength": "soft",
+      "reason": "technical design drawing uses projections (bundle; soft only)"
+    },
+    {
+      "topicId": "mt_T3bTU2aet-",
+      "prerequisiteId": "mt_QNxFnxikCN",
+      "strength": "soft",
+      "reason": "building the cube structure supports drawing it"
+    },
+    {
+      "topicId": "mt_T3bTU2aet-",
+      "prerequisiteId": "mt_r8bOJtofM7",
+      "strength": "soft",
+      "reason": "orthographic views relate to the perspective view but are not needed to draw it"
+    },
+    {
+      "topicId": "mt_T3bTU2aet-",
+      "prerequisiteId": "mt_wUSbRt3-qw",
+      "strength": "hard",
+      "reason": "drawing a 3-D object on paper needs reading how 3-D shapes appear in 2-D representations, including isometric drawings"
     },
     {
       "topicId": "mt__t4afSyZRm",
