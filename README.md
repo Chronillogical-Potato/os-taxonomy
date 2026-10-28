@@ -2,7 +2,7 @@
 
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
-> **Version:** `v1` · **Topics:** 1,852 · **Prerequisite edges:** 3,979 · **Subjects:** 9
+> **Version:** `v1` · **Topics:** 1,855 · **Prerequisite edges:** 3,986 · **Subjects:** 9
 
 ## See it
 
@@ -15,24 +15,24 @@ Every dot is a micro-topic, colored by subject; height is age; each thread is a 
 
 Most curriculum data is either a flat list of standards or locked inside a product. This dataset is a **connected graph of learning**:
 
-- **1,852 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
-- **3,979 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
+- **1,855 micro-topics** — a single, teachable idea (e.g. *"Building sentences"*, *"Apparent brightness of stars"*), each with a plain-language description, mastery **evidence** criteria, a type (conceptual / procedural / representational / language / meta), a subject + domain, and an approximate age range.
+- **3,986 prerequisite dependencies** — a directed acyclic graph: *"topic X depends on prerequisite Y"*, each edge tagged `hard`/`soft` and carrying a one-line **reason**.
 - **Curriculum alignment** — each micro-topic links to the standards it was distilled from (NGSS, Common Core, the UK National Curriculum, and more).
-- **Teaching research** — 1,049 records. Coverage is partial; 803 topics have no research in this release.
+- **Teaching research** — 1,049 records. Coverage is partial; 806 topics have no research in this release.
 - **Domain clusters** — 176 parent-friendly one-paragraph summaries per (subject, domain, age band).
 
 ### Subjects
 
 | Subject | Topics |
 |---|---:|
-| Computing | 51 |
-| English | 331 |
+| Computing | 52 |
+| English | 333 |
 | Geography | 22 |
 | History | 109 |
 | Learning to Learn | 18 |
-| Life Skills | 43 |
-| Mathematics | 571 |
-| Personal & Social Development | 117 |
+| Life Skills | 46 |
+| Mathematics | 581 |
+| Personal & Social Development | 118 |
 | Science | 576 |
 
 ## Files

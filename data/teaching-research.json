@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-28T17:14:46.561Z",
-  "topicFileSha256": "2dc8678070e86e01ae11727acc645bfaf3a6aa4f0720716b200a28b3b274aa06",
+  "exportedAt": "2026-10-28T23:43:33.936Z",
+  "topicFileSha256": "decb54d8a0699de77cde9dd8f9048aed1392543a09d534b30050590c047dbc3e",
   "recordCount": 1049,
   "coverage": {
-    "topicCount": 1854,
+    "topicCount": 1855,
     "withResearch": 1049,
-    "withoutResearch": 805,
+    "withoutResearch": 806,
     "bySubject": {
       "Computing": {
         "topics": 52,
@@ -15,9 +15,9 @@
         "withoutResearch": 52
       },
       "English": {
-        "topics": 332,
+        "topics": 333,
         "withResearch": 0,
-        "withoutResearch": 332
+        "withoutResearch": 333
       },
       "Geography": {
         "topics": 22,
@@ -181,6 +181,7 @@
       "mt_A0htaNaK7b",
       "mt_A2hKhHXgL5",
       "mt_A4YUbzUFan",
+      "mt_A8pSrj0E-D",
       "mt_AHAFw-atka",
       "mt_AHXePdicRf",
       "mt_AbnwmKD8oe",

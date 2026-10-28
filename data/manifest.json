@@ -1,7 +1,7 @@
 {
   "dataset": "Marble Skill Taxonomy",
   "taxonomyVersion": "v1",
-  "generatedAt": "2026-10-28T17:14:45.140Z",
+  "generatedAt": "2026-10-28T23:43:32.529Z",
   "codesOnlySources": [
     "c3-social-studies",
     "ib-pyp-pspe",
@@ -18,10 +18,10 @@
     "the-ontario-curriculum-the-arts-2009"
   ],
   "counts": {
-    "topics": 1854,
+    "topics": 1855,
     "topicsBySubject": {
       "Computing": 52,
-      "English": 332,
+      "English": 333,
       "Geography": 22,
       "History": 109,
       "Learning to Learn": 18,
@@ -30,22 +30,22 @@
       "Personal & Social Development": 118,
       "Science": 576
     },
-    "dependencies": 3984,
+    "dependencies": 3986,
     "curricula": 17,
     "curriculumStandards": 7743,
-    "topicStandardLinks": 5668,
+    "topicStandardLinks": 5894,
     "clusters": 176,
     "teachingResearch": 1049,
     "archivedTeachingResearch": 2
   },
   "files": {
     "topics.json": {
-      "bytes": 2198008,
-      "sha256": "2dc8678070e86e01ae11727acc645bfaf3a6aa4f0720716b200a28b3b274aa06"
+      "bytes": 2214936,
+      "sha256": "decb54d8a0699de77cde9dd8f9048aed1392543a09d534b30050590c047dbc3e"
     },
     "dependencies.json": {
-      "bytes": 868457,
-      "sha256": "c761e8261c2ea29e1954fd99d528fe02e3326d4aa0e06ff3c124ad1ab0b39f0d"
+      "bytes": 869173,
+      "sha256": "3b3f4c0051baa62b403dd08e49cb1bc66cce0ad18befb0673eb9a814527cb798"
     },
     "curriculum-standards.json": {
       "bytes": 2700051,
@@ -56,8 +56,8 @@
       "sha256": "7bae0dbd339c33cb39859adff99f93e14799cae89dd4abe0eef67a46c3cc18e2"
     },
     "teaching-research.json": {
-      "bytes": 23542098,
-      "sha256": "3968f91a480de10ac1d9a6fdfeb555d31d131825d28b3c1aa3e847a0ab5a0017"
+      "bytes": 23542121,
+      "sha256": "31a1b6340483559b65d1b22a55b5311bf2464486a97ed86d46455cfb32ec4a3a"
     },
     "archived-teaching-research.json": {
       "bytes": 50334,
@@ -71,12 +71,12 @@
   ],
   "teachingResearch": {
     "schemaVersion": 1,
-    "exportedAt": "2026-10-28T17:14:46.561Z",
-    "topicFileSha256": "2dc8678070e86e01ae11727acc645bfaf3a6aa4f0720716b200a28b3b274aa06",
+    "exportedAt": "2026-10-28T23:43:33.936Z",
+    "topicFileSha256": "decb54d8a0699de77cde9dd8f9048aed1392543a09d534b30050590c047dbc3e",
     "coverage": {
-      "topicCount": 1854,
+      "topicCount": 1855,
       "withResearch": 1049,
-      "withoutResearch": 805,
+      "withoutResearch": 806,
       "bySubject": {
         "Computing": {
           "topics": 52,
@@ -84,9 +84,9 @@
           "withoutResearch": 52
         },
         "English": {
-          "topics": 332,
+          "topics": 333,
           "withResearch": 0,
-          "withoutResearch": 332
+          "withoutResearch": 333
         },
         "Geography": {
           "topics": 22,
@@ -250,6 +250,7 @@
         "mt_A0htaNaK7b",
         "mt_A2hKhHXgL5",
         "mt_A4YUbzUFan",
+        "mt_A8pSrj0E-D",
         "mt_AHAFw-atka",
         "mt_AHXePdicRf",
         "mt_AbnwmKD8oe",
