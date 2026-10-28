@@ -8532,32 +8532,6 @@
       ]
     },
     {
-      "id": "mt_av-uRBrhwT",
-      "type": "META",
-      "subject": "English",
-      "domain": "Writing Composition",
-      "name": "Planning, Revising and Editing Writing",
-      "description": "Plan, revise, and edit writing to improve coherence and effectiveness — considering how the writing reflects its intended audience and purpose, amending vocabulary, grammar, and structure, and proofreading for accurate spelling, punctuation, and grammar",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 14,
-      "centrality": 0.0898876404494382,
-      "evidence": [
-        "Revise a draft to improve paragraph structure, adding or removing material for coherence",
-        "Edit sentence-level issues including word choice, grammar, and punctuation before finalising",
-        "Reflect on whether the writing achieves its intended effect on the target audience and adjust accordingly"
-      ],
-      "assessmentPrompt": "After {{name}} finishes a first draft, do they go back and make real improvements — not just fixing spelling, but changing sentences or reorganising ideas to make it better?",
-      "standards": [
-        "ccss-ela:W.6.5",
-        "ccss-ela:W.7.5",
-        "ccss-ela:W.8.5",
-        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3",
-        "uk-nc-2013:KS3-ENG-W-2a",
-        "uk-nc-2013:KS3-ENG-W-2b",
-        "uk-nc-2013:KS3-ENG-W-2c"
-      ]
-    },
-    {
       "id": "mt_I65kFjWwnF",
       "type": "PROCEDURAL",
       "subject": "English",
@@ -8576,50 +8550,12 @@
       "standards": [
         "acara-v9:AC9E2LE05",
         "acara-v9:AC9E2LY06",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2",
         "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3",
         "uk-nc-2013:Eng/KS1/Y2/WC/3a",
         "uk-nc-2013:Eng/KS1/Y2/WC/3b",
         "uk-nc-2013:Eng/KS1/Y2/WC/3c"
-      ]
-    },
-    {
-      "id": "mt_pis4novXWQ",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Writing Composition",
-      "name": "Revising and editing (age 7+)",
-      "description": "Evaluate and edit writing by assessing effectiveness, proposing changes to grammar and vocabulary for consistency, and proof-reading for spelling, grammar and punctuation errors at Y3-4 level",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 12,
-      "centrality": 0.05515832482124617,
-      "evidence": [
-        "Read own or a peer's writing aloud and suggest specific improvements to vocabulary or sentence structure",
-        "Propose changes to grammar and word choice to improve clarity and consistency across a piece of writing",
-        "Proof-read writing at Y3-4 level for spelling, punctuation, and grammatical errors and correct them independently"
-      ],
-      "assessmentPrompt": "When {{name}} revisits a draft piece of writing, can they improve it — changing word choices to be more precise, fixing inconsistent tenses, and correcting spelling and punctuation errors?",
-      "standards": [
-        "acara-v9:AC9E3LE05",
-        "acara-v9:AC9E3LY06",
-        "acara-v9:AC9E4LE05",
-        "acara-v9:AC9E4LY06",
-        "acara-v9:AC9E5LE05",
-        "acara-v9:AC9E5LY06",
-        "acara-v9:AC9E6LE05",
-        "acara-v9:AC9E6LY06",
-        "ccss-ela:L.3.2a",
-        "ccss-ela:W.3.5",
-        "ccss-ela:W.4.5",
-        "ccss-ela:W.5.5",
-        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3a",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3b",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3c",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3d",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3e",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_7",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_8",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_9"
       ]
     },
     {
@@ -8802,6 +8738,45 @@
       "assessmentPrompt": "Does {{name}} try out a sentence aloud before writing it — experimenting with different words and structures to find the version that sounds best?",
       "standards": [
         "uk-nc-2013:Eng_LKS2_Write_Comp_3"
+      ]
+    },
+    {
+      "id": "mt_pis4novXWQ",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Writing Composition",
+      "name": "Revising and editing (age 7+)",
+      "description": "Evaluate and edit writing by assessing effectiveness, proposing changes to grammar and vocabulary for consistency, and proof-reading for spelling, grammar and punctuation errors at Y3-4 level",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 12,
+      "centrality": 0.05515832482124617,
+      "evidence": [
+        "Read own or a peer's writing aloud and suggest specific improvements to vocabulary or sentence structure",
+        "Propose changes to grammar and word choice to improve clarity and consistency across a piece of writing",
+        "Proof-read writing at Y3-4 level for spelling, punctuation, and grammatical errors and correct them independently"
+      ],
+      "assessmentPrompt": "When {{name}} revisits a draft piece of writing, can they improve it — changing word choices to be more precise, fixing inconsistent tenses, and correcting spelling and punctuation errors?",
+      "standards": [
+        "acara-v9:AC9E3LE05",
+        "acara-v9:AC9E3LY06",
+        "acara-v9:AC9E4LE05",
+        "acara-v9:AC9E4LY06",
+        "acara-v9:AC9E5LE05",
+        "acara-v9:AC9E5LY06",
+        "acara-v9:AC9E6LE05",
+        "acara-v9:AC9E6LY06",
+        "ccss-ela:L.3.2a",
+        "ccss-ela:W.3.5",
+        "ccss-ela:W.4.5",
+        "ccss-ela:W.5.5",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3a",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3b",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3c",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3d",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3e",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_7",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_8",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_9"
       ]
     },
     {
@@ -9225,6 +9200,31 @@
         "ccss-ela:W.8.1.d",
         "ccss-ela:W.8.1.e",
         "uk-nc-2013:KS3-ENG-W-1a"
+      ]
+    },
+    {
+      "id": "mt_av-uRBrhwT",
+      "type": "META",
+      "subject": "English",
+      "domain": "Writing Composition",
+      "name": "Planning, Revising and Editing Writing",
+      "description": "Plan, revise, and edit writing to improve coherence and effectiveness — considering how the writing reflects its intended audience and purpose, amending vocabulary, grammar, and structure, and proofreading for accurate spelling, punctuation, and grammar",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 14,
+      "centrality": 0.0898876404494382,
+      "evidence": [
+        "Revise a draft to improve paragraph structure, adding or removing material for coherence",
+        "Edit sentence-level issues including word choice, grammar, and punctuation before finalising",
+        "Reflect on whether the writing achieves its intended effect on the target audience and adjust accordingly"
+      ],
+      "assessmentPrompt": "After {{name}} finishes a first draft, do they go back and make real improvements — not just fixing spelling, but changing sentences or reorganising ideas to make it better?",
+      "standards": [
+        "ccss-ela:W.6.5",
+        "ccss-ela:W.7.5",
+        "ccss-ela:W.8.5",
+        "uk-nc-2013:KS3-ENG-W-2a",
+        "uk-nc-2013:KS3-ENG-W-2b",
+        "uk-nc-2013:KS3-ENG-W-2c"
       ]
     },
     {
