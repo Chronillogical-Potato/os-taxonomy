@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3979,
+  "edgeCount": 3984,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -4704,8 +4704,8 @@
     {
       "topicId": "mt_av-uRBrhwT",
       "prerequisiteId": "mt_HWYAspz-LK",
-      "strength": "hard",
-      "reason": "Advanced independent plan/revise/edit (reflecting on audience and purpose, amending without teacher prompts) requires the self-critical reading skill as its foundation — a writer cannot revise independently without being able to judge their own work"
+      "strength": "soft",
+      "reason": "independent, unprompted self-critical reading is one route; planned revision can also be guided by peers and adults"
     },
     {
       "topicId": "mt_av-uRBrhwT",
@@ -8400,8 +8400,8 @@
     {
       "topicId": "mt_frDIaXzWbx",
       "prerequisiteId": "mt_1KCwbGvm1F",
-      "strength": "hard",
-      "reason": "Must understand print direction before letter identification matters"
+      "strength": "soft",
+      "reason": "concepts of print support early literacy, but naming letters does not require page directionality"
     },
     {
       "topicId": "mt_fT4G0QloX5",
@@ -12706,6 +12706,12 @@
       "reason": "Representing four-digit numbers requires knowing their place value"
     },
     {
+      "topicId": "mt_Lcqm4_wR4D",
+      "prerequisiteId": "mt_OJVkWvIaM_",
+      "strength": "soft",
+      "reason": "appreciating similarities and differences between people supports respectful learning about distinct peoples; not required"
+    },
+    {
       "topicId": "mt_LE7nFEwS12",
       "prerequisiteId": "mt_S4G6GLKr1-",
       "strength": "hard",
@@ -15474,8 +15480,8 @@
     {
       "topicId": "mt_OTFABm2xdf",
       "prerequisiteId": "mt_4GiE83rJF_",
-      "strength": "hard",
-      "reason": "'Rhythm in rhymes and songs' builds on 'Rhyming words'"
+      "strength": "soft",
+      "reason": "rhyme awareness supports joining in with rhymes, but clapping a beat or keeping a chant’s rhythm does not require it"
     },
     {
       "topicId": "mt_OTFABm2xdf",
@@ -15918,8 +15924,8 @@
     {
       "topicId": "mt_pis4novXWQ",
       "prerequisiteId": "mt_82KKv0Fca3",
-      "strength": "hard",
-      "reason": "Evaluating and editing for consistency requires vocabulary of 'coherence', 'cohesion', 'register', and 'style'"
+      "strength": "soft",
+      "reason": "writing-craft terminology helps talk about revisions but is not needed to choose a clearer word or fix a tense"
     },
     {
       "topicId": "mt_pis4novXWQ",
@@ -20232,8 +20238,8 @@
     {
       "topicId": "mt_v5yDTWEiyQ",
       "prerequisiteId": "mt_TDUpy57QVM",
-      "strength": "hard",
-      "reason": "Reflecting on the learning process requires the ability to analyse errors — reflection without error analysis stays superficial"
+      "strength": "soft",
+      "reason": "analysing mistakes can deepen reflection but is not needed to say what helped most"
     },
     {
       "topicId": "mt_V6456X6pJE",
@@ -21916,6 +21922,18 @@
       "reason": "HCF/LCM/prime factorisation extends Y5-6 factor pairs and common factors/multiples"
     },
     {
+      "topicId": "mt_xIoQJbQ0yP",
+      "prerequisiteId": "mt_PvU3eoikev",
+      "strength": "soft",
+      "reason": "onset-rime blending (c + at) is a helpful stepping stone towards blending every sound, but not required"
+    },
+    {
+      "topicId": "mt_xIoQJbQ0yP",
+      "prerequisiteId": "mt_UvNrOXny1i",
+      "strength": "soft",
+      "reason": "blending syllables into words supports the idea of joining spoken parts; not required for sound-by-sound blending"
+    },
+    {
       "topicId": "mt_XirhnAB6Ye",
       "prerequisiteId": "mt_f8n4txtLej",
       "strength": "soft",
@@ -23441,6 +23459,12 @@
     },
     {
       "topicId": "mt_ZhvwM6LMBL",
+      "prerequisiteId": "mt_1KCwbGvm1F",
+      "strength": "hard",
+      "reason": "reading connected text aloud follows left-to-right, top-to-bottom, page-by-page print"
+    },
+    {
+      "topicId": "mt_ZhvwM6LMBL",
       "prerequisiteId": "mt__KHQttMde3",
       "strength": "hard",
       "reason": "Must be able to decode before fluency"
@@ -23460,8 +23484,8 @@
     {
       "topicId": "mt_zIzJGkaj0Q",
       "prerequisiteId": "mt_h-z88yf9Pn",
-      "strength": "hard",
-      "reason": "Digital citizenship as a concept requires knowing the term and vocabulary of 'rights', 'responsibility', and 'ethical'"
+      "strength": "soft",
+      "reason": "ethics/citizenship vocabulary supports digital citizenship but is not required to be kind and safe online"
     },
     {
       "topicId": "mt_zIzJGkaj0Q",
@@ -23474,6 +23498,12 @@
       "prerequisiteId": "mt_q3vRl4dddK",
       "strength": "hard",
       "reason": "Digital citizenship builds on basic safety awareness"
+    },
+    {
+      "topicId": "mt_zIzJGkaj0Q",
+      "prerequisiteId": "mt_wzUzVEBqJb",
+      "strength": "hard",
+      "reason": "being kind online starts from knowing that the people behind screens have their own feelings and thoughts"
     },
     {
       "topicId": "mt_ZJC7JnnPCu",

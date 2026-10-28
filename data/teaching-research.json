@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "version": "v1",
-  "exportedAt": "2026-10-28T02:06:04.142Z",
-  "topicFileSha256": "d5c94672824a507a5670b74c66537f19fa9703f636f6950a5b0b4d018b03247c",
+  "exportedAt": "2026-10-28T15:55:49.087Z",
+  "topicFileSha256": "831c684baab392b8c3dba209df8652562b07077b1f6b3c3990d47deae9e48393",
   "recordCount": 1049,
   "coverage": {
-    "topicCount": 1852,
+    "topicCount": 1854,
     "withResearch": 1049,
-    "withoutResearch": 803,
+    "withoutResearch": 805,
     "bySubject": {
       "Computing": {
         "topics": 52,
@@ -15,9 +15,9 @@
         "withoutResearch": 52
       },
       "English": {
-        "topics": 331,
+        "topics": 332,
         "withResearch": 0,
-        "withoutResearch": 331
+        "withoutResearch": 332
       },
       "Geography": {
         "topics": 22,
@@ -45,9 +45,9 @@
         "withoutResearch": 79
       },
       "Personal & Social Development": {
-        "topics": 117,
+        "topics": 118,
         "withResearch": 0,
-        "withoutResearch": 117
+        "withoutResearch": 118
       },
       "Science": {
         "topics": 576,
@@ -316,6 +316,7 @@
       "mt_LNYTNpJOGT",
       "mt_LN_g2b3d34",
       "mt_LPYPuSaxv_",
+      "mt_Lcqm4_wR4D",
       "mt_LhkP_KKIRS",
       "mt_Lu4H4mbsqO",
       "mt_LuwHnQItF_",
@@ -834,6 +835,7 @@
       "mt_x3DJWIEHBq",
       "mt_x7V1qrkiqH",
       "mt_xAG0aMeAIN",
+      "mt_xIoQJbQ0yP",
       "mt_xYjD_kA70s",
       "mt_x_Lg4RASVU",
       "mt_xjl6AEhnjk",

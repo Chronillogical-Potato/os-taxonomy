@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "topicCount": 1852,
+  "topicCount": 1854,
   "topics": [
     {
       "id": "mt__p5n8z5soJ",
@@ -883,7 +883,7 @@
       "domain": "Digital Tools & Collaboration",
       "name": "Collaborating in shared documents",
       "description": "Use the core features of common digital tools to share content, plan tasks and collaborate — adding to a shared class book, co-editing documents or slideshows, using comments, suggestions and version history, and planning with shared task lists or boards — following agreed online behaviours",
-      "ageRangeStart": 7,
+      "ageRangeStart": 6,
       "ageRangeEnd": 12,
       "centrality": 0.02757916241062308,
       "evidence": [
@@ -895,7 +895,8 @@
       "standards": [
         "acara-v9:AC9TDI2P05",
         "acara-v9:AC9TDI4P07",
-        "acara-v9:AC9TDI6P08"
+        "acara-v9:AC9TDI6P08",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.7"
       ]
     },
     {
@@ -997,7 +998,8 @@
       "standards": [
         "acara-v9:AC9TDI2P06",
         "acara-v9:AC9TDI4P08",
-        "acara-v9:AC9TDI6P09"
+        "acara-v9:AC9TDI6P09",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.2"
       ]
     },
     {
@@ -1118,6 +1120,26 @@
       "standards": []
     },
     {
+      "id": "mt_QB4qIGJIIj",
+      "type": "META",
+      "subject": "English",
+      "domain": "English Thinking",
+      "name": "Author's word choices",
+      "description": "Recognise how an author's deliberate choices — of words, structure, tone, and perspective — create particular effects on you as a reader",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 9,
+      "centrality": 0.02247191011235955,
+      "evidence": [
+        "authorial awareness research",
+        "Understanding Author's Purpose (Firkins)",
+        "collaborative multilayered text interpretation in 5-8 year olds"
+      ],
+      "assessmentPrompt": "When {{name}} reads a book or article, do they ever notice and comment on why the author chose to write it a certain way — and what effect that has on them as a reader?",
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.5"
+      ]
+    },
+    {
       "id": "mt_GugVunb2lI",
       "type": "META",
       "subject": "English",
@@ -1132,24 +1154,6 @@
         "Metacognitive Monitoring in Reading Comprehension (MDPI 2024)"
       ],
       "assessmentPrompt": "After {{name}} reads a paragraph or listens to an explanation, do they notice when they haven't really understood it — rather than just carrying on as if they had?",
-      "standards": []
-    },
-    {
-      "id": "mt_QB4qIGJIIj",
-      "type": "META",
-      "subject": "English",
-      "domain": "English Thinking",
-      "name": "Author's word choices",
-      "description": "Recognise how an author's deliberate choices — of words, structure, tone, and perspective — create particular effects on you as a reader",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 9,
-      "centrality": 0.02247191011235955,
-      "evidence": [
-        "authorial awareness research",
-        "Understanding Author's Purpose (Firkins)",
-        "collaborative multilayered text interpretation in 5-8 year olds"
-      ],
-      "assessmentPrompt": "When {{name}} reads a book or article, do they ever notice and comment on why the author chose to write it a certain way — and what effect that has on them as a reader?",
       "standards": []
     },
     {
@@ -1243,6 +1247,7 @@
         "acara-v9:AC9EFLA05",
         "acara-v9:AC9EFLA06",
         "ccss-ela:L.K.1f",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.5",
         "uk-nc-2013:Eng.App2.Y1.Sent.1"
       ]
     },
@@ -1254,7 +1259,7 @@
       "name": "Spaces Between Words",
       "description": "Separate words with spaces in writing; understand that spaces mark word boundaries in print",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.00306435137895812,
       "evidence": [
         "Leave clear finger-spaces between words when writing",
@@ -1266,6 +1271,7 @@
         "acara-v9:AC9EFLA06",
         "acara-v9:AC9EFLY10",
         "ccss-ela:L.K.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.2",
         "uk-nc-2013:Eng.App2.Y1.Punc.1",
         "uk-nc-2013:Eng_Y1_WVGP_01"
       ]
@@ -1289,6 +1295,7 @@
       "standards": [
         "acara-v9:AC9E1LA07",
         "ccss-ela:L.K.1b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng_Y1_WVGP_05"
       ]
     },
@@ -1312,6 +1319,7 @@
         "acara-v9:AC9E1LA10",
         "acara-v9:AC9EFLA09",
         "ccss-ela:L.1.2a",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.3",
         "uk-nc-2013:Eng.App2.Y1.Punc.3",
         "uk-nc-2013:Eng_Y1_WVGP_04"
       ]
@@ -1356,6 +1364,8 @@
       "assessmentPrompt": "When {{name}} is telling you about their day, can they write two ideas joined together with the word 'and' — like \"I had lunch and then we played outside\"?",
       "standards": [
         "acara-v9:AC9E2LA06",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng.App2.Y1.Sent.2",
         "uk-nc-2013:Eng/KS1/Y2/VGP/2e",
         "uk-nc-2013:Eng_Y1_WVGP_02"
@@ -1390,7 +1400,7 @@
       "name": "Question Words",
       "description": "Understand and use question words (who, what, where, when, why, how) to form and answer questions",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.1654749744637385,
       "evidence": [
         "Ask questions using appropriate question words",
@@ -1400,7 +1410,8 @@
       "assessmentPrompt": "If {{name}} wants to find out something — like where you put their shoes or why the sky is blue — can they start their question with the right word, like \"where\" or \"why\"?",
       "standards": [
         "acara-v9:AC9HSFS01",
-        "ccss-ela:L.K.1d"
+        "ccss-ela:L.K.1d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.1"
       ]
     },
     {
@@ -1411,7 +1422,7 @@
       "name": "Regular Plural Nouns",
       "description": "Form and use regular plural nouns orally and in writing by adding -s or -es; understand that plural means more than one",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.03472931562819203,
       "evidence": [
         "Say and write correct plural forms (e.g. 'one cat, two cats'; 'one wish, two wishes')",
@@ -1421,6 +1432,7 @@
       "assessmentPrompt": "If you point to a picture of one cat and then several cats, can {{name}} tell you the correct word for more than one — and write it with the right ending, like \"cats\" or \"boxes\"?",
       "standards": [
         "ccss-ela:L.K.1c",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng.App2.Y1.Word.1",
         "uk-nc-2013:Eng.App2.Y1.Word.2"
       ]
@@ -1452,9 +1464,31 @@
         "ccss-ela:L.2.2b",
         "ccss-ela:L.K.2a",
         "ccss-ela:L.K.2b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.3",
         "uk-nc-2013:Eng.App2.Y1.Punc.2",
         "uk-nc-2013:Eng.App2.Y2.Punc.1",
         "uk-nc-2013:Eng_Y1_WVGP_03"
+      ]
+    },
+    {
+      "id": "mt_j351evNNnB",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "domain": "Grammar & Punctuation",
+      "name": "Adjectives vs adverbs",
+      "description": "Use adjectives and adverbs correctly, choosing between them depending on whether a noun or verb/adjective is being modified (e.g., 'She ran quickly' vs 'She is quick')",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": 0.01021450459652707,
+      "evidence": [
+        "Choose the correct form: 'The dog is (slow/slowly)' vs 'The dog walks (slow/slowly)'",
+        "Identify whether a word is modifying a noun (adjective) or a verb (adverb) in a given sentence",
+        "Expand sentences by adding both an adjective and an adverb: 'The tall boy ran quickly'"
+      ],
+      "assessmentPrompt": "If {{name}} writes \"she ran quick\" instead of \"she ran quickly\", can they spot that they need an adverb to describe the running — and fix it themselves?",
+      "standards": [
+        "ccss-ela:L.2.1e",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2"
       ]
     },
     {
@@ -1548,6 +1582,7 @@
         "acara-v9:AC9E2LA07",
         "acara-v9:AC9E2LY06",
         "ccss-ela:L.1.1f",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng.App2.Y2.Sent.2",
         "uk-nc-2013:Eng/KS1/Y2/VGP/2b"
       ]
@@ -1572,6 +1607,8 @@
         "acara-v9:AC9E1LA01",
         "ccss-ela:L.1.1j",
         "ccss-ela:RF.1.1.a",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.5",
         "uk-nc-2013:Eng.App2.Y2.Sent.3",
         "uk-nc-2013:Eng/KS1/Y2/VGP/2a"
       ]
@@ -1621,6 +1658,7 @@
         "acara-v9:AC9E3LY06",
         "ccss-ela:L.1.1e",
         "ccss-ela:L.3.1d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng.App2.Y2.Text.1",
         "uk-nc-2013:Eng.App2.Y2.Text.2",
         "uk-nc-2013:Eng/KS1/Y2/VGP/2c"
@@ -1645,7 +1683,32 @@
       "standards": [
         "acara-v9:AC9E1LA07",
         "acara-v9:AC9E2LA04",
-        "ccss-ela:L.1.1d"
+        "ccss-ela:L.1.1d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.1"
+      ]
+    },
+    {
+      "id": "mt_Of-WsrRQ8B",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Grammar & Punctuation",
+      "name": "Simple Past, Present and Future",
+      "description": "Form and use the simple past, present, and future verb tenses consistently in writing",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.05515832482124617,
+      "evidence": [
+        "Rewrite 'I walk to school' in past tense ('I walked') and future tense ('I will walk')",
+        "Identify and correct inconsistent tense in 'Yesterday she walks to the shop and bought milk'",
+        "Write a three-sentence paragraph maintaining consistent future tense throughout"
+      ],
+      "assessmentPrompt": "When {{name}} writes about something that happened yesterday, something happening now, and something that will happen tomorrow, do they change the verb correctly for each time — like \"I walked\", \"I walk\", and \"I will walk\"?",
+      "standards": [
+        "acara-v9:AC9E3LA08",
+        "acara-v9:AC9E4LA09",
+        "ccss-ela:L.3.1e",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2"
       ]
     },
     {
@@ -1665,7 +1728,8 @@
       ],
       "assessmentPrompt": "When {{name}} writes, can they write a short sentence about one thing happening — like 'The dog barked.' — and split a long joined-up sentence into two?",
       "standards": [
-        "acara-v9:AC9E1LA06"
+        "acara-v9:AC9E1LA06",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.1"
       ]
     },
     {
@@ -1716,29 +1780,11 @@
         "ccss-ela:L.2.1f",
         "ccss-ela:L.3.1h",
         "ccss-ela:L.3.1i",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B3.2",
         "uk-nc-2013:Eng.App2.Y2.Sent.1",
         "uk-nc-2013:Eng/KS1/Y2/VGP/2d",
         "uk-nc-2013:Eng_LKS2_Write_VGP_1"
-      ]
-    },
-    {
-      "id": "mt_j351evNNnB",
-      "type": "CONCEPTUAL",
-      "subject": "English",
-      "domain": "Grammar & Punctuation",
-      "name": "Adjectives vs adverbs",
-      "description": "Use adjectives and adverbs correctly, choosing between them depending on whether a noun or verb/adjective is being modified (e.g., 'She ran quickly' vs 'She is quick')",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.01021450459652707,
-      "evidence": [
-        "Choose the correct form: 'The dog is (slow/slowly)' vs 'The dog walks (slow/slowly)'",
-        "Identify whether a word is modifying a noun (adjective) or a verb (adverb) in a given sentence",
-        "Expand sentences by adding both an adjective and an adverb: 'The tall boy ran quickly'"
-      ],
-      "assessmentPrompt": "If {{name}} writes \"she ran quick\" instead of \"she ran quickly\", can they spot that they need an adverb to describe the running — and fix it themselves?",
-      "standards": [
-        "ccss-ela:L.2.1e"
       ]
     },
     {
@@ -2158,28 +2204,6 @@
       "assessmentPrompt": "Can {{name}} tell the difference between \"the girls' coats\" (belonging to many girls) and \"the girls are coming\" (just a plural) — and write each one correctly without mixing up the apostrophe?",
       "standards": [
         "uk-nc-2013:Eng.App2.Y4.Word.1"
-      ]
-    },
-    {
-      "id": "mt_Of-WsrRQ8B",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Grammar & Punctuation",
-      "name": "Simple Past, Present and Future",
-      "description": "Form and use the simple past, present, and future verb tenses consistently in writing",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 10,
-      "centrality": 0.05515832482124617,
-      "evidence": [
-        "Rewrite 'I walk to school' in past tense ('I walked') and future tense ('I will walk')",
-        "Identify and correct inconsistent tense in 'Yesterday she walks to the shop and bought milk'",
-        "Write a three-sentence paragraph maintaining consistent future tense throughout"
-      ],
-      "assessmentPrompt": "When {{name}} writes about something that happened yesterday, something happening now, and something that will happen tomorrow, do they change the verb correctly for each time — like \"I walked\", \"I walk\", and \"I will walk\"?",
-      "standards": [
-        "acara-v9:AC9E3LA08",
-        "acara-v9:AC9E4LA09",
-        "ccss-ela:L.3.1e"
       ]
     },
     {
@@ -3040,6 +3064,8 @@
         "acara-v9:AC9E1LY08",
         "acara-v9:AC9E2LY08",
         "acara-v9:AC9EFLY08",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.2",
         "uk-nc-2013:Eng_Y1_WH_01",
         "uk-nc-2013:Eng_Y1_WH_02"
       ]
@@ -3086,6 +3112,8 @@
         "acara-v9:AC9E2LY08",
         "acara-v9:AC9EFLY08",
         "ccss-ela:L.K.1a",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.2",
         "uk-nc-2013:Eng_Y1_WH_03"
       ]
     },
@@ -3186,6 +3214,7 @@
         "ccss-ela:RF.1.3.b",
         "ccss-ela:RF.K.3",
         "ccss-ela:RF.K.3.d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.4",
         "uk-nc-2013:Eng_App1_Y1_06",
         "uk-nc-2013:Eng_Y1_RWR_01",
         "uk-nc-2013:Eng_Y1_RWR_03"
@@ -3210,6 +3239,8 @@
       "standards": [
         "acara-v9:AC9E1LY11",
         "ccss-ela:RF.1.3.a",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.5",
         "uk-nc-2013:Eng_App1_Y1_02",
         "uk-nc-2013:Eng_App1_Y1_05",
         "uk-nc-2013:Eng_App1_Y1_10",
@@ -3226,7 +3257,7 @@
       "name": "Knowing all letters",
       "description": "Recognise and name all uppercase and lowercase letters of the alphabet; name the letters in order and use letter names to distinguish between alternative spellings",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.1961184882533197,
       "evidence": [
         "Name all 26 letters in both cases when shown in random order",
@@ -3237,6 +3268,7 @@
       "standards": [
         "acara-v9:AC9EFLY11",
         "ccss-ela:RF.K.1.d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.2",
         "uk-nc-2013:Eng_App1_Y1_01",
         "uk-nc-2013:Eng_Y1_WT_04",
         "uk-nc-2013:Eng_Y1_WT_05"
@@ -3251,7 +3283,7 @@
       "description": "Blend and segment onsets and rimes in single-syllable words; isolate and pronounce individual phonemes (initial, medial, final) in CVC words; add or substitute phonemes to make new words",
       "ageRangeStart": 4,
       "ageRangeEnd": 8,
-      "centrality": 0.1838610827374872,
+      "centrality": 0.1848825331971399,
       "evidence": [
         "Blend onset and rime to say a word (e.g. /c/ + /at/ → 'cat')",
         "Identify the first, middle, or last sound in a CVC word",
@@ -3264,6 +3296,7 @@
         "acara-v9:AC9E2LY09",
         "acara-v9:AC9EFLY09",
         "acara-v9:AC9EFLY10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.1",
         "uk-nc-2013:Eng_App1_Y1_04"
       ]
     },
@@ -3276,7 +3309,7 @@
       "description": "Recognise and produce rhyming words; join in with predictable phrases and rhymes in stories and poems; learn to appreciate and recite poems by heart",
       "ageRangeStart": 4,
       "ageRangeEnd": 8,
-      "centrality": 0.1859039836567926,
+      "centrality": 0.1869254341164454,
       "evidence": [
         "Identify which words rhyme from a set (e.g. cat, bat, dog)",
         "Generate a word that rhymes with a given target",
@@ -3290,6 +3323,7 @@
         "acara-v9:AC9EFLE04",
         "acara-v9:AC9EFLY09",
         "ccss-ela:RF.K.2.a",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.1",
         "uk-nc-2013:Eng_Y1_RC_04",
         "uk-nc-2013:Eng_Y1_RC_05"
       ]
@@ -3316,6 +3350,7 @@
         "acara-v9:AC9EFLY11",
         "ccss-ela:RF.K.3.a",
         "ccss-ela:RF.K.3.b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.3",
         "uk-nc-2013:Eng_App1_Y1_01",
         "uk-nc-2013:Eng_App1_Y1_07",
         "uk-nc-2013:Eng_App1_Y1_08",
@@ -3342,7 +3377,8 @@
         "acara-v9:AC9EFLA04",
         "ccss-ela:RF.K.1",
         "ccss-ela:RF.K.1.a",
-        "ccss-ela:RF.K.1.b"
+        "ccss-ela:RF.K.1.b",
+        "the-ontario-curriculum-kindergarten-2026:ON-K-2026-K-A3.2"
       ]
     },
     {
@@ -3366,6 +3402,7 @@
         "acara-v9:AC9E2LY10",
         "acara-v9:AC9E5LY08",
         "ccss-ela:RF.1.3.c",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.3",
         "uk-nc-2013:Eng_App1_Y1_03",
         "uk-nc-2013:Eng_App1_Y1_15",
         "uk-nc-2013:Eng_App1_Y1_16",
@@ -3439,6 +3476,7 @@
       "assessmentPrompt": "Can {{name}} read words like 'town', 'cloud', 'flew', 'claw', or 'pie' — spotting the special vowel combinations and saying the right sound for each one?",
       "standards": [
         "acara-v9:AC9E2LY10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.5",
         "uk-nc-2013:Eng_App1_Y1_34",
         "uk-nc-2013:Eng_App1_Y1_35",
         "uk-nc-2013:Eng_App1_Y1_36",
@@ -3521,6 +3559,9 @@
         "ccss-ela:RF.K.4",
         "ccss-ela:RI.1.10",
         "ccss-ela:RL.1.10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.8",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.1",
         "uk-nc-2013:Eng/KS1/Y2/WR/1",
         "uk-nc-2013:Eng/KS1/Y2/WR/7",
         "uk-nc-2013:Eng/KS1/Y2/WR/8",
@@ -3553,6 +3594,7 @@
         "ccss-ela:RF.1.3.g",
         "ccss-ela:RF.2.3.f",
         "ccss-ela:RF.K.3.c",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.8",
         "uk-nc-2013:Eng/KS1/Y2/WR/6",
         "uk-nc-2013:Eng_App1_Y1_55",
         "uk-nc-2013:Eng_App1_Y2_26",
@@ -3578,6 +3620,7 @@
       "standards": [
         "acara-v9:AC9E1LY15",
         "ccss-ela:RF.1.3.f",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.6",
         "uk-nc-2013:Eng/KS1/Y2/WR/4",
         "uk-nc-2013:Eng_Y1_RWR_05",
         "uk-nc-2013:Eng_Y1_RWR_06"
@@ -3602,6 +3645,7 @@
       "standards": [
         "acara-v9:AC9E1LY11",
         "ccss-ela:RF.1.3.c",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.3",
         "uk-nc-2013:Eng_App1_Y1_17",
         "uk-nc-2013:Eng_App1_Y1_18",
         "uk-nc-2013:Eng_App1_Y1_19",
@@ -3638,7 +3682,7 @@
       "description": "Count, blend, and segment syllables in spoken words; divide written words into syllables as an aid to reading and spelling",
       "ageRangeStart": 5,
       "ageRangeEnd": 6,
-      "centrality": 0.1859039836567926,
+      "centrality": 0.1869254341164454,
       "evidence": [
         "Clap out syllables in spoken words (e.g. 'butterfly' = 3 claps)",
         "Blend syllables to form words (e.g. 'rain' + 'bow' → 'rainbow')",
@@ -3728,6 +3772,7 @@
         "ccss-ela:RF.2.3.a",
         "ccss-ela:RF.2.3.b",
         "ccss-ela:RF.2.3.e",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.5",
         "uk-nc-2013:Eng/KS1/Y2/WR/1",
         "uk-nc-2013:Eng/KS1/Y2/WR/2",
         "uk-nc-2013:Eng_App1_Y2_01",
@@ -3749,6 +3794,26 @@
       ]
     },
     {
+      "id": "mt_xIoQJbQ0yP",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Phonics & Word Reading",
+      "name": "Blending spoken sounds",
+      "description": "Listen to a word spoken as separate speech sounds (phonemes) — with no printed word, letters, letter names or answer pictures — and combine them to say the whole word, from two sounds (“sh–e” → “she”) to longer sequences, including consonant clusters at the start or end (“f–r–o–g” → “frog”, “j–u–m–p” → “jump”). An adult says each sound clearly with brief, natural pauses and without adding “uh”; the child says the word naturally in their own accent. The examples show the kind of words used; they are not levels, a list or a limit.",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.00306435137895812,
+      "evidence": [
+        "When an adult says a word as separate sounds face to face, with nothing written or pictured (e.g. “m–a–p”), say the whole word “map” rather than repeating the sounds",
+        "Blend words with different numbers of sounds, including ones with consonant clusters at the start or end (e.g. “s–n–a–ck” → “snack”, “h–a–n–d” → “hand”)",
+        "Blend two sound sequences that differ by one sound into the two different words (e.g. “p–i–n” → “pin” but “p–i–g” → “pig”)"
+      ],
+      "assessmentPrompt": "If you play “robot talk” and say a word in separate sounds — like “f… r… o… g” — without showing any letters or pictures, can {{name}} put the sounds together and say “frog”?",
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.1"
+      ]
+    },
+    {
       "id": "mt_-nj-DnW4uU",
       "type": "PROCEDURAL",
       "subject": "English",
@@ -3766,7 +3831,8 @@
       "assessmentPrompt": "When reading, can {{name}} sound out words like 'frog', 'jump' and 'blanket' — and spell them without leaving out a sound?",
       "standards": [
         "acara-v9:AC9E1LY11",
-        "acara-v9:AC9E2LY10"
+        "acara-v9:AC9E2LY10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.4"
       ]
     },
     {
@@ -3810,6 +3876,7 @@
         "ccss-ela:RF.4.4.c",
         "ccss-ela:RI.4.10",
         "ccss-ela:RL.4.10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.8",
         "uk-nc-2013:Eng.UKS2.Read.Word.1",
         "uk-nc-2013:Eng/KS1/Y2/WR/6",
         "uk-nc-2013:Eng/KS1/Y2/WR/7",
@@ -3835,7 +3902,8 @@
       ],
       "assessmentPrompt": "If you say a word like 'jump' or 'stop', can {{name}} say each sound separately — j-u-m-p — without missing the sounds that are squashed together?",
       "standards": [
-        "acara-v9:AC9E1LY09"
+        "acara-v9:AC9E1LY09",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.1"
       ]
     },
     {
@@ -3937,8 +4005,33 @@
         "acara-v9:AC9E1LY05",
         "acara-v9:AC9E2LY05",
         "acara-v9:AC9EFLY05",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.8",
         "uk-nc-2013:Eng_Y1_RC_09",
         "uk-nc-2013:Eng_Y1_RC_11"
+      ]
+    },
+    {
+      "id": "mt_OTFABm2xdf",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Reading Comprehension",
+      "name": "Rhythm in rhymes and songs",
+      "description": "Explore and replicate the rhythms and sound patterns of nursery rhymes, chants and songs by clapping or tapping the beat and joining in with repeated sound patterns",
+      "ageRangeStart": 4,
+      "ageRangeEnd": 6,
+      "centrality": 0.005107252298263534,
+      "evidence": [
+        "Clap the steady beat while saying a nursery rhyme such as 'Hickory Dickory Dock'",
+        "Repeat a chant line keeping the same rhythm the teacher used",
+        "Join in a song's repeated sound pattern (e.g. 'splish, splash') at the right moment"
+      ],
+      "assessmentPrompt": "When you sing or say a nursery rhyme together, can {{name}} clap along to the beat and join in with the repeated sounds?",
+      "standards": [
+        "acara-v9:AC9EFLE04",
+        "the-ontario-curriculum-kindergarten-2026:ON-K-2026-K-D24.3"
       ]
     },
     {
@@ -3964,7 +4057,8 @@
         "ccss-ela:RI.1.8",
         "ccss-ela:RI.2.4",
         "ccss-ela:RI.K.5",
-        "ccss-ela:RI.K.8"
+        "ccss-ela:RI.K.8",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3"
       ]
     },
     {
@@ -3996,6 +4090,7 @@
         "ccss-ela:RL.1.3",
         "ccss-ela:RL.K.2",
         "ccss-ela:RL.K.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.3",
         "uk-nc-2013:Eng/KS1/Y2/C/1c",
         "uk-nc-2013:Eng_LKS2_Read_Comp_4",
         "uk-nc-2013:Eng_Y1_RC_03"
@@ -4027,7 +4122,9 @@
         "ccss-ela:RI.K.9",
         "ccss-ela:RL.1.9",
         "ccss-ela:RL.3.9",
-        "ccss-ela:RL.K.9"
+        "ccss-ela:RL.K.9",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.5"
       ]
     },
     {
@@ -4054,6 +4151,11 @@
         "acara-v9:AC9E5LY02",
         "acara-v9:AC9EFLE01",
         "acara-v9:AC9EFLY05",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.7",
         "uk-nc-2013:Eng/KS1/Y2/C/2a",
         "uk-nc-2013:Eng_Y1_RC_02",
         "uk-nc-2013:Eng_Y1_RC_07"
@@ -4086,7 +4188,9 @@
         "ccss-ela:RI.K.6",
         "ccss-ela:RL.1.5",
         "ccss-ela:RL.K.5",
-        "ccss-ela:RL.K.6"
+        "ccss-ela:RL.K.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.2"
       ]
     },
     {
@@ -4112,6 +4216,8 @@
         "acara-v9:AC9EFLE02",
         "ccss-ela:RI.K.10",
         "ccss-ela:RL.K.10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.6",
         "uk-nc-2013:Eng.UKS2.Read.Comp.6",
         "uk-nc-2013:Eng/KS1/Y2/C/2d",
         "uk-nc-2013:Eng/KS1/Y2/C/3",
@@ -4146,6 +4252,10 @@
         "ccss-ela:RL.3.10",
         "ccss-ela:SL.1.2",
         "ccss-ela:SL.K.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.7",
         "uk-nc-2013:Eng.UKS2.Read.Comp.1a",
         "uk-nc-2013:Eng.UKS2.Read.Comp.1b",
         "uk-nc-2013:Eng.UKS2.Read.Comp.1c",
@@ -4175,7 +4285,10 @@
         "ccss-ela:RI.1.2",
         "ccss-ela:RI.1.8",
         "ccss-ela:RI.K.2",
-        "ccss-ela:RI.K.3"
+        "ccss-ela:RI.K.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3"
       ]
     },
     {
@@ -4200,7 +4313,9 @@
         "acara-v9:AC9E4LY05",
         "acara-v9:AC9E5LY05",
         "acara-v9:AC9E6LY05",
-        "acara-v9:AC9EFLY05"
+        "acara-v9:AC9EFLY05",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.7"
       ]
     },
     {
@@ -4223,7 +4338,10 @@
         "acara-v9:AC9E1LA05",
         "acara-v9:AC9E2LA05",
         "acara-v9:AC9EFLA04",
-        "acara-v9:AC9TDI2P04"
+        "acara-v9:AC9TDI2P04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.4"
       ]
     },
     {
@@ -4258,7 +4376,11 @@
         "ccss-ela:RL.1.7",
         "ccss-ela:RL.2.7",
         "ccss-ela:RL.3.7",
-        "ccss-ela:RL.K.7"
+        "ccss-ela:RL.K.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.3"
       ]
     },
     {
@@ -4297,6 +4419,12 @@
         "ccss-ela:RL.2.1",
         "ccss-ela:RL.3.1",
         "ccss-ela:RL.K.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.8",
         "uk-nc-2013:Eng.UKS2.Read.Comp.2b",
         "uk-nc-2013:Eng/KS1/Y2/C/2c",
         "uk-nc-2013:Eng_Y1_RC_10"
@@ -4330,28 +4458,9 @@
         "ccss-ela:RL.1.2",
         "ccss-ela:RL.1.3",
         "ccss-ela:RL.2.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.3",
         "uk-nc-2013:Eng/KS1/Y2/C/1c",
         "uk-nc-2013:Eng/KS1/Y2/C/2c"
-      ]
-    },
-    {
-      "id": "mt_OTFABm2xdf",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Reading Comprehension",
-      "name": "Rhythm in rhymes and songs",
-      "description": "Explore and replicate the rhythms and sound patterns of nursery rhymes, chants and songs by clapping or tapping the beat and joining in with repeated sound patterns",
-      "ageRangeStart": 5,
-      "ageRangeEnd": 6,
-      "centrality": 0.005107252298263534,
-      "evidence": [
-        "Clap the steady beat while saying a nursery rhyme such as 'Hickory Dickory Dock'",
-        "Repeat a chant line keeping the same rhythm the teacher used",
-        "Join in a song's repeated sound pattern (e.g. 'splish, splash') at the right moment"
-      ],
-      "assessmentPrompt": "When you sing or say a nursery rhyme together, can {{name}} clap along to the beat and join in with the repeated sounds?",
-      "standards": [
-        "acara-v9:AC9EFLE04"
       ]
     },
     {
@@ -4379,6 +4488,7 @@
         "acara-v9:AC9E6LY04",
         "acara-v9:AC9EFLY04",
         "ccss-ela:RF.5.4.c",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.4",
         "uk-nc-2013:Eng.UKS2.Read.Comp.2a",
         "uk-nc-2013:Eng/KS1/Y2/C/2b",
         "uk-nc-2013:Eng_LKS2_Read_Comp_10",
@@ -4404,7 +4514,14 @@
       "assessmentPrompt": "If {{name}} wants to find out what koalas eat, do they know to pick an information book rather than a storybook — and can they say what each kind of book is for?",
       "standards": [
         "acara-v9:AC9E1LY03",
-        "acara-v9:AC9EFLY01"
+        "acara-v9:AC9EFLY01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.5"
       ]
     },
     {
@@ -4430,7 +4547,10 @@
         "ccss-ela:RL.1.9",
         "ccss-ela:RL.2.3",
         "ccss-ela:RL.2.6",
-        "ccss-ela:RL.2.9"
+        "ccss-ela:RL.2.9",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.4"
       ]
     },
     {
@@ -4460,6 +4580,7 @@
         "ccss-ela:RL.1.4",
         "ccss-ela:RL.2.4",
         "ccss-ela:RL.3.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.5",
         "uk-nc-2013:Eng/KS1/Y2/C/1e",
         "uk-nc-2013:Eng/KS1/Y2/C/1g",
         "uk-nc-2013:Eng_LKS2_Read_Comp_7"
@@ -4486,7 +4607,32 @@
         "acara-v9:AC9E2LA03",
         "acara-v9:AC9E3LA03",
         "acara-v9:AC9E4LA03",
-        "acara-v9:AC9E5LA03"
+        "acara-v9:AC9E5LA03",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.1"
+      ]
+    },
+    {
+      "id": "mt_jIcgbCmziD",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "domain": "Reading Comprehension",
+      "name": "Identifying a text’s intended audience",
+      "description": "Identify who a text is intended for using textual and visual clues such as its topic, words, language features, pictures, layout and where the text appears",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 14,
+      "centrality": 0.02247191011235955,
+      "evidence": [
+        "Say who a text is mainly for (e.g. a toddler's board book, a school newsletter for parents, a cereal ad for children) and point to a word, picture or layout clue",
+        "Identify the intended audience of a poster or web page from where it appears and the language it uses (e.g. 'you' and exclamations for children, technical terms for experts)",
+        "Sort a set of texts on one topic (e.g. a picture book, a science magazine article, a council notice) by intended audience and justify each choice with a clue"
+      ],
+      "assessmentPrompt": "If {{name}} picks up a leaflet, a magazine or a web page, can they tell who it was made for — little kids, teenagers, parents or experts — and point to the words or pictures that give it away?",
+      "standards": [
+        "acara-v9:AC9E2LY03",
+        "acara-v9:AC9E3LY03",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.5",
+        "uk-nc-2013:KS3-ENG-R-2c"
       ]
     },
     {
@@ -4544,8 +4690,32 @@
         "ccss-ela:RI.2.5",
         "ccss-ela:RI.2.6",
         "ccss-ela:RI.3.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3",
         "uk-nc-2013:Eng/KS1/Y2/C/1d",
         "uk-nc-2013:Eng_LKS2_Read_Comp_2"
+      ]
+    },
+    {
+      "id": "mt_mSpJK-rKW_",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "domain": "Reading Comprehension",
+      "name": "Sound and meaning in poems",
+      "description": "Explain the way authors use sound devices (alliteration, assonance, rhythm, rhyme, onomatopoeia) together with imagery to create meaning and effect in poetry and prose",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
+      "centrality": 0.04392236976506639,
+      "evidence": [
+        "Explain how the rhythm and rhyme of a poem (e.g. Banjo Paterson's ballad 'The Man from Snowy River') create a feeling such as galloping speed",
+        "Explain how alliteration, assonance or onomatopoeia (e.g. 'crash', 'sizzle') combine with imagery in a poem or story to create a particular mood",
+        "Read a poem aloud twice — once flatly and once stressing its sound devices — and explain how the meaning and effect change"
+      ],
+      "assessmentPrompt": "When reading a poem aloud, can {{name}} explain how its rhythm and repeated sounds help create a feeling — like the galloping beat of a horse-riding poem?",
+      "standards": [
+        "acara-v9:AC9E3LE04",
+        "acara-v9:AC9E5LE04",
+        "acara-v9:AC9E6LE04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.1"
       ]
     },
     {
@@ -4570,6 +4740,11 @@
         "ccss-ela:RI.2.10",
         "ccss-ela:RL.1.2",
         "ccss-ela:RL.2.10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.4",
         "uk-nc-2013:Eng/KS1/Y2/C/1b",
         "uk-nc-2013:Eng/KS1/Y2/C/1c"
       ]
@@ -4591,7 +4766,9 @@
       ],
       "assessmentPrompt": "When {{name}} sings a favourite song or chant, do they notice the line that keeps repeating and the rhyming words that make it easy to remember?",
       "standards": [
-        "acara-v9:AC9E1LA04"
+        "acara-v9:AC9E1LA04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.1"
       ]
     },
     {
@@ -4638,28 +4815,6 @@
       "assessmentPrompt": "When reading a story set in the Australian bush or by the sea, can {{name}} explain how the place affects what the characters do or feel?",
       "standards": [
         "acara-v9:AC9E2LE01"
-      ]
-    },
-    {
-      "id": "mt_jIcgbCmziD",
-      "type": "CONCEPTUAL",
-      "subject": "English",
-      "domain": "Reading Comprehension",
-      "name": "Identifying a text’s intended audience",
-      "description": "Identify who a text is intended for using textual and visual clues such as its topic, words, language features, pictures, layout and where the text appears",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 14,
-      "centrality": 0.02247191011235955,
-      "evidence": [
-        "Say who a text is mainly for (e.g. a toddler's board book, a school newsletter for parents, a cereal ad for children) and point to a word, picture or layout clue",
-        "Identify the intended audience of a poster or web page from where it appears and the language it uses (e.g. 'you' and exclamations for children, technical terms for experts)",
-        "Sort a set of texts on one topic (e.g. a picture book, a science magazine article, a council notice) by intended audience and justify each choice with a clue"
-      ],
-      "assessmentPrompt": "If {{name}} picks up a leaflet, a magazine or a web page, can they tell who it was made for — little kids, teenagers, parents or experts — and point to the words or pictures that give it away?",
-      "standards": [
-        "acara-v9:AC9E2LY03",
-        "acara-v9:AC9E3LY03",
-        "uk-nc-2013:KS3-ENG-R-2c"
       ]
     },
     {
@@ -5012,28 +5167,6 @@
       "assessmentPrompt": "If {{name}} sees two ads or books on the same topic — one for little kids and one for grown-ups — can they spot how they're written differently?",
       "standards": [
         "acara-v9:AC9E3LY01"
-      ]
-    },
-    {
-      "id": "mt_mSpJK-rKW_",
-      "type": "CONCEPTUAL",
-      "subject": "English",
-      "domain": "Reading Comprehension",
-      "name": "Sound and meaning in poems",
-      "description": "Explain the way authors use sound devices (alliteration, assonance, rhythm, rhyme, onomatopoeia) together with imagery to create meaning and effect in poetry and prose",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 12,
-      "centrality": 0.04392236976506639,
-      "evidence": [
-        "Explain how the rhythm and rhyme of a poem (e.g. Banjo Paterson's ballad 'The Man from Snowy River') create a feeling such as galloping speed",
-        "Explain how alliteration, assonance or onomatopoeia (e.g. 'crash', 'sizzle') combine with imagery in a poem or story to create a particular mood",
-        "Read a poem aloud twice — once flatly and once stressing its sound devices — and explain how the meaning and effect change"
-      ],
-      "assessmentPrompt": "When reading a poem aloud, can {{name}} explain how its rhythm and repeated sounds help create a feeling — like the galloping beat of a horse-riding poem?",
-      "standards": [
-        "acara-v9:AC9E3LE04",
-        "acara-v9:AC9E5LE04",
-        "acara-v9:AC9E6LE04"
       ]
     },
     {
@@ -6186,6 +6319,7 @@
         "ccss-ela:SL.4.3",
         "ccss-ela:SL.5.3",
         "ccss-ela:SL.K.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.1",
         "uk-nc-2013:Eng.SL.2"
       ]
     },
@@ -6220,6 +6354,9 @@
         "ccss-ela:SL.3.6",
         "ccss-ela:SL.K.4",
         "ccss-ela:SL.K.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.2",
         "uk-nc-2013:Eng.SL.5",
         "uk-nc-2013:Eng.SL.8"
       ]
@@ -6232,7 +6369,7 @@
       "name": "Exploring Ideas Through Talk",
       "description": "Use spoken language to develop understanding through speculating, hypothesising, imagining, and exploring ideas; use strategies to build vocabulary through talk",
       "ageRangeStart": 4,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.2849846782431052,
       "evidence": [
         "Wonder aloud about possibilities (e.g. 'What if...' or 'I think it might be because...')",
@@ -6241,6 +6378,8 @@
       ],
       "assessmentPrompt": "When {{name}} is trying to figure something out — like why something happened in a story or how something works — do they talk through their ideas out loud and explore possibilities before settling on an answer?",
       "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.5",
         "uk-nc-2013:Eng.SL.3",
         "uk-nc-2013:Eng.SL.7"
       ]
@@ -6271,6 +6410,8 @@
         "acara-v9:AC9EFLA02",
         "acara-v9:AC9HSFS03",
         "acara-v9:AC9TDE2P03",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.6",
         "uk-nc-2013:Eng.SL.4",
         "uk-nc-2013:Eng.SL.9"
       ]
@@ -6296,6 +6437,7 @@
         "acara-v9:AC9E2LY02",
         "acara-v9:AC9E3LY02",
         "acara-v9:AC9E4LY02",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.3",
         "uk-nc-2013:Eng.SL.6"
       ]
     },
@@ -6321,6 +6463,9 @@
         "acara-v9:AC9E3LA01",
         "acara-v9:AC9E4LY02",
         "acara-v9:AC9EFLY02",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.3",
         "uk-nc-2013:Eng.SL.1"
       ]
     },
@@ -6342,7 +6487,9 @@
       "assessmentPrompt": "When {{name}} plays shop or has a friend over, do they change how they talk to suit their role — like 'How can I help you?' as the shopkeeper or 'Thanks for having me' as a guest?",
       "standards": [
         "acara-v9:AC9E2LA01",
-        "acara-v9:AC9EFLA01"
+        "acara-v9:AC9EFLA01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.3"
       ]
     },
     {
@@ -6362,7 +6509,9 @@
       ],
       "assessmentPrompt": "When {{name}} wants something at the dinner table, do they ask with polite words and a friendly face — and can they offer things to others, like 'Would you like some?'",
       "standards": [
-        "acara-v9:AC9E1LA01"
+        "acara-v9:AC9E1LA01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.4"
       ]
     },
     {
@@ -6877,6 +7026,9 @@
         "ccss-ela:L.1.2e",
         "ccss-ela:L.K.2c",
         "ccss-ela:L.K.2d",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.4",
         "uk-nc-2013:Eng_App1_Y1_04",
         "uk-nc-2013:Eng_App1_Y2_01",
         "uk-nc-2013:Eng_Y1_WT_01"
@@ -6899,6 +7051,7 @@
       ],
       "assessmentPrompt": "If you read a sentence out loud to {{name}} and ask them to write it down, can they spell the words correctly and put the letters in the right order?",
       "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.4",
         "uk-nc-2013:Eng/KS1/Y2/S/4",
         "uk-nc-2013:Eng_LKS2_Write_Trans_Spell_6",
         "uk-nc-2013:Eng_Y1_WT_10"
@@ -6924,6 +7077,7 @@
         "acara-v9:AC9E1LY06",
         "acara-v9:AC9E1LY13",
         "acara-v9:AC9E1LY15",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.6",
         "uk-nc-2013:Eng_App1_Y1_12",
         "uk-nc-2013:Eng_App1_Y1_13",
         "uk-nc-2013:Eng_App1_Y1_14",
@@ -6949,6 +7103,7 @@
       "assessmentPrompt": "Does {{name}} know that adding \"un-\" to the front of a word like \"happy\" or \"lock\" flips its meaning, and can they spell those words correctly?",
       "standards": [
         "acara-v9:AC9E2LY12",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.6",
         "uk-nc-2013:Eng_App1_Y1_53",
         "uk-nc-2013:Eng_Y1_WT_07"
       ]
@@ -7012,6 +7167,7 @@
         "ccss-ela:L.2.2d",
         "ccss-ela:L.3.2e",
         "ccss-ela:L.3.2f",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.5",
         "uk-nc-2013:Eng/KS1/Y2/S/1a",
         "uk-nc-2013:Eng/KS1/Y2/S/1b",
         "uk-nc-2013:Eng/KS1/Y2/S/1f",
@@ -7486,6 +7642,7 @@
         "ccss-ela:RI.1.4",
         "ccss-ela:RI.K.4",
         "ccss-ela:RL.K.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.7",
         "uk-nc-2013:Eng/KS1/Y2/C/1f",
         "uk-nc-2013:Eng_LKS2_Read_Comp_10",
         "uk-nc-2013:Eng_LKS2_Read_Comp_3",
@@ -7544,7 +7701,9 @@
         "ccss-ela:L.1.5a",
         "ccss-ela:L.2.5a",
         "ccss-ela:L.K.5a",
-        "ccss-ela:L.K.5b"
+        "ccss-ela:L.K.5b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.4"
       ]
     },
     {
@@ -7574,7 +7733,10 @@
         "ccss-ela:L.1.6",
         "ccss-ela:L.2.6",
         "ccss-ela:L.3.6",
-        "ccss-ela:L.K.6"
+        "ccss-ela:L.K.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.7"
       ]
     },
     {
@@ -7598,6 +7760,7 @@
         "ccss-ela:L.1.4b",
         "ccss-ela:L.2.4c",
         "ccss-ela:L.K.4b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.7",
         "uk-nc-2013:Eng.App2.Y1.Word.3"
       ]
     },
@@ -7648,6 +7811,7 @@
         "ccss-ela:L.1.4b",
         "ccss-ela:L.1.4c",
         "ccss-ela:L.3.4b",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B2.6",
         "uk-nc-2013:Eng.App2.Y2.Word.1",
         "uk-nc-2013:Eng.App2.Y2.Word.2",
         "uk-nc-2013:Eng.App2.Y2.Word.3"
@@ -8026,7 +8190,7 @@
       "name": "Changing a familiar story",
       "description": "Retell and adapt a familiar story by changing a character, the setting or the ending through play, performance, drawing or simple writing",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.01736465781409601,
       "evidence": [
         "Act out 'The Three Little Pigs' with puppets but change the wolf into a different animal",
@@ -8035,7 +8199,9 @@
       ],
       "assessmentPrompt": "When playing with toys or puppets, does {{name}} retell a story they know but change it — like giving it a new ending or a different character?",
       "standards": [
-        "acara-v9:AC9EFLE05"
+        "acara-v9:AC9EFLE05",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.6"
       ]
     },
     {
@@ -8059,6 +8225,7 @@
         "acara-v9:AC9EFLY06",
         "ccss-ela:W.1.5",
         "ccss-ela:W.K.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.5",
         "uk-nc-2013:Eng/KS1/Y2/WC/3a",
         "uk-nc-2013:Eng_Y1_WC_04",
         "uk-nc-2013:Eng_Y1_WC_05"
@@ -8072,7 +8239,7 @@
       "name": "Saying Sentences Before Writing Them",
       "description": "Say out loud what is going to be written; compose sentences orally before writing them down as preparation for independent writing",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.1052093973442288,
       "evidence": [
         "Say a complete sentence aloud before attempting to write it",
@@ -8081,6 +8248,7 @@
       ],
       "assessmentPrompt": "Before {{name}} starts writing a sentence, do they say it out loud first — testing how it sounds — before putting pen to paper?",
       "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.2",
         "uk-nc-2013:Eng_Y1_WC_01",
         "uk-nc-2013:Eng_Y1_WC_02"
       ]
@@ -8112,7 +8280,10 @@
         "ccss-ela:W.2.8",
         "ccss-ela:W.3.10",
         "ccss-ela:W.K.7",
-        "ccss-ela:W.K.8"
+        "ccss-ela:W.K.8",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.3"
       ]
     },
     {
@@ -8145,6 +8316,11 @@
         "ccss-ela:W.4.6",
         "ccss-ela:W.5.6",
         "ccss-ela:W.K.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.3",
         "uk-nc-2013:Eng.UKS2.Write.Comp.4",
         "uk-nc-2013:Eng/KS1/Y2/WC/4",
         "uk-nc-2013:Eng_LKS2_Write_Comp_10",
@@ -8174,6 +8350,10 @@
         "acara-v9:AC9EFLY06",
         "ccss-ela:W.1.3",
         "ccss-ela:W.K.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.4",
         "uk-nc-2013:Eng.App2.Y1.Text.1",
         "uk-nc-2013:Eng_Y1_WC_03"
       ]
@@ -8200,7 +8380,9 @@
         "acara-v9:AC9E1LY06",
         "acara-v9:AC9EFLA02",
         "ccss-ela:W.1.1",
-        "ccss-ela:W.K.1"
+        "ccss-ela:W.K.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.3"
       ]
     },
     {
@@ -8219,7 +8401,10 @@
         "Describe the purpose of a piece of writing (to persuade, inform, entertain, or instruct) and match their language to it"
       ],
       "assessmentPrompt": "If you asked {{name}} to explain what they're doing when they write a story at school, could they walk you through each step using words like 'plan', 'draft', and 'revise' — showing they understand it's a process, not just one sitting?",
-      "standards": []
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.1"
+      ]
     },
     {
       "id": "mt__MDiDU9Vck",
@@ -8241,7 +8426,8 @@
         "acara-v9:AC9E1LY06",
         "acara-v9:AC9EFLY06",
         "ccss-ela:W.1.2",
-        "ccss-ela:W.K.2"
+        "ccss-ela:W.K.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.1"
       ]
     },
     {
@@ -8305,6 +8491,7 @@
       "standards": [
         "acara-v9:AC9E4LA03",
         "ccss-ela:W.1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.1",
         "uk-nc-2013:Eng/KS1/Y2/WC/1b",
         "uk-nc-2013:Eng/KS1/Y2/WC/1d"
       ]
@@ -8333,12 +8520,41 @@
         "ccss-ela:W.1.1",
         "ccss-ela:W.3.4",
         "ccss-ela:W.4.10",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.5",
         "uk-nc-2013:Eng.UKS2.Write.Comp.1b",
         "uk-nc-2013:Eng/KS1/Y2/WC/2a",
         "uk-nc-2013:Eng/KS1/Y2/WC/2b",
         "uk-nc-2013:Eng/KS1/Y2/WC/2c",
         "uk-nc-2013:Eng_LKS2_Write_Comp_1",
         "uk-nc-2013:Eng_LKS2_Write_Comp_2"
+      ]
+    },
+    {
+      "id": "mt_av-uRBrhwT",
+      "type": "META",
+      "subject": "English",
+      "domain": "Writing Composition",
+      "name": "Planning, Revising and Editing Writing",
+      "description": "Plan, revise, and edit writing to improve coherence and effectiveness — considering how the writing reflects its intended audience and purpose, amending vocabulary, grammar, and structure, and proofreading for accurate spelling, punctuation, and grammar",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 14,
+      "centrality": 0.0898876404494382,
+      "evidence": [
+        "Revise a draft to improve paragraph structure, adding or removing material for coherence",
+        "Edit sentence-level issues including word choice, grammar, and punctuation before finalising",
+        "Reflect on whether the writing achieves its intended effect on the target audience and adjust accordingly"
+      ],
+      "assessmentPrompt": "After {{name}} finishes a first draft, do they go back and make real improvements — not just fixing spelling, but changing sentences or reorganising ideas to make it better?",
+      "standards": [
+        "ccss-ela:W.6.5",
+        "ccss-ela:W.7.5",
+        "ccss-ela:W.8.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3",
+        "uk-nc-2013:KS3-ENG-W-2a",
+        "uk-nc-2013:KS3-ENG-W-2b",
+        "uk-nc-2013:KS3-ENG-W-2c"
       ]
     },
     {
@@ -8360,9 +8576,50 @@
       "standards": [
         "acara-v9:AC9E2LE05",
         "acara-v9:AC9E2LY06",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.5",
         "uk-nc-2013:Eng/KS1/Y2/WC/3a",
         "uk-nc-2013:Eng/KS1/Y2/WC/3b",
         "uk-nc-2013:Eng/KS1/Y2/WC/3c"
+      ]
+    },
+    {
+      "id": "mt_pis4novXWQ",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "domain": "Writing Composition",
+      "name": "Revising and editing (age 7+)",
+      "description": "Evaluate and edit writing by assessing effectiveness, proposing changes to grammar and vocabulary for consistency, and proof-reading for spelling, grammar and punctuation errors at Y3-4 level",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
+      "centrality": 0.05515832482124617,
+      "evidence": [
+        "Read own or a peer's writing aloud and suggest specific improvements to vocabulary or sentence structure",
+        "Propose changes to grammar and word choice to improve clarity and consistency across a piece of writing",
+        "Proof-read writing at Y3-4 level for spelling, punctuation, and grammatical errors and correct them independently"
+      ],
+      "assessmentPrompt": "When {{name}} revisits a draft piece of writing, can they improve it — changing word choices to be more precise, fixing inconsistent tenses, and correcting spelling and punctuation errors?",
+      "standards": [
+        "acara-v9:AC9E3LE05",
+        "acara-v9:AC9E3LY06",
+        "acara-v9:AC9E4LE05",
+        "acara-v9:AC9E4LY06",
+        "acara-v9:AC9E5LE05",
+        "acara-v9:AC9E5LY06",
+        "acara-v9:AC9E6LE05",
+        "acara-v9:AC9E6LY06",
+        "ccss-ela:L.3.2a",
+        "ccss-ela:W.3.5",
+        "ccss-ela:W.4.5",
+        "ccss-ela:W.5.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3a",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3b",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3c",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3d",
+        "uk-nc-2013:Eng.UKS2.Write.Comp.3e",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_7",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_8",
+        "uk-nc-2013:Eng_LKS2_Write_Comp_9"
       ]
     },
     {
@@ -8545,45 +8802,6 @@
       "assessmentPrompt": "Does {{name}} try out a sentence aloud before writing it — experimenting with different words and structures to find the version that sounds best?",
       "standards": [
         "uk-nc-2013:Eng_LKS2_Write_Comp_3"
-      ]
-    },
-    {
-      "id": "mt_pis4novXWQ",
-      "type": "PROCEDURAL",
-      "subject": "English",
-      "domain": "Writing Composition",
-      "name": "Revising and editing (age 7+)",
-      "description": "Evaluate and edit writing by assessing effectiveness, proposing changes to grammar and vocabulary for consistency, and proof-reading for spelling, grammar and punctuation errors at Y3-4 level",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 12,
-      "centrality": 0.05515832482124617,
-      "evidence": [
-        "Read own or a peer's writing aloud and suggest specific improvements to vocabulary or sentence structure",
-        "Propose changes to grammar and word choice to improve clarity and consistency across a piece of writing",
-        "Proof-read writing at Y3-4 level for spelling, punctuation, and grammatical errors and correct them independently"
-      ],
-      "assessmentPrompt": "When {{name}} revisits a draft piece of writing, can they improve it — changing word choices to be more precise, fixing inconsistent tenses, and correcting spelling and punctuation errors?",
-      "standards": [
-        "acara-v9:AC9E3LE05",
-        "acara-v9:AC9E3LY06",
-        "acara-v9:AC9E4LE05",
-        "acara-v9:AC9E4LY06",
-        "acara-v9:AC9E5LE05",
-        "acara-v9:AC9E5LY06",
-        "acara-v9:AC9E6LE05",
-        "acara-v9:AC9E6LY06",
-        "ccss-ela:L.3.2a",
-        "ccss-ela:W.3.5",
-        "ccss-ela:W.4.5",
-        "ccss-ela:W.5.5",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3a",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3b",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3c",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3d",
-        "uk-nc-2013:Eng.UKS2.Write.Comp.3e",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_7",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_8",
-        "uk-nc-2013:Eng_LKS2_Write_Comp_9"
       ]
     },
     {
@@ -9010,31 +9228,6 @@
       ]
     },
     {
-      "id": "mt_av-uRBrhwT",
-      "type": "META",
-      "subject": "English",
-      "domain": "Writing Composition",
-      "name": "Planning, Revising and Editing Writing",
-      "description": "Plan, revise, and edit writing to improve coherence and effectiveness — considering how the writing reflects its intended audience and purpose, amending vocabulary, grammar, and structure, and proofreading for accurate spelling, punctuation, and grammar",
-      "ageRangeStart": 11,
-      "ageRangeEnd": 14,
-      "centrality": 0.0898876404494382,
-      "evidence": [
-        "Revise a draft to improve paragraph structure, adding or removing material for coherence",
-        "Edit sentence-level issues including word choice, grammar, and punctuation before finalising",
-        "Reflect on whether the writing achieves its intended effect on the target audience and adjust accordingly"
-      ],
-      "assessmentPrompt": "After {{name}} finishes a first draft, do they go back and make real improvements — not just fixing spelling, but changing sentences or reorganising ideas to make it better?",
-      "standards": [
-        "ccss-ela:W.6.5",
-        "ccss-ela:W.7.5",
-        "ccss-ela:W.8.5",
-        "uk-nc-2013:KS3-ENG-W-2a",
-        "uk-nc-2013:KS3-ENG-W-2b",
-        "uk-nc-2013:KS3-ENG-W-2c"
-      ]
-    },
-    {
       "id": "mt_Qcsl1Z1x0l",
       "type": "PROCEDURAL",
       "subject": "English",
@@ -9271,7 +9464,7 @@
       "name": "Special places I belong to",
       "description": "Describe the features of familiar places they belong to (home, school, park, place of worship), explain why some places are special to them and others, and suggest how places can be looked after",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.03677221654749745,
       "evidence": [
         "Draw a familiar place they belong to and label two features (e.g. the swings, the big tree, the front door)",
@@ -9280,7 +9473,9 @@
       ],
       "assessmentPrompt": "Can {{name}} draw a place that's special to them — like the park or Grandma's house — label what's there, and tell you why it's special and how to look after it?",
       "standards": [
-        "acara-v9:AC9HSFK03"
+        "acara-v9:AC9HSFK03",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2"
       ]
     },
     {
@@ -10637,7 +10832,7 @@
       "name": "Celebrations we share",
       "description": "Describe the celebrations and commemorations of significant events that they share with their families and others, and how they are marked",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.009193054136874362,
       "evidence": [
         "Describe how their family celebrates a special event (e.g. a birthday, Christmas, Diwali, Eid or Lunar New Year) using a photo or object from home",
@@ -10646,7 +10841,9 @@
       ],
       "assessmentPrompt": "Can {{name}} tell a classmate how your family celebrates a special day — and understand that some days, like Anzac Day, are for remembering?",
       "standards": [
-        "acara-v9:AC9HSFK02"
+        "acara-v9:AC9HSFK02",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.4"
       ]
     },
     {
@@ -10657,7 +10854,7 @@
       "name": "My family and where we're from",
       "description": "Identify the people in their family, where family members were born and raised, and how they are related to each other",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.04800817160367722,
       "evidence": [
         "Name the people in their family and say how each is related to them (e.g. 'Nan is Mum's mum')",
@@ -10667,7 +10864,8 @@
       "assessmentPrompt": "Can {{name}} tell you who is in your family and how they're related — like 'Nan is Mum's mum' — and where someone in the family was born or grew up?",
       "standards": [
         "acara-v9:AC9HPFP01",
-        "acara-v9:AC9HSFK01"
+        "acara-v9:AC9HSFK01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2"
       ]
     },
     {
@@ -10688,7 +10886,8 @@
       "assessmentPrompt": "After chatting with a grandparent about when they were young, can {{name}} tell you one thing that's the same today and one thing that's changed?",
       "standards": [
         "acara-v9:AC9HS1K01",
-        "acara-v9:AC9HS1K02"
+        "acara-v9:AC9HS1K02",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.7"
       ]
     },
     {
@@ -10790,7 +10989,8 @@
       "standards": [
         "acara-v9:AC9HS1S02",
         "acara-v9:AC9HS2S02",
-        "acara-v9:AC9HSFS02"
+        "acara-v9:AC9HSFS02",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.3"
       ]
     },
     {
@@ -10811,7 +11011,9 @@
       "assessmentPrompt": "If the local park became a car park, can {{name}} explain how different people might see it differently — and understand that two people can describe the same event differently and both be honest?",
       "standards": [
         "acara-v9:AC9HS1S04",
-        "acara-v9:AC9HS2S04"
+        "acara-v9:AC9HS2S04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.5"
       ]
     },
     {
@@ -11631,6 +11833,7 @@
       ],
       "assessmentPrompt": "After {{name}} finishes a piece of work or activity, do they look it over themselves to check it seems right before saying they're done?",
       "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
@@ -11657,6 +11860,7 @@
       ],
       "assessmentPrompt": "If {{name}} finds a puzzle or activity really tricky, do they keep trying different ways rather than giving up straight away?",
       "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
@@ -11705,6 +11909,31 @@
       ]
     },
     {
+      "id": "mt_v5yDTWEiyQ",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Reflecting After Learning",
+      "description": "After completing a piece of learning, reflect on the process: what helped most, what was confusing, and what would you do differently next time?",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
+      "centrality": 0.05005107252298264,
+      "evidence": [
+        "After finishing a project or piece of learning, say what helped most and what was confusing, giving a specific example",
+        "Compare what they planned with what actually happened in the process (e.g. the order of making steps, how testing went or how the team worked) and explain one difference",
+        "Name one change to how they will work next time (the process, not just the finished product) and explain why it would help"
+      ],
+      "assessmentPrompt": "After finishing a school project like a model or a poster, can {{name}} talk about how the work went — what helped, what didn't go to plan — and say what they'd do differently next time, not just whether the result looks good?",
+      "standards": [
+        "acara-v9:AC9TDE6P04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C2.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.8",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D1.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D3.3"
+      ]
+    },
+    {
       "id": "mt_LE7nFEwS12",
       "type": "META",
       "subject": "Learning to Learn",
@@ -11720,6 +11949,26 @@
       ],
       "assessmentPrompt": "When {{name}} is about to learn something new — say a new topic in science or a new type of word problem — do they first think about what they already know?",
       "standards": []
+    },
+    {
+      "id": "mt_95zxYqpP7m",
+      "type": "META",
+      "subject": "Learning to Learn",
+      "domain": "Learning to Learn",
+      "name": "Trying a New Approach",
+      "description": "When your first approach isn't working, try a different one — being flexible about strategies is part of being a good learner",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 8,
+      "centrality": 0.08682328907048008,
+      "evidence": [
+        "When stuck on a problem, try a completely different approach rather than repeating the same method — e.g. drawing a picture instead of writing equations",
+        "Describe a time they changed strategy mid-task and explain why the new approach worked better",
+        "Accept that their first idea might not work and show willingness to start over with a fresh plan"
+      ],
+      "assessmentPrompt": "If {{name}} tries one way to solve a problem and it isn't working, do they try a different approach rather than just repeating the same thing?",
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1"
+      ]
     },
     {
       "id": "mt_32B7xjUPwF",
@@ -11772,24 +12021,6 @@
         "Summarise a lesson by pretending to teach it back, using examples they made up themselves"
       ],
       "assessmentPrompt": "After {{name}} learns something at school, can they explain it back to you in their own words — not just repeat what they were told?",
-      "standards": []
-    },
-    {
-      "id": "mt_95zxYqpP7m",
-      "type": "META",
-      "subject": "Learning to Learn",
-      "domain": "Learning to Learn",
-      "name": "Trying a New Approach",
-      "description": "When your first approach isn't working, try a different one — being flexible about strategies is part of being a good learner",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
-      "centrality": 0.08682328907048008,
-      "evidence": [
-        "When stuck on a problem, try a completely different approach rather than repeating the same method — e.g. drawing a picture instead of writing equations",
-        "Describe a time they changed strategy mid-task and explain why the new approach worked better",
-        "Accept that their first idea might not work and show willingness to start over with a fresh plan"
-      ],
-      "assessmentPrompt": "If {{name}} tries one way to solve a problem and it isn't working, do they try a different approach rather than just repeating the same thing?",
       "standards": []
     },
     {
@@ -11881,26 +12112,6 @@
       "standards": []
     },
     {
-      "id": "mt_v5yDTWEiyQ",
-      "type": "META",
-      "subject": "Learning to Learn",
-      "domain": "Learning to Learn",
-      "name": "Reflecting After Learning",
-      "description": "After completing a piece of learning, reflect on the process: what helped most, what was confusing, and what would you do differently next time?",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 12,
-      "centrality": 0.05005107252298264,
-      "evidence": [
-        "After finishing a project or piece of learning, say what helped most and what was confusing, giving a specific example",
-        "Compare what they planned with what actually happened in the process (e.g. the order of making steps, how testing went or how the team worked) and explain one difference",
-        "Name one change to how they will work next time (the process, not just the finished product) and explain why it would help"
-      ],
-      "assessmentPrompt": "After finishing a school project like a model or a poster, can {{name}} talk about how the work went — what helped, what didn't go to plan — and say what they'd do differently next time, not just whether the result looks good?",
-      "standards": [
-        "acara-v9:AC9TDE6P04"
-      ]
-    },
-    {
       "id": "mt_2uHYdoxD0H",
       "type": "META",
       "subject": "Learning to Learn",
@@ -11990,7 +12201,9 @@
         "Suggest a fair price for their product and give a reason"
       ],
       "assessmentPrompt": "If {{name}} made something at home — like friendship bracelets or decorated biscuits — could they explain why someone might want to buy them?",
-      "standards": []
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1"
+      ]
     },
     {
       "id": "mt_vpMDMbx4pc",
@@ -26309,7 +26522,9 @@
       "assessmentPrompt": "When {{name}} is frustrated — say a sibling takes their toy — do they use words to say how they feel rather than snatching it back or crying?",
       "standards": [
         "acara-v9:AC9HPFP03",
-        "ib-pyp-pspe:PSPE.INT.P1.LO.4"
+        "ib-pyp-pspe:PSPE.INT.P1.LO.4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-D2.3"
       ]
     },
     {
@@ -26353,6 +26568,8 @@
         "acara-v9:AC9HPFP03",
         "ib-pyp-pspe:PSPE-ID-LO-P1-5",
         "ib-pyp-pspe:PSPE-ID-LO-P1-6",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.4",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
@@ -26641,7 +26858,7 @@
       "description": "Notice and appreciate ways that people are similar to and different from each other — including appearance, family structures, languages spoken, foods eaten, and celebrations observed — and understand that differences make communities interesting",
       "ageRangeStart": 5,
       "ageRangeEnd": 7,
-      "centrality": 0.06843718079673136,
+      "centrality": 0.06945863125638406,
       "evidence": [
         "Name several ways people in their class or community are different from each other",
         "Describe at least one thing they have learned from someone who is different from them",
@@ -26653,7 +26870,10 @@
         "acara-v9:AC9HS1K01",
         "acara-v9:AC9HSFK02",
         "ib-pyp-pspe:PSPE-ID-CU-P1-5",
-        "ib-pyp-pspe:PSPE-ID-LO-P1-4"
+        "ib-pyp-pspe:PSPE-ID-LO-P1-4",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2"
       ]
     },
     {
@@ -26665,7 +26885,7 @@
       "description": "Know and use the key vocabulary for understanding others — empathy, perspective, kind, fair, community, similar, different, and care — and understand that these words describe real habits of thinking and feeling",
       "ageRangeStart": 5,
       "ageRangeEnd": 8,
-      "centrality": 0.09295199182839632,
+      "centrality": 0.09397344228804903,
       "evidence": [
         "Use the word 'empathy' correctly and distinguish it from 'sympathy' — e.g. 'Empathy means I try to feel what they feel'",
         "Explain what 'perspective' and 'point of view' mean and demonstrate by describing how two people might see the same event differently",
@@ -26673,6 +26893,52 @@
       ],
       "assessmentPrompt": "When {{name}} sees someone who seems sad or left out, can they describe what that person might be feeling using words like 'empathy' or 'perspective' — showing they're thinking about the other person, not just themselves?",
       "standards": []
+    },
+    {
+      "id": "mt_Lcqm4_wR4D",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Empathy & Social Awareness",
+      "name": "First Nations, Métis and Inuit peoples",
+      "description": "Recognise that First Nations, Métis and Inuit are three distinct groups of Indigenous peoples in Canada who live, work, create and carry on their cultures today, each with diverse communities: First Nations are many different Nations; the Métis are a distinct people and Nation with their own culture, history and communities — not simply anyone with mixed ancestry; Inuit are a distinct people with their own communities. A story or artwork by a First Nations, Métis or Inuit creator shows particular characters, experiences and perspectives; it cannot speak for every member of a people.",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "centrality": 0.002042900919305414,
+      "evidence": [
+        "Name First Nations, Métis and Inuit as three different Indigenous peoples in Canada and say that they live in cities, towns and communities today, not only long ago",
+        "Say that First Nations include many different Nations and that Métis and Inuit are each a distinct people — not all one group",
+        "After hearing a story by a First Nations, Métis or Inuit creator, say who made it using the information given with the book (e.g. “the author is Métis”) and that the story shows some characters’ experiences, not what every person of that people does"
+      ],
+      "assessmentPrompt": "After reading a picture book by a First Nations, Métis or Inuit author together, can {{name}} tell you that First Nations, Métis and Inuit are three different peoples living in Canada today — and that the story shows some characters’ experiences, not what every Indigenous person does?",
+      "standards": [
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.7",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C3.7"
+      ]
+    },
+    {
+      "id": "mt_9NQEiYLQA3",
+      "type": "PROCEDURAL",
+      "subject": "Personal & Social Development",
+      "domain": "Empathy & Social Awareness",
+      "name": "Seeing Someone Else's Point of View",
+      "description": "Practise perspective-taking by imagining how someone else might feel in a given situation — using prompts like 'How would you feel if that happened to you?' and applying this when reading stories or during real interactions",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 12,
+      "centrality": 0.04290091930541369,
+      "evidence": [
+        "Describe how a character in a story feels and give reasons based on the plot",
+        "Predict how another child would feel in a described scenario",
+        "Use perspective-taking during a real disagreement to understand the other person's view"
+      ],
+      "assessmentPrompt": "When reading a story together, can {{name}} pause and explain how a character might be feeling and why — putting themselves in the character's shoes?",
+      "standards": [
+        "acara-v9:AC9HP6P04",
+        "acara-v9:AC9HS2S04",
+        "ib-pyp-pspe:PSPE-ID-CU-P2-2",
+        "ib-pyp-pspe:PSPE-ID-LO-P2-8",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.6"
+      ]
     },
     {
       "id": "mt_S7UTAhptLi",
@@ -26713,29 +26979,6 @@
       "assessmentPrompt": "If a child with a broken arm gets extra time to finish a task at school, can {{name}} explain why that's fair even though other children don't get extra time?",
       "standards": [
         "ib-pyp-pspe:PSPE.INT.P2.CU.2"
-      ]
-    },
-    {
-      "id": "mt_9NQEiYLQA3",
-      "type": "PROCEDURAL",
-      "subject": "Personal & Social Development",
-      "domain": "Empathy & Social Awareness",
-      "name": "Seeing Someone Else's Point of View",
-      "description": "Practise perspective-taking by imagining how someone else might feel in a given situation — using prompts like 'How would you feel if that happened to you?' and applying this when reading stories or during real interactions",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 12,
-      "centrality": 0.04290091930541369,
-      "evidence": [
-        "Describe how a character in a story feels and give reasons based on the plot",
-        "Predict how another child would feel in a described scenario",
-        "Use perspective-taking during a real disagreement to understand the other person's view"
-      ],
-      "assessmentPrompt": "When reading a story together, can {{name}} pause and explain how a character might be feeling and why — putting themselves in the character's shoes?",
-      "standards": [
-        "acara-v9:AC9HP6P04",
-        "acara-v9:AC9HS2S04",
-        "ib-pyp-pspe:PSPE-ID-CU-P2-2",
-        "ib-pyp-pspe:PSPE-ID-LO-P2-8"
       ]
     },
     {
@@ -27052,7 +27295,8 @@
       "standards": [
         "acara-v9:AC9HP2P04",
         "acara-v9:AC9HP4P07",
-        "acara-v9:AC9HPFP04"
+        "acara-v9:AC9HPFP04",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.2"
       ]
     },
     {
@@ -27101,6 +27345,7 @@
         "acara-v9:AC9HP2P02",
         "acara-v9:AC9HPFP02",
         "ib-pyp-pspe:PSPE.INT.P1.LO.3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-B1.1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
@@ -27220,6 +27465,27 @@
       ]
     },
     {
+      "id": "mt_hkIbGmuH7D",
+      "type": "CONCEPTUAL",
+      "subject": "Personal & Social Development",
+      "domain": "Friendship & Cooperation",
+      "name": "When permission is needed",
+      "description": "Describe situations when permission is required — borrowing things, touching or hugging, entering private spaces, taking or sharing photos and personal information online — and who can give it",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 10,
+      "centrality": 0.009193054136874362,
+      "evidence": [
+        "Sort scenarios into 'needs permission' and 'doesn't' (e.g. borrowing a phone, posting a photo of a friend, hugging someone, opening a classmate's bag) and justify each choice",
+        "Explain why permission is needed before sharing someone else's photo or information online",
+        "Explain who can give permission in a situation (e.g. the owner of a possession, the person in a photo, a parent for a younger child)"
+      ],
+      "assessmentPrompt": "Does {{name}} know when they need to ask first — like before posting a photo of a friend or borrowing someone's phone?",
+      "standards": [
+        "acara-v9:AC9HP4P07",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.1"
+      ]
+    },
+    {
       "id": "mt_QxsoqVUt6u",
       "type": "PROCEDURAL",
       "subject": "Personal & Social Development",
@@ -27308,26 +27574,6 @@
         "acara-v9:AC9HP4P04",
         "ib-pyp-pspe:PSPE.INT.P4.CU.2",
         "ib-pyp-pspe:PSPE.INT.P4.LO.1"
-      ]
-    },
-    {
-      "id": "mt_hkIbGmuH7D",
-      "type": "CONCEPTUAL",
-      "subject": "Personal & Social Development",
-      "domain": "Friendship & Cooperation",
-      "name": "When permission is needed",
-      "description": "Describe situations when permission is required — borrowing things, touching or hugging, entering private spaces, taking or sharing photos and personal information online — and who can give it",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 10,
-      "centrality": 0.009193054136874362,
-      "evidence": [
-        "Sort scenarios into 'needs permission' and 'doesn't' (e.g. borrowing a phone, posting a photo of a friend, hugging someone, opening a classmate's bag) and justify each choice",
-        "Explain why permission is needed before sharing someone else's photo or information online",
-        "Explain who can give permission in a situation (e.g. the owner of a possession, the person in a photo, a parent for a younger child)"
-      ],
-      "assessmentPrompt": "Does {{name}} know when they need to ask first — like before posting a photo of a friend or borrowing someone's phone?",
-      "standards": [
-        "acara-v9:AC9HP4P07"
       ]
     },
     {
@@ -27508,7 +27754,7 @@
       "name": "Health and safety signs",
       "description": "Identify health and safety symbols, signs and messages in their community and what they tell people to do (e.g. poison and hazard symbols, hand-washing signs, sun-safe and 'no swimming' signs, the first aid cross)",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.008171603677221655,
       "evidence": [
         "Point to a poison or hazard symbol on a household product and say 'don't touch — tell an adult'",
@@ -27517,7 +27763,8 @@
       ],
       "assessmentPrompt": "When {{name}} sees a poison symbol on a bottle or a hand-washing sign, do they know what it means and what to do?",
       "standards": [
-        "acara-v9:AC9HPFP06"
+        "acara-v9:AC9HPFP06",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-C1.3"
       ]
     },
     {
@@ -27642,7 +27889,10 @@
         "acara-v9:AC9TDI2P05",
         "acara-v9:AC9TDI4P07",
         "acara-v9:AC9TDI4P09",
-        "ib-pyp-pspe:PSPE.INT.P2.CU.5"
+        "ib-pyp-pspe:PSPE.INT.P2.CU.5",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.1",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.7"
       ]
     },
     {
@@ -28118,7 +28368,7 @@
       "name": "All about me",
       "description": "Investigate who they are — their likes, strengths, family background and what makes them special — and the important people in their world (family, carers, friends, teachers, community helpers)",
       "ageRangeStart": 5,
-      "ageRangeEnd": 6,
+      "ageRangeEnd": 7,
       "centrality": 0.005107252298263534,
       "evidence": [
         "Make an 'All about me' page showing their name, likes, favourite things and something they are good at",
@@ -28127,7 +28377,8 @@
       ],
       "assessmentPrompt": "Can {{name}} tell you about themselves — what they like and are good at — and name the important people in their life and what each one does for them?",
       "standards": [
-        "acara-v9:AC9HPFP01"
+        "acara-v9:AC9HPFP01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2"
       ]
     },
     {
@@ -28202,7 +28453,8 @@
       "assessmentPrompt": "Can {{name}} describe what kind of person they are — kind, brave, curious — with an example, and say what they admire in someone else?",
       "standards": [
         "acara-v9:AC9HP2P01",
-        "acara-v9:AC9HP4P01"
+        "acara-v9:AC9HP4P01",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A3.2"
       ]
     },
     {
@@ -28460,6 +28712,7 @@
         "acara-v9:AC9HP4P01",
         "ib-pyp-pspe:PSPE-ID-CU-P2-4",
         "ib-pyp-pspe:PSPE-ID-LO-P2-12",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A1.2",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G1-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G2-A1",
         "the-ontario-curriculum-mathematics-2020:ON-MATH-2020-G3-A1",
@@ -36380,7 +36633,8 @@
         "acara-v9:AC9TDE2P03",
         "acara-v9:AC9TDE4P01",
         "acara-v9:AC9TDE6P01",
-        "ngss-k5:K-2-ETS1-3"
+        "ngss-k5:K-2-ETS1-3",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.6"
       ]
     },
     {
@@ -36404,7 +36658,8 @@
         "acara-v9:AC9TDE4P02",
         "acara-v9:AC9TDEFP01",
         "acara-v9:AC9TDI4P03",
-        "ngss-k5:K-2-ETS1-2"
+        "ngss-k5:K-2-ETS1-2",
+        "the-ontario-curriculum-language-2023:ON-LANG-2023-G1-A2.6"
       ]
     },
     {
