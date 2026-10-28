@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3941,
+  "edgeCount": 3967,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -420,8 +420,14 @@
     {
       "topicId": "mt_14T5yPXUq_",
       "prerequisiteId": "mt_b7T-CjOYUR",
+      "strength": "soft",
+      "reason": "simplifying every sum to lowest terms is optional; the needed common-denominator step is covered by 14T5→FHIA (common multiples) and the kept hard equivalent-fraction route via -V7E→ebPe"
+    },
+    {
+      "topicId": "mt_14T5yPXUq_",
+      "prerequisiteId": "mt_FHIAv6dfhU",
       "strength": "hard",
-      "reason": "Finding common denominators requires simplification/common multiples skills"
+      "reason": "expressing fractions over a common denominator uses common multiples"
     },
     {
       "topicId": "mt_14T5yPXUq_",
@@ -1396,6 +1402,30 @@
       "reason": "'Doing, thinking and saying verbs' builds on 'Basic Nouns & Verbs'"
     },
     {
+      "topicId": "mt_3BDMrubDH8",
+      "prerequisiteId": "mt_bAy4dmP1-A",
+      "strength": "soft",
+      "reason": "credit as borrowing that is repaid explains one possible disadvantage"
+    },
+    {
+      "topicId": "mt_3BDMrubDH8",
+      "prerequisiteId": "mt_K8_RYIvrTV",
+      "strength": "hard",
+      "reason": "knowing the different ways to pay (and that digital payments spend real money) is needed before comparing them"
+    },
+    {
+      "topicId": "mt_3BDMrubDH8",
+      "prerequisiteId": "mt_uSUqTjOl8m",
+      "strength": "soft",
+      "reason": "bank accounts underlie debit and card payments"
+    },
+    {
+      "topicId": "mt_3BDMrubDH8",
+      "prerequisiteId": "mt_W5euSyU2sO",
+      "strength": "soft",
+      "reason": "scam and fraud awareness informs the security criterion"
+    },
+    {
       "topicId": "mt_3duNkf6Qmr",
       "prerequisiteId": "mt_4uPnLieBPN",
       "strength": "hard",
@@ -1600,6 +1630,36 @@
       "reason": "Angle definition builds on classifying acute/obtuse angles"
     },
     {
+      "topicId": "mt_3sE6fcAvkl",
+      "prerequisiteId": "mt_hRZyKvz1KN",
+      "strength": "soft",
+      "reason": "lines of symmetry are a companion property and often lie along diagonals"
+    },
+    {
+      "topicId": "mt_3sE6fcAvkl",
+      "prerequisiteId": "mt_liIW336odh",
+      "strength": "soft",
+      "reason": "classifying by properties uses the diagonal results"
+    },
+    {
+      "topicId": "mt_3sE6fcAvkl",
+      "prerequisiteId": "mt_NM5I3yN-Q6",
+      "strength": "soft",
+      "reason": "rotational symmetry is a companion property in the lists"
+    },
+    {
+      "topicId": "mt_3sE6fcAvkl",
+      "prerequisiteId": "mt_QysgF57dxh",
+      "strength": "hard",
+      "reason": "deciding whether diagonals meet at right angles needs perpendicular lines and right angles"
+    },
+    {
+      "topicId": "mt_3sE6fcAvkl",
+      "prerequisiteId": "mt_Xt1cRqaBOW",
+      "strength": "soft",
+      "reason": "quadrilateral subcategories help organise the results; the full hierarchy is not needed to observe diagonals"
+    },
+    {
       "topicId": "mt_3tPI0HqqcN",
       "prerequisiteId": "mt_p6MhZJYYPN",
       "strength": "hard",
@@ -1730,6 +1790,36 @@
       "prerequisiteId": "mt_pWwV_8OgXD",
       "strength": "hard",
       "reason": "Rigorous evaluation of conservation approaches depends on conservation approaches overview"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "prerequisiteId": "mt_FHIAv6dfhU",
+      "strength": "hard",
+      "reason": "divisibility means \"is a multiple of / has as a factor\": factor and multiple meaning is the real basis of every rule"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "prerequisiteId": "mt_JwP9QFv6gQ",
+      "strength": "soft",
+      "reason": "reading larger numbers (to one million) is optional context for applying the rules to bigger numbers"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "prerequisiteId": "mt_jY7uf0Cb7o",
+      "strength": "hard",
+      "reason": "the rules and their explanations read digits by place value — the value of each digit and partitioning into thousands, hundreds, tens and ones (e.g. 3 472 = 3 000 + 400 + 70 + 2)"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "prerequisiteId": "mt_oxfxzbat3k",
+      "strength": "soft",
+      "reason": "even numbers end in an even digit — the divisibility-by-2 case"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "prerequisiteId": "mt_w6MxaaoMXZ",
+      "strength": "soft",
+      "reason": "multiples of 5 end in 0 or 5 — the last-digit idea for 5 and 10"
     },
     {
       "topicId": "mt_4A4RpX-Go9",
@@ -5670,14 +5760,20 @@
     {
       "topicId": "mt__casygEB85",
       "prerequisiteId": "mt_5NwqN6pf_A",
-      "strength": "hard",
-      "reason": "Rounding to any place extends Y5 rounding"
+      "strength": "soft",
+      "reason": "rounding decimals to a tenth or hundredth does not need rounding whole numbers to the nearest 10 000/100 000; that is the same procedure at larger places"
     },
     {
       "topicId": "mt__casygEB85",
       "prerequisiteId": "mt_Ac7oMWhyPw",
       "strength": "hard",
       "reason": "Rounding decimals requires reading/writing decimals to thousandths"
+    },
+    {
+      "topicId": "mt__casygEB85",
+      "prerequisiteId": "mt_NLSfvB9vUl",
+      "strength": "hard",
+      "reason": "rounding to a place uses the rounding procedure learned for 10, 100 and 1 000 (same procedure, earlier)"
     },
     {
       "topicId": "mt_cB7hV8sw7X",
@@ -6794,6 +6890,12 @@
       "prerequisiteId": "mt_WBfj79OqXz",
       "strength": "hard",
       "reason": "Need to form letters before grouping into families"
+    },
+    {
+      "topicId": "mt_DNYQLahbfa",
+      "prerequisiteId": "mt_3sE6fcAvkl",
+      "strength": "soft",
+      "reason": "the KS3 property-derivation bundle (incl. diagonals) builds on the focused diagonal investigation (focused extraction; DNYQ kept whole, soft back-reference only)"
     },
     {
       "topicId": "mt_DNYQLahbfa",
@@ -11558,6 +11660,30 @@
       "prerequisiteId": "mt_Wyd-l-6H7G",
       "strength": "hard",
       "reason": "KS3 species distribution and climate change extends KS2 understanding that environmental change can threaten living things"
+    },
+    {
+      "topicId": "mt_jsXoDOyiSv",
+      "prerequisiteId": "mt_Mnodea7mG_",
+      "strength": "soft",
+      "reason": "faces and edges help describe what each view shows"
+    },
+    {
+      "topicId": "mt_jsXoDOyiSv",
+      "prerequisiteId": "mt_QNxFnxikCN",
+      "strength": "hard",
+      "reason": "composing 3-D structures from cubes or other solids is the building action itself"
+    },
+    {
+      "topicId": "mt_jsXoDOyiSv",
+      "prerequisiteId": "mt_r8bOJtofM7",
+      "strength": "hard",
+      "reason": "knowing what the top, front and side views of a model show (and that views can fit several objects) is needed to build to them"
+    },
+    {
+      "topicId": "mt_jsXoDOyiSv",
+      "prerequisiteId": "mt_vJUa62bxeR",
+      "strength": "soft",
+      "reason": "making 3-D shapes from modelling materials helps; its 2-D drawing/orientation facets are not required"
     },
     {
       "topicId": "mt_JTuhd-cPiV",
@@ -19440,8 +19566,8 @@
     {
       "topicId": "mt_uDJY0X0hgo",
       "prerequisiteId": "mt_9QzSnn8m80",
-      "strength": "hard",
-      "reason": "Ordering all number types (integers, decimals, fractions) on a number line extends the negative-number number-line representation"
+      "strength": "soft",
+      "reason": "ordering integers, decimals and fractions needs negatives placed on one number line (kept hard via Psyl and RVK6), not adding or subtracting integers"
     },
     {
       "topicId": "mt_uDJY0X0hgo",
@@ -19898,6 +20024,36 @@
       "prerequisiteId": "mt_4-vfMgmCVB",
       "strength": "hard",
       "reason": "Linking across paragraphs builds on within-paragraph cohesion; learners must achieve cohesion within paragraphs before linking between them"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "prerequisiteId": "mt_bAy4dmP1-A",
+      "strength": "hard",
+      "reason": "loans and credit are repaid with interest — the charged side of a rate"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "prerequisiteId": "mt_iEXqN48w3x",
+      "strength": "soft",
+      "reason": "simple-interest calculation is a later optional extension, not required to explain a rate"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "prerequisiteId": "mt_K8_RYIvrTV",
+      "strength": "soft",
+      "reason": "payment and account context"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "prerequisiteId": "mt_uSUqTjOl8m",
+      "strength": "hard",
+      "reason": "savings in a bank can earn interest — the earned side of a rate"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "prerequisiteId": "mt_ZM9mhHsyYZ",
+      "strength": "hard",
+      "reason": "a rate is a percent: per cent as parts per hundred is the real basis"
     },
     {
       "topicId": "mt_uycuqPaiJ1",

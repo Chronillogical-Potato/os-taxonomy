@@ -1,0 +1,977 @@
+{
+  "scope": "Ontario Mathematics 2020 Grade 6; 51 specific and 12 overall retained expectations. Full is a contextual authoring judgment, not whole-topic learner certification or permission to assess/report SEL. Source text and full clause evidence remain private; public data uses codes and official links.",
+  "newTopics": [
+    {
+      "topicId": "mt_jsXoDOyiSv",
+      "name": "Building objects from views",
+      "reason": "inverse spatial-construction procedure gap"
+    },
+    {
+      "topicId": "mt_3BDMrubDH8",
+      "name": "Comparing ways to pay",
+      "reason": "financial-content gap"
+    },
+    {
+      "topicId": "mt_48Bjqr7j04",
+      "name": "Divisibility rules",
+      "reason": "explicit mathematical procedure gap"
+    },
+    {
+      "topicId": "mt_UXMNnis3v3",
+      "name": "Interest rates and bank fees",
+      "reason": "financial-content gap"
+    },
+    {
+      "topicId": "mt_3sE6fcAvkl",
+      "name": "Diagonals of quadrilaterals",
+      "reason": "focused assessment extracted from broader existing geometry"
+    }
+  ],
+  "counts": {
+    "grade6TopicCodePairs": 244,
+    "distinctTopics": 178,
+    "existingTopicsReused": 173,
+    "newTopics": 5,
+    "directlyLinkedCodes": 53,
+    "topics": 1850,
+    "dependencies": 3967
+  },
+  "rows": [
+    {
+      "externalId": "ON-MATH-2020-G6-A1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_20WfHhnL39",
+        "mt_35-DhMh_Yr",
+        "mt_8dstvf-KKb",
+        "mt_EBYGhd8X3x",
+        "mt_IM1G_7QzTa",
+        "mt_Iwg2diBSyW",
+        "mt_LhkP_KKIRS",
+        "mt_QxsoqVUt6u",
+        "mt_S4G6GLKr1-",
+        "mt_TMoHjMhRS2",
+        "mt_UGf6jICEhs",
+        "mt_WkKkb7W9Qd",
+        "mt_YbX3LD0Eca",
+        "mt_f67qGDhyfi",
+        "mt_j8Pv3s7TZR",
+        "mt_kJ5wYzO8qC",
+        "mt_pAuo9Op89t"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "mappingUse": "Learning-support/process association; the official Ontario SEL assessment/reporting note applies."
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-B1.1",
+        "ON-MATH-2020-G6-B1.2",
+        "ON-MATH-2020-G6-B1.3",
+        "ON-MATH-2020-G6-B1.4",
+        "ON-MATH-2020-G6-B1.5",
+        "ON-MATH-2020-G6-B1.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Gag_h98jWP",
+        "mt_JwP9QFv6gQ",
+        "mt_x8TshvbbQT"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1KkvzwYxbR",
+        "mt_PsylzZ9lHW",
+        "mt_RVK655t391",
+        "mt_vXRzMbiPff"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4K1dr204Hi",
+        "mt_933BohS9BH",
+        "mt_PL9VkDwXfh",
+        "mt_PsylzZ9lHW",
+        "mt_uDJY0X0hgo"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_933BohS9BH",
+        "mt_Ac7oMWhyPw",
+        "mt_kdWoAel3Zl",
+        "mt_lNGpnILM5C"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Ii1hV4V5ql",
+        "mt__casygEB85"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4K1dr204Hi",
+        "mt_4Km38F4L-6",
+        "mt_Ac7oMWhyPw",
+        "mt_NaqEP8xDhZ",
+        "mt_TqDq6jyOmL",
+        "mt_W17Kbwm0-u",
+        "mt_kdWoAel3Zl"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-B2.1",
+        "ON-MATH-2020-G6-B2.2",
+        "ON-MATH-2020-G6-B2.3",
+        "ON-MATH-2020-G6-B2.4",
+        "ON-MATH-2020-G6-B2.5",
+        "ON-MATH-2020-G6-B2.6",
+        "ON-MATH-2020-G6-B2.7",
+        "ON-MATH-2020-G6-B2.8",
+        "ON-MATH-2020-G6-B2.9",
+        "ON-MATH-2020-G6-B2.10",
+        "ON-MATH-2020-G6-B2.11",
+        "ON-MATH-2020-G6-B2.12"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AR-K72OIIO",
+        "mt_GDG9_SZmsO",
+        "mt_JH_6RpNWjr",
+        "mt_Lb2ZnMdkYR",
+        "mt_PNSyfH56eQ",
+        "mt_QCgbiVrwnp",
+        "mt_QaYfeVL-0C",
+        "mt_Qe2PsFmSAH",
+        "mt_anAe11HAEH",
+        "mt_e7filQgayF",
+        "mt_ehGS_uVSJv",
+        "mt_h0gJcSuwdL",
+        "mt_p-nbe0w_lf"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_48Bjqr7j04",
+        "mt_oxfxzbat3k",
+        "mt_w6MxaaoMXZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4ubP_RMg9o",
+        "mt_LlMl2PbaZe",
+        "mt_PNSyfH56eQ",
+        "mt_ZM9mhHsyYZ",
+        "mt_kJ5wYzO8qC"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_JH_6RpNWjr",
+        "mt_QaYfeVL-0C",
+        "mt_Yw1_4Nfsql",
+        "mt_yTWxkzzoOZ"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-V7EnqU7gG",
+        "mt_14T5yPXUq_",
+        "mt_CBHwluE6Lp",
+        "mt_VgOePicFYK",
+        "mt_e7filQgayF"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_FHIAv6dfhU",
+        "mt_nZkL5-XjRX",
+        "mt_y1XCVsIelg"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.7",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Lb2ZnMdkYR",
+        "mt_SoDP1fSQEB",
+        "mt_XLP1IM3Qbb"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.8",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_SoDP1fSQEB",
+        "mt_TqDq6jyOmL",
+        "mt_WsM4EmdOLe",
+        "mt_iNdrM2-oJf",
+        "mt_wPgpMJ0-PA"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.9",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HJA2Oz-Zh1",
+        "mt_TgHxujL81r"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.10",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1PAWhRhpdg",
+        "mt_TgHxujL81r",
+        "mt_WsM4EmdOLe"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.11",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_kdWoAel3Zl",
+        "mt_lU-2aTRB9f"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-B2.12",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-B2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4ubP_RMg9o",
+        "mt_EmR5n58jZt",
+        "mt_PNSyfH56eQ",
+        "mt_Qe2PsFmSAH",
+        "mt_ePXg_XyCKU",
+        "mt_h0gJcSuwdL"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-C1.1",
+        "ON-MATH-2020-G6-C1.2",
+        "ON-MATH-2020-G6-C1.3",
+        "ON-MATH-2020-G6-C1.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_yXO7lQ9Yn7"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cqm8iy48UI",
+        "mt_HRKzwEQJgO",
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_i5_HnoFOYw",
+        "mt_yXO7lQ9Yn7"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HRKzwEQJgO",
+        "mt_W3VOAuFwVw",
+        "mt_ZjIFGc6zPW",
+        "mt_anAe11HAEH",
+        "mt_fZTn0W_iZR"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HLUqHJ9Y7n",
+        "mt_TqDq6jyOmL",
+        "mt_W3VOAuFwVw",
+        "mt_YzM5goBctT",
+        "mt_doX1BhmFgk",
+        "mt_hBZwbst0ow",
+        "mt_kDMKJ5Ztt6"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-C2.1",
+        "ON-MATH-2020-G6-C2.2",
+        "ON-MATH-2020-G6-C2.3",
+        "ON-MATH-2020-G6-C2.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AQo4u7O4sM",
+        "mt_AR-K72OIIO",
+        "mt_wh3UqnWsa7"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4WaKWECpcv",
+        "mt_8jFSnXxqQD",
+        "mt_JH_6RpNWjr",
+        "mt_Jvg8X0N5u0",
+        "mt_SoDP1fSQEB",
+        "mt_jHgRQ4hR0g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_AR-K72OIIO",
+        "mt_anAe11HAEH",
+        "mt_oIzycTBeE4"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_MHaiUd2FLA",
+        "mt_i2F1nWxJjv"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C3",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-C3.1",
+        "ON-MATH-2020-G6-C3.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C3.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_6XbAmdmjDb",
+        "mt_JTuhd-cPiV",
+        "mt_XXpEz9tyu6",
+        "mt_nfGAtwqSvP",
+        "mt_sPV503BQnI"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C3.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-C3",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_5UtPmgdoQ9",
+        "mt_6XbAmdmjDb",
+        "mt_JTuhd-cPiV",
+        "mt_XXpEz9tyu6",
+        "mt_nfGAtwqSvP"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-C4",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_IM1G_7QzTa",
+        "mt_WkKkb7W9Qd",
+        "mt_f67qGDhyfi",
+        "mt_fLOkq-HfPB",
+        "mt_iQYPw8bMfN"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-D1.1",
+        "ON-MATH-2020-G6-D1.2",
+        "ON-MATH-2020-G6-D1.3",
+        "ON-MATH-2020-G6-D1.4",
+        "ON-MATH-2020-G6-D1.5",
+        "ON-MATH-2020-G6-D1.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ChjMU2GDJa",
+        "mt_HlNSurPVDp"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4zgPzc6yu5",
+        "mt_ChjMU2GDJa",
+        "mt_ebQURBOsM5",
+        "mt_iykH2P5oFq",
+        "mt_oderfUBZPw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ChjMU2GDJa",
+        "mt_HlNSurPVDp",
+        "mt_QpJydot2Kh",
+        "mt_TiFjjvBMaY",
+        "mt_c29FaCTNsx",
+        "mt_oderfUBZPw",
+        "mt_r8XnXwRA6g"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_HlNSurPVDp",
+        "mt_QpJydot2Kh",
+        "mt_ebQURBOsM5",
+        "mt_kxeuXm6EyC",
+        "mt_oderfUBZPw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Cg8VPguS_V",
+        "mt_XSXnTQoQ4l",
+        "mt_gTI7MuS-y8",
+        "mt_qwFJvRRucu",
+        "mt_ryyJWULiP5"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D1.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_1VSfm9yiLn",
+        "mt_6gpryAnpoZ",
+        "mt_8IsaoMPvod",
+        "mt_H6LlpWgEYS",
+        "mt_HlNSurPVDp",
+        "mt_OwYms2tB1L",
+        "mt_gTI7MuS-y8",
+        "mt_kxeuXm6EyC",
+        "mt_oderfUBZPw"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-D2.1",
+        "ON-MATH-2020-G6-D2.2"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-c4Ca_nBzX",
+        "mt_4K1dr204Hi",
+        "mt_J4j7d3iAfg",
+        "mt_UcGn2hjhYU",
+        "mt_W17Kbwm0-u",
+        "mt_t0g2SlP404"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-D2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-D2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_-bMnJcPJy8",
+        "mt_Zt30Gxi-qp",
+        "mt_dlg6i-Lw0I",
+        "mt_gu0NPDvlhY",
+        "mt_sHJqh6UUya"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-E1.1",
+        "ON-MATH-2020-G6-E1.2",
+        "ON-MATH-2020-G6-E1.3",
+        "ON-MATH-2020-G6-E1.4"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_3sE6fcAvkl",
+        "mt_8H2kO4k2B9",
+        "mt_NM5I3yN-Q6",
+        "mt_QysgF57dxh",
+        "mt_Xt1cRqaBOW",
+        "mt_hRZyKvz1KN",
+        "mt_liIW336odh"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_jsXoDOyiSv"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_R4AY0LKxfl",
+        "mt_Uq5vYqboCR",
+        "mt_hVpGOEz2kG",
+        "mt_lxaM6iVpdr"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_61Nhj8W78f",
+        "mt_SH7QgFl8-v",
+        "mt_efOeaGFyGM",
+        "mt_lxaM6iVpdr",
+        "mt_oqziWKry-L"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-E2.1",
+        "ON-MATH-2020-G6-E2.2",
+        "ON-MATH-2020-G6-E2.3",
+        "ON-MATH-2020-G6-E2.4",
+        "ON-MATH-2020-G6-E2.5",
+        "ON-MATH-2020-G6-E2.6"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_DOe893F6gN",
+        "mt_Zks8xyInSG",
+        "mt_d8al9JcajP",
+        "mt_eiB3-6pu6a",
+        "mt_y1n0Zwhoca"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_4MFUAsbx_6",
+        "mt_LBT-9jz7kR",
+        "mt_TdV9YGJEoY",
+        "mt_oqziWKry-L",
+        "mt_qUGMyMYn9m"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_89riIKwGYp",
+        "mt_QDTO3GAgcq",
+        "mt_cdMlC7EpTJ",
+        "mt_oqziWKry-L"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ML5t7n2-U8",
+        "mt_i2-QaXbyzB"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_Mnodea7mG_",
+        "mt_i2-QaXbyzB",
+        "mt_tegkuJA5gM"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-E2.6",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-E2",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_ML5t7n2-U8",
+        "mt_Mnodea7mG_",
+        "mt_i2-QaXbyzB",
+        "mt_tegkuJA5gM"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1",
+      "expectationType": "overall",
+      "parentExternalId": null,
+      "coverageJudgment": "Full",
+      "directLink": false,
+      "topicIds": [],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math",
+      "rollupChildCodes": [
+        "ON-MATH-2020-G6-F1.1",
+        "ON-MATH-2020-G6-F1.2",
+        "ON-MATH-2020-G6-F1.3",
+        "ON-MATH-2020-G6-F1.4",
+        "ON-MATH-2020-G6-F1.5"
+      ]
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1.1",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_3BDMrubDH8"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1.2",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_r1hw-KenpK",
+        "mt_uP9faJlnRq",
+        "mt_zrCyqhngYm"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1.3",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_My0OL6fhGL",
+        "mt_Qzbh-_v0Gq",
+        "mt__ab4knIaSL",
+        "mt_bAy4dmP1-A",
+        "mt_r1hw-KenpK",
+        "mt_uP9faJlnRq"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1.4",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_UXMNnis3v3"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    },
+    {
+      "externalId": "ON-MATH-2020-G6-F1.5",
+      "expectationType": "specific",
+      "parentExternalId": "ON-MATH-2020-G6-F1",
+      "coverageJudgment": "Full",
+      "directLink": true,
+      "topicIds": [
+        "mt_0Rx1ISxXFE",
+        "mt_bAy4dmP1-A",
+        "mt_tF6XuKIq8_"
+      ],
+      "officialSourceUrl": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g6-math"
+    }
+  ]
+}
