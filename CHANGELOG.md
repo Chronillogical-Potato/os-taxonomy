@@ -6,6 +6,8 @@ Dataset releases are versioned independently of the taxonomy `version` field
 
 ## [Unreleased]
 
+- Map Ontario Grade 7 Mathematics after auditing 52 specific and 12 overall expectations: 252 pairs on 171 existing topics and two spatial additions (solid symmetry and perspective drawing). Reuse existing square roots, repair two prerequisite gates and preserve old content, pairs, learner state and research. Refresh the verified staging export (1,852 topics / 3,979 edges); publish the [code-by-code report](reports/ontario-grade7-mathematics-2026-10-27.md).
+
 - Map Ontario Grade 6 Mathematics after auditing 51 specific and 12 overall expectations: 244 pairs on 173 existing topics and five additions (two procedures, one focused extraction, two financial-content claims). Preserve all old topic bodies, pairs, learner records and research; repair three prerequisite gates. Refresh the verified staging export (1,850 topics / 3,967 edges); publish the [code-by-code report](reports/ontario-grade6-mathematics-2026-10-27.md).
 
 - Map Ontario Grade 5 Mathematics after auditing 51 specific and 12 overall expectations: 190 pairs on 145 existing topics and three additions (stacked bars, tax categories/collectors, focused orthographic views). Preserve every old mastery body, curriculum pair, learner record and research record; repair unnecessary prerequisites. Refresh the verified staging export (1,845 topics / 3,941 edges); publish the [code-by-code report](reports/ontario-grade5-mathematics-2026-10-24.md).
