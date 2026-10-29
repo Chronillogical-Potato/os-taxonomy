@@ -115,7 +115,7 @@ subject trees.
 
 [`data/teaching-research.json`](data/teaching-research.json) adds **how a topic
 might be taught** to the graph of what children learn. It contains **1,049 active topic records**. `coverage.missingTopicIds` and per-subject counts
-make the **803 topics without research** explicit; absence is not a judgement
+make the **806 topics without research** explicit; absence is not a judgement
 about whether a topic can be taught.
 
 [`archived-teaching-research.json`](data/archived-teaching-research.json) preserves two historical records excluded from active coverage after a topic merge and a change in learning scope. Each entry includes the original topic and research record, its archive reason, and related current topic IDs. The archive also records the assessment prerequisite reference redirected after the merge.
