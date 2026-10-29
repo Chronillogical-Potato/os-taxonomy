@@ -1,7 +1,7 @@
 {
   "version": "v1",
   "note": "`topicId` depends on `prerequisiteId` (the prerequisite). Directed edges of a DAG.",
-  "edgeCount": 3984,
+  "edgeCount": 3986,
   "dependencies": [
     {
       "topicId": "mt__00ZSLnB7p",
@@ -3938,6 +3938,12 @@
       "prerequisiteId": "mt_F978c32kDr",
       "strength": "hard",
       "reason": "Must know single letter sounds before r-controlled vowels"
+    },
+    {
+      "topicId": "mt_A8pSrj0E-D",
+      "prerequisiteId": "mt_fL1Xz8ostr",
+      "strength": "soft",
+      "reason": "Noticing expressive and sensory phrases helps a child explain the picture a simile creates; optional — a child can explain that “ran like the wind” shows speed without having practised spotting recurring story language or choosing favourite phrases"
     },
     {
       "topicId": "mt_a9VnPBhoYs",
@@ -9782,6 +9788,12 @@
       "prerequisiteId": "mt_zuKAX6lcYR",
       "strength": "hard",
       "reason": "Subtracting multiples of 10 requires understanding subtraction"
+    },
+    {
+      "topicId": "mt_hJW7hVflm3",
+      "prerequisiteId": "mt_A8pSrj0E-D",
+      "strength": "hard",
+      "reason": "The combined Similes & Metaphors goal includes identifying similes and explaining the shared quality and imagery (its evidence 1); the focused simile claim is that component and must be held first"
     },
     {
       "topicId": "mt_hJW7hVflm3",
